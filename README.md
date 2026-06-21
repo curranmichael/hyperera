@@ -8,3 +8,42 @@ by providing analogies across time that shed light on the present.
 
 If [analogy is the core of cognition](https://worrydream.com/refs/Hofstadter_2001_-_Analogy_as_the_Core_of_Cognition.pdf), 
 historical analogies can help us understand and contextualize what's going on today.
+
+## How it works
+
+Hyper-era scans the RSS feeds of various publications, composes an overview of each
+news item, and then surfaces analogies that shed light on it. Every story is paired
+with six analogies across three categories — two each:
+
+- **Historical** — precedents from the historical record
+- **Literary** — passages and narratives whose themes illuminate the moment
+- **Musical / artistic** — works of music or visual art that resonate with the event
+
+Analogies are presented as cards, one per card, each with a content excerpt and a link
+to the original source. UI inspiration: the [hyper-era are.na channel](https://are.na/curran-dwyer/hyperera).
+
+## Tech stack
+
+- [Next.js](https://nextjs.org/) (App Router, TypeScript) — deployed on [Vercel](https://vercel.com/)
+- [Radix Themes](https://www.radix-ui.com/themes/docs/overview/getting-started) — UI components
+- [Anthropic API](https://docs.anthropic.com/) — composing overviews and surfacing analogies
+
+## Development
+
+```bash
+npm install      # install dependencies
+npm run dev      # start the dev server at http://localhost:3000
+npm run build    # production build
+npm run lint     # lint
+```
+
+## Deploying to Vercel
+
+This is a standard Next.js app; Vercel auto-detects the framework. To deploy:
+
+1. Push this branch to GitHub.
+2. In the [Vercel dashboard](https://vercel.com/new), import the `hyperera` repository.
+3. Accept the detected Next.js settings and deploy. No special configuration is required.
+
+Later stages will add an `ANTHROPIC_API_KEY` environment variable (and a database
+connection string) in the Vercel project settings.
