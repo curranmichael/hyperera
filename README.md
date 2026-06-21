@@ -11,16 +11,23 @@ historical analogies can help us understand and contextualize what's going on to
 
 ## How it works
 
-Hyper-era scans the RSS feeds of various publications, composes an overview of each
-news item, and then surfaces analogies that shed light on it. Every story is paired
-with six analogies across three categories — two each:
+Hyper-era scans the RSS feeds of various publications, clusters the articles that report
+the same event into one story, composes a sober overview, and then surfaces analogies
+that shed light on it. Every event is paired with six analogies across three categories
+— two each:
 
 - **Historical** — precedents from the historical record
-- **Literary** — passages and narratives whose themes illuminate the moment
+- **Literary** — passages and narratives whose themes illuminate the moment (speculative
+  and science fiction welcome — this is how the *future* enters, through real works rather
+  than punditry)
 - **Musical / artistic** — works of music or visual art that resonate with the event
 
-Analogies are presented as cards, one per card, each with a content excerpt and a link
-to the original source. UI inspiration: the [hyper-era are.na channel](https://are.na/curran-dwyer/hyperera).
+Trust is the whole point: every analogy's link and excerpt is verified before anyone sees
+it, and a human editor reviews the day's drafts before they publish. Analogies are presented
+as cards, one per card, each with a content excerpt and a link to the original source.
+UI inspiration: the [hyper-era are.na channel](https://are.na/curran-dwyer/hyperera).
+
+See [`ARCHITECTURE.md`](./ARCHITECTURE.md) for the technical design and build stages.
 
 ## Tech stack
 
