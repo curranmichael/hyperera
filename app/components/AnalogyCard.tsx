@@ -1,3 +1,4 @@
+import NextLink from "next/link";
 import { Badge, Box, Card, Flex, Heading, Text } from "@radix-ui/themes";
 import { categoryMeta, type Analogy } from "@/lib/stories";
 
@@ -7,7 +8,7 @@ export function AnalogyCard({ analogy }: { analogy: Analogy }) {
   const meta = categoryMeta[analogy.category];
   return (
     <Card size="2" asChild>
-      <a href={analogy.href} target="_blank" rel="noreferrer">
+      <NextLink href={analogy.href} target="_blank" rel="noreferrer">
         <Flex direction="column" gap="2" height="100%">
           <Badge color={meta.color} variant="soft" size="1">
             {meta.label}
@@ -23,7 +24,7 @@ export function AnalogyCard({ analogy }: { analogy: Analogy }) {
             {analogy.source} →
           </Text>
         </Flex>
-      </a>
+      </NextLink>
     </Card>
   );
 }

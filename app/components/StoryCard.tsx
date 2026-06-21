@@ -1,6 +1,6 @@
 import NextLink from "next/link";
 import { Box, Card, Flex, Heading, Text } from "@radix-ui/themes";
-import { categoryMeta, categoryOrder, type Story } from "@/lib/stories";
+import { type Story } from "@/lib/stories";
 
 // A single cell in the home grid. The whole card is a link into the story.
 // `featured` renders the lead story larger; the page decides which cell spans.
@@ -31,20 +31,9 @@ export function StoryCard({
             {story.overview}
           </Text>
           <Box flexGrow="1" />
-          <Flex align="center" justify="between" gap="3" mt="2">
-            <Flex align="center" gap="1" aria-hidden>
-              {categoryOrder.map((c) => (
-                <span
-                  key={c}
-                  className="cat-dot"
-                  style={{ backgroundColor: `var(--${categoryMeta[c].color}-9)` }}
-                />
-              ))}
-            </Flex>
-            <Text size="1" color="gray">
-              {story.source} →
-            </Text>
-          </Flex>
+          <Text size="1" color="gray" mt="2">
+            {story.source} →
+          </Text>
         </Flex>
       </NextLink>
     </Card>

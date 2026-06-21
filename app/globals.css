@@ -4,12 +4,6 @@
   margin: 0;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -17,25 +11,12 @@ a {
 
 /* --- Home grid: story cards ---
    The grid itself (intrinsic columns, dense flow, gap, spans) is expressed with
-   Radix <Grid> props; CSS here is just polish Radix has no prop for: hover,
-   excerpt clamping, and the category dots. Colors stay on Radix tokens. */
+   Radix <Grid> props; the CSS here is just the one bit of polish Radix has no
+   prop for: multi-line excerpt clamping. The card fills its grid cell so the
+   featured hero stretches to its 2×2 span. */
 
 .story-card {
   height: 100%;
-  transition:
-    transform 160ms ease,
-    box-shadow 160ms ease,
-    background-color 160ms ease;
-}
-
-.story-card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-4);
-  background-color: var(--gray-a2);
-}
-
-.story-card:active {
-  transform: translateY(0);
 }
 
 .story-excerpt {
@@ -49,20 +30,4 @@ a {
 .story-excerpt--featured {
   -webkit-line-clamp: 6;
   line-clamp: 6;
-}
-
-.cat-dot {
-  display: inline-block;
-  inline-size: 0.5rem;
-  block-size: 0.5rem;
-  border-radius: 9999px;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .story-card {
-    transition: none;
-  }
-  .story-card:hover {
-    transform: none;
-  }
 }
