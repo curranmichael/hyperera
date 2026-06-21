@@ -1,7 +1,7 @@
 # hyper-era — Technical Architecture
 
-> Status: living document. Stage 1 (scaffold) is built; the stages below are the plan for what follows.
-> Last revised after locking four design decisions (see §2).
+> Status: living document. Stages 1–2 are built (scaffold + RSS ingest); the stages below are the plan
+> for what follows. Last revised after locking four design decisions (see §2).
 
 ## 1. What hyper-era is
 
@@ -85,12 +85,18 @@ Each stage is independently shippable.
 ### Stage 1 — Scaffold ✅ (done)
 Next.js + Radix, card-based landing page with placeholder content. Builds, lints, runs.
 
-### Stage 2 — RSS → database (raw articles)
-- Add **Neon Postgres** (Vercel integration) and a migration tool (`drizzle` or plain SQL via
-  `@neondatabase/serverless`).
-- `feeds` table holds the dynamic, editable list of publication feed URLs.
-- `/api/ingest`: fetch each active feed, parse (`rss-parser`), dedupe by GUID/link, upsert into `articles`.
-- Vercel Cron hits the daily pipeline (or `/api/ingest` directly) on a schedule.
+### Stage 2 — RSS → database (raw articles) ✅ (done)
+- **Neon Postgres** (Vercel integration) with **Drizzle**. Driver: `drizzle-orm/node-postgres` over a
+  module-scope `pg` Pool + `attachDatabasePool` (Vercel Fluid compute guidance), initialized lazily so
+  `next build` never needs DB creds. See `lib/db/`.
+- `feeds` holds the dynamic, editable list (`lib/feeds.ts`, upserted by `url` via `npm run db:seed`).
+  AP and Reuters dropped official RSS, so they come through the Google News RSS proxy (filtered to each
+  publisher's domain); the other 7 feeds are native.
+- `/api/ingest` (`GET`, Bearer `CRON_SECRET`): fetches active feeds concurrently, parses (`rss-parser`),
+  dedupes by `(feed_id, guid)`, batch-upserts into `articles` with `onConflictDoNothing`. One bad feed
+  can't fail the run. Verified: 425 articles across 9 feeds, idempotent on re-run.
+- Vercel Cron (`vercel.json`) hits `/api/ingest` daily at 11:00 UTC.
+- Scripts: `db:generate`, `db:migrate`, `db:push`, `db:studio`, `db:seed`.
 
 ### Stage 3 — Clustering (articles → events)
 - `/api/cluster`: group un-clustered articles that report the same event into one `event` (linked via
