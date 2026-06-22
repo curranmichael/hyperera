@@ -18,7 +18,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Theme accentColor="gray" grayColor="sand" radius="large" scaling="100%">
+        <Theme
+          accentColor="gray"
+          grayColor="sand"
+          radius="large"
+          scaling="100%"
+          panelBackground="solid"
+        >
           <SiteHeader />
           <main>{children}</main>
         </Theme>
