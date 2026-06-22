@@ -1,5 +1,5 @@
 import NextLink from "next/link";
-import { Badge, Box, Card, Flex, Heading, Text } from "@radix-ui/themes";
+import { Box, Card, Flex, Heading, Text } from "@radix-ui/themes";
 import { CoverImage } from "./CoverImage";
 import {
   categoryMeta,
@@ -18,6 +18,10 @@ export function StoryCard({
   story: Story;
   featured?: boolean;
 }) {
+  // Kept after dropping the genre badge so the card's text can carry the genre's
+  // accent color (`genre.color`) instead — every line in the card is this shade.
+  const genre = genreMeta[story.genre];
+
   const cover = story.image ? (
     <CoverImage
       image={story.image}
@@ -39,17 +43,16 @@ export function StoryCard({
 
   const body = (
     <Flex direction="column" gap="2" height="100%" flexGrow="1" minWidth="0">
-      <Box>
-        <Badge color={genreMeta[story.genre].color} variant="soft" size="1">
-          {story.genre}
-        </Badge>
-      </Box>
-      <Heading size={featured ? "6" : "4"} weight={featured ? "bold" : "medium"}>
+      <Heading
+        size={featured ? "6" : "4"}
+        weight={featured ? "bold" : "medium"}
+        color={genre.color}
+      >
         {story.headline}
       </Heading>
       <Text
         size={featured ? "3" : "2"}
-        color="gray"
+        color={genre.color}
         className={
           featured ? "story-excerpt story-excerpt--featured" : "story-excerpt"
         }
@@ -67,7 +70,7 @@ export function StoryCard({
             />
           ))}
         </Flex>
-        <Text size="1" color="gray">
+        <Text size="1" color={genre.color}>
           {formatStoryDate(story.publishedAt)}
         </Text>
       </Flex>

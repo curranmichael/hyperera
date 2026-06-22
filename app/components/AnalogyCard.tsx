@@ -1,12 +1,10 @@
-import { Badge, Box, Card, Flex, Heading, Text } from "@radix-ui/themes";
+import { Box, Card, Flex, Heading, Text } from "@radix-ui/themes";
 import { CoverImage } from "./CoverImage";
-import { categoryMeta, type Analogy } from "@/lib/stories";
+import { type Analogy } from "@/lib/stories";
 
-// One analogy, shown as a card. The category badge carries that category's
-// Radix accent (see `categoryMeta`); the card links out to the original source.
-// An optional image bleeds to the card's top edge.
+// One analogy, shown as a card linking out to the original source. An optional
+// image bleeds to the card's top edge.
 export function AnalogyCard({ analogy }: { analogy: Analogy }) {
-  const meta = categoryMeta[analogy.category];
   return (
     <Card size="2" asChild>
       <a href={analogy.href} target="_blank" rel="noreferrer">
@@ -19,9 +17,6 @@ export function AnalogyCard({ analogy }: { analogy: Analogy }) {
           />
         ) : null}
         <Flex direction="column" gap="2" height="100%">
-          <Badge color={meta.color} variant="soft" size="1">
-            {meta.label}
-          </Badge>
           <Heading size="3" weight="medium">
             {analogy.title}
           </Heading>
