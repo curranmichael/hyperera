@@ -85,12 +85,11 @@ export const categoryMeta: Record<
 
 // Hand-curated front page for 2026-06-22, selected from the live RSS feeds in
 // `lib/feeds.ts`. Overviews and analogy excerpts describe rather than quote, in
-// keeping with the strict-verification ethos (no unverifiable quotes). `image`
-// is set only where the source feed actually carried one — six stories ran
-// without art rather than pair a real headline with a stand-in photo; the
-// `image.src` values are dithered local copies (originals in git history). Source
-// links to AP/Reuters are Google News redirects (see `lib/feeds.ts`); a later
-// verify pass canonicalizes them.
+// keeping with the strict-verification ethos (no unverifiable quotes). Covers
+// are dithered local copies: feed art (credited to the source) where it existed,
+// otherwise an AI-generated illustration (credit "AI-generated", produced by
+// `npm run images:generate`). Source links to AP/Reuters are Google News
+// redirects (see `lib/feeds.ts`); a later verify pass canonicalizes them.
 const stories: Story[] = [
   {
     slug: "us-iran-talks-end-first-round-with-progress",
@@ -350,6 +349,11 @@ const stories: Story[] = [
     ],
     href: "#",
     publishedAt: "2026-06-22",
+    image: {
+      src: "/covers/china-rare-earth-export-controls-target-us-firms.png",
+      alt: "China's rare-earth export controls",
+      credit: "AI-generated",
+    },
     rank: 5,
     analogies: [
       {
@@ -393,6 +397,11 @@ const stories: Story[] = [
     ],
     href: "#",
     publishedAt: "2026-06-22",
+    image: {
+      src: "/covers/sk-hynix-passes-samsung-on-ai-memory-boom.png",
+      alt: "SK Hynix overtaking Samsung in the AI memory boom",
+      credit: "AI-generated",
+    },
     rank: 6,
     analogies: [
       {
@@ -435,6 +444,11 @@ const stories: Story[] = [
     ],
     href: "#",
     publishedAt: "2026-06-17",
+    image: {
+      src: "/covers/most-powerful-open-weights-model-ships.png",
+      alt: "A powerful open-weights AI model released into the world",
+      credit: "AI-generated",
+    },
     rank: 7,
     analogies: [
       {
@@ -477,6 +491,11 @@ const stories: Story[] = [
     ],
     href: "#",
     publishedAt: "2026-06-18",
+    image: {
+      src: "/covers/antarctica-logs-record-winter-warmth.png",
+      alt: "Record winter warmth in Antarctica",
+      credit: "AI-generated",
+    },
     rank: 8,
     analogies: [
       {
@@ -614,6 +633,11 @@ const stories: Story[] = [
     ],
     href: "#",
     publishedAt: "2026-06-18",
+    image: {
+      src: "/covers/collector-ordered-to-return-nazi-looted-modigliani.png",
+      alt: "Restitution of a Nazi-looted Modigliani",
+      credit: "AI-generated",
+    },
     rank: 11,
     analogies: [
       {
@@ -656,6 +680,11 @@ const stories: Story[] = [
     ],
     href: "#",
     publishedAt: "2026-06-22",
+    image: {
+      src: "/covers/australia-sells-canada-radar-in-record-deal.png",
+      alt: "Australia's record radar deal with Canada",
+      credit: "AI-generated",
+    },
     rank: 12,
     analogies: [
       {
