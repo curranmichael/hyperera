@@ -9,6 +9,24 @@ a {
   text-decoration: none;
 }
 
+/* --- Cards: flat (no border ring, no rounded corners) ---
+   A surface <Card>'s "border" is the ::after ring drawn by its box-shadow token,
+   and its corners come from --card-border-radius. We zero both through the
+   variables Radix already reads, so this rides the component's own machinery
+   instead of overriding ::after. The <Inset> image picks up the 0 radius too, so
+   its corners go square in step.
+
+   Scoped to `.radix-themes .rt-Card` (two classes) so it outranks Radix's own
+   per-size `--card-border-radius` rule, which is a single class and would
+   otherwise win the cascade tie. */
+
+.radix-themes .rt-Card {
+  --card-border-radius: 0px;
+  --base-card-surface-box-shadow: none;
+  --base-card-surface-hover-box-shadow: none;
+  --base-card-surface-active-box-shadow: none;
+}
+
 /* --- Home grid: story cards ---
    The grid itself (intrinsic columns, dense flow, gap, spans) is expressed with
    Radix <Grid> props; the CSS here is just the one bit of polish Radix has no
@@ -17,6 +35,26 @@ a {
 
 .story-card {
   height: 100%;
+}
+
+/* --- Title card: image beside the text ---
+   The lead card stacks on small viewports (image on top via <Inset side="top">)
+   and goes side-by-side on wider ones (image bled to the right). The image is a
+   fill <Image>, so all CSS supplies is the height behaviour Radix props can't:
+   a fixed ratio when stacked, full-height stretch when alongside the text. The
+   768px breakpoint matches Radix's `sm`. */
+
+.featured-cover {
+  position: relative;
+  aspect-ratio: 16 / 9;
+}
+
+@media (min-width: 768px) {
+  .featured-cover {
+    aspect-ratio: auto;
+    align-self: stretch;
+    flex: 0 0 45%;
+  }
 }
 
 .story-excerpt {

@@ -18,59 +18,83 @@ export function StoryCard({
   story: Story;
   featured?: boolean;
 }) {
+  const cover = story.image ? (
+    <CoverImage
+      image={story.image}
+      // The lead image fills its column so it spans the card's full height
+      // beside the text; other cards keep a fixed crop above the text.
+      fill={featured}
+      ratio={3 / 2}
+      inset
+      side={featured ? { initial: "top", sm: "right" } : "top"}
+      className={featured ? "featured-cover" : undefined}
+      priority={featured}
+      sizes={
+        featured
+          ? "(max-width: 768px) 100vw, 45vw"
+          : "(max-width: 768px) 100vw, 360px"
+      }
+    />
+  ) : null;
+
+  const body = (
+    <Flex direction="column" gap="2" height="100%" flexGrow="1" minWidth="0">
+      <Box>
+        <Badge color={genreMeta[story.genre].color} variant="soft" size="1">
+          {story.genre}
+        </Badge>
+      </Box>
+      <Heading size={featured ? "6" : "4"} weight={featured ? "bold" : "medium"}>
+        {story.headline}
+      </Heading>
+      <Text
+        size={featured ? "3" : "2"}
+        color="gray"
+        className={
+          featured ? "story-excerpt story-excerpt--featured" : "story-excerpt"
+        }
+      >
+        {story.overview}
+      </Text>
+      <Box flexGrow="1" />
+      <Flex align="center" justify="between" gap="3" mt="2">
+        <Flex align="center" gap="1" aria-hidden>
+          {categoryOrder.map((c) => (
+            <span
+              key={c}
+              className="cat-dot"
+              style={{ backgroundColor: `var(--${categoryMeta[c].color}-9)` }}
+            />
+          ))}
+        </Flex>
+        <Text size="1" color="gray">
+          {formatStoryDate(story.publishedAt)}
+        </Text>
+      </Flex>
+    </Flex>
+  );
+
   return (
     <Card asChild size={featured ? "4" : "2"} className="story-card">
       <NextLink href={`/story/${story.slug}`}>
-        {story.image ? (
-          <CoverImage
-            image={story.image}
-            ratio={featured ? 16 / 9 : 3 / 2}
-            inset
-            priority={featured}
-            sizes={
-              featured
-                ? "(max-width: 768px) 100vw, 720px"
-                : "(max-width: 768px) 100vw, 360px"
-            }
-          />
-        ) : null}
-        <Flex direction="column" gap="2" height="100%">
-          <Box>
-            <Badge color={genreMeta[story.genre].color} variant="soft" size="1">
-              {story.genre}
-            </Badge>
-          </Box>
-          <Heading
-            size={featured ? "6" : "4"}
-            weight={featured ? "bold" : "medium"}
+        {featured ? (
+          // Title card: text left, image right (image on top when stacked).
+          // `row-reverse` keeps the image — the first child, so it leads on
+          // mobile — on the right of the row.
+          <Flex
+            direction={{ initial: "column", sm: "row-reverse" }}
+            gap={{ initial: "4", sm: "6" }}
+            height="100%"
           >
-            {story.headline}
-          </Heading>
-          <Text
-            size={featured ? "3" : "2"}
-            color="gray"
-            className={
-              featured ? "story-excerpt story-excerpt--featured" : "story-excerpt"
-            }
-          >
-            {story.overview}
-          </Text>
-          <Box flexGrow="1" />
-          <Flex align="center" justify="between" gap="3" mt="2">
-            <Flex align="center" gap="1" aria-hidden>
-              {categoryOrder.map((c) => (
-                <span
-                  key={c}
-                  className="cat-dot"
-                  style={{ backgroundColor: `var(--${categoryMeta[c].color}-9)` }}
-                />
-              ))}
-            </Flex>
-            <Text size="1" color="gray">
-              {formatStoryDate(story.publishedAt)}
-            </Text>
+            {cover}
+            {body}
           </Flex>
-        </Flex>
+        ) : (
+          <>
+            {cover}
+            {body}
+          </>
+        )}
       </NextLink>
     </Card>
   );
