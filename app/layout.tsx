@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Theme } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
 import "./globals.css";
+import { SiteHeader } from "./components/SiteHeader";
 
 export const metadata: Metadata = {
   title: "hyper-era",
@@ -17,8 +18,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Theme accentColor="gray" grayColor="sand" radius="large" scaling="100%">
-          {children}
+        <Theme
+          accentColor="gray"
+          grayColor="sand"
+          radius="large"
+          scaling="100%"
+          panelBackground="solid"
+        >
+          <SiteHeader />
+          <main>{children}</main>
         </Theme>
       </body>
     </html>

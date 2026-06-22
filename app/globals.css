@@ -4,13 +4,86 @@
   margin: 0;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
 a {
   color: inherit;
   text-decoration: none;
+}
+
+:root {
+  /* Shared by the home grid and the lead card's inner grid so the lead image
+     aligns to the same column tracks as the cards below. */
+  --story-gap: clamp(1rem, 0.75rem + 1.25vw, 2rem);
+}
+
+/* --- Cards: flat (no border ring, no rounded corners) ---
+   A surface <Card>'s "border" is the ::after ring drawn by its box-shadow token,
+   and its corners come from --card-border-radius. We zero both through the
+   variables Radix already reads, so this rides the component's own machinery
+   instead of overriding ::after. The <Inset> image picks up the 0 radius too, so
+   its corners go square in step.
+
+   Scoped to `.radix-themes .rt-Card` (two classes) so it outranks Radix's own
+   per-size `--card-border-radius` rule, which is a single class and would
+   otherwise win the cascade tie. */
+
+.radix-themes .rt-Card {
+  --card-border-radius: 0px;
+  --card-padding: 0px;
+  --base-card-surface-box-shadow: none;
+  --base-card-surface-hover-box-shadow: none;
+  --base-card-surface-active-box-shadow: none;
+}
+
+/* --- Home grid: story cards ---
+   The grid itself (intrinsic columns, dense flow, gap, spans) is expressed with
+   Radix <Grid> props; the CSS here is just the one bit of polish Radix has no
+   prop for: multi-line excerpt clamping. The card fills its grid cell so the
+   featured hero stretches to its 2×2 span. */
+
+.story-card {
+  height: 100%;
+  transition: opacity 150ms;
+}
+
+/* Lighten the whole card on hover by easing it toward the page behind it. */
+.story-card:hover {
+  opacity: 0.75;
+}
+
+/* --- Title card: image beside the text ---
+   The lead card stacks on narrower viewports (image on top via <Inset side="top">)
+   and goes side-by-side once the page grid shows three columns, where the image
+   spans the right two (`grid-column: 2 / 4`) and the text takes the first. The
+   image is a fill <Image>, so all CSS supplies is what the Radix <Grid> props
+   can't: a fixed ratio when stacked (the grid stretches it to the row height
+   otherwise). The 1024px breakpoint matches Radix's `md`. */
+
+.featured-cover {
+  position: relative;
+  aspect-ratio: 16 / 9;
+}
+
+@media (min-width: 1024px) {
+  .featured-cover {
+    aspect-ratio: auto;
+    /* Fully position the image (row + column) so grid auto-placement doesn't
+       push the auto-placed text into a separate row, which would leave the
+       image alone in a zero-height row. With both in row 1 the row takes the
+       text's height and `align-items: stretch` sizes the image to match. */
+    grid-row: 1;
+    grid-column: 2 / 4; /* right two of the three columns */
+  }
+}
+
+.story-excerpt {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+}
+
+.story-excerpt--featured {
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
 }
