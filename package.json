@@ -12,7 +12,8 @@
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
     "db:seed": "node --env-file=.env.local --import tsx scripts/seed-feeds.ts",
-    "images:dither": "node --import tsx scripts/dither-covers.ts"
+    "images:dither": "node --import tsx scripts/dither-covers.ts",
+    "images:generate": "node --env-file=.env.local --import tsx scripts/generate-covers.ts"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
@@ -31,6 +32,7 @@
     "@types/pg": "^8.20.0",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",
+    "ai": "^6.0.208",
     "dotenv": "^17.4.2",
     "drizzle-kit": "^0.31.10",
     "eslint": "^9.25.0",
