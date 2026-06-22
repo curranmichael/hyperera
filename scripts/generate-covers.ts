@@ -14,7 +14,7 @@ const OUT_DIR = join(process.cwd(), "public", "covers");
 const STYLE =
   "Cinematic photographic still, dramatic natural light, shallow depth of field, " +
   "evocative and atmospheric. Symbolic, not literal reportage. " +
-  "No text or lettering, no identifiable real people.";
+  "No text, no lettering. Simply a newsreel image.";
 // Classical alt:
 // "Classical fine-art oil painting in the manner of the old masters. Rich
 //  chiaroscuro, painterly texture, evocative and timeless. Symbolic, not literal
