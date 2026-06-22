@@ -13,6 +13,19 @@ a {
   /* Shared by the home grid and the lead card's inner grid so the lead image
      aligns to the same column tracks as the cards below. */
   --story-gap: clamp(1rem, 0.75rem + 1.25vw, 2rem);
+
+  /* Before the inline theme script in layout.tsx pins a `.dark`/`.light` class,
+     let the UA pick the canvas (and scrollbars) from the OS so the very first
+     paint can't flash a light background under a dark system. */
+  color-scheme: light dark;
+}
+
+/* Radix paints the page background (--color-background, which flips with the
+   inherited appearance) on the root .radix-themes element. Make it span the
+   full viewport so short pages don't reveal the bare canvas beneath it in dark
+   mode. */
+.radix-themes {
+  min-height: 100vh;
 }
 
 /* --- Cards: flat (no border ring, no rounded corners) ---
