@@ -1,5 +1,5 @@
 import NextLink from "next/link";
-import { Box, Card, Flex, Heading, Text } from "@radix-ui/themes";
+import { Box, Card, Flex, Grid, Heading, Text } from "@radix-ui/themes";
 import { CoverImage } from "./CoverImage";
 import {
   categoryMeta,
@@ -31,12 +31,12 @@ export function StoryCard({
       ratio={3 / 2}
       tint={genre.color}
       inset
-      side={featured ? { initial: "top", sm: "right" } : "top"}
+      side={featured ? { initial: "top", md: "right" } : "top"}
       className={featured ? "featured-cover" : undefined}
       priority={featured}
       sizes={
         featured
-          ? "(max-width: 768px) 100vw, 45vw"
+          ? "(max-width: 1024px) 100vw, 66vw"
           : "(max-width: 768px) 100vw, 360px"
       }
     />
@@ -82,17 +82,21 @@ export function StoryCard({
     <Card asChild size={featured ? "4" : "2"} className="story-card">
       <NextLink href={`/story/${story.slug}`}>
         {featured ? (
-          // Title card: text left, image right (image on top when stacked).
-          // `row-reverse` keeps the image — the first child, so it leads on
-          // mobile — on the right of the row.
-          <Flex
-            direction={{ initial: "column", sm: "row-reverse" }}
-            gap={{ initial: "4", sm: "6" }}
+          // Title card: text in column 1, image spanning columns 2–3 (its right
+          // edge meets the container edge), so the lead lines up with the page's
+          // three-column grid. `--story-gap` matches the page grid's gap, so the
+          // tracks coincide. Below md the grid collapses to one column and the
+          // card stacks with the image on top (cover is the first child). The
+          // cover is placed explicitly (grid-column: 2 / 4 in CSS), so body
+          // auto-flows into column 1.
+          <Grid
+            columns={{ initial: "1", md: "3" }}
+            gap={{ initial: "4", md: "var(--story-gap)" }}
             height="100%"
           >
             {cover}
             {body}
-          </Flex>
+          </Grid>
         ) : (
           <>
             {cover}

@@ -16,7 +16,7 @@ export default async function Home() {
       <Section size="2">
         <Grid
           columns="repeat(auto-fill, minmax(min(18rem, 100%), 1fr))"
-          gap="clamp(1rem, 0.75rem + 1.25vw, 2rem)"
+          gap="var(--story-gap)"
         >
           {ordered.map((story, i) =>
             i === 0 ? (
