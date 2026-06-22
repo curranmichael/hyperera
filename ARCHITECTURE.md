@@ -37,6 +37,7 @@ UI inspiration: the [hyper-era are.na channel](https://are.na/curran-dwyer/hyper
 | **Editorial** | **Daily human-in-the-loop** | The pipeline runs once a day and produces drafts; the editor approves/curates before anything publishes. Matches the are.na curation vibe; guards quality. |
 | Analogy selection | **Raw LLM, examples last** | The model composes overviews and selects analogies directly. A hand-built set of *examples* is added last (Stage 7) to set tone and sharpen taste. Get the raw baseline working first, then see whether guidance helps. |
 | Model tiering | **Cheap triage + Opus reasoning** | A cheap model (Haiku/Sonnet) groups articles and triages which events deserve a full pass; Opus 4.8 composes overviews and selects/proposes analogies. Keeps cost on-ethos (selective, not firehose). |
+| Pipeline orchestration | **One cron per stage, built for Fluid Compute** | Each stage (ingest → group → analyze → verify) is its own Vercel Cron entry, staggered through the day, each reading what the prior stage left in the DB. Isolates failures and gives each stage its own 300s budget. Fluid Compute is on (`fluid: true`), so the LLM's I/O wait pauses CPU billing — we pay for Claude's thinking in latency, not CPU. |
 | Database | **Neon Postgres** | Serverless Postgres with native Vercel integration; relational model fits articles ↔ events ↔ analogies cleanly; generous free tier. |
 | Framework | **Next.js (App Router, TS)** on Vercel | Already scaffolded. |
 | UI | **Radix Themes** | Already scaffolded; card-based design. |
@@ -191,12 +192,10 @@ examples(id, category, title, creator, era, excerpt, url, created_at)
 - Vercel auto-detects Next.js — import the repo and deploy.
 - Env vars to add in Vercel (later stages): `DATABASE_URL` (Neon), `ANTHROPIC_API_KEY`, and an admin
   secret for the editorial view.
-- Vercel Cron is configured via `vercel.json` once the pipeline routes exist (one daily entry that runs
-  ingest → group → analyze → verify in sequence).
+- Vercel Cron is configured via `vercel.json`: one entry per stage with `fluid: true` (see §2).
 
 ## 8. Open questions (to revisit)
 
-- **Pipeline orchestration:** one daily cron that chains the stages, or separate cron entries per stage?
 - **Excerpt verification:** how much of "is this quote real" can be done deterministically (fetch the
   source, match the text) versus handed to an adversarial second pass or the human in the loop?
 - **Do the examples earn their place?** Measure Stage 7 output against the raw Stage 4 baseline — keep the
