@@ -29,6 +29,7 @@ export function StoryCard({
       // beside the text; other cards keep a fixed crop above the text.
       fill={featured}
       ratio={3 / 2}
+      tint={genre.color}
       inset
       side={featured ? { initial: "top", sm: "right" } : "top"}
       className={featured ? "featured-cover" : undefined}

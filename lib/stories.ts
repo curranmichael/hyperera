@@ -87,7 +87,8 @@ export const categoryMeta: Record<
 // `lib/feeds.ts`. Overviews and analogy excerpts describe rather than quote, in
 // keeping with the strict-verification ethos (no unverifiable quotes). `image`
 // is set only where the source feed actually carried one — six stories ran
-// without art rather than pair a real headline with a stand-in photo. Source
+// without art rather than pair a real headline with a stand-in photo; the
+// `image.src` values are dithered local copies (originals in git history). Source
 // links to AP/Reuters are Google News redirects (see `lib/feeds.ts`); a later
 // verify pass canonicalizes them.
 const stories: Story[] = [
@@ -115,7 +116,7 @@ const stories: Story[] = [
     href: "#",
     publishedAt: "2026-06-22",
     image: {
-      src: "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/a8b2/live/1e0155f0-6e02-11f1-b1db-af71d47507d6.jpg",
+      src: "/covers/us-iran-talks-end-first-round-with-progress.png",
       alt: "The US–Iran talks in Switzerland",
       credit: "BBC",
     },
@@ -196,7 +197,7 @@ const stories: Story[] = [
     href: "#",
     publishedAt: "2026-06-22",
     image: {
-      src: "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/9eac/live/b2016940-6dd3-11f1-ac92-691247a7d6f7.jpg",
+      src: "/covers/trump-backed-outsider-wins-colombia-election.png",
       alt: "Colombia's contested presidential election",
       credit: "BBC",
     },
@@ -252,7 +253,7 @@ const stories: Story[] = [
     href: "#",
     publishedAt: "2026-06-21",
     image: {
-      src: "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/5cad/live/dd9b7ea0-6bf9-11f1-8546-8f19e4fe30f4.jpg",
+      src: "/covers/russia-masses-near-donbas-as-ukraine-strikes-crimea.png",
       alt: "Russian forces massing near the Donbas",
       credit: "BBC",
     },
@@ -303,7 +304,7 @@ const stories: Story[] = [
     href: "#",
     publishedAt: "2026-06-22",
     image: {
-      src: "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/3fee/live/56af66a0-6e0a-11f1-9110-95eb626f214e.jpg",
+      src: "/covers/more-than-half-of-france-under-red-heat-alerts.png",
       alt: "Europe's intensifying heatwave",
       credit: "BBC",
     },
@@ -520,7 +521,7 @@ const stories: Story[] = [
     href: "#",
     publishedAt: "2026-06-17",
     image: {
-      src: "https://kottke.org/cdn-cgi/image/format=auto,fit=scale-down,width=1200,metadata=none//plus/misc/images/editor-1781707050-60a49ae1.jpg",
+      src: "/covers/leonardo-codices-digitally-reunited-after-400-years.png",
       alt: "A page from Leonardo da Vinci's codices",
       credit: "Kottke.org",
     },
@@ -567,7 +568,7 @@ const stories: Story[] = [
     href: "#",
     publishedAt: "2026-06-20",
     image: {
-      src: "https://static.dezeen.com/uploads/2026/06/zha-zaha-hadid-architects-rebrand-patrik-schumacher_dezeen_2364_col_1-411x411.jpg",
+      src: "/covers/zaha-hadid-architects-becomes-zha.png",
       alt: "Zaha Hadid Architects' rebrand to ZHA",
       credit: "Dezeen",
     },
@@ -698,7 +699,7 @@ const stories: Story[] = [
     href: "#",
     publishedAt: "2026-06-22",
     image: {
-      src: "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/65b1/live/c9a13240-6e11-11f1-8e1d-bbbb1017d210.jpg",
+      src: "/covers/japan-quintuples-visa-fees-first-hike-since-1978.png",
       alt: "Travellers in Japan as visa fees rise",
       credit: "BBC",
     },

@@ -19,6 +19,7 @@ export function CoverImage({
   className,
   showCredit = false,
   priority = false,
+  tint,
 }: {
   image: ImageRef;
   sizes: string;
@@ -29,27 +30,44 @@ export function CoverImage({
   className?: string;
   showCredit?: boolean;
   priority?: boolean;
+  // A Radix accent name. When set, the greyscale image is recoloured into a
+  // duotone of this accent via a solid backdrop + `hard-light` (no added bytes).
+  tint?: string;
 }) {
   const imgStyle: CSSProperties = {
     objectFit: "cover",
-    backgroundColor: "var(--gray-3)",
-    ...(inset ? {} : { borderRadius: "var(--radius-3)" }),
+    ...(tint
+      ? { mixBlendMode: "hard-light" }
+      : { backgroundColor: "var(--gray-3)" }),
   };
 
-  const img = (
-    <Image
-      src={image.src}
-      alt={image.alt}
-      fill
-      sizes={sizes}
-      priority={priority}
-      style={imgStyle}
-    />
+  // The `fill` <Image> needs a positioned parent; this wrapper also carries the
+  // accent backdrop and, off-inset, the rounding+clip the image used to own.
+  const frameStyle: CSSProperties = {
+    position: "relative",
+    width: "100%",
+    height: "100%",
+    ...(tint ? { backgroundColor: `var(--${tint}-9)` } : {}),
+    ...(inset ? {} : { borderRadius: "var(--radius-3)", overflow: "hidden" }),
+  };
+
+  const frame = (
+    <div style={frameStyle}>
+      <Image
+        src={image.src}
+        alt={image.alt}
+        fill
+        sizes={sizes}
+        priority={priority}
+        unoptimized={!!tint}
+        style={imgStyle}
+      />
+    </div>
   );
 
   // `fill` lets the parent (e.g. a card column) dictate the height; otherwise
   // AspectRatio fixes the crop.
-  const picture = fill ? img : <AspectRatio ratio={ratio}>{img}</AspectRatio>;
+  const picture = fill ? frame : <AspectRatio ratio={ratio}>{frame}</AspectRatio>;
 
   if (inset) {
     return (

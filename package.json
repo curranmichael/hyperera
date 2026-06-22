@@ -11,7 +11,8 @@
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
-    "db:seed": "node --env-file=.env.local --import tsx scripts/seed-feeds.ts"
+    "db:seed": "node --env-file=.env.local --import tsx scripts/seed-feeds.ts",
+    "images:dither": "node --import tsx scripts/dither-covers.ts"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
@@ -34,6 +35,7 @@
     "drizzle-kit": "^0.31.10",
     "eslint": "^9.25.0",
     "eslint-config-next": "^15.3.0",
+    "sharp": "^0.35.2",
     "tsx": "^4.22.4",
     "typescript": "^5.8.0"
   }
