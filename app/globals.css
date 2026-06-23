@@ -98,6 +98,35 @@ a {
   background-color: transparent;
 }
 
+/* --- Lead story: analogy popover triggers ---
+   Each analogy title is a button that opens a small popover with that analogy's
+   excerpt and source link. Reset the native button so it reads as the plain list
+   it replaces, then highlight it (background + text) on hover, keyboard focus, or
+   while its popover is open. The negative inline margin lets the highlight bleed
+   6px into the gutter, matching the measure of the list text. */
+
+.analogy-trigger {
+  display: block;
+  text-align: start;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  color: var(--gray-a11);
+  border-radius: var(--radius-2);
+  padding: 2px 6px;
+  margin: 0 -6px;
+  transition: background-color 150ms, color 150ms;
+}
+
+.analogy-trigger:hover,
+.analogy-trigger:focus-visible,
+.analogy-trigger[data-state="open"] {
+  background-color: var(--gray-3);
+  color: var(--gray-12);
+  outline: none;
+}
+
 /* --- Cover tint on hover (home only) ---
    CoverImage with `tintOnHover` paints the genre accent behind the image but
    leaves it hidden at rest: the cover shows its own colour at half saturation.
