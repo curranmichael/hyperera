@@ -1,23 +1,25 @@
 import NextLink from "next/link";
-import { Box, Container, Flex, Heading, Separator, Text } from "@radix-ui/themes";
+import { Box, Flex, Heading, Text } from "@radix-ui/themes";
 
-// The site masthead, shared by every page via the root layout. The wordmark
-// links home; the rule beneath it spans the full width.
+// The site masthead, shared by every page via the root layout. The wordmark is
+// optically centered; "About" sits at the right edge (absolutely placed so it
+// doesn't pull the wordmark off center). Both are set in ABC Favorit Extended.
 export function SiteHeader() {
   return (
     <Box asChild>
       <header>
-        <Container size="4" px="4">
-          <Flex direction="column" gap="1" py="5">
-            <Heading asChild size="7" weight="bold" trim="start">
+        <div className="page">
+          <Flex align="center" justify="center" position="relative" py="5">
+            <Heading asChild size="7" weight="regular" className="wordmark">
               <NextLink href="/">Hyperera</NextLink>
             </Heading>
-            <Text size="2" color="gray">
-              Exploring the present through lenses from the past and future.
-            </Text>
+            <Box position="absolute" right="0">
+              <Text asChild size="3" className="wordmark">
+                <NextLink href="/about">About</NextLink>
+              </Text>
+            </Box>
           </Flex>
-        </Container>
-        <Separator size="4" />
+        </div>
       </header>
     </Box>
   );

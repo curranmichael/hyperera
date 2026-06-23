@@ -10,14 +10,41 @@ a {
 }
 
 :root {
-  /* Shared by the home grid and the lead card's inner grid so the lead image
-     aligns to the same column tracks as the cards below. */
-  --story-gap: clamp(1rem, 0.75rem + 1.25vw, 2rem);
-
   /* Before the inline theme script in layout.tsx pins a `.dark`/`.light` class,
      let the UA pick the canvas (and scrollbars) from the OS so the very first
      paint can't flash a light background under a dark system. */
   color-scheme: light dark;
+}
+
+/* --- Fonts: ABC Favorit (loaded by next/font/local in layout.tsx) ---
+   Remap Radix's font-family tokens so <Text> (--default-font-family) and
+   <Heading> (--heading-font-family) both render in the standard cut. Radix's
+   styles.css is imported before this file, so these win without !important.
+   `--font-weight-light: 350` lands Radix's "light" weight on Favorit "Book",
+   the lighter cut the design uses for body and the analogy list. The Extended
+   cut is applied only where wanted, via `.wordmark`. */
+.radix-themes {
+  --default-font-family: var(--font-favorit), ui-sans-serif, system-ui, sans-serif;
+  --heading-font-family: var(--font-favorit), ui-sans-serif, system-ui, sans-serif;
+  --font-weight-light: 350;
+}
+
+/* Scoped to `.radix-themes .wordmark` (two classes) so it outranks Radix's own
+   single-class `.rt-Heading`/`.rt-Text` font-family rules, which otherwise win
+   the cascade tie and leave the wordmark in the standard cut. */
+.radix-themes .wordmark {
+  font-family: var(--font-favorit-extended), sans-serif;
+}
+
+/* --- Page shell ---
+   The site content runs nearly full-width with slim, viewport-proportional side
+   margins (≈ the Figma's 6% gutter), capped on very wide screens. Shared by the
+   masthead and the home page so the wordmark, lead and grid share one measure. */
+.page {
+  width: 100%;
+  max-width: 1800px;
+  margin-inline: auto;
+  padding-inline: clamp(1.25rem, 6vw, 8rem);
 }
 
 /* Radix paints the page background (--color-background, which flips with the
@@ -48,10 +75,9 @@ a {
 }
 
 /* --- Home grid: story cards ---
-   The grid itself (intrinsic columns, dense flow, gap, spans) is expressed with
-   Radix <Grid> props; the CSS here is just the one bit of polish Radix has no
-   prop for: multi-line excerpt clamping. The card fills its grid cell so the
-   featured hero stretches to its 2×2 span. */
+   The grid (columns, gaps) is expressed with Radix <Grid> props; the CSS here is
+   the hover behavior props can't carry. The card fills its grid cell so siblings
+   in a row stay the same height. */
 
 .story-card {
   height: 100%;
@@ -69,40 +95,21 @@ a {
   background-color: transparent;
 }
 
-/* --- Title card: image beside the text ---
-   The lead card stacks on narrower viewports (image on top via <Inset side="top">)
-   and goes side-by-side once the page grid shows three columns, where the image
-   spans the right two (`grid-column: 2 / 4`) and the text takes the first. The
-   image is a fill <Image>, so all CSS supplies is what the Radix <Grid> props
-   can't: a fixed ratio when stacked (the grid stretches it to the row height
-   otherwise). The 1024px breakpoint matches Radix's `md`. */
+/* --- Cover tint on hover (home only) ---
+   CoverImage with `tintOnHover` paints the genre accent behind the image but
+   leaves it hidden at rest: the cover shows its own colour at half saturation.
+   On hover (the whole card, or the image itself for the lead) the image switches
+   to `hard-light` so the accent blends through as a duotone. The blend-mode flip
+   is instant; the saturation eases. */
 
-.featured-cover {
-  position: relative;
-  aspect-ratio: 16 / 9;
+.cover-hover-tint img {
+  mix-blend-mode: normal;
+  filter: saturate(0.5);
+  transition: filter 200ms;
 }
 
-@media (min-width: 1024px) {
-  .featured-cover {
-    aspect-ratio: auto;
-    /* Fully position the image (row + column) so grid auto-placement doesn't
-       push the auto-placed text into a separate row, which would leave the
-       image alone in a zero-height row. With both in row 1 the row takes the
-       text's height and `align-items: stretch` sizes the image to match. */
-    grid-row: 1;
-    grid-column: 2 / 4; /* right two of the three columns */
-  }
-}
-
-.story-excerpt {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  overflow: hidden;
-}
-
-.story-excerpt--featured {
-  -webkit-line-clamp: 6;
-  line-clamp: 6;
+.story-card:hover .cover-hover-tint img,
+.cover-hover-tint:hover img {
+  mix-blend-mode: hard-light;
+  filter: saturate(1);
 }

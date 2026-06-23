@@ -20,6 +20,7 @@ export function CoverImage({
   showCredit = false,
   priority = false,
   tint,
+  tintOnHover = false,
 }: {
   image: ImageRef;
   sizes: string;
@@ -30,15 +31,21 @@ export function CoverImage({
   className?: string;
   showCredit?: boolean;
   priority?: boolean;
-  // A Radix accent name. When set, the greyscale image is recoloured into a
-  // duotone of this accent via a solid backdrop + `hard-light` (no added bytes).
+  // A Radix accent name. When set, the image is recoloured into a duotone of
+  // this accent via a solid backdrop + `hard-light` (no added bytes).
   tint?: string;
+  // Hold the duotone for hover only: at rest the image shows its own colour at
+  // half saturation, blending to the `tint` duotone on hover. The blend itself
+  // is driven by the `.cover-hover-tint` CSS, so we skip the inline blend mode.
+  tintOnHover?: boolean;
 }) {
   const imgStyle: CSSProperties = {
     objectFit: "cover",
-    ...(tint
+    ...(tint && !tintOnHover
       ? { mixBlendMode: "hard-light" }
-      : { backgroundColor: "var(--gray-3)" }),
+      : tint
+        ? {}
+        : { backgroundColor: "var(--gray-3)" }),
   };
 
   // The `fill` <Image> needs a positioned parent; this wrapper also carries the
@@ -53,7 +60,7 @@ export function CoverImage({
   };
 
   const frame = (
-    <div style={frameStyle}>
+    <div style={frameStyle} className={tintOnHover ? "cover-hover-tint" : undefined}>
       <Image
         src={image.src}
         alt={image.alt}
