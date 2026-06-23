@@ -90,8 +90,11 @@ a {
 }
 
 /* The ghost <Card> is a link, so Radix tints it on hover/active. Drop that so
-   the opacity fade above is the only hover effect. */
-.story-card:where(:hover, :active) {
+   the opacity fade above is the only hover effect. Keeping the pseudo-classes
+   outside `:where()` makes this (0,1,1) — it outranks Radix's (0,1,0) ghost
+   rules regardless of stylesheet order. */
+.story-card:hover,
+.story-card:active {
   background-color: transparent;
 }
 
