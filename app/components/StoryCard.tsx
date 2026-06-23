@@ -79,7 +79,7 @@ export function StoryCard({
   );
 
   return (
-    <Card asChild size={featured ? "4" : "2"} className="story-card">
+    <Card asChild variant="ghost" size={featured ? "4" : "2"} className="story-card">
       <NextLink href={`/story/${story.slug}`}>
         {featured ? (
           // Title card: text in column 1, image spanning columns 2–3 (its right

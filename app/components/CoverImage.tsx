@@ -42,13 +42,14 @@ export function CoverImage({
   };
 
   // The `fill` <Image> needs a positioned parent; this wrapper also carries the
-  // accent backdrop and, off-inset, the rounding+clip the image used to own.
+  // accent backdrop and a uniform 4px corner clip for every image (inset or not).
   const frameStyle: CSSProperties = {
     position: "relative",
     width: "100%",
     height: "100%",
+    borderRadius: "4px",
+    overflow: "hidden",
     ...(tint ? { backgroundColor: `var(--${tint}-9)` } : {}),
-    ...(inset ? {} : { borderRadius: "var(--radius-3)", overflow: "hidden" }),
   };
 
   const frame = (

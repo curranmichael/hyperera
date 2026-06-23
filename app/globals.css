@@ -63,6 +63,12 @@ a {
   opacity: 0.75;
 }
 
+/* The ghost <Card> is a link, so Radix tints it on hover/active. Drop that so
+   the opacity fade above is the only hover effect. */
+.story-card:where(:hover, :active) {
+  background-color: transparent;
+}
+
 /* --- Title card: image beside the text ---
    The lead card stacks on narrower viewports (image on top via <Inset side="top">)
    and goes side-by-side once the page grid shows three columns, where the image
