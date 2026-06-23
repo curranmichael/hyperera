@@ -19,7 +19,7 @@ export async function generateMetadata({
   const story = await getStoryBySlug(slug);
   if (!story) return {};
   return {
-    title: `${story.headline} — hyper-era`,
+    title: `${story.headline} — Hyperera`,
     description: story.overview,
   };
 }

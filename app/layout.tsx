@@ -23,7 +23,7 @@ const favoritExtended = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "hyper-era",
+  title: "Hyperera",
   description:
     "Exploring the present through lenses from the past and future. An experimental publication that pairs today's news with historical, literary, and artistic analogies.",
 };
