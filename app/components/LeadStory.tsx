@@ -1,15 +1,16 @@
 "use client";
 
 import { useState } from "react";
+import NextLink from "next/link";
 import { AspectRatio, Box, Flex, Heading, Link, Text } from "@radix-ui/themes";
 import { CoverImage } from "./CoverImage";
 import { formatStoryDate, genreMeta, type Story } from "@/lib/stories";
 
-// The home page hero. A left column carries the headline, overview and the
-// story's six analogy titles; the right column shows the cover, both at a 16:9
-// ratio. Hovering (or focusing) an analogy swaps the cover for that analogy's
-// description and a link out to its source, so the two stay the same height and
-// the layout never jumps.
+// The home page hero. The left column links into the story (headline + overview)
+// and lists the six analogy titles; the right column shows the cover, also a link
+// into the story, at a 16:9 ratio. Hovering (or focusing) an analogy swaps the
+// cover for that analogy's description and an external link to its source, so the
+// two columns stay the same height and the layout never jumps.
 export function LeadStory({ story }: { story: Story }) {
   const genre = genreMeta[story.genre];
   const [active, setActive] = useState<number | null>(null);
@@ -22,12 +23,16 @@ export function LeadStory({ story }: { story: Story }) {
       align="start"
     >
       <Flex direction="column" gap="3" width={{ initial: "100%", sm: "250px" }} flexShrink="0">
-        <Heading size="4" weight="regular">
-          {story.headline}
-        </Heading>
-        <Text size="2" weight="light" color="gray">
-          {story.overview}
-        </Text>
+        <Flex asChild direction="column" gap="3">
+          <NextLink href={`/story/${story.slug}`}>
+            <Heading size="4" weight="regular">
+              {story.headline}
+            </Heading>
+            <Text size="2" weight="light" color="gray">
+              {story.overview}
+            </Text>
+          </NextLink>
+        </Flex>
 
         <Flex asChild direction="column" gap="1" mt="2">
           <ul style={{ listStyle: "none" }}>
@@ -83,14 +88,16 @@ export function LeadStory({ story }: { story: Story }) {
             </Flex>
           </AspectRatio>
         ) : story.image ? (
-          <CoverImage
-            image={story.image}
-            ratio={16 / 9}
-            tint={genre.color}
-            tintOnHover
-            priority
-            sizes="(max-width: 768px) 100vw, 560px"
-          />
+          <NextLink href={`/story/${story.slug}`} style={{ display: "block" }}>
+            <CoverImage
+              image={story.image}
+              ratio={16 / 9}
+              tint={genre.color}
+              tintOnHover
+              priority
+              sizes="(max-width: 768px) 100vw, 560px"
+            />
+          </NextLink>
         ) : null}
       </Box>
     </Flex>
