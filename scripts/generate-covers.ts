@@ -23,10 +23,10 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
-  "collector-ordered-to-return-nazi-looted-modigliani":
-    "An early-20th-century modernist portrait painting in an ornate gilded frame on an easel in a quiet museum gallery, soft daylight, themes of art history and rightful return",
-  "australia-sells-canada-radar-in-record-deal":
-    "Massive white parabolic radar dishes on a windswept coastal ridge at dusk scanning a vast open sky, themes of vigilance and watchful cooperation",
+  "pilfered-picasso-found-in-paris-drug-bust":
+    "A gilt-framed old painting wrapped in cloth, recovered under a bare lamp on a table in a dim apartment, themes of stolen art resurfacing",
+  "glm-5-2-most-powerful-open-weights-model":
+    "A single bright flame cupped in open hands and passed outward toward many reaching hands in the dark, warm glow, themes of knowledge set free",
 };
 
 async function exists(p: string) {

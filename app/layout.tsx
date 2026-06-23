@@ -1,11 +1,29 @@
 import type { Metadata } from "next";
+import localFont from "next/font/local";
 import { Theme } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
 import "./globals.css";
 import { SiteHeader } from "./components/SiteHeader";
 
+// ABC Favorit, self-hosted as variable woff2 (one file spans Book→Bold). The
+// standard cut drives body + headings via Radix's font tokens (see globals.css);
+// the Extended cut is reserved for the wordmark and About link (`.wordmark`).
+const favorit = localFont({
+  src: "./fonts/ABCFavoritVariable-Trial.woff2",
+  variable: "--font-favorit",
+  display: "swap",
+  weight: "300 700",
+});
+
+const favoritExtended = localFont({
+  src: "./fonts/ABCFavoritExtendedVariable-Trial.woff2",
+  variable: "--font-favorit-extended",
+  display: "swap",
+  weight: "300 700",
+});
+
 export const metadata: Metadata = {
-  title: "hyper-era",
+  title: "Hyperera",
   description:
     "Exploring the present through lenses from the past and future. An experimental publication that pairs today's news with historical, literary, and artistic analogies.",
 };
@@ -38,7 +56,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html
+      lang="en"
+      className={`${favorit.variable} ${favoritExtended.variable}`}
+      suppressHydrationWarning
+    >
       <body>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         <Theme
