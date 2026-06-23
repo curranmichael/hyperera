@@ -13,7 +13,7 @@ export default async function Home() {
 
   return (
     <div className="page">
-      <Section size="2">
+      <Section size="2" pt="0">
         {lead ? <LeadStory story={lead} /> : null}
         <Grid
           columns={{ initial: "1", xs: "2", sm: "3" }}
