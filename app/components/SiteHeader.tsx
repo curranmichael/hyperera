@@ -10,7 +10,7 @@ export function SiteHeader() {
         <Container size="4" px="4">
           <Flex direction="column" gap="1" py="5">
             <Heading asChild size="7" weight="bold" trim="start">
-              <NextLink href="/">hyper-era</NextLink>
+              <NextLink href="/">Hyperera</NextLink>
             </Heading>
             <Text size="2" color="gray">
               Exploring the present through lenses from the past and future.
