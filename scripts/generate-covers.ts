@@ -27,12 +27,6 @@ const PROMPT_OVERRIDES: Record<string, string> = {
     "A gilt-framed old painting wrapped in cloth, recovered under a bare lamp on a table in a dim apartment, themes of stolen art resurfacing",
   "glm-5-2-most-powerful-open-weights-model":
     "A single bright flame cupped in open hands and passed outward toward many reaching hands in the dark, warm glow, themes of knowledge set free",
-  "israel-lebanon-discuss-southern-territory-handover":
-    "A quiet hilly border landscape at dusk, weathered boundary stones and a lone cedar tree, a distant fence line across dry grass, themes of contested land and an uneasy calm",
-  "taiwan-warns-warning-time-for-china-attack-shrinking":
-    "A grey warship silhouette far out across a narrow misty strait, seen from a rocky shoreline at dawn, a watchful and tense stillness, themes of vigilance and distant threat",
-  "two-mourners-attend-david-hockney-funeral":
-    "A nearly empty graveside beneath a wide pale sky, two small distant figures standing by a single fresh grave among bare trees, themes of solitude and remembrance",
 };
 
 async function exists(p: string) {
