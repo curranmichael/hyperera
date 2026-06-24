@@ -98,7 +98,7 @@ const stories: Story[] = [
   {
     slug: "congress-invokes-war-powers-to-halt-trump-iran-war",
     headline:
-      "For the first time, the legislature reaches for the war and tries to call it back",
+      "Congress passes a war powers measure rebuking Trump over the Iran strikes",
     overview:
       "Both houses of Congress have passed a war powers measure rebuking President Trump's military action against Iran — the first time the resolution has cleared Congress since it was written. The vote is a rare assertion that the power to make war was meant to be shared, even as its practical force remains uncertain.",
     genre: "Politics",
@@ -174,7 +174,7 @@ const stories: Story[] = [
   {
     slug: "ai-stocks-slump-revives-the-bubble-question",
     headline:
-      "The market that could only rise remembers how to fall",
+      "Tech sell-off drags Wall Street lower and revives AI-bubble fears",
     overview:
       "A sharp slide in big technology shares dragged Wall Street lower, reviving the question of whether the long AI rally is investors taking profit or the first crack in a bubble. For now no one can say which, and the not-knowing is itself the story.",
     genre: "Economy",
@@ -249,7 +249,7 @@ const stories: Story[] = [
   {
     slug: "ships-return-to-the-strait-of-hormuz-amid-toll-warnings",
     headline:
-      "The world's narrowest doorway reopens, and everyone counts the toll",
+      "Ships return to the Strait of Hormuz as the US warns Iran against tolls",
     overview:
       "Dozens of ships moved again through the Strait of Hormuz after a US–Iran deal, even as the UN moved to evacuate stranded sailors and Washington warned against any attempt to levy tolls on the passage. The fate of a fifth of the world's oil hangs on a channel a few miles wide.",
     genre: "Conflict",
@@ -324,7 +324,7 @@ const stories: Story[] = [
   {
     slug: "mamdani-slate-sweeps-new-york-primaries",
     headline:
-      "A new machine routs the old, and a famous name is sent home",
+      "Mamdani-backed candidates sweep New York's Democratic primaries",
     overview:
       "Candidates backed by Zohran Mamdani swept New York's Democratic primaries, ousting two incumbents from Congress, while a scion of the Kennedy family lost a crowded, expensive race. A generation that ran the city's politics is being shown the door.",
     genre: "Politics",
@@ -399,7 +399,7 @@ const stories: Story[] = [
   {
     slug: "ukraine-strikes-rail-bridge-to-isolate-crimea",
     headline:
-      "To take a peninsula, first cut the thread that feeds it",
+      "Ukraine strikes a railway bridge to cut supplies to Crimea",
     overview:
       "Ukraine says it struck a railway bridge carrying supplies toward Crimea, part of a campaign to isolate the Russian-held peninsula, as Sevastopol and occupied Kherson reported power outages. The aim is older than the weapons: sever the line and the held ground starves.",
     genre: "Conflict",
@@ -474,7 +474,7 @@ const stories: Story[] = [
   {
     slug: "a-single-fault-halts-all-of-germanys-trains",
     headline:
-      "One fault, and a nation's trains all stop at once",
+      "An IT failure briefly halts Germany's entire rail network",
     overview:
       "Germany's rail network was briefly halted nationwide after an IT and communications malfunction, stranding trains across the country before service resumed. A single point of failure showed how much of modern life rests on one quietly humming system.",
     genre: "Technology",
@@ -549,7 +549,7 @@ const stories: Story[] = [
   {
     slug: "anthropics-mythos-model-breaches-classified-systems",
     headline:
-      "We built an oracle, and it read the locks we thought were sealed",
+      "Anthropic's Mythos AI found vulnerabilities in classified US systems",
     overview:
       "Anthropic's Mythos model found vulnerabilities in classified US government systems, according to reports — an AI turning its attention to the very defenses meant to be impregnable. The tool built to help now reads every door, and the question is who holds the key.",
     genre: "Technology",
@@ -624,7 +624,7 @@ const stories: Story[] = [
   {
     slug: "parthenons-restored-west-facade-unveiled",
     headline:
-      "After two centuries of scaffolding, the temple shows its face again",
+      "The Parthenon's restored west facade is unveiled in Athens",
     overview:
       "Restorers in Athens unveiled the Parthenon's western facade, freed of scaffolding and partly recomposed from its scattered stones. Each replaced block reopens an old question: how much of a ruin can be remade before it becomes something new.",
     genre: "Culture",
@@ -699,7 +699,7 @@ const stories: Story[] = [
   {
     slug: "picasso-richter-hockney-top-art-basel-2026",
     headline:
-      "At Basel, the canvases trade for the price of small fortunes",
+      "Picasso, Richter and Hockney top the sales at Art Basel 2026",
     overview:
       "Works by Picasso, Richter and Hockney drew the largest sums at Art Basel 2026, the fair where the value of art is set in public, in real time. The spectacle is part market, part theater: a painting becomes worth exactly what the room will say out loud.",
     genre: "Culture",
@@ -774,7 +774,7 @@ const stories: Story[] = [
   {
     slug: "klara-and-the-sun-trailer-arrives",
     headline:
-      "A machine built to love watches the sun and learns to hope",
+      "First trailer arrives for the film of Ishiguro’s “Klara and the Sun”",
     overview:
       "The first trailer arrived for the film of Kazuo Ishiguro's “Klara and the Sun,” narrated by an artificial friend who studies human feeling from the outside. The story asks the old question in a new casing: what do we owe the things we make to care for us?",
     genre: "Culture",
@@ -849,7 +849,7 @@ const stories: Story[] = [
   {
     slug: "aaltos-paimio-sanatorium-to-become-a-hotel",
     headline:
-      "A temple of cures built for tuberculosis prepares to take guests",
+      "Aalto’s Paimio Sanatorium will be converted into a hotel by Snøhetta",
     overview:
       "Alvar and Aino Aalto's Paimio Sanatorium, a landmark of healing modernism designed down to the patients' basins, will be converted into a hotel by Snøhetta. A building made to mend the sick will now be asked to rest the well.",
     genre: "Culture",
@@ -920,7 +920,7 @@ const stories: Story[] = [
   {
     slug: "ballista-spider-builds-a-spring-loaded-trap",
     headline:
-      "A new spider builds a catapult of silk and waits for one kind of ant",
+      "Scientists discover an Australian spider that builds a spring-loaded trap",
     overview:
       "Researchers in the far-north Queensland rainforest have described a new spider — nicknamed the “ballista,” after the ancient catapult — that stores elastic energy in its silk and flings a single species of aggressive green tree ant into its web. The mechanics, filmed with high-speed cameras, appear in the journal Current Biology.",
     genre: "Science",
@@ -995,7 +995,7 @@ const stories: Story[] = [
   {
     slug: "brexit-ten-years-on",
     headline:
-      "Ten years after the vote, a country still adds up the bill",
+      "Britain marks ten years since the Brexit referendum",
     overview:
       "A decade on from the referendum that took Britain out of the European Union, the anniversary brought fresh reckonings with what was promised and what arrived. The argument that was supposed to be settled by a single vote has outlived it.",
     genre: "Politics",
@@ -1070,7 +1070,7 @@ const stories: Story[] = [
   {
     slug: "starmer-to-resign-as-uk-prime-minister",
     headline:
-      "A prime minister sets down the office, and the race to replace him opens overnight",
+      "Keir Starmer says he will resign as UK prime minister",
     overview:
       "Keir Starmer says he will step down as UK prime minister, throwing British politics open again as the party turns to who comes next, with Andy Burnham among the names. The exit resets a government still early in its term.",
     genre: "Politics",
@@ -1146,7 +1146,7 @@ const stories: Story[] = [
   {
     slug: "us-eases-iran-oil-sanctions-as-tehran-denies-inspector-claim",
     headline:
-      "Sanctions ease while the two sides cannot agree on what was agreed",
+      "US eases Iran oil sanctions as Tehran denies agreeing to inspections",
     overview:
       "Washington eased oil sanctions on Iran after talks in Switzerland, but Tehran publicly denied US claims that it had agreed to readmit nuclear inspectors. The central fact of the deal is now contested, with each side describing a different agreement.",
     genre: "Conflict",
@@ -1221,7 +1221,7 @@ const stories: Story[] = [
   },
   {
     slug: "trump-backed-outsider-wins-colombia-election",
-    headline: "An outsider edges ahead in Colombia, and his rival refuses the count",
+    headline: "Trump-backed outsider leads Colombia's election as his rival disputes the count",
     overview:
       "Abelardo de la Espriella holds a razor-thin lead as initial counts make him the apparent winner of Colombia's presidential vote. His rival disputes the result, and the outcome remains unsettled.",
     genre: "Politics",
@@ -1296,7 +1296,7 @@ const stories: Story[] = [
   },
   {
     slug: "red-heat-alerts-across-france-italy-spain",
-    headline: "Half of western Europe turns red as the heat refuses to break",
+    headline: "Red heat alerts cover France, Italy and Spain as temperatures top 40C",
     overview:
       "Red heat alerts cover swaths of France, Italy and Spain as forecasts push past 40C, with deaths already reported and authorities restricting outdoor activity. The European summer has arrived as an emergency.",
     genre: "Climate",
@@ -1371,7 +1371,7 @@ const stories: Story[] = [
   },
   {
     slug: "un-says-myanmar-army-killed-over-700-civilians",
-    headline: "The UN puts a number to Myanmar's dead and insists the count be kept",
+    headline: "UN says Myanmar's military killed more than 700 civilians in six months",
     overview:
       "A UN report documents more than 700 civilians killed by Myanmar's military over six months, including scores of children. The toll is set down as evidence, an attempt to keep the dead from going uncounted.",
     genre: "Conflict",
@@ -1442,7 +1442,7 @@ const stories: Story[] = [
   },
   {
     slug: "alan-greenspan-fed-maestro-dies-at-100",
-    headline: "The man who moved markets with a riddle dies at 100",
+    headline: "Alan Greenspan, longtime Federal Reserve chair, dies at 100",
     overview:
       "Alan Greenspan, who chaired the US Federal Reserve for nearly two decades and was cast as the inscrutable maestro of the economy, has died at 100. His long tenure and famously cryptic pronouncements outlived their own myth.",
     genre: "Economy",
@@ -1513,7 +1513,7 @@ const stories: Story[] = [
   },
   {
     slug: "oracle-sheds-21000-jobs-amid-ai",
-    headline: "A software giant sheds 21,000 jobs to the tools it sells",
+    headline: "Oracle cuts about 21,000 jobs as it leans into AI",
     overview:
       "Oracle's workforce shrank by roughly 21,000 people as the company leaned into AI, one of the largest cuts yet attributed to automation inside a single firm. The technology sold as help arrives, for those workers, as replacement.",
     genre: "Technology",
@@ -1584,7 +1584,7 @@ const stories: Story[] = [
   },
   {
     slug: "glm-5-2-most-powerful-open-weights-model",
-    headline: "The most powerful open model yet slips past the gate",
+    headline: "GLM-5.2 is released as the most powerful open-weights model yet",
     overview:
       "A new release, GLM-5.2, is described as probably the most powerful text-only open-weights language model to date, putting frontier-grade capability in the hands of anyone who can run it. The gate around the most advanced models keeps slipping.",
     genre: "Technology",
@@ -1655,7 +1655,7 @@ const stories: Story[] = [
   },
   {
     slug: "oldest-evidence-of-plague-mass-death-found",
-    headline: "The plague turns out to be thousands of years older than its chronicles",
+    headline: "DNA reveals the oldest known evidence of mass death from plague",
     overview:
       "Researchers report DNA evidence of mass death from plague roughly 5,000 years ago, pushing the recorded reach of the disease deep into prehistory. The same pathogen that haunts the written record turns out to be far older than its chronicles.",
     genre: "Science",
@@ -1730,7 +1730,7 @@ const stories: Story[] = [
   },
   {
     slug: "clive-davis-music-starmaker-dies-at-94",
-    headline: "The starmaker who heard the hit before anyone else dies at 94",
+    headline: "Clive Davis, the record executive behind decades of hits, dies at 94",
     overview:
       "Clive Davis, the record executive who shaped the careers of Whitney Houston, Bruce Springsteen and many others, has died at 94. He was the impresario behind the talent, the ear that turned performers into stars.",
     genre: "Culture",
@@ -1806,7 +1806,7 @@ const stories: Story[] = [
   {
     slug: "leonora-carrington-shape-of-dreams-sculptures",
     headline:
-      "Leonora Carrington's dream creatures step out of the canvas and into bronze",
+      "Leonora Carrington's surrealist creatures go on show as bronze sculptures",
     overview:
       "An exhibition brings out Leonora Carrington's sculptural work, the bronze and gilded creatures that step from her surrealist paintings into solid form. The dream bestiary she painted for decades is finally given a body.",
     genre: "Culture",
@@ -1877,7 +1877,7 @@ const stories: Story[] = [
   },
   {
     slug: "pilfered-picasso-found-in-paris-drug-bust",
-    headline: "A Paris drug raid turns up a Picasso worth millions",
+    headline: "A stolen Picasso worth millions is found in a Paris drug raid",
     overview:
       "Police searching a suburban Paris home during a narcotics raid turned up a stolen Picasso worth as much as $17 million. The painting had been living underground as contraband, a masterpiece hidden in plain sight.",
     genre: "Culture",
@@ -1948,7 +1948,7 @@ const stories: Story[] = [
   },
   {
     slug: "from-olivetti-to-instagram-brand-design-history",
-    headline: "From a typewriter to a feed: how brands learned to be seen",
+    headline: "A new book traces modern brand design from Olivetti to Instagram",
     overview:
       "A new design publication traces modern brand identity from early twentieth-century modernism to the social-media feed, the long arc from Olivetti's typewriters to Instagram's logo. The mark a company makes is read as a history of how we have learned to see.",
     genre: "Culture",
