@@ -1,20 +1,15 @@
-"use client";
-
-import { useState } from "react";
 import NextLink from "next/link";
-import { AspectRatio, Box, Flex, Heading, Link, Text } from "@radix-ui/themes";
+import { Box, Flex, Heading, Link, Popover, Text } from "@radix-ui/themes";
 import { CoverImage } from "./CoverImage";
 import { formatStoryDate, genreMeta, type Story } from "@/lib/stories";
 
 // The home page hero. The left column links into the story (headline + overview)
 // and lists the six analogy titles; the right column shows the cover, also a link
-// into the story, at a 16:9 ratio. Hovering (or focusing) an analogy swaps the
-// cover for that analogy's description and an external link to its source, so the
-// two columns stay the same height and the layout never jumps.
+// into the story, at a 16:9 ratio. Each analogy title is a button: clicking (or
+// pressing Enter on) it opens a minimal popover with that analogy's description
+// and an external link to its source.
 export function LeadStory({ story }: { story: Story }) {
   const genre = genreMeta[story.genre];
-  const [active, setActive] = useState<number | null>(null);
-  const analogy = active === null ? null : story.analogies[active];
 
   return (
     <Flex
@@ -37,30 +32,29 @@ export function LeadStory({ story }: { story: Story }) {
         <Flex asChild direction="column" gap="1" mt="2">
           <ul style={{ listStyle: "none" }}>
             {story.analogies.map((a, i) => (
-              <li
-                key={i}
-                tabIndex={0}
-                onMouseEnter={() => setActive(i)}
-                onMouseLeave={() => setActive(null)}
-                onFocus={() => setActive(i)}
-                onBlur={() => setActive(null)}
-                style={{
-                  cursor: "default",
-                  borderRadius: "var(--radius-2)",
-                  padding: "2px 6px",
-                  margin: "0 -6px",
-                  backgroundColor:
-                    active === i ? "var(--gray-3)" : "transparent",
-                  transition: "background-color 150ms",
-                }}
-              >
-                <Text
-                  size="1"
-                  weight="light"
-                  color={active === i ? undefined : "gray"}
-                >
-                  {a.title}
-                </Text>
+              <li key={i}>
+                <Popover.Root>
+                  <Popover.Trigger>
+                    <button type="button" className="analogy-trigger">
+                      <Text size="1" weight="light">
+                        {a.title}
+                      </Text>
+                    </button>
+                  </Popover.Trigger>
+                  <Popover.Content size="1" maxWidth="280px">
+                    <Flex direction="column" gap="2">
+                      <Text size="2">{a.excerpt}</Text>
+                      <Link
+                        href={a.href}
+                        target="_blank"
+                        rel="noreferrer"
+                        size="2"
+                      >
+                        Read more at {hostname(a.href)} →
+                      </Link>
+                    </Flex>
+                  </Popover.Content>
+                </Popover.Root>
               </li>
             ))}
           </ul>
@@ -73,21 +67,7 @@ export function LeadStory({ story }: { story: Story }) {
       </Flex>
 
       <Box flexGrow="1" minWidth="0" width="100%">
-        {analogy ? (
-          <AspectRatio ratio={16 / 9}>
-            <Flex direction="column" justify="between" gap="3" height="100%">
-              <Text size="2">{analogy.excerpt}</Text>
-              <Link
-                href={analogy.href}
-                target="_blank"
-                rel="noreferrer"
-                size="2"
-              >
-                Read more at {hostname(analogy.href)} →
-              </Link>
-            </Flex>
-          </AspectRatio>
-        ) : story.image ? (
+        {story.image ? (
           <NextLink href={`/story/${story.slug}`} style={{ display: "block" }}>
             <CoverImage
               image={story.image}
