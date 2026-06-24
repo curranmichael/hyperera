@@ -83,17 +83,990 @@ export const categoryMeta: Record<
   artistic: { label: "Musical / Artistic", color: "crimson" },
 };
 
-// Hand-curated front page for 2026-06-23, selected from the live RSS feeds in
+// Hand-curated front page. The 2026-06-24 edition (ranks 1-13) leads; the prior
+// 2026-06-23 edition follows (ranks 14-26). Selected from the live RSS feeds in
 // `lib/feeds.ts`. The analogies are the heart of each story: six per event, two
 // per category, each linking to a real human-written source (a primary text,
-// museum object page, or archive). Overviews and excerpts describe rather than
-// quote, in keeping with the strict-verification ethos; any short quotation is
-// drawn only from public-domain sources. Covers are dithered local copies: feed
+// museum object page, or archive). Excerpts quote the most relevant passage
+// verbatim where the source is public domain, and otherwise describe rather than
+// quote, in keeping with the strict-verification ethos. Covers are dithered local copies: feed
 // or rights-clean Wikimedia art credited to the source, otherwise an
 // AI-generated illustration (credit "AI-generated", from `npm run images:generate`).
 // Source links to AP/Reuters are Google News redirects (see `lib/feeds.ts`); a
 // later verify pass canonicalizes them.
 const stories: Story[] = [
+  {
+    slug: "congress-invokes-war-powers-to-halt-trump-iran-war",
+    headline:
+      "For the first time, the legislature reaches for the war and tries to call it back",
+    overview:
+      "Both houses of Congress have passed a war powers measure rebuking President Trump's military action against Iran — the first time the resolution has cleared Congress since it was written. The vote is a rare assertion that the power to make war was meant to be shared, even as its practical force remains uncertain.",
+    genre: "Politics",
+    sources: [
+      {
+        name: "BBC",
+        href: "https://www.bbc.com/news/articles/ce8j6g3v3r4o",
+      },
+      {
+        name: "Reuters",
+        href: "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNmhxUVNibG82ZUN6NG5vUGVEb3c3X3ExNXJKYjFwYzZCYi03ZGFjX2JNZ1VyNzRzSzF5U3V4LVhIUGM4U0lrZzY4SmhBeGZuVHlqLWxsQ3hPRk5aYVZtT2ZPUk84LUl2LWw1WEl5ai1OS3ZFcGlKTmpEZmVPeG5rT1QwOFVoY25iS2NXRjBPTnQtNnBxYkNpQXFVT1hKTEJYbGJpSg?oc=5",
+      },
+    ],
+    href: "#",
+    publishedAt: "2026-06-24",
+    image: {
+      src: "/covers/congress-invokes-war-powers-to-halt-trump-iran-war.png",
+      alt: "An empty legislative chamber at dawn",
+      credit: "BBC",
+    },
+    lead: true,
+    rank: 1,
+    analogies: [
+      {
+        category: "historical",
+        title: "The English Bill of Rights, 1689",
+        excerpt: "That the raising or keeping a standing army within the kingdom in time of peace, unless it be with consent of Parliament, is against law;",
+        source: "Act of Parliament, 1689 — The Avalon Project, Yale Law School",
+        href: "https://avalon.law.yale.edu/17th_century/england.asp",
+      },
+      {
+        category: "historical",
+        title: "Thucydides, the Mytilenean Debate, 427 BCE",
+        excerpt: "The morrow brought repentance with it and reflection on the horrid cruelty of a decree, which condemned a whole city to the fate merited only by the guilty. This was no sooner perceived by the Mitylenian ambassadors at Athens and their Athenian supporters, than they moved the authorities to put the question again to the vote; which they the more easily consented to do, as they themselves plainly saw that most of the citizens wished some one to give them an opportunity for reconsidering the matter. An assembly was therefore at once called.",
+        source: "History of the Peloponnesian War, Book 3.36 (Crawley trans.)",
+        href: "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_3",
+      },
+      {
+        category: "literary",
+        title: "Aeschylus, \"The Persians,\" 472 BCE",
+        excerpt: "And who is set over them as shepherd and is master of their host? Of no man are they called the slaves or vassals.",
+        source: "Tragedy, 472 BCE — Perseus Digital Library (Smyth trans.)",
+        href: "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0012:card%3D232",
+      },
+      {
+        category: "literary",
+        title: "Shakespeare, \"Henry V,\" Act 4, Scene 1",
+        excerpt: "But if the cause be not good, the king himself hath a heavy reckoning to make, when all those legs and arms and heads, chopped off in battle, shall join together at the latter day and cry all 'We died at such a place;' some swearing, some crying for a surgeon, some upon their wives left poor behind them, some upon the debts they owe, some upon their children rawly left.",
+        source: "History play, 1600 — The Complete Works, MIT",
+        href: "http://shakespeare.mit.edu/henryv/henryv.4.1.html",
+      },
+      {
+        category: "artistic",
+        title: "Francisco Goya, \"The Third of May 1808\"",
+        excerpt: "A lantern throws its hard white light on a man in a white shirt, arms flung wide, the instant before the volley. Facing him a rank of soldiers, faceless, bent to their rifles, a single machine of the state. At his feet the already dead; behind him the line of those still to die, hands at their eyes. Goya paints the war-maker's arithmetic from the wrong end of the barrel: the reckoning that comes, as it always does, too late for the man in the white shirt.",
+        source: "Oil on canvas, 1814 — Museo del Prado, Madrid",
+        href: "https://en.wikipedia.org/wiki/The_Third_of_May_1808",
+        image: {
+          src: "/covers/congress-invokes-war-powers-to-halt-trump-iran-war--a4.png",
+          alt: "Goya, “The Third of May 1808”",
+          credit: "Wikimedia Commons",
+        },
+      },
+      {
+        category: "artistic",
+        title: "Beethoven, Symphony No. 3 \"Eroica,\" Op. 55, 1804",
+        excerpt: "He had written the hero's name across the title page in his own hand, dedication to the one man who seemed to carry the rights of all men. Then word came that the man had crowned himself, and Beethoven took the page and scratched the name out so hard the pen tore through the paper. What was meant to honor a liberator became music \"to the memory of a great man\" — the artist reaching back to recall a tribute he could no longer give to a ruler who had set himself above the people.",
+        source: "Orchestral score, 1804 — IMSLP",
+        href: "https://imslp.org/wiki/Symphony_No.3,_Op.55_(Beethoven,_Ludwig_van)",
+      },
+    ],
+  },
+  {
+    slug: "ai-stocks-slump-revives-the-bubble-question",
+    headline:
+      "The market that could only rise remembers how to fall",
+    overview:
+      "A sharp slide in big technology shares dragged Wall Street lower, reviving the question of whether the long AI rally is investors taking profit or the first crack in a bubble. For now no one can say which, and the not-knowing is itself the story.",
+    genre: "Economy",
+    sources: [
+      {
+        name: "AP",
+        href: "https://news.google.com/rss/articles/CBMijwFBVV95cUxPc0hsaTJHSzN3R1pMUkVGZUZncFczQjZMaHh6RzNzS3BFYWs4ZDQ2b3IzcDE2TXo4LVdReE9QSkNMLXY0eDJBR3RGUzZ0Z2ltUTZLUDdKd2ZsaERzVnZFcXlod1hrVTU1V3VQUngtam9CX0FoWWZOUTVtUlVRakhvcEw4Ti1vQ3ZjbmRsak95MA?oc=5",
+      },
+      {
+        name: "Reuters",
+        href: "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVVhrUmdEOThuTVBvZ2hvWXR5QjJXLXRnb2NicWtJX0hBcWJNRV9yVHlONk5CWkcyeG1rcjJweXdkVDUzYmtUU3o2MHhfM0MyVVZJNEUwaUJQYzh2YWlCTWtiZF85OFJDWTNIRktqVk9jZ1hyRjAyX1NTVzNqakVBdDVYTQ?oc=5",
+      },
+    ],
+    href: "#",
+    publishedAt: "2026-06-23",
+    image: {
+      src: "/covers/ai-stocks-slump-revives-the-bubble-question.png",
+      alt: "A trading floor as the tide turns",
+      credit: "Wikimedia Commons",
+    },
+    rank: 2,
+    analogies: [
+      {
+        category: "historical",
+        title: "The South Sea Bubble bursts, 1720",
+        excerpt: "Sensible men beheld the extraordinary infatuation of the people with sorrow and alarm. There were some both in and out of parliament who foresaw clearly the ruin that was impending.",
+        source: "Economic history — Mackay, 1841",
+        href: "https://www.gutenberg.org/files/24518/24518-h/24518-h.htm",
+      },
+      {
+        category: "historical",
+        title: "Tulipomania collapses, Holland, 1630s",
+        excerpt: "At last, however, the more prudent began to see that this folly could not last for ever. Rich people no longer bought the flowers to keep them in their gardens, but to sell them again at cent per cent profit. It was seen that somebody must lose fearfully in the end. As this conviction spread, prices fell, and never rose again.",
+        source: "Economic history — Mackay, 1841",
+        href: "https://www.gutenberg.org/files/24518/24518-h/24518-h.htm",
+      },
+      {
+        category: "literary",
+        title: "Anthony Trollope, \"The Way We Live Now\" (1875)",
+        excerpt: "How odd it seems! It isn't a fortnight since we all thought him the greatest man in London.",
+        source: "Novel, 1875",
+        href: "https://www.gutenberg.org/files/5231/5231-h/5231-h.htm",
+      },
+      {
+        category: "literary",
+        title: "Émile Zola, \"Money\" (L'Argent, 1891)",
+        excerpt: "This was the usual result which attends an augmentation of capital: the classic whip-stroke, the trick of stimulating success, of urging the quotations into a brisk canter whenever there is a new issue. But the rise was also in a measure due to the genuine importance of the enterprises which the Bank was about to launch. The large yellow bills, placarded all over Paris, announcing the approaching opening of the Carmel silver mines, had ended by turning every head.",
+        source: "Novel, 1891 (trans. Vizetelly)",
+        href: "https://www.gutenberg.org/files/56987/56987-h/56987-h.htm",
+      },
+      {
+        category: "artistic",
+        title: "Hogarth, \"The South Sea Scheme\" (1721)",
+        excerpt: "Hogarth's first great satire sets a fairground of greed beneath the City's spires: speculators ride a whirligig while Honesty is broken on the wheel and Honour flogged, the crowd gambling its way to ruin even as the machine spins on. It is the bubble drawn as a carnival — euphoria and the gallows in a single frame.",
+        source: "Engraving, 1721",
+        href: "https://en.wikipedia.org/wiki/Emblematical_Print_on_the_South_Sea_Scheme",
+        image: {
+          src: "/covers/ai-stocks-slump-revives-the-bubble-question--a4.png",
+          alt: "Hogarth, “The South Sea Scheme”",
+          credit: "Wikimedia Commons",
+        },
+      },
+      {
+        category: "artistic",
+        title: "Edward Matthew Ward, \"The South Sea Bubble, a Scene in 'Change Alley in 1720\" (1847)",
+        excerpt: "Ward paints the morning after as a heaving crush in 'Change Alley: top-hatted gentlemen and ruined clerks press together in a street that has become a casino, faces lit with greed turning to dread. Looking back from Victorian London at a crash a century gone, he makes speculation a costume drama whose moral never dates.",
+        source: "Oil on canvas, 1847 — Tate",
+        href: "https://www.tate.org.uk/art/artworks/ward-the-south-sea-bubble-a-scene-in-change-alley-in-1720-n00432",
+      },
+    ],
+  },
+  {
+    slug: "ships-return-to-the-strait-of-hormuz-amid-toll-warnings",
+    headline:
+      "The world's narrowest doorway reopens, and everyone counts the toll",
+    overview:
+      "Dozens of ships moved again through the Strait of Hormuz after a US–Iran deal, even as the UN moved to evacuate stranded sailors and Washington warned against any attempt to levy tolls on the passage. The fate of a fifth of the world's oil hangs on a channel a few miles wide.",
+    genre: "Conflict",
+    sources: [
+      {
+        name: "BBC",
+        href: "https://www.bbc.com/news/articles/c24yr796emzo",
+      },
+      {
+        name: "Reuters",
+        href: "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSjlBc1JxN0hPX3MwaDU1UDMyeEE1SG1tRS1ma1FpSENKVVdpVzY3eUNoeUJvdGtVVDZtRm84UG1jTjBwV0s0RTExRHZCczB3TnBYN05CSlJueGNLSU1zeUstS0U0NTBBa0NhUU00VE0wQWFWU0ZfWGtiT2tfeVBpdWV1NmZ3UlBvTmxwRXU3WlVPNGdDU3VWNXJMOWJfNWM1ZEtyNS1YV3JlY2xEeTZmczZsRmdrd1AzMVhZTEFVdw?oc=5",
+      },
+    ],
+    href: "#",
+    publishedAt: "2026-06-23",
+    image: {
+      src: "/covers/ships-return-to-the-strait-of-hormuz-amid-toll-warnings.png",
+      alt: "Tankers threading a narrow strait",
+      credit: "BBC",
+    },
+    rank: 3,
+    analogies: [
+      {
+        category: "historical",
+        title: "The Sound Dues at Elsinore (debated in the House of Commons, 5 June 1857)",
+        excerpt: "The delays ships meet with at Elsinore from having to remain for their necessary papers from the Custom House is often the cause of many disasters.",
+        source: "Hansard, UK Parliament",
+        href: "https://api.parliament.uk/historic-hansard/commons/1857/jun/05/sound-dues-committee",
+      },
+      {
+        category: "historical",
+        title: "The Suez Crisis, 1956 — Nasser's Nationalization Speech (Alexandria, 26 July 1956)",
+        excerpt: "Egypt nationalized the Egyptian Suez Canal company. When Egypt granted the concession to de Lesseps it was stated in the concession between the Egyptian Government and the Egyptian company that the company of the Suez Canal is an Egyptian company subject to Egyptian authority.",
+        source: "Fordham Modern History Sourcebook",
+        href: "https://sourcebooks.fordham.edu/mod/1956nasser-suez1.asp",
+      },
+      {
+        category: "literary",
+        title: "Homer, \"Odyssey\" — Scylla and Charybdis (Book 12, 8th c. BCE)",
+        excerpt: "No ship ever yet got past her without losing some men, for she shoots out all her heads at once, and carries off a man in each mouth.",
+        source: "Epic, trans. Samuel Butler",
+        href: "https://www.gutenberg.org/cache/epub/1727/pg1727.html",
+      },
+      {
+        category: "literary",
+        title: "Apollonius Rhodius, \"Argonautica\" — the Clashing Rocks (Book 2, 3rd c. BCE)",
+        excerpt: "First entrust the attempt to a dove when ye have sent her forth from the ship. And if she escapes safe with her wings between the rocks to the open sea, then no more do ye refrain from the path, but grip your oars well in your hands and cleave the sea's narrow strait, for the light of safety will be not so much in prayer as in strength of hands.",
+        source: "Epic, trans. R. C. Seaton",
+        href: "https://www.gutenberg.org/cache/epub/13977/pg13977.html",
+      },
+      {
+        category: "artistic",
+        title: "Henry Fuseli, \"Odysseus in front of Scylla and Charybdis\" (oil on canvas, 1794–1796)",
+        excerpt: "Fuseli stages the strait as a single instant of dread: Odysseus rears up in his open boat, shield flung above his head, while the six necks of Scylla coil down from the cliff to pluck his oarsmen one by one. Below the hull the funnel of Charybdis turns. There is no third course between the two—only the toll, paid in men, that the narrows always exact.",
+        source: "Aargauer Kunsthaus, Aarau",
+        href: "https://commons.wikimedia.org/wiki/File:Johann_Heinrich_F%C3%BCssli_054.jpg",
+        image: {
+          src: "/covers/ships-return-to-the-strait-of-hormuz-amid-toll-warnings--a4.png",
+          alt: "Fuseli, “Odysseus before Scylla and Charybdis”",
+          credit: "Wikimedia Commons",
+        },
+      },
+      {
+        category: "artistic",
+        title: "Maerten van Heemskerck, \"The Colossus of Rhodes\" (engraving, Seven Wonders series, 1572)",
+        excerpt: "Heemskerck sets the bronze giant astride the harbour mouth, one foot on each mole, while small ships pass beneath his legs into the port. The conceit is historically false—the real Colossus never spanned the entrance—but it captures the older truth the print means to flatter: whoever stands over the narrows commands everything that would sail through them.",
+        source: "Engraving, publ. Philips Galle",
+        href: "https://commons.wikimedia.org/wiki/File:Colossus_of_Rhodes.jpg",
+      },
+    ],
+  },
+  {
+    slug: "mamdani-slate-sweeps-new-york-primaries",
+    headline:
+      "A new machine routs the old, and a famous name is sent home",
+    overview:
+      "Candidates backed by Zohran Mamdani swept New York's Democratic primaries, ousting two incumbents from Congress, while a scion of the Kennedy family lost a crowded, expensive race. A generation that ran the city's politics is being shown the door.",
+    genre: "Politics",
+    sources: [
+      {
+        name: "AP",
+        href: "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY0lqaEZQNlNDM2hCUEZvTXdfMmZ0R050aTZWOUlsR0RYZWQ5ZkUwcHJkd0FyOHBqOG9kS1o0MF9GeWpqd0M0ajdqOE5vWXZxb1VsZUhrSzFjaG1xbkNNZTc4aGpIYXoxQjVIX3dKVXBraUEwVHh0Ny1PREtLR3dETXRxWG9KNVNaVHBmRURhdjloVk5TS2lwbzVDcw?oc=5",
+      },
+      {
+        name: "BBC",
+        href: "https://www.bbc.com/news/articles/clye652m41po",
+      },
+    ],
+    href: "#",
+    publishedAt: "2026-06-24",
+    image: {
+      src: "/covers/mamdani-slate-sweeps-new-york-primaries.png",
+      alt: "An election night, a changing of the guard",
+      credit: "BBC",
+    },
+    rank: 4,
+    analogies: [
+      {
+        category: "historical",
+        title: "The fall of Boss Tweed and Tammany Hall, New York (1871)",
+        excerpt: "I don't care who does the electing, so long as I get to do the nominating.",
+        source: "William M. Tweed, Wikiquote",
+        href: "https://en.wikiquote.org/wiki/William_M._Tweed",
+      },
+      {
+        category: "historical",
+        title: "Plutarch, Life of Tiberius Gracchus, ch. 9 (Perrin trans., 1921)",
+        excerpt: "The wild beasts that roam over Italy have every one of them a cave or lair to lurk in; but the men who fight and die for Italy enjoy the common air and light, indeed, but nothing else; houseless and homeless they wander about with their wives and children.",
+        source: "Perseus Digital Library",
+        href: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0065:chapter=9",
+      },
+      {
+        category: "literary",
+        title: "Shakespeare, Henry IV, Part 2, Act V, Scene 5 (c. 1597)",
+        excerpt: "I know thee not, old man: fall to thy prayers; How ill white hairs become a fool and jester! I have long dream'd of such a kind of man, So surfeit-swell'd, so old and so profane; But, being awaked, I do despise my dream.",
+        source: "The Complete Works of Shakespeare (MIT)",
+        href: "https://shakespeare.mit.edu/2henryiv/2henryiv.5.5.html",
+      },
+      {
+        category: "literary",
+        title: "Ecclesiastes 1:4, King James Version (1611)",
+        excerpt: "One generation passeth away, and another generation cometh: but the earth abideth for ever.",
+        source: "Wikisource",
+        href: "https://en.wikisource.org/wiki/Bible_(King_James)/Ecclesiastes",
+      },
+      {
+        category: "artistic",
+        title: "Thomas Nast, \"The Tammany Tiger Loose,\" Harper's Weekly (Nov. 11, 1871), wood engraving",
+        excerpt: "The Tammany Tiger Loose—'What are you going to do about it?'",
+        source: "Wikimedia Commons",
+        href: "https://commons.wikimedia.org/wiki/File:Nast-Tammany.jpg",
+        image: {
+          src: "/covers/mamdani-slate-sweeps-new-york-primaries--a4.png",
+          alt: "Thomas Nast, “The Tammany Tiger Loose”",
+          credit: "Wikimedia Commons",
+        },
+      },
+      {
+        category: "artistic",
+        title: "\"The World Turned Upside Down,\" English broadside ballad (1646)",
+        excerpt: "Yet let's be content, and the times lament, you see the world turn'd upside down.",
+        source: "Wikipedia (Thomason Tracts, 8 April 1646)",
+        href: "https://en.wikipedia.org/wiki/The_World_Turned_Upside_Down",
+      },
+    ],
+  },
+  {
+    slug: "ukraine-strikes-rail-bridge-to-isolate-crimea",
+    headline:
+      "To take a peninsula, first cut the thread that feeds it",
+    overview:
+      "Ukraine says it struck a railway bridge carrying supplies toward Crimea, part of a campaign to isolate the Russian-held peninsula, as Sevastopol and occupied Kherson reported power outages. The aim is older than the weapons: sever the line and the held ground starves.",
+    genre: "Conflict",
+    sources: [
+      {
+        name: "AP",
+        href: "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd1VSejl2SUhJMm5fZDVLcW84X0FKOUpnc0tKUHVSYkNLR3lxY1JFNFBRTE50RkgxcVRJY1hMR0VQVGlkcWRIaldSNjZDbnRPQW44R2dLWFdoWGV2c2lHVGNpWWxxU2xIdHhSTWVya2xXUElVb3M1NFRjdk9SWjN3Y3JjUjRza3kyX0pIOTVHOWVMdnlHWVVET0d5SWNKV25HLWlZ?oc=5",
+      },
+      {
+        name: "Euronews",
+        href: "https://www.euronews.com/my-europe/2026/06/23/ukraine-says-key-crimea-rail-bridge-no-longer-exists-after-drone-strikes",
+      },
+    ],
+    href: "#",
+    publishedAt: "2026-06-23",
+    image: {
+      src: "/covers/ukraine-strikes-rail-bridge-to-isolate-crimea.png",
+      alt: "A severed railway bridge at dusk",
+      credit: "Euronews",
+    },
+    rank: 5,
+    analogies: [
+      {
+        category: "historical",
+        title: "Sherman's Memoirs, on the March to the Sea and the twisting of the rails (1864)",
+        excerpt: "The best and easiest way is the one I have described, of heating the middle of the iron-rails on bonfires made of the cross-ties, and then winding them around a telegraph-pole or the trunk of some convenient sapling.",
+        source: "Memoirs of Gen. W. T. Sherman, Vol. II (Project Gutenberg)",
+        href: "https://www.gutenberg.org/files/5853/5853-h/5853-h.htm",
+      },
+      {
+        category: "historical",
+        title: "Caesar, The Gallic War, Book VII.68 — the circumvallation of Alesia (52 BC)",
+        excerpt: "On reconnoitering the situation of the city, finding that the enemy were panic-stricken, because the cavalry in which they placed their chief reliance, were beaten, he encouraged his men to endure the toil, and began to draw a line of circumvallation round Alesia.",
+        source: "Perseus Digital Library (McDevitte & Bohn trans.)",
+        href: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001:book=7:chapter=68",
+      },
+      {
+        category: "literary",
+        title: "Homer, Iliad, Book XII — the Achaean wall and trench fail to hold (8th c. BC)",
+        excerpt: "So then amid the huts the valiant son of Menoetius was tending the wounded Eurypylus, but the others, Argives and Trojans, fought on in throngs, nor were the ditch of the Danaans and their wide wall above long to protect them.",
+        source: "Perseus Digital Library (A. T. Murray trans.)",
+        href: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0134:book=12:card=1",
+      },
+      {
+        category: "literary",
+        title: "Tasso, Jerusalem Delivered — the drought that withers the besiegers' water (Fairfax trans., 1600)",
+        excerpt: "And little Siloe that his store bestows / Of purest crystal on the Christian bands, / The pebbles naked in his channel shows / And scantly glides above the scorched sands.",
+        source: "Jerusalem Delivered, trans. Edward Fairfax (Project Gutenberg)",
+        href: "https://www.gutenberg.org/files/392/392-h/392-h.htm",
+      },
+      {
+        category: "artistic",
+        title: "George N. Barnard, 'Sherman's men destroying railroad,' Atlanta (photograph, 1864)",
+        excerpt: "Soldiers stand along a torn-up line outside Atlanta, the rails levered loose and the ties stacked to burn — the photograph fixes the precise act behind this week's bridge strike: not a battle won, but a lifeline severed, the held ground quietly left to wither. Logistics, the war's silent arbiter, made visible.",
+        source: "Library of Congress / Wikimedia Commons",
+        href: "https://commons.wikimedia.org/wiki/File:Sherman_railroad_destroy.jpg",
+        image: {
+          src: "/covers/ukraine-strikes-rail-bridge-to-isolate-crimea--a4.png",
+          alt: "Sherman's men destroying the railroad, 1864",
+          credit: "Wikimedia Commons",
+        },
+      },
+      {
+        category: "artistic",
+        title: "J. B. Elliott, 'Scott's Great Snake' — the Anaconda Plan to strangle the Confederacy (lithograph, 1861)",
+        excerpt: "A great serpent labeled with Winfield Scott's coastal blockade and Mississippi thrust coils around the seceded South, its body a tightening ring meant to cut the Confederacy off from what fed it and squeeze until its breath gave out. The cartoon makes the event's own logic plain: to break a place, ring it and starve it.",
+        source: "Library of Congress, Geography and Map Division",
+        href: "https://www.loc.gov/item/99447020",
+      },
+    ],
+  },
+  {
+    slug: "a-single-fault-halts-all-of-germanys-trains",
+    headline:
+      "One fault, and a nation's trains all stop at once",
+    overview:
+      "Germany's rail network was briefly halted nationwide after an IT and communications malfunction, stranding trains across the country before service resumed. A single point of failure showed how much of modern life rests on one quietly humming system.",
+    genre: "Technology",
+    sources: [
+      {
+        name: "BBC",
+        href: "https://www.bbc.com/news/articles/crm0ek4z7ggo",
+      },
+      {
+        name: "AP",
+        href: "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORmdjb1p0RTZETDI1XzhnSjJpTnpRSkJuSENLLU5ZQmQ2emZ5QjVLZWhxdS1MQXFIZUk4OVdITVpPdjAxS1E5eUxCWTFIX2NrVEtOUjFmek5NM1REUWR0LUl3ZW83VFhCYlFyTER3ZnlfVEVLYldpWGk2UXQ1Z0h0ekhPalFoTS1yLVB0cjgwOFF1OEdYcDhXVk0xSmJXQ05XM3NKOUZ5Mlo1UkpTaDJjYjExMC1xZ25hTW1BbmNfdS1rUQ?oc=5",
+      },
+    ],
+    href: "#",
+    publishedAt: "2026-06-24",
+    image: {
+      src: "/covers/a-single-fault-halts-all-of-germanys-trains.png",
+      alt: "An empty platform beneath a stopped clock",
+      credit: "BBC",
+    },
+    rank: 6,
+    analogies: [
+      {
+        category: "historical",
+        title: "The Northeast Blackout of November 9, 1965",
+        excerpt: "The safety relay had been misprogrammed, and it did what it had been asked to do: to disconnect under the loads it perceived. Instantly, the load that was flowing on the tripped line redistributed to the other lines, causing them to become overloaded. Their own protective relays, which are also designed to protect the lines from overload, tripped, isolating Beck Station.",
+        source: "Wikipedia (Federal Power Commission findings)",
+        href: "https://en.wikipedia.org/wiki/Northeast_blackout_of_1965",
+      },
+      {
+        category: "historical",
+        title: "The AT&T Long-Distance Network Collapse, January 15, 1990",
+        excerpt: "The problem repeated iteratively throughout the 114 switches in the network, blocking over 50 million calls in the nine hours it took to stabilize the system. ... Because every switch contained the same software, the resets cascaded down the network, incapacitating the system.",
+        source: "Cal Poly, \"All Circuits Are Busy Now\"",
+        href: "https://users.csc.calpoly.edu/~jdalbey/SWE/Papers/att_collapse",
+      },
+      {
+        category: "literary",
+        title: "E. M. Forster, \"The Machine Stops\" (1909), Chapter III",
+        excerpt: "But there came a day when, without the slightest warning, without any previous hint of feebleness, the entire communication-system broke down, all over the world, and the world, as they understood it, ended.",
+        source: "Wikisource",
+        href: "https://en.wikisource.org/wiki/The_Machine_Stops/Chapter_III",
+      },
+      {
+        category: "literary",
+        title: "Benjamin Franklin, \"The Way to Wealth\" (1758)",
+        excerpt: "A little neglect may breed great mischief; for want of a nail the shoe was lost; for want of a shoe the horse was lost; and for want of a horse the rider was lost; being overtaken and slain by the enemy; all for want of a little care about a horse-shoe nail.",
+        source: "Project Gutenberg",
+        href: "https://www.gutenberg.org/files/43855/43855-h/43855-h.htm",
+      },
+      {
+        category: "artistic",
+        title: "Pieter Bruegel the Elder, \"The Tower of Babel\" (1563, oil on panel)",
+        excerpt: "And the LORD said, Behold, the people is one, and they have all one language; and this they begin to do: and now nothing will be restrained from them, which they have imagined to do. Go to, let us go down, and there confound their language, that they may not understand one another's speech.",
+        source: "Kunsthistorisches Museum, Vienna (text: Genesis 11, KJV)",
+        href: "https://en.wikipedia.org/wiki/The_Tower_of_Babel_(Bruegel)",
+        image: {
+          src: "/covers/a-single-fault-halts-all-of-germanys-trains--a4.png",
+          alt: "Bruegel, “The Tower of Babel”",
+          credit: "Wikimedia Commons",
+        },
+      },
+      {
+        category: "artistic",
+        title: "François-Bernard Lépicié after Chardin, \"Le Château de cartes\" (1743, engraving)",
+        excerpt: "Aimable Enfant que le plaisir décide, / Nous badinons de vos frêles travaux: / Mais entre nous, quel est le plus solide. / De nos projets ou bien de vos châteaux.",
+        source: "Harvard Art Museums",
+        href: "https://harvardartmuseums.org/collections/object/354739",
+      },
+    ],
+  },
+  {
+    slug: "anthropics-mythos-model-breaches-classified-systems",
+    headline:
+      "We built an oracle, and it read the locks we thought were sealed",
+    overview:
+      "Anthropic's Mythos model found vulnerabilities in classified US government systems, according to reports — an AI turning its attention to the very defenses meant to be impregnable. The tool built to help now reads every door, and the question is who holds the key.",
+    genre: "Technology",
+    sources: [
+      {
+        name: "Reuters",
+        href: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTEx4cERSZUZNYkRrVFVLVXpTRlh0NDNnZEF5OGg1cXI4WGwweDdzdFM0dFVUZ3YwWXNTUEVjZHhyWUJLWTlFVUw4eXREaG8wbDZaVFFpb0owVE9RbjhTN3JrYUoycGpqamRkd3lmTDRZaUNvUmEwTXhDNHZKU1hjTWkza2hvTWVCYURISXN2eVMtcXhybldMVVBrTV9KS01rRVJPUFpGcHA2LWtKTEZQbHdYS1E0YWVkcUI4SXNvdXg?oc=5",
+      },
+      {
+        name: "AP",
+        href: "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYkVjS1FaVVQ2OWktYzZzT0kzdHZGVWE0eks1bnp4VFdQbzlHWlRMQUNaSWNPVkpWdURmbFdrOEJkQ09kMlQxNk9EZEtsVEZLNG5GeG9FanpjblBON194Y3UzUlVNUDE3SkVZTWExU2VCUHZGVlkybVFURFFzdXJVQWlobmYxeFRoalFpM1A5ZWNDQ2FNZnlkUXBObmpyMHkzVHpwWEJKT0ZJRk9OdjZGYkFhSEVwSHpsU0ZIR2Jobw?oc=5",
+      },
+    ],
+    href: "#",
+    publishedAt: "2026-06-24",
+    image: {
+      src: "/covers/anthropics-mythos-model-breaches-classified-systems.png",
+      alt: "A vault door standing ajar",
+      credit: "Wikimedia Commons",
+    },
+    rank: 7,
+    analogies: [
+      {
+        category: "historical",
+        title: "The Oracle of Delphi answers Croesus — Herodotus, Histories I.53 (5th c. BC)",
+        excerpt: "Both the oracles agreed in the tenor of their reply, which was in each case a prophecy that if Croesus attacked the Persians, he would destroy a mighty empire, and a recommendation to him to look and see who were the most powerful of the Greeks, and to make alliance with them.",
+        source: "Herodotus, Histories (Rawlinson trans.)",
+        href: "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Rawlinson)/Book_1",
+      },
+      {
+        category: "historical",
+        title: "The Zimmermann Telegram, decrypted by British cryptanalysts (January 1917)",
+        excerpt: "We intend to begin on the first of February unrestricted submarine warfare. We shall endeavor in spite of this to keep the United States of America neutral.",
+        source: "U.S. National Archives",
+        href: "https://www.archives.gov/milestone-documents/zimmermann-telegram",
+      },
+      {
+        category: "literary",
+        title: "Virgil, Aeneid, Book II — the Wooden Horse enters Troy (19 BC)",
+        excerpt: "Ourselves did make a breach within our walls and opened wide the ramparts of our city. … till o'er our walls the fatal engine climbed, pregnant with men-at-arms.",
+        source: "Virgil, Aeneid II (Williams trans., Perseus)",
+        href: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0054:book=2:card=234",
+      },
+      {
+        category: "literary",
+        title: "Aeschylus, Prometheus Bound — the forbidden gift of letters and number (5th c. BC)",
+        excerpt: "Yes, and numbers, too, chiefest of sciences, I invented for them, and the combining of letters, creative mother of the Muses' arts, with which to hold all things in memory.",
+        source: "Aeschylus, Prometheus Bound (Smyth trans., Perseus)",
+        href: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0010:card=436",
+      },
+      {
+        category: "artistic",
+        title: "Giovanni Domenico Tiepolo, The Procession of the Trojan Horse into Troy (oil on canvas, c. 1760)",
+        excerpt: "Tiepolo paints the moment of the breach made festival: the great wooden horse, taller than the gatehouse, is hauled through Troy's broken wall by a jubilant crowd who mistake their undoing for a triumph. The fortified city, receding into bright Roman stonework behind, has opened its own defenses to the engine of its ruin.",
+        source: "National Gallery, London / Wikimedia Commons",
+        href: "https://www.nationalgallery.org.uk/paintings/giovanni-domenico-tiepolo-the-procession-of-the-trojan-horse-into-troy",
+        image: {
+          src: "/covers/anthropics-mythos-model-breaches-classified-systems--a4.png",
+          alt: "Tiepolo, “The Procession of the Trojan Horse into Troy”",
+          credit: "Wikimedia Commons",
+        },
+      },
+      {
+        category: "artistic",
+        title: "Goethe, \"Prometheus\" — ode of defiant creation (written c. 1773, published 1789)",
+        excerpt: "Here sit I, forming mortals After my image; A race resembling me, To suffer, to weep, To enjoy, to be glad, And thee to scorn, As I!",
+        source: "The Works of J. W. von Goethe, Vol. 9 (Wikisource)",
+        href: "https://en.wikisource.org/wiki/The_Works_of_J._W._von_Goethe/Volume_9/Prometheus",
+      },
+    ],
+  },
+  {
+    slug: "parthenons-restored-west-facade-unveiled",
+    headline:
+      "After two centuries of scaffolding, the temple shows its face again",
+    overview:
+      "Restorers in Athens unveiled the Parthenon's western facade, freed of scaffolding and partly recomposed from its scattered stones. Each replaced block reopens an old question: how much of a ruin can be remade before it becomes something new.",
+    genre: "Culture",
+    sources: [
+      {
+        name: "Artforum",
+        href: "https://www.artforum.com/news/western-facade-of-the-parthenon-restored-and-unobstructed-1234752681/",
+      },
+      {
+        name: "Euronews",
+        href: "https://www.euronews.com/culture/2026/06/18/keeping-up-appearances-greece-reveals-parthenon-facade-after-220-years",
+      },
+    ],
+    href: "#",
+    publishedAt: "2026-06-22",
+    image: {
+      src: "/covers/parthenons-restored-west-facade-unveiled.png",
+      alt: "The Parthenon freed of its scaffolding",
+      credit: "Artforum",
+    },
+    rank: 8,
+    analogies: [
+      {
+        category: "historical",
+        title: "Plutarch, Life of Pericles (on the building of the Parthenon), c. 100 CE",
+        excerpt: "For every particular piece of his work was immediately, even at that time, for its beauty and elegance, antique; and yet in its vigor and freshness looks to this day as if it were just executed. There is a sort of bloom of newness upon those works of his, preserving them from the touch of time, as if they had some perennial spirit and undying vitality mingled in the composition of them.",
+        source: "Plutarch, Lives (Dryden–Clough), Wikisource",
+        href: "https://en.wikisource.org/wiki/Plutarch's_Lives_(Clough)/Life_of_Pericles",
+      },
+      {
+        category: "historical",
+        title: "Lord Elgin's removal of the Parthenon marbles, 1801–1812 (the contested ownership)",
+        excerpt: "Between 1801 and 1812, agents of Thomas Bruce, 7th Earl of Elgin, removed about half of the surviving sculptures of the Parthenon, as well as architectural members and sculpture from the Propylaea and Erechtheum; to facilitate transport, members were sawn and sliced into smaller sections. Greece has disputed the British Museum's ownership ever since, holding that the sculptures were taken unethically and should be reunited with those in the Acropolis Museum.",
+        source: "Elgin Marbles, Wikipedia (overview of primary record)",
+        href: "https://en.wikipedia.org/wiki/Elgin_Marbles",
+      },
+      {
+        category: "literary",
+        title: "Plutarch, Life of Theseus (the Ship of Theseus), c. 100 CE",
+        excerpt: "The ship wherein Theseus and the youth of Athens returned had thirty oars, and was preserved by the Athenians down even to the time of Demetrius Phalereus, for they took away the old planks as they decayed, putting in new and stronger timber in their place, insomuch that this ship became a standing example among the philosophers, for the logical question as to things that grow; one side holding that the ship remained the same, and the other contending that it was not the same.",
+        source: "Plutarch, Lives (Dryden–Clough), Wikisource",
+        href: "https://en.wikisource.org/wiki/Plutarch's_Lives_(Clough)/Life_of_Theseus",
+      },
+      {
+        category: "literary",
+        title: "Percy Bysshe Shelley, \"Ozymandias\" (sonnet, 1818)",
+        excerpt: "And on the pedestal these words appear: \"My name is Ozymandias, king of kings: Look on my works, ye Mighty, and despair!\" Nothing beside remains. Round the decay Of that colossal wreck, boundless and bare The lone and level sands stretch far away.",
+        source: "Shelley, \"Ozymandias,\" Wikisource",
+        href: "https://en.wikisource.org/wiki/The_Hundred_Best_Poems_(lyrical)_in_the_English_language_-_second_series/Ozymandias",
+      },
+      {
+        category: "artistic",
+        title: "Frederic Edwin Church, The Parthenon (oil on canvas, 1871)",
+        excerpt: "Church visited Greece in 1869 and made numerous studies of the ruined Acropolis at dusk; the resulting 1871 canvas, now in the Metropolitan Museum of Art, sets the bare temple against a reddening sky, its foreground strewn with fallen capitals and column drums. The picture treats the Parthenon not as it once stood but as a luminous ruin, a monument whose grandeur is inseparable from its decay.",
+        source: "The Parthenon (painting), Metropolitan Museum of Art via Wikipedia",
+        href: "https://en.wikipedia.org/wiki/The_Parthenon_(painting)",
+        image: {
+          src: "/covers/parthenons-restored-west-facade-unveiled--a4.png",
+          alt: "Frederic Church, “The Parthenon”",
+          credit: "Wikimedia Commons",
+        },
+      },
+      {
+        category: "artistic",
+        title: "The Parthenon Frieze by Phidias (marble relief, c. 443–437 BCE)",
+        excerpt: "It was sculpted between c. 443 and 437 BC, most likely under the direction of Phidias, and the more accepted view is that it depicts the Greater Panathenaic procession. Fifty-six blocks of the frieze are at the British Museum in London (forming the major part of the Elgin Marbles); forty blocks are in the Acropolis Museum in Athens, and the remainder of fragments are shared between six other institutions.",
+        source: "Parthenon Frieze, Wikipedia (British Museum / Acropolis Museum)",
+        href: "https://en.wikipedia.org/wiki/Parthenon_Frieze",
+      },
+    ],
+  },
+  {
+    slug: "picasso-richter-hockney-top-art-basel-2026",
+    headline:
+      "At Basel, the canvases trade for the price of small fortunes",
+    overview:
+      "Works by Picasso, Richter and Hockney drew the largest sums at Art Basel 2026, the fair where the value of art is set in public, in real time. The spectacle is part market, part theater: a painting becomes worth exactly what the room will say out loud.",
+    genre: "Culture",
+    sources: [
+      {
+        name: "Artforum",
+        href: "https://www.artforum.com/news/picasso-richter-and-hockney-earn-at-art-basel-2026-1234752945/",
+      },
+      {
+        name: "ARTnews",
+        href: "https://www.artnews.com/list/art-news/market/top-sales-art-basel-1234789900/",
+      },
+    ],
+    href: "#",
+    publishedAt: "2026-06-23",
+    image: {
+      src: "/covers/picasso-richter-hockney-top-art-basel-2026.png",
+      alt: "A fair of priceless canvases",
+      credit: "Artforum",
+    },
+    rank: 9,
+    analogies: [
+      {
+        category: "historical",
+        title: "The Tulipomania, Holland, 1636–37 (Charles Mackay, 1841)",
+        excerpt: "Nobles, citizens, farmers, mechanics, seamen, footmen, maidservants, even chimney-sweeps and old clotheswomen, dabbled in tulips. People of all grades converted their property into cash, and invested it in flowers. At first, as in all these gambling mania, confidence was at its height, and every body gained.",
+        source: "Mackay, Extraordinary Popular Delusions",
+        href: "https://www.econlib.org/library/Mackay/macEx.html?chapter_num=4",
+      },
+      {
+        category: "historical",
+        title: "Vasari on Lorenzo de' Medici's patronage and garden of antiquities (Lives, Life of Torrigiano, 1568)",
+        excerpt: "Truly magnificent was the example thus given by Lorenzo, and whenever Princes and other persons of high degree choose to imitate it, they will always gain everlasting honour and glory thereby; since he who assists and favors, in their noble undertakings, men of rare and beautiful genius, from whom the world receives such beauty, honour, convenience and benefit, deserves to live forever in the minds and memories of mankind.",
+        source: "Vasari, Lives of the Most Eminent Painters",
+        href: "https://www.italianrenaissanceresources.com/units/unit-3/sub-page-03/giorgio-vasaris-description-of-the-medici-academy/",
+      },
+      {
+        category: "literary",
+        title: "Honoré de Balzac, \"The Unknown Masterpiece\" (Le Chef-d'œuvre inconnu, 1831)",
+        excerpt: "\"I like your saint,\" the old man remarked, addressing Porbus. \"I would give you ten golden crowns for her over and above the price the Queen is paying; but as for putting a spoke in that wheel,--the devil take it!\"",
+        source: "Balzac, The Unknown Masterpiece (Project Gutenberg)",
+        href: "https://www.gutenberg.org/ebooks/23060",
+      },
+      {
+        category: "literary",
+        title: "Oscar Wilde, \"The Picture of Dorian Gray\" (1890), Lord Henry on price and value",
+        excerpt: "\"So sorry I am late, Dorian. I went to look after a piece of old brocade in Wardour Street and had to bargain for hours for it. Nowadays people know the price of everything and the value of nothing.\"",
+        source: "Wilde, The Picture of Dorian Gray (Project Gutenberg)",
+        href: "https://www.gutenberg.org/files/174/174-h/174-h.htm",
+      },
+      {
+        category: "artistic",
+        title: "Adriaen van Utrecht, \"Vanitas — Still Life with Bouquet and Skull\" (oil on canvas, c. 1642)",
+        excerpt: "The Flemish vanitas heaps the spoils of worldly fortune—coins and jewels, a bouquet already wilting, books and a wine glass—around a human skull, so that the eye is invited to price the riches and then reminded that none of it can be kept. It is the seventeenth century's answer to the saleroom: a painting that puts a market on display only to weigh it against the grave.",
+        source: "Wikimedia Commons (public domain)",
+        href: "https://commons.wikimedia.org/wiki/File:Adriaen_van_Utrecht-_Vanitas_-_Still_Life_with_Bouquet_and_Skull.JPG",
+        image: {
+          src: "/covers/picasso-richter-hockney-top-art-basel-2026--a4.png",
+          alt: "Adriaen van Utrecht, “Vanitas Still Life”",
+          credit: "Wikimedia Commons",
+        },
+      },
+      {
+        category: "artistic",
+        title: "Quentin Matsys, \"The Moneylender and His Wife\" (oil on panel, 1514, Musée du Louvre)",
+        excerpt: "Matsys sets a money-changer weighing gold coins and pearls on a balance while his wife, a book of devotion open before her, lets her eyes drift from the Virgin and Child toward the glittering scales. A convex mirror on the table catches the wider world; the panel turns the act of pricing precious things into a moral spectacle, beauty and devotion forever tilting against the weight of the coin.",
+        source: "Wikipedia / Wikimedia Commons (public domain)",
+        href: "https://en.wikipedia.org/wiki/The_Money_Changer_and_His_Wife",
+      },
+    ],
+  },
+  {
+    slug: "klara-and-the-sun-trailer-arrives",
+    headline:
+      "A machine built to love watches the sun and learns to hope",
+    overview:
+      "The first trailer arrived for the film of Kazuo Ishiguro's “Klara and the Sun,” narrated by an artificial friend who studies human feeling from the outside. The story asks the old question in a new casing: what do we owe the things we make to care for us?",
+    genre: "Culture",
+    sources: [
+      {
+        name: "Kottke",
+        href: "https://kottke.org/26/06/0049195-the-trailer-for-klara-and",
+      },
+      {
+        name: "Variety",
+        href: "https://variety.com/2026/film/news/klara-and-the-sun-trailer-jenna-ortega-taika-waititi-1235997680/",
+      },
+    ],
+    href: "#",
+    publishedAt: "2026-06-22",
+    image: {
+      src: "/covers/klara-and-the-sun-trailer-arrives.png",
+      alt: "An artificial figure turned toward the sun",
+      credit: "Variety",
+    },
+    rank: 10,
+    analogies: [
+      {
+        category: "historical",
+        title: "Babylonian Talmud, Sanhedrin 65b — Rava's golem (c. 5th–6th c. CE)",
+        excerpt: "Indeed, Rava created a man, a golem, using forces of sanctity. Rava sent his creation before Rabbi Zeira. Rabbi Zeira would speak to him but he would not reply. Rabbi Zeira said to him: You were created by one of the members of the group, one of the Sages. Return to your dust.",
+        source: "Sefaria (William Davidson Talmud)",
+        href: "https://www.sefaria.org/Sanhedrin.65b.16",
+      },
+      {
+        category: "historical",
+        title: "Jacques de Vaucanson, \"An Account of the Mechanism of an Automaton\" (London, 1742)",
+        excerpt: "Together with a description of an artificial duck, eating, drinking, macerating the food, and voiding excrements; pluming her wings, picking her feathers, and performing several operations in imitation of a living duck.",
+        source: "Internet Archive",
+        href: "https://archive.org/details/b30358711",
+      },
+      {
+        category: "literary",
+        title: "Mary Shelley, \"Frankenstein; or, The Modern Prometheus,\" Chapter 10 (1831)",
+        excerpt: "Every where I see bliss, from which I alone am irrevocably excluded. I was benevolent and good; misery made me a fiend. Make me happy, and I shall again be virtuous.",
+        source: "Wikisource",
+        href: "https://en.wikisource.org/wiki/Frankenstein,_or_the_Modern_Prometheus_(Revised_Edition,_1831)/Chapter_10",
+      },
+      {
+        category: "literary",
+        title: "Carlo Collodi, \"The Adventures of Pinocchio,\" Chapter 36 (1883; Eng. trans. 1904)",
+        excerpt: "How funny I was when I was a marionette! and how happy I am now that I have become a real live boy!",
+        source: "Wikisource",
+        href: "https://en.wikisource.org/wiki/The_Adventures_of_Pinocchio_(1904)/Chapter_36",
+      },
+      {
+        category: "artistic",
+        title: "Jean-Léon Gérôme, \"Pygmalion and Galatea,\" oil on canvas (c. 1890), Metropolitan Museum of Art",
+        excerpt: "The ivory seemed to soften at the touch, and its firm texture yielded to his hand, as honey-wax of Mount Hymettus turns to many shapes when handled in the sun... Now real, true to life— the maiden felt the kisses given to her, and blushing, lifted up her timid eyes, so that she saw the light and sky above, as well as her rapt lover while he leaned gazing beside her.",
+        source: "Wikimedia Commons / The Met",
+        href: "https://commons.wikimedia.org/wiki/File:WLA_metmuseum_Jean-Leon_Gerome_Pygmalion_and_Galatea.jpg",
+        image: {
+          src: "/covers/klara-and-the-sun-trailer-arrives--a4.png",
+          alt: "Gérôme, “Pygmalion and Galatea”",
+          credit: "Wikimedia Commons (The Metropolitan Museum of Art)",
+        },
+      },
+      {
+        category: "artistic",
+        title: "The beloved automaton Olympia — source of Delibes's ballet \"Coppélia\" (1870); after E.T.A. Hoffmann, \"The Sand-Man\" (1816)",
+        excerpt: "And it was only when at last Nathanael rose and kissed her lips or her hand that she said, \"Ach! Ach!\" and then \"Good-night, dear.\" Arrived in his own room, Nathanael would break out with, \"Oh! what a brilliant—what a profound mind! Only you—you alone understand me.\"",
+        source: "Project Gutenberg Australia",
+        href: "https://gutenberg.net.au/ebooks06/0605791h.html",
+      },
+    ],
+  },
+  {
+    slug: "aaltos-paimio-sanatorium-to-become-a-hotel",
+    headline:
+      "A temple of cures built for tuberculosis prepares to take guests",
+    overview:
+      "Alvar and Aino Aalto's Paimio Sanatorium, a landmark of healing modernism designed down to the patients' basins, will be converted into a hotel by Snøhetta. A building made to mend the sick will now be asked to rest the well.",
+    genre: "Culture",
+    sources: [
+      {
+        name: "Dezeen",
+        href: "https://www.dezeen.com/2026/06/23/aaltos-paimio-sanatorium-set-to-be-turned-into-future-oriented-hotel-by-snohetta/",
+      },
+    ],
+    href: "#",
+    publishedAt: "2026-06-23",
+    image: {
+      src: "/covers/aaltos-paimio-sanatorium-to-become-a-hotel.png",
+      alt: "A white modernist sanatorium among pines",
+      credit: "Wikimedia Commons",
+    },
+    rank: 11,
+    analogies: [
+      {
+        category: "historical",
+        title: "Augustus J. C. Hare on the Baths of Diocletian remade as a church (Walks in Rome, vol. II, 1874)",
+        excerpt: "Pius IV, declaring that angel-worship had never been sanctioned by the Church, except under the three names mentioned in Scripture, ordered the pictures of Del Duca to be taken away. At the same time he engaged Michael Angelo to convert the great oblong hall of the Baths (Calidarium) into a church.",
+        source: "Augustus J. C. Hare, Walks in Rome (Internet Archive)",
+        href: "https://archive.org/details/harewalksinrome02hare",
+      },
+      {
+        category: "historical",
+        title: "Francis Aidan Gasquet, \"Suppression of English Monasteries under Henry VIII\" (Catholic Encyclopedia, 1913)",
+        excerpt: "that what had been a monument of architectural beauty in the past was now a \"bare roofless choir, where late the sweet birds sang.\"",
+        source: "Catholic Encyclopedia (1913), Wikisource",
+        href: "https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)/Suppression_of_English_Monasteries_under_Henry_VIII",
+      },
+      {
+        category: "literary",
+        title: "Thomas Mann, Der Zauberberg, Erster Band (1924), \"Ankunft\"",
+        excerpt: "Heimat und Ordnung lagen nicht nur weit zurück, sie lagen hauptsächlich klaftertief unter ihm, und noch immer stieg er darüber hinaus. [Homeland and order lay not only far behind, they lay above all fathoms-deep beneath him, and still he kept climbing higher above them — Hans Castorp ascending toward the mountain sanatorium, a world apart from the flatland below.]",
+        source: "Project Gutenberg (German, public domain)",
+        href: "https://www.gutenberg.org/ebooks/65661",
+      },
+      {
+        category: "literary",
+        title: "Frances Hodgson Burnett, The Secret Garden (1911), ch. XXI",
+        excerpt: "\"I shall get well! I shall get well!\" he cried out. \"Mary! Dickon! I shall get well! And I shall live forever and ever and ever!\"",
+        source: "Project Gutenberg",
+        href: "https://www.gutenberg.org/ebooks/113",
+      },
+      {
+        category: "artistic",
+        title: "Photograph of Paimio Sanatorium amid its forest (Aino and Alvar Aalto, 1933; photo 2022)",
+        excerpt: "A distant view of the long white sanatorium set deep among pines — the building the Aaltos conceived as a medical instrument, sited apart from the world so that light, air, and silence might themselves do the curing. What was built to hold the tubercular now waits to hold the traveler; the world-apart endures, its purpose exchanged.",
+        source: "Wikimedia Commons (CC0)",
+        href: "https://commons.wikimedia.org/wiki/File:Paimio_sanatorium_covered_by_trees.jpg",
+        image: {
+          src: "/covers/aaltos-paimio-sanatorium-to-become-a-hotel--a4.png",
+          alt: "Paimio Sanatorium among the pines",
+          credit: "Wikimedia Commons",
+        },
+      },
+      {
+        category: "artistic",
+        title: "Caspar David Friedrich, The Abbey in the Oakwood (Abtei im Eichwald), oil on canvas, 1809–1810",
+        excerpt: "Through bare oaks a procession of monks bears a coffin toward the shattered Gothic arch of a ruined abbey, the last upright fragment of a place once built for prayer and now a roofless skeleton against a wintry sky. Friedrich turns a building made for the care of souls into an image of what time does to such places — the function gone, the architecture left to mean something new. It is the sanatorium's question rendered in paint: what becomes of a house raised for healing once the healing is over.",
+        source: "Alte Nationalgalerie, Berlin (Wikimedia Commons, public domain)",
+        href: "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Abtei_im_Eichwald_-_Google_Art_Project.jpg",
+      },
+    ],
+  },
+  {
+    slug: "ballista-spider-builds-a-spring-loaded-trap",
+    headline:
+      "A new spider builds a catapult of silk and waits for one kind of ant",
+    overview:
+      "Researchers in the far-north Queensland rainforest have described a new spider — nicknamed the “ballista,” after the ancient catapult — that stores elastic energy in its silk and flings a single species of aggressive green tree ant into its web. The mechanics, filmed with high-speed cameras, appear in the journal Current Biology.",
+    genre: "Science",
+    sources: [
+      {
+        name: "BBC",
+        href: "https://www.bbc.com/news/articles/c70y138y995o",
+      },
+      {
+        name: "CNN",
+        href: "https://www.cnn.com/2026/06/23/science/ballista-spider-trap-ant",
+      },
+    ],
+    href: "#",
+    publishedAt: "2026-06-23",
+    image: {
+      src: "/covers/ballista-spider-builds-a-spring-loaded-trap.png",
+      alt: "A tiny spider beside its silk snare",
+      credit: "BBC",
+    },
+    rank: 12,
+    analogies: [
+      {
+        category: "historical",
+        title: "Walter Scott, Tales of a Grandfather, ch. VIII — Robert the Bruce and the spider (1828)",
+        excerpt: "The insect made the attempt again and again without success; and at length Bruce counted that it had tried to carry its point six times, and been as often unable to do so. It came into his head that he had himself fought just six battles against the English and their allies, and that the poor persevering spider was exactly in the same situation with himself, having made as many trials, and been as often disappointed in what it aimed at.",
+        source: "Internet Archive (Scott, Tales of a Grandfather)",
+        href: "https://archive.org/details/talesofgrandfath0001sirw",
+      },
+      {
+        category: "historical",
+        title: "Jean-Henri Fabre, The Life of the Spider, on the Narbonne Lycosa's burrow and ambush (trans. 1912)",
+        excerpt: "Hiding behind the wall, she sees the stranger advancing, keeps her eyes on him and suddenly pounces when he comes within reach. These abrupt tactics make the thing a certainty.",
+        source: "Project Gutenberg (Fabre, The Life of the Spider)",
+        href: "https://readingroo.ms/1/8/8/1887/1887-h/1887-h.htm",
+      },
+      {
+        category: "literary",
+        title: "Ovid, Metamorphoses VI — the transformation of Arachne (trans. Brookes More, 1922)",
+        excerpt: "Her slender fingers gathered to her sides as long thin legs; and all her other parts were fast absorbed in her abdomen—whence she vented a fine thread;—and ever since, Arachne, as a spider, weaves her web.",
+        source: "Perseus Digital Library (Tufts)",
+        href: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0028:book=6:card=129",
+      },
+      {
+        category: "literary",
+        title: "Mary Howitt, \"The Spider and the Fly\" (1829)",
+        excerpt: "The Spider turned him round about, and went into his den, / For well he knew the silly Fly would soon come back again; / So he wove a subtle web in a little corner sly, / And set his table ready to dine upon the Fly.",
+        source: "Wikisource",
+        href: "https://en.wikisource.org/wiki/The_Spider_and_the_Fly_(Weed)",
+      },
+      {
+        category: "artistic",
+        title: "Odilon Redon, \"The Smiling Spider\" (lithograph after the charcoal noir, 1881/1887)",
+        excerpt: "A bristling black orb of a body, perched on ten splayed legs, turns toward the viewer a broad human grin. Redon makes the ambusher genial: the thing that waits in the dark is given a face, and the face is pleased. The horror lies in its patience and its courtesy, the same lure the trapdoor offers the passerby.",
+        source: "Wikimedia Commons (Musée du Louvre)",
+        href: "https://commons.wikimedia.org/wiki/File:Redon_smiling-spider.jpg",
+        image: {
+          src: "/covers/ballista-spider-builds-a-spring-loaded-trap--a4.png",
+          alt: "Odilon Redon, “The Smiling Spider”",
+          credit: "Wikimedia Commons",
+        },
+      },
+      {
+        category: "artistic",
+        title: "Diego Velázquez, \"Las Hilanderas (The Fable of Arachne)\", oil on canvas (c. 1655–1660, Museo del Prado)",
+        excerpt: "In the dim foreground women card and spin, a wheel blurred to a haze of spokes by the speed of the work; behind them, lit like a stage, the contest of mortal and goddess plays out before a woven tapestry. Velázquez folds the whole myth into a workshop—the labor of the thread and the doom it courts in one room. The weaver is at once artisan and quarry, her diligence the very thing that traps her.",
+        source: "Wikimedia Commons (Museo del Prado)",
+        href: "https://commons.wikimedia.org/wiki/File:Velazquez-las_hilanderas.jpg",
+      },
+    ],
+  },
+  {
+    slug: "brexit-ten-years-on",
+    headline:
+      "Ten years after the vote, a country still adds up the bill",
+    overview:
+      "A decade on from the referendum that took Britain out of the European Union, the anniversary brought fresh reckonings with what was promised and what arrived. The argument that was supposed to be settled by a single vote has outlived it.",
+    genre: "Politics",
+    sources: [
+      {
+        name: "Kottke",
+        href: "https://kottke.org/26/06/0049189-brexit-vote-10-years-on",
+      },
+      {
+        name: "Al Jazeera",
+        href: "https://www.aljazeera.com/news/2026/6/23/brexit-10-years-on-what-has-changed-in-the-uk-explained-in-maps-and-charts",
+      },
+    ],
+    href: "#",
+    publishedAt: "2026-06-23",
+    image: {
+      src: "/covers/brexit-ten-years-on.png",
+      alt: "A divided union, ten years on",
+      credit: "Al Jazeera",
+    },
+    rank: 13,
+    analogies: [
+      {
+        category: "historical",
+        title: "Norwegian referendum on the dissolution of the union with Sweden (13 August 1905)",
+        excerpt: "Voters were asked whether they approved the \"already completed dissolution of the union\" — \"den stedfundne Opløsning af Unionen.\" The result was 368,208 in favour to 184 against: 99.95 percent for the parting, 0.05 percent against. A union of nearly a century was undone by a single ballot, and what looked at the time like a clean break opened a long negotiation over crown, borders, and the terms of separate life.",
+        source: "1905 union dissolution referendum",
+        href: "https://en.wikipedia.org/wiki/1905_Norwegian_union_dissolution_referendum",
+      },
+      {
+        category: "historical",
+        title: "Livy, Ab Urbe Condita, Book 2.32 — the First Secession of the Plebs and Menenius Agrippa's fable (c. 494 BC; Foster trans., 1919)",
+        excerpt: "\"In the days when man's members did not all agree amongst themselves, as is now the case, but had each its own ideas and a voice of its own, the other parts thought it unfair that they should have the worry and the trouble and the labour of providing everything for the belly, while the belly remained quietly in their midst with nothing to do but to enjoy the good things which they bestowed upon it.\" Resolving to starve it, the limbs starved themselves, \"and the whole body were reduced to the utmost weakness.\"",
+        source: "Livy, History of Rome (Perseus)",
+        href: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0151%3Abook%3D2%3Achapter%3D32",
+      },
+      {
+        category: "literary",
+        title: "Aesop, \"The Bundle of Sticks\" (Jacobs translation, The Fables of Æsop)",
+        excerpt: "An old man on the point of death summoned his sons around him to give them some parting advice. He ordered his servants to bring in a faggot of sticks, and said to his eldest son: \"Break it.\" The son strained and strained, but with all his efforts was unable to break the Bundle. \"Untie the faggots,\" said the father, \"and each of you take a stick.\" When they had done so, he called out to them: \"Now, break,\" and each stick was easily broken. The moral: \"Union gives strength.\"",
+        source: "Aesop's Fables (Wikisource)",
+        href: "https://en.wikisource.org/wiki/The_Fables_of_%C3%86sop_(Jacobs)/The_Bundle_of_Sticks",
+      },
+      {
+        category: "literary",
+        title: "William Shakespeare, King Lear, Act 1, Scene 1 (c. 1606)",
+        excerpt: "\"Know that we have divided / In three our kingdom, and 'tis our fast intent / To shake all cares and business from our age, / Conferring them on younger strengths, while we / Unburdened crawl toward death.\" The realm is parted in a single afternoon on a flush of promises; the long aftermath is storm, exile, and a king who learns too late what the dividing line has cost.",
+        source: "King Lear (Folger Shakespeare)",
+        href: "https://www.folger.edu/explore/shakespeares-works/king-lear/read/1/1/",
+      },
+      {
+        category: "artistic",
+        title: "Jacob Jordaens (after Rubens), The Golden Apple of Discord / The Wedding of Thetis and Peleus, oil on canvas, c. 1633",
+        excerpt: "Into a wedding feast of the gods, Discord rolls a single golden apple inscribed \"to the fairest,\" and the goddesses fall to quarreling — the small, vain choice from which, the myth insists, a ten-year war and the ruin of a city would follow. Jordaens crowds the canvas with finery and gesture, the gleaming apple already loose among the guests: the seed of division dropped, lightly, at the very moment of supposed union.",
+        source: "Wikimedia Commons (public domain)",
+        href: "https://commons.wikimedia.org/wiki/File:Golden_Apple_of_Discord_by_Jacob_Jordaens.jpg",
+        image: {
+          src: "/covers/brexit-ten-years-on--a4.png",
+          alt: "Jordaens, “The Golden Apple of Discord”",
+          credit: "Wikimedia Commons",
+        },
+      },
+      {
+        category: "artistic",
+        title: "Friedrich Schiller, \"An die Freude\" (Ode to Joy), 1785 — set by Beethoven and adopted as the Anthem of Europe",
+        excerpt: "\"Deine Zauber binden wieder, / Was die Mode streng getheilt; / Alle Menschen werden Brüder, / Wo dein sanfter Flügel weilt.\" — \"Your magic binds again what custom strictly parted; all men become brothers where your gentle wing alights.\" The verses Europe chose for its anthem, sung wordlessly at every union ceremony, make a quiet irony of any nation that chooses, instead, to be parted again.",
+        source: "Schiller, An die Freude (Wikisource)",
+        href: "https://de.wikisource.org/wiki/An_die_Freude_(Schiller)",
+      },
+    ],
+  },
   {
     slug: "starmer-to-resign-as-uk-prime-minister",
     headline:
@@ -118,8 +1091,7 @@ const stories: Story[] = [
       alt: "A leader stepping down from high office",
       credit: "Wikimedia Commons",
     },
-    lead: true,
-    rank: 1,
+    rank: 14,
     analogies: [
       {
         category: "historical",
@@ -195,7 +1167,7 @@ const stories: Story[] = [
       alt: "Adversaries at a contested negotiating table",
       credit: "BBC",
     },
-    rank: 2,
+    rank: 15,
     analogies: [
       {
         category: "historical",
@@ -270,7 +1242,7 @@ const stories: Story[] = [
       alt: "A contested presidential count",
       credit: "BBC",
     },
-    rank: 3,
+    rank: 16,
     analogies: [
       {
         category: "historical",
@@ -345,7 +1317,7 @@ const stories: Story[] = [
       alt: "Europe under an intensifying heatwave",
       credit: "BBC",
     },
-    rank: 4,
+    rank: 17,
     analogies: [
       {
         category: "historical",
@@ -416,7 +1388,7 @@ const stories: Story[] = [
       alt: "Counting the civilian dead of a war",
       credit: "BBC",
     },
-    rank: 5,
+    rank: 18,
     analogies: [
       {
         category: "historical",
@@ -487,7 +1459,7 @@ const stories: Story[] = [
       alt: "A central banker who spoke in riddles",
       credit: "Federal Reserve",
     },
-    rank: 6,
+    rank: 19,
     analogies: [
       {
         category: "historical",
@@ -558,7 +1530,7 @@ const stories: Story[] = [
       alt: "The headquarters of a company automating its own workforce",
       credit: "Håkan Dahlström, CC BY",
     },
-    rank: 7,
+    rank: 20,
     analogies: [
       {
         category: "historical",
@@ -629,7 +1601,7 @@ const stories: Story[] = [
       alt: "A powerful new capability set loose in the world",
       credit: "AI-generated",
     },
-    rank: 8,
+    rank: 21,
     analogies: [
       {
         category: "historical",
@@ -704,7 +1676,7 @@ const stories: Story[] = [
       alt: "The plague bacterium under the microscope",
       credit: "NIAID",
     },
-    rank: 9,
+    rank: 22,
     analogies: [
       {
         category: "historical",
@@ -779,7 +1751,7 @@ const stories: Story[] = [
       alt: "The impresario behind the talent",
       credit: "Wikimedia (CC BY)",
     },
-    rank: 10,
+    rank: 23,
     analogies: [
       {
         category: "historical",
@@ -851,7 +1823,7 @@ const stories: Story[] = [
       alt: "A surreal dream creature cast in solid form",
       credit: "Colossal",
     },
-    rank: 11,
+    rank: 24,
     analogies: [
       {
         category: "historical",
@@ -922,7 +1894,7 @@ const stories: Story[] = [
       alt: "A recovered painting surfacing from the underground",
       credit: "AI-generated",
     },
-    rank: 12,
+    rank: 25,
     analogies: [
       {
         category: "historical",
@@ -993,7 +1965,7 @@ const stories: Story[] = [
       alt: "A century of brand marks laid side by side",
       credit: "It's Nice That",
     },
-    rank: 13,
+    rank: 26,
     analogies: [
       {
         category: "historical",
