@@ -27,6 +27,12 @@ const PROMPT_OVERRIDES: Record<string, string> = {
     "A gilt-framed old painting wrapped in cloth, recovered under a bare lamp on a table in a dim apartment, themes of stolen art resurfacing",
   "glm-5-2-most-powerful-open-weights-model":
     "A single bright flame cupped in open hands and passed outward toward many reaching hands in the dark, warm glow, themes of knowledge set free",
+  "north-korea-commissions-nuclear-armed-warship":
+    "A grey steel warship's prow seen at dawn from the dockside, calm harbour water, low mist, themes of naval power and cold ambition",
+  "nato-chief-rutte-heads-to-white-house-before-summit":
+    "Two national flags on tall poles before a grand white columned government building under an overcast sky, themes of diplomacy and uneasy alliance",
+  "supreme-court-sides-with-trump-on-green-card-holders":
+    "The marble steps and columns of a great supreme court building at dusk, a lone figure small at the base, themes of law and the outsider",
 };
 
 async function exists(p: string) {
