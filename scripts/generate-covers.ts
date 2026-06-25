@@ -47,6 +47,24 @@ const PROMPT_OVERRIDES: Record<string, string> = {
     "Two national flags on tall poles before a grand white columned government building under an overcast sky, themes of diplomacy and uneasy alliance",
   "supreme-court-sides-with-trump-on-green-card-holders":
     "The marble steps and columns of a great supreme court building at dusk, a lone figure small at the base, themes of law and the outsider",
+  "colombia-de-la-espriella-wins-runoff":
+    "A dim polling station at night, two officials counting blank paper ballots at a wooden table under a single hanging lamp, plain bare plaster walls with no posters or signs, a plain unmarked flag drooping on a pole by an open doorway, deep shadows, themes of a nation divided and a knife-edge election. Absolutely no text, letters, words, numbers, posters, signage or writing anywhere in the image",
+  "japan-iwate-earthquake":
+    "A quiet coastal Japanese town at dawn seen from a hillside, the calm grey sea beyond a harbour, power lines swaying, an empty railway platform, themes of seismic unease and stillness after a tremor",
+  "carone-adams-bribery-charges":
+    "An empty marble courthouse corridor at dusk, tall columns and a polished floor, a single shaft of cold light, themes of public trust and reckoning",
+  "anduril-nissan-plant-drones":
+    "The vast empty floor of a shuttered automobile assembly hall, idle robotic arms and skylights, a lone small drone silhouette on a workbench, themes of industry turned from peace to war",
+  "iraq-weighs-opec-exit":
+    "A lone oil derrick and storage tanks silhouetted against a hazy desert sunset, a single road leading away, themes of resource wealth and a parting of ways",
+  "pentagon-restores-flu-shots":
+    "Rows of empty steel bunk beds in a long military barracks dormitory at dawn, pale light through high windows, themes of close quarters and contagion",
+  "china-future-industries-bubble":
+    "A glittering forest of glass skyscrapers rising into mist at dusk, a single iridescent soap bubble drifting among the towers, themes of dazzling speculation and fragility",
+  "trump-withholds-housing-bill":
+    "A grand domed legislative capitol at dusk under a brooding sky, an unsigned document and a capped fountain pen on a desk in the foreground, themes of stalled power and brinkmanship",
+  "south-africa-world-cup-knockouts":
+    "An empty floodlit football stadium at night, the pitch a brilliant green, a lone ball at the centre circle, jubilant emptiness, themes of historic triumph and national pride",
 };
 
 async function exists(p: string) {
