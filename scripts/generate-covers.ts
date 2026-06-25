@@ -23,6 +23,20 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "venezuela-earthquakes-strike-caracas":
+    "Rescue workers and residents gathered before a partly collapsed concrete apartment building at dawn in a Latin American city, dust hanging in the air, themes of sudden catastrophe and survival",
+  "us-clears-f-35-jet-sales-to-turkey":
+    "A sleek grey modern fighter jet parked on a runway at dusk under a dramatic sky, ground crew small in the distance, themes of alliance and military power",
+  "white-house-seeks-87-billion-iran-war-ebola":
+    "The dome of a grand white neoclassical capitol building against a brooding stormy sky, themes of government, money and the cost of war",
+  "ntsb-investigates-texas-tesla-crash":
+    "A damaged modern electric car at the roadside on a dark highway at night, hazard lights glowing and an investigator's flashlight beam, themes of technology and accident",
+  "france-air-conditioning-debate-heatwave":
+    "A sun-bleached European city square at midday in a heatwave, people resting in narrow strips of shade by a dry fountain, shimmering heat haze, themes of sweltering summer",
+  "chemours-forever-chemicals-settlement":
+    "Pale chemical foam gathering on the still surface of a river beneath the silhouette of an industrial plant at dusk, themes of pollution and reckoning",
+  "world-court-judges-sue-trump-over-sanctions":
+    "An empty carved wooden judge's bench in a grand courtroom beneath a set of brass scales of justice, cold light from tall windows, themes of law confronting power",
   "pilfered-picasso-found-in-paris-drug-bust":
     "A gilt-framed old painting wrapped in cloth, recovered under a bare lamp on a table in a dim apartment, themes of stolen art resurfacing",
   "glm-5-2-most-powerful-open-weights-model":
