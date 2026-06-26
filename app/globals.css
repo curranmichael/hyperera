@@ -50,8 +50,11 @@ a {
 /* Radix paints the page background (--color-background, which flips with the
    inherited appearance) on the root .radix-themes element. Make it span the
    full viewport so short pages don't reveal the bare canvas beneath it in dark
-   mode. */
-.radix-themes {
+   mode. Scoped to the root <Theme> (`.site-theme`) on purpose: Radix stamps the
+   `radix-themes` class onto portalled content too (popovers, tooltips, dialogs),
+   so an unscoped rule would stretch every popover to 100vh and push it off
+   screen. */
+.radix-themes.site-theme {
   min-height: 100vh;
 }
 
