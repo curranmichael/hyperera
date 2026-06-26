@@ -64,6 +64,7 @@ export default function RootLayout({
       <body>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         <Theme
+          className="site-theme"
           appearance="inherit"
           accentColor="gray"
           grayColor="sand"
