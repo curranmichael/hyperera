@@ -23,6 +23,18 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "trump-tariff-digital-services-tax":
+    "A vast container port at dusk, towering stacks of shipping containers and idle cranes under a brooding sky, a lowered barrier across the quay, themes of trade halted and tariffs raised between nations. Absolutely no text, letters, words, numbers, logos, flags or writing anywhere in the image",
+  "burkina-faso-cuts-france-ties":
+    "A bare metal flagpole with no flag standing at dusk before a weathered colonial-era government building in West Africa, an empty courtyard and long shadows, themes of severed ties and a nation asserting its independence. Absolutely no text, letters, words, numbers, flags, emblems or writing anywhere in the image",
+  "us-restricts-frontier-ai-trusted":
+    "A single softly glowing computer server cabinet sealed behind a heavy locked steel vault door in a dim concrete room, cold blue light leaking from the seams, themes of a powerful technology kept under guard and its access restricted. Absolutely no text, letters, words, numbers, logos, screens or writing anywhere in the image",
+  "greece-satellites-wildfires-first":
+    "The view from high above the Earth at night, a small satellite silhouette in the foreground, far below a single tiny orange ember of a wildfire glowing on a dark Mediterranean coastline, stars and the gentle curve of the planet, themes of vigilance and early warning from space. Absolutely no text, letters, words, numbers or writing anywhere in the image",
+  "edf-sells-north-america-kkr":
+    "Rows of tall white wind turbines stretching across a vast North American plain at dawn, soft mist and a wide pale sky, a single empty road leading toward them, themes of a clean-power business changing hands. Absolutely no text, letters, words, numbers, logos or writing anywhere in the image",
+  "meta-prediction-markets-arena":
+    "A clear glass crystal ball resting on a dark polished table in a dim room, a single shaft of cool light passing through it and casting a soft glow, swirling shadows behind, themes of foretelling uncertain futures and speculation. Absolutely no text, letters, words, numbers, symbols or writing anywhere in the image",
   "dea-fentanyl-allowed-on-streets":
     "A dim evidence storage room at night, rows of sealed clear plastic bags of white powder stacked on a steel table under a single hanging lamp, a watchful figure standing back in deep shadow doing nothing, themes of institutional inaction and a slow-moving harm allowed to spread. Absolutely no text, letters, words, numbers, labels or writing anywhere in the image",
   "judge-halts-federal-voter-list":
