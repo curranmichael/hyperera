@@ -23,6 +23,20 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "hezbollah-rejects-israel-lebanon-deal":
+    "A long empty diplomatic conference table in a grand hall with cold light from tall windows, an overturned empty chair pushed back from the table, two bare flagpoles with no flags at either end, themes of a fractured agreement and a party walking away from peace. Absolutely no text, letters, words, numbers, flags, emblems or writing anywhere in the image",
+  "australia-toughens-child-social-media-ban":
+    "A young child's hands cradling a softly glowing smartphone in a darkened room, the pale screen light on a face turned away in shadow, a parent's silhouette reaching in from the edge of the frame, themes of childhood, screens and protection. Absolutely no text, letters, words, numbers, logos, app icons or writing anywhere on the screen or in the image",
+  "ntsb-ends-tesla-power-steering-probe":
+    "A close-up photograph of a plain modern car steering wheel with a smooth unmarked centre hub, dim leather dashboard at dusk seen from the driver's seat, an empty road blurred through the windscreen, cool light and shallow depth of field, themes of control and machinery under scrutiny. This is a real photograph, NOT a video frame: no screen, no display overlay, no video player, no progress bar or playback controls, no on-screen buttons or icons. Absolutely no text, letters, words, numbers, digits, gauges with numerals, logos, badges or writing anywhere in the image",
+  "cape-verde-world-cup-round-of-32":
+    "An empty floodlit football stadium at night, the pitch a brilliant green, a single ball resting on the centre spot, drifting confetti and jubilant emptiness, themes of an underdog's historic triumph and national joy. Absolutely no text, letters, words, numbers, logos, advertising boards or writing anywhere in the image",
+  "gehry-abu-dhabi-arts-venue":
+    "A monumental sculptural building of curving, fragmented silver-white forms rising against a clear desert sky beside calm water at golden hour, abstract futuristic architecture, themes of a visionary arts landmark. Absolutely no text, letters, words, numbers, logos or writing anywhere in the image",
+  "arizona-sect-leader-convicted-abuse":
+    "A lonely two-lane desert highway stretching toward distant bare hills under a vast pale sky at dusk, a single battered trailer parked on the dusty shoulder, long shadows and emptiness, themes of hidden lives exposed and a long road to justice. Absolutely no text, letters, words, numbers, road signs or writing anywhere in the image",
+  "willison-red-team-ai-assistant":
+    "A dim room lit only by the cool glow of a computer monitor, an out-of-focus screen of faint code reflected in a pair of glasses on a desk, a small locked brass padlock resting in the foreground, themes of digital defence and an unbreached secret. Absolutely no text, letters, words, numbers, legible code, logos or writing anywhere in the image",
   "trump-tariff-digital-services-tax":
     "A vast container port at dusk, towering stacks of shipping containers and idle cranes under a brooding sky, a lowered barrier across the quay, themes of trade halted and tariffs raised between nations. Absolutely no text, letters, words, numbers, logos, flags or writing anywhere in the image",
   "burkina-faso-cuts-france-ties":
