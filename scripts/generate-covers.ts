@@ -23,6 +23,22 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "iran-strikes-bahrain-kuwait":
+    "A dark Gulf coastline at night seen from far away, a faint orange glow low on the horizon and thin streaks of light crossing a starless sky above a distant silhouetted military port, tense and deserted, themes of a fragile truce shattered and war spreading across the water. Absolutely no text, letters, words, numbers, logos, flags or writing anywhere in the image",
+  "uganda-military-shuts-media":
+    "An old printing press standing dark, cold and motionless in a deserted newspaper press hall at night, the lights switched off and a single blank unfinished front page left in the carriage, deep shadows, themes of a silenced press. Absolutely no text, letters, words, numbers, headlines, logos or writing anywhere in the image",
+  "south-korea-japan-defence-ties":
+    "Two plain bare flagpoles standing side by side at dusk before a calm modern government building, soft cool light and a wide quiet plaza, themes of two former adversaries drawing together in alliance. Absolutely no text, letters, words, numbers, flags, emblems, logos or writing anywhere in the image",
+  "vw-shareholder-china-models-germany":
+    "A vast, empty German automobile assembly hall at dawn, long idle production lines and silent robotic arms under high skylights, a single unfinished car body on the line, themes of an industrial giant idled and changing hands. Absolutely no text, letters, words, numbers, logos, badges or writing anywhere in the image",
+  "kentucky-flooding-deaths":
+    "A flooded residential street at grey dawn, muddy brown water rising over the hoods of submerged cars and the front porches of clapboard houses, bare trees and drooping power lines overhead, bleak and deserted, themes of a neighbourhood overwhelmed by rising floodwater. There are no signs or boards of any kind anywhere. Absolutely no text, letters, words, numbers, street signs, road signs, billboards, licence plates, shop signs, logos or writing anywhere in the image",
+  "austria-algeria-world-cup-thriller":
+    "An empty floodlit football stadium at night, the pitch a brilliant green, a single ball resting on the centre spot, drifting confetti and jubilant emptiness, themes of a dramatic last-minute result. Absolutely no text, letters, words, numbers, logos, advertising boards or writing anywhere in the image",
+  "german-court-google-ai-liability":
+    "A dim, empty room lit only by the cold glow of a computer monitor whose screen shows a blurred, indistinct wash of pale light reflected on a glass desk, a small set of brass scales of justice resting in the foreground shadow, themes of machine-made words and accountability. Absolutely no text, letters, words, numbers, legible code, logos or writing anywhere in the image",
+  "wild-form-stonewall-bar":
+    "A warm, intimate cocktail bar interior of flowing curved microcement walls and vaulted archways with no straight lines, soft amber lighting and rounded booths, empty and inviting, themes of sanctuary and organic form. Absolutely no text, letters, words, numbers, signs, logos or writing anywhere in the image",
   "pakistan-rangers-hq-attack":
     "A high fortified perimeter wall of a security compound at night, harsh floodlights cutting through drifting smoke and dust, an empty guard post and a lowered barrier across the entrance, tense and deserted, themes of a stronghold under assault. Absolutely no text, letters, words, numbers, logos, flags, emblems or writing anywhere in the image",
   "ukraine-strikes-russian-refineries":
