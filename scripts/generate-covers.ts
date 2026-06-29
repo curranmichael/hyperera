@@ -23,6 +23,12 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "ukraine-drones-russian-refinery-fuel":
+    "A large oil refinery at night seen across a dark plain, tall flare stacks and a fuel-storage tank burning bright orange against a black sky, a thin plume of smoke and a distant orange glow on the horizon, tangled silver pipelines glinting, themes of energy infrastructure struck in war and spreading fuel shortages. Absolutely no text, letters, words, numbers, logos, flags or writing anywhere in the image",
+  "strategy-value-below-bitcoin":
+    "A single large iridescent soap bubble drifting and beginning to deflate above a dark polished table in a dim room, a faint cool light passing through it, swirling shadows behind, themes of speculative value inflated and collapsing. Absolutely no text, letters, words, numbers, symbols, currency signs or writing anywhere in the image",
+  "apple-india-antitrust-copy-paste":
+    "A small set of brass scales of justice resting on a dark desk before the cool glow of a sleek modern glass storefront at dusk, soft reflections and shallow depth of field, themes of a technology giant weighed in the balance and accused. Absolutely no text, letters, words, numbers, logos, brand names, app icons or writing anywhere in the image",
   "colorado-west-wildfires-firefighters":
     "A wild mountain ridgeline in the American West ablaze at dusk, orange flames running through dry scrub and pine as towering walls of smoke billow into a darkening sky, distant tiny silhouettes of firefighters against the inferno, themes of wildfire, danger and sacrifice. Absolutely no text, letters, words, numbers, logos or writing anywhere in the image",
   "pakistan-afghan-border-operation":
