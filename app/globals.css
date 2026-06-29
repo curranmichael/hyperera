@@ -56,6 +56,9 @@ a {
    screen. */
 .radix-themes.site-theme {
   min-height: 100vh;
+  /* Page canvas at step 1 of the neutral (sand) scale instead of pure white;
+     --gray-1 tracks the appearance, so dark mode picks up its own step 1. */
+  --color-background: var(--gray-1);
 }
 
 /* --- Cards: flat (no border ring, no rounded corners) ---
@@ -147,4 +150,83 @@ a {
 .cover-hover-tint:hover img {
   mix-blend-mode: hard-light;
   filter: saturate(1);
+}
+
+/* --- Cookie consent banner ---
+   A cream panel pinned to the bottom of the viewport, floating over the page
+   with a small gutter. Its own ink/surface roles stay fixed in both themes —
+   the banner reads as a deliberate light slip laid over the dark page. The
+   transparent gutter lets clicks through to the page; only the panel catches
+   pointer events. Above the sticky header (z-index 10). */
+
+.cookie-banner {
+  --cookie-surface: #faf5ef;
+  --cookie-ink: #000;
+  --cookie-rule: rgba(0, 0, 0, 0.12);
+  position: fixed;
+  inset-inline: 0;
+  bottom: 0;
+  z-index: 100;
+  padding: clamp(1rem, 3vw, 2rem);
+  pointer-events: none;
+}
+
+.cookie-banner__panel {
+  pointer-events: auto;
+  max-width: 640px;
+  margin-inline: auto;
+  background: var(--cookie-surface);
+  color: var(--cookie-ink);
+  padding: clamp(1.5rem, 3vw, 2rem);
+}
+
+.cookie-banner__text {
+  font-size: 0.9375rem;
+  line-height: 1.55;
+}
+
+.cookie-banner__policy {
+  font-weight: 600;
+}
+
+.cookie-banner__policy:hover {
+  text-decoration: underline;
+}
+
+.cookie-banner__rule {
+  border: 0;
+  border-top: 1px solid var(--cookie-rule);
+  margin-block: 1.25rem;
+}
+
+.cookie-banner__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.cookie-banner__btn {
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.6rem 1.5rem;
+  border: 1.5px solid var(--cookie-ink);
+  background: transparent;
+  color: var(--cookie-ink);
+  cursor: pointer;
+  transition: background-color 150ms, color 150ms, opacity 150ms;
+}
+
+.cookie-banner__btn:hover {
+  background: var(--cookie-ink);
+  color: var(--cookie-surface);
+}
+
+.cookie-banner__btn--primary {
+  background: var(--cookie-ink);
+  color: var(--cookie-surface);
+}
+
+.cookie-banner__btn--primary:hover {
+  opacity: 0.85;
 }

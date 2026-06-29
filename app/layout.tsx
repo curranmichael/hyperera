@@ -4,6 +4,7 @@ import { Theme } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
 import "./globals.css";
 import { SiteHeader } from "./components/SiteHeader";
+import { CookieConsent } from "./components/CookieConsent";
 
 // ABC Favorit, self-hosted as variable woff2 (one file spans Book→Bold). The
 // standard cut drives body + headings via Radix's font tokens (see globals.css);
@@ -74,6 +75,7 @@ export default function RootLayout({
         >
           <SiteHeader />
           <main>{children}</main>
+          <CookieConsent />
         </Theme>
       </body>
     </html>
