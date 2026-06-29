@@ -23,6 +23,32 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "colorado-west-wildfires-firefighters":
+    "A wild mountain ridgeline in the American West ablaze at dusk, orange flames running through dry scrub and pine as towering walls of smoke billow into a darkening sky, distant tiny silhouettes of firefighters against the inferno, themes of wildfire, danger and sacrifice. Absolutely no text, letters, words, numbers, logos or writing anywhere in the image",
+  "pakistan-afghan-border-operation":
+    "A rugged arid mountain frontier at dawn under a pale sky, a lone stone watchtower and a winding razor-wire border fence crossing stony ridges, deserted and tense, themes of a contested borderland. Absolutely no text, letters, words, numbers, flags, logos or writing anywhere in the image",
+  "south-korea-ai-chip-megaplan":
+    "The vast interior of a brightly lit semiconductor fabrication plant, long rows of gleaming machinery and clean-room gantries stretching into the distance under cool white light, futuristic and immense, themes of grand industrial ambition. Absolutely no text, letters, words, numbers, logos, labels or writing anywhere in the image",
+  "texas-bible-required-reading":
+    "A quiet sunlit American elementary-school classroom, rows of small empty wooden desks and a single closed leather-bound book resting on the teacher's lectern, warm morning light through tall windows, themes of childhood, learning and scripture. The book is plainly bound with a blank cover. Absolutely no text, letters, words, numbers, titles, logos or writing anywhere in the image",
+  "israel-recognizes-armenian-genocide":
+    "A solemn stone memorial of tall carved upright basalt slabs arranged in a circle on a windswept hillside at dusk, an eternal flame burning low at its center, bare and reverent, themes of remembrance and mourning. Absolutely no text, letters, words, numbers, inscriptions, symbols or writing anywhere in the image",
+  "sovereign-funds-energy-dollar":
+    "Rows of tall white wind turbines and dark solar arrays stretching to the horizon across an open plain at golden hour beneath a wide clear sky, vast and orderly, themes of wealth shifting into energy. Absolutely no text, letters, words, numbers, logos or writing anywhere in the image",
+  "philippines-solar-rush":
+    "The crowded corrugated rooftops of a dense tropical Philippine neighborhood, many freshly installed blue solar panels gleaming under a brilliant midday sun, palm trees between the houses, themes of ordinary households seizing the power of the sun. Absolutely no text, letters, words, numbers, logos or writing anywhere in the image",
+  "nasa-swift-telescope-rescue":
+    "A lone satellite observatory drifting in low Earth orbit high above the blue curve of the planet, sunlight glinting off its golden solar panels against the deep black of space, scattered stars behind, themes of a fragile machine falling and a daring rescue. Absolutely no text, letters, words, numbers, logos or writing anywhere in the image",
+  "canada-south-africa-world-cup":
+    "A floodlit football stadium at night, the green pitch glowing brilliantly under bright lights, players celebrating near a corner flag amid drifting confetti and a blurred roaring crowd, themes of a dramatic last-minute victory. Absolutely no text, letters, words, numbers, logos, advertising boards or writing anywhere in the image",
+  "sothebys-lewis-collection-record":
+    "An elegant auction-house saleroom with a packed crowd of bidders seen from behind, facing a raised wooden rostrum where an auctioneer stands, a single large gilt-framed painting illuminated on the wall behind, warm gallery light, themes of art, money and spectacle. The framed painting shows only an indistinct abstract wash. Absolutely no text, letters, words, numbers, logos or writing anywhere in the image",
+  "meta-ai-glasses-kylie-jenner":
+    "A single pair of sleek modern smart glasses resting on a minimalist pale studio surface, a tiny camera lens just visible at one corner, soft directional light and shallow depth of field, glamorous and clean, themes of fashionable technology and augmented sight. Absolutely no text, letters, words, numbers, logos, brand names or writing anywhere in the image",
+  "austria-anthropic-eu":
+    "A grand modern European institutional building of glass and steel at dusk, a sweeping curved facade reflecting cool blue twilight, a row of bare unmarked flagpoles before it, stately and quiet, themes of Europe courting innovation. Absolutely no text, letters, words, numbers, flags, emblems, logos or writing anywhere in the image",
+  "vietnam-arrests-dissent":
+    "A long empty prison corridor of grey concrete lined with heavy steel-barred cell doors in dim light, a single small barred window casting a faint shaft of pale light onto the floor, bleak and silent, themes of dissent silenced and confinement. Absolutely no text, letters, words, numbers, logos or writing anywhere in the image",
   "iran-strikes-bahrain-kuwait":
     "A dark Gulf coastline at night seen from far away, a faint orange glow low on the horizon and thin streaks of light crossing a starless sky above a distant silhouetted military port, tense and deserted, themes of a fragile truce shattered and war spreading across the water. Absolutely no text, letters, words, numbers, logos, flags or writing anywhere in the image",
   "uganda-military-shuts-media":
