@@ -23,6 +23,14 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "israel-strikes-gaza-children":
+    "A cluster of makeshift tents and stretched tarpaulins of displaced families on rubble-strewn ground at dusk beneath a heavy, smoke-darkened sky, a few small belongings scattered in the dust, bleak and silent with no people visible, themes of war's toll on the innocent and families left sheltering in the open. Absolutely no text, letters, words, numbers, flags, logos or writing anywhere in the image",
+  "morocco-eliminate-netherlands-world-cup":
+    "An empty floodlit football stadium at night, the pitch a brilliant green, a single ball resting on the penalty spot, drifting confetti and jubilant emptiness, themes of a dramatic penalty-shootout victory and an underdog's triumph. Absolutely no text, letters, words, numbers, logos, advertising boards or writing anywhere in the image",
+  "australia-sues-amazon-prime-ads":
+    "A glowing flat-screen television on a low stand in a dim, empty living room at night, its bright screen an indistinct abstract wash of coloured light interrupting a film, a remote control resting on the arm of a sofa in the foreground, themes of advertising intruding on paid entertainment. The screen shows only a blur of colour. Absolutely no text, letters, words, numbers, logos, brand names, channel icons or writing anywhere on the screen or in the image",
+  "uk-cma-app-store-payments":
+    "A single smartphone held in a hand in soft directional light against a dark background, its screen showing a neat grid of plain blank rounded app tiles in muted colours, shallow depth of field, themes of a digital marketplace and the gateway to it. The app tiles are blank with no symbols on them. Absolutely no text, letters, words, numbers, logos, brand names, app names, icons or writing anywhere on the screen or in the image",
   "paraguay-knock-germany-out-world-cup":
     "An empty floodlit football stadium at night, the pitch a brilliant green, a single ball resting on the centre spot, drifting confetti and jubilant emptiness, themes of a dramatic underdog victory and a mighty favourite toppled. Absolutely no text, letters, words, numbers, logos, advertising boards or writing anywhere in the image",
   "trump-vehicle-right-to-repair":
