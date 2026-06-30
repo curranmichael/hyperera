@@ -23,6 +23,24 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "scotus-transgender-school-sports":
+    "An empty outdoor running track at dusk, crisp white starting blocks and curving lane lines stretching away under stadium floodlights, a brilliant green infield, deserted and still, themes of competition, fairness and who may take the field. Absolutely no text, letters, words, numbers, lane numbers, logos, advertising boards or writing anywhere in the image",
+  "ukraine-dubna-second-strike":
+    "A large industrial complex at night seen across a dark plain, tall towers and a storage tank burning bright orange against a black sky, a thin plume of smoke and a distant orange glow on the horizon, tangled silver pipework glinting, themes of distant infrastructure struck in war. Absolutely no text, letters, words, numbers, logos, flags or writing anywhere in the image",
+  "europe-heatwave-record-deaths":
+    "A sun-bleached European city square at midday in a heatwave, cobblestones and a dry stone fountain shimmering under a white-hot sky, a few people resting in a thin strip of shade, wilting trees, oppressive heat haze, themes of a continent overwhelmed by extreme heat. Absolutely no text, letters, words, numbers, signs, shop fronts, logos or writing anywhere in the image",
+  "ghana-accra-flooding-deaths":
+    "A flooded tropical city street at grey dawn, muddy brown water rising over the wheels of cars and the steps of low concrete houses, palm trees and drooping power lines overhead, bleak and deserted, themes of a neighbourhood overwhelmed by floodwater. There are no signs or boards of any kind anywhere. Absolutely no text, letters, words, numbers, street signs, shop signs, billboards, licence plates, logos or writing anywhere in the image",
+  "ubs-million-new-millionaires":
+    "A scattering of gleaming plain gold coins heaped on a dark polished surface in the foreground, a softly blurred glittering city skyline of glass towers at dusk behind, cool light and shallow depth of field, themes of swelling wealth and a widening gap. The coins are plain blank discs. Absolutely no text, letters, words, numbers, currency symbols, faces, logos or writing anywhere in the image",
+  "usmca-withdrawal-countdown":
+    "A vast container port at dusk, towering stacks of shipping containers in plain flat solid blocks of colour and idle cranes silhouetted under a brooding sky, a lowered barrier across the empty quay, themes of cross-border trade halted between nations. Every container surface is completely smooth, blank and unmarked with no codes, no markings and no symbols of any kind. Absolutely no text, letters, words, numbers, container codes, serial numbers, logos, brand names, flags or writing anywhere in the image",
+  "meta-states-child-addiction-suit":
+    "A young child's face softly lit from below by the pale glow of a smartphone held in the dark, wide absorbed eyes reflecting the screen, the room around them deep in shadow, themes of children, screens and addictive design. The screen is an indistinct blur of pale light. Absolutely no text, letters, words, numbers, app icons, logos or writing anywhere on the screen or in the image",
+  "brazil-beat-japan-world-cup":
+    "An empty floodlit football stadium at night, the pitch a brilliant green, a single ball resting on the centre spot, drifting confetti and jubilant emptiness, themes of a dramatic last-minute victory. Absolutely no text, letters, words, numbers, logos, advertising boards or writing anywhere in the image",
+  "rick-owens-adidas-aircon-tracksuits":
+    "Several avant-garde inflatable puffed-up tracksuits in muted grey and black displayed on faceless mannequins under soft directional studio light against a pale seamless background, bulbous rounded sculptural forms, shallow depth of field, themes of futuristic fashion and wearable climate control. Absolutely no text, letters, words, numbers, logos, brand names, stripes that form letters or writing anywhere in the image",
   "israel-strikes-gaza-children":
     "A cluster of makeshift tents and stretched tarpaulins of displaced families on rubble-strewn ground at dusk beneath a heavy, smoke-darkened sky, a few small belongings scattered in the dust, bleak and silent with no people visible, themes of war's toll on the innocent and families left sheltering in the open. Absolutely no text, letters, words, numbers, flags, logos or writing anywhere in the image",
   "morocco-eliminate-netherlands-world-cup":
