@@ -23,6 +23,12 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "paraguay-knock-germany-out-world-cup":
+    "An empty floodlit football stadium at night, the pitch a brilliant green, a single ball resting on the centre spot, drifting confetti and jubilant emptiness, themes of a dramatic underdog victory and a mighty favourite toppled. Absolutely no text, letters, words, numbers, logos, advertising boards or writing anywhere in the image",
+  "trump-vehicle-right-to-repair":
+    "A close-up of a mechanic's bare hands working with a wrench deep in the open engine bay of an older car, warm garage light, scattered hand tools resting on a cloth, shallow depth of field, themes of self-reliance and the freedom to mend what you own. Absolutely no text, letters, words, numbers, logos, badges, gauges or writing anywhere in the image",
+  "turrell-100th-skyspace-aarhus":
+    "The interior of a vast dark domed chamber with a single large circular oculus open at its apex to a deep twilight sky, soft graded light washing the smooth curved walls, a few small silhouetted figures seated far below gazing upward, serene and meditative, themes of light, perception and the heavens. Absolutely no text, letters, words, numbers or writing anywhere in the image",
   "ukraine-drones-russian-refinery-fuel":
     "A large oil refinery at night seen across a dark plain, tall flare stacks and a fuel-storage tank burning bright orange against a black sky, a thin plume of smoke and a distant orange glow on the horizon, tangled silver pipelines glinting, themes of energy infrastructure struck in war and spreading fuel shortages. Absolutely no text, letters, words, numbers, logos, flags or writing anywhere in the image",
   "strategy-value-below-bitcoin":
