@@ -24,7 +24,6 @@ export function StoryView({ story }: { story: Story }) {
             <CoverImage
               image={story.image}
               ratio={16 / 9}
-              tint={genreMeta[story.genre].color}
               showCredit
               priority
               sizes="(max-width: 880px) 100vw, 880px"

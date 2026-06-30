@@ -1,10 +1,10 @@
-// The shared cover treatment: greyscale, resize, Bayer-ordered dither to a
-// small palette PNG. Used by both the remote-fetch and generation scripts.
+// The shared cover treatment: drop to half saturation, resize, then Bayer-ordered
+// dither each RGB channel to a small palette PNG. Used by the fetch + generation scripts.
 
 import sharp from "sharp";
 
 export const MAX_WIDTH = 1000;
-export const LEVELS = 6; // black + 4 greys + white
+export const LEVELS = 6; // 6 steps per channel
 
 // 8x8 Bayer threshold matrix, normalised to (0,1).
 export const BAYER = [
@@ -18,34 +18,40 @@ export const BAYER = [
   [63, 31, 55, 23, 61, 29, 53, 21],
 ].map((row) => row.map((v) => (v + 0.5) / 64));
 
-// Ordered dithering to LEVELS evenly-spaced grey values. Reads the first of
-// `channels` bytes per pixel (greyscale makes them equal) and emits 1 channel.
+// Ordered dithering of each RGB channel to LEVELS evenly-spaced values, emitting
+// 3 channels. A 1-channel (greyscale) source reads the same byte for all three.
 export function dither(data: Buffer, width: number, height: number, channels: number) {
-  const out = Buffer.alloc(width * height);
+  const out = Buffer.alloc(width * height * 3);
   const max = LEVELS - 1;
   for (let y = 0; y < height; y++) {
     for (let x = 0; x < width; x++) {
-      const scaled = (data[(y * width + x) * channels] / 255) * max;
-      const lower = Math.floor(scaled);
-      const level = Math.min(max, lower + (scaled - lower > BAYER[y & 7][x & 7] ? 1 : 0));
-      out[y * width + x] = Math.round((level / max) * 255);
+      const threshold = BAYER[y & 7][x & 7];
+      const src = (y * width + x) * channels;
+      const dst = (y * width + x) * 3;
+      for (let c = 0; c < 3; c++) {
+        const scaled = (data[src + Math.min(c, channels - 1)] / 255) * max;
+        const lower = Math.floor(scaled);
+        const level = Math.min(max, lower + (scaled - lower > threshold ? 1 : 0));
+        out[dst + c] = Math.round((level / max) * 255);
+      }
     }
   }
   return out;
 }
 
-// Any encoded image bytes (jpeg/png/webp) -> dithered greyscale palette PNG.
+// Any encoded image bytes (jpeg/png/webp) -> dithered, half-saturated palette PNG.
 export async function bufferToDitheredPng(input: Buffer): Promise<Buffer> {
   const { data, info } = await sharp(input)
     .rotate()
     .resize({ width: MAX_WIDTH, withoutEnlargement: true })
-    .greyscale()
+    .modulate({ saturation: 0.5 })
+    .removeAlpha()
     .raw()
     .toBuffer({ resolveWithObject: true });
 
   return sharp(dither(data, info.width, info.height, info.channels), {
-    raw: { width: info.width, height: info.height, channels: 1 },
+    raw: { width: info.width, height: info.height, channels: 3 },
   })
-    .png({ palette: true, colors: LEVELS, compressionLevel: 9 })
+    .png({ palette: true, compressionLevel: 9 })
     .toBuffer();
 }

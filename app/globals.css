@@ -135,21 +135,18 @@ a {
 
 /* --- Cover tint on hover (home only) ---
    CoverImage with `tintOnHover` paints the genre accent behind the image but
-   leaves it hidden at rest: the cover shows its own colour at half saturation.
-   On hover (the whole card, or the image itself for the lead) the image switches
-   to `hard-light` so the accent blends through as a duotone. The blend-mode flip
-   is instant; the saturation eases. */
+   leaves it hidden at rest: the cover shows its own half-saturated colour. On
+   hover (the whole card, or the image itself for the lead) the image switches to
+   `hard-light` so the accent blends through as a duotone. The blend-mode flip is
+   instant. */
 
 .cover-hover-tint img {
   mix-blend-mode: normal;
-  filter: saturate(0.5);
-  transition: filter 200ms;
 }
 
 .story-card:hover .cover-hover-tint img,
 .cover-hover-tint:hover img {
   mix-blend-mode: hard-light;
-  filter: saturate(1);
 }
 
 /* --- Cookie consent banner ---
