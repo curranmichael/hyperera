@@ -23,6 +23,32 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "china-export-controls-japan":
+    "A vast container port terminal at dusk, towering stacks of plain unmarked shipping containers in flat blocks of colour and idle cranes silhouetted against a brooding grey sky, a lowered barrier across an empty quay, themes of trade between two great nations abruptly restricted. Every container surface is smooth, blank and unmarked. Absolutely no text, letters, words, numbers, container codes, logos, brand names, flags or writing anywhere in the image",
+  "google-klarna-antitrust-sweden":
+    "A small set of brass scales of justice resting on a dark polished desk before the cool blue glow of a towering glass corporate skyscraper at dusk, soft reflections and shallow depth of field, themes of a technology giant weighed in the balance and found liable. Absolutely no text, letters, words, numbers, logos, brand names or writing anywhere in the image",
+  "un-panel-ai-catastrophic-risks":
+    "A single vast server cabinet glowing faintly in a dark data hall, cold blue light spilling from its seams while the long shadow of a human figure falls across the floor before it, ominous and still, themes of a powerful new intelligence and the fear of losing control. Absolutely no text, letters, words, numbers, screens, logos or writing anywhere in the image",
+  "kroger-giant-eagle-acquisition":
+    "A brightly lit empty supermarket aisle receding into soft focus, tall shelves stocked with plain unlabelled cartons and cans under clean cool light, a single shopping trolley resting at the far end, themes of grocery chains merging and consolidating. Every package is plain and blank. Absolutely no text, letters, words, numbers, brand names, price tags, logos or writing anywhere in the image",
+  "cma-cgm-fedex-logistics-deal":
+    "A huge container ship stacked with plain unmarked containers docked beside towering cranes at a port terminal at golden hour, calm water in the foreground, themes of a shipping empire expanding onto land and into logistics. Every container and surface is smooth, blank and unmarked. Absolutely no text, letters, words, numbers, container codes, logos, brand names or writing anywhere in the image",
+  "micron-gm-chip-supply-deal":
+    "A single polished silicon wafer held under bright directional light, its concentric circuitry catching a faint rainbow sheen, a blurred automobile assembly line receding into cool shadow behind, shallow depth of field, themes of chips and cars bound together in a supply pact. Absolutely no text, letters, words, numbers, logos, badges, brand names or writing anywhere in the image",
+  "poland-russia-sabotage-warning":
+    "Empty railway tracks curving away into darkness beneath a single cold security floodlight, a faint drift of smoke and long shadows across the gravel, tense and deserted with no people visible, themes of covert sabotage and a shadow war behind the lines. Absolutely no text, letters, words, numbers, signs, logos, flags or writing anywhere in the image",
+  "romania-storm-deadly":
+    "Dark towering storm clouds massing over the rooftops and church spires of a Central European city at dusk, sheets of rain and a bent tree lashed by wind in the foreground, a deserted wet street, dramatic and ominous, themes of a violent storm sweeping the land. Absolutely no text, letters, words, numbers, signs, shop fronts, logos or writing anywhere in the image",
+  "uganda-marburg-case":
+    "A lone laboratory worker in a full white protective suit and mask handling a single small glass vial under the cold blue light of a biosafety cabinet in a darkened lab, sterile and tense, themes of a lethal virus contained and watched. Absolutely no text, letters, words, numbers, labels, logos or writing anywhere in the image",
+  "carroll-trump-damages-appeal":
+    "The tall stone steps and fluted columns of a great supreme court building at dusk, a set of brass scales of justice resting on a plinth in the foreground, a lone long shadow stretching across the marble, themes of the powerful finally held to account. Absolutely no text, letters, words, numbers, inscriptions, logos or writing anywhere in the image",
+  "mexico-city-world-cup-deaths":
+    "A dense night-time crowd of football fans seen from behind waving plain banners beneath a great illuminated monument in a city square, coloured light and drifting haze, a mood of celebration edged with unease and shadow, themes of mass jubilation turned to tragedy. Every banner and flag is plain and blank. Absolutely no text, letters, words, numbers, logos, brand names or writing anywhere in the image",
+  "canada-eurovision-2027-debut":
+    "A grand concert stage bathed in sweeping beams of coloured spotlight and drifting haze, a single microphone on a stand at centre before a dark empty auditorium, glamorous and expectant, themes of a great international song contest. Absolutely no text, letters, words, numbers, logos, screens, brand names or writing anywhere in the image",
+  "swiss-traditionalists-defy-pope":
+    "The candle-lit stone interior of a soaring gothic cathedral at dusk, shafts of pale light falling through tall arched windows onto empty pews and a distant altar, a single bishop's mitre resting on a carved wooden stall in the foreground, solemn and hushed, themes of a church divided and the old rite defying Rome. Absolutely no text, letters, words, numbers, inscriptions, logos or writing anywhere in the image",
   "sudan-rsf-el-fasher-crimes":
     "A deserted, war-scarred city in the arid Sahel at dusk, shuttered low buildings and empty dust-blown streets beneath a heavy, smoke-darkened sky, a lone abandoned sandal in the foreground, bleak and silent with no people visible, themes of a city sacked and its people driven out. Absolutely no text, letters, words, numbers, flags, logos or writing anywhere in the image",
   "colorado-kiros-defeats-degette":
