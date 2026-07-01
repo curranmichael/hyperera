@@ -97,6 +97,969 @@ export const categoryMeta: Record<
 // are Google News redirects (see `lib/feeds.ts`).
 const stories: Story[] = [
   {
+    "slug": "china-export-controls-japan",
+    "headline": "China imposes export controls on 40 Japanese firms as tensions with Tokyo rise",
+    "overview": "China announced new export controls targeting 40 Japanese companies, escalating a diplomatic and trade dispute with Tokyo. The measures restrict shipments to the named entities and mark a sharp deterioration in relations between Asia's two largest economies.",
+    "genre": "Politics",
+    "sources": [
+      {
+        "name": "AP",
+        "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNC1UQ0FNc0t3cE41MlROU0dWZXplUGY5dUozSjVPM1R0MVotUzZkWFg3elRMOGRxNFFfeDBQSUFVME02ZDkzLXY3NlU5T3YzNGRxTUMzdW9iSTVDMWhtSk8xZ24yeWdmUEUzUFhrYzc0OG84b0dfUGRZRmI4OVAzNVRsZ2ZZXzhVUlBxeUpFMGFZQ0N6LWRpVURCNTl6a00?oc=5"
+      },
+      {
+        "name": "Nikkei Asia",
+        "href": "https://asia.nikkei.com/politics/international-relations/japan-china-tensions/china-restricts-exports-to-mitsubishi-hitachi-komatsu-units"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-01",
+    "image": {
+      "src": "/covers/china-export-controls-japan.png",
+      "alt": "Rows of stacked shipping containers at a Chinese port under a grey, overcast sky.",
+      "credit": "AI-generated"
+    },
+    "edition": "Evening Edition · 1 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "Napoleon's Berlin Decree and the Continental System (1806)",
+        "excerpt": "Article 1. The British Isles are declared to be in a state of blockade.\n\nArticle 2. All commerce and all correspondence with the British Isles are forbidden. Consequently letters or packages directed to England or to an Englishman or written in the English language shall not pass through the mails and shall be seized.",
+        "source": "Napoleon I, \"The Berlin Decree\" (21 November 1806), English translation, Wikisource.",
+        "href": "https://en.wikisource.org/wiki/Berlin_Decree"
+      },
+      {
+        "category": "historical",
+        "title": "The Megarian Decree in Plutarch's Life of Pericles",
+        "excerpt": "The Corinthians were incensed at this procedure, and denounced the Athenians at Sparta, and were joined by the Megarians, who brought their complaint that from every market-place and from all the harbors over which the Athenians had control, they were excluded and driven away, contrary to the common law and the formal oaths of the Greeks.",
+        "source": "Plutarch, Life of Pericles 29, trans. Bernadotte Perrin (Loeb Classical Library, 1916), Perseus Digital Library, Tufts University.",
+        "href": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0055:chapter=29"
+      },
+      {
+        "category": "literary",
+        "title": "Aristophanes, The Acharnians",
+        "excerpt": "Then Pericles, aflame with ire on his Olympian height, let loose the lightning, caused the thunder to roll, upset Greece and passed an edict, which ran like the song, 'That the Megarians be banished both from our land and from our markets and from the sea and from the continent.' Meanwhile the Megarians, who were beginning to die of hunger, begged the Lacedaemonians to bring about the abolition of the decree, of which those harlots were the cause; several times we refused their demand.",
+        "source": "Aristophanes, The Acharnians, trans. anonymous (Athenian Society edition), Project Gutenberg.",
+        "href": "https://www.gutenberg.org/files/3012/3012-h/3012-h.htm"
+      },
+      {
+        "category": "literary",
+        "title": "Shakespeare, Coriolanus",
+        "excerpt": "Suffer us to famish, and their storehouses crammed with grain; make edicts for usury to support usurers; repeal daily any wholesome act established against the rich, and provide more piercing statutes daily to chain up and restrain the poor.",
+        "source": "William Shakespeare, Coriolanus, Act I, Scene 1 (First Citizen), Project Gutenberg.",
+        "href": "https://www.gutenberg.org/cache/epub/1535/pg1535.txt"
+      },
+      {
+        "category": "artistic",
+        "title": "Beethoven, Wellington's Victory, Op. 91 — MUSIC",
+        "excerpt": "Beethoven's battle piece stages the clash of two great powers as raw sound, marshalling the British side under Arne's 'Rule Britannia' against the French advancing to 'Malbrough s'en va-t-en guerre,' the two national tunes colliding in cannon-fire and drum-rolls. Composed to mark Wellington's rout of the French in 1813, it belongs to the same era of Napoleonic economic warfare and continental blockade, when commerce and armies alike were weapons between rival empires. Its programmatic din makes audible the theme of two dominant states locked in coercive confrontation, each refusing the other passage.",
+        "source": "Ludwig van Beethoven, Wellingtons Sieg, Op. 91 (Wellington's Victory), IMSLP / Petrucci Music Library.",
+        "href": "https://imslp.org/wiki/Wellingtons_Sieg,_Op.91_(Beethoven,_Ludwig_van)"
+      },
+      {
+        "category": "artistic",
+        "title": "James Gillray, The Plumb-pudding in danger — VISUAL ARTWORK",
+        "excerpt": "Gillray's 1805 satire seats William Pitt and Napoleon at opposite ends of a table, each carving a slice from a globe-shaped plum pudding, coldly dividing the world into rival spheres of control. Pitt's trident-fork stakes Britain's claim to the oceans while Napoleon's blade sweeps across Europe, a vivid image of two dominant powers partitioning trade and territory between them. The print distills the logic of great-power economic rivalry, in which access to the world's commerce is something the strong apportion to themselves.",
+        "source": "James Gillray, \"The Plumb-pudding in danger; –or– State Epicures taking un Petit Souper\" (1805), hand-coloured etching, Library of Congress via Wikimedia Commons.",
+        "href": "https://commons.wikimedia.org/wiki/File:Caricature_gillray_plumpudding.jpg",
+        "image": {
+          "src": "/covers/china-export-controls-japan--art.png",
+          "alt": "James Gillray's 1805 caricature The Plumb-pudding in danger, showing Pitt and Napoleon carving up a globe-shaped pudding of the world.",
+          "credit": "Wikimedia Commons"
+        }
+      }
+    ],
+    "rank": 1,
+    "lead": true
+  },
+  {
+    "slug": "google-klarna-antitrust-sweden",
+    "headline": "Swedish court orders Google to pay $1.5 billion to Klarna in antitrust case",
+    "overview": "A Swedish court ordered Google to pay 1.5 billion dollars in damages to the payments company Klarna, finding the search giant had abused its market position. It is one of the largest private antitrust awards against Google in Europe.",
+    "genre": "Technology",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSUR2WFBXY0dxNVhUYnNOUDF2OWRvZTB2SDU3a2djdHF6NWRkRm1Fc1JTUDl2NENKQ0ZKaC15N1V5QzRLWXo0OGNLT2h4LU1fbWpCODBNMTh3VVJqcFlyTXA0ektubGxMQWx3NzFvblJ4SG1wcXpRQm93OVpmdkZ1cXowUk5yd3lnUjdMS2I1QldWa3NYdzEyaFV1YldrVWhqN3kzVnl3QjNhTktkaVkwNVl1Yw?oc=5"
+      },
+      {
+        "name": "PYMNTS",
+        "href": "https://www.pymnts.com/legal/antitrust/2026/klarnas-pricerunner-awarded-1-9-billion-in-google-antitrust-case/"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-01",
+    "image": {
+      "src": "/covers/google-klarna-antitrust-sweden.png",
+      "alt": "A glass corporate office tower reflecting a pale sky, seen from below.",
+      "credit": "AI-generated"
+    },
+    "edition": "Evening Edition · 1 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "David and Goliath (1 Samuel 17)",
+        "excerpt": "Thou comest to me with a sword, and with a spear, and with a shield: but I come to thee in the name of the LORD of hosts, the God of the armies of Israel, whom thou hast defied.",
+        "source": "The Bible (King James Version), 1 Samuel 17:45, Wikisource",
+        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/1_Samuel"
+      },
+      {
+        "category": "historical",
+        "title": "Theodore Roosevelt on the trusts (First Annual Message, 1901)",
+        "excerpt": "Great corporations exist only because they are created and safeguarded by our institutions; and it is therefore our right and our duty to see that they work in harmony with these institutions.",
+        "source": "Theodore Roosevelt, First State of the Union Address (3 December 1901), Wikisource",
+        "href": "https://en.wikisource.org/wiki/Theodore_Roosevelt%27s_First_State_of_the_Union_Address"
+      },
+      {
+        "category": "literary",
+        "title": "Prometheus Bound by Aeschylus",
+        "excerpt": "Such an ignominious bondage hath the new ruler of the immortals devised against me.",
+        "source": "Aeschylus, Prometheus Bound (trans. Theodore Alois Buckley), Project Gutenberg eBook #27458",
+        "href": "https://www.gutenberg.org/files/27458/27458-h/27458-h.htm"
+      },
+      {
+        "category": "literary",
+        "title": "Gulliver's Travels by Jonathan Swift",
+        "excerpt": "I found my arms and legs were strongly fastened on each side to the ground; and my hair, which was long and thick, tied down in the same manner.",
+        "source": "Jonathan Swift, Gulliver's Travels, Part I, Chapter I, Project Gutenberg eBook #829",
+        "href": "https://www.gutenberg.org/files/829/829-h/829-h.htm"
+      },
+      {
+        "category": "artistic",
+        "title": "Judas Maccabaeus, HWV 63 by George Frideric Handel — MUSIC",
+        "excerpt": "Handel's 1746 oratorio turns a small people's revolt against a mighty empire into blazing choral triumph, its trumpets and drums swelling as the underdog prevails. The famous chorus 'See, the Conqu'ring Hero Comes' crowns the victor not by sheer force but by righteous resolve. It is the sound of a colossus overmatched and a lesser rival exalted, an apt fanfare for a giant humbled in court.",
+        "source": "George Frideric Handel, Judas Maccabaeus, HWV 63 (1746), IMSLP / Petrucci Music Library",
+        "href": "https://imslp.org/wiki/Judas_Maccabaeus,_HWV_63_(Handel,_George_Frideric)"
+      },
+      {
+        "category": "artistic",
+        "title": "David with the Head of Goliath by Caravaggio — VISUAL ARTWORK",
+        "excerpt": "Caravaggio's David with the Head of Goliath (c. 1610, Galleria Borghese) shows a pensive young shepherd holding aloft the severed head of the fallen giant. The tenebrist light isolates the trophy against darkness, making the toppling of overwhelming might feel intimate and sober rather than boastful. The image distills the theme of a smaller challenger who, against all odds, brings down a dominant power.",
+        "source": "Michelangelo Merisi da Caravaggio, David with the Head of Goliath (c. 1610), Galleria Borghese, Rome; Wikimedia Commons",
+        "href": "https://commons.wikimedia.org/wiki/File:David_with_the_Head_of_Goliath-Caravaggio_(1610).jpg",
+        "image": {
+          "src": "/covers/google-klarna-antitrust-sweden--art.png",
+          "alt": "Caravaggio's painting David with the Head of Goliath, a young David holding the severed head of the giant Goliath against a dark background",
+          "credit": "Wikimedia Commons"
+        }
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "slug": "un-panel-ai-catastrophic-risks",
+    "headline": "UN scientific panel warns unchecked AI progress could pose catastrophic risks",
+    "overview": "A United Nations expert panel warned that rapid, unchecked advances in artificial intelligence could pose catastrophic risks to humanity, while also citing enormous potential benefits. The report urged stronger international governance of the technology.",
+    "genre": "Technology",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZzlYcjZBRTVTUHhqcGM3ZXZwVS1XWktHaWVmckFuZjg1bzZPNnZqWDJxUzktV2c4TDA5VHY4ajIxbjVrb21MYnRiM0Q3WDRmMUZZQWxpWlZzZGh4QlVsWF82SGlYZ3lSZVNab056ZWdhTWphSnhXY2lZZHUxb19oWF9udWpTQnNGWkFVVFo0Y0VPckVYTkU5VmozMHA2dE9OanE3SER1cFVzN0U4WkE?oc=5"
+      },
+      {
+        "name": "UN News",
+        "href": "https://news.un.org/en/story/2026/07/1167848"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-01",
+    "image": {
+      "src": "/covers/un-panel-ai-catastrophic-risks.png",
+      "alt": "Rows of glowing server racks receding into darkness in a data centre.",
+      "credit": "AI-generated"
+    },
+    "edition": "Evening Edition · 1 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "Prometheus steals fire from the gods",
+        "excerpt": "He hid fire; but that the noble son of Iapetus stole again for men from Zeus the counsellor in a hollow fennel-stalk, so that Zeus who delights in thunder did not see it. But afterwards Zeus who gathers the clouds said to him in anger: 'Son of Iapetus, surpassing all in cunning, you are glad that you have outwitted me and stolen fire—a great plague to you yourself and to men that shall be.'",
+        "source": "Hesiod, Works and Days, trans. Hugh G. Evelyn-White, Perseus Digital Library, Tufts University",
+        "href": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0132:card=42"
+      },
+      {
+        "category": "historical",
+        "title": "Pandora opens the jar of evils",
+        "excerpt": "But the woman took off the great lid of the jar with her hands and scattered, all these and her thought caused sorrow and mischief to men. Only Hope remained there in an unbreakable home within under the rim of the great jar, and did not fly out at the door.",
+        "source": "Hesiod, Works and Days, trans. Hugh G. Evelyn-White, Perseus Digital Library, Tufts University",
+        "href": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0132:card=90"
+      },
+      {
+        "category": "literary",
+        "title": "Frankenstein warns of dangerous knowledge",
+        "excerpt": "Learn from me, if not by my precepts, at least by my example, how dangerous is the acquirement of knowledge and how much happier that man is who believes his native town to be the world, than he who aspires to become greater than his nature will allow.",
+        "source": "Mary Shelley, Frankenstein; or, The Modern Prometheus, Project Gutenberg",
+        "href": "https://www.gutenberg.org/files/84/84-h/84-h.htm"
+      },
+      {
+        "category": "literary",
+        "title": "Faust's fateful bargain",
+        "excerpt": "When thus I hail the Moment flying: 'Ah, still delay—thou art so fair!' Then bind me in thy bonds undying, My final ruin then declare!",
+        "source": "Johann Wolfgang von Goethe, Faust, trans. Bayard Taylor, Project Gutenberg",
+        "href": "https://www.gutenberg.org/files/14591/14591-h/14591-h.htm"
+      },
+      {
+        "category": "artistic",
+        "title": "Paul Dukas, L'apprenti sorcier — MUSIC",
+        "excerpt": "Paul Dukas's orchestral scherzo L'apprenti sorcier (The Sorcerer's Apprentice, 1897) sets Goethe's ballad in which an apprentice enchants a broom to fetch water, only to lose control of the force he has summoned. Unable to reverse the spell, he watches his creation multiply and flood the workshop until the master returns to restore order. The music has become a byword for a powerful technology unleashed without the wisdom to command it—an apt parallel to warnings that AI is outpacing our ability to govern it.",
+        "source": "Paul Dukas, L'apprenti sorcier (score and parts), International Music Score Library Project (IMSLP)",
+        "href": "https://imslp.org/wiki/L%27apprenti_sorcier_(Dukas,_Paul)"
+      },
+      {
+        "category": "artistic",
+        "title": "Heinrich Füger, Prometheus Brings Fire to Mankind — VISUAL ARTWORK",
+        "excerpt": "Heinrich Friedrich Füger's neoclassical canvas Prometheus Brings Fire to Mankind (c. 1817) shows the Titan pressing a stolen flame toward newly formed humanity, a gift of transformative power that Zeus had deliberately withheld. The painting captures the double edge of the myth: the same fire that lifts humankind toward civilization also invites divine retribution and unforeseen consequences. It stands as an enduring image of a creation both liberating and perilous, echoing debates over an AI technology whose promise is matched by its capacity for catastrophic harm.",
+        "source": "Heinrich Friedrich Füger, Prometheus Brings Fire to Mankind (c. 1817), Wikimedia Commons",
+        "href": "https://commons.wikimedia.org/wiki/File:Heinrich_fueger_1817_prometheus_brings_fire_to_mankind.jpg",
+        "image": {
+          "src": "/covers/un-panel-ai-catastrophic-risks--art.png",
+          "alt": "Neoclassical painting of the Titan Prometheus bringing fire to reclining human figures",
+          "credit": "Wikimedia Commons"
+        }
+      }
+    ],
+    "rank": 3
+  },
+  {
+    "slug": "kroger-giant-eagle-acquisition",
+    "headline": "Kroger to buy grocery chain Giant Eagle in a $1.65 billion deal",
+    "overview": "The supermarket giant Kroger agreed to acquire the regional grocer Giant Eagle for 1.65 billion dollars, expanding its footprint as competition in US grocery intensifies. The deal adds Giant Eagle's stores and fuel outlets to Kroger's national network.",
+    "genre": "Economy",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU0xTcWNLdGw2QWFGbUtjLTBIcjFtQXIybUdxTlRJdE9lV0F4ZlZsWkxndjgxek5UWVRuX1ZtVEFMbHRSaC1LaV9jd2IxNGphblY3X1NjZWtKbEtfalM3VzJxX2R1anJYM2JMS0NpSzM0S0MzSGZsSjVXTEx5R1FsOU1pMkZWTURwYl9IT2g0Tk9SenMyeFFfd2Z3dw?oc=5"
+      },
+      {
+        "name": "Supermarket News",
+        "href": "https://www.supermarketnews.com/mergers-acquisitions/kroger-to-acquire-giant-eagle-for-1-65b"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-01",
+    "image": {
+      "src": "/covers/kroger-giant-eagle-acquisition.png",
+      "alt": "A brightly lit supermarket aisle lined with stocked shelves, empty of shoppers.",
+      "credit": "AI-generated"
+    },
+    "edition": "Evening Edition · 1 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "The Cleveland Conquest: Standard Oil absorbs its rivals",
+        "excerpt": "In less than four months in 1872, in what was later known as \"The Cleveland Conquest\" or \"The Cleveland Massacre\", Standard Oil absorbed 22 of its 26 Cleveland competitors. By 1880, through elimination of competitors, mergers with other firms, and use of favourable railroad rebates, it controlled the refining of 90 to 95 percent of all oil produced in the United States.",
+        "source": "Encyclopaedia Britannica, \"Standard Oil | History, Monopoly, & Breakup\"",
+        "href": "https://www.britannica.com/money/Standard-Oil"
+      },
+      {
+        "category": "historical",
+        "title": "The Sherman Antitrust Act of 1890",
+        "excerpt": "Every contract, combination in the form of trust or otherwise, or conspiracy, in restraint of trade or commerce among the several States, or with foreign nations, is hereby declared to be illegal.",
+        "source": "Sherman Anti-Trust Act (1890), Section 1, U.S. National Archives, Milestone Documents",
+        "href": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act"
+      },
+      {
+        "category": "literary",
+        "title": "Ahab's boundless pursuit of the White Whale in Moby-Dick",
+        "excerpt": "Aye, aye! and I'll chase him round Good Hope, and round the Horn, and round the Norway Maelstrom, and round perdition's flames before I give him up. And this is what ye have shipped for, men! to chase that white whale on both sides of land, and over all sides of earth, till he spouts black blood and rolls fin out.",
+        "source": "Herman Melville, Moby-Dick; or, The Whale (1851), Chapter 36, \"The Quarter-Deck\"; Project Gutenberg",
+        "href": "https://www.gutenberg.org/cache/epub/2701/pg2701.txt"
+      },
+      {
+        "category": "literary",
+        "title": "The Parable of the Talents: to him that hath shall be given",
+        "excerpt": "Take therefore the talent from him, and give it unto him which hath ten talents. For unto every one that hath shall be given, and he shall have abundance: but from him that hath not shall be taken away even that which he hath.",
+        "source": "The Gospel According to St. Matthew 25:28-29, King James Bible; Project Gutenberg",
+        "href": "https://www.gutenberg.org/cache/epub/10/pg10.txt"
+      },
+      {
+        "category": "artistic",
+        "title": "Smetana, Vltava (The Moldau) from Má vlast — MUSIC",
+        "excerpt": "Bedřich Smetana's symphonic poem Vltava (1874) traces the course of Bohemia's great river from its two tiny mountain springs, whose trickling motifs merge and swell until they become a single mighty current sweeping toward Prague. The music dramatizes how many small tributaries are gathered up and absorbed into one dominant flow, a natural image of consolidation and the great growing ever greater by drawing in the small. The score is in the public domain and freely available on IMSLP.",
+        "source": "Bedřich Smetana, Vltava, JB 1:112/2 (from Má vlast), 1874; IMSLP / Petrucci Music Library",
+        "href": "https://imslp.org/wiki/Vltava,_JB_1:112/2_(Smetana,_Bed%C5%99ich)"
+      },
+      {
+        "category": "artistic",
+        "title": "Pieter Bruegel the Elder, \"Big Fish Eat Little Fish\" — VISUAL ARTWORK",
+        "excerpt": "Pieter Bruegel the Elder's 1556 design, engraved by Pieter van der Heyden in 1557, shows an enormous beached fish being sliced open to spill out dozens of smaller fish it has swallowed, while a man points out the scene to a boy and hands hold up ever-smaller fish devouring one another. The proverb it illustrates, \"the big fish eat the little fish,\" is a centuries-old emblem for how the powerful consume the weak and how markets tend toward the great absorbing the small. The work is in the public domain and held at the Rijksmuseum and other collections.",
+        "source": "Pieter Bruegel the Elder, \"Big Fish Eat Little Fish,\" 1556 (engraving by Pieter van der Heyden, 1557); Wikimedia Commons",
+        "href": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Big_Fish_Eat_Little_Fish,_1556_-_Google_Art_Project.jpg",
+        "image": {
+          "src": "/covers/kroger-giant-eagle-acquisition--art.png",
+          "alt": "Bruegel's engraving Big Fish Eat Little Fish, showing a giant fish cut open to reveal many smaller fish it swallowed",
+          "credit": "Wikimedia Commons"
+        }
+      }
+    ],
+    "rank": 4
+  },
+  {
+    "slug": "cma-cgm-fedex-logistics-deal",
+    "headline": "CMA CGM to buy FedEx's third-party logistics arm in a $1.4 billion deal",
+    "overview": "The French shipping group CMA CGM agreed to acquire FedEx's third-party logistics business for 1.4 billion dollars, deepening its move into contract logistics. The purchase expands CMA CGM's land-based supply-chain operations beyond container shipping.",
+    "genre": "Economy",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdS1JUGhGT0JHVHBZOTQ4UEVQb0xGMXlVbDl1RDlsWWJfM21abmZ3Yk9ydHdKdWpBM09yS0xnV0duNl80Mkh0Z2NUVmVMTkRwcEJpSTBiajBYOW9vMnRMT0JNWHlSRld1YVZvVlk2YTFjbDBURllmVTlFREdCMHBtRzdwcDZrbGhUbmlZNnktZlBaZUxfMElBSW95OU5zeFpoRWVsNGlxeGpGOElxNm5iczBJLTJrQQ?oc=5"
+      },
+      {
+        "name": "Supply Chain Dive",
+        "href": "https://www.supplychaindive.com/news/cma-cgm-to-buy-fedexs-contract-logistics-unit-for-14b/824222/"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-01",
+    "image": {
+      "src": "/covers/cma-cgm-fedex-logistics-deal.png",
+      "alt": "A container ship stacked with cargo docked beside cranes at a port terminal.",
+      "credit": "AI-generated"
+    },
+    "edition": "Evening Edition · 1 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "The Hanseatic League",
+        "excerpt": "Hanseatic League, organization founded by north German towns and German merchant communities abroad to protect their mutual trading interests. The league dominated commercial activity in northern Europe from the 13th to the 15th century.",
+        "source": "\"Hanseatic League,\" Encyclopaedia Britannica",
+        "href": "https://www.britannica.com/topic/Hanseatic-League"
+      },
+      {
+        "category": "historical",
+        "title": "The Phoenician Sea Traders",
+        "excerpt": "The Phoenicians were well known to their contemporaries as sea traders and colonizers, and by the 2nd millennium they had already extended their influence along the coast of the Levant by a series of settlements, including Joppa (Jaffa, now part of Tel Aviv–Yafo), Dor, Acre, and Ugarit.",
+        "source": "\"Phoenicia,\" Encyclopaedia Britannica",
+        "href": "https://www.britannica.com/topic/Phoenicia"
+      },
+      {
+        "category": "literary",
+        "title": "Homer, The Odyssey (Book II)",
+        "excerpt": "They set the mast in its socket in the cross plank, raised it, and made it fast with the forestays; then they hoisted their white sails aloft with ropes of twisted ox hide. As the sail bellied out with the wind, the ship flew through the deep blue water, and the foam hissed against her bows as she sped onward.",
+        "source": "Homer, The Odyssey, trans. Samuel Butler (Project Gutenberg, eBook #1727)",
+        "href": "https://www.gutenberg.org/files/1727/1727-0.txt"
+      },
+      {
+        "category": "literary",
+        "title": "Shakespeare, The Merchant of Venice (Act 1, Scene 1)",
+        "excerpt": "Your minde is tossing on the Ocean,\nThere where your Argosies with portly saile\nLike Signiors and rich Burgers on the flood,\nOr as it were the Pageants of the sea,\nDo ouer-peere the pettie Traffiquers\nThat curtsie to them, do them reuerence\nAs they flye by them with their wouen wings",
+        "source": "William Shakespeare, The Merchant of Venice (First Folio text, Project Gutenberg, eBook #2243)",
+        "href": "https://www.gutenberg.org/cache/epub/2243/pg2243.txt"
+      },
+      {
+        "category": "artistic",
+        "title": "Mendelssohn, Meeresstille und glückliche Fahrt (Calm Sea and Prosperous Voyage), Op. 27 — MUSIC",
+        "excerpt": "Felix Mendelssohn's concert overture of 1828, inspired by two Goethe poems, paints in music the dread stillness of a becalmed ship and then the joyous rush of a returning wind that carries the vessel safely to harbour. Its slow, motionless opening followed by a bright, surging Allegro mirrors the perilous patience and eventual triumph of a maritime voyage. The overture became a touchstone for Romantic sea music, evoking the movement of ships and goods across open water.",
+        "source": "Felix Mendelssohn, Meeresstille und glückliche Fahrt, Op. 27 (IMSLP / Petrucci Music Library)",
+        "href": "https://imslp.org/wiki/Meeresstille_und_gl%C3%BCckliche_Fahrt,_Op.27_(Mendelssohn,_Felix)"
+      },
+      {
+        "category": "artistic",
+        "title": "J. M. W. Turner, Dutch Boats in a Gale ('The Bridgewater Sea Piece') — VISUAL ARTWORK",
+        "excerpt": "J. M. W. Turner's 1801 oil painting shows Dutch fishing and trading vessels struggling under billowing sails in a heavy sea, the water churning as the boats fight to keep their course. The scene captures the danger and drama of commerce carried by ship, when the movement of goods across the water depended on wind, seamanship, and nerve. Turner's dynamic seascape stands as a Romantic emblem of maritime trade at the mercy of the elements.",
+        "source": "J. M. W. Turner, Dutch Boats in a Gale ('The Bridgewater Sea Piece'), 1801, oil on canvas — Wikimedia Commons",
+        "href": "https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_-_Dutch_Boats_in_a_Gale_-_WGA23163.jpg",
+        "image": {
+          "src": "/covers/cma-cgm-fedex-logistics-deal--art.png",
+          "alt": "Turner's painting of Dutch sailing boats pitching in a stormy sea under heavy clouds",
+          "credit": "Wikimedia Commons"
+        }
+      }
+    ],
+    "rank": 5
+  },
+  {
+    "slug": "micron-gm-chip-supply-deal",
+    "headline": "Micron and General Motors sign a semiconductor supply agreement for vehicles",
+    "overview": "The chipmaker Micron and General Motors signed a multi-year agreement to supply memory chips for GM vehicles, tightening ties between US automakers and domestic semiconductor suppliers. The deal reflects a broader push to secure automotive chip supply chains.",
+    "genre": "Technology",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTzBDSjNpak1rX0FwX3phTURLa2dYbkRSUzFyWDNBTlZ0MXR3aElaWEhjMEUxOHRiNmY1NWlRYm50ZUxiRl9zcldSUjBQNGNCV0tDdGpSLUNyTEZleXpFSUphSEk2RVRURGU0QS00Q1hHZkdoUU44UXBLeEhVM3FQSTBLdjVNNUpMT0t6cjNndW1zNWlIcVBRNm43T3FJaGNoaEw4?oc=5"
+      },
+      {
+        "name": "Yahoo Finance",
+        "href": "https://finance.yahoo.com/technology/articles/general-motors-shares-rise-securing-133524326.html"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-01",
+    "image": {
+      "src": "/covers/micron-gm-chip-supply-deal.png",
+      "alt": "A silicon wafer held under bright light, its circuitry catching a rainbow sheen.",
+      "credit": "AI-generated"
+    },
+    "edition": "Evening Edition · 1 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "Augustus and Rome's grain supply",
+        "excerpt": "I was strongly inclined to do away forever with distributions of grain, because through dependence on them agriculture was neglected; but I did not carry out my purpose, feeling sure that they would one day be renewed through desire for popular favour.",
+        "source": "Suetonius, The Lives of the Caesars, \"The Deified Augustus\" 42, trans. J. C. Rolfe (Loeb Classical Library, 1914), public domain (LacusCurtius/Penelope, University of Chicago).",
+        "href": "https://penelope.uchicago.edu/Thayer/e/roman/texts/suetonius/12caesars/augustus*.html"
+      },
+      {
+        "category": "historical",
+        "title": "Pliny on iron, the maker's essential metal",
+        "excerpt": "Iron serves as the best and the worst part of the apparatus of life, inasmuch as with it we plough the ground, plant trees, trim the trees that prop our vines, force the vines to renew their youth yearly by ridding them of decrepit growth; with it we build houses and quarry rocks, and we employ it for all other useful purposes, but we likewise use it for wars and slaughter and brigandage.",
+        "source": "Pliny the Elder, Natural History, Book XXXIV.39, trans. H. Rackham (Loeb Classical Library), public domain (Attalus.org).",
+        "href": "https://www.attalus.org/pliny/hn34b.html"
+      },
+      {
+        "category": "literary",
+        "title": "Hephaestus forges the arms of Achilles (Iliad, Book 18)",
+        "excerpt": "And the bellows, twenty in all, blew upon the melting-vats, sending forth a ready blast of every force, now to further him as he laboured hard, and again in whatsoever way Hephaestus might wish and his work go on.",
+        "source": "Homer, Iliad 18, trans. A. T. Murray (Harvard University Press / Loeb Classical Library, 1924), public domain (Perseus Digital Library, Tufts University).",
+        "href": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0134:book=18"
+      },
+      {
+        "category": "literary",
+        "title": "The forging of the sword Gram (Volsunga Saga)",
+        "excerpt": "So he made a sword, and as he bore it forth from the forge, it seemed to the smiths as though fire burned along the edges thereof. Now he bade Sigurd take the sword, and said he knew not how to make a sword if this one failed. Then Sigurd smote it into the anvil, and cleft it down to the stock thereof, and neither burst the sword nor brake it.",
+        "source": "The Story of the Volsungs (Volsunga Saga), Chapter XV, trans. Eirikr Magnusson and William Morris (1888), public domain (Project Gutenberg).",
+        "href": "https://www.gutenberg.org/files/1152/1152-h/1152-h.htm"
+      },
+      {
+        "category": "artistic",
+        "title": "Wagner, Siegfried (the Forging Song) — MUSIC",
+        "excerpt": "In the first act of Wagner's music drama Siegfried, the second opera of the Ring cycle, the young hero reforges the shards of his father's shattered sword Nothung, singing the ringing \"Schmiedelieder\" (Forging Songs) as he blows the bellows and hammers the blade on the anvil. The orchestra drives the scene with hammer-stroke rhythms, dramatizing self-reliance and the making of one's own essential weapon from raw material. This IMSLP page hosts public-domain full and vocal scores of the work.",
+        "source": "Richard Wagner, Siegfried, WWV 86C (1876), full and vocal scores, public domain, IMSLP Petrucci Music Library.",
+        "href": "https://imslp.org/wiki/Siegfried,_WWV_86C_(Wagner,_Richard)"
+      },
+      {
+        "category": "artistic",
+        "title": "Velázquez, The Forge of Vulcan — VISUAL ARTWORK",
+        "excerpt": "Diego Velázquez's Apollo in the Forge of Vulcan (La Fragua de Vulcano, 1630, Museo del Prado) shows Apollo arriving at the smoky workshop where Vulcan and his laborers pause at the anvil, glowing iron in hand. It is a monumental study of the smith's craft and of skilled makers supplying the tools and armor on which gods and heroes depend. The painting is in the public domain and held in the Prado, Madrid.",
+        "source": "Diego Velázquez, Apollo in the Forge of Vulcan (La Fragua de Vulcano), 1630, oil on canvas, Museo del Prado, Madrid; public domain, via Wikimedia Commons.",
+        "href": "https://commons.wikimedia.org/wiki/File:Vel%C3%A1zquez_-_La_Fragua_de_Vulcano_(Museo_del_Prado,_1630).jpg",
+        "image": {
+          "src": "/covers/micron-gm-chip-supply-deal--art.png",
+          "alt": "Velázquez's painting The Forge of Vulcan, showing Apollo visiting Vulcan and his smiths at the anvil",
+          "credit": "Wikimedia Commons"
+        }
+      }
+    ],
+    "rank": 6
+  },
+  {
+    "slug": "poland-russia-sabotage-warning",
+    "headline": "Poland warns Russia is seeking to exploit Ukraine tensions with sabotage operations",
+    "overview": "Poland warned that Russia is seeking to exploit tensions over Ukraine by mounting sabotage operations across Europe, citing a rise in arson, cyberattacks and other disruptions. Warsaw said it had stepped up security in response to the threat.",
+    "genre": "Conflict",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdGNZQnZSazhzRWRvTFhYQjQ0NG9NYmhMdGRmQUxYLTkzUUlrMUtRTll5TlFkbG5DM2hzdU1SSVJCSnJqVHFKcE5IUUdWcE9ZSXJySkF5dUpHTWZmVFZLdnRLeHdtVkUxU2piUUllWEFscmdzbVFhMU1vWk1VbW40TkM1UVJrWVBaZnNlSHI4RVNqWlFOTnZlaXotaWRjbFdOdUJQMjVqVDlUNW5udnBCbTU5YTNKOGk3?oc=5"
+      },
+      {
+        "name": "Ukrainska Pravda",
+        "href": "https://www.yahoo.com/news/world/articles/poland-warns-russia-may-exploit-085300859.html"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-01",
+    "image": {
+      "src": "/covers/poland-russia-sabotage-warning.png",
+      "alt": "Empty railway tracks stretching into darkness under a single security floodlight.",
+      "credit": "AI-generated"
+    },
+    "edition": "Evening Edition · 1 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "Sun Tzu, The Art of War, Chapter XIII: The Use of Spies",
+        "excerpt": "Thus, what enables the wise sovereign and the good general to strike and conquer, and achieve things beyond the reach of ordinary men, is _foreknowledge_. Now this foreknowledge cannot be elicited from spirits; it cannot be obtained inductively from experience, nor by any deductive calculation. Knowledge of the enemy's dispositions can only be obtained from other men.",
+        "source": "Sun Tzu, The Art of War, trans. Lionel Giles (1910), Chapter XIII: The Use of Spies, Project Gutenberg.",
+        "href": "https://www.gutenberg.org/files/17405/17405-h/17405-h.htm"
+      },
+      {
+        "category": "historical",
+        "title": "The Gunpowder Plot: Guy Fawkes's Confession (1605)",
+        "excerpt": "I stood as sentinel, to descrie any man that came near, whereof I gave them warning, and so they ceased until I gave notice again to proceed.",
+        "source": "Thomas Lathbury, Guy Fawkes; or, A Complete History of the Gunpowder Treason, quoting Guy Fawkes's confession (1605), Project Gutenberg.",
+        "href": "https://gutenberg.org/files/31031/31031-h/31031-h.htm"
+      },
+      {
+        "category": "literary",
+        "title": "Virgil, The Aeneid, Book II: The Trojan Horse",
+        "excerpt": "Thus they pretend, but in the hollow side\nSelected numbers of their soldiers hide:\nWith inward arms the dire machine they load,\nAnd iron bowels stuff the dark abode.",
+        "source": "Virgil, The Aeneid, trans. John Dryden, Book II, Project Gutenberg.",
+        "href": "https://www.gutenberg.org/files/228/228-h/228-h.htm"
+      },
+      {
+        "category": "literary",
+        "title": "Joseph Conrad, The Secret Agent",
+        "excerpt": "The door of the shop was the only means of entrance to the house in which Mr Verloc carried on his business of a seller of shady wares, exercised his vocation of a protector of society, and cultivated his domestic virtues.",
+        "source": "Joseph Conrad, The Secret Agent: A Simple Tale (1907), Project Gutenberg.",
+        "href": "https://www.gutenberg.org/files/974/974-h/974-h.htm"
+      },
+      {
+        "category": "artistic",
+        "title": "Giuseppe Verdi, Un ballo in maschera — MUSIC",
+        "excerpt": "Verdi's 1859 opera dramatises a hidden conspiracy: behind the glittering surface of court life, a circle of plotters conspires in secret to assassinate the ruler, their treachery masked until it strikes at a masked ball. Its brooding conspirators' choruses and whispered scheming make it a musical portrait of the enemy within — subversion, betrayal and a plot hatched behind the lines. The full orchestral score, published by Ricordi, is freely available on IMSLP.",
+        "source": "Giuseppe Verdi, Un ballo in maschera (opera in three acts, 1859), full score, G. Ricordi; IMSLP / Petrucci Music Library.",
+        "href": "https://imslp.org/wiki/Un_ballo_in_maschera_(Verdi,_Giuseppe)"
+      },
+      {
+        "category": "artistic",
+        "title": "Giovanni Domenico Tiepolo, The Procession of the Trojan Horse in Troy — VISUAL ARTWORK",
+        "excerpt": "Giovanni Domenico Tiepolo's canvas (c. 1773) shows the Trojans jubilantly hauling the great wooden horse through their own gates, unaware that armed Greeks lie concealed within it. The painting captures the essence of the fifth column and the hidden enemy: destruction welcomed inside the walls under the guise of a gift. It is a Rococo meditation on deception, misplaced trust and sabotage carried out from within.",
+        "source": "Giovanni Domenico Tiepolo, The Procession of the Trojan Horse in Troy (c. 1773), oil on canvas, National Gallery, London (NG3319); Wikimedia Commons.",
+        "href": "https://commons.wikimedia.org/wiki/File:Giovanni_Domenico_Tiepolo_-_The_Procession_of_the_Trojan_Horse_in_Troy_-_WGA22382.jpg",
+        "image": {
+          "src": "/covers/poland-russia-sabotage-warning--art.png",
+          "alt": "Painting of Trojans pulling the large wooden horse into the city of Troy, concealing hidden Greek soldiers",
+          "credit": "Wikimedia Commons"
+        }
+      }
+    ],
+    "rank": 7
+  },
+  {
+    "slug": "romania-storm-deadly",
+    "headline": "A powerful storm sweeps Romania, killing at least one person",
+    "overview": "A powerful storm battered Romania with high winds and heavy rain, killing at least one person and causing widespread damage. Emergency services responded to fallen trees and flooding as the severe weather moved across the country.",
+    "genre": "Climate",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOG9yVnhOaFRqZUZGV3ZPZ1ZRYWdwQl9yZHQ0Y2dZZ3d2V2I1cVk3XzVvbms0WlRVc2U1eUdYd3RBdUtjWmZyRWJ0TVZzSEZEZFozVDZDaVFnYWl5eU9Ibzc1cmdaemhLUkxKelNNVGRGSjNNT2o0bFA2enpKWFloa1JlWjAtNE91ZENTaFFsREEzVHR3WVRYRDRNbkJlSjdrYldpMQ?oc=5"
+      },
+      {
+        "name": "Romania Insider",
+        "href": "https://www.romania-insider.com/powerful-storm-bucharest-july1-2026"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-01",
+    "image": {
+      "src": "/covers/romania-storm-deadly.png",
+      "alt": "Dark storm clouds massing over the rooftops of a Central European city.",
+      "credit": "AI-generated"
+    },
+    "edition": "Evening Edition · 1 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "The Great Storm of 1703, as recorded by Daniel Defoe",
+        "excerpt": "the Bricks, Tiles, and Stones, from the Tops of the Houses, flew with such force, and so thick in the Streets, that no one thought fit to venture out",
+        "source": "Daniel Defoe, The Storm; or, a Collection of the most Remarkable Casualties and Disasters which happen'd in the Late Dreadful Tempest, both by Sea and Land (1704), Project Gutenberg.",
+        "href": "https://www.gutenberg.org/files/42234/42234-h/42234-h.htm"
+      },
+      {
+        "category": "historical",
+        "title": "Aeolus unleashes the winds in Virgil's Aeneid, Book I",
+        "excerpt": "The raging winds rush thro' the hollow wound, / And dance aloft in air, and skim along the ground; / Then, settling on the sea, the surges sweep, / Raise liquid mountains, and disclose the deep.",
+        "source": "Virgil, The Aeneid, Book I, translated by John Dryden, Project Gutenberg.",
+        "href": "https://www.gutenberg.org/cache/epub/228/pg228.txt"
+      },
+      {
+        "category": "literary",
+        "title": "King Lear rages against the storm, Act III, Scene 2",
+        "excerpt": "Blow, winds, and crack your cheeks! Rage! blow! You cataracts and hurricanoes, spout Till you have drench'd our steeples, drown'd the cocks! You sulphurous and thought-executing fires, Vaunt-couriers to oak-cleaving thunderbolts, Singe my white head! And thou, all-shaking thunder, Strike flat the thick rotundity o' the world!",
+        "source": "William Shakespeare, King Lear, Act III, Scene 2, Project Gutenberg.",
+        "href": "https://www.gutenberg.org/cache/epub/1532/pg1532.txt"
+      },
+      {
+        "category": "literary",
+        "title": "The tempest sent upon Jonah's ship, Book of Jonah 1:4-5",
+        "excerpt": "But the LORD sent out a great wind into the sea, and there was a mighty tempest in the sea, so that the ship was like to be broken. Then the mariners were afraid, and cried every man unto his god, and cast forth the wares that were in the ship into the sea, to lighten it of them.",
+        "source": "The Book of Jonah 1:4-5, King James Version, Wikisource.",
+        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/Jonah"
+      },
+      {
+        "category": "artistic",
+        "title": "Beethoven's Symphony No. 6 in F major, Op. 68 (Pastoral), 4th movement 'Gewitter, Sturm' — MUSIC",
+        "excerpt": "The fourth movement of Beethoven's Pastoral Symphony, marked 'Gewitter, Sturm' (Thunderstorm, Tempest), erupts as a sudden violent storm that shatters the pastoral calm of the preceding movements. Rumbling low strings, stabbing timpani and shrieking piccolo evoke gathering wind, lightning and torrential downpour before the tempest gradually subsides. It stands as one of music's most vivid depictions of nature's fury unleashed.",
+        "source": "Ludwig van Beethoven, Symphony No. 6 in F major, Op. 68 ('Pastoral'), fourth movement, full score, IMSLP / Petrucci Music Library.",
+        "href": "https://imslp.org/wiki/Symphony_No.6,_Op.68_(Beethoven,_Ludwig_van)"
+      },
+      {
+        "category": "artistic",
+        "title": "J. M. W. Turner, 'Snow Storm: Steam-Boat off a Harbour's Mouth' (c. 1842) — VISUAL ARTWORK",
+        "excerpt": "Turner's late masterpiece dissolves a steamboat into a swirling vortex of snow, spray and churning sea, placing the viewer at the heart of the tempest itself. The artist claimed he had himself lashed to the mast of a ship to witness such a storm, and the painting's whirling energy conveys the overwhelming, engulfing violence of wind and water. It is a quintessential Romantic image of nature's sublime fury overwhelming human endeavour.",
+        "source": "Joseph Mallord William Turner, Snow Storm: Steam-Boat off a Harbour's Mouth, oil on canvas, c. 1842, Tate Britain; public domain reproduction via Wikimedia Commons.",
+        "href": "https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_-_Snow_Storm_-_Steam-Boat_off_a_Harbour%27s_Mouth_-_WGA23178.jpg",
+        "image": {
+          "src": "/covers/romania-storm-deadly--art.png",
+          "alt": "Turner's painting Snow Storm: Steam-Boat off a Harbour's Mouth, a steamboat engulfed in a swirling vortex of snow, spray and turbulent sea.",
+          "credit": "Wikimedia Commons"
+        }
+      }
+    ],
+    "rank": 8
+  },
+  {
+    "slug": "uganda-marburg-case",
+    "headline": "Africa CDC says Uganda has confirmed an isolated case of Marburg virus",
+    "overview": "The Africa Centres for Disease Control said Uganda had confirmed an isolated case of Marburg virus disease, a highly lethal hemorrhagic fever related to Ebola. Health authorities said contact tracing was under way to contain any spread.",
+    "genre": "Science",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYnE5dWdkeVJ4b3FqWC1jdG1UYXl6NTFfaUtLWDlwNFJjU2hvUHpKWFpkd0UyQXVObkttRndNVGpSbG5QaDVMUU9SdUI0amplZ1JzMGZ4QzV2WEJjeGFaVzdJMk56NU0tY191RVBQVENBRk1ZakJvb0FXX1BtZlZVOGt1VmRyLUIwaUVWalZvU01ORFJLakY4QlJZeFUxMm1ibWF1VUVub3BnVTdtZ01Ha3ZlYXpfd0lfdDRkTFoyVk5KdmtQV1JLcUk4NlJrTmw0WFE?oc=5"
+      },
+      {
+        "name": "STAT News",
+        "href": "https://www.statnews.com/2026/06/30/marburg-virus-cases-ugandan-ebola-outbreak-zone/"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-01",
+    "image": {
+      "src": "/covers/uganda-marburg-case.png",
+      "alt": "A lab technician in full protective gear handling vials in a biosafety laboratory.",
+      "credit": "AI-generated"
+    },
+    "edition": "Evening Edition · 1 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "Thucydides on the Plague of Athens",
+        "excerpt": "As a rule, however, there was no ostensible cause; but people in good health were all of a sudden attacked by violent heats in the head, and redness and inflammation in the eyes, the inward parts, such as the throat or tongue, becoming bloody and emitting an unnatural and fetid breath.",
+        "source": "Thucydides, History of the Peloponnesian War, Book 2, ch. 49 (Wikisource, Crawley translation)",
+        "href": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War/Book_2"
+      },
+      {
+        "category": "historical",
+        "title": "Boccaccio's account of the Black Death in Florence",
+        "excerpt": "in men and women alike there appeared, at the beginning of the malady, certain swellings, either on the groin or under the armpits, whereof some waxed of the bigness of a common apple, others like unto an egg",
+        "source": "Giovanni Boccaccio, The Decameron, Introduction to the First Day, trans. John Payne (Project Gutenberg)",
+        "href": "https://www.gutenberg.org/cache/epub/23700/pg23700.txt"
+      },
+      {
+        "category": "literary",
+        "title": "Daniel Defoe, A Journal of the Plague Year",
+        "excerpt": "Business led me out sometimes to the other end of the town, even when the sickness was chiefly there; and as the thing was new to me, as well as to everybody else, it was a most surprising thing to see those streets which were usually so thronged now grown desolate, and so few people to be seen in them.",
+        "source": "Daniel Defoe, A Journal of the Plague Year (Project Gutenberg)",
+        "href": "https://www.gutenberg.org/files/376/376-h/376-h.htm"
+      },
+      {
+        "category": "literary",
+        "title": "Edgar Allan Poe, The Masque of the Red Death",
+        "excerpt": "The \"Red Death\" had long devastated the country. No pestilence had ever been so fatal, or so hideous. Blood was its Avatar and its seal--the redness and the horror of blood.",
+        "source": "Edgar Allan Poe, The Masque of the Red Death (Project Gutenberg)",
+        "href": "https://www.gutenberg.org/cache/epub/1064/pg1064.txt"
+      },
+      {
+        "category": "artistic",
+        "title": "Camille Saint-Saëns, Danse macabre, Op. 40 — MUSIC",
+        "excerpt": "Saint-Saëns's 1874 symphonic poem gives orchestral form to the medieval danse macabre, in which Death fiddles the living into a graveyard dance. A solo violin tuned to a rasping tritone and a xylophone evoking rattling bones summon the dead to their revels before the crowing of the cock scatters them at dawn. The work distils the old terror of an unseen killer that claims high and low alike into a single, feverish nocturne.",
+        "source": "Camille Saint-Saëns, Danse macabre, Op. 40 (score, IMSLP / Petrucci Music Library)",
+        "href": "https://imslp.org/wiki/Danse_macabre,_Op.40_(Saint-Sa%C3%ABns,_Camille)"
+      },
+      {
+        "category": "artistic",
+        "title": "Pieter Bruegel the Elder, The Triumph of Death — VISUAL ARTWORK",
+        "excerpt": "Painted around 1562, Bruegel's panel spreads a panoramic vision of pestilence and mortality across a scorched landscape, where armies of skeletons harvest the living without regard for rank, wealth or piety. Kings, lovers, soldiers and peasants are herded alike toward a great coffin-lidded trap, dramatising the universal, indiscriminate reach of a lethal contagion. The work is a defining image of the fear of an unseen killer and of a world overwhelmed by death.",
+        "source": "Pieter Bruegel the Elder, The Triumph of Death (c. 1562), Museo del Prado, Madrid; via Wikimedia Commons",
+        "href": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Triumph_of_Death_-_WGA3389.jpg",
+        "image": {
+          "src": "/covers/uganda-marburg-case--art.png",
+          "alt": "Pieter Bruegel the Elder's painting The Triumph of Death, showing armies of skeletons overwhelming people of all social ranks across a barren landscape",
+          "credit": "Wikimedia Commons"
+        }
+      }
+    ],
+    "rank": 9
+  },
+  {
+    "slug": "carroll-trump-damages-appeal",
+    "headline": "E. Jean Carroll seeks $5.8 million from Trump after his high court appeal fails",
+    "overview": "The writer E. Jean Carroll called on President Trump to pay 5.8 million dollars in damages after the Supreme Court declined to hear his appeal in her defamation and sexual-abuse case. The ruling leaves the earlier civil judgment against Trump in place.",
+    "genre": "Politics",
+    "sources": [
+      {
+        "name": "AP",
+        "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM2lmN1lVOEttaElYZU9NRWF5MFNjX1h2MG5IYk9xQWhkTFNaNWg2QzA0VW1vMEV3N3dqVUJObGp6VlUza2NBVXJrS2F4TVJCZjdPZUM4WTNfaGVYM2NtRkFwUjRvUVNjMzUyMzI2ZXpOLXdSWGtqdWl1OTUwb3d2ZFAxU0xPOC1Yc3hna29xRUpuSHA0cEtVTA?oc=5"
+      },
+      {
+        "name": "NBC News",
+        "href": "https://www.nbcnews.com/news/us-news/e-jean-carroll-calls-trump-pay-58m-high-court-appeal-fails-rcna352526"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-01",
+    "image": {
+      "src": "/covers/carroll-trump-damages-appeal.png",
+      "alt": "The stone steps and columns of a US federal courthouse in flat daylight.",
+      "credit": "AI-generated"
+    },
+    "edition": "Evening Edition · 1 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "Nathan Confronts King David (2 Samuel 12)",
+        "excerpt": "And Nathan said to David, Thou art the man. Thus saith the LORD God of Israel, I anointed thee king over Israel, and I delivered thee out of the hand of Saul.",
+        "source": "The Holy Bible, King James Version, 2 Samuel 12:7 (public domain), Wikisource.",
+        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/2_Samuel"
+      },
+      {
+        "category": "historical",
+        "title": "The Parable of the Widow and the Unjust Judge (Luke 18)",
+        "excerpt": "Yet because this widow troubleth me, I will avenge her, lest by her continual coming she weary me.",
+        "source": "The Holy Bible, King James Version, Luke 18:5 (public domain), Wikisource.",
+        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/Luke"
+      },
+      {
+        "category": "literary",
+        "title": "Portia's \"Quality of Mercy\" Speech, The Merchant of Venice",
+        "excerpt": "The quality of mercy is not strain'd, It droppeth as the gentle rain from heaven Upon the place beneath. It is twice blest, It blesseth him that gives and him that takes.",
+        "source": "William Shakespeare, The Merchant of Venice, Act IV, Scene I (public domain), Project Gutenberg.",
+        "href": "https://www.gutenberg.org/files/1515/1515-h/1515-h.htm"
+      },
+      {
+        "category": "literary",
+        "title": "Jarndyce and Jarndyce, Bleak House",
+        "excerpt": "This scarecrow of a suit has, in course of time, become so complicated that no man alive knows what it means. ... but Jarndyce and Jarndyce still drags its dreary length before the court, perennially hopeless.",
+        "source": "Charles Dickens, Bleak House, Chapter I (public domain), Project Gutenberg.",
+        "href": "https://www.gutenberg.org/files/1023/1023-h/1023-h.htm"
+      },
+      {
+        "category": "artistic",
+        "title": "Verdi, \"Dies Irae\" from the Requiem — MUSIC",
+        "excerpt": "Verdi's Requiem (1874) turns the medieval \"Dies Irae\" into a thunderous vision of the Day of Wrath, when every hidden deed is dragged into the light and no one, however mighty, escapes the final reckoning. Its hammering chorus and blazing brass make audible the terror of accountability that no rank or power can evade. The movement stands as one of music's most overwhelming portraits of justice descending upon the great and the small alike.",
+        "source": "Giuseppe Verdi, Messa da Requiem, \"Dies irae\" (1874), full score (public domain), IMSLP / Petrucci Music Library.",
+        "href": "https://imslp.org/wiki/Requiem_(Verdi,_Giuseppe)"
+      },
+      {
+        "category": "artistic",
+        "title": "Nicolas Poussin, The Judgment of Solomon — VISUAL ARTWORK",
+        "excerpt": "Poussin's 1649 canvas freezes the instant when Solomon's ruling exposes the truth, the false claimant and the true mother divided by the king's terrible test. The rigid symmetry and stark gestures stage justice as an act of unflinching discernment, the powerful throne bending toward the wronged. It is a monument to the idea that authority is legitimate only when it renders the right verdict.",
+        "source": "Nicolas Poussin, The Judgment of Solomon (1649), oil on canvas, Musée du Louvre (public domain), Wikimedia Commons.",
+        "href": "https://commons.wikimedia.org/wiki/File:Le_Jugement_de_Salomon_-_1649_-_Nicolas_Poussin_-_Louvre_-_INV_7277_;_MR_2316.jpg",
+        "image": {
+          "src": "/covers/carroll-trump-damages-appeal--art.png",
+          "alt": "Nicolas Poussin's 1649 painting The Judgment of Solomon, showing the enthroned king ruling between two women claiming a child.",
+          "credit": "Wikimedia Commons"
+        }
+      }
+    ],
+    "rank": 10
+  },
+  {
+    "slug": "mexico-city-world-cup-deaths",
+    "headline": "Three people die during Mexico City World Cup celebrations",
+    "overview": "Three people died during celebrations in Mexico City after the national team's World Cup victory, as huge crowds filled the streets. Authorities reported the deaths amid the crush of fans marking the result.",
+    "genre": "Culture",
+    "sources": [
+      {
+        "name": "BBC",
+        "href": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o"
+      },
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONHRuWjl1VEhoVC1qTllkS0RUSERFbEJCbG9ydkQ0NTF4WG5jSXEzU2J2WkdRb0JUZkNER2loa2FRbmpuNEtRSXo5eVd4dXdlamE0VzBrQmI2TGo3TG9Ud3JfRy0zQThKcmxrUUJ1a3VCMENmMTJKZW1CSHBISHgzSXUzVXJkTVgzMzBtd21taHhGQzJkZC1ZYXRJd2xvVllvcElpS2NEaVBUZTYwdXRVWlVpQQ?oc=5"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-01",
+    "image": {
+      "src": "/covers/mexico-city-world-cup-deaths.png",
+      "alt": "A dense night-time crowd of football fans waving flags under city lights.",
+      "credit": "AI-generated"
+    },
+    "edition": "Evening Edition · 1 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "The Fidenae amphitheatre disaster in Tacitus' Annals",
+        "excerpt": "Thither flocked all who loved such sights and who during the reign of Tiberius had been wholly debarred from such amusements; men and women of every age crowding to the place because it was near Rome. And thus the calamity was all the more fatal. The building was densely crowded; then came a violent shock, as it fell inwards or spread outwards, precipitating and burying an immense multitude which was intently gazing on the show or standing round.",
+        "source": "Tacitus, The Annals, Book IV, ch. 62, trans. Alfred John Church and William Jackson Brodribb (1876), via Wikisource",
+        "href": "https://en.wikisource.org/wiki/The_Annals_(Tacitus)/Book_4"
+      },
+      {
+        "category": "historical",
+        "title": "The triumph of Aemilius Paulus in Plutarch's Lives",
+        "excerpt": "The people erected scaffolds in the forum, in the circuses, as they call their buildings for horse-races, and in all other parts of the city where they could best behold the show. The spectators were clad in white garments; all the temples were open, and full of garlands and perfumes.",
+        "source": "Plutarch, Life of Aemilius Paulus, ch. 32 (Dryden translation), via The Internet Classics Archive",
+        "href": "https://classics.mit.edu/Plutarch/paulus.html"
+      },
+      {
+        "category": "literary",
+        "title": "\"Our dance is turned into mourning\" (Lamentations 5)",
+        "excerpt": "The elders have ceased from the gate, the young men from their musick. The joy of our heart is ceased; our dance is turned into mourning.",
+        "source": "Lamentations 5:14-15, King James Version, via Wikisource",
+        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/Lamentations"
+      },
+      {
+        "category": "literary",
+        "title": "The revel struck down in Poe's \"The Masque of the Red Death\"",
+        "excerpt": "And now was acknowledged the presence of the Red Death. He had come like a thief in the night. And one by one dropped the revellers in the blood-bedewed halls of their revel, and died each in the despairing posture of his fall. And Darkness and Decay and the Red Death held illimitable dominion over all.",
+        "source": "Edgar Allan Poe, \"The Masque of the Red Death\" (1842), Project Gutenberg eBook #1064",
+        "href": "https://www.gutenberg.org/files/1064/1064-h/1064-h.htm"
+      },
+      {
+        "category": "artistic",
+        "title": "Berlioz, \"Marche au supplice\" from Symphonie fantastique — MUSIC",
+        "excerpt": "The fourth movement of Berlioz's Symphonie fantastique (1830), the \"Marche au supplice\" or March to the Scaffold, casts a festive, brass-heavy procession that swells with crowd-like energy only to end in a sudden fall of the blade. Its blend of pageantry and doom mirrors a celebration overtaken by death, the triumphant march collapsing into silence. The public-domain score and parts are freely available on IMSLP.",
+        "source": "Hector Berlioz, Symphonie fantastique, H. 48 (1830), IV. Marche au supplice, IMSLP / Petrucci Music Library",
+        "href": "https://imslp.org/wiki/Symphonie_fantastique,_H_48_(Berlioz,_Hector)"
+      },
+      {
+        "category": "artistic",
+        "title": "Pieter Bruegel the Elder, \"The Peasant Dance\" — VISUAL ARTWORK",
+        "excerpt": "Bruegel's \"The Peasant Dance\" (c. 1567) throws the viewer into a whirl of villagers dancing, drinking, and embracing at a festival, the whole crowd surging toward the right of the panel. Beneath the boisterous revelry the painter hints at excess and disorder, the celebration teetering on the edge of chaos. The work is in the Kunsthistorisches Museum, Vienna, and is in the public domain.",
+        "source": "Pieter Bruegel the Elder, The Peasant Dance, c. 1567, Kunsthistorisches Museum, Vienna; Wikimedia Commons",
+        "href": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Peasant_Dance_-_WGA3499.jpg",
+        "image": {
+          "src": "/covers/mexico-city-world-cup-deaths--art.png",
+          "alt": "Pieter Bruegel the Elder's painting The Peasant Dance, showing villagers dancing and reveling at a festival",
+          "credit": "Wikimedia Commons"
+        }
+      }
+    ],
+    "rank": 11
+  },
+  {
+    "slug": "canada-eurovision-2027-debut",
+    "headline": "Canada will make its Eurovision Song Contest debut in 2027",
+    "overview": "Organizers announced that Canada will compete in the Eurovision Song Contest for the first time in 2027, extending the European music competition further beyond its traditional borders. The move follows Australia's long-running participation as a guest nation.",
+    "genre": "Culture",
+    "sources": [
+      {
+        "name": "BBC",
+        "href": "https://www.bbc.co.uk/news/articles/c8x2y2vwqn1o"
+      },
+      {
+        "name": "ESCToday",
+        "href": "https://esctoday.com/206004/canada-cbc-confirms-debut-and-participation-at-eurovision-2027/"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-01",
+    "image": {
+      "src": "/covers/canada-eurovision-2027-debut.png",
+      "alt": "A brightly lit concert stage with beams of coloured light and a lone microphone.",
+      "credit": "AI-generated"
+    },
+    "edition": "Evening Edition · 1 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "The Contest of Apollo and Marsyas (Ovid, Metamorphoses, Book VI)",
+        "excerpt": "The Satyr Marsyas, when he played the flute in rivalry against Apollo's lyre, lost that audacious contest and, alas! His life was forfeit.",
+        "source": "Ovid, Metamorphoses, Book VI (trans. Brookes More), Perseus Digital Library, Tufts University",
+        "href": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0028:book=6:card=382"
+      },
+      {
+        "category": "historical",
+        "title": "The Contest of Pan and Apollo, judged by Tmolus (Ovid, Metamorphoses, Book XI)",
+        "excerpt": "his left hand held his lyre, adorned with gems and Indian ivory. His right hand held the plectrum—as an artist he stood there.",
+        "source": "Ovid, Metamorphoses, Book XI (trans. Brookes More), Perseus Digital Library, Tufts University",
+        "href": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0028:book=11:card=146"
+      },
+      {
+        "category": "literary",
+        "title": "The Bard: A Pindaric Ode by Thomas Gray",
+        "excerpt": "'Ruin seize thee, ruthless king! / 'Confusion on thy banners wait, / 'Though fanned by Conquest's crimson wing / 'They mock the air with idle state.",
+        "source": "Thomas Gray, \"The Bard: A Pindaric Ode\" (1757), Eighteenth-Century Poetry Archive",
+        "href": "https://www.eighteenthcenturypoetry.org/works/tgaen-wbapo.shtml"
+      },
+      {
+        "category": "literary",
+        "title": "Tannhäuser und der Sängerkrieg auf Wartburg by Richard Wagner (Wartburg Song Contest)",
+        "excerpt": "Minstrels assembled here, I give you greeting. Full oft within these walls your lays have sounded; In veiled wisdom, or in mirthful measures They ever gladdened every list'ning heart.",
+        "source": "Richard Wagner, Tannhäuser, Act II (English translation), Internet Archive",
+        "href": "https://archive.org/stream/tannhaeuserconta00wagnuoft/tannhaeuserconta00wagnuoft_djvu.txt"
+      },
+      {
+        "category": "artistic",
+        "title": "Die Meistersinger von Nürnberg, WWV 96 (Overture) by Richard Wagner — MUSIC",
+        "excerpt": "Wagner's comic opera dramatizes a public song contest among the master-singers of Nuremberg, in which an outsider must prove himself before the assembled guild and townsfolk. Its jubilant Overture (Vorspiel) gathers the work's principal themes into a grand processional celebration of song. Free scores and orchestral parts are hosted on IMSLP.",
+        "source": "Richard Wagner, Die Meistersinger von Nürnberg, WWV 96, IMSLP / Petrucci Music Library",
+        "href": "https://imslp.org/wiki/Die_Meistersinger_von_N%C3%BCrnberg,_WWV_96_(Wagner,_Richard)"
+      },
+      {
+        "category": "artistic",
+        "title": "Apollo and the Muses on Parnassus (after Anton Raphael Mengs) — VISUAL ARTWORK",
+        "excerpt": "This engraving after Anton Raphael Mengs depicts Apollo enthroned on Mount Parnassus amid the nine Muses, the mythic gathering of many voices from which poetry and song flow. The image evokes the ideal of a shared festival of the arts, where different talents assemble in one harmonious company. The work is in the public domain.",
+        "source": "After Anton Raphael Mengs (engraved by Raffaello Morghen), \"Apollo and the Muses on Parnassus,\" The Metropolitan Museum of Art, via Wikimedia Commons",
+        "href": "https://commons.wikimedia.org/wiki/File:Apollo_and_the_Muses_on_Parnassus_MET_268819.jpg",
+        "image": {
+          "src": "/covers/canada-eurovision-2027-debut--art.png",
+          "alt": "Engraving of Apollo enthroned on Mount Parnassus surrounded by the nine Muses, after Anton Raphael Mengs",
+          "credit": "Wikimedia Commons"
+        }
+      }
+    ],
+    "rank": 12
+  },
+  {
+    "slug": "swiss-traditionalists-defy-pope",
+    "headline": "Traditionalist Catholics defy Pope Leo XIV with bishop consecrations in Switzerland",
+    "overview": "A traditionalist Catholic group went ahead with the consecration of new bishops in Switzerland in defiance of Pope Leo XIV, deepening a rift with the Vatican. The ceremony proceeded despite warnings that the ordinations were unauthorized.",
+    "genre": "Culture",
+    "sources": [
+      {
+        "name": "AP",
+        "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTmphVU5YWWRJWVo0emtCMTNuYkgtU0NrempyVXViNjJNNmRjWHA0OGJmenh2Xzctb0s4X2J1NFpJcnB0Y3ZwcjcwcWpXNFp1dnJyWTF3NkRzSFdPbjZsUFZMOU1Da1U2QUFPYlJTZnJIdGdlbjU5VlRCVHRCQWRQMldVZkQ4YkJpUTNYNjNveVpXMmJfQlFBQw?oc=5"
+      },
+      {
+        "name": "The Pillar",
+        "href": "https://www.pillarcatholic.com/p/sspx-illicitly-ordains-four-new-bishops"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-01",
+    "image": {
+      "src": "/covers/swiss-traditionalists-defy-pope.png",
+      "alt": "The cand-lit stone interior of a gothic cathedral with soaring arches.",
+      "credit": "AI-generated"
+    },
+    "edition": "Evening Edition · 1 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "Martin Luther before the Diet of Worms (1521)",
+        "excerpt": "If, then, I am not convinced by proof from Holy Scripture, or by cogent reasons, if I am not satisfied by the very text I have cited, and if my judgment is not in this way brought into subjection to God's word, I neither can nor will retract anything; for it can not be right for a Christian to speak against his conscience. I stand here and can say no more. God help me. Amen.",
+        "source": "Martin Luther, \"Before the Diet of Worms\" (1521), in The World's Famous Orations, Vol. VII, ed. William Jennings Bryan (New York: Funk & Wagnalls, 1906), via Wikisource.",
+        "href": "https://en.wikisource.org/wiki/The_World's_Famous_Orations/Volume_7/Before_the_Diet_of_Worms"
+      },
+      {
+        "category": "historical",
+        "title": "The East–West Schism of 1054",
+        "excerpt": "When the leader of the legation, Cardinal Humbert of Silva Candida, learned that Cerularius had refused to accept the demand, he excommunicated him, and in response Cerularius excommunicated Humbert and the other legates.",
+        "source": "\"East–West Schism,\" Wikipedia, The Free Encyclopedia (accessed 1 July 2026).",
+        "href": "https://en.wikipedia.org/wiki/East%E2%80%93West_Schism"
+      },
+      {
+        "category": "literary",
+        "title": "Milton, Paradise Lost, Book I — Satan's defiance",
+        "excerpt": "To reign is worth ambition, though in Hell:\nBetter to reign in Hell than serve in Heaven.",
+        "source": "John Milton, Paradise Lost, Book I, lines 262–263 (1667), Project Gutenberg eBook No. 26.",
+        "href": "https://www.gutenberg.org/cache/epub/26/pg26.txt"
+      },
+      {
+        "category": "literary",
+        "title": "Sophocles, Antigone — defying Creon's decree",
+        "excerpt": "Yes, since it was not Zeus that published me that edict, and since not of that kind are the laws which Justice who dwells with the gods below established among men. Nor did I think that your decrees were of such force, that a mortal could override the unwritten and unfailing statutes given us by the gods.",
+        "source": "Sophocles, Antigone, lines 450–455, trans. Sir Richard C. Jebb, via the Perseus Digital Library, Tufts University.",
+        "href": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0186:card=441"
+      },
+      {
+        "category": "artistic",
+        "title": "Mendelssohn, Symphony No. 5 \"Reformation,\" Op. 107 — MUSIC",
+        "excerpt": "Felix Mendelssohn composed his Fifth Symphony, the \"Reformation\" (1830), to mark the tercentenary of the Augsburg Confession, the founding statement of Lutheran faith. Its finale is built upon Luther's own defiant chorale \"Ein feste Burg ist unser Gott\" (\"A Mighty Fortress Is Our God\"), the anthem of the Reformation's break with Rome. The symphony thus sounds the same theme of principled rupture with an established religious authority that runs through the Écône consecrations.",
+        "source": "Felix Mendelssohn, Symphony No. 5 in D minor/major, Op. 107 (\"Reformation\"), 1830; score via IMSLP / Petrucci Music Library.",
+        "href": "https://imslp.org/wiki/Symphony_No.5,_Op.107_(Mendelssohn,_Felix)"
+      },
+      {
+        "category": "artistic",
+        "title": "Anton von Werner, \"Luther at the Diet of Worms\" (1877) — VISUAL ARTWORK",
+        "excerpt": "Anton von Werner's 1877 oil painting depicts Martin Luther standing before Emperor Charles V and the assembled princes of the Holy Roman Empire in 1521, refusing to recant his writings. The lone reformer, upright amid a hostile hierarchy, became the enduring image of conscientious defiance against Rome's authority. It offers a striking visual parallel to a traditionalist body standing firm against the Pope's demand to turn back.",
+        "source": "Anton von Werner, Luther auf dem Reichstag zu Worms (\"Luther at the Diet of Worms\"), 1877, oil on canvas, Staatsgalerie Stuttgart; public domain, via Wikimedia Commons.",
+        "href": "https://commons.wikimedia.org/wiki/File:Luther_at_the_Diet_of_Worms.jpg",
+        "image": {
+          "src": "/covers/swiss-traditionalists-defy-pope--art.png",
+          "alt": "Anton von Werner's 1877 painting of Martin Luther standing before Emperor Charles V and the princes at the Diet of Worms, refusing to recant.",
+          "credit": "Wikimedia Commons"
+        }
+      }
+    ],
+    "rank": 13
+  },
+  {
     "slug": "ukraine-drones-russian-refinery-fuel",
     "headline": "Ukrainian drone strikes on oil refineries push Russia into a summer fuel crisis",
     "overview": "A sustained campaign of Ukrainian drone strikes on Russian oil refineries has triggered a summer fuel crisis, with shortages and sharply higher pump prices reported across Russia. The attacks have knocked out significant refining capacity, and Moscow has moved to curb fuel exports as the disruption spreads.",
@@ -168,8 +1131,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "lead": true,
-    "rank": 1
+    "rank": 14
   },
   {
     "slug": "sudan-rsf-el-fasher-crimes",
@@ -243,7 +1205,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 2
+    "rank": 15
   },
   {
     "slug": "colorado-kiros-defeats-degette",
@@ -317,7 +1279,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 3
+    "rank": 16
   },
   {
     "slug": "student-loan-forgiveness-struck-down",
@@ -391,7 +1353,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 4
+    "rank": 17
   },
   {
     "slug": "xi-chinese-wisdom-developing-nations",
@@ -465,7 +1427,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 5
+    "rank": 18
   },
   {
     "slug": "eu-parcel-fee-shein-temu",
@@ -539,7 +1501,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 6
+    "rank": 19
   },
   {
     "slug": "australia-big-four-accounting-breakup",
@@ -613,7 +1575,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 7
+    "rank": 20
   },
   {
     "slug": "south-korea-google-android-app-store",
@@ -687,7 +1649,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 8
+    "rank": 21
   },
   {
     "slug": "kim-dotcom-extradition-appeal",
@@ -761,7 +1723,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 9
+    "rank": 22
   },
   {
     "slug": "italy-etruscan-tomb-paintings",
@@ -835,7 +1797,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 10
+    "rank": 23
   },
   {
     "slug": "mexico-beat-ecuador-world-cup",
@@ -909,7 +1871,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 11
+    "rank": 24
   },
   {
     "slug": "california-food-date-labels",
@@ -983,7 +1945,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 12
+    "rank": 25
   },
   {
     "slug": "spain-june-heat-deaths",
@@ -1057,7 +2019,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 13
+    "rank": 26
   },
   {
     "slug": "trump-crypto-income-billion",
@@ -1131,7 +2093,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 14
+    "rank": 27
   },
   {
     "slug": "us-lifts-anthropic-export-ban",
@@ -1205,7 +2167,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 15
+    "rank": 28
   },
   {
     "slug": "antarctica-dinosaur-fossil-drawer",
@@ -1279,7 +2241,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 16
+    "rank": 29
   },
   {
     "slug": "texas-bible-required-reading",
@@ -1353,7 +2315,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 17
+    "rank": 30
   },
   {
     "slug": "getty-shutterstock-merger-scrapped",
@@ -1427,7 +2389,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 18
+    "rank": 31
   },
   {
     "slug": "saab-gripen-ukraine-deal",
@@ -1501,7 +2463,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 19
+    "rank": 32
   },
   {
     "slug": "swiss-museums-benin-bronzes",
@@ -1575,7 +2537,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 20
+    "rank": 33
   },
   {
     "slug": "greece-wildfire-deadly",
@@ -1649,7 +2611,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 21
+    "rank": 34
   },
   {
     "slug": "scotus-cellphone-location-privacy",
@@ -1723,7 +2685,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 22
+    "rank": 35
   },
   {
     "slug": "nike-china-turnaround",
@@ -1797,7 +2759,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 23
+    "rank": 36
   },
   {
     "slug": "uk-military-spending-boost",
@@ -1871,7 +2833,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 24
+    "rank": 37
   },
   {
     "slug": "france-sweden-world-cup",
@@ -1945,7 +2907,7 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 25
+    "rank": 38
   },
   {
     "slug": "venezuela-earthquake-rescue",
@@ -2019,971 +2981,10 @@ const stories: Story[] = [
         }
       }
     ],
-    "rank": 26
-  },
-  {
-    "slug": "scotus-birthright-citizenship",
-    "headline": "US Supreme Court upholds birthright citizenship, rejecting Trump's bid to restrict it",
-    "overview": "The US Supreme Court upheld the constitutional guarantee of birthright citizenship, rejecting the Trump administration's attempt to deny automatic citizenship to children born on US soil to certain non-citizen parents. The ruling leaves the longstanding reading of the Fourteenth Amendment's Citizenship Clause intact.",
-    "genre": "Politics",
-    "sources": [
-      {
-        "name": "AP",
-        "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeHFHR0ZCdDJuOUJjckJLaWRDcGc4a2xQb3lyM3lnZE9pbFVibF8xeHVxanl1VGF3Tnd1a29IVkpIUHNoTjR2WV9Uc1doeDQ0LWNabVV3MmZmM3luSk94MEo1RXdnSkx1cDdPTDMwNmdvWkZNNlRRX043SUpqTnA1MXdSZFpnOW1FQVVoQnZRazFPdFk5MFBOOVRXTVlrY2MzUmdtQ3JTb1Z0SEduczZxTEpqRDY?oc=5"
-      },
-      {
-        "name": "ABC News",
-        "href": "https://abcnews.com/Politics/faq-birthright-citizenship-ahead-supreme-courts-ruling/story?id=134215675"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-06-30",
-    "image": {
-      "src": "/covers/scotus-birthright-citizenship.png",
-      "alt": "The United States Supreme Court building in Washington, D.C., at dusk.",
-      "credit": "Wikimedia Commons"
-    },
-    "edition": "Evening Edition · 30 June 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "United States v. Wong Kim Ark (1898)",
-        "excerpt": "A child born in the United States, of parents of Chinese descent, who, at the time of his birth, are subjects of the Emperor of China, but have a permanent domicil and residence in the United States, and are there carrying on business, and are not employed in any diplomatic or official capacity under the Emperor of China, becomes at the time of his birth a citizen of the United States, by virtue of the first clause of the Fourteenth Amendment.",
-        "source": "Supreme Court of the United States, United States v. Wong Kim Ark, 169 U.S. 649 (1898), Wikisource",
-        "href": "https://en.wikisource.org/wiki/United_States_v._Wong_Kim_Ark"
-      },
-      {
-        "category": "historical",
-        "title": "The Fourteenth Amendment's Citizenship Clause (1868)",
-        "excerpt": "All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside.",
-        "source": "14th Amendment to the U.S. Constitution (1868), Section 1, U.S. National Archives, Milestone Documents",
-        "href": "https://www.archives.gov/milestone-documents/14th-amendment"
-      },
-      {
-        "category": "literary",
-        "title": "Emma Lazarus, \"The New Colossus\" (1883)",
-        "excerpt": "\"Keep, ancient lands, your storied pomp!\" cries she\nWith silent lips. \"Give me your tired, your poor,\nYour huddled masses yearning to breathe free,\nThe wretched refuse of your teeming shore.\nSend these, the homeless, tempest-tost to me,\nI lift my lamp beside the golden door!\"",
-        "source": "Emma Lazarus, \"The New Colossus\" (1883), Wikisource",
-        "href": "https://en.wikisource.org/wiki/The_New_Colossus"
-      },
-      {
-        "category": "literary",
-        "title": "Edward Everett Hale, \"The Man Without a Country\" (1863)",
-        "excerpt": "Damn the United States! I wish I may never hear of the United States again!",
-        "source": "Edward Everett Hale, \"The Man Without a Country\" (1863), Project Gutenberg ebook #16493",
-        "href": "https://www.gutenberg.org/cache/epub/16493/pg16493.txt"
-      },
-      {
-        "category": "artistic",
-        "title": "\"The Star-Spangled Banner\" (music by John Stafford Smith) — MUSIC",
-        "excerpt": "The national anthem whose melody (originally \"The Anacreontic Song\") and Francis Scott Key's words bind a people to a single flag and homeland. Its swelling, triumphant cadence is the sound of national belonging itself — fitting for a ruling that reaffirms who is counted as American from the moment of birth. IMSLP hosts the original scores and dozens of arrangements in the public domain.",
-        "source": "The Star-Spangled Banner (Smith, John Stafford), IMSLP / Petrucci Music Library",
-        "href": "https://imslp.org/wiki/The_Star-Spangled_Banner_(Smith,_John_Stafford)"
-      },
-      {
-        "category": "artistic",
-        "title": "Edward Moran, \"Unveiling the Statue of Liberty Enlightening the World\" (1886) — VISUAL ARTWORK",
-        "excerpt": "Edward Moran's luminous 1886 oil painting depicts New York Harbor crowded with ships flying French and American flags as gun-smoke rolls across the island and Liberty rises clear above it all, torch lifted to the sky. As the \"Mother of Exiles\" welcoming newcomers to her shores, the image embodies the nation's self-understanding as a country defined by those it receives and claims as its own — the very promise affirmed when the Court left birthright citizenship intact.",
-        "source": "Edward Moran (1829–1901), \"Unveiling the Statue of Liberty Enlightening the World\" (1886), Museum of the City of New York; via Wikimedia Commons",
-        "href": "https://commons.wikimedia.org/wiki/File:EdwardMoran-UnveilingTheStatueofLiberty1886Large.jpg",
-        "image": {
-          "src": "/covers/scotus-birthright-citizenship--art.png",
-          "alt": "Edward Moran's 1886 painting of New York Harbour crowded with ships and gunsmoke as the Statue of Liberty is unveiled, torch lifted to the sky.",
-          "credit": "Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 27
-  },
-  {
-    "slug": "scotus-transgender-school-sports",
-    "headline": "US Supreme Court upholds state laws barring transgender girls and women from female school sports",
-    "overview": "The US Supreme Court upheld state laws that bar transgender girls and women from competing on female school and college sports teams, a victory for conservative states. The decision affects athletes in more than two dozen states with similar bans and turns on questions of fairness, sex and inclusion in competition.",
-    "genre": "Politics",
-    "sources": [
-      {
-        "name": "AP",
-        "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZ0k5Vmc2S1lZU2JqQXR1SDVRZEVUMnRsUEFCVm14SmI3VTNramx5bEhqeEpIQVlDdjdsa0ZTQjBCaE9nRjRNMS10Yk5sNll3RzJBN2VlbFNyVHRzek4wcUtHVGVucEVJMXhsQUVabHBraGc3dDFyd1VndnN3SEpyMzc5aGJjSkFrMkVaU0NkRUVnVXQtQVdLMHFITmliYU5aS19LanVuSDJZT0U?oc=5"
-      },
-      {
-        "name": "PBS NewsHour",
-        "href": "https://www.pbs.org/newshour/politics/supreme-court-upholds-state-laws-banning-transgender-girls-and-women-from-school-sports"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-06-30",
-    "image": {
-      "src": "/covers/scotus-transgender-school-sports.png",
-      "alt": "An empty outdoor running track with starting blocks under stadium floodlights at dusk.",
-      "credit": "AI-generated"
-    },
-    "edition": "Evening Edition · 30 June 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "The Law of Mount Typaeum: Women Barred from Olympia",
-        "excerpt": "It is a law of Elis to cast down it any women who are caught present at the Olympic games, or even on the other side of the Alpheius, on the days prohibited to women. However, they say that no woman has been caught, except Callipateira only; some, however, give the lady the name of Pherenice and not Callipateira.",
-        "source": "Pausanias, Description of Greece 5.6.7, trans. W. H. S. Jones (1918), Wikisource",
-        "href": "https://en.wikisource.org/wiki/Description_of_Greece_(Jones)/Book_5"
-      },
-      {
-        "category": "historical",
-        "title": "The Heraea: A Separate Footrace for Maidens",
-        "excerpt": "Every fourth year there is woven for Hera a robe by the Sixteen women, and the same also hold games called Heraea. The games consist of foot-races for maidens. These are not all of the same age. The first to run are the youngest; after them come the next in age, and the last to run are the oldest of the maidens. They run in the following way: their hair hangs down, a tunic reaches to a little above the knee, and they bare the right shoulder as far as the breast. These too have the Olympic stadium reserved for their games, but the course of the stadium is shortened for them by about one-sixth of its length.",
-        "source": "Pausanias, Description of Greece 5.16.2-3, trans. W. H. S. Jones (1918), Wikisource",
-        "href": "https://en.wikisource.org/wiki/Description_of_Greece_(Jones)/Book_5"
-      },
-      {
-        "category": "literary",
-        "title": "Atalanta's Footrace: The Condition of the Game",
-        "excerpt": "I am not to be had (quoth shee) onlesse yee able bee In ronning for to vanquish mee. Yee must contend with mee In footemanshippe. And who so winnes the wager, I agree To bee his wife. But if that he bee found too slowe, then hee Shall lose his head.",
-        "source": "Ovid, Metamorphoses, Book 10, trans. Arthur Golding (1567), Wikisource",
-        "href": "https://en.wikisource.org/wiki/Metamorphoses_(tr._Golding)/Book_10"
-      },
-      {
-        "category": "literary",
-        "title": "The Rules of the Race: Atalanta and the Golden Apples",
-        "excerpt": "she went away to a place that might serve as a racecourse, and, having planted a stake three cubits high in the middle of it, she caused her wooers to race before her from there, and ran herself in arms; and if the wooer was caught up, his due was death on the spot, and if he was not caught up, his due was marriage. When many had already perished, Melanion came to run for love of her, bringing golden apples from Aphrodite, and being pursued he threw them down, and she, picking up the dropped fruit, was beaten in the race.",
-        "source": "Apollodorus, The Library 3.9.2, trans. J. G. Frazer (1921), ToposText",
-        "href": "https://topostext.org/work/150"
-      },
-      {
-        "category": "artistic",
-        "title": "Glazunov, Triumphal March, Op. 40 (1892) — MUSIC",
-        "excerpt": "Glazunov wrote this grand march for chorus and orchestra to crown a great public contest of nations at the 1893 Chicago World's Columbian Exposition. Its blazing brass and ceremonial pomp embody the ancient idea of victory celebrated before a watching crowd, a fitting echo of a courtroom and a culture still arguing over who may stand on the winners' podium and under what rules.",
-        "source": "Aleksandr Glazunov, Triumphal March, Op. 40 (1892-93), IMSLP / Petrucci Music Library",
-        "href": "https://imslp.org/wiki/Triumphal_March,_Op.40_(Glazunov,_Aleksandr)"
-      },
-      {
-        "category": "artistic",
-        "title": "Guido Reni, Atalanta and Hippomenes (c. 1620-25) — VISUAL ARTWORK",
-        "excerpt": "Reni freezes the decisive instant of the contest: Atalanta bends to snatch a golden apple while Hippomenes surges past, his cloak streaming, the rules of the race bent by a trick. The two near-nude figures form an elegant, almost balletic X across the dark ground, dramatizing how a single condition placed on a competition can decide who wins and who is left behind, a tension at the heart of the modern fight over fairness in sport.",
-        "source": "Guido Reni, Atalanta and Hippomenes (c. 1620-25), Museo di Capodimonte, Naples; Wikimedia Commons",
-        "href": "https://commons.wikimedia.org/wiki/File:Guido_Reni_-_Atalanta_and_Hippomenes_-_Google_Art_Project.jpg",
-        "image": {
-          "src": "/covers/scotus-transgender-school-sports--art.png",
-          "alt": "Guido Reni's painting Atalanta and Hippomenes, two nude runners crossing the dark canvas as Atalanta stoops for a golden apple.",
-          "credit": "Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 28
-  },
-  {
-    "slug": "monaco-bomb-ukrainian-tycoon",
-    "headline": "Manhunt under way after a bomb in Monaco injures a Ukrainian-born tycoon",
-    "overview": "A bomb blast in Monaco injured three people, including a Ukrainian-born oligarch, prompting a manhunt after the suspected attacker fled across the border into France, authorities said. The targeted bombing shook the principality, a haven for the global wealthy.",
-    "genre": "Conflict",
-    "sources": [
-      {
-        "name": "AP",
-        "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRkFtOEk3cmZwQUNRT2MxT0ctUDB3Z1JKSWhCQmtGd2tjdjdHb0J6b0U3aEdORlZ5TERrYjRpTDljVFMyTUkxTVpjelJQWk02dUViem1TMzJOQnVQSm5VdVM2eG5Qbkp1alNneHlTWExCVDkzamhGUFVaRmVETlBoOUlPY0JMUWl6Qk5pYXh1LV9VRWhUTlZ1ZA?oc=5"
-      },
-      {
-        "name": "CBS News",
-        "href": "https://www.cbsnews.com/news/monaco-explosion-ukraine-victim/"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-06-30",
-    "image": {
-      "src": "/covers/monaco-bomb-ukrainian-tycoon.png",
-      "alt": "The harbour and high-rise skyline of Monaco on the Mediterranean coast.",
-      "credit": "Wikimedia Commons"
-    },
-    "edition": "Evening Edition · 30 June 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "The Assassination of Julius Caesar",
-        "excerpt": "It was Casca who gave him the first blow with his dagger, in the neck, not a mortal wound, nor even a deep one, for which he was too much confused, as was natural at the beginning of a deed of great daring; so that Caesar turned about, grasped the knife, and held it fast.",
-        "source": "Plutarch, Life of Caesar, ch. 66, trans. Bernadotte Perrin (1919), Perseus Digital Library, Tufts University",
-        "href": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0244%3Achapter%3D66"
-      },
-      {
-        "category": "historical",
-        "title": "Emma Goldman on Political Violence and 'Propaganda of the Deed'",
-        "excerpt": "Such acts are the violent recoil from violence, whether aggressive or repressive; they are the last desperate struggle of outraged and exasperated human nature for breathing space and life.",
-        "source": "Emma Goldman, 'The Psychology of Political Violence' (1911), Wikisource",
-        "href": "https://en.wikisource.org/wiki/The_Psychology_of_Political_Violence"
-      },
-      {
-        "category": "literary",
-        "title": "Joseph Conrad, The Secret Agent",
-        "excerpt": "\"You used a shovel,\" he remarked, observing a sprinkling of small gravel, tiny brown bits of bark, and particles of splintered wood as fine as needles.",
-        "source": "Joseph Conrad, The Secret Agent (1907), Chapter 5, Wikisource",
-        "href": "https://en.wikisource.org/wiki/The_Secret_Agent/Chapter_5"
-      },
-      {
-        "category": "literary",
-        "title": "Fyodor Dostoevsky, The Possessed (Demons)",
-        "excerpt": "Every member of the society spies on the others, and it's his duty to inform against them. Every one belongs to all and all to every one.",
-        "source": "Fyodor Dostoevsky, The Possessed, Part II, Chapter VIII 'Ivan the Tsarevitch', trans. Constance Garnett, AmericanLiterature.com",
-        "href": "https://americanliterature.com/author/fyodor-dostoevsky/book/the-possessed/chapter-viii-ivan-the-tsarevitch"
-      },
-      {
-        "category": "artistic",
-        "title": "Mussorgsky, Night on Bald Mountain — MUSIC",
-        "excerpt": "Mussorgsky's tone poem unleashes a churning, demonic orchestral storm — a witches' sabbath of menace, sudden detonations of brass and roaring strings that erupt out of darkness. Its atmosphere of conspiracy gathering in the night and bursting into violent chaos mirrors the dread of a targeted bombing that shatters a supposed haven of calm.",
-        "source": "Modest Mussorgsky, Night on Bald Mountain (1867), public-domain scores at IMSLP / Petrucci Music Library",
-        "href": "https://imslp.org/wiki/Night_on_Bald_Mountain_(Mussorgsky,_Modest)"
-      },
-      {
-        "category": "artistic",
-        "title": "The Assassination of Alexander II, 1881 — VISUAL ARTWORK",
-        "excerpt": "This 1881 illustrated print depicts the bomb attack that killed Tsar Alexander II on a St. Petersburg street, the carriage wrecked and bodies strewn amid smoke and debris from the explosion. As one of the first modern terrorist bombings, it captures the same shock as the Monaco blast: sudden, premeditated violence striking down a powerful figure in a public place.",
-        "source": "A. Baldinger, 'The assassination of Alexander II of Russia on March 1, 1881', Vsemirnaya Illyustratsia (1881), Wikimedia Commons",
-        "href": "https://commons.wikimedia.org/wiki/File:The_assassination_of_Alexander_II_of_Russia_on_March_1_1881.jpg",
-        "image": {
-          "src": "/covers/monaco-bomb-ukrainian-tycoon--art.png",
-          "alt": "An 1881 illustrated print of the bomb attack that killed Tsar Alexander II, his wrecked carriage and figures strewn amid smoke on a St Petersburg street.",
-          "credit": "Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 29
-  },
-  {
-    "slug": "ukraine-dubna-second-strike",
-    "headline": "Ukraine strikes a site in Russia's Dubna for a second time, Zelensky says",
-    "overview": "Ukraine struck a site in Dubna, north of Moscow, for a second time, President Volodymyr Zelensky said, in the latest deep long-range drone attack on Russian territory. Russia has acknowledged that Ukrainian strikes are causing fuel shortages as Kyiv reaches ever farther behind the front lines.",
-    "genre": "Conflict",
-    "sources": [
-      {
-        "name": "Reuters",
-        "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeUxTaWVPX2Z0bm04b1RSNkd0bkF5NGNhQnY3cW1jNXZxdE9SWU9EZGhFSnZINkFHM0hfU2xPbVc0bzBrblVCOVF2TS05MjBYT1Q0RlZCVGh4Z2YwcFVoVHdLVEcyU0J0dUs2bkt3MHZ5dU1aWmpRV3BvMUdybXVaaEtwSWR1SjFWalJkLXBLUFZWd3NCc0VNMFRvcWxsZlRSM0p1U01hSjNkaGlEanJqcUNYOG1RMHVNU1o3Ymh0Z0ZlbmE0czVfX01OSQ?oc=5"
-      },
-      {
-        "name": "Washington Examiner",
-        "href": "https://www.washingtonexaminer.com/news/4630094/ukrainian-drones-strike-russian-space-communications-center-in-moscow-region/"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-06-30",
-    "image": {
-      "src": "/covers/ukraine-dubna-second-strike.png",
-      "alt": "An industrial complex burning bright orange against the night sky.",
-      "credit": "AI-generated"
-    },
-    "edition": "Evening Edition · 30 June 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "Darius's long march against the distant Scythians",
-        "excerpt": "For this Dareios wished to take vengeance upon them, and was gathering together an army to go against them.",
-        "source": "Herodotus, The History, Book IV.4 (trans. G. C. Macaulay), Project Gutenberg",
-        "href": "https://www.gutenberg.org/cache/epub/2707/pg2707.txt"
-      },
-      {
-        "category": "historical",
-        "title": "David and Goliath: the smaller power fells the giant",
-        "excerpt": "So David prevailed over the Philistine with a sling and with a stone, and smote the Philistine, and slew him; but there was no sword in the hand of David.",
-        "source": "1 Samuel 17:50, Bible (King James Version), Wikisource",
-        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/1_Samuel"
-      },
-      {
-        "category": "literary",
-        "title": "Tennyson, \"The Charge of the Light Brigade\"",
-        "excerpt": "Cannon to right of them, / Cannon to left of them, / Cannon in front of them / Volley'd and thunder'd;",
-        "source": "Alfred, Lord Tennyson, \"The Charge of the Light Brigade\" (1854), Wikisource",
-        "href": "https://en.wikisource.org/wiki/Poems_That_Every_Child_Should_Know/The_Charge_of_the_Light_Brigade"
-      },
-      {
-        "category": "literary",
-        "title": "Wilfred Owen, \"Dulce et Decorum Est\"",
-        "excerpt": "Drunk with fatigue; deaf even to the hoots / Of gas-shells dropping softly behind.",
-        "source": "Wilfred Owen, \"Dulce et Decorum Est,\" Poems (1920), Project Gutenberg",
-        "href": "https://www.gutenberg.org/files/1034/1034-h/1034-h.htm"
-      },
-      {
-        "category": "artistic",
-        "title": "Tchaikovsky, 1812 Overture, Op. 49 — MUSIC",
-        "excerpt": "Tchaikovsky's festival overture stages an invader reaching deep into Russian territory, building from a solemn hymn to roaring cannon fire and pealing bells. Its very subject is a powerful foe striking far behind the lines and the convulsive response that follows. The clash of distant menace and home-front alarm mirrors drones reaching hundreds of kilometers past the front toward Moscow.",
-        "source": "Pyotr Ilyich Tchaikovsky, 1812 Overture, Op. 49 (1880), full orchestral score, IMSLP/Petrucci Music Library",
-        "href": "https://imslp.org/wiki/1812_Overture,_Op.49_(Tchaikovsky,_Pyotr)"
-      },
-      {
-        "category": "artistic",
-        "title": "Caravaggio, \"David and Goliath\" — VISUAL ARTWORK",
-        "excerpt": "Caravaggio's tenebrous canvas shows the boy David binding the head of the felled giant, a single decisive blow having toppled a vastly larger adversary. The dramatic chiaroscuro makes the asymmetry visceral: small hands, immense consequence. It resonates with a smaller power reaching past the front to strike a far more massive foe deep in its own territory.",
-        "source": "Caravaggio (Michelangelo Merisi), David and Goliath, c. 1600, Wikimedia Commons",
-        "href": "https://commons.wikimedia.org/wiki/File:David_and_Goliath_by_Caravaggio.jpg",
-        "image": {
-          "src": "/covers/ukraine-dubna-second-strike--art.png",
-          "alt": "Caravaggio's dark, dramatic painting of the boy David holding the severed head of the giant Goliath.",
-          "credit": "Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 30
-  },
-  {
-    "slug": "europe-heatwave-record-deaths",
-    "headline": "Europe's heatwave is linked to about 1,300 deaths as Germany hits a record 41.7C, WHO says",
-    "overview": "A severe heatwave across Europe has been linked to roughly 1,300 deaths, the World Health Organization said, as Germany recorded its highest-ever temperature of 41.7C. Health officials warned that the elderly and other vulnerable people are most at risk as extreme heat intensifies.",
-    "genre": "Climate",
-    "sources": [
-      {
-        "name": "BBC",
-        "href": "https://www.bbc.co.uk/news/articles/cn4d2vv935lo?at_medium=RSS&at_campaign=rss"
-      },
-      {
-        "name": "Al Jazeera",
-        "href": "https://www.aljazeera.com/news/2026/6/29/more-than-1300-deaths-in-europe-amid-heatwave-what-can-countries-do"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-06-30",
-    "image": {
-      "src": "/covers/europe-heatwave-record-deaths.png",
-      "alt": "A sun-scorched, near-empty European city square shimmering in extreme heat.",
-      "credit": "AI-generated"
-    },
-    "edition": "Evening Edition · 30 June 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "Phaethon scorches the earth in Ovid's Metamorphoses",
-        "excerpt": "Great cities perish with their walls, and peopled nations are consumed to dust—",
-        "source": "Ovid, Metamorphoses, Book 2 (trans. Brookes More), hosted at Perseus Digital Library, Tufts University",
-        "href": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0028%3Abook%3D2%3Acard%3D227"
-      },
-      {
-        "category": "historical",
-        "title": "The great drought and famine in the days of Elijah (1 Kings)",
-        "excerpt": "And Elijah the Tishbite, who was of the inhabitants of Gilead, said unto Ahab, As the LORD God of Israel liveth, before whom I stand, there shall not be dew nor rain these years, but according to my word.",
-        "source": "The Bible (King James Version), 1 Kings 17:1, Wikisource",
-        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/1_Kings/Chapter_17"
-      },
-      {
-        "category": "literary",
-        "title": "The bloody Sun at noon in Coleridge's Ancient Mariner",
-        "excerpt": "All in a hot and copper sky, / The bloody Sun, at noon, / Right up above the mast did stand, / No bigger than the Moon.",
-        "source": "Samuel Taylor Coleridge, \"The Rime of the Ancient Mariner,\" Part II, Project Gutenberg",
-        "href": "https://www.gutenberg.org/files/151/151-h/151-h.htm"
-      },
-      {
-        "category": "literary",
-        "title": "Archibald Lampman's \"Heat\" and the shimmering, droughty noon",
-        "excerpt": "From plains that reel to southward, dim, / The road runs by me white and bare; / Up the steep hill it seems to swim / Beyond, and melt into the glare.",
-        "source": "Archibald Lampman, \"Heat,\" in Among the Millet and Other Poems (1888), Project Gutenberg",
-        "href": "https://www.gutenberg.org/files/12413/12413-h/12413-h.htm"
-      },
-      {
-        "category": "artistic",
-        "title": "Vivaldi, \"Summer\" (L'estate) from The Four Seasons — MUSIC",
-        "excerpt": "Vivaldi's G minor concerto opens with strings drooping under languid, oppressive heat before erupting into a violent thunderstorm — the composer's own accompanying sonnet describes a shepherd terrified beneath a sun that scorches the land. Its depiction of nature pushed past endurance by summer's blaze makes it an uncanny soundtrack to a heatwave that has overwhelmed Europe and claimed some 1,300 lives.",
-        "source": "Antonio Vivaldi, Violin Concerto in G minor, RV 315, \"L'estate\" (1723), from Le quattro stagioni, IMSLP / Petrucci Music Library",
-        "href": "https://imslp.org/wiki/Violin_Concerto_in_G_minor,_RV_315_(Vivaldi,_Antonio)"
-      },
-      {
-        "category": "artistic",
-        "title": "J. M. W. Turner, Regulus — VISUAL ARTWORK",
-        "excerpt": "Turner dissolves a Mediterranean harbour into a blinding white-gold detonation of sunlight, so brilliant it nearly erases the architecture and figures around it. The picture makes light itself a force of suffering, an overwhelming sun that scorches the eye — a fitting image for a heatwave whose blazing skies pushed Germany to a record 41.7C and proved lethal to the vulnerable.",
-        "source": "J. M. W. Turner, Regulus (1828, reworked 1837), Tate, via Wikimedia Commons",
-        "href": "https://commons.wikimedia.org/wiki/File:Turner_-_Regulus,_1828,_reworked_1837,_N00519.jpg",
-        "image": {
-          "src": "/covers/europe-heatwave-record-deaths--art.png",
-          "alt": "J. M. W. Turner's painting Regulus, a Mediterranean harbour dissolved in a blinding white-gold blaze of sunlight.",
-          "credit": "Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 31
-  },
-  {
-    "slug": "ghana-accra-flooding-deaths",
-    "headline": "Flooding in Ghana's capital Accra kills at least 13, with more storms forecast",
-    "overview": "Severe flooding struck Ghana's capital, Accra, killing at least 13 people, with authorities warning of further storms. The city's recurring deadly floods have been blamed on clogged drains, unplanned building and intensifying seasonal rains.",
-    "genre": "Climate",
-    "sources": [
-      {
-        "name": "BBC",
-        "href": "https://www.bbc.co.uk/news/articles/cn4r8zlv8edo?at_medium=RSS&at_campaign=rss"
-      },
-      {
-        "name": "Africa.com",
-        "href": "https://www.africa.com/global-south-world/ghanas-capital-accra-submerged-as-floods-expose-long-running-urban-drainage-crisis"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-06-30",
-    "image": {
-      "src": "/covers/ghana-accra-flooding-deaths.png",
-      "alt": "A flooded tropical city street at dawn, muddy brown water rising over cars and the steps of low houses.",
-      "credit": "AI-generated"
-    },
-    "edition": "Evening Edition · 30 June 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "The Great Flood of Genesis",
-        "excerpt": "And the waters prevailed exceedingly upon the earth; and all the high hills, that were under the whole heaven, were covered. Fifteen cubits upward did the waters prevail; and the mountains were covered. And all flesh died that moved upon the earth, both of fowl, and of cattle, and of beast, and of every creeping thing that creepeth upon the earth, and every man:",
-        "source": "Bible (King James Version), Genesis 7:19-21, Wikisource",
-        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/Genesis"
-      },
-      {
-        "category": "historical",
-        "title": "The Johnstown Flood of 1889",
-        "excerpt": "Away up the Conemaugh came a yellow wall, whose crest was white and frothy. I rushed for the platform of the car, not knowing what I did, and just then the train began to move.",
-        "source": "Willis Fletcher Johnson, History of the Johnstown Flood (1889), Project Gutenberg",
-        "href": "https://www.gutenberg.org/files/41271/41271-h/41271-h.htm"
-      },
-      {
-        "category": "literary",
-        "title": "The Deluge in the Epic of Gilgamesh",
-        "excerpt": "The raging of a storm in the morning arose, from the horizon of heaven extending and wide / Vul in the midst of it thundered, and / Nebo and Saru went in front; / the throne bearers went over mountains and plains; / the destroyer Nergal overturned; / Ninip went in front, and cast down; / the spirits carried destruction; / in their glory they swept the earth; / of Vul the flood, reached to heaven; / the bright earth to a waste was turned",
-        "source": "George Smith (trans.), The Chaldean Account of the Deluge (1872), Wikisource",
-        "href": "https://en.wikisource.org/wiki/The_Chaldean_Account_of_the_Deluge"
-      },
-      {
-        "category": "literary",
-        "title": "Deucalion's Flood in Ovid's Metamorphoses",
-        "excerpt": "And now one vast expanse, the land and sea were mingled in the waste of endless waves—a sea without a shore.",
-        "source": "Ovid, Metamorphoses Book 1 (Brookes More trans.), Perseus Digital Library, Tufts",
-        "href": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0028:book=1:card=253"
-      },
-      {
-        "category": "artistic",
-        "title": "Beethoven, Symphony No. 6 'Pastoral', Op. 68, IV. 'Gewitter, Sturm' — MUSIC",
-        "excerpt": "Beethoven's fourth movement unleashes a sudden, terrifying thunderstorm: low rumbling cellos and basses swell into shrieking piccolo and crashing timpani as the orchestra depicts torrential rain breaking over a peaceful countryside. Its abrupt violence and the dread of nature turned destructive mirror the way ordinary seasonal rains over Accra escalate into a deadly deluge. The storm's eventual subsiding into calm underscores the cyclical, recurring nature of such catastrophes.",
-        "source": "Ludwig van Beethoven, Symphony No. 6 in F major, Op. 68 (1808), IMSLP/Petrucci Music Library",
-        "href": "https://imslp.org/wiki/Symphony_No.6,_Op.68_(Beethoven,_Ludwig_van)"
-      },
-      {
-        "category": "artistic",
-        "title": "Francis Danby, 'The Deluge' (c. 1840) — VISUAL ARTWORK",
-        "excerpt": "Danby's vast canvas shows humanity engulfed by a cataclysmic flood: figures cling desperately to rocks and floating debris as towering, storm-darkened waves swallow the land beneath a fractured, lightning-torn sky. The painting's overwhelming scale and helpless human figures capture the terror of water rising beyond all control. It resonates with Accra's flooding, where rising waters overwhelm a city and its people are left scrambling for higher ground.",
-        "source": "Francis Danby, The Deluge, c. 1840, oil on canvas, Tate Britain (via Wikimedia Commons / Google Art Project)",
-        "href": "https://commons.wikimedia.org/wiki/File:Francis_Danby_-_The_Deluge_-_Google_Art_Project.jpg",
-        "image": {
-          "src": "/covers/ghana-accra-flooding-deaths--art.png",
-          "alt": "Francis Danby's painting The Deluge, tiny figures clinging to rocks as towering waves engulf the land under a storm-torn sky.",
-          "credit": "Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 32
-  },
-  {
-    "slug": "ubs-million-new-millionaires",
-    "headline": "Nearly one million people became millionaires worldwide in 2025, UBS report finds",
-    "overview": "Almost one million people joined the ranks of dollar millionaires worldwide in 2025, a UBS wealth report found, as rising asset prices swelled fortunes even amid economic uncertainty. The report underscored a widening gap between the very wealthy and everyone else.",
-    "genre": "Economy",
-    "sources": [
-      {
-        "name": "Reuters",
-        "href": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQczdTd1FBWlZNVHJMSERzckFVLWthNFJVeUhUNzdsQ2RIRjRRQW0yT2lFSk5uNEVBWUc5ajhvXzlRb0tNR1lJTklHN09hYVQwQUw1TlotMVVFYU1GVE1JZ0xEMGRrZ0NrdEJRVkJnRVB2QVFMQUlnMVV1WEVtaldZTl9MdURlUWdBd3hEdUdJOWR3VWt1LXJpVHE3YTdlR3haQWR4ZGpSOHFzUzVPWVlUUUlzSmc5LXg2Y01VbXBucjZPenlkQnJR?oc=5"
-      },
-      {
-        "name": "Gulf News",
-        "href": "https://gulfnews.com/business/markets/nearly-1-million-new-millionaires-created-in-2025-ubs-says-1.500591623"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-06-30",
-    "image": {
-      "src": "/covers/ubs-million-new-millionaires.png",
-      "alt": "Gold coins heaped before a glittering city skyline of glass towers at dusk.",
-      "credit": "AI-generated"
-    },
-    "edition": "Evening Edition · 30 June 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "Solon Warns Croesus: Count No Man Happy Until He Dies",
-        "excerpt": "But in every matter it behoves us to mark well the end: for oftentimes God gives men a gleam of happiness, and then plunges them into ruin.",
-        "source": "Herodotus, The Histories, Book 1.32, trans. George Rawlinson (Wikisource)",
-        "href": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Rawlinson)/Book_1"
-      },
-      {
-        "category": "historical",
-        "title": "Carnegie's Gospel of Wealth and the Gulf Between Palace and Cottage",
-        "excerpt": "The contrast between the palace of the millionaire and the cottage of the laborer with us to-day measures the change which has come with civilization.",
-        "source": "Andrew Carnegie, \"The Gospel of Wealth,\" North American Review, 1889 (Wikisource)",
-        "href": "https://en.wikisource.org/wiki/The_Gospel_of_Wealth"
-      },
-      {
-        "category": "literary",
-        "title": "Gatsby's Gardens of New Money and Excess",
-        "excerpt": "In his blue gardens men and girls came and went like moths among the whisperings and the champagne and the stars.",
-        "source": "F. Scott Fitzgerald, The Great Gatsby, 1925 (Project Gutenberg)",
-        "href": "https://www.gutenberg.org/cache/epub/64317/pg64317.txt"
-      },
-      {
-        "category": "literary",
-        "title": "The Parable of the Rich Fool and His Bigger Barns",
-        "excerpt": "But God said unto him, Thou foolish one, this night is thy soul required of thee; and the things which thou hast prepared, whose shall they be?",
-        "source": "Gospel of Luke 12:20 (American Standard Version, Wikisource)",
-        "href": "https://en.wikisource.org/wiki/Bible_(American_Standard)/Luke"
-      },
-      {
-        "category": "artistic",
-        "title": "Wagner, Das Rheingold — The Curse of the Hoarded Gold — MUSIC",
-        "excerpt": "Wagner's opera opens at the bottom of the Rhine, where the theft of the river's gold and the renunciation of love to forge a ring of limitless power sets a curse upon all who covet the hoard. Its shimmering, restless motifs render wealth as both intoxicating and ruinous — a fitting overture to a world minting nearly a million new millionaires while the gap between the few and the many widens.",
-        "source": "Richard Wagner, Das Rheingold, WWV 86A, 1854 (IMSLP / Petrucci Music Library)",
-        "href": "https://imslp.org/wiki/Das_Rheingold,_WWV_86A_(Wagner,_Richard)"
-      },
-      {
-        "category": "artistic",
-        "title": "Klimt, Danaë — The Shower of Gold — VISUAL ARTWORK",
-        "excerpt": "In Klimt's golden-period masterpiece, Zeus descends upon the sleeping Danaë as a literal shower of gold, fortune pouring down upon a single fortunate body. The lavish gilding and intimate rapture make wealth itself the seductive subject — an apt emblem for a year in which rising asset prices rained new fortunes on the few.",
-        "source": "Gustav Klimt, Danaë, c. 1907–08, Leopold Museum, Vienna (Wikimedia Commons)",
-        "href": "https://commons.wikimedia.org/wiki/File:Gustav_Klimt_010.jpg",
-        "image": {
-          "src": "/covers/ubs-million-new-millionaires--art.png",
-          "alt": "Gustav Klimt's painting Danaë, a sleeping woman bathed in a cascading shower of gold.",
-          "credit": "Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 33
-  },
-  {
-    "slug": "usmca-withdrawal-countdown",
-    "headline": "US move to exit USMCA starts a decade-long countdown for the North American trade pact",
-    "overview": "A US declaration to withdraw from the US-Mexico-Canada Agreement would trigger a years-long countdown that could unwind the continent's free-trade framework, analysts said, as a key review deadline looms. Businesses across the three economies face fresh uncertainty over tariffs and supply chains.",
-    "genre": "Economy",
-    "sources": [
-      {
-        "name": "Reuters",
-        "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd3EyUnplRFp0LW81Mjdic3pGeGpSaWVQRkNSZjRjVGY5THBqMGQzb1NjaERnOVhGWFNZSmFRWmtyWlk3T0dhdWtfWWh1ZUVMbEhUbTNCMzJydklzTWxoNV8yUGFMakx2MklYNXRoaGJfcDliMUFRX1ZwNkstR0EwbGpwakljMWlGRzdlRDhVUHZUMXdXcDM1X19JWk5zNC1oeGRmYzFHYUdfYWRFamc?oc=5"
-      },
-      {
-        "name": "Newsweek",
-        "href": "https://www.newsweek.com/trump-official-warns-president-may-leave-his-signature-trade-deal-11156415"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-06-30",
-    "image": {
-      "src": "/covers/usmca-withdrawal-countdown.png",
-      "alt": "A vast container port at dusk, towering stacks of shipping containers and idle cranes under a brooding sky.",
-      "credit": "AI-generated"
-    },
-    "edition": "Evening Edition · 30 June 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "The Smoot-Hawley Tariff Act of 1930 and the collapse of world trade",
-        "excerpt": "Even before its enactment, U.S. trading partners began retaliating by raising their tariff rates, which froze international trade.",
-        "source": "United States Senate, \"The Senate Passes the Smoot-Hawley Tariff\" (Senate Art & History, senate.gov)",
-        "href": "https://www.senate.gov/artandhistory/history/minute/Senate_Passes_Smoot_Hawley_Tariff.htm"
-      },
-      {
-        "category": "historical",
-        "title": "The rise and decline of the Hanseatic League",
-        "excerpt": "The assertion of Hanseatic influence in the two decades, 1356 to 1377, marks the zenith of the League's power and the completion of the long process of unification.",
-        "source": "\"Hanseatic League,\" Encyclopædia Britannica (11th ed., 1911), via Wikisource",
-        "href": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hanseatic_League"
-      },
-      {
-        "category": "literary",
-        "title": "Adam Smith on the folly of restraining commerce",
-        "excerpt": "What is prudence in the conduct of every private family can scarce be folly in that of a great kingdom. If a foreign country can supply us with a commodity cheaper than we ourselves can make it, better buy it of them with some part of the produce of our own industry, employed in a way in which we have some advantage.",
-        "source": "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, Book IV, Ch. II (1776), via Wikisource",
-        "href": "https://en.wikisource.org/wiki/The_Wealth_of_Nations/Book_IV/Chapter_2"
-      },
-      {
-        "category": "literary",
-        "title": "The Bastard on kings who \"break faith upon commodity\" in Shakespeare's King John",
-        "excerpt": "Mad world! mad kings! mad composition! ... That smooth-fac'd gentleman, tickling commodity, Commodity, the bias of the world ... Since kings break faith upon commodity, Gain, be my lord, for I will worship thee!",
-        "source": "William Shakespeare, The Life and Death of King John, Act II, Scene I (c. 1596), via Project Gutenberg",
-        "href": "https://www.gutenberg.org/cache/epub/1511/pg1511.txt"
-      },
-      {
-        "category": "artistic",
-        "title": "François Couperin, \"Les nations\" (1726) — MUSIC",
-        "excerpt": "Couperin gathers four trio suites each cast as a sovereign nation — \"La Françoise,\" \"L'Espagnole,\" \"L'Impériale,\" and \"La Piémontoise\" — distinct voices set side by side yet bound into one harmonious whole. The work mirrors a continent of separate economies once knit together by a common framework, now at risk of drifting back into their own keys as the trade pact unwinds.",
-        "source": "François Couperin, Les nations: Sonades, & Suites de Simphonies en trio (Paris, 1726), IMSLP / Petrucci Music Library",
-        "href": "https://imslp.org/wiki/Les_nations_(Couperin,_Fran%C3%A7ois)"
-      },
-      {
-        "category": "artistic",
-        "title": "Claude Lorrain, \"Seaport with the Embarkation of the Queen of Sheba\" (1648) — VISUAL ARTWORK",
-        "excerpt": "Claude Lorrain bathes a thriving Mediterranean harbor in golden dawn light, its quays crowded with merchants, cargo, and ships poised to set sail on the open trade of nations. The serene, prosperous port stands as an emblem of commerce flowing freely across borders — the very vision of integrated North American trade now facing a decade-long countdown to its possible end.",
-        "source": "Claude Lorrain, Seaport with the Embarkation of the Queen of Sheba, oil on canvas, 1648, National Gallery, London; via Wikimedia Commons",
-        "href": "https://commons.wikimedia.org/wiki/File:Claude_Lorrain_-_Seaport_with_the_Embarkation_of_the_Queen_of_Sheba_-_WGA05002.jpg",
-        "image": {
-          "src": "/covers/usmca-withdrawal-countdown--art.png",
-          "alt": "Claude Lorrain's painting Seaport with the Embarkation of the Queen of Sheba, a golden Mediterranean harbour crowded with ships and merchants at dawn.",
-          "credit": "Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 34
-  },
-  {
-    "slug": "meta-states-child-addiction-suit",
-    "headline": "Meta loses bid to dismiss US states' claims that Facebook and Instagram addict children",
-    "overview": "A US judge refused to throw out claims by dozens of states that Meta deliberately designed Facebook and Instagram to be addictive to children, allowing the lawsuits to proceed. The states argue the company concealed the harms its products cause to young users.",
-    "genre": "Technology",
-    "sources": [
-      {
-        "name": "Reuters",
-        "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTW1oX1plcXNSQ1ZoOXBJanVnUlhSbjZ3WEcwQ1NrUHUyMDFZa1ZzR2o0VERfX1JYdjdkRXIzVmVSMEthblRwOFJqRGZfalA5bE1Yd0QxeGxfNGltaGZJdnhYeHo1M1NkM0xsamRuY0xVWkk0VGxfZnhna083enVoQkhzdWlhdEZhZXRNVUNPQ0djaDhPSDg5YnVDZmx6YkZxVGtVaU0wNHluMUVSaFREejBMOU4zbVRzMWtuNHVCRWJETHJ4ZWRIWEdlRUI?oc=5"
-      },
-      {
-        "name": "Devdiscourse",
-        "href": "https://www.devdiscourse.com/article/law-order/3943022-meta-faces-legal-challenge-over-alleged-child-online-safety-violations"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-06-30",
-    "image": {
-      "src": "/covers/meta-states-child-addiction-suit.png",
-      "alt": "A child's face lit from below by the pale glow of a smartphone screen in a darkened room.",
-      "credit": "AI-generated"
-    },
-    "edition": "Evening Edition · 30 June 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "De Quincey's \"Just, Subtle, and Mighty Opium\"",
-        "excerpt": "happiness might now be bought for a penny, and carried in the waistcoat pocket: portable ecstasies might be had corked up in a pint bottle",
-        "source": "Thomas De Quincey, Confessions of an English Opium-Eater (1821), \"The Pleasures of Opium\", Wikisource",
-        "href": "https://en.wikisource.org/wiki/Confessions_of_an_English_Opium-Eater/The_Pleasures_of_Opium"
-      },
-      {
-        "category": "historical",
-        "title": "Longfellow's \"The Children's Crusade\" March Out the Gates",
-        "excerpt": "From the gates, that summer day,\nClad in robes of hodden gray,\nWith the red cross on the breast,\nAzure-eyed and golden-haired,\nForth the young crusaders fared;",
-        "source": "Henry Wadsworth Longfellow, \"The Children's Crusade\" (In the Harbor), The Complete Poetical Works of Henry Wadsworth Longfellow, Project Gutenberg",
-        "href": "https://www.gutenberg.org/cache/epub/1365/pg1365.html"
-      },
-      {
-        "category": "literary",
-        "title": "Browning's Pied Piper Leads the Children Away",
-        "excerpt": "Out came the children running.\nAll the little boys and girls,\nWith rosy cheeks and flaxen curls,\nAnd sparkling eyes and teeth like pearls,\nTripping and skipping, ran merrily after\nThe wonderful music with shouting and laughter.",
-        "source": "Robert Browning, \"The Pied Piper of Hamelin\" (1842), Project Gutenberg",
-        "href": "https://www.gutenberg.org/files/18343/18343-h/18343-h.htm"
-      },
-      {
-        "category": "literary",
-        "title": "The Lotus-Eaters Make Odysseus's Men Forget Home",
-        "excerpt": "And whosoever of them ate of the honey-sweet fruit of the lotus, had no longer any wish to bring back word or to return, but there they were fain to abide among the Lotus-eaters, feeding on the lotus, and forgetful of their homeward way.",
-        "source": "Homer, Odyssey 9.94-97, trans. A.T. Murray (1919), Perseus Digital Library",
-        "href": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0136%3Abook%3D9%3Acard%3D82"
-      },
-      {
-        "category": "artistic",
-        "title": "Debussy, \"Sirènes\" from Nocturnes — MUSIC",
-        "excerpt": "In the final Nocturne, Debussy dissolves a wordless female chorus into shimmering orchestral waves, conjuring the Sirens whose enchanting song lures sailors toward destruction. The piece's seductive, hypnotic pull captures the very allure at the heart of the states' case: a beautiful, irresistible signal engineered to draw the listener helplessly in.",
-        "source": "Claude Debussy, Nocturnes (1900), No. 3 \"Sirènes\", IMSLP/Petrucci Music Library",
-        "href": "https://imslp.org/wiki/Nocturnes_(Debussy,_Claude)"
-      },
-      {
-        "category": "artistic",
-        "title": "Waterhouse, \"Ulysses and the Sirens\" — VISUAL ARTWORK",
-        "excerpt": "Waterhouse's 1891 canvas shows bird-bodied Sirens swooping around Odysseus's ship as he, bound to the mast, strains toward their lethal song while his crew row on with ears stopped. The image dramatizes the central tension of the Meta case: an alluring, addictive call against which the young are largely defenseless, with the few protections too easily overwhelmed.",
-        "source": "John William Waterhouse, Ulysses and the Sirens (1891), National Gallery of Victoria; Wikimedia Commons",
-        "href": "https://commons.wikimedia.org/wiki/File:John_William_Waterhouse_-_Ulysses_and_the_Sirens_(1891).jpg",
-        "image": {
-          "src": "/covers/meta-states-child-addiction-suit--art.png",
-          "alt": "John William Waterhouse's painting Ulysses and the Sirens, bird-bodied sirens swooping around Odysseus's ship as he is bound to the mast.",
-          "credit": "Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 35
-  },
-  {
-    "slug": "esa-milky-way-60-million-stars",
-    "headline": "New European Space Agency image maps more than 60 million stars in the most detailed photo of the Milky Way yet",
-    "overview": "The European Space Agency unveiled the most detailed photograph of the Milky Way ever produced, capturing more than 60 million stars in the crowded heart of the galaxy. The sweeping portrait distills years of observations into a single image of our home galaxy.",
-    "genre": "Science",
-    "sources": [
-      {
-        "name": "Colossal",
-        "href": "https://www.thisiscolossal.com/2026/06/european-space-agency-milky-way-photograph/"
-      },
-      {
-        "name": "European Space Agency",
-        "href": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/ESA_s_Euclid_captures_the_Milky_Way_s_crowded_heart"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-06-30",
-    "image": {
-      "src": "/covers/esa-milky-way-60-million-stars.png",
-      "alt": "The European Space Agency's detailed photograph of the crowded heart of the Milky Way galaxy, dense with countless stars.",
-      "credit": "ESA/Euclid"
-    },
-    "edition": "Evening Edition · 30 June 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "Galileo turns the telescope on the Milky Way (1610)",
-        "excerpt": "By the aid of a telescope any one may behold this in a manner which so distinctly appeals to the senses that all the disputes which have tormented philosophers through so many ages are exploded at once by the irrefragable evidence of our eyes, and we are freed from wordy disputes upon this subject, for the Galaxy is nothing else but a mass of innumerable stars planted together in clusters.",
-        "source": "Galileo Galilei, The Sidereal Messenger (Sidereus Nuncius), 1610, Edward Stafford Carlos translation; Project Gutenberg eBook #46036",
-        "href": "https://www.gutenberg.org/cache/epub/46036/pg46036.txt"
-      },
-      {
-        "category": "historical",
-        "title": "Ptolemy catalogues the fixed stars (2nd century AD)",
-        "excerpt": "It is the first and most ancient document we possess which gives a description of the heavens of sufficient exactness to admit of comparison with modern observations.",
-        "source": "Christian Heinrich Friedrich Peters & Edward Ball Knobel, Ptolemy's Catalogue of Stars: a revision of the Almagest, Carnegie Institution of Washington, 1915; Internet Archive",
-        "href": "https://archive.org/details/cu31924012300491"
-      },
-      {
-        "category": "literary",
-        "title": "Walt Whitman, \"When I Heard the Learn'd Astronomer\"",
-        "excerpt": "When I heard the learn’d astronomer,\nWhen the proofs, the figures, were ranged in columns before me,\nWhen I was shown the charts and diagrams, to add, divide, and measure them,\nWhen I sitting heard the astronomer where he lectured with much applause in the lecture-room,\nHow soon unaccountable I became tired and sick,\nTill rising and gliding out I wander’d off by myself,\nIn the mystical moist night-air, and from time to time,\nLook’d up in perfect silence at the stars.",
-        "source": "Walt Whitman, \"When I Heard the Learn'd Astronomer,\" Leaves of Grass, 1865; Project Gutenberg eBook #1322",
-        "href": "https://www.gutenberg.org/cache/epub/1322/pg1322.txt"
-      },
-      {
-        "category": "literary",
-        "title": "Dante closes the Inferno on \"the stars\"",
-        "excerpt": "We mounted up, he first and I the second,\n    Till I beheld through a round aperture\n    Some of the beauteous things that Heaven doth bear;\n\nThence we came forth to rebehold the stars.",
-        "source": "Dante Alighieri, The Divine Comedy: Inferno, Canto XXXIV, Henry Wadsworth Longfellow translation; Project Gutenberg eBook #1001",
-        "href": "https://www.gutenberg.org/cache/epub/1001/pg1001.txt"
-      },
-      {
-        "category": "artistic",
-        "title": "Claude Debussy, \"Clair de lune\" from Suite bergamasque — MUSIC",
-        "excerpt": "Debussy's shimmering piano nocturne pours moonlight into sound, its rippling arpeggios drifting like light scattered across a vast night sky. The piece evokes the same quiet awe as the new portrait of sixty million stars: a hushed, luminous immensity rendered with delicate, glittering detail. Its serene movement mirrors the slow patient gathering of starlight into one sweeping image of our home galaxy.",
-        "source": "Claude Debussy, \"Clair de lune,\" third movement of Suite bergamasque, CD 82 (Paris: E. Fromont, 1905); IMSLP/Petrucci Music Library",
-        "href": "https://imslp.org/wiki/Suite_bergamasque_(Debussy,_Claude)"
-      },
-      {
-        "category": "artistic",
-        "title": "Vincent van Gogh, \"The Starry Night\" (1889) — VISUAL ARTWORK",
-        "excerpt": "Van Gogh's swirling cobalt sky churns with oversized, radiant stars spiralling above a sleeping town, transforming the night into a living, turbulent cosmos. Painted from memory and imagination, it captures the human urge to behold and map the heavens that drives the new sixty-million-star portrait. Where the telescope resolves the galaxy's crowded heart into precise points of light, Van Gogh dissolves it into rapturous motion, two visions of the same overwhelming sky.",
-        "source": "Vincent van Gogh, The Starry Night, 1889, Museum of Modern Art (Google Art Project); Wikimedia Commons",
-        "href": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
-        "image": {
-          "src": "/covers/esa-milky-way-60-million-stars--art.png",
-          "alt": "Vincent van Gogh's The Starry Night, a swirling blue night sky of radiant stars above a sleeping town.",
-          "credit": "Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 36
-  },
-  {
-    "slug": "brazil-beat-japan-world-cup",
-    "headline": "Brazil beat Japan 2-1 at the World Cup as Martinelli scores in injury time",
-    "overview": "Gabriel Martinelli scored deep in injury time to give Brazil a 2-1 win over Japan at the World Cup, rescuing the five-time champions after a stubborn Japanese fightback. The late goal sent Brazil through in dramatic fashion.",
-    "genre": "Culture",
-    "sources": [
-      {
-        "name": "AP",
-        "href": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ0RRN1A1TFhqb0dqM2VoaHlqUmN4YXkxWlU3d3M4aHBOcEZWbDFaSVNDVFNjTWJvOHBfWEV6SkFKeHExbjVENjE1YmJWOUJBcnJPeWs2WEE3STRKNE5IQjJrMFQyOTU0a0hwQlNXU2l3TzlLUWVscVVrbnZGUGJmbnBXSWhPOHBNaXZ3TVpuNVk0UQ?oc=5"
-      },
-      {
-        "name": "Al Jazeera",
-        "href": "https://www.aljazeera.com/sports/2026/6/29/martinelli-scores-late-as-brazil-beat-japan-2-1-enter-world-cup-last-16"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-06-30",
-    "image": {
-      "src": "/covers/brazil-beat-japan-world-cup.png",
-      "alt": "A floodlit football stadium at night with a brilliant green pitch and drifting confetti.",
-      "credit": "AI-generated"
-    },
-    "edition": "Evening Edition · 30 June 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "Pindar crowns the Olympic victor in song",
-        "excerpt": "Water is best, and gold, like a blazing fire in the night, stands out supreme of all lordly wealth.",
-        "source": "Pindar, Olympian Ode 1 (trans. Diane Arnson Svarlien), Perseus Digital Library, Tufts University",
-        "href": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0162:book=O.:poem=1"
-      },
-      {
-        "category": "historical",
-        "title": "Pheidippides, the long-course runner of Marathon",
-        "excerpt": "First of all, while they were still in the city, the generals sent off to Sparta a herald, namely Pheidippides an Athenian and for the rest a runner of long day-courses and one who practised this as his profession.",
-        "source": "Herodotus, The History of Herodotus, Book VI.105 (trans. G. C. Macaulay), Wikisource",
-        "href": "https://en.wikisource.org/wiki/The_History_of_Herodotus_(Macaulay)/Book_VI"
-      },
-      {
-        "category": "literary",
-        "title": "Casey at the Bat — the great reversal at the death",
-        "excerpt": "Oh, somewhere in this favoured land the sun is shining bright, / The band is playing somewhere, and somewhere hearts are light, / And somewhere men are laughing, and somewhere children shout; / But there is no joy in Mudville—mighty Casey has struck out.",
-        "source": "Ernest Lawrence Thayer, \"Casey at the Bat\" (1888; 1912 edition), Wikisource",
-        "href": "https://en.wikisource.org/wiki/Casey_at_the_Bat_(1912)"
-      },
-      {
-        "category": "literary",
-        "title": "To an Athlete Dying Young — glory chaired shoulder-high",
-        "excerpt": "The time you won your town the race / We chaired you through the market-place; / Man and boy stood cheering by, / And home we brought you shoulder-high.",
-        "source": "A. E. Housman, \"To an Athlete Dying Young,\" A Shropshire Lad (1896), Wikisource",
-        "href": "https://en.wikisource.org/wiki/A_Shropshire_Lad/To_an_Athlete_Dying_Young"
-      },
-      {
-        "category": "artistic",
-        "title": "Verdi, \"Triumphal March\" from Aida — MUSIC",
-        "excerpt": "Verdi's blazing Grand March from Act II of Aida is the sound of victory made into spectacle: trumpets ringing, the conquering procession sweeping the stage. Its surging brass captures the jubilation of a five-time champion saved at the last gasp, the roar of a stadium erupting as the winning goal finds the net.",
-        "source": "Giuseppe Verdi, Aida (1871), Act II Triumphal March, IMSLP/Petrucci Music Library",
-        "href": "https://imslp.org/wiki/Aida_(Verdi,_Giuseppe)"
-      },
-      {
-        "category": "artistic",
-        "title": "Henri Rousseau, The Football Players (1908) — VISUAL ARTWORK",
-        "excerpt": "Rousseau's naive, dreamlike canvas freezes four mustachioed players leaping for a ball in striped jerseys beneath autumn trees, bodies suspended in joyful, weightless motion. The painting distills the pure play and theatrical drama of the sporting moment — the same suspended instant of leaping bodies that decides a match deep in injury time.",
-        "source": "Henri Rousseau, The Football Players (1908), oil on canvas, Solomon R. Guggenheim Museum; via Wikimedia Commons",
-        "href": "https://commons.wikimedia.org/wiki/File:Henri_Rousseau_-_The_Football_Players.jpg",
-        "image": {
-          "src": "/covers/brazil-beat-japan-world-cup--art.png",
-          "alt": "Henri Rousseau's painting The Football Players, four moustachioed players in striped jerseys leaping for a ball among autumn trees.",
-          "credit": "Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 37
-  },
-  {
-    "slug": "rick-owens-adidas-aircon-tracksuits",
-    "headline": "Rick Owens designs inflatable Adidas tracksuits that double as personal air conditioning",
-    "overview": "Designer Rick Owens has created a line of inflatable Adidas tracksuits that function as personal air conditioning, channeling air around the wearer's body. The collaboration fuses avant-garde fashion with wearable climate control as summers grow hotter.",
-    "genre": "Culture",
-    "sources": [
-      {
-        "name": "Dezeen",
-        "href": "https://www.dezeen.com/2026/06/30/rick-owens-adidas-inflatable-aircon-tracksuits/"
-      },
-      {
-        "name": "Highsnobiety",
-        "href": "https://www.highsnobiety.com/p/rick-owens-adidas-2026/"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-06-30",
-    "image": {
-      "src": "/covers/rick-owens-adidas-aircon-tracksuits.png",
-      "alt": "Avant-garde inflatable, puffed-up tracksuits on faceless mannequins under soft studio light.",
-      "credit": "AI-generated"
-    },
-    "edition": "Evening Edition · 30 June 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "Marinetti's Manifesto of Futurism (1909)",
-        "excerpt": "the world's magnificence has been enriched by a new beauty: the beauty of speed.",
-        "source": "Filippo Tommaso Marinetti, \"The Founding and Manifesto of Futurism,\" Le Figaro, 20 February 1909 (Encyclopædia Britannica primary source)",
-        "href": "https://cdn.britannica.com/primary_source/eb/435828.html"
-      },
-      {
-        "category": "historical",
-        "title": "Oskar Schlemmer's Triadic Ballet premiere program (1922)",
-        "excerpt": "On 30 September 1922 the Bauhaus master Oskar Schlemmer premiered Das Triadische Ballett in Stuttgart, encasing dancers in padded, spherical and conical costumes that swallowed the human silhouette into pure geometry. This program sheet, designed by Schlemmer himself, marks the moment fashion became architecture for the body — the same impulse that puffs Owens's wearers into ballooning, Michelin-Man volumes.",
-        "source": "Oskar Schlemmer, program for the premiere of Das Triadische Ballett, Stuttgart, 30 September 1922 (Wikimedia Commons)",
-        "href": "https://commons.wikimedia.org/wiki/File:Das_Triadische_Ballett,_Programmzettel_1922.jpg"
-      },
-      {
-        "category": "literary",
-        "title": "Thomas Carlyle, Sartor Resartus (1836)",
-        "excerpt": "Clothes gave us individuality, distinctions, social polity; Clothes have made Men of us; they are threatening to make Clothes-screens of us.",
-        "source": "Thomas Carlyle, Sartor Resartus, 1836 (Project Gutenberg)",
-        "href": "https://www.gutenberg.org/files/1051/1051-h/1051-h.htm"
-      },
-      {
-        "category": "literary",
-        "title": "Hans Christian Andersen, \"The Emperor's New Clothes\" (1837)",
-        "excerpt": "The tissue is as light as a cobweb, and one might fancy one had nothing on; but that is just its greatest beauty.",
-        "source": "Hans Christian Andersen, \"The Emperor's New Clothes,\" 1837 (Wikisource)",
-        "href": "https://en.wikisource.org/wiki/The_Fairy_Tales_of_Hans_Christian_Andersen/The_Emperor's_New_Clothes"
-      },
-      {
-        "category": "artistic",
-        "title": "Arthur Honegger, Pacific 231 — MUSIC",
-        "excerpt": "Honegger's 1923 symphonic movement builds a roaring orchestral machine, accelerating a steam locomotive from dead stillness to thundering full speed. Its mechanical exhilaration — the body of music remade as an engine — mirrors Owens's tracksuits humming with built-in fans, turning the wearer into a piece of climate-control apparatus.",
-        "source": "Arthur Honegger, Pacific 231 (Mouvement symphonique No. 1), 1923 (IMSLP / Petrucci Music Library)",
-        "href": "https://imslp.org/wiki/Pacific_231,_H.53_(Honegger,_Arthur)"
-      },
-      {
-        "category": "artistic",
-        "title": "Umberto Boccioni, Unique Forms of Continuity in Space (1913) — VISUAL ARTWORK",
-        "excerpt": "Boccioni's striding bronze figure is a human body dissolved into aerodynamic wind and speed, its flesh swelling outward into rippling, sculpted volumes as it forges ahead. This Futurist dream of a body remade by motion anticipates Owens's inflated, air-channeling silhouettes — clothing that swells around the wearer to become a second, dynamic skin.",
-        "source": "Umberto Boccioni, Unique Forms of Continuity in Space, 1913 bronze (Wikimedia Commons)",
-        "href": "https://commons.wikimedia.org/wiki/File:%27Unique_Forms_of_Continuity_in_Space%27,_1913_bronze_by_Umberto_Boccioni.jpg",
-        "image": {
-          "src": "/covers/rick-owens-adidas-aircon-tracksuits--art.png",
-          "alt": "Umberto Boccioni's 1913 Futurist bronze Unique Forms of Continuity in Space, a striding figure whose body swells into rippling aerodynamic volumes.",
-          "credit": "Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 38
-  },
-  {
-    "slug": "guggenheim-strike-threat",
-    "headline": "Workers threaten to strike at New York's Guggenheim Museum as the tourist season peaks",
-    "overview": "Unionized workers at New York's Guggenheim Museum are threatening to strike at the height of the summer tourist season amid a contract dispute, the museum said. A walkout would disrupt one of the city's busiest cultural institutions.",
-    "genre": "Culture",
-    "sources": [
-      {
-        "name": "Artforum",
-        "href": "https://www.artforum.com/news/strike-looms-at-guggenheim-at-height-of-tourist-season-1234753765/"
-      },
-      {
-        "name": "Hyperallergic",
-        "href": "https://hyperallergic.com/904954/guggenheim-museum-workers-rally-for-fair-contract-in-lunch-break-action/"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-06-30",
-    "image": {
-      "src": "/covers/guggenheim-strike-threat.png",
-      "alt": "The spiral exterior of the Solomon R. Guggenheim Museum in New York.",
-      "credit": "Wikimedia Commons"
-    },
-    "edition": "Evening Edition · 30 June 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "The 1894 Pullman Strike",
-        "excerpt": "After the Pullman Company refused wage negotiations, workers walked out on May 11, 1894, and the American Railway Union under Eugene V. Debs organized a nationwide boycott of Pullman railway cars that severely disrupted rail traffic until federal troops, an injunction, and the jailing of Debs broke it by mid-July. Like the Guggenheim crews weighing a walkout at the season's peak, the Pullman workers chose the moment of maximum leverage to make a contract grievance impossible to ignore.",
-        "source": "National Park Service, Pullman National Historical Park, \"The Strike of 1894\" (nps.gov)",
-        "href": "https://www.nps.gov/pull/learn/historyculture/the-strike-of-1894.htm"
-      },
-      {
-        "category": "historical",
-        "title": "The 1892 Homestead Strike",
-        "excerpt": "The men had hoped for the best all along, but were apprehensive that Mr Frick would not concede anything, or at least would not come to an agreement with the conferees, so when the details of the meeting became noised about the town, preparations for a strike were begun.",
-        "source": "Myron R. Stowell, \"Fort Frick,\" or the Siege of Homestead (1893), via Internet Archive",
-        "href": "https://archive.org/stream/fortfrickorsiege00stow/fortfrickorsiege00stow_djvu.txt"
-      },
-      {
-        "category": "literary",
-        "title": "Émile Zola, Germinal (1885)",
-        "excerpt": "The mine ought to belong to the miner, as the sea belongs to the fisherman, and the earth to the peasant. Do you see? The mine belongs to you, to all of you who, for a century, have paid for it with so much blood and misery!",
-        "source": "Émile Zola, Germinal, trans. Havelock Ellis (1894), Part Fourth, Ch. 7, Wikisource",
-        "href": "https://en.wikisource.org/wiki/Germinal/4/Chapter_7"
-      },
-      {
-        "category": "literary",
-        "title": "Marx & Engels, Manifesto of the Communist Party (1848)",
-        "excerpt": "Let the ruling classes tremble at a Communistic revolution. The proletarians have nothing to lose but their chains. They have a world to win. Working men of all countries, unite!",
-        "source": "Karl Marx & Friedrich Engels, Manifesto of the Communist Party, trans. Samuel Moore (1888), Section IV, Wikisource",
-        "href": "https://en.wikisource.org/wiki/Manifesto_of_the_Communist_Party/4"
-      },
-      {
-        "category": "artistic",
-        "title": "L'Internationale by Pierre De Geyter — MUSIC",
-        "excerpt": "The global anthem of the labor movement, set by Pierre De Geyter to Eugène Pottier's defiant verse, rises as a summons for the workers of the world to stand together and claim their due. Its surging, march-like refrain is the sound of solidarity itself — the exact spirit a unionized museum crew invokes when it threatens to lay down its tools at the busiest hour. To hear it is to feel the collective resolve that turns a contract dispute into a movement.",
-        "source": "Pierre De Geyter (music), Eugène Pottier (text), L'Internationale (1888), IMSLP / Petrucci Music Library",
-        "href": "https://imslp.org/wiki/L'Internationale_(De_Geyter,_Pierre)"
-      },
-      {
-        "category": "artistic",
-        "title": "Robert Koehler, The Strike (1886) — VISUAL ARTWORK",
-        "excerpt": "Robert Koehler's sweeping canvas freezes the charged instant when laborers down their tools and confront the factory owner on his doorstep — fists clenched, a woman pleading, a man stooping for a stone. First shown in New York days before the Haymarket affair, it became an enduring emblem of working-class grievance and resolve. Its taut standoff between labor and management mirrors the Guggenheim workers' threatened walkout, the moment grievance hardens into collective action.",
-        "source": "Robert Koehler, The Strike (1886), oil on canvas, Deutsches Historisches Museum, Berlin; via Wikimedia Commons",
-        "href": "https://commons.wikimedia.org/wiki/File:%22Der_Streik%22_von_Robert_Koehler.jpg",
-        "image": {
-          "src": "/covers/guggenheim-strike-threat--art.png",
-          "alt": "Robert Koehler's 1886 painting The Strike, workers confronting a factory owner outside the mill as one man stoops for a stone.",
-          "credit": "Wikimedia Commons"
-        }
-      }
-    ],
     "rank": 39
   }
 ];
+
 // --- Helpers ---
 
 export function formatStoryDate(iso: string): string {
