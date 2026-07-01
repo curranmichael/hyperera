@@ -23,6 +23,24 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "sudan-rsf-el-fasher-crimes":
+    "A deserted, war-scarred city in the arid Sahel at dusk, shuttered low buildings and empty dust-blown streets beneath a heavy, smoke-darkened sky, a lone abandoned sandal in the foreground, bleak and silent with no people visible, themes of a city sacked and its people driven out. Absolutely no text, letters, words, numbers, flags, logos or writing anywhere in the image",
+  "colorado-kiros-defeats-degette":
+    "A quiet American polling place at dusk, a plain wooden ballot box on a bare table beneath a single hanging lamp, an empty voting booth with a drawn curtain to one side, plain walls, themes of an election upset and a changing of the guard. Absolutely no text, letters, words, numbers, posters, signage, logos or writing anywhere in the image",
+  "student-loan-forgiveness-struck-down":
+    "An empty grand courtroom at dusk, a carved wooden judge's bench beneath tall windows with cold light, a set of brass scales of justice resting on the bench beside a single closed folder, deep shadows, themes of the courts checking a decree. Absolutely no text, letters, words, numbers, documents with writing, logos or writing anywhere in the image",
+  "eu-parcel-fee-shein-temu":
+    "A vast parcel-sorting depot at night, a conveyor belt heaped with small plain brown cardboard boxes flowing toward the camera, idle scanning gantries overhead, cool industrial light, themes of a flood of cheap parcels meeting a new toll. Every box is blank and unmarked. Absolutely no text, letters, words, numbers, barcodes, shipping labels, logos, brand names or writing anywhere in the image",
+  "australia-big-four-accounting-breakup":
+    "A hushed corporate boardroom at dusk, a long polished table and empty leather chairs, a set of brass scales of justice on the wall, floor-to-ceiling windows with a cool city skyline beyond, themes of powerful firms weighed and divided. Absolutely no text, letters, words, numbers, logos, brand names or writing anywhere in the image",
+  "south-korea-google-android-app-store":
+    "A single smartphone held in a hand in soft directional light against a dark background, its screen showing a neat grid of plain blank rounded app tiles in muted colours, shallow depth of field, themes of a digital gatekeeper and the marketplace it controls. The app tiles are blank with no symbols. Absolutely no text, letters, words, numbers, logos, brand names, app names, icons or writing anywhere on the screen or in the image",
+  "mexico-beat-ecuador-world-cup":
+    "An empty floodlit football stadium at night, the pitch a brilliant green, a single ball resting on the centre spot, drifting confetti and jubilant emptiness, themes of a host nation's triumph and a long drought finally ended. Absolutely no text, letters, words, numbers, logos, advertising boards or writing anywhere in the image",
+  "spain-june-heat-deaths":
+    "A sun-bleached Spanish city square at midday in a heatwave, pale cobblestones and a dry stone fountain shimmering under a white-hot sky, a few figures resting in a thin strip of shade, wilting trees, oppressive heat haze, themes of a country overwhelmed by extreme heat. Absolutely no text, letters, words, numbers, signs, shop fronts, logos or writing anywhere in the image",
+  "california-food-date-labels":
+    "Rows of neatly stacked packaged food on brightly lit grocery-store shelves receding into soft focus, cool clean supermarket light, plain unlabelled cartons and cans, themes of abundance, freshness and waste. Every package is plain and blank. Absolutely no text, letters, words, numbers, brand names, price tags, date stamps, logos or writing anywhere on any package or in the image",
   "scotus-transgender-school-sports":
     "An empty outdoor running track at dusk, crisp white starting blocks and curving lane lines stretching away under stadium floodlights, a brilliant green infield, deserted and still, themes of competition, fairness and who may take the field. Absolutely no text, letters, words, numbers, lane numbers, logos, advertising boards or writing anywhere in the image",
   "ukraine-dubna-second-strike":
