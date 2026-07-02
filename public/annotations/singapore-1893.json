@@ -1,0 +1,161 @@
+{
+  "id": "https://www.hyperera.news/annotations/singapore-1893.json",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~312816~90081949",
+      "type": "ImageService2",
+      "width": 6580,
+      "height": 4242
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"6580\" height=\"4242\"><polygon points=\"1500,485 1500,3720 5700,3720 5700,485\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4030,
+            3000
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.85268,
+            1.28689
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4055,
+            2563
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.84917,
+            1.28722
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4625,
+            2615
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.85177,
+            1.29195
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3755,
+            3060
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.8513,
+            1.28453
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            4630,
+            1940
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.84674,
+            1.29433
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            5490,
+            765
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.84306,
+            1.30662
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3435,
+            795
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.83633,
+            1.29174
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            3375,
+            3250
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.85045,
+            1.28054
+          ]
+        }
+      }
+    ]
+  }
+}
