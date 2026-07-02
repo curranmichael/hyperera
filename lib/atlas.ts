@@ -296,14 +296,17 @@ const locations: AtlasLocation[] = [
           "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~31403~1150350",
       },
       {
-        id: "ber-1917-gross-berlin",
-        year: 1917,
-        label: "1917",
-        title: "Karte von Gross-Berlin",
-        mapIds: ["5983e1a92c9f1cbd"],
+        // Replaces the 1917 Karte von Gross-Berlin (5983e1a92c9f1cbd), whose
+        // four control points disagree by ~2.2 km — visibly misregistered.
+        // This plan's ten points agree to well under 250 m.
+        id: "ber-1900-verkehrsplan",
+        year: 1900,
+        label: "1900",
+        title: "Grosser Verkehrs-Plan von Berlin mit seinen Vororten",
+        mapIds: ["0ee6bbb145596831"],
         attribution: ZLB_CREDIT,
         license: ZLB_LICENSE,
-        sourceHref: "https://digital.zlb.de/viewer/image/15453186/1/",
+        sourceHref: "https://digital.zlb.de/viewer/image/15453873/1/",
       },
     ],
   },
