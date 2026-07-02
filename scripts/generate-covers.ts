@@ -23,6 +23,32 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "google-eu-android-fine-upheld":
+    "A set of brass scales of justice resting on a dark polished bench before the cool blue glow of a vast glass corporate tower at dusk, a faint arc of small points of light curving above like a ring of stars, imposing and still, themes of a technology giant weighed by the law and found liable. Absolutely no text, letters, words, numbers, logos, brand names, flags or writing anywhere in the image",
+  "iran-hormuz-tanker-warning":
+    "A massive oil supertanker seen from a high angle threading a narrow moonlit strait between dark rugged headlands at night, its long wake cutting the black water, a small distant patrol boat shadowing it, tense and lonely, themes of a chokepoint that controls the passage of the world's oil. Absolutely no text, letters, words, numbers, ship names, flags, logos or writing anywhere in the image",
+  "india-japan-strategic-pacts":
+    "A grand diplomatic hall at golden hour with a long polished table and two facing rows of empty chairs, tall windows behind, two tall unadorned banners of deep saffron and pure white flanking the room, dignified and expectant, themes of two great Asian nations binding their fortunes together in technology and trade. Absolutely no text, letters, words, numbers, emblems, flags, logos or writing anywhere in the image",
+  "south-korea-kospi-chip-selloff":
+    "A vast dim trading floor at night dominated by a huge glowing wall rendered as an abstract cascade of plunging red bars and falling lines, a single silhouetted trader watching from below, cold light and vertigo, themes of a market in freefall as chip fortunes collapse. Absolutely no text, letters, words, numbers, tickers, logos, brand names or writing anywhere in the image",
+  "openai-us-government-stake":
+    "A colossal softly glowing sphere of blue light suspended beneath a great domed government rotunda of pale marble, a single small human figure standing far below gazing up at it, awe edged with unease, themes of the state taking a share in a powerful new intelligence. Absolutely no text, letters, words, numbers, screens, logos, brand names or writing anywhere in the image",
+  "france-wildfires-heatwave":
+    "A hillside of dry Mediterranean scrub ablaze at dusk in southern France, walls of orange flame and billowing smoke sweeping toward silhouetted umbrella pines, a water-dropping aircraft banking low through the smoke, fierce and urgent, themes of a land scorched after a brutal heatwave. Absolutely no text, letters, words, numbers, tail markings, logos or writing anywhere in the image",
+  "gaza-1000-days-war":
+    "A vast expanse of grey rubble and the hollowed concrete shells of ruined apartment blocks stretching to the horizon under a pale dusty sky, a single small figure walking a narrow path through the wreckage, desolate and still with almost no one visible, themes of a city reduced to ruins over a thousand days. Absolutely no text, letters, words, numbers, flags, graffiti, logos or writing anywhere in the image",
+  "onion-infowars-sandy-hook":
+    "A lone vintage broadcast microphone under a hot pool of light on a dark studio desk, a glowing red on-air style lamp behind it and a jester's motley cap resting beside the mic, wry and theatrical, themes of satire seizing a demagogue's own megaphone for a good cause. Absolutely no text, letters, words, numbers, call signs, logos or writing anywhere in the image",
+  "microsoft-lightstorm-undersea-cable":
+    "The stern of a cable-laying ship at dawn on a calm open sea, a thick black submarine cable arcing off a great rotating drum down into deep blue water, coils of heavy cable stacked on the wet deck, vast and quiet, themes of a new artery laid across the ocean floor to carry the world's data. Absolutely no text, letters, words, numbers, ship names, logos or writing anywhere in the image",
+  "new-jersey-medicaid-employer-fee":
+    "A worn wooden bench in a quiet clinic waiting room at dusk, a single empty chair, a stethoscope and a plain unmarked folder resting on the seat, soft window light and long shadows, restrained and sober, themes of who pays for the care of low-wage workers. Absolutely no text, letters, words, numbers, forms, signs, logos or writing anywhere in the image",
+  "europe-leaders-close-ranks-trump":
+    "A tight circle of tall flagpoles flying plain deep-blue banners standing shoulder to shoulder against a brooding grey sky before a grand classical government facade, stormlight breaking behind, solidarity and resolve, themes of Europe's leaders closing ranks under pressure. Absolutely no text, letters, words, numbers, stars, emblems, logos or writing anywhere in the image",
+  "puerto-rico-hurricane-funds-audit":
+    "A row of buckled and collapsed steel electrical transmission towers and tangled power lines sprawled across a lush tropical hillside at dusk, a dark unlit village in the valley below and a lone repair truck on an empty road, forlorn and unfinished, themes of a power grid still broken years after the storm. Absolutely no text, letters, words, numbers, signs, logos or writing anywhere in the image",
+  "davidson-prize-routemaster-playgrounds":
+    "A retired vintage red double-decker bus parked on a leafy residential street at golden hour, seen from a low three-quarter angle, playfully reimagined as a children's play structure with a small metal slide and climbing ropes spilling from its open side onto the pavement, warm and whimsical, themes of a worn-out machine given a joyful second life for play. The bus has a completely blank smooth front with no destination blind, no route board, no number plate and no side adverts — every panel is plain painted metal. Absolutely no text, letters, words, numbers, route numbers, destination signs, number plates, adverts, logos or writing anywhere in the image whatsoever",
   "kyiv-strikes-kill-eight":
     "The shattered facade of a tall apartment block at dawn in a Northern European city, blown-out windows and a plume of grey smoke rising into a pale sky, rubble and a lone bare tree in the foreground, deserted and still with no people visible, themes of a capital city struck from the air. Absolutely no text, letters, words, numbers, signs, logos, flags or writing anywhere in the image",
   "usmca-renewal-declined":
