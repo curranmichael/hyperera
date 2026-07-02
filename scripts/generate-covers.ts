@@ -23,6 +23,32 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "vatican-excommunicates-traditionalist-schism":
+    "The candle-lit stone interior of a soaring gothic cathedral at dusk, shafts of pale light through tall arched windows falling on empty pews and a distant altar, a single bishop's mitre resting on a carved wooden stall in the foreground, solemn and hushed, themes of a church divided and clergy cast out. Absolutely no text, letters, words, numbers, inscriptions, logos or writing anywhere in the image",
+  "chinese-ai-model-glm-rivals-us-labs":
+    "A single bright flame cupped in a pair of open hands and passed toward many reaching hands in the dark, warm glow against deep shadow, themes of a powerful new intelligence spreading cheaply and freely across the world. Absolutely no text, letters, words, numbers, screens, symbols, logos or writing anywhere in the image",
+  "microsoft-frontier-ai-deployment-firm":
+    "A long clean corridor of a vast dim data hall with a single softly glowing server cabinet, cool blue light spilling from its seams, a lone human figure walking toward it, ordered and quiet, themes of experts sent out to spread a new technology through industry. Absolutely no text, letters, words, numbers, screens, logos, brand names or writing anywhere in the image",
+  "germany-merz-tax-pension-labour-reforms":
+    "A grand neoclassical government building of pale stone at dusk under a brooding grey sky, a wide empty plaza before it and a row of bare unmarked flagpoles, stately and sober, themes of a nation's leaders overhauling its economy. Absolutely no text, letters, words, numbers, flags, emblems, logos or writing anywhere in the image",
+  "tesla-record-q2-deliveries-europe-rebound":
+    "Rows of gleaming identical electric cars in flat blocks of colour parked in a vast open lot at golden hour seen from a high angle, sleek and orderly, receding into soft focus, themes of a carmaker's fortunes rebounding and demand returning. Every car surface is smooth, blank and unbadged. Absolutely no text, letters, words, numbers, badges, number plates, logos, brand names or writing anywhere in the image",
+  "damascus-cafe-bombing":
+    "The dim shattered interior of a small Middle Eastern café at night, overturned chairs and a single cracked table amid drifting dust and smoke, a bare bulb hanging from the ceiling, deserted and still with no people visible, themes of sudden violence tearing into ordinary life. Absolutely no text, letters, words, numbers, signs, menus, logos or writing anywhere in the image",
+  "skyroot-vikram-1-first-private-orbital":
+    "A slender white rocket standing on a coastal launch pad at dawn wreathed in soft venting vapour, a pale sky and calm sea behind and distant gantry towers, hopeful and still, themes of a young private venture reaching for orbit. Absolutely no text, letters, words, numbers, markings, logos, flags or writing anywhere on the rocket or in the image",
+  "hamilton-laocoon-bronze-auction-record":
+    "An elegant auction-house saleroom at dusk, a single classical bronze sculpture of intertwined struggling figures dramatically spotlit on a plinth before rows of empty chairs, warm gallery light and deep shadows, themes of an ancient masterpiece and the art market. Absolutely no text, letters, words, numbers, paddles, logos or writing anywhere in the image",
+  "mad-tengyun-cloud-buildings-tencent":
+    "Three vast smooth cloud-like white office volumes lifted high above the ground on slender structural cores beside a calm sea at golden hour, open shaded public parkland and flowing paths beneath them, futuristic and serene, themes of visionary architecture giving the land back to the city. Absolutely no text, letters, words, numbers, signs, logos, brand names or writing anywhere in the image",
+  "uk-apology-forced-adoptions":
+    "An empty vintage nursery at dusk, a single plain wooden cradle beneath a tall window with soft grey light, a folded knitted blanket and long shadows on bare floorboards, tender and sorrowful, themes of mothers parted from their children and a long-awaited reckoning. Absolutely no text, letters, words, numbers, signs, logos or writing anywhere in the image",
+  "peru-el-nino-state-of-emergency":
+    "Dark towering storm clouds massing over a steep Andean valley town of low houses at dusk, a swollen muddy brown river surging past the rooftops below and sheets of rain sweeping in, dramatic and ominous with no people visible, themes of a country bracing for devastating floods. Absolutely no text, letters, words, numbers, signs, logos or writing anywhere in the image",
+  "samsung-90-billion-chungcheong":
+    "The vast interior of a brightly lit semiconductor fabrication plant, long rows of gleaming machinery and clean-room gantries receding into the distance under cool white light, immense and futuristic, themes of a colossal industrial bet on the future. Absolutely no text, letters, words, numbers, logos, labels, brand names or writing anywhere in the image",
+  "papua-rebels-kill-american-pilot":
+    "The charred wreckage of a small propeller aircraft smouldering in a remote misty highland jungle clearing at dawn, thick green ridges rising into low cloud behind and a thin plume of grey smoke, desolate and silent with no people visible, themes of an outsider lost to a remote insurgency. Absolutely no text, letters, words, numbers, tail markings, logos, flags or writing anywhere in the image",
   "google-eu-android-fine-upheld":
     "A set of brass scales of justice resting on a dark polished bench before the cool blue glow of a vast glass corporate tower at dusk, a faint arc of small points of light curving above like a ring of stars, imposing and still, themes of a technology giant weighed by the law and found liable. Absolutely no text, letters, words, numbers, logos, brand names, flags or writing anywhere in the image",
   "iran-hormuz-tanker-warning":
