@@ -5,7 +5,7 @@ import { AtlasClient } from "./AtlasClient";
 export const metadata: Metadata = {
   title: "Atlas — Hyperera",
   description:
-    "A time slider over the map: start in the present-day city and scrub back through georeferenced historic maps of San Francisco, New York, London, and Berlin.",
+    "A time slider over the map: start in the present-day city and scrub back through georeferenced historic maps of San Francisco, New York, London, Berlin, Munich, and Singapore.",
 };
 
 // Server shell for the atlas: reads the curated locations and hands them to
