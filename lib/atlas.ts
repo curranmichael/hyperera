@@ -46,12 +46,15 @@ export function annotationUrl(mapId: string): string {
   return `https://annotations.allmaps.org/maps/${mapId}`;
 }
 
-// All current eras come from the David Rumsey Map Collection, whose scans are
-// CC BY-NC-SA 3.0 with the credit line below. Ids verified against
+// Most eras come from the David Rumsey Map Collection, whose scans are
+// CC BY-NC-SA 3.0 with the credit line below; Berlin adds two public-domain
+// plans from the Zentral- und Landesbibliothek Berlin. Ids verified against
 // annotations.allmaps.org and allmaps.xyz on 2 July 2026.
 const RUMSEY_CREDIT =
   "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries";
 const RUMSEY_LICENSE = "CC BY-NC-SA 3.0";
+const ZLB_CREDIT = "Zentral- und Landesbibliothek Berlin";
+const ZLB_LICENSE = "Public domain";
 
 const locations: AtlasLocation[] = [
   {
@@ -240,6 +243,67 @@ const locations: AtlasLocation[] = [
         license: RUMSEY_LICENSE,
         sourceHref:
           "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~273894~90047265",
+      },
+    ],
+  },
+  {
+    slug: "berlin",
+    name: "Berlin",
+    center: [13.4, 52.517],
+    zoom: 12,
+    eras: [
+      {
+        id: "ber-1748-ville",
+        year: 1748,
+        label: "1748",
+        title: "Plan de la ville de Berlin",
+        mapIds: ["69f9096e9e4f1824"],
+        attribution: RUMSEY_CREDIT,
+        license: RUMSEY_LICENSE,
+        sourceHref:
+          "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~315673~90084475",
+      },
+      {
+        id: "ber-1798-grundriss",
+        year: 1798,
+        label: "1798",
+        title: "Grundriss der Königl. Residenzstädte Berlin",
+        mapIds: ["b7ecb55e1c48ae64"],
+        attribution: ZLB_CREDIT,
+        license: ZLB_LICENSE,
+        sourceHref: "https://digital.zlb.de/viewer/image/15452831/1/",
+      },
+      {
+        id: "ber-1849-plan",
+        year: 1849,
+        label: "1849",
+        title: "Plan von Berlin",
+        mapIds: ["faf24bee8b6ecf4e"],
+        attribution: RUMSEY_CREDIT,
+        license: RUMSEY_LICENSE,
+        sourceHref:
+          "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~327192~90095831",
+      },
+      {
+        id: "ber-1883-berlin",
+        year: 1883,
+        label: "1883",
+        title: "Berlin",
+        mapIds: ["604fb95fe2565065"],
+        attribution: RUMSEY_CREDIT,
+        license: RUMSEY_LICENSE,
+        sourceHref:
+          "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~31403~1150350",
+      },
+      {
+        id: "ber-1917-gross-berlin",
+        year: 1917,
+        label: "1917",
+        title: "Karte von Gross-Berlin",
+        mapIds: ["5983e1a92c9f1cbd"],
+        attribution: ZLB_CREDIT,
+        license: ZLB_LICENSE,
+        sourceHref: "https://digital.zlb.de/viewer/image/15453186/1/",
       },
     ],
   },
