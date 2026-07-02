@@ -23,6 +23,32 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "kyiv-strikes-kill-eight":
+    "The shattered facade of a tall apartment block at dawn in a Northern European city, blown-out windows and a plume of grey smoke rising into a pale sky, rubble and a lone bare tree in the foreground, deserted and still with no people visible, themes of a capital city struck from the air. Absolutely no text, letters, words, numbers, signs, logos, flags or writing anywhere in the image",
+  "usmca-renewal-declined":
+    "A vast container port terminal at dusk straddling a wide river border, towering stacks of plain unmarked shipping containers in flat blocks of colour and idle cranes silhouetted against a brooding grey sky, a lowered barrier across an empty quay, themes of trade between neighbouring nations left in doubt. Every container surface is smooth, blank and unmarked. Absolutely no text, letters, words, numbers, container codes, logos, brand names, flags or writing anywhere in the image",
+  "us-iran-doha-talks-conclude":
+    "A long empty diplomatic negotiating table in a grand modern hall at dusk, rows of vacant chairs facing one another and a carafe of water at the centre, soft cool light through tall windows, two bare unmarked flagpoles standing at either end, themes of adversaries meeting through intermediaries to ease tensions. Absolutely no text, letters, words, numbers, flags, emblems, logos or writing anywhere in the image",
+  "us-ai-voluntary-model-standards":
+    "A single vast server cabinet glowing faintly in a dark data hall, cold blue light spilling from its seams, a long clean corridor of machinery receding into shadow, ordered and still, themes of a powerful new intelligence and the rules being drawn around it. Absolutely no text, letters, words, numbers, screens, logos or writing anywhere in the image",
+  "germany-charges-ukrainian-nord-stream":
+    "A moonlit expanse of dark open sea at night, a violent upwelling of pale gas and churning white foam boiling to the surface from far below, a cold grey sky above and no land in sight, ominous and deserted, themes of hidden sabotage of an undersea pipeline. Absolutely no text, letters, words, numbers, ships, logos, flags or writing anywhere in the image",
+  "judge-blocks-usps-mail-voting":
+    "A dim postal sorting room at dusk, a tall wall of wooden pigeonhole slots crammed with plain white envelopes, a single canvas mail sack resting on the floor beneath a hanging lamp, deep shadows, themes of the delivery of ballots and the courts guarding the vote. Every envelope is plain and blank. Absolutely no text, letters, words, numbers, addresses, stamps, postmarks, logos or writing anywhere in the image",
+  "alibaba-600-million-drug-sales-settlement":
+    "A vast dim e-commerce fulfilment warehouse at night, a long conveyor belt heaped with plain brown cardboard parcels curving away into soft focus, towering shelves of blank boxes and idle scanning gantries overhead, cool industrial light, themes of a giant marketplace and the illicit goods traded within it. Every box and parcel is blank and unmarked. Absolutely no text, letters, words, numbers, barcodes, shipping labels, logos, brand names or writing anywhere in the image",
+  "belgium-senegal-world-cup-comeback":
+    "An empty floodlit football stadium at night, the pitch a brilliant green, a single ball resting on the penalty spot, drifting confetti and jubilant emptiness under bright lights, themes of a dramatic last-gasp comeback and victory snatched at the final moment. Absolutely no text, letters, words, numbers, logos, advertising boards or writing anywhere in the image",
+  "us-historic-heatwave-july-fourth":
+    "A sun-bleached American city skyline shimmering under a white-hot midday sky in a heatwave, a hazy sun blazing over glass towers, empty sweltering streets and wilting trees in the foreground, oppressive heat haze, themes of a punishing heat dome over the land. Absolutely no text, letters, words, numbers, signs, billboards, logos or writing anywhere in the image",
+  "softbank-openai-margin-loan":
+    "A towering glass corporate skyscraper at dusk seen from below, its facade reflecting a cool darkening sky, a scattering of faint gold light in its windows, sleek and imposing, themes of vast sums staked on an uncertain future. Absolutely no text, letters, words, numbers, logos, brand names or writing anywhere in the image",
+  "rembrandt-hidden-turban-restoration":
+    "A conservator's darkened studio, a dim old-master oil painting on an easel lit by a single raking beam of warm light that grazes its cracked varnished surface, a fine brush and cotton swab resting on a cloth in the foreground, hushed and reverent, themes of a hidden image brought back to light. The painting on the easel is an indistinct dark abstract surface with no discernible figures. Absolutely no text, letters, words, numbers, signatures, logos or writing anywhere in the image",
+  "swift-kelce-madison-square-garden-wedding":
+    "A grand illuminated arena facade at night in a great city, glowing warm light spilling from tall arched entrances onto an empty plaza, a red carpet leading to the doors, festive and expectant, themes of a celebrated public wedding as spectacle. Absolutely no text, letters, words, numbers, marquees, signs, logos or writing anywhere in the image",
+  "nrc-radiation-rule-overhaul":
+    "The vast concrete cooling towers of a nuclear power plant at dawn releasing soft plumes of white steam into a pale sky, calm green fields in the foreground, monumental and still, themes of atomic power and the unseen hazard it carries. Absolutely no text, letters, words, numbers, signs, logos or writing anywhere in the image",
   "china-export-controls-japan":
     "A vast container port terminal at dusk, towering stacks of plain unmarked shipping containers in flat blocks of colour and idle cranes silhouetted against a brooding grey sky, a lowered barrier across an empty quay, themes of trade between two great nations abruptly restricted. Every container surface is smooth, blank and unmarked. Absolutely no text, letters, words, numbers, container codes, logos, brand names, flags or writing anywhere in the image",
   "google-klarna-antitrust-sweden":
