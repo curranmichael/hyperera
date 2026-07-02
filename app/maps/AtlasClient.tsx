@@ -8,7 +8,7 @@ import {
   Callout,
   Flex,
   Link,
-  SegmentedControl,
+  Select,
   Text,
 } from "@radix-ui/themes";
 import type { AtlasEra, AtlasLocation } from "@/lib/atlas";
@@ -82,20 +82,20 @@ export function AtlasClient({ locations }: AtlasClientProps) {
         <div className="atlas-panel__inner">
           <Flex direction="column" gap="3">
             <Flex align="center" justify="between" gap="3" wrap="wrap">
-              <SegmentedControl.Root
-                value={location.slug}
-                onValueChange={switchCity}
-                size="1"
-              >
-                {locations.map((candidate) => (
-                  <SegmentedControl.Item
-                    key={candidate.slug}
-                    value={candidate.slug}
-                  >
-                    {candidate.name}
-                  </SegmentedControl.Item>
-                ))}
-              </SegmentedControl.Root>
+              {/* A Select rather than SegmentedControl: four cities already
+                  overflow a phone-width segmented row, and the list will only
+                  grow. (Radix has no searchable combobox; if this list ever
+                  gets long, reach for cmdk.) */}
+              <Select.Root value={location.slug} onValueChange={switchCity}>
+                <Select.Trigger aria-label="City" />
+                <Select.Content position="popper">
+                  {locations.map((candidate) => (
+                    <Select.Item key={candidate.slug} value={candidate.slug}>
+                      {candidate.name}
+                    </Select.Item>
+                  ))}
+                </Select.Content>
+              </Select.Root>
 
               {activeEra && (
                 <Flex align="center" gap="2" className="atlas-opacity">
