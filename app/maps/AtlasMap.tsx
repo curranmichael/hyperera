@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import maplibregl from "maplibre-gl";
+import type { RasterSourceSpecification } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Callout } from "@radix-ui/themes";
 import { tileJsonUrl, type AtlasEra, type AtlasLocation } from "@/lib/atlas";
@@ -24,6 +25,39 @@ interface AtlasMapProps {
 
 const BASE_STYLE = "https://tiles.openfreemap.org/styles/liberty";
 
+const layerId = (era: AtlasEra, index: number) => `atlas-${era.id}/${index}`;
+
+// The tile server offers each map as .png and .webp; its TileJSON lists both,
+// which MapLibre would rotate through per tile. WebP halves the bytes (the
+// difference between usable and painful on a slow connection), so resolve the
+// TileJSON ourselves and keep only the WebP template. Falls back to letting
+// MapLibre read the TileJSON directly if the fetch fails.
+async function rasterSourceSpec(
+  mapId: string,
+): Promise<RasterSourceSpecification> {
+  try {
+    const response = await fetch(tileJsonUrl(mapId));
+    const tileJson = await response.json();
+    const webpTiles = (tileJson.tiles ?? []).filter((template: string) =>
+      template.endsWith(".webp"),
+    );
+    if (webpTiles.length > 0) {
+      return {
+        type: "raster",
+        tiles: webpTiles,
+        tileSize: 256,
+        bounds: tileJson.bounds,
+        minzoom: tileJson.minzoom ?? 0,
+        maxzoom: tileJson.maxzoom ?? 14,
+        attribution: tileJson.attribution ?? "",
+      };
+    }
+  } catch {
+    // fall through to the TileJSON URL
+  }
+  return { type: "raster", url: tileJsonUrl(mapId), tileSize: 256 };
+}
+
 export default function AtlasMap({
   location,
   activeEra,
@@ -32,7 +66,7 @@ export default function AtlasMap({
 }: AtlasMapProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
-  // Eras whose sources/layers have been added (lazily, on first activation).
+  // Eras whose sources/layers have been (or are being) added.
   const mountedErasRef = useRef<Map<string, AtlasEra>>(new Map());
   const erroredSourcesRef = useRef<Set<string>>(new Set());
   const [styleReady, setStyleReady] = useState(false);
@@ -43,6 +77,81 @@ export default function AtlasMap({
   const initialLocationRef = useRef(location);
   const onTileErrorRef = useRef(onTileError);
   onTileErrorRef.current = onTileError;
+
+  // What the paint pass needs, readable from map event handlers.
+  const paintStateRef = useRef({ location, activeEra, overlayOpacity });
+  paintStateRef.current = { location, activeEra, overlayOpacity };
+
+  // Set every mounted era's opacity: the active era to the overlay value,
+  // everything else to 0. The 400ms raster-opacity transition declared on the
+  // layers turns these jumps into the crossfade.
+  const applyOpacities = useCallback(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    const { activeEra: era, overlayOpacity: opacity } = paintStateRef.current;
+    for (const mounted of mountedErasRef.current.values()) {
+      const value = mounted.id === era?.id ? opacity : 0;
+      mounted.mapIds.forEach((_, index) => {
+        const id = layerId(mounted, index);
+        if (map.getLayer(id)) map.setPaintProperty(id, "raster-opacity", value);
+      });
+    }
+  }, []);
+
+  // Add an era's sources and layers (at opacity 0) if not already present.
+  // Async because the source spec resolves TileJSON for WebP tiles; re-applies
+  // opacities afterwards so an era activated before its layers finished
+  // mounting still fades in.
+  const mountEra = useCallback(
+    async (era: AtlasEra) => {
+      const map = mapRef.current;
+      if (!map || mountedErasRef.current.has(era.id)) return;
+      mountedErasRef.current.set(era.id, era);
+      await Promise.all(
+        era.mapIds.map(async (mapId, index) => {
+          const spec = await rasterSourceSpec(mapId);
+          if (mapRef.current !== map) return; // unmounted mid-fetch
+          const id = layerId(era, index);
+          if (!map.getSource(id)) map.addSource(id, spec);
+          if (!map.getLayer(id)) {
+            map.addLayer({
+              id,
+              type: "raster",
+              source: id,
+              paint: {
+                "raster-opacity": 0,
+                "raster-opacity-transition": { duration: 400 },
+                "raster-fade-duration": 300,
+              },
+            });
+          }
+        }),
+      );
+      applyOpacities();
+    },
+    [applyOpacities],
+  );
+
+  // Background warm-up: once the visible map settles (`idle`), quietly mount
+  // the next era layer for this city, newest first — the usual gesture is
+  // scrubbing back from Today. Layers sit at opacity 0 but still fetch their
+  // tiles, so by the time the user reaches an era its tiles are already in
+  // the browser cache and the crossfade is instant. `idle` only fires when
+  // nothing else is loading, so this never competes with the active view for
+  // bandwidth, and each idle round mounts one more era — natural pacing.
+  // Respects Data Saver.
+  const warmUpNext = useCallback(() => {
+    const saveData = (navigator as { connection?: { saveData?: boolean } })
+      .connection?.saveData;
+    if (saveData) return;
+    const { location: current } = paintStateRef.current;
+    const next = [...current.eras]
+      .reverse()
+      .find((era) => !mountedErasRef.current.has(era.id));
+    if (next) void mountEra(next);
+  }, [mountEra]);
+  const warmUpRef = useRef(warmUpNext);
+  warmUpRef.current = warmUpNext;
 
   useEffect(() => {
     const container = containerRef.current;
@@ -87,7 +196,10 @@ export default function AtlasMap({
     });
 
     // `data-atlas-idle` lets tests wait for tiles to settle before screenshots.
-    map.on("idle", () => container.setAttribute("data-atlas-idle", "true"));
+    map.on("idle", () => {
+      container.setAttribute("data-atlas-idle", "true");
+      warmUpRef.current();
+    });
     map.on("dataloading", () => container.removeAttribute("data-atlas-idle"));
     map.on("movestart", () => container.removeAttribute("data-atlas-idle"));
 
@@ -105,49 +217,14 @@ export default function AtlasMap({
     mapRef.current?.flyTo({ center: location.center, zoom: location.zoom });
   }, [location.slug, location.center, location.zoom]);
 
-  // Era layers + crossfade. Layers mount lazily the first time their era is
-  // activated and then stay around at opacity 0, so scrubbing back and forth
-  // is instant. The 400ms raster-opacity transition does the actual fade.
+  // Era activation: make sure the active era's layers exist, then crossfade.
+  // Mounted layers stay around at opacity 0, so scrubbing back and forth is
+  // instant.
   useEffect(() => {
-    const map = mapRef.current;
-    if (!map || !styleReady) return;
-
-    if (activeEra && !mountedErasRef.current.has(activeEra.id)) {
-      mountedErasRef.current.set(activeEra.id, activeEra);
-      activeEra.mapIds.forEach((mapId, index) => {
-        const id = `atlas-${activeEra.id}/${index}`;
-        if (!map.getSource(id)) {
-          map.addSource(id, {
-            type: "raster",
-            url: tileJsonUrl(mapId),
-            tileSize: 256,
-          });
-        }
-        if (!map.getLayer(id)) {
-          map.addLayer({
-            id,
-            type: "raster",
-            source: id,
-            paint: {
-              "raster-opacity": 0,
-              "raster-opacity-transition": { duration: 400 },
-              "raster-fade-duration": 300,
-            },
-          });
-        }
-      });
-    }
-
-    for (const era of mountedErasRef.current.values()) {
-      const opacity = era.id === activeEra?.id ? overlayOpacity : 0;
-      era.mapIds.forEach((_, index) => {
-        const id = `atlas-${era.id}/${index}`;
-        if (map.getLayer(id)) {
-          map.setPaintProperty(id, "raster-opacity", opacity);
-        }
-      });
-    }
-  }, [activeEra, overlayOpacity, styleReady]);
+    if (!mapRef.current || !styleReady) return;
+    if (activeEra) void mountEra(activeEra);
+    applyOpacities();
+  }, [activeEra, overlayOpacity, styleReady, mountEra, applyOpacities]);
 
   if (webglFailed) {
     return (
