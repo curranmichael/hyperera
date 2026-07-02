@@ -398,7 +398,9 @@ const locations: AtlasLocation[] = [
 ];
 
 export async function getAtlasLocations(): Promise<AtlasLocation[]> {
-  return locations;
+  // Alphabetical by display name, so the picker reads predictably no matter
+  // what order cities were curated in above.
+  return [...locations].sort((a, b) => a.name.localeCompare(b.name));
 }
 
 export async function getAtlasLocation(
