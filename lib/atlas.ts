@@ -310,6 +310,91 @@ const locations: AtlasLocation[] = [
       },
     ],
   },
+  {
+    slug: "munich",
+    name: "Munich",
+    center: [11.575, 48.137],
+    zoom: 12,
+    eras: [
+      {
+        id: "muc-1812-umgebungen",
+        year: 1812,
+        label: "1812",
+        title: "Umgebungen von München",
+        mapIds: ["d9574560319b9efe"],
+        attribution: RUMSEY_CREDIT,
+        license: RUMSEY_LICENSE,
+        sourceHref:
+          "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~332207~90100727",
+      },
+      {
+        id: "muc-1832-sduk",
+        year: 1832,
+        label: "1832",
+        title: "Munich (München)",
+        mapIds: ["37241843630633b5"],
+        attribution: RUMSEY_CREDIT,
+        license: RUMSEY_LICENSE,
+        sourceHref:
+          "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~21023~530120",
+      },
+      {
+        id: "muc-1869-fuehrer",
+        year: 1869,
+        label: "1869",
+        title: "Führer durch München und dessen Ausstellungen",
+        mapIds: ["a6d526a2b62c0ee3"],
+        attribution: "Bayerische Staatsbibliothek",
+        license: "No known copyright (non-commercial)",
+        sourceHref: "https://www.digitale-sammlungen.de/en/view/bsb10373426",
+      },
+      {
+        id: "muc-1898-vororte",
+        year: 1898,
+        label: "1898",
+        title: "München mit den Vororten",
+        mapIds: ["504f8420f8507979"],
+        attribution: "Princeton University Library",
+        license: "No known copyright",
+        sourceHref:
+          "https://figgy.princeton.edu/concern/scanned_maps/ecd06a05-ca2f-4e51-aab7-dfb219c42f6c/manifest",
+      },
+      {
+        id: "muc-1917-city-map",
+        year: 1917,
+        label: "1917",
+        title: "City Map of München",
+        mapIds: ["e029a5ebda08f007"],
+        attribution: RUMSEY_CREDIT,
+        license: RUMSEY_LICENSE,
+        sourceHref:
+          "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~381580~90147373",
+      },
+    ],
+  },
+  {
+    // Allmaps' crowd-sourced database holds only two georeferenced maps over
+    // central Singapore today; the Gallica-hosted plan serves blank tiles
+    // (BnF blocks the tile server), so a single well-registered era ships.
+    // The slider design absorbs sparse cities by construction.
+    slug: "singapore",
+    name: "Singapore",
+    center: [103.85, 1.29],
+    zoom: 12,
+    eras: [
+      {
+        id: "sgp-1958-city-map",
+        year: 1958,
+        label: "1958",
+        title: "Map of the City of Singapore",
+        mapIds: ["79c33793a637bed2"],
+        attribution: "University of Hawaiʻi at Mānoa Library",
+        license: "Public domain",
+        sourceHref:
+          "https://evols.library.manoa.hawaii.edu/items/e3e1c38a-4fbe-41a3-bca6-0e1e7f459d66",
+      },
+    ],
+  },
 ];
 
 export async function getAtlasLocations(): Promise<AtlasLocation[]> {
