@@ -5,7 +5,7 @@ import maplibregl from "maplibre-gl";
 import type { RasterSourceSpecification } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Callout } from "@radix-ui/themes";
-import { tileJsonUrl, type AtlasEra, type AtlasLocation } from "@/lib/atlas";
+import { eraTileJsonUrls, type AtlasEra, type AtlasLocation } from "@/lib/atlas";
 
 // The only file that touches maplibre-gl. The map is a controlled consumer:
 // AtlasClient owns which era is active and how opaque the overlay is; this
@@ -33,13 +33,13 @@ const layerId = (era: AtlasEra, index: number) => `atlas-${era.id}/${index}`;
 // TileJSON ourselves and keep only the WebP template. Falls back to letting
 // MapLibre read the TileJSON directly if the fetch fails.
 async function rasterSourceSpec(
-  mapId: string,
+  tileJsonUrl: string,
 ): Promise<RasterSourceSpecification> {
   try {
-    const response = await fetch(tileJsonUrl(mapId));
+    const response = await fetch(tileJsonUrl);
     const tileJson = await response.json();
     const webpTiles = (tileJson.tiles ?? []).filter((template: string) =>
-      template.endsWith(".webp"),
+      /\.webp(\?|$)/.test(template),
     );
     if (webpTiles.length > 0) {
       return {
@@ -55,7 +55,7 @@ async function rasterSourceSpec(
   } catch {
     // fall through to the TileJSON URL
   }
-  return { type: "raster", url: tileJsonUrl(mapId), tileSize: 256 };
+  return { type: "raster", url: tileJsonUrl, tileSize: 256 };
 }
 
 export default function AtlasMap({
@@ -91,7 +91,7 @@ export default function AtlasMap({
     const { activeEra: era, overlayOpacity: opacity } = paintStateRef.current;
     for (const mounted of mountedErasRef.current.values()) {
       const value = mounted.id === era?.id ? opacity : 0;
-      mounted.mapIds.forEach((_, index) => {
+      eraTileJsonUrls(mounted).forEach((_, index) => {
         const id = layerId(mounted, index);
         if (map.getLayer(id)) map.setPaintProperty(id, "raster-opacity", value);
       });
@@ -108,8 +108,8 @@ export default function AtlasMap({
       if (!map || mountedErasRef.current.has(era.id)) return;
       mountedErasRef.current.set(era.id, era);
       await Promise.all(
-        era.mapIds.map(async (mapId, index) => {
-          const spec = await rasterSourceSpec(mapId);
+        eraTileJsonUrls(era).map(async (url, index) => {
+          const spec = await rasterSourceSpec(url);
           if (mapRef.current !== map) return; // unmounted mid-fetch
           const id = layerId(era, index);
           if (!map.getSource(id)) map.addSource(id, spec);

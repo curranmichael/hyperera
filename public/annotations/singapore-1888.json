@@ -1,0 +1,113 @@
+{
+  "id": "https://www.hyperera.news/annotations/singapore-1888.json",
+  "type": "Annotation",
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "motivation": "georeferencing",
+  "target": {
+    "type": "SpecificResource",
+    "source": {
+      "id": "https://www.davidrumsey.com/luna/servlet/iiif/RUMSEY~8~1~333963~90102160",
+      "type": "ImageService2",
+      "width": 11794,
+      "height": 8050
+    },
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"11794\" height=\"8050\"><polygon points=\"7420,2830 9150,2830 9150,5985 7420,5985\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "options": {
+        "order": 1
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            8622,
+            4500
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.85345,
+            1.2856
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            8550,
+            4445
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.854,
+            1.2872
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            7980,
+            3075
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.8533,
+            1.3121
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            7605,
+            3410
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.84306,
+            1.30662
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "resourceCoords": [
+            8012,
+            4060
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.8461,
+            1.2942
+          ]
+        }
+      }
+    ]
+  }
+}

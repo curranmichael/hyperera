@@ -20,6 +20,11 @@ export interface AtlasEra {
   label: string; // short label shown on the slider, usually the year
   title: string; // the map's title as catalogued
   mapIds: string[]; // Allmaps map ids; more than one for multi-sheet maps
+  // Self-hosted Georeference Annotations (public/annotations/*.json) for maps
+  // we georeferenced ourselves because nobody had done them in Allmaps yet.
+  // The tile server warps any annotation it can fetch, not just its own
+  // database — so these serve exactly like mapIds.
+  annotationUrls?: string[];
   attribution: string; // the credit line the institution requests
   license: string; // "Public domain" | "CC BY-NC-SA 3.0" | ...
   sourceHref: string; // institution catalog page for the map
@@ -44,6 +49,17 @@ export function tileJsonUrl(mapId: string): string {
 
 export function annotationUrl(mapId: string): string {
   return `https://annotations.allmaps.org/maps/${mapId}`;
+}
+
+// Every TileJSON endpoint an era draws from: Allmaps-database maps by id,
+// plus any self-hosted georeference annotations.
+export function eraTileJsonUrls(era: AtlasEra): string[] {
+  return [
+    ...era.mapIds.map(tileJsonUrl),
+    ...(era.annotationUrls ?? []).map(
+      (url) => `https://allmaps.xyz/tiles.json?url=${encodeURIComponent(url)}`,
+    ),
+  ];
 }
 
 // Most eras come from the David Rumsey Map Collection, whose scans are
@@ -374,14 +390,45 @@ const locations: AtlasLocation[] = [
   },
   {
     // Allmaps' crowd-sourced database holds only two georeferenced maps over
-    // central Singapore today; the Gallica-hosted plan serves blank tiles
-    // (BnF blocks the tile server), so a single well-registered era ships.
-    // The slider design absorbs sparse cities by construction.
+    // central Singapore (and one of them, Gallica-hosted, serves blank tiles
+    // because the BnF blocks the tile server). The 1888 and 1893 eras are
+    // Rumsey scans we georeferenced ourselves — annotations under
+    // public/annotations/, control points on stable landmarks (bridges,
+    // St Andrew's, the Istana, Fort Canning, the old Race Course), affine
+    // residuals under ~120 m.
     slug: "singapore",
     name: "Singapore",
     center: [103.85, 1.29],
     zoom: 12,
     eras: [
+      {
+        id: "sgp-1888-ports",
+        year: 1888,
+        label: "1888",
+        title: "Singapore, Atlas des ports étrangers",
+        mapIds: [],
+        annotationUrls: [
+          "https://www.hyperera.news/annotations/singapore-1888.json",
+        ],
+        attribution: RUMSEY_CREDIT,
+        license: RUMSEY_LICENSE,
+        sourceHref:
+          "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~333963~90102160",
+      },
+      {
+        id: "sgp-1893-bartholomew",
+        year: 1893,
+        label: "1893",
+        title: "City of Singapore, Constable’s Hand Atlas of India",
+        mapIds: [],
+        annotationUrls: [
+          "https://www.hyperera.news/annotations/singapore-1893.json",
+        ],
+        attribution: RUMSEY_CREDIT,
+        license: RUMSEY_LICENSE,
+        sourceHref:
+          "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~312816~90081949",
+      },
       {
         id: "sgp-1958-city-map",
         year: 1958,
