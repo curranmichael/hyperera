@@ -23,6 +23,20 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "moldova-pm-munteanu-resigns":
+    "A grand neoclassical parliament building of pale stone at dusk under a brooding grey sky, a wide empty plaza before it and a single bare unmarked flagpole with no flag, one lit window high in the facade, stately and sombre, themes of a leader stepping down and a government falling. Absolutely no text, letters, words, numbers, flags, emblems, logos or writing anywhere in the image",
+  "alibaba-bans-anthropic-claude-code":
+    "A vast dim data hall with long rows of glowing server cabinets receding into shadow, a single heavy steel door sealed shut across one aisle with cold blue light leaking from its seams, ordered and tense, themes of a powerful software tool shut out over hidden risks. Absolutely no text, letters, words, numbers, screens, logos, brand names or writing anywhere in the image",
+  "eu-lawmaker-pegasus-spyware-hack":
+    "A single smartphone lying face-up on a dark desk glowing faintly in a shadowed room, a faint reflection of a watching human eye caught in its dark screen, cold light and deep shadow, tense and clandestine, themes of secret surveillance and a hunter turned hunted. The screen is an indistinct blur of pale light. Absolutely no text, letters, words, numbers, app icons, logos or writing anywhere on the screen or in the image",
+  "europe-heatwave-excess-deaths":
+    "A sun-bleached deserted European city square at noon under a merciless white-hot sky, a dry stone fountain and wilting plane trees shimmering in the heat haze, a single empty bench in a thin strip of shade, oppressive and still with almost no one about, themes of a continent overwhelmed by deadly heat. Absolutely no text, letters, words, numbers, signs, shop fronts, logos or writing anywhere in the image",
+  "portugal-croatia-round-of-16":
+    "An empty floodlit football stadium at night, the pitch a brilliant green, a single ball resting on the penalty spot, drifting confetti and jubilant emptiness under bright lights, themes of a dramatic late comeback and victory. Absolutely no text, letters, words, numbers, logos, advertising boards or writing anywhere in the image",
+  "albania-tirana-protest-violence":
+    "A tense night-time city square before a grand government building, drifting pale smoke and haze lit by harsh floodlights, scattered stones and an overturned metal barrier on the empty cobblestones, a lone abandoned shoe in the foreground, no people visible, themes of a popular uprising and clashes with police. Absolutely no text, letters, words, numbers, banners, placards, graffiti, logos or writing anywhere in the image",
+  "ecb-lagarde-early-exit":
+    "A towering glass central-bank skyscraper at dusk reflecting a cool darkening sky beside a wide river, a single small sailboat on the dark water below leaning as if to depart, sleek and imposing, themes of the guardian of a currency weighing whether to leave the helm. Absolutely no text, letters, words, numbers, symbols, currency signs, logos, brand names or writing anywhere in the image",
   "vatican-excommunicates-traditionalist-schism":
     "The candle-lit stone interior of a soaring gothic cathedral at dusk, shafts of pale light through tall arched windows falling on empty pews and a distant altar, a single bishop's mitre resting on a carved wooden stall in the foreground, solemn and hushed, themes of a church divided and clergy cast out. Absolutely no text, letters, words, numbers, inscriptions, logos or writing anywhere in the image",
   "chinese-ai-model-glm-rivals-us-labs":
