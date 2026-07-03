@@ -12,9 +12,16 @@ import {
   type Story,
 } from "@/lib/stories";
 
-// The home page hero on the shared three-column grid: headline + overview on
+// An edition's hero on the shared three-column grid: headline + overview on
 // the first track, cover spanning the rest, analogy band across all three below.
-export function LeadStory({ story }: { story: Story }) {
+// `priority` marks the topmost hero's cover as the eager-loaded LCP image.
+export function LeadStory({
+  story,
+  priority = false,
+}: {
+  story: Story;
+  priority?: boolean;
+}) {
   const genre = genreMeta[story.genre];
   // Index of the hovered/focused analogy; the cover crossfades to its image.
   const [previewed, setPreviewed] = useState<number | null>(null);
@@ -54,7 +61,7 @@ export function LeadStory({ story }: { story: Story }) {
                   fill
                   tint={genre.color}
                   tintOnHover
-                  priority
+                  priority={priority}
                   sizes={coverSizes}
                 />
               </div>

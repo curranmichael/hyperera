@@ -4,10 +4,10 @@ import { LeadStory } from "./components/LeadStory";
 import { StoryCard } from "./components/StoryCard";
 
 // The home index, grouped into its (up to three) editions in order, newest
-// first. The newest edition keeps the editor's lead story as a hero over a
-// three-column grid; older editions render as a labelled grid of cards under
-// their own heading, visually separated. The grid collapses to two then one
-// column on narrower viewports.
+// first. Every edition keeps its own formatting: the editor's lead story as a
+// hero (headline, cover, analogy band) over a three-column grid of the rest,
+// each under its own heading, visually separated. The grid collapses to two
+// then one column on narrower viewports.
 export default async function Home() {
   const stories = await getPublishedStories(); // ordered by rank, then date
   const editions = groupByEdition(stories);
@@ -16,12 +16,8 @@ export default async function Home() {
     <div className="page">
       {editions.map((edition, index) => {
         const isNewest = index === 0;
-        const lead = isNewest
-          ? (edition.stories.find((s) => s.lead) ?? edition.stories[0])
-          : undefined;
-        const rest = lead
-          ? edition.stories.filter((s) => s !== lead)
-          : edition.stories;
+        const lead = edition.stories.find((s) => s.lead) ?? edition.stories[0];
+        const rest = edition.stories.filter((s) => s !== lead);
 
         return (
           <Section key={edition.label} size="2" pt={isNewest ? "0" : "6"}>
@@ -31,20 +27,20 @@ export default async function Home() {
               size="3"
               weight="regular"
               color="gray"
-              mb={lead ? "8" : "6"}
+              mb="8"
               className="edition-heading"
             >
               {edition.label}
             </Heading>
 
-            {lead ? <LeadStory story={lead} /> : null}
+            <LeadStory story={lead} priority={isNewest} />
 
             {rest.length ? (
               <Grid
                 columns={{ initial: "1", xs: "2", sm: "3" }}
                 gapX="9"
                 gapY="8"
-                mt={lead ? "9" : "0"}
+                mt="9"
               >
                 {rest.map((story) => (
                   <StoryCard key={story.slug} story={story} />
