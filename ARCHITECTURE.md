@@ -24,10 +24,15 @@ The loop, per real-world **event** (not per article):
    - **Literary** — passages and narratives whose themes illuminate the moment (speculative/sci-fi
      works welcome — this is how the "future" lens enters: through *verifiable* art, not punditry)
    - **Musical / artistic** — works of music or visual art that resonate with the event
-5. **Verify** — deterministic checks where possible (links resolve, excerpts match), adversarial or human
-   review where not, before anyone sees it.
+
+   Each analogy is paired with a **rights-clean image of its subject** — the artwork itself, a
+   manuscript page, a portrait, a title page — from Wikimedia Commons or an open archive, never
+   AI-generated. Omitted only when nothing rights-clean can be found.
+5. **Verify** — deterministic checks where possible (links resolve, excerpts match, image URLs serve
+   real images), adversarial or human review where not, before anyone sees it.
 6. **Approve** — once a day, a human editor reviews the drafts and promotes the good ones.
-7. **Present** — one analogy per card, each with a content excerpt and a link to the original source.
+7. **Present** — one analogy per card, each with a content excerpt, its image, and a link to the
+   original source. The home hero crossfades its cover to the hovered analogy's image.
 
 UI inspiration: the [hyper-era are.na channel](https://are.na/curran-dwyer/hyperera).
 
@@ -113,23 +118,30 @@ One daily cron, two Opus phases:
   the indices of the source items that belong to it.
 - **Phase B — analyze (Batches).** For each selected event, an Opus call composes the overview and selects six
   analogies, two per category. Fan out via the **Message Batches API**. Structured output per event:
-  `{overview, analogies: [{category, title, source, excerpt, href} × 6]}`. Adaptive thinking for the selection
-  reasoning. Allow speculative/sci-fi works under literary/artistic for the future-facing angle.
+  `{overview, analogies: [{category, title, source, excerpt, href, image: {url, alt, credit}} × 6]}`. Adaptive
+  thinking for the selection reasoning. Allow speculative/sci-fi works under literary/artistic for the
+  future-facing angle.
+- **An image per analogy.** Each analogy's `image.url` nominates a rights-clean visual of its subject —
+  prefer the work itself (the artwork, a manuscript page, a title page, a portrait of the author or
+  composer) from Wikimedia Commons (`Special:FilePath`, `?width=1200`) or an open archive; never
+  AI-generated. The run dithers each to `public/covers/<slug>--historical-1|2 / --literary-1|2 / --music /
+  --art.png` via `scripts/dither-art.ts`. An analogy with no rights-clean image simply omits it — the home
+  hero then keeps the story cover for that analogy's hover.
 - **Plain headlines.** The event title and overview state plainly *what happened* — no cryptic or literary
   phrasing. The analogies carry the resonance; the headline carries the facts.
 - Persist `events` (`status = draft`), `event_sources` (provenance for the selected items only), and `analogies`.
 
 ### Stage 4 — Verification
 - Confirm every analogy stands up before a reader sees it. **Deterministic checks first** — `web_fetch` each
-  `href`, confirm it resolves (real status, not a soft-404), and match the excerpt against the fetched source
-  where that can be automated. Where a check can't be fully automated, fall back to an **adversarial pass**
+  `href`, confirm it resolves (real status, not a soft-404), match the excerpt against the fetched source
+  where that can be automated, and confirm each analogy `image.url` serves an actual image. Where a check can't be fully automated, fall back to an **adversarial pass**
   (a second model trying to refute the analogy) or **a human in the loop**.
 - Set `verification_status ∈ {verified, held, failed}` per analogy and roll it up to the event. Only `verified`
   analogies are ever shown; anything else is held for review, never silently dropped.
 
 ### Stage 5 — Public card UI on real data
 - Wire the existing card UI to **verified** events: overview at the top, six analogy cards below grouped by
-  category, each with excerpt + outbound link. This closes the raw loop — real events, real analogies,
+  category, each with excerpt, image + outbound link. This closes the raw loop — real events, real analogies,
   verified — visible end-to-end. Refine toward the are.na aesthetic. (Ungated until Stage 7 adds editorial.)
 
 ### Stage 6 — Examples (tone & reference)
@@ -168,6 +180,7 @@ event_sources(id, event_id, title, url, feed_title, published_at)
 
 -- Six per event: the analogies the model selects for a given event.
 analogies(id, event_id, category, title, source, excerpt, href,
+          image_src, image_alt, image_credit,
           source_id, verification_status, created_at)
           -- category: historical | literary | artistic
           -- source_id: optional FK into examples, when a selected analogy matches one

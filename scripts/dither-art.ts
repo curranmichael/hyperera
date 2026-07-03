@@ -1,8 +1,5 @@
-// One-off: fetch remote artwork images (Wikimedia) for this edition's visual
-// analogies and write them as dithered greyscale PNGs at public/covers/<slug>--art.png.
-// Throttled + retried with a descriptive UA (Wikimedia 429s on rapid requests).
-// Reads a mapping file passed as argv[2]: { "<slug>": "<remote url>", ... }
-// Idempotent: skips a slug whose --art.png already exists.
+// Fetch remote images (Wikimedia/open archives) as dithered PNGs at public/covers/<name>.png.
+// argv[2] = JSON map { "<name>": "<url>" }, e.g. "<slug>--historical-1"; throttled/retried, skips existing.
 
 import { access, mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
@@ -39,17 +36,17 @@ async function main() {
   const map: Record<string, string> = JSON.parse(await readFile(mapPath, "utf8"));
   const failed: string[] = [];
 
-  for (const [slug, url] of Object.entries(map)) {
-    const out = join(OUT_DIR, `${slug}--art.png`);
-    if (await exists(out)) { console.log(`skip ${slug}--art (exists)`); continue; }
+  for (const [name, url] of Object.entries(map)) {
+    const out = join(OUT_DIR, `${name}.png`);
+    if (await exists(out)) { console.log(`skip ${name} (exists)`); continue; }
     try {
       const input = await fetchWithRetry(url);
       const png = await bufferToDitheredPng(input);
       await writeFile(out, png);
-      console.log(`${slug}--art.png  ${(input.length / 1024).toFixed(0)}KB -> ${(png.length / 1024).toFixed(0)}KB`);
+      console.log(`${name}.png  ${(input.length / 1024).toFixed(0)}KB -> ${(png.length / 1024).toFixed(0)}KB`);
     } catch (err) {
-      failed.push(slug);
-      console.warn(`FAIL ${slug}: ${(err as Error).message}`);
+      failed.push(name);
+      console.warn(`FAIL ${name}: ${(err as Error).message}`);
     }
     await sleep(1800); // be polite to Wikimedia
   }
@@ -58,7 +55,7 @@ async function main() {
     console.error(`\n${failed.length} failed (re-run to retry): ${failed.join(", ")}`);
     process.exit(1);
   }
-  console.log("\nall artwork dithered.");
+  console.log("\nall images dithered.");
 }
 
 main().catch((err) => { console.error(err); process.exit(1); });

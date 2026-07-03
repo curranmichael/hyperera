@@ -17,15 +17,12 @@ a {
 }
 
 /* --- Fonts: ABC Favorit (loaded by next/font/local in layout.tsx) ---
-   Remap Radix's font-family tokens so <Text> (--default-font-family) and
-   <Heading> (--heading-font-family) both render in the standard cut. Radix's
-   styles.css is imported before this file, so these win without !important.
-   `--font-weight-light: 350` lands Radix's "light" weight on Favorit "Book",
-   the lighter cut the design uses for body and the analogy list. The Extended
-   cut is applied only where wanted, via `.wordmark`. */
-.radix-themes {
+   Doubled class so this outranks Radix's own `.radix-themes` token block even
+   when the bundler emits this file first — import order isn't guaranteed. */
+.radix-themes.radix-themes {
   --default-font-family: var(--font-favorit), ui-sans-serif, system-ui, sans-serif;
   --heading-font-family: var(--font-favorit), ui-sans-serif, system-ui, sans-serif;
+  /* 350 lands Radix's "light" on Favorit Book, the cut for body + analogies. */
   --font-weight-light: 350;
 }
 
@@ -131,6 +128,43 @@ a {
   background-color: var(--gray-3);
   color: var(--gray-12);
   outline: none;
+}
+
+/* --- Lead cover: a 16:9 stack of the story cover + one layer per analogy image.
+   Hovering/focusing an analogy in the band crossfades to its layer. --- */
+
+.lead-cover {
+  display: block;
+  position: relative;
+  aspect-ratio: 16 / 9;
+}
+
+.lead-cover-layer {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 300ms ease;
+  /* Let the link take the pointer, so the top (invisible) layer never eats hover. */
+  pointer-events: none;
+}
+
+.lead-cover-layer[data-shown="true"] {
+  opacity: 1;
+}
+
+.lead-cover-layer figure {
+  height: 100%;
+}
+
+/* Layers don't take the pointer, so the duotone hover rides the stack itself. */
+.lead-cover:hover .cover-hover-tint img {
+  mix-blend-mode: hard-light;
+}
+
+/* --- Lead analogy band: category labels --- */
+.category-label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 /* --- Cover tint on hover (home only) ---

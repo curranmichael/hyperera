@@ -1,85 +1,134 @@
-import NextLink from "next/link";
-import { Box, Flex, Heading, Link, Popover, Text } from "@radix-ui/themes";
-import { CoverImage } from "./CoverImage";
-import { formatStoryDate, genreMeta, type Story } from "@/lib/stories";
+"use client";
 
-// The home page hero. The left column links into the story (headline + overview)
-// and lists the six analogy titles; the right column shows the cover, also a link
-// into the story, at a 16:9 ratio. Each analogy title is a button: clicking (or
-// pressing Enter on) it opens a minimal popover with that analogy's description
-// and an external link to its source.
+import { useState } from "react";
+import NextLink from "next/link";
+import { Box, Flex, Grid, Heading, Link, Popover, Text } from "@radix-ui/themes";
+import { CoverImage } from "./CoverImage";
+import {
+  categoryMeta,
+  categoryOrder,
+  formatStoryDate,
+  genreMeta,
+  type Story,
+} from "@/lib/stories";
+
+// The home page hero on the shared three-column grid: headline + overview on
+// the first track, cover spanning the rest, analogy band across all three below.
 export function LeadStory({ story }: { story: Story }) {
   const genre = genreMeta[story.genre];
+  // Index of the hovered/focused analogy; the cover crossfades to its image.
+  const [previewed, setPreviewed] = useState<number | null>(null);
+  const shown =
+    previewed !== null && story.analogies[previewed]?.image ? previewed : null;
+
+  const coverSizes = "(max-width: 768px) 100vw, 66vw";
 
   return (
-    <Flex
-      direction={{ initial: "column", sm: "row" }}
-      gap={{ initial: "4", sm: "6" }}
-      align="start"
-    >
-      <Flex direction="column" gap="3" width={{ initial: "100%", sm: "250px" }} flexShrink="0">
+    <Flex direction="column" gap="7">
+      <Grid columns={{ initial: "1", sm: "3" }} gapX="9" gapY="4" align="start">
         <Flex asChild direction="column" gap="3">
           <NextLink href={`/story/${story.slug}`}>
-            <Heading size="4" weight="regular">
+            <Heading size="5" weight="regular">
               {story.headline}
             </Heading>
             <Text size="2" weight="light" color="gray">
               {story.overview}
             </Text>
+            <Text size="1" color="gray">
+              {story.sources.map((s) => s.name).join(", ")} ·{" "}
+              {formatStoryDate(story.publishedAt)}
+            </Text>
           </NextLink>
         </Flex>
 
-        <Flex asChild direction="column" gap="1" mt="2">
-          <ul style={{ listStyle: "none" }}>
-            {story.analogies.map((a, i) => (
-              <li key={i}>
-                <Popover.Root>
-                  <Popover.Trigger>
-                    <button type="button" className="analogy-trigger">
-                      <Text size="1" weight="light">
-                        {a.title}
-                      </Text>
-                    </button>
-                  </Popover.Trigger>
-                  <Popover.Content size="1" maxWidth="280px">
-                    <Flex direction="column" gap="2">
-                      <Text size="2">{a.excerpt}</Text>
-                      <Link
-                        href={a.href}
-                        target="_blank"
-                        rel="noreferrer"
-                        size="2"
-                      >
-                        Read more at {hostname(a.href)} →
-                      </Link>
-                    </Flex>
-                  </Popover.Content>
-                </Popover.Root>
-              </li>
-            ))}
-          </ul>
-        </Flex>
-
-        <Text size="1" color="gray" mt="2">
-          {story.sources.map((s) => s.name).join(", ")} ·{" "}
-          {formatStoryDate(story.publishedAt)}
-        </Text>
-      </Flex>
-
-      <Box flexGrow="1" minWidth="0" width="100%">
         {story.image ? (
-          <NextLink href={`/story/${story.slug}`} style={{ display: "block" }}>
-            <CoverImage
-              image={story.image}
-              ratio={16 / 9}
-              tint={genre.color}
-              tintOnHover
-              priority
-              sizes="(max-width: 768px) 100vw, 560px"
-            />
-          </NextLink>
+          <Box gridColumn={{ sm: "span 2" }}>
+            <NextLink href={`/story/${story.slug}`} className="lead-cover">
+              <div
+                className="lead-cover-layer"
+                data-shown={shown === null}
+                aria-hidden={shown !== null}
+              >
+                <CoverImage
+                  image={story.image}
+                  fill
+                  tint={genre.color}
+                  tintOnHover
+                  priority
+                  sizes={coverSizes}
+                />
+              </div>
+              {story.analogies.map((analogy, i) =>
+                analogy.image ? (
+                  <div
+                    key={i}
+                    className="lead-cover-layer"
+                    data-shown={shown === i}
+                    aria-hidden={shown !== i}
+                  >
+                    <CoverImage
+                      image={analogy.image}
+                      fill
+                      tint={genre.color}
+                      tintOnHover
+                      sizes={coverSizes}
+                    />
+                  </div>
+                ) : null,
+              )}
+            </NextLink>
+          </Box>
         ) : null}
-      </Box>
+      </Grid>
+
+      <Grid columns={{ initial: "1", sm: "3" }} gapX="9" gapY="5">
+        {categoryOrder.map((category) => (
+          <Flex key={category} direction="column" gap="2">
+            <Text size="1" weight="medium" color="gray" className="category-label">
+              {categoryMeta[category].label}
+            </Text>
+            <Flex asChild direction="column" gap="1">
+              <ul style={{ listStyle: "none" }}>
+                {story.analogies.map((analogy, i) =>
+                  analogy.category !== category ? null : (
+                    <li key={i}>
+                      <Popover.Root>
+                        <Popover.Trigger>
+                          <button
+                            type="button"
+                            className="analogy-trigger"
+                            onMouseEnter={() => setPreviewed(i)}
+                            onMouseLeave={() => setPreviewed(null)}
+                            onFocus={() => setPreviewed(i)}
+                            onBlur={() => setPreviewed(null)}
+                          >
+                            <Text size="2" weight="light">
+                              {analogy.title}
+                            </Text>
+                          </button>
+                        </Popover.Trigger>
+                        <Popover.Content size="1" maxWidth="280px">
+                          <Flex direction="column" gap="2">
+                            <Text size="2">{analogy.excerpt}</Text>
+                            <Link
+                              href={analogy.href}
+                              target="_blank"
+                              rel="noreferrer"
+                              size="2"
+                            >
+                              Read more at {hostname(analogy.href)} →
+                            </Link>
+                          </Flex>
+                        </Popover.Content>
+                      </Popover.Root>
+                    </li>
+                  ),
+                )}
+              </ul>
+            </Flex>
+          </Flex>
+        ))}
+      </Grid>
     </Flex>
   );
 }

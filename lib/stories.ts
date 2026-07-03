@@ -4,8 +4,8 @@
 // data model (ARCHITECTURE.md §5) so the swap is a query change, not a refactor.
 //
 // Future Neon columns implied below: events gain `genre`, `lead`, `rank`, and
-// image columns; `sources` becomes a related table (or jsonb). Images are
-// optional everywhere.
+// image columns; analogies gain image columns; `sources` becomes a related table
+// (or jsonb). Images are optional everywhere.
 
 export type AnalogyCategory = "historical" | "literary" | "artistic";
 
@@ -93,8 +93,13 @@ export const categoryMeta: Record<
 // quote the most relevant passage verbatim where the source is public domain, and
 // otherwise describe rather than quote. Covers are dithered local copies: feed or
 // rights-clean Wikimedia art/photos credited to the source, otherwise an
-// AI-generated illustration (credit "AI-generated"). Source links to AP/Reuters
-// are Google News redirects (see `lib/feeds.ts`).
+// AI-generated illustration (credit "AI-generated"). Every analogy carries its own
+// image too — a rights-clean visual of its subject (the artwork itself, a manuscript
+// page, a portrait, a title page; never AI-generated), dithered via
+// scripts/dither-art.ts to /covers/<slug>--historical-1|2, --literary-1|2, --music,
+// --art. Omit only when nothing rights-clean exists; the home hero crossfades to
+// these on hover. Source links to AP/Reuters are Google News redirects (see
+// `lib/feeds.ts`).
 const stories: Story[] = [
     {
       "slug": "kyiv-russia-massive-attack",
@@ -1089,28 +1094,48 @@ const stories: Story[] = [
           "title": "E. Keble Chatterton, \"Q-Ships and Their Story\" (1922) — Royal Navy decoy vessels disguised as harmless merchantmen to hunt U-boats",
           "excerpt": "The basic plan was for the Admiralty to take up a number of merchantmen and fishing craft, arm them with a few light quick-firing guns, and then send them forth to cruise in likely submarine areas, flying neutral colours.",
           "source": "Project Gutenberg",
-          "href": "https://www.gutenberg.org/files/54338/54338-h/54338-h.htm"
+          "href": "https://www.gutenberg.org/files/54338/54338-h/54338-h.htm",
+          "image": {
+            "src": "/covers/iiss-russia-shadow-fleet-drone-campaign--historical-1.png",
+            "alt": "Painting of the Q-ship HMS Probus, a Royal Navy decoy disguised as a harmless sailing brigantine, exchanging fire with a German U-boat.",
+            "credit": "Wikimedia Commons"
+          }
         },
         {
           "category": "historical",
           "title": "Sun Tzu, \"The Art of War,\" translated by Lionel Giles (1910) — on deception as the foundation of warfare",
           "excerpt": "All warfare is based on deception. Hence, when able to attack, we must seem unable; when using our forces, we must seem inactive; when we are near, we must make the enemy believe we are far away; when far away, we must make him believe we are near. Hold out baits to entice the enemy.",
           "source": "Project Gutenberg",
-          "href": "https://www.gutenberg.org/files/132/132-h/132-h.htm"
+          "href": "https://www.gutenberg.org/files/132/132-h/132-h.htm",
+          "image": {
+            "src": "/covers/iiss-russia-shadow-fleet-drone-campaign--historical-2.png",
+            "alt": "Bamboo slips inscribed with Sun Tzu's Art of War, unearthed at Yinque Mountain and dated to the second century BC.",
+            "credit": "Wikimedia Commons"
+          }
         },
         {
           "category": "literary",
           "title": "Virgil, \"Aeneid,\" Book II, translated by John Dryden (1697) — Laocoön warns of the armed foe hidden inside the Trojan Horse",
           "excerpt": "This hollow Fabrick either must inclose, Within its blind Recess, our secret Foes; Or tis an Engine rais'd above the Town, T' o'erlook the Walls, and then to batter down. Somewhat is sure design'd; by Fraud or Force; Trust not their Presents, nor admit the Horse.",
           "source": "Wikisource",
-          "href": "https://en.wikisource.org/wiki/The_Works_of_Virgil_(Dryden)/Aeneid/Book_II"
+          "href": "https://en.wikisource.org/wiki/The_Works_of_Virgil_(Dryden)/Aeneid/Book_II",
+          "image": {
+            "src": "/covers/iiss-russia-shadow-fleet-drone-campaign--literary-1.png",
+            "alt": "The Laocoön Group: the marble statue of the Trojan priest and his sons caught in the coils of sea serpents after he warned against the wooden horse.",
+            "credit": "Wikimedia Commons"
+          }
         },
         {
           "category": "literary",
           "title": "Samuel Taylor Coleridge, \"The Rime of the Ancient Mariner\" (1834) — the spectre-bark crewed by Death and Life-in-Death",
           "excerpt": "And is that Woman all her crew? Is that a DEATH? and are there two? Is DEATH that woman's mate? Her lips were red, her looks were free, Her locks were yellow as gold: Her skin was as white as leprosy, The Night-Mare LIFE-IN-DEATH was she, Who thicks man's blood with cold.",
           "source": "Project Gutenberg",
-          "href": "https://www.gutenberg.org/files/151/151-h/151-h.htm"
+          "href": "https://www.gutenberg.org/files/151/151-h/151-h.htm",
+          "image": {
+            "src": "/covers/iiss-russia-shadow-fleet-drone-campaign--literary-2.png",
+            "alt": "Gustave Doré's engraving for The Rime of the Ancient Mariner: the ship dwarfed by towering arches of ice as the albatross circles overhead.",
+            "credit": "Wikimedia Commons"
+          }
         },
         {
           "category": "artistic",
@@ -1129,7 +1154,12 @@ const stories: Story[] = [
           "title": "Richard Wagner, \"Der fliegende Holländer\" (The Flying Dutchman), WWV 63 (1843) — the phantom ship condemned to roam the seas",
           "excerpt": "Wagner's opera conjures a spectral vessel out of storm and surging strings, a blood-red-sailed ship that materialises from the dark and vanishes again as if it were never there. Its cursed captain haunts the shipping lanes unseen, deniable, always just beyond reckoning. The music makes audible the dread of an adversary who comes and goes like a ghost, leaving only the memory of the threat behind.",
           "source": "IMSLP",
-          "href": "https://imslp.org/wiki/Der_fliegende_Holl%C3%A4nder,_WWV_63_(Wagner,_Richard)"
+          "href": "https://imslp.org/wiki/Der_fliegende_Holl%C3%A4nder,_WWV_63_(Wagner,_Richard)",
+          "image": {
+            "src": "/covers/iiss-russia-shadow-fleet-drone-campaign--music.png",
+            "alt": "Albert Pinkham Ryder's painting The Flying Dutchman: the phantom ship looming out of a churning golden sea, painted after hearing Wagner's opera.",
+            "credit": "Wikimedia Commons"
+          }
         }
       ],
       "rank": 14
