@@ -23,6 +23,24 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "nato-ankara-summit-declaration":
+    "A tight semicircle of tall bare flagpoles with no flags standing shoulder to shoulder before a grand modern government building of pale stone at dusk, stormlight breaking behind them, a wide empty plaza in front, solemn and resolute, themes of many nations binding themselves to defend one another. Absolutely no text, letters, words, numbers, flags, stars, emblems, logos or writing anywhere in the image",
+  "monaco-parcel-bombing-ukrainian-suspect":
+    "A dim opulent marble apartment lobby at night, a single plain brown parcel resting alone on the polished floor beside a mirrored wall, cold light and long shadows, deserted and tense with no people visible, themes of a hidden explosive device left behind by a vanished assailant. Absolutely no text, letters, words, numbers, labels, signs, logos or writing anywhere in the image",
+  "us-withdraws-troops-nigeria-isis":
+    "A remote sun-scorched Sahel airstrip at dawn, a large grey military transport aircraft with its rear ramp lowered on a bare red-earth runway, distant thorn trees and empty savannah under a pale hazy sky, still and deserted with no people visible, themes of soldiers departing a distant land after a campaign. Absolutely no text, letters, words, numbers, tail markings, insignia, flags, logos or writing anywhere on the aircraft or in the image",
+  "iran-oil-sales-japan-waiver":
+    "A vast oil supertanker seen from a high angle threading a narrow moonlit strait between dark rugged headlands at night, its long wake cutting the black water, calm and immense, themes of sanctioned crude quietly returning to distant markets across the sea. Absolutely no text, letters, words, numbers, ship names, flags, logos or writing anywhere in the image",
+  "russia-fuel-crisis-imports-rationing":
+    "A large oil refinery at night seen across a dark plain, a tall flare stack and a fuel-storage tank burning bright orange against a black sky, a thin plume of smoke and a distant orange glow on the horizon, tangled silver pipework glinting, themes of a nation's fuel supply crippled and burning. Absolutely no text, letters, words, numbers, logos, flags or writing anywhere in the image",
+  "india-tata-apple-iphone-leak":
+    "A vast dim data hall with long rows of glowing server cabinets receding into shadow, a single heavy steel cabinet standing open and empty with cold blue light spilling across the floor, ordered and tense with no people visible, themes of guarded secrets stolen and spilled from a corporate vault. Absolutely no text, letters, words, numbers, screens, labels, logos, brand names or writing anywhere in the image",
+  "turkey-detains-comedian-erdogan":
+    "A single vintage stand-up microphone on a stand under a hot circular pool of light on a bare dark stage, an empty stool beside it and rows of empty seats fading into blackness, a mood of sudden silence, themes of a comedian's voice cut short by the state. Absolutely no text, letters, words, numbers, signs, logos or writing anywhere in the image",
+  "canada-alberta-westcoast-oil-pipeline":
+    "A broad pipeline right-of-way cut dead straight through dense forested mountains at dawn, a great steel pipe following the cleared corridor toward a distant Pacific inlet glinting under a pale sky, vast and orderly with no people visible, themes of a new artery carrying oil to the sea and distant markets. Absolutely no text, letters, words, numbers, signs, logos, flags or writing anywhere in the image",
+  "big-dymak-timber-hq-odense":
+    "A striking circular contemporary building of warm exposed timber ribs enclosing a green planted courtyard with stepped terraces, an undulating roof lined with dark solar panels, set between wetlands and a low industrial district at golden hour, serene and modern with almost no one about, themes of visionary sustainable architecture built from natural materials. Absolutely no text, letters, words, numbers, signs, logos, brand names or writing anywhere in the image",
   "moldova-pm-munteanu-resigns":
     "A grand neoclassical parliament building of pale stone at dusk under a brooding grey sky, a wide empty plaza before it and a single bare unmarked flagpole with no flag, one lit window high in the facade, stately and sombre, themes of a leader stepping down and a government falling. Absolutely no text, letters, words, numbers, flags, emblems, logos or writing anywhere in the image",
   "alibaba-bans-anthropic-claude-code":
