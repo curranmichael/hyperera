@@ -23,6 +23,8 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "inflatable-garments-temperature-regulation":
+    "A single inflatable, air-filled padded jacket floating upright against a clean seamless pale studio background, its glossy quilted surface puffed taut with trapped air and catching soft directional light, no person inside and no one visible, sleek, minimal and futuristic, themes of clothing engineered from air to warm or cool the body. Absolutely no text, letters, words, numbers, logos, brand names, labels, tags or writing anywhere in the image",
   "us-july4-record-heat-america-250":
     "A sun-bleached, deserted American small-town main street at high noon under a merciless white-hot sky, heat haze shimmering above the empty asphalt, wilting trees and a dry stone fountain, a lone empty bench in a thin strip of shade, oppressive and still with no people visible, themes of a nation's holiday overwhelmed by dangerous heat. Absolutely no text, letters, words, numbers, flags, signs, shop fronts, logos or writing anywhere in the image",
   "trump-pardons-clean-air-act-convictions":
