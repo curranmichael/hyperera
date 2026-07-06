@@ -23,6 +23,22 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "microsoft-4800-ai-layoffs":
+    "A vast open-plan office at dusk with long rows of empty desks, darkened monitors and vacant swivel chairs receding into shadow, a single cold shaft of grey light from tall windows, deserted, still and melancholy with no people visible, themes of workers let go and jobs lost to automation. Absolutely no text, letters, words, numbers, screens, logos, brand names, signs or writing anywhere in the image",
+  "ukraine-drones-russia-refinery-strike":
+    "A large oil refinery at night seen across a dark plain, a tall flare stack and a fuel-storage tank burning bright orange against a black sky, a thin plume of smoke and a distant orange glow on the horizon, tangled silver pipework glinting, deserted with no people visible, themes of fuel installations set ablaze far behind the front line. Absolutely no text, letters, words, numbers, logos, flags, markings or writing anywhere in the image",
+  "hamas-dissolves-gaza-government":
+    "An empty government council chamber at dawn, curved rows of vacant seats facing a bare unadorned rostrum, cold pale light from high windows falling on the deserted floor, solemn and still with no people visible, themes of a ruling body dissolved and power handed over. Absolutely no text, letters, words, numbers, flags, emblems, seals, logos or writing anywhere in the image",
+  "terawulf-anthropic-data-center-lease":
+    "The long clean corridor of a vast dim data hall, endless rows of tall server cabinets glowing with cool blue light and receding into deep shadow, cabling looping overhead, ordered, immense and futuristic with no people visible, themes of a colossal engine built to power artificial intelligence. Absolutely no text, letters, words, numbers, screens, labels, logos, brand names or writing anywhere in the image",
+  "broadcom-apple-chip-deal-2031":
+    "A single mirror-bright silicon wafer held upright under cool clean-room light, its surface catching an intricate grid of microscopic circuitry in faint rainbow diffraction, deep shadow behind, precise, sleek and futuristic with no people visible, themes of two firms bound together over the chips at the heart of modern devices. Absolutely no text, letters, words, numbers, logos, brand names, labels or writing anywhere in the image",
+  "lockheed-ultra-maritime-acquisition":
+    "The dark curved hull of a submarine cutting slowly through cold grey open sea beneath a heavy overcast sky, a low wake spreading behind it, vast, silent and imposing with no people visible, themes of undersea defence and a giant absorbing a specialist of the deep. Absolutely no text, letters, words, numbers, markings, insignia, flags, hull numbers, logos or writing anywhere on the vessel or in the image",
+  "china-official-death-sentence-graft":
+    "A deserted formal courtroom at dusk, a single tall carved wooden judge's bench facing rows of empty seats, a set of brass scales of justice on the bench catching a cold shaft of grey light, austere, hushed and severe with no people visible, themes of stern justice handed down for corruption. Absolutely no text, letters, words, numbers, signs, inscriptions, emblems, logos or writing anywhere in the image",
+  "trump-wall-street-opening-bell":
+    "The grand columned neoclassical facade of a stock exchange building at dawn, tall fluted stone pillars above wide empty steps, furled banners hanging still, a pale gold sky behind, imposing, stately and deserted with no people visible, themes of soaring markets and fortunes staked on the exchange. Absolutely no text, letters, words, numbers, signs, banners, tickers, flags, logos, brand names or writing anywhere in the image",
   "china-pacific-missile-test":
     "A single missile rising on a bright column of flame and a plume of white smoke and spray from the surface of a vast dark ocean at first light, the water churning below it, cold grey sea meeting a pale dawn sky, stark, remote and ominous with no people, land or vessels visible, themes of a distant show of military might over open water. Absolutely no text, letters, words, numbers, flags, insignia, markings, logos or writing anywhere in the image",
   "memphis-national-guard-shooting":
