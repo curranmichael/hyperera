@@ -23,6 +23,12 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "china-pacific-missile-test":
+    "A single missile rising on a bright column of flame and a plume of white smoke and spray from the surface of a vast dark ocean at first light, the water churning below it, cold grey sea meeting a pale dawn sky, stark, remote and ominous with no people, land or vessels visible, themes of a distant show of military might over open water. Absolutely no text, letters, words, numbers, flags, insignia, markings, logos or writing anywhere in the image",
+  "memphis-national-guard-shooting":
+    "A deserted American downtown street at night, wet asphalt reflecting the cold blue-white glare of a single overhead streetlight, shuttered storefronts and long empty sidewalks receding into darkness, tense, still and desolate with no people visible, themes of sudden violence in a city under armed patrol. Absolutely no text, letters, words, numbers, street signs, shop names, license plates, logos, brand names or writing anywhere in the image",
+  "australia-fiji-defence-pact":
+    "Two hands clasped firmly together in a handshake, seen close up in warm late-afternoon light against a soft-focus backdrop of a calm blue Pacific ocean and sky, sincere, solemn and hopeful, only the two clasped hands and the sea visible and no faces or bodies, themes of two nations binding themselves together in common defence. Absolutely no text, letters, words, numbers, flags, emblems, stars, logos or writing anywhere in the image",
   "inflatable-garments-temperature-regulation":
     "A single inflatable, air-filled padded jacket floating upright against a clean seamless pale studio background, its glossy quilted surface puffed taut with trapped air and catching soft directional light, no person inside and no one visible, sleek, minimal and futuristic, themes of clothing engineered from air to warm or cool the body. Absolutely no text, letters, words, numbers, logos, brand names, labels, tags or writing anywhere in the image",
   "us-july4-record-heat-america-250":
