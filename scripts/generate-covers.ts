@@ -23,6 +23,24 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "iran-hormuz-tanker-strike":
+    "A large oil tanker at sea at dusk with a column of dark smoke and orange flame rising from its deck, seen across calm open water, a hazy distant coastline of low arid hills, a few small vessels on the horizon, tense and ominous with no people visible, themes of a strategic sea passage under attack. Absolutely no text, letters, words, numbers, flags, hull markings, logos or writing anywhere in the image",
+  "belgium-usa-world-cup-exit":
+    "A vast floodlit football stadium at night seen from high in the stands, a brilliant green pitch far below ringed by tiers of blurred spectators, stadium lights blazing, atmospheric and grand with no identifiable faces, themes of a decisive World Cup match. Absolutely no text, letters, words, numbers, scoreboards, jerseys with writing, logos, sponsor boards, banners or writing anywhere in the image",
+  "canada-thyssenkrupp-submarines":
+    "A dark grey military submarine cutting through cold open sea under an overcast sky, spray breaking over its bow and conning tower, a low wake spreading behind, vast and silent with no people visible, themes of a nation building a new undersea fleet. Absolutely no text, letters, words, numbers, hull numbers, insignia, flags, markings, logos or writing anywhere on the vessel or in the image",
+  "sp500-ai-stocks-record":
+    "A single luminous upward-climbing line rising steeply across a dark abstract field of soft blurred green and gold light, suggesting a soaring market chart, minimal, sleek and elegant with no people visible, themes of stocks climbing toward a record high. Absolutely no text, letters, words, numbers, tickers, symbols, logos or writing anywhere in the image",
+  "vertex-crinetics-acquisition":
+    "A single luminous three-dimensional molecular model — clusters of softly glowing spheres joined by slender bonds, like a floating protein or a strand of DNA — suspended against a deep dark clinical blue background, shallow depth of field, precise, elegant and scientific with no people and no surfaces that could bear writing, themes of a new medicine for rare disease. Absolutely no text, letters, words, numbers, labels, logos, symbols or writing anywhere in the image",
+  "macron-syria-visit":
+    "A single black official state car on an empty road approaching a Middle Eastern city at golden hour, damaged and half-repaired pale stone buildings rising in the hazy distance, long shadows, quiet and momentous with no people visible, themes of a foreign leader visiting a country emerging from war. Absolutely no text, letters, words, numbers, flags, license plates, signs, logos or writing anywhere in the image",
+  "texas-app-store-age-verification-scotus":
+    "The white marble facade and tall columns of a grand neoclassical courthouse seen from below against a clear pale sky, broad stone steps rising toward the shadowed portico, austere and imposing with no people visible, themes of a high court ruling on who may pass a threshold. Absolutely no text, letters, words, numbers, inscriptions, engravings, signs, logos or writing anywhere on the building or in the image",
+  "anthropic-mythos-government-code-audit":
+    "Rows of dark server racks receding down a dim data-centre aisle, a single bright beam of cool light sweeping across them like a scanning searchlight, tiny green and amber indicator lights glinting in the shadows, no monitors and no screens anywhere, cold, watchful and futuristic with no people visible, themes of an automated sentinel inspecting hidden systems. Absolutely no text, letters, words, numbers, code, screens, monitors, labels, logos or writing anywhere in the image",
+  "toyota-texas-truck-plant":
+    "The interior of a vast modern automobile factory, a long assembly line of orange robotic arms poised over bare pickup-truck body shells receding down the hall under bright industrial light, gleaming and orderly with no people visible, themes of a new plant building trucks. Absolutely no text, letters, words, numbers, logos, brand names, badges, signs or writing anywhere in the image",
   "microsoft-4800-ai-layoffs":
     "A vast open-plan office at dusk with long rows of empty desks, darkened monitors and vacant swivel chairs receding into shadow, a single cold shaft of grey light from tall windows, deserted, still and melancholy with no people visible, themes of workers let go and jobs lost to automation. Absolutely no text, letters, words, numbers, screens, logos, brand names, signs or writing anywhere in the image",
   "ukraine-drones-russia-refinery-strike":
