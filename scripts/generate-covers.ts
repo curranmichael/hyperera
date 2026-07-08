@@ -481,6 +481,14 @@ const PROMPT_OVERRIDES: Record<string, string> = {
     "A grand domed legislative capitol at dusk under a brooding stormy sky, in the foreground a completely blank sheet of plain white paper and a capped fountain pen resting on a dark desk, the paper is empty with no writing on it, themes of stalled power and brinkmanship. Absolutely no text, letters, words, handwriting, numbers or writing anywhere in the image",
   "south-africa-world-cup-knockouts":
     "An empty floodlit football stadium at night, the pitch a brilliant green, a lone ball at the centre circle, jubilant emptiness, themes of historic triumph and national pride",
+  "trump-spain-trade-cutoff":
+    "A grand empty international summit hall at dusk, a long polished table and two facing rows of vacant high-backed chairs, two bare unmarked flagpoles standing at opposite ends of the room with a wide gulf of empty floor between them, cool light through tall windows, stately and tense with no people visible, themes of two allied nations severing their ties. Absolutely no text, letters, words, numbers, flags, emblems, logos or writing anywhere in the image",
+  "russia-jams-starlink-ukraine":
+    "A single small satellite dish antenna on a slender tripod standing alone in a bleak muddy field at dusk under a heavy grey overcast sky, a faint shimmer of interference haze in the cold air around it, a distant dark treeline on the flat horizon, tense and desolate with no people visible, themes of a fragile communications link disrupted. Absolutely no text, letters, words, numbers, markings, dials, logos or writing anywhere in the image",
+  "openai-flagship-gpt-launch":
+    "A single glowing filament of warm golden light suspended in a vast dark void, curling and reaching like a spark of life about to leap across a narrow gap between two barely separated points, deep cool blue shadow all around, minimal, awe-inspiring and clean with no people visible, themes of a powerful new mind sparked into being. Absolutely no text, letters, words, numbers, symbols, screens, code, logos or writing anywhere in the image",
+  "congo-ebola-1708-cases":
+    "A row of empty plain smooth pure-white protective medical coverall suits and gloves hanging on a metal rail inside a dim field-clinic tent at dawn, a single folding cot and a stainless tray beside them, the plain undecorated canvas walls completely blank, sombre and clinical with no people visible, themes of health workers bracing against a spreading illness. Every suit is completely plain, smooth and unmarked with no chest patches, no badges, no labels, no zippers-that-look-like-writing and nothing printed on it. Absolutely no text, letters, words, numbers, signs, labels, symbols, markings, patches, stains, graffiti, logos or writing anywhere on the suits, the walls, the tray or anywhere in the image",
 };
 
 async function exists(p: string) {
