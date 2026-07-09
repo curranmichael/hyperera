@@ -23,6 +23,12 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "iran-strikes-gulf-arab-states":
+    "A large oil tanker at sea at dusk with a column of dark smoke and orange flame rising from its deck, seen across a narrow strait of calm water between two hazy arid coastlines of low hills, a few distant vessels on the horizon, tense and ominous with no people visible, themes of ships attacked in a strategic sea passage. Absolutely no text, letters, words, numbers, flags, hull markings, logos or writing anywhere in the image",
+  "houston-ice-shooting-probe":
+    "A single lit candle among a cluster of flowers and pale glass votives forming a makeshift memorial on a city sidewalk at dusk, a soft warm flame glowing against cool blue shadow, a plain brick wall behind, solemn and mournful with no people visible, themes of a life lost and a community grieving and seeking answers. Absolutely no text, letters, words, numbers, signs, placards, photographs, banners, logos or writing anywhere in the image",
+  "spacexai-grok-45-launch":
+    "A single glowing golden filament of light suspended in a vast dark void, curling and reaching like a spark of thought about to leap across a narrow gap between two barely separated points, deep cool blue shadow all around, minimal, awe-inspiring and clean with no people visible, themes of a powerful new mind sparked into being. Absolutely no text, letters, words, numbers, symbols, screens, code, logos or writing anywhere in the image",
   "us-strikes-iran-hormuz-sanctions":
     "A large oil tanker at sea at dusk with a column of dark smoke and orange flame rising from its deck, seen across a narrow strait of calm water between two hazy arid coastlines of low hills, a few distant vessels on the horizon, tense and ominous with no people visible, themes of ships attacked in a strategic sea passage. Absolutely no text, letters, words, numbers, flags, hull markings, logos or writing anywhere in the image",
   "messi-argentina-egypt-world-cup-quarters":
