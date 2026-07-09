@@ -23,6 +23,12 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "ukraine-drone-strikes-russian-fuel":
+    "A large oil tanker at sea at dusk with a column of dark smoke and orange flame rising from its deck, seen across calm open shallow water, a hazy distant coastline of low arid hills, a few small vessels on the horizon, tense and ominous with no people visible, themes of fuel ships struck and set ablaze at sea. Absolutely no text, letters, words, numbers, flags, hull markings, logos or writing anywhere in the image",
+  "eswatini-us-deportees-fourth-group":
+    "A single empty airliner passenger cabin seen down the aisle at dusk, rows of vacant seats in cold blue light, a narrow doorway of pale light at the far end, and beyond a glimpse of an arid southern-African plain through a small window, austere, institutional and lonely with no people visible, themes of people flown far from home to a distant land. Absolutely no text, letters, words, numbers, signs, safety cards, logos or writing anywhere in the image",
+  "mexico-ice-deaths-criminal-complaints":
+    "A single lit candle among a cluster of white flowers and pale glass votives forming a makeshift roadside memorial at dusk, a soft warm flame glowing against cool blue shadow beside a bare wall, solemn and mournful with no people visible, themes of a life lost and a nation demanding justice for its citizens. Absolutely no text, letters, words, numbers, signs, placards, photographs, banners, logos or writing anywhere in the image",
   "openai-gpt-live-launch":
     "Glowing concentric rings of soft blue and gold light rippling outward through deep darkness like sound waves radiating from a single point, a sense of a voice speaking into the void, sleek, minimal and futuristic with no people visible, shallow depth of field, themes of a machine that listens and speaks. Absolutely no text, letters, words, numbers, symbols, waveforms with markings, logos, brand names or writing anywhere in the image",
   "kpmb-yale-drama-school":
