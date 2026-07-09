@@ -23,6 +23,12 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "openai-gpt-live-launch":
+    "Glowing concentric rings of soft blue and gold light rippling outward through deep darkness like sound waves radiating from a single point, a sense of a voice speaking into the void, sleek, minimal and futuristic with no people visible, shallow depth of field, themes of a machine that listens and speaks. Absolutely no text, letters, words, numbers, symbols, waveforms with markings, logos, brand names or writing anywhere in the image",
+  "kpmb-yale-drama-school":
+    "A striking modern performing-arts building at dusk, a pale limestone facade punctuated by rhythmic tall double-glazed windows, a bright vermilion-red steel staircase glowing through the glass at its heart, warm interior light spilling onto a quiet tree-lined street, elegant and theatrical with almost no one about, themes of a new house built for drama. Absolutely no text, letters, words, numbers, signs, banners, logos, brand names or writing anywhere in the image",
+  "lego-world-cup-trophy-build":
+    "A colossal golden trophy sculpture standing many storeys tall in a bright city plaza, its entire form built from countless small interlocking plastic toy building bricks catching the sunlight, a few tiny onlookers far below for scale, playful, monumental and celebratory, themes of a giant prize raised from a million tiny pieces. Absolutely no text, letters, words, numbers, signs, scoreboards, banners, sponsor boards, logos, brand names or writing anywhere in the image",
   "iran-strikes-gulf-arab-states":
     "A large oil tanker at sea at dusk with a column of dark smoke and orange flame rising from its deck, seen across a narrow strait of calm water between two hazy arid coastlines of low hills, a few distant vessels on the horizon, tense and ominous with no people visible, themes of ships attacked in a strategic sea passage. Absolutely no text, letters, words, numbers, flags, hull markings, logos or writing anywhere in the image",
   "houston-ice-shooting-probe":
