@@ -23,6 +23,12 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "khamenei-laid-to-rest-iran-us-strikes":
+    "A vast sombre crowd of mourners dressed in black gathered under a hazy sky in a great public square, hands raised in grief, dark banners and indistinct portraits held aloft above the multitude, dust and soft light over distant domes and minarets, solemn, overwhelming and mournful, themes of a nation burying a long-ruling leader amid war. Absolutely no text, letters, words, numbers, legible portraits, faces, flags, signs, logos or writing anywhere in the image",
+  "white-house-ufc-attack-plot-indictment":
+    "A single small quadcopter drone silhouetted against a deep blue dusk sky above a tall floodlit security fence, cold spotlights raking an empty grassy perimeter, the pale roofline of a grand columned building glimpsed in the far distance, tense, ominous and clandestine with no people visible, shallow depth of field, themes of a foiled plot uncovered around a guarded arena. Absolutely no text, letters, words, numbers, signs, flags, logos, brand names or writing anywhere in the image",
+  "peanut-butter-floor-museum-tribute":
+    "A large empty white museum gallery whose entire floor is covered edge to edge in a smooth glistening expanse of thick brown peanut butter, its slick surface faintly reflecting the bright walls and ceiling lights, one plain doorway beyond, absurd, deadpan and strangely beautiful with no people visible, themes of a provocative conceptual artwork made of an everyday food. Absolutely no text, letters, words, numbers, signs, labels, placards, logos or writing anywhere in the image",
   "ukraine-drone-strikes-russian-fuel":
     "A large oil tanker at sea at dusk with a column of dark smoke and orange flame rising from its deck, seen across calm open shallow water, a hazy distant coastline of low arid hills, a few small vessels on the horizon, tense and ominous with no people visible, themes of fuel ships struck and set ablaze at sea. Absolutely no text, letters, words, numbers, flags, hull markings, logos or writing anywhere in the image",
   "eswatini-us-deportees-fourth-group":
