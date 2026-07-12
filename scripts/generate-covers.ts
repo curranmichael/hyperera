@@ -23,6 +23,8 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "nicaragua-strips-lawyers-dissent":
+    "A deserted, austere courtroom at dusk, a tall empty carved-wood judge's bench in deep shadow, an overturned lawyer's chair and a single bare table below it, a set of brass scales of justice standing to one side catching a cold shaft of grey light, hushed and severe with no people visible, themes of advocates silenced and the law turned against justice. Absolutely no text, letters, words, numbers, inscriptions, emblems, flags, logos or writing anywhere in the image",
   "us-strikes-iran-hormuz-closed":
     "A line of massive oil tankers silhouetted at dusk in a narrow sea strait between two rugged arid coastlines, one distant vessel trailing dark smoke and a faint orange glow on the water, the last red light of sunset glinting on dark oil-sheened sea, tense, vast and ominous with no people visible, themes of shipping imperilled in a strategic passage. Absolutely no text, letters, words, numbers, flags, hull markings, logos or writing anywhere in the image",
   "toronto-street-festival-shooting":
