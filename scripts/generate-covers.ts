@@ -23,6 +23,8 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "gaza-israeli-strikes-civilians":
+    "A single lit white candle among a cluster of pale flowers and small glass votives forming a makeshift memorial at dusk, a soft warm flame glowing against cool blue shadow beside a plain bare wall, hushed, solemn and mournful with no people visible, themes of innocent lives lost in war and a community grieving. Absolutely no text, letters, words, numbers, signs, placards, photographs, banners, flags, symbols, logos or writing anywhere in the image",
   "nicaragua-strips-lawyers-dissent":
     "A deserted, austere courtroom at dusk, a tall empty carved-wood judge's bench in deep shadow, an overturned lawyer's chair and a single bare table below it, a set of brass scales of justice standing to one side catching a cold shaft of grey light, hushed and severe with no people visible, themes of advocates silenced and the law turned against justice. Absolutely no text, letters, words, numbers, inscriptions, emblems, flags, logos or writing anywhere in the image",
   "us-strikes-iran-hormuz-closed":
