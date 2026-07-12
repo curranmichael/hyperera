@@ -23,6 +23,12 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "us-strikes-iran-hormuz-closed":
+    "A line of massive oil tankers silhouetted at dusk in a narrow sea strait between two rugged arid coastlines, one distant vessel trailing dark smoke and a faint orange glow on the water, the last red light of sunset glinting on dark oil-sheened sea, tense, vast and ominous with no people visible, themes of shipping imperilled in a strategic passage. Absolutely no text, letters, words, numbers, flags, hull markings, logos or writing anywhere in the image",
+  "toronto-street-festival-shooting":
+    "A quiet city street at night strung overhead with rows of glowing festival lights and paper lanterns, empty pavement below and a line of low barriers cordoning the scene, cool blue darkness with warm points of bokeh, still and ominous with no people visible, themes of a celebration suddenly emptied and sealed off. Absolutely no text, letters, words, numbers, signs, banners, logos or writing anywhere in the image",
+  "venezuela-earthquake-death-toll-rises":
+    "A collapsed concrete apartment building reduced to broken slabs and twisted rubble under a flat grey overcast sky, pale dust hanging in the still air over a deserted street, sombre and desolate with no people visible, themes of a city thrown down by a great earthquake. Absolutely no text, letters, words, numbers, signs, logos or writing anywhere in the image",
   "khamenei-laid-to-rest-iran-us-strikes":
     "A vast sombre crowd of mourners dressed in black gathered under a hazy sky in a great public square, hands raised in grief, dark banners and indistinct portraits held aloft above the multitude, dust and soft light over distant domes and minarets, solemn, overwhelming and mournful, themes of a nation burying a long-ruling leader amid war. Absolutely no text, letters, words, numbers, legible portraits, faces, flags, signs, logos or writing anywhere in the image",
   "white-house-ufc-attack-plot-indictment":
