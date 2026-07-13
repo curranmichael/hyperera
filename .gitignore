@@ -30,3 +30,6 @@ next-env.d.ts
 
 # vercel
 .vercel
+
+# Edition-bot working files (not committed)
+scratch/
