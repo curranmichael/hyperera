@@ -102,6 +102,1139 @@ export const categoryMeta: Record<
 const stories: Story[] =
 [
   {
+    "slug": "iran-jordan-attack-us-troops-killed",
+    "headline": "Two U.S. troops are killed and one is missing after an Iranian missile and drone attack on forces in Jordan",
+    "overview": "U.S. Central Command said two American service members were killed and one remains missing after Iranian ballistic missile and drone attacks on U.S. and partner forces in Jordan, with four others wounded and later discharged. The deaths raise the U.S. toll in the war with Iran to 16 as a preliminary ceasefire has collapsed, Washington has reimposed a blockade of Iranian ports, and Tehran has declared the Strait of Hormuz closed. Iran's supreme leader, Mojtaba Khamenei, said the U.S. president's signature was 'worthless' and warned of further escalation.",
+    "genre": "Conflict",
+    "sources": [
+      {
+        "name": "AP",
+        "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbS1jN0tZcUtrbk9GU3RKeUxqTHM1Qk5DUDF1VDBVOUVqaVp4QV8xWGhEMmtFV3JRRDc1SXlxalZwcElvUlBXQk13R1NPdW91eUFNRF9UT3JRM3ZHTC03a2ZaZmg0Z2tJdXdCRjVMUml0eWtTSWFLU2U5WGxIMHBNSG1hb2dTS3VLak0zVXdZdHhKY1duRml2MW9Ea0xxVlU?oc=5"
+      },
+      {
+        "name": "BBC",
+        "href": "https://www.bbc.co.uk/news/articles/cn8nynv8ze8o"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-18",
+    "image": {
+      "src": "/covers/iran-jordan-attack-us-troops-killed.png",
+      "alt": "A Patriot air-defense missile streaks skyward from its launcher during a live firing.",
+      "credit": "U.S. Department of Defense. Public domain, via Wikimedia Commons."
+    },
+    "lead": true,
+    "edition": "Evening Edition · 18 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "In 53 BC the Roman commander Crassus led some 40,000 legionaries deep into Mesopotamia against the Parthian Empire, the Iranian power of antiquity. On the parched plain of Carrhae, Parthian horse-archers wheeled out of range and buried the massed Romans under an unending rain of arrows; when Crassus sent his son Publius to break the encirclement, Publius was cut off and killed, and the enemy paraded his severed head on a spear before his father's eyes. Perhaps twenty thousand Romans died in the dust, bewailing an inglorious death, and the disaster opened centuries of ruinous war between Rome and the East. Like the American service members killed in Jordan by Iranian missiles and drones, Carrhae is the archetype of soldiers dying on distant eastern soil under the projectile weapons of an Iranian power, an outpost catastrophe that dragged two nations into open and lasting war.",
+        "excerpt": "But here, where the inequality of the ground raised one man above another, and lifted every man who was behind another into greater prominence, there was no such thing as escape, but they were all alike hit with arrows, bewailing their inglorious and ineffectual death. ... Then the Parthians cut off the head of Publius, and rode off at once to attack Crassus.",
+        "source": "Plutarch, Life of Crassus 25, trans. Bernadotte Perrin (Loeb Classical Library, 1916); on the Perseus Digital Library.",
+        "href": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0038:chapter=25",
+        "image": {
+          "src": "/covers/iran-jordan-attack-us-troops-killed--a0.png",
+          "alt": "Engraving of the death of Crassus amid falling Roman soldiers at the Battle of Carrhae.",
+          "credit": "Death of Crassus at the Battle of Carrhae, engraving from Cassell's Illustrated Universal History, vol. 3, 1882. Public domain, via Wikimedia Commons."
+        }
+      },
+      {
+        "category": "historical",
+        "title": "On the morning of October 23, 1983, a truck laden with explosives equivalent to some 12,000 pounds of TNT drove into the U.S. Marine barracks at Beirut International Airport and detonated, lifting the four-story building off its foundations before it collapsed on the men sleeping inside. Two hundred forty-one American service members were killed, the Marine Corps' deadliest single day since Iwo Jima. Investigators tied the bombing to Iran-backed operatives, and a U.S. intelligence intercept captured Iranian officials directing their embassy in Damascus to take 'spectacular action against the American Marines' days before the blast. Like the troops killed in Jordan, these were Americans deployed to a far-off Middle Eastern mission and struck down by Iran-linked violence, a nation once again grieving soldiers who fell in an undeclared shadow war.",
+        "excerpt": "On October 23, 1983, a truck bomb destroyed the U.S. Marine barracks in Beirut, killing 241 American service members. A federal court later found Iran's Ministry of Information and Security and its proxies responsible, and a September 1983 intercept showed Iranian intelligence directing 'spectacular action against the American Marines.' It remained the deadliest day for the Marine Corps since the Battle of Iwo Jima.",
+        "source": "1983 Beirut barracks bombings (U.S. Marine Corps and federal court records, summarized).",
+        "href": "https://en.wikipedia.org/wiki/1983_Beirut_barracks_bombings",
+        "image": {
+          "src": "/covers/iran-jordan-attack-us-troops-killed--a1.png",
+          "alt": "Column of smoke rising over Beirut after the explosion that destroyed the U.S. Marine barracks, October 23, 1983.",
+          "credit": "U.S. Marine Corps photograph of the Beirut barracks explosion, October 23, 1983. Public domain, via Wikimedia Commons."
+        }
+      },
+      {
+        "category": "literary",
+        "title": "In the fourth book of the Iliad, Homer pauses the clamor of the whole army to mark a single death: young Simoisius, born by the river Simois, struck down by the great spear of Ajax as he strode among the front rank. Homer likens the falling youth to a smooth poplar felled in a marsh, and grieves that he never lived to repay his parents for the care of his rearing, his life cut brief. The passage is the epic's tenderness toward the individual soldier lost in a mass of anonymous slaughter. It rhymes exactly with the American dead in Jordan: young lives cut short far from home, struck down among their comrades, unable ever to return to the families who raised them.",
+        "excerpt": "Then Telamonian Aias smote Anthemion's son, the lusty youth Simoeisius, whom on a time his mother had born beside the banks of Simois, as she journeyed down from Ida, whither she had followed with her parents to see their flocks. For this cause they called him Simoeisius; yet paid he not back to his dear parents the recompense of his upbringing, and but brief was the span of his life, for that he was laid low by the spear of great-souled Aias. For, as he strode amid the foremost, he was smitten on the right breast beside the nipple; and clean through his shoulder went the spear of bronze, and he fell to the ground in the dust like a poplar tree.",
+        "source": "Homer, Iliad, Book 4, trans. A. T. Murray (Loeb Classical Library, 1924); on the Perseus Digital Library.",
+        "href": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0134:book=4:card=473"
+      },
+      {
+        "category": "literary",
+        "title": "Laurence Binyon wrote 'For the Fallen' in September 1914, weeks into the First World War, sitting on the Cornish cliffs as the first British casualty lists came home from the retreat at Mons. Its central stanzas became the Ode of Remembrance, recited every year at war memorials across the Commonwealth: the soldiers who went with songs to the battle and fell with their faces to the foe, who shall grow not old as the living grow old. Binyon fixes the paradox of the war dead, forever young, forever remembered at the going down of the sun. For the two Americans killed in Jordan and the sixteen now lost in the war with Iran, it is the language a nation reaches for when it must grieve the fallen and vow to remember them.",
+        "excerpt": "They went with songs to the battle, they were young,\nStraight of limb, true of eye, steady and aglow.\nThey were staunch to the end against odds uncounted;\nThey fell with their faces to the foe.\n\nThey shall grow not old, as we that are left grow old,\nAge shall not weary them, nor the years condemn.\nAt the going down of the sun and in the morning\nWe will remember them.",
+        "source": "Laurence Binyon, 'For the Fallen,' first published in The Times, 21 September 1914; text on Wikisource.",
+        "href": "https://en.wikisource.org/wiki/The_Times/1914/Arts/For_the_Fallen"
+      },
+      {
+        "category": "artistic",
+        "title": "Benjamin West's 1770 painting The Death of General Wolfe shows the British commander James Wolfe expiring on the Plains of Abraham at Quebec, cradled in the arms of grieving officers as a runner sprints in with news of victory too late to reach him. West scandalized the academy by dressing his figures in contemporary uniforms rather than classical robes, insisting a modern soldier's death deserved the grandeur of history painting, and he composed the scene as a secular lamentation over a fallen leader, a pietà in a red coat. It became the defining image of the soldier who dies far from home in the moment of his country's triumph. Its hushed circle of mourners around the dying man mirrors the grief now gathering around American service members killed on distant ground in Jordan.",
+        "excerpt": "West arranges a ring of soldiers, officers, and a Native scout around the pale, dying general, a composition consciously echoing a Lamentation over the dead Christ. The whole picture is built to make the viewer mourn a single fallen soldier as a figure of sacrifice, elevating a death on foreign soil into an object of national reverence.",
+        "source": "Benjamin West, The Death of General Wolfe, 1770, oil on canvas; National Gallery of Canada, Ottawa.",
+        "href": "https://commons.wikimedia.org/wiki/File:Benjamin_West_005.jpg",
+        "image": {
+          "src": "/covers/iran-jordan-attack-us-troops-killed--a4.png",
+          "alt": "Painting of General Wolfe dying on the battlefield, surrounded by mourning officers and soldiers.",
+          "credit": "Benjamin West, The Death of General Wolfe, 1770; National Gallery of Canada, Ottawa. Public domain, via Wikimedia Commons."
+        }
+      },
+      {
+        "category": "artistic",
+        "title": "Maurice Ravel composed Le Tombeau de Couperin between 1914 and 1917 while the First World War consumed the friends of his youth, and he dedicated each of its six movements to the memory of a comrade killed at the front, from Lieutenant Jacques Charlot to the brothers Pierre and Pascal Gaudin killed by the same shell. Rather than write a dirge, Ravel cast the memorial as a bright baroque dance suite, and when a critic complained it was too gay for the dead he replied that the dead are sad enough in their eternal silence. The elegance of the music becomes its grief, each graceful movement a headstone bearing a fallen friend's name. It is a model of how art transmutes the loss of soldiers into remembrance, fitting for a moment when America counts its own war dead and searches for how to hold them.",
+        "excerpt": "Le Tombeau de Couperin is a memorial in the guise of a dance suite: its Prelude, Fugue, Forlane, Rigaudon, Menuet, and Toccata are each inscribed to a friend of Ravel's who died in the First World War. The music's poised, luminous grace, rather than any funeral solemnity, carries the weight of mourning for the fallen.",
+        "source": "Maurice Ravel, Le Tombeau de Couperin (1914-1917); score on IMSLP / Petrucci Music Library.",
+        "href": "https://imslp.org/wiki/Le_tombeau_de_Couperin_(Ravel,_Maurice)",
+        "image": {
+          "src": "/covers/iran-jordan-attack-us-troops-killed--a5.png",
+          "alt": "Photographic portrait of the composer Maurice Ravel, circa 1925.",
+          "credit": "Maurice Ravel, photographed c. 1925. Public domain, via Wikimedia Commons."
+        }
+      }
+    ],
+    "rank": 1
+  },
+  {
+    "slug": "hungary-president-sulyok-stands-down",
+    "headline": "Hungary's president, Tamas Sulyok, agrees to step down after parliament forces a constitutional amendment",
+    "overview": "Hungarian President Tamas Sulyok signed a constitutional amendment that ends his presidency at midnight on Sunday, bowing to a law that Prime Minister Peter Magyar's Tisza party pushed through parliament to oust him. Sulyok, widely seen as a loyalist of former prime minister Viktor Orban, accused the government of violating the rule of law and called the change a 'breaking point in Hungarian constitutional democracy.' Orban, whose party lost power in April after 16 years, denounced the amendment as an act of tyranny.",
+    "genre": "Politics",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRExvZWZaR0NUN0NMcHg1UTR0TnMwWC1aYlhTcW9XamNiSHVxU1JFa1pMMnc0cWkxNEdGVS1rU2F3Ui04YjFjUmtlaXEyTXdFVmtwYkZmbmdsdFJqSVg2TzNuZlJ2Nnc3cWtwenB0SGdTWlZfUWhIYlRTWTdEcV9QcjRVblBmT293YlZoZW5PdW5rczMwZVFROERVdVFkbmZWX2c?oc=5"
+      },
+      {
+        "name": "BBC",
+        "href": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-18",
+    "image": {
+      "src": "/covers/hungary-president-sulyok-stands-down.png",
+      "alt": "The Hungarian Parliament Building on the bank of the Danube in Budapest.",
+      "credit": "Ercsaba74 / Wikimedia Commons"
+    },
+    "edition": "Evening Edition · 18 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "In 509 BC, according to Livy, the Romans rose against their last king, Lucius Tarquinius Superbus. Roused by Lucius Junius Brutus, the assembled people voted to strip the king of his authority and pass an act of banishment against him; the city gates were shut in his face and the monarchy itself was abolished, replaced by two annually elected consuls. A single legal act ended a reign and remade the constitution of the state. Like Tamas Sulyok, a ruler tied to the old order was cast out not by the sword but by a formal vote of a new sovereign majority, which then rebuilt the offices of power in its own image.",
+        "excerpt": "he persuaded the multitude, already incensed, to deprive the king of his authority, and to order the banishment of L. Tarquin with his wife and children... The gates were shut against Tarquin, and an act of banishment passed against him; the deliverer of the state the camp received with great joy, and the king's sons were expelled... Lucius Tarquin the Proud reigned twenty-five years: the regal form of government continued from the building of the city to this period of its deliverance, two hundred and forty-four years. Two consuls, viz. Lucius Junius Brutus and Lucius Tarquinius Collatinus, were elected by the prefect of the city at the comitia by centuries, according to the commentaries of Servius Tullius.",
+        "source": "Livy, History of Rome, Book I.59-60 (trans. D. Spillan)",
+        "href": "https://www.gutenberg.org/cache/epub/19725/pg19725.txt"
+      },
+      {
+        "category": "historical",
+        "title": "On August 9, 1974, facing near-certain impeachment by a Congress that had turned against him over Watergate, U.S. President Richard Nixon signed a one-sentence letter resigning the office he had won by landslide two years earlier. It was a peaceful but coerced departure: the legislature's power to remove had made his position untenable, and he left rather than be stripped of office by trial. The transfer of power was orderly, yet everyone understood it was compelled. As with Sulyok, a head of state surrendered his office to the constitutional machinery of a hostile majority, framing a legal removal as the price the rule of law exacted from him.",
+        "excerpt": "Dear Mr. Secretary: I hereby resign the Office of President of the United States. Sincerely, Richard Nixon",
+        "source": "Letter of Resignation of Richard M. Nixon, August 9, 1974 (U.S. National Archives)",
+        "href": "https://www.archives.gov/exhibits/american_originals/nixon2.html",
+        "image": {
+          "src": "/covers/hungary-president-sulyok-stands-down--a1.png",
+          "alt": "Nixon's typed one-sentence resignation letter with his signature, dated August 9, 1974",
+          "credit": "Letter of Resignation of Richard M. Nixon, 1974. U.S. National Archives and Records Administration, via Wikimedia Commons (public domain)"
+        }
+      },
+      {
+        "category": "literary",
+        "title": "In Shakespeare's Richard II, the deposed king is brought before Parliament and made to hand his crown to Henry Bolingbroke. In the great deposition scene he performs his own unmaking line by line, giving away the weight from his head, the sceptre from his hand, and his decrees and statutes, until he is 'unking'd Richard.' The passage turns a raw seizure of power into a ritual of self-abdication, staged for a triumphant new regime. Sulyok's forced signing of the amendment that ended his own presidency echoes Richard's bitter, ceremonial surrender: a ruler compelled to undo himself with his own hand while calling the act a wound to the very order that anointed him.",
+        "excerpt": "Now mark me how I will undo myself:\nI give this heavy weight from off my head,\nAnd this unwieldy sceptre from my hand,\nThe pride of kingly sway from out my heart;\nWith mine own tears I wash away my balm,\nWith mine own hands I give away my crown,\nWith mine own tongue deny my sacred state,\nWith mine own breath release all duteous rites:\nAll pomp and majesty I do forswear;\nMy manors, rents, revenues, I forgo;\nMy acts, decrees, and statutes I deny:\nGod pardon all oaths that are broke to me!\nGod keep all vows unbroke are made to thee!\nMake me, that nothing have, with nothing griev'd,\nAnd thou with all pleas'd, that hast all achiev'd!\nLong mayst thou live in Richard's seat to sit,\nAnd soon lie Richard in an earthy pit!\nGod save King Henry, unking'd Richard says,\nAnd send him many years of sunshine days!",
+        "source": "William Shakespeare, Richard II, Act IV, Scene 1 (Yale edition, 1921)",
+        "href": "https://en.wikisource.org/wiki/Richard_II_(1921)_Yale/Text/Act_IV"
+      },
+      {
+        "category": "literary",
+        "title": "In Boethius's sixth-century Consolation of Philosophy, written while its author awaited execution after falling from imperial favor, Fortune herself speaks in her own defense. She insists that raising the low and casting down the mighty is simply the game she never ceases to play, turning her wheel without apology, and points to toppled kings like Croesus and Perseus as proof that no throne is exempt. The overthrow of kingdoms, she says, is the very stuff of tragedy. Sulyok's abrupt fall from the presidency, on the heels of Orban's party losing power after sixteen years, is exactly this turning of the wheel: those who mounted high must not think it a hardship to come down when the rules of the game require it.",
+        "excerpt": "This is my art, this the game I never cease to play. I turn the wheel that spins. I delight to see the high come down and the low ascend. Mount up, if thou wilt, but only on condition that thou wilt not think it a hardship to come down when the rules of my game require it... What else do tragedies make such woeful outcry over save the overthrow of kingdoms by the indiscriminate strokes of Fortune?",
+        "source": "Boethius, The Consolation of Philosophy, Book II (trans. H. R. James)",
+        "href": "https://www.gutenberg.org/cache/epub/14328/pg14328.txt"
+      },
+      {
+        "category": "artistic",
+        "title": "Paul Delaroche's 1840 painting 'Napoleon I at Fontainebleau on 31 March 1814' shows the emperor slumped in a chair, boots muddy, hat fallen to the floor, staring into ruin at the moment his cause has collapsed. Within days the French Senate would formally decree his deposition and he would abdicate, the towering ruler undone not on a battlefield but by an act of the legislature and the desertion of his own establishment. Delaroche captures the private desolation behind a public fall from supreme power. The image mirrors Sulyok's position at the story's center: a figure of the old regime, isolated and stripped of office, contemplating the abrupt end of an era of dominance.",
+        "excerpt": "Delaroche paints the deposed emperor alone in a bare room, his body sagging with exhaustion and defeat, the discarded hat and disordered dress signaling collapsed majesty. The face is inward and stricken, all command drained away. It is a portrait not of battle but of the silent instant when supreme power slips irrecoverably from a ruler's hands.",
+        "source": "Paul Delaroche, Napoleon I at Fontainebleau on 31 March 1814 (1840), Musée de l'Armée, Paris",
+        "href": "https://www.napoleon.org/en/history-of-the-two-empires/paintings/napoleon-i-at-fontainebleau-31-march-1814/",
+        "image": {
+          "src": "/covers/hungary-president-sulyok-stands-down--a4.png",
+          "alt": "Napoleon sitting dejected in a chair at Fontainebleau, hat on the floor, after his defeat",
+          "credit": "Paul Delaroche, Napoleon I at Fontainebleau on 31 March 1814 (1840), Musée de l'Armée, via Wikimedia Commons (public domain)"
+        }
+      },
+      {
+        "category": "artistic",
+        "title": "Handel's 1739 oratorio 'Saul' dramatizes the ruin of Israel's first king, the anointed sovereign whom God rejects in favor of the young David. Consumed by jealousy as his rival's star rises, Saul clings to a throne that divine favor has already withdrawn, and the work builds toward his downfall and the solemn 'Dead March' over his corpse. It is a study of a legitimate ruler displaced when authority passes to the ascendant successor, the old order giving way to the new. Rembrandt's brooding painting of Saul and David captures the same jealous, doomed king; together they echo Sulyok's fate as a loyalist of a fallen power, pushed aside as a triumphant new leadership takes command.",
+        "excerpt": "Handel's oratorio traces the reigning king's slide from glory into jealousy and collapse as favor shifts to his rival, culminating in the grave, tolling music of the 'Dead March' that mourns a fallen monarch. The score sets a ruler's downfall as high tragedy, the anointed head of state undone as power visibly transfers to his successor. Rembrandt's paired image renders the same brooding, displaced king wiping away a tear as the young harpist plays.",
+        "source": "George Frideric Handel, Saul, HWV 53 (1739); image: Rembrandt, Saul and David (c. 1651-58), Mauritshuis",
+        "href": "https://imslp.org/wiki/Saul,_HWV_53_(Handel,_George_Frideric)",
+        "image": {
+          "src": "/covers/hungary-president-sulyok-stands-down--a5.png",
+          "alt": "Rembrandt's painting of a brooding King Saul wiping his eye with a curtain while David plays the harp",
+          "credit": "Rembrandt van Rijn, Saul and David (c. 1651-58), Mauritshuis, The Hague, via Wikimedia Commons (public domain)"
+        }
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "slug": "germany-spahn-surrogacy-resignation",
+    "headline": "German coalition leader Jens Spahn resigns over his use of a U.S. surrogate to have a child",
+    "overview": "Jens Spahn, parliamentary group leader of Germany's governing Christian Democrats and a former health minister, resigned after facing accusations of hypocrisy over having a child through a surrogate mother in the United States. Surrogacy is banned in Germany, a policy his CDU party and Spahn himself had previously backed, though raising a child born to a surrogate abroad is legal. Chancellor Friedrich Merz called the decision 'right' and 'inevitable,' saying 'credibility is the highest asset in politics.'",
+    "genre": "Politics",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRVpqcGdjVlJvaUlMRXJLd1Y4dFBoamtNV2Y3WHZ5aXBJS29tY2F6a1NWRHl2OE9hM2lXeF9SRk5CNzlWeVpuRVAzYWprU25MRGdUTHVCS29vNWRacWJ5Nk53Qy1wMTF5M005Ri1OOVI2MzBlS19JdnJ0NjRmdTdhTnBBMDl1cmQweHdPWThXVDZWcGhfUGtqS1l6dHVNMGM5YlRRU1IyWXBER2FzbndyRlM4VQ?oc=5"
+      },
+      {
+        "name": "BBC",
+        "href": "https://www.bbc.co.uk/news/articles/cq56e9n1ddzo"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-18",
+    "image": {
+      "src": "/covers/germany-spahn-surrogacy-resignation.png",
+      "alt": "German Christian Democrat politician Jens Spahn.",
+      "credit": "Olaf Kosinsky / Wikimedia Commons"
+    },
+    "edition": "Evening Edition · 18 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "In Nero's Rome, the Stoic philosopher Seneca was revered as the age's great moral teacher, a man who filled his essays with praise of poverty, self-denial, and indifference to riches. Yet within four years at court he had amassed a fortune of three hundred million sesterces, and in 58 AD the veteran senator Publius Suillius rose in public to demand by what philosophy a preacher of simplicity had grown so colossally rich. The charge that stuck was not fraud but hypocrisy: the moralist who did not live his own maxims. Like Jens Spahn, whose party made a virtue of banning surrogacy while he quietly used one abroad, Seneca embodies the oldest political vulnerability of all, the gap between the doctrine a man teaches in public and the life he leads in private.",
+        "excerpt": "By what kind of wisdom or maxims of philosophy had Seneca within four years of royal favour amassed three hundred million sesterces? At Rome the wills of the childless were, so to say, caught in his snare while Italy and the provinces were drained by a boundless usury. His own money, on the other hand, had been acquired by industry and was not excessive.",
+        "source": "Tacitus, Annals, Book XIII.42 (trans. Church & Brodribb)",
+        "href": "https://en.wikisource.org/wiki/The_Annals_(Tacitus)/Book_13",
+        "image": {
+          "src": "/covers/germany-spahn-surrogacy-resignation--a0.png",
+          "alt": "Ancient Roman double herm showing the clean-shaven Stoic philosopher Seneca the Younger joined back-to-back with a bearded Socrates.",
+          "credit": "Double Herm of Socrates and Seneca, Antikensammlung, Berlin; photograph via Wikimedia Commons."
+        }
+      },
+      {
+        "category": "historical",
+        "title": "Eliot Spitzer built his entire public identity as New York's crusading attorney general, the self-styled 'Sheriff of Wall Street' who prosecuted prostitution rings and even signed a 2007 law lengthening the jail term for men who patronized prostitutes. In March 2008, a federal wiretap revealed that Spitzer, by then governor, had himself paid more than eighty thousand dollars to a high-end escort agency; within days he resigned. The scandal detonated not because prostitution was exotic but because he had personally enforced the very rule he was breaking. Spitzer is the modern template for Spahn: the official undone not by the act itself but by the exact contradiction between the standard he imposed on others and the exemption he claimed for himself.",
+        "excerpt": "The crusading prosecutor who had made his name policing the sins of others was caught paying a premium escort service, and the wiretap transcripts turned his righteous public brand into a punchline overnight. He had signed a law stiffening penalties for men who did exactly what he was doing, and that symmetry, more than the sex, forced his resignation. His downfall became shorthand for the moralist hoisted on his own statute.",
+        "source": "Eliot Spitzer prostitution scandal (2008), contemporaneous reporting",
+        "href": "https://en.wikipedia.org/wiki/Eliot_Spitzer_prostitution_scandal",
+        "image": {
+          "src": "/covers/germany-spahn-surrogacy-resignation--a1.png",
+          "alt": "Portrait photograph of Eliot Spitzer speaking, dark suit and tie, during his tenure as a New York official.",
+          "credit": "Eliot Spitzer; photograph via Wikimedia Commons."
+        }
+      },
+      {
+        "category": "literary",
+        "title": "Molière's 1664 comedy Tartuffe is the definitive stage portrait of the pious fraud: a man who cloaks naked appetite for money and a married woman beneath ostentatious displays of devotion, and who very nearly ruins the household that took him in. In this speech the level-headed Cléante warns Orgon not to confuse the mask of virtue with the face of it, distinguishing counterfeit sanctity from the real thing as sharply as counterfeit from honest coin. The play was so threatening to the devout establishment of its day that it was banned for years. Spahn, a leader of a party that draped the surrogacy ban in the language of moral principle, stands accused of exactly Cléante's charge: wearing the honoured mask while quietly living otherwise.",
+        "excerpt": "What! Will you find no difference between\nHypocrisy and genuine devoutness?\nAnd will you treat them both alike, and pay\nThe self-same honour both to masks and faces\nSet artifice beside sincerity,\nConfuse the semblance with reality,\nEsteem a phantom like a living person,\nAnd counterfeit as good as honest coin?\nMen, for the most part, are strange creatures, truly!",
+        "source": "Molière, Tartuffe; or, The Hypocrite, Act I (trans. Curtis Hidden Page, 1908)",
+        "href": "https://www.gutenberg.org/cache/epub/2027/pg2027-images.html"
+      },
+      {
+        "category": "literary",
+        "title": "In Shakespeare's Measure for Measure, the deputy Angelo is installed as Vienna's rigid enforcer of morality, reviving a dead law that condemns a young man to death for fornication. Then Isabella, the condemned man's chaste sister, comes to plead for mercy, and the puritan discovers to his horror that he lusts after her precisely because she is virtuous. In this soliloquy he watches his own austere self-image collapse in real time, appalled that the strictest judge is himself the sinner. Angelo is the archetype Spahn now inhabits: the public moralist who enforces a prohibition on others while, in private, the same human desire he condemned proves stronger than the principle he preached.",
+        "excerpt": "What's this, what's this? Is this her fault or mine?\nThe tempter or the tempted, who sins most? Ha!\nNot she; nor doth she tempt: but it is I\nThat, lying by the violet in the sun,\nDo as the carrion does, not as the flower,\nCorrupt with virtuous season. Can it be\nThat modesty may more betray our sense\nThan woman's lightness? Having waste ground enough,\nShall we desire to raze the sanctuary,\nAnd pitch our evils there? O, fie, fie, fie!\nWhat dost thou, or what art thou, Angelo?\nDost thou desire her foully for those things\nThat make her good?",
+        "source": "William Shakespeare, Measure for Measure, Act II, Scene 2",
+        "href": "https://www.gutenberg.org/files/23045/23045-h/23045-h.htm"
+      },
+      {
+        "category": "artistic",
+        "title": "William Hogarth's 1762 engraving Credulity, Superstition, and Fanaticism crams a church interior with a ranting preacher, swooning worshippers, and dangling puppet-idols, a ferocious satire of religious 'enthusiasm' as theatre and fraud. A thermometer of faith, witches, and grotesque props expose the sanctimony on display as pure performance, the outward show of piety with nothing true beneath it. Hogarth strips the mask from public godliness exactly as Cléante does in Tartuffe, indicting the manufacture of moral display. It reads as a period emblem for the Spahn affair: a governing party that wrapped a ban in the vestments of Christian moral seriousness, and a leader whose private conduct made the display look like just that, a display.",
+        "excerpt": "A cavernous church swarms with a preacher whipping his flock into hysteria, worshippers clutching idols and fainting in the pews, every gauge and prop of piety turned into stagecraft. Hogarth loads the frame with instruments that measure faith like fever, so that devotion registers as spectacle rather than substance. The whole scene is an anatomy of sanctimony exposed as show.",
+        "source": "William Hogarth, Credulity, Superstition, and Fanaticism, engraving, 1762",
+        "href": "https://commons.wikimedia.org/wiki/File:William_Hogarth_-_Credulity,_Superstition,_and_Fanaticism.png",
+        "image": {
+          "src": "/covers/germany-spahn-surrogacy-resignation--a4.png",
+          "alt": "Crowded 18th-century satirical engraving of a church where a preacher incites a frenzied congregation clutching idols and swooning amid grotesque props.",
+          "credit": "William Hogarth, Credulity, Superstition, and Fanaticism (1762); via Wikimedia Commons."
+        }
+      },
+      {
+        "category": "artistic",
+        "title": "Mozart's 1787 opera Don Giovanni dramatizes a nobleman of boundless private appetite who refuses every summons to repent, until the stone statue of a man he wronged arrives at his table and drags him down to hell. Max Slevogt's electric 1912 portrait known as 'The Red d'Andrade' captures the singer Francisco d'Andrade mid-defiance in that final reckoning, sword and cape flung out against the dark. The opera is the archetypal fable of a public man whose private conduct collides, catastrophically, with the moral order he flouts, the clash between personal pleasure and duty resolved by a fall. It maps onto Spahn's undoing, where a private choice pursued abroad became the pivot on which a public career toppled and 'credibility,' as Chancellor Merz put it, revealed itself as the highest asset a politician holds.",
+        "excerpt": "Slevogt paints the baritone as Don Giovanni caught in the graveyard confrontation, body torqued in theatrical defiance, red-lined cape slashing across a shadowed stage. The brushwork is loose and headlong, all motion and bravado on the very brink of the reckoning that will pull the libertine down. It freezes the instant when private license finally meets public judgment.",
+        "source": "W. A. Mozart, Don Giovanni, K.527 (1787); painting by Max Slevogt (1912)",
+        "href": "https://imslp.org/wiki/Don_Giovanni,_K.527_(Mozart,_Wolfgang_Amadeus)",
+        "image": {
+          "src": "/covers/germany-spahn-surrogacy-resignation--a5.png",
+          "alt": "Loosely painted 1912 portrait of baritone Francisco d'Andrade costumed as Don Giovanni, cape flying, in a dramatic defiant pose on a darkened stage.",
+          "credit": "Max Slevogt, Francisco d'Andrade as Don Giovanni ('The Red d'Andrade'), 1912, Alte Nationalgalerie, Berlin; via Wikimedia Commons."
+        }
+      }
+    ],
+    "rank": 3
+  },
+  {
+    "slug": "laos-methanol-tourist-deaths-ruling",
+    "headline": "Laos says it cannot determine a cause for six tourist deaths from methanol-tainted alcohol in Vang Vieng",
+    "overview": "Laos's Ministry of Public Security said it could not establish blame or cause for the November 2024 deaths of six foreign tourists linked to methanol-laced alcohol in Vang Vieng, because no autopsies were conducted on the bodies. The victims, a Briton, two Australians, two Danes and an American, died after a night out; a distillery owner faces charges for selling harmful products and operating illegally, but not for the deaths. Australia summoned the Laotian ambassador, saying it was 'deeply frustrated and bitterly disappointed' that more serious charges were not pursued.",
+    "genre": "Culture",
+    "sources": [
+      {
+        "name": "BBC",
+        "href": "https://www.bbc.co.uk/news/articles/cdx8rj99endo"
+      },
+      {
+        "name": "CP24",
+        "href": "https://www.cp24.com/news/world/2026/07/18/laos-tourists-authorities-cannot-determine-if-deaths-linked-to-tainted-alcohol/"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-18",
+    "image": {
+      "src": "/covers/laos-methanol-tourist-deaths-ruling.png",
+      "alt": "The karst mountains and Nam Song river at Vang Vieng, Laos.",
+      "credit": "Jialiang Gao / Wikimedia Commons"
+    },
+    "edition": "Evening Edition · 18 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "In the autumn of 1858 a Bradford stallholder known as \"Humbug Billy\" sold peppermint humbugs that a druggist's fatal error had sweetened with arsenic trioxide instead of harmless powdered gypsum. Around twenty people, many of them children, died in agony and more than two hundred more were poisoned. The druggist, his assistant and the sweet-maker were all arrested, and all three were acquitted after the court found that no existing law had been broken. Like the six travellers in Vang Vieng, the Bradford dead were killed by a tainted everyday indulgence, and their grieving families watched the machinery of justice grind to a halt without ever assigning blame.",
+        "excerpt": "About five pounds of sweets, adulterated by mistake with roughly twelve pounds of arsenic, reached the public through a market stall; some twenty people died and more than two hundred fell ill. Though three men were charged, the judge ruled the poisoning purely accidental and directed acquittals, leaving no one answerable for the deaths. The scandal shocked the nation and helped drive the Pharmacy Act of 1868, but the dead of Bradford received reform rather than justice.",
+        "source": "The 1858 Bradford sweets poisoning; John Leech's cartoon 'The Great Lozenge-Maker,' Punch, 20 November 1858.",
+        "href": "https://en.wikipedia.org/wiki/1858_Bradford_sweets_poisoning",
+        "image": {
+          "src": "/covers/laos-methanol-tourist-deaths-ruling--a0.png",
+          "alt": "A skeletal figure of Death grinds poison with a giant pestle and mortar amid barrels of arsenic, in John Leech's 1858 Punch cartoon satirising the Bradford sweets poisoning.",
+          "credit": "John Leech, 'The Great Lozenge-Maker. A Hint to Paterfamilias,' Punch, 1858. Public domain, via Wikimedia Commons."
+        }
+      },
+      {
+        "category": "historical",
+        "title": "During American Prohibition the federal government, unable to stop bootleggers from re-distilling stolen industrial alcohol, ordered that spirit laced with ever-larger doses of methanol and other poisons. Over the Christmas holiday of 1926 dozens collapsed in New York, and by the era's end as many as 10,000 people are estimated to have died from the adulterated drink. New York's chief medical examiner Charles Norris denounced the policy as \"our noble experiment in extermination,\" yet no official was ever punished for the deaths. As in Laos, a poisoned drink killed the unsuspecting, and the authorities who might have answered for it instead retreated behind a wall of impunity.",
+        "excerpt": "To thwart bootleggers, the Treasury ordered industrial alcohol denatured with a deadly formula heavy in methanol; the poison could not be fully filtered out, and drinkers went blind or died. In New York alone hundreds died in a single year, and critics from Columbia's Nicholas Murray Butler to medical examiner Charles Norris condemned what one called \"legalized murder.\" No one in government was ever held to account, and the toll mounted quietly until repeal in 1933.",
+        "source": "The 'Chemist's War' of Prohibition, 1926-1933; see Deborah Blum, 'The Chemist's War,' Slate, 19 February 2010.",
+        "href": "https://slate.com/technology/2010/02/the-little-told-story-of-how-the-u-s-government-poisoned-alcohol-during-prohibition.html",
+        "image": {
+          "src": "/covers/laos-methanol-tourist-deaths-ruling--a1.png",
+          "alt": "Prohibition agents pour confiscated liquor into a sewer as a police commissioner looks on, New York, around 1921.",
+          "credit": "New York City Deputy Police Commissioner John A. Leach watching agents pour liquor into a sewer, c.1921. Library of Congress, via Wikimedia Commons."
+        }
+      },
+      {
+        "category": "literary",
+        "title": "In the final scene of Shakespeare's tragedy, Romeo, believing Juliet dead, drinks a phial of poison bought from a destitute apothecary and dies beside her in the Capulet tomb. His last words toast his love and salute the swift, sure work of the drug before a kiss seals his end. Written more than four centuries ago, the passage distils the horror of a young life ended by a swallowed poison, the same fate that overtook six travellers who raised a glass in Vang Vieng and never woke.",
+        "excerpt": "Eyes, look your last!\nArms, take your last embrace! and, lips, O you\nThe doors of breath, seal with a righteous kiss\nA dateless bargain to engrossing death!\nCome, bitter conduct, come, unsavoury guide!\nThou desperate pilot, now at once run on\nThe dashing rocks thy sea-sick weary bark!\nHere's to my love! [Drinks] O true apothecary!\nThy drugs are quick. Thus with a kiss I die.",
+        "source": "William Shakespeare, Romeo and Juliet, Act V, Scene 3 (c.1595).",
+        "href": "http://shakespeare.mit.edu/romeo_juliet/romeo_juliet.5.3.html"
+      },
+      {
+        "category": "literary",
+        "title": "A.E. Housman's elegy, from A Shropshire Lad (1896), watches a young runner carried home twice, once shoulder-high in triumph after winning his race, and again shoulder-high to his grave as the \"townsman of a stiller town.\" The poem finds a bitter mercy in dying before glory fades, the laurel still unwithered on the boy's curls. Its tender grief for youth cut off at its brightest moment mirrors the mourning for six young tourists whose journeys ended abruptly and far from home.",
+        "excerpt": "The time you won your town the race\nWe chaired you through the market-place;\nMan and boy stood cheering by,\nAnd home we brought you shoulder-high.\n\nTo-day, the road all runners come,\nShoulder-high we bring you home,\nAnd set you at your threshold down,\nTownsman of a stiller town.\n\nSmart lad, to slip betimes away\nFrom fields where glory does not stay,\nAnd early though the laurel grows\nIt withers quicker than the rose.\n\nEyes the shady night has shut\nCannot see the record cut,\nAnd silence sounds no worse than cheers\nAfter earth has stopped the ears:\n\nNow you will not swell the rout\nOf lads that wore their honours out,\nRunners whom renown outran\nAnd the name died before the man.\n\nSo set, before its echoes fade,\nThe fleet foot on the sill of shade,\nAnd hold to the low lintel up\nThe still-defended challenge-cup.\n\nAnd round that early-laurelled head\nWill flock to gaze the strengthless dead,\nAnd find unwithered on its curls\nThe garland briefer than a girl's.",
+        "source": "A.E. Housman, 'To an Athlete Dying Young,' A Shropshire Lad, XIX (1896).",
+        "href": "https://en.wikisource.org/wiki/A_Shropshire_Lad/To_an_Athlete_Dying_Young"
+      },
+      {
+        "category": "artistic",
+        "title": "Henry Wallis's 1856 painting shows the seventeen-year-old poet Thomas Chatterton lying dead on a garret bed by an open window over the rooftops of London, one arm trailing to the floor, torn manuscripts scattered, and an empty phial of arsenic beside him. The pale, beautiful body and the cold dawn light make the death of the young almost unbearably present. The picture memorialises a gifted life poisoned and lost too soon, an image that speaks directly to the grief for six travellers, barely older than Chatterton, killed by poison far from those who loved them.",
+        "excerpt": "The Pre-Raphaelite canvas fixes the moment after Chatterton's suicide by arsenic in 1770: the youth stretched across a narrow bed, chest bare, coppery hair fallen back, his hand let go of an emptied vial. Shreds of his own writings litter the floorboards as first light breaks over a distant St Paul's. Wallis turns a squalid attic death into a luminous elegy for wasted promise, and the frame at its first showing bore Marlowe's line, \"Cut is the branch that might have grown full straight.\"",
+        "source": "Henry Wallis, Chatterton (The Death of Chatterton), 1856, oil on canvas, Tate Britain.",
+        "href": "https://www.tate.org.uk/art/artworks/wallis-chatterton-n01685",
+        "image": {
+          "src": "/covers/laos-methanol-tourist-deaths-ruling--a4.png",
+          "alt": "A young man lies dead on a bed beside an open attic window at dawn, his arm hanging to the floor, torn papers scattered and an empty poison phial nearby.",
+          "credit": "Henry Wallis, 'Chatterton,' 1856, Tate Britain. Public domain, via Wikimedia Commons (Google Art Project)."
+        }
+      },
+      {
+        "category": "artistic",
+        "title": "Mozart's Requiem in D minor, K.626, left unfinished at his own death in 1791, is the West's most enduring music of mourning, its Lacrimosa rising in slow, weeping phrases over the words \"that day of tears.\" Composed as a mass for the dead, it gives voice to grief and to the plea that the departed be granted rest and eternal light. The surviving autograph breaks off in Mozart's own hand only a few bars into the Lacrimosa, the pen laid down forever. Set against the silence of an inquiry that could name neither cause nor culprit, the Requiem offers the six young dead of Vang Vieng the dignity of a lament that justice withheld.",
+        "excerpt": "Lacrimosa dies illa,\nqua resurget ex favilla\njudicandus homo reus.\nHuic ergo parce, Deus:\npie Jesu Domine,\ndona eis requiem. Amen.\n\n(Full of tears will be that day, when from the ashes shall arise the guilty to be judged; therefore spare him, O God: merciful Lord Jesus, grant them rest. Amen.)",
+        "source": "W.A. Mozart, Requiem in D minor, K.626 (1791), 'Lacrimosa'; text from the traditional Requiem Mass.",
+        "href": "https://imslp.org/wiki/Requiem_in_D_minor,_K.626_(Mozart,_Wolfgang_Amadeus)",
+        "image": {
+          "src": "/covers/laos-methanol-tourist-deaths-ruling--a5.png",
+          "alt": "A page of Mozart's handwritten Requiem manuscript, the opening bars of the Lacrimosa in ink on aged staff paper, where the score breaks off.",
+          "credit": "Autograph manuscript of Mozart's Requiem, K.626, folio 87r (Lacrimosa). Austrian National Library, public domain, via Wikimedia Commons."
+        }
+      }
+    ],
+    "rank": 4
+  },
+  {
+    "slug": "trump-canada-wildfire-smoke-tariffs",
+    "headline": "Trump threatens new tariffs on Canada over wildfire smoke drifting into U.S. cities",
+    "overview": "President Donald Trump threatened new tariffs on Canada, accusing it of 'willful negligence' as smoke from roughly 955 active wildfires blanketed much of the northern United States in haze. Trump said the U.S. was being 'invaded by filthy, polluted, and unhealthy air' and vowed to call Prime Minister Mark Carney, while Ontario Premier Doug Ford urged Washington to send firefighting help rather than complain. Carney's government pointed to a long history of cross-border cooperation and about C$12 billion invested in forests and fire prevention.",
+    "genre": "Politics",
+    "sources": [
+      {
+        "name": "BBC",
+        "href": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo"
+      },
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdWRlX0x0cFY3NTVYVE1pbHVGQmZEYkVfLUtJZEZEamlnRk5HemRkckV5RjhRaUhoYVltcWRWcWZDZ2JyNUVFa3B2TW8welVMVFJiUkx4MDVLdlBpaUNNZUJlNGJkSDI4Q1JQcXJQZjFFcVA1N2V3TXJVWFFIc1M3TzdpWVRtcWI4M1ZiWHAyd3RER1I2UEN1U1hRM3dncnNCWjJkeWxlRzZValRldFNXb2FfbmFHMEFLWWpGUmxwVzJWUQ?oc=5"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-18",
+    "image": {
+      "src": "/covers/trump-canada-wildfire-smoke-tariffs.png",
+      "alt": "Wildfire smoke casting an orange haze over a North American city skyline.",
+      "credit": "Jim Griffin / Wikimedia Commons"
+    },
+    "edition": "Evening Edition · 18 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "For decades the Consolidated Mining and Smelting Company's smelter at Trail, British Columbia, sent plumes of sulphur-dioxide fumes drifting south down the Columbia valley, scorching farms and forests across the line in Stevens County, Washington. Washington complained to Ottawa in 1925, and the dispute went to an international tribunal that in 1938 and 1941 issued the founding decision of transboundary pollution law: a nation is liable for airborne harm its territory inflicts on a neighbor. The roles are now exactly inverted. In 2026 it is the United States accusing Canada of letting poisoned air cross the border, but where the earlier grievance was settled by arbitration and damages, Trump reaches instead for tariffs and the language of 'willful negligence.'",
+        "excerpt": "Under the principles of international law, as well as of the law of the United States, no State has the right to use or permit the use of its territory in such a manner as to cause injury by fumes in or to the territory of another or the properties or persons therein, when the case is of serious consequence and the injury is established by clear and convincing evidence.",
+        "source": "Trail Smelter Arbitration (United States v. Canada), Tribunal Decision, 1941",
+        "href": "https://leap.unep.org/en/countries/ca/national-case-law/trail-smelter-case-united-states-v-canada"
+      },
+      {
+        "category": "historical",
+        "title": "In the autumn of 2015, fires set to clear Indonesian peatland for palm-oil and pulp plantations spun out of control, and southerly winds pushed a choking pall of smoke over Singapore and Malaysia, driving air-quality indices into the 'hazardous' band and shutting schools for millions of children. Kuala Lumpur and Singapore publicly blamed Jakarta for negligence, and Singapore went so far as to prosecute Indonesian companies under its transboundary haze law. It is the closest mirror to the Canada dispute: neighbors gasping under drifting wildfire smoke, pointing across a border at the country where the fires burn, and turning an ecological disaster into a diplomatic and legal grievance. As with Ontario's Doug Ford insisting the answer is firefighting help rather than finger-pointing, the 2015 crisis exposed how smoke that ignores borders strains the politics of the nations it crosses.",
+        "excerpt": "The 2015 haze was among the worst on record, blanketing Singapore and Malaysia in smoke from Indonesian peat and forest fires and pushing pollution readings into hazardous territory for weeks. Malaysia's prime minister demanded Indonesia rein in the companies responsible, while Singapore invoked a new law to pursue the firms behind the smoke. Jakarta bristled at being blamed for a haze that clearing fires, drought, and cross-border winds had jointly produced.",
+        "source": "2015 Southeast Asian haze; statements by Malaysian and Singaporean officials",
+        "href": "https://en.wikipedia.org/wiki/2015_Southeast_Asian_haze",
+        "image": {
+          "src": "/covers/trump-canada-wildfire-smoke-tariffs--a1.png",
+          "alt": "Singapore's Orchard Road shrouded in dense grey haze during the September 2015 transboundary smoke crisis",
+          "credit": "Photo via Wikimedia Commons (CC BY-SA)"
+        }
+      },
+      {
+        "category": "literary",
+        "title": "Charles Dickens opens Bleak House by drowning London in soot and fog until the city itself seems to dissolve, the smoke falling like black snow and the fog creeping into every lung and lamplit court. The polluted air is not mere weather; it is the visible sign of a diseased public life, an atmosphere everyone breathes and no one can escape. Dickens's murky capital, its sun blotted out and its river 'defiled,' is the literary ancestor of the haze that Trump described as an 'invasion' of 'filthy, polluted, and unhealthy air.' Where the novelist saw the smoke as a shared civic affliction to be pitied, the modern quarrel turns the same choking pall into an accusation aimed across a border.",
+        "excerpt": "Smoke lowering down from chimney-pots, making a soft black drizzle, with flakes of soot in it as big as full-grown snowflakes—gone into mourning, one might imagine, for the death of the sun. . . . Fog everywhere. Fog up the river, where it flows among green aits and meadows; fog down the river, where it rolls defiled among the tiers of shipping and the waterside pollutions of a great (and dirty) city.",
+        "source": "Charles Dickens, Bleak House (1852–53), Chapter 1",
+        "href": "https://www.gutenberg.org/files/1023/1023-h/1023-h.htm"
+      },
+      {
+        "category": "literary",
+        "title": "In the prologue to Sophocles' Oedipus the King, a priest kneels before the palace to describe a Thebes suffocating under an invisible plague: a blight on the crops, the herds, and the wombs of women, the whole city choked by a pestilence that hangs over it like poisoned air. The catastrophe is understood as a miasma, a pollution that must be traced to its guilty source and driven out before the city can breathe again. Oedipus responds by vowing to find and punish whoever is responsible for the defilement. That ancient logic—that fouled air demands a culprit to blame and expel—echoes uncannily in a president who answers a smoke-shrouded sky by naming a neighbor negligent and threatening to punish it.",
+        "excerpt": "A blight is on our harvest in the ear,\nA blight upon the grazing flocks and herds,\nA blight on wives in travail; and withal\nArmed with his blazing torch the God of Plague\nHath swooped upon our city emptying\nThe house of Cadmus, and the murky realm\nOf Pluto is full fed with groans and tears.",
+        "source": "Sophocles, Oedipus the King (c. 429 BCE), trans. Francis Storr",
+        "href": "https://www.gutenberg.org/cache/epub/31/pg31.txt"
+      },
+      {
+        "category": "artistic",
+        "title": "Claude Monet painted the Houses of Parliament again and again from a window of St Thomas's Hospital, and in 'The Houses of Parliament (Effect of Fog)' the great building barely surfaces as a violet silhouette dissolving into a suspended, luminous murk. What Monet found beautiful was precisely London's coal-laden, smoke-thickened air—the very industrial haze that made his celebrated 'effects' possible. The canvas turns polluted atmosphere into an object of wonder, the opposite pole from Trump's framing of drifting smoke as filth and invasion. Seen against the 2026 story, Monet's shimmering fog is a reminder that the same veil over a skyline can be read as sublime or as an act of aggression, depending entirely on who is looking and why.",
+        "excerpt": "Monet renders Parliament as a faint blue-grey ghost floating in a dense envelope of fog, its towers half-erased and its outlines bleeding into the tinted air. The polluted London atmosphere is not a nuisance in the painting but its true subject, softening architecture into a mood of suspended light. The effect is haze transfigured—the choking air of an industrial city recast as something ethereal.",
+        "source": "Claude Monet, The Houses of Parliament (Effect of Fog), 1903–04, The Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/art/collection/search/437128",
+        "image": {
+          "src": "/covers/trump-canada-wildfire-smoke-tariffs--a4.png",
+          "alt": "Claude Monet's painting of the Houses of Parliament dissolving into thick violet-grey fog over the Thames",
+          "credit": "Claude Monet, The Metropolitan Museum of Art, via Wikimedia Commons (public domain)"
+        }
+      },
+      {
+        "category": "artistic",
+        "title": "J. M. W. Turner watched the Palace of Westminster burn on the night of 16 October 1834 and turned the disaster into a roaring canvas of flame and smoke, the blaze boiling up into the sky and smearing the night with red and gold above a stunned crowd on the Thames embankment. The whole composition is dominated by the towering column of smoke that swallows the city's monuments, a spectacle at once terrifying and sublime. It is the pictorial equivalent of ~955 wildfires throwing haze over the northern United States: uncontrolled fire converting the air itself into an overwhelming, sky-filling presence. Turner reminds us that great fires have always been read as omens and calamities, the smoke over a capital both a physical menace and a political shock—here, one that a president has chosen to blame on the country next door.",
+        "excerpt": "Turner paints the burning Parliament as a wall of incandescent orange and yellow flame that erupts into a vast, churning cloud of smoke, its lurid glow reflected in the black waters of the Thames. Silhouetted spectators crowd the bridge and bank, dwarfed by the conflagration. The buildings dissolve in the heat while the smoke itself becomes the painting's true colossus, blotting out the sky.",
+        "source": "J. M. W. Turner, The Burning of the Houses of Lords and Commons, October 16, 1834 (1834–35), Philadelphia Museum of Art",
+        "href": "https://philamuseum.org/collection/object/103831",
+        "image": {
+          "src": "/covers/trump-canada-wildfire-smoke-tariffs--a5.png",
+          "alt": "J. M. W. Turner's painting of the Houses of Parliament ablaze, flames and smoke towering over the Thames and reflected in the water",
+          "credit": "J. M. W. Turner, Philadelphia Museum of Art, via Wikimedia Commons (public domain)"
+        }
+      }
+    ],
+    "rank": 5
+  },
+  {
+    "slug": "texas-floods-cleanup-rescues",
+    "headline": "Texas begins flood cleanup after more than 230 rescues and over two feet of rain in the Hill Country",
+    "overview": "Hard-hit Texas communities began cleaning up after a week of punishing rain dropped more than two feet in places, killing at least two people and prompting more than 230 rescues across the Hill Country and areas near the Mexican border. Floodwaters spilled over Interstate 10 near Ozona, where more than 50 people were pulled by boat from flooded apartments and an RV park, and a section of bridge collapsed over the Nueces River in Uvalde County. Forecasters warned that further showers could worsen already swollen rivers.",
+    "genre": "Climate",
+    "sources": [
+      {
+        "name": "AP",
+        "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZF9mYkc4MHU2ZW1ZNVVTN2daM0Q4b1JzUmg1dm1tbkg0UjdEVTB3SmJZXzlnR3VvVjFKSHpwRWd2NmtscDhjd1pILUNSMjVGdV9naTR5WEctbFE4cG5hTTlZSExUTkNjMGlHWTg3T2g2VTBzOVBoaS1PLUJHVmJ1SlZWUlp4NHl1clpNa1F2UmI2MXFuQjA1b1hTYnFSUQ?oc=5"
+      },
+      {
+        "name": "WRAL",
+        "href": "https://www.wral.com/news/ap/2f17c-threat-of-dangerous-flooding-continues-in-texas-while-hard-hit-areas-launch-cleanup-efforts/"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-18",
+    "image": {
+      "src": "/covers/texas-floods-cleanup-rescues.png",
+      "alt": "A swollen river in flood in the Texas Hill Country.",
+      "credit": "Wikimedia Commons (public domain)"
+    },
+    "edition": "Evening Edition · 18 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "In the spring of 1927 the Mississippi River, swollen by months of rain, burst through its levee system in roughly 145 places and spread a muddy inland sea more than seventy miles wide across seven states. About 330,000 people were plucked from rooftops, trees and second-story windows by a vast fleet of rescue boats, while some 500 died and hundreds of thousands were left homeless in relief camps. It remains the benchmark American river disaster of rescue-by-boat and slow, mud-caked cleanup after the water finally fell. Texas's Hill Country deluge, with floodwaters spilling over Interstate 10 near Ozona and more than 230 people pulled from flooded apartments and an RV park, is a smaller echo of that same drama: rivers bursting their banks and neighbors ferried to safety through the current.",
+        "excerpt": "For weeks the lower Mississippi valley became an inland ocean, its towns marked only by rooftops and the crowns of levees where refugees huddled. Rescuers in skiffs and steamboats worked the flooded farmland day and night, taking families, livestock and whatever could be carried off submerged porches. When the water at last receded it left the land buried in silt, the long labor of cleanup only beginning.",
+        "source": "The Great Mississippi Flood of 1927, the most destructive river flood in U.S. history.",
+        "href": "https://en.wikipedia.org/wiki/Great_Mississippi_Flood_of_1927",
+        "image": {
+          "src": "/covers/texas-floods-cleanup-rescues--a0.png",
+          "alt": "Black-and-white 1927 photograph of flood refugees and their belongings gathered on high ground during the Great Mississippi Flood at Vicksburg.",
+          "credit": "1927 Mississippi Flood, Vicksburg refugees; public domain via Wikimedia Commons"
+        }
+      },
+      {
+        "category": "historical",
+        "title": "On the night of 18-19 November 1421 a violent North Sea storm drove water up the river mouths of the Low Countries and shattered the dikes ringing the Grote Hollandse Waard, drowning dozens of villages in what is now the Netherlands. Estimates of the dead run into the thousands, and the sea held the polders for decades, carving the reed-marsh wilderness still called the Biesbosch. The St. Elizabeth's flood fused storm, river and tide into a single overwhelming inundation, the medieval memory of water reclaiming the land. It is the older European counterpart to Texas's Hill Country deluge, where two feet of rain sent rivers over their banks, collapsed a bridge across the Nueces in Uvalde County, and swallowed roads whole.",
+        "excerpt": "When the dikes gave way in the dark, the water poured across the low farmland faster than church bells could warn the sleeping villages. Whole parishes vanished beneath the flood, their steeples left standing briefly above a widening inland sea before they too were lost. For generations afterward the drowned land stayed underwater, a wetland where fields and homes had been.",
+        "source": "St. Elizabeth's flood of 1421, which drowned the Grote Hollandse Waard in Holland and Zeeland.",
+        "href": "https://en.wikipedia.org/wiki/St._Elizabeth%27s_flood_(1421)",
+        "image": {
+          "src": "/covers/texas-floods-cleanup-rescues--a1.png",
+          "alt": "Late-medieval painted panel depicting the St. Elizabeth's flood, with broken dikes, a church and houses standing amid wide floodwater.",
+          "credit": "Master of the St. Elizabeth Panels, c. 1490-1495, Rijksmuseum, Amsterdam; public domain via Wikimedia Commons"
+        }
+      },
+      {
+        "category": "literary",
+        "title": "The flood of Noah in Genesis is the West's foundational deluge story: the fountains of the great deep break open, rain falls forty days and forty nights, and the waters rise until even the mountains vanish beneath fifteen cubits of water. Only those gathered into the ark ride out the catastrophe, lifted up on the face of an all-covering sea while every other living thing is swept away. It is the archetype of the flood as world-ending judgment, and of survival by being carried safely above the rising water. When Texas rescuers pulled more than fifty people by boat from flooded apartments and an RV park, they reenacted the oldest image of the deluge: a vessel bearing the living over waters that have swallowed everything else.",
+        "excerpt": "In the six hundredth year of Noah's life, in the second month, the seventeenth day of the month, the same day were all the fountains of the great deep broken up, and the windows of heaven were opened. And the rain was upon the earth forty days and forty nights.\n[...]\nAnd the flood was forty days upon the earth; and the waters increased, and bare up the ark, and it was lift up above the earth. And the waters prevailed, and were increased greatly upon the earth; and the ark went upon the face of the waters. And the waters prevailed exceedingly upon the earth; and all the high hills, that were under the whole heaven, were covered. Fifteen cubits upward did the waters prevail; and the mountains were covered.\n[...]\nAnd every living substance was destroyed which was upon the face of the ground, both man, and cattle, and the creeping things, and the fowl of the heaven; and they were destroyed from the earth: and Noah only remained alive, and they that were with him in the ark.",
+        "source": "Genesis 7:11-23, King James Version; Project Gutenberg.",
+        "href": "https://www.gutenberg.org/cache/epub/10/pg10.txt"
+      },
+      {
+        "category": "literary",
+        "title": "In Book I of Ovid's Metamorphoses, Jupiter resolves to drown a wicked human race, and Neptune joins in, striking the earth with his trident so the rivers rush resistless over the plains, sweeping away grain, groves, houses, flocks and people alike. Land and sea lose all distinction until the world becomes a sea without a shore, with only a few survivors clinging to hilltops or drifting in small boats. Written around the turn of the first millennium, it is antiquity's most vivid poem of rivers bursting their banks and a landscape erased by water. It maps almost exactly onto the Hill Country scene, the Nueces and its neighbors overflowing and Interstate 10 vanishing beneath the current near Ozona.",
+        "excerpt": "And Neptune with his trident smote the Earth, which trembling with unwonted throes heaved up the sources of her waters bare; and through her open plains the rapid rivers rushed resistless, onward bearing the waving grain, the budding groves, the houses, sheep and men,—and holy temples, and their sacred urns. The mansions that remained, resisting vast and total ruin, deepening waves concealed and whelmed their tottering turrets in the flood and whirling gulf. And now one vast expanse, the land and sea were mingled in the waste of endless waves—a sea without a shore.",
+        "source": "Ovid, Metamorphoses, Book I (the flood of Deucalion), trans. Brookes More (1922); Perseus Digital Library, Tufts University.",
+        "href": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0028%3Abook%3D1%3Acard%3D253"
+      },
+      {
+        "category": "artistic",
+        "title": "Gustave Doré's 1866 wood-engraving 'The Deluge,' from his illustrated Bible, shows the last survivors of Noah's flood stranded on a shrinking rock: a mother lifts her children toward a merciless sky while a tigress and her cubs crowd the same doomed ledge, the drowned already floating in the black water below. Doré turns the biblical flood into a scene of raw human desperation as the water climbs. The image distills the terror at the heart of every flood, the frantic scramble for higher ground as the river keeps rising. It is the visual key to the Texas rescues, where families in flooded apartments and an RV park waited on whatever high place they could reach for the boats to come.",
+        "excerpt": "Doré's dark engraving crowds the last survivors onto a wave-lapped crag: a mother strains upward with a limp child while a wild cat and her cubs snarl beside her, and pale bodies drift face-down in the water below. The horizon is nothing but flood, the ark a distant smudge in a bruised sky. It is the deluge rendered as pure human panic at the moment before the water closes over the rock.",
+        "source": "Gustave Doré, 'The Deluge' (Le Déluge), 1866, wood engraving from The Holy Bible.",
+        "href": "https://commons.wikimedia.org/wiki/File:Gustave_Dor%C3%A9_-_The_Holy_Bible_-_Plate_I,_The_Deluge.jpg",
+        "image": {
+          "src": "/covers/texas-floods-cleanup-rescues--a4.png",
+          "alt": "Gustave Doré's engraving The Deluge: a mother lifts her children and a tigress crouches on a rock as floodwaters and drowned bodies surround them.",
+          "credit": "Gustave Doré, 'The Deluge' (1866), from The Holy Bible; public domain via Wikimedia Commons"
+        }
+      },
+      {
+        "category": "artistic",
+        "title": "Michelangelo's fresco 'The Deluge' (1508-1512), on the Sistine Chapel ceiling, spreads the flood across a whole panel: knots of refugees haul bundles and children uphill, one man carries his lifeless son, a small boat is swamped and capsizing in the middle distance, and a crowd shelters beneath a wind-torn cloth as the water rises around a last spit of land. Michelangelo makes the deluge a study in human solidarity and panic, people helping one another flee the water. That is precisely the story of the Texas cleanup, where neighbors and rescuers pulled more than 230 people from the current across the Hill Country and near the Mexican border. The fresco's climbers on their vanishing island are the Renaissance mirror of an RV park and apartments emptied by boat.",
+        "excerpt": "Across Michelangelo's crowded panel the survivors of the flood struggle toward a shrinking hill: parents drag and carry their children, a grieving man bears a limp body, and a knot of figures huddles under a billowing shelter as the wind and water close in. Out in the rising flood a laden boat tips and takes on water, its passengers grasping at the gunwales. The fresco reads as one long, muscular scene of people trying to save one another from the deluge.",
+        "source": "Michelangelo, 'The Deluge' (Il Diluvio), 1508-1512, fresco, Sistine Chapel ceiling, Vatican.",
+        "href": "https://commons.wikimedia.org/wiki/File:The_Deluge_after_restoration.jpg",
+        "image": {
+          "src": "/covers/texas-floods-cleanup-rescues--a5.png",
+          "alt": "Michelangelo's Sistine Chapel fresco The Deluge: crowds flee rising floodwaters carrying children and belongings toward higher ground, with a swamped boat in the distance.",
+          "credit": "Michelangelo, 'The Deluge' (1508-1512), Sistine Chapel, Vatican; public domain via Wikimedia Commons"
+        }
+      }
+    ],
+    "rank": 6
+  },
+  {
+    "slug": "us-data-center-protests-national",
+    "headline": "Data-center opponents stage coordinated protests in at least 125 U.S. locations",
+    "overview": "Opponents of the rapid buildout of AI data centers held protests in at least 125 locations across the United States, the first coordinated national demonstration against an infrastructure boom that has roiled local politics. The rallies, organized by a grassroots group called HumansFirst, targeted what it calls the 'unaccountable' expansion and its strain on power bills, water and the environment. A June Reuters/Ipsos poll found only about a third of Americans approve of the pace of data-center construction, and just 14% would welcome one in their community.",
+    "genre": "Technology",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYk5QUVhhdHdNUVZKT0xJVURINmc1UzZORTZpdGtnaGwxemxTSWZNUTR6MkE3SHY5RjYwSUlQSWFUSlV3RHJGSXJLcjBUWXRlNzBuREwzblp5aEtIdVFRZjJlZmt2dUF6QzNxY2hackV2NDlQbnVGbFBrRnlXOUdycTh1ck5RdUd6WndGOExPN2h5dkVuVUFEVnYzeHdxT1ViWElDZjRpNzFncVFmMEltNg?oc=5"
+      },
+      {
+        "name": "U.S. News",
+        "href": "https://www.usnews.com/news/top-news/articles/2026-07-18/us-data-center-protests-go-national-as-backlash-grows"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-18",
+    "image": {
+      "src": "/covers/us-data-center-protests-national.png",
+      "alt": "Rows of server racks inside a data center hall.",
+      "credit": "Carl Lender / Wikimedia Commons"
+    },
+    "edition": "Evening Edition · 18 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "In the winter of 1811-1816, textile workers across the English Midlands and North smashed the mechanized frames and looms that were displacing their livelihoods, marching by night under the name of a mythical \"General Ludd\" of Sherwood Forest. Framed as criminal riot by Parliament, the Luddite movement was in fact a coordinated popular revolt against machinery introduced without regard for the communities it upended, prompting the state to make frame-breaking a hanging offence. Their proclamations claimed an ancient right to destroy engines that ruined a trade for private profit. Like today's data-center opponents rallying in 125 towns against an \"unaccountable\" buildout, the Luddites were not against progress as such but against a machine age imposed on them from above, at their expense.",
+        "excerpt": "Whereas by the charter granted by our late sovereign Lord Charles II ... the framework knitters are empowered to break and destroy all frames and engines that fabricate articles in a fraudulent and deceitful manner ... we therefore the framework knitters do hereby declare the aforesaid Act to be null and void to all intents and purposes whatsoever ... And we do hereby declare to all hosiers lace manufacturers and proprietors of frames that we will break and destroy all manner of frames whatsoever that make the following spurious articles and all frames whatsoever that do not pay the regular prices heretofore agreed to [by] the masters and workmen ... whereas all frames of whatsoever description the work-men of whom are not paid in the current coin of the realm will invariably be destroyed.\nGiven under my hand this first day of January 1812.\nGod protect the Trade.\nNed Lud's-Office\nSherwood Forest",
+        "source": "Luddite proclamation \"By the Framework Knitters, a Declaration,\" 1 January 1812, signed from \"Ned Lud's-Office, Sherwood Forest\"",
+        "href": "https://www.marxists.org/history/england/combination-laws/ned-ludd-1812.htm"
+      },
+      {
+        "category": "historical",
+        "title": "In 1962 Consolidated Edison unveiled plans for the largest pumped-storage power plant in the country, gouged into the face of Storm King Mountain on the Hudson River. Local residents, alarmed that the scenery would be scarred, the town's drinking water endangered and the aqueduct to New York City threatened, formed the Scenic Hudson Preservation Conference in 1963 and fought the utility for seventeen years. Their 1965 court victory established for the first time that ordinary citizens had standing to sue to protect the environment, and by 1980 Con Edison abandoned the project outright. It is a near-exact template for the data-center revolt: a grassroots community coalition resisting a vast, power-hungry piece of energy infrastructure imposed by a corporation, invoking exactly the water, environment and quality-of-life worries now driving protests nationwide.",
+        "excerpt": "In September 1962 Consolidated Edison announced plans for a hydroelectric power plant at Storm King Mountain in Cornwall, New York, pumping Hudson River water uphill during low-demand hours and releasing it through turbines at peak. When an artist's rendering revealed how the mountain's face would be scarred, residents organized: the Hudson River Conservation Society and, by 1963, the Scenic Hudson Preservation Conference. Opponents warned of contaminated groundwater threatening Cornwall's drinking water and damage to the Catskill Aqueduct serving New York City. After nearly two decades of hearings and court battles, Con Edison agreed in 1980 to terminate the Storm King plans.",
+        "source": "\"Storm King,\" Rescuing the River: 50 Years of Environmental Activism on the Hudson, Hudson River Valley Heritage online exhibit",
+        "href": "https://omeka.hrvh.org/exhibits/show/rescuing-the-river/powering-the-hudson/storm-king"
+      },
+      {
+        "category": "literary",
+        "title": "William Blake wrote his short preface poem to \"Milton\" around 1804-1810, at the very dawn of the factory age, setting a vision of a holy, green England against the \"dark Satanic Mills\" then rising across the land. The verse became a battle cry precisely because it fuses spiritual protest with a refusal to submit to industrial encroachment, vowing not to cease from \"Mental Fight\" until a better world is built. Its imagery of hills clouded and pastures defiled by relentless machinery speaks directly to communities today watching warehouse-scale server farms consume their landscapes, power and water. Blake gives the data-center backlash its oldest and most resonant slogan: the machine mills as something Satanic set against the human and the sacred.",
+        "excerpt": "And did those feet in ancient time\nWalk upon England's mountains green,\nAnd was the holy Lamb of God\nOn England's pleasant pastures seen?\nAnd did the Countenance Divine\nShine forth upon our clouded hills?\nAnd was Jerusalem builded here\nAmong these dark Satanic Mills?\nBring me my Bow of burning gold:\nBring me my Arrows of desire:\nBring me my Spear: O clouds unfold!\nBring me my Chariot of fire:\nI will not cease from Mental Fight,\nNor shall my Sword sleep in my hand,\nTill we have built Jerusalem,\nIn England's green & pleasant Land.",
+        "source": "William Blake, preface (\"And did those feet in ancient time\") to Milton: A Poem, c. 1804-1810",
+        "href": "https://en.wikisource.org/wiki/The_prophetic_books_of_William_Blake,_Milton/Milton,_preface"
+      },
+      {
+        "category": "literary",
+        "title": "In Hard Times (1854), Charles Dickens conjured Coketown, a fictional industrial city choked by smoke, machinery and monotony, where nature is stained purple with dye and the steam-engine nods endlessly \"like the head of an elephant in a state of melancholy madness.\" His portrait is a moral indictment of an industrialism that flattens everything and everyone into sameness for the sake of production. The passage crystallizes the fear now animating data-center opponents: that a wave of humming, resource-devouring infrastructure will remake their towns into featureless service districts for distant machines. Dickens gives the human-versus-machine anxiety of this story its most enduring landscape.",
+        "excerpt": "It was a town of red brick, or of brick that would have been red if the smoke and ashes had allowed it; but as matters stood, it was a town of unnatural red and black like the painted face of a savage. It was a town of machinery and tall chimneys, out of which interminable serpents of smoke trailed themselves for ever and ever, and never got uncoiled. It had a black canal in it, and a river that ran purple with ill-smelling dye, and vast piles of building full of windows where there was a rattling and a trembling all day long, and where the piston of the steam-engine worked monotonously up and down, like the head of an elephant in a state of melancholy madness. It contained several large streets all very like one another, and many small streets still more like one another, inhabited by people equally like one another, who all went in and out at the same hours, with the same sound upon the same pavements, to do the same work.",
+        "source": "Charles Dickens, Hard Times (1854), Book the First, Chapter V, \"The Key-note\"",
+        "href": "https://www.gutenberg.org/files/786/786-h/786-h.htm"
+      },
+      {
+        "category": "artistic",
+        "title": "Philip James de Loutherbourg's \"Coalbrookdale by Night\" (1801) shows the birthplace of the Industrial Revolution ablaze in the dark: the Bedlam Furnaces of Shropshire throwing a hellish orange glare over a valley of smoke, machinery and hauled iron, dwarfing the tiny human figures in the foreground. Painted with something between awe and dread, it became the defining image of industry overwhelming a once-rural landscape. That is exactly the vista data-center opponents invoke, warning of vast, floodlit, energy-guzzling server halls transforming quiet places into round-the-clock industrial zones. The canvas turns the machine age's encroachment into a single, luminous, unsettling scene.",
+        "excerpt": "A rural valley is engulfed by the fiery glow of the ironworks: furnaces blaze a lurid orange-red into the night sky, pouring smoke over the darkened hills, while dim human figures and a horse-drawn load are reduced to shadows before the industrial inferno. Loutherbourg paints Coalbrookdale as both spectacle and warning, the machinery of a new age lighting up and consuming the land around it.",
+        "source": "Philip James de Loutherbourg, Coalbrookdale by Night (1801), oil on canvas, Science Museum, London",
+        "href": "https://commons.wikimedia.org/wiki/File:Philipp_Jakob_Loutherbourg_d._J._-_Coalbrookdale_by_Night_-_WGA13730.jpg",
+        "image": {
+          "src": "/covers/us-data-center-protests-national--a4.png",
+          "alt": "Nighttime scene of the Coalbrookdale ironworks with furnaces glowing fiery orange-red beneath billowing smoke, tiny human and horse figures silhouetted in the foreground.",
+          "credit": "Philip James de Loutherbourg, \"Coalbrookdale by Night\" (1801), Science Museum, London — via Wikimedia Commons (public domain)"
+        }
+      },
+      {
+        "category": "artistic",
+        "title": "Giuseppe Pellizza da Volpedo's monumental \"Il Quarto Stato\" (The Fourth Estate, 1901) shows a mass of laboring men, women and a child advancing steadily toward the viewer across an open square, the front rank lit like classical heroes as the crowd behind them stretches back without end. It is the definitive image of ordinary people rising together, a grassroots multitude claiming its place against entrenched power. That is the visual key to this story: not machine-breaking chaos but an organized human tide, communities converging in 125 towns to be counted against an industrial force they never chose. Pellizza turns the crowd itself into the subject, and into a quiet, unstoppable act of collective will.",
+        "excerpt": "A broad column of working people moves forward out of shadow into light, led by three figures at the front, a striding man flanked by a woman holding an infant, with a vast crowd massed behind them filling the width of the canvas. Pellizza da Volpedo monumentalizes the ordinary marching multitude, dignified and resolute, as a single body advancing to claim its rightful place.",
+        "source": "Giuseppe Pellizza da Volpedo, Il Quarto Stato (The Fourth Estate), 1901, oil on canvas, Museo del Novecento, Milan",
+        "href": "https://commons.wikimedia.org/wiki/File:Quarto_Stato.jpg",
+        "image": {
+          "src": "/covers/us-data-center-protests-national--a5.png",
+          "alt": "A large crowd of working men and women, led by a striding man and a woman carrying a baby, advancing forward across an open square toward the viewer.",
+          "credit": "Giuseppe Pellizza da Volpedo, \"Il Quarto Stato\" (1901), Museo del Novecento, Milan — via Wikimedia Commons (public domain)"
+        }
+      }
+    ],
+    "rank": 7
+  },
+  {
+    "slug": "pentagon-testosterone-screening-plan",
+    "headline": "Doctors question Pentagon plan to screen troops 30 and older for low testosterone",
+    "overview": "Medical experts questioned a new order by Defense Secretary Pete Hegseth requiring annual testosterone-deficiency screening for active-duty and reserve service members aged 30 and older, which he says will bolster military readiness. Four of six doctors interviewed by Reuters said there was no solid evidence that broad screening would optimize combat readiness, warning that inappropriate hormone treatment could raise risks including infertility. Hegseth linked the mandate to 'Operator Syndrome' seen in elite special-forces troops, but the researcher who first described the condition said those operators are not representative of the wider force.",
+    "genre": "Science",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWUJlakhnaXgxcmJlaU01d0J2UU96M3BnX1JMSDhrLV9aT0dSQW1FUWV5c0xLRm9qOXBOWWFvWHNyN096NVRqbGdoVE9kUEJrU1ZBWkVmaVpRa3FPbTk1NE4yWk9ETV9IbE5HNi1Zemo3Rm11VWpqc1BtM1FiMU9WOXpMMDl4RDczZVFjU3hyUEtqdkoyWVozLU9PVWhHV3p5T2VLUlJoc2ZZZWNDeS1jOTgwS3V6N3BDM3g4Q0lpVQ?oc=5"
+      },
+      {
+        "name": "PBS NewsHour",
+        "href": "https://www.pbs.org/newshour/world/hegseth-announces-new-policy-to-test-troops-for-low-testosterone-and-offer-them-hormone-replacement-therapy"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-18",
+    "image": {
+      "src": "/covers/pentagon-testosterone-screening-plan.png",
+      "alt": "Aerial view of the Pentagon building near Washington, D.C.",
+      "credit": "David B. Gleason / Wikimedia Commons"
+    },
+    "edition": "Evening Edition · 18 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "In archaic Sparta the state claimed a citizen's body before he could even walk. Plutarch records that a newborn was carried to a council of tribal elders at the Lesche, who inspected it for strength and, if it seemed \"puny and ill-shaped,\" ordered it flung into a chasm below Mount Taygetus — not for the child's sake but for \"the public interest.\" Boys who passed were enrolled at seven into the agoge, close-clipped, barefoot, half-starved and taught \"to endure pain and conquer in battle.\" It is the purest ancestor of the impulse behind Hegseth's screening order: the conviction that a soldier's flesh is a strategic asset the state may measure, sort and optimize, and that martial readiness is something you can engineer in the body by decree.",
+        "excerpt": "if they found it stout and well made, they gave order for its rearing, and allotted to it one of the nine thousand shares of land above mentioned for its maintenance, but, if they found it puny and ill-shaped, ordered it to be taken to what was called the Apothetae, a sort of chasm under Taygetus; as thinking it neither for the good of the child itself, nor for the public interest, that it should be brought up, if it did not, from the very outset, appear made to be healthy and vigorous. [...] their chief care was to make them good subjects, and to teach them to endure pain and conquer in battle.",
+        "source": "Plutarch, Life of Lycurgus (Dryden translation, ed. A. H. Clough, 1859)",
+        "href": "https://www.gutenberg.org/cache/epub/674/pg674.txt",
+        "image": {
+          "src": "/covers/pentagon-testosterone-screening-plan--a0.png",
+          "alt": "Marble statue of a helmed Spartan hoplite, 5th century BC, sometimes identified as Leonidas, Archaeological Museum of Sparta",
+          "credit": "Marble hoplite (5th c. BC), possibly Leonidas, Archaeological Museum of Sparta; photograph via Wikimedia Commons (public domain)"
+        }
+      },
+      {
+        "category": "historical",
+        "title": "In June 1889 the 72-year-old French physiologist Charles-Édouard Brown-Séquard stood before the Société de Biologie in Paris and announced that he had injected himself with a slurry crushed from the testicles of dogs and guinea pigs — and grown young again. He reported to The Lancet that his strength, stamina and even the arc of his urine had been restored, measuring the gains on a dynamometer. Within months more than 12,000 physicians were peddling his \"Elixir of Life,\" though his extracts contained essentially no testosterone and the effect was placebo. It is the founding episode of the testosterone-cure fantasy that Hegseth's order revives: the seductive, evidence-thin belief that manly vigor can be topped up like a fuel tank, and that virility restored is capability restored.",
+        "excerpt": "The day after the first subcutaneous injection, and still more after the two succeeding ones, a radical change took place in me, and I had ample reason to say and to write that I had regained at least all the strength I possessed a good many years ago.",
+        "source": "C. E. Brown-Séquard, The Lancet, 1889 (\"The effects produced on man by subcutaneous injections of a liquid obtained from the testicles of animals\")",
+        "href": "https://www.usrf.org/news/TRT/Brown-Sequard,%20Lancet,%201889.pdf",
+        "image": {
+          "src": "/covers/pentagon-testosterone-screening-plan--a1.png",
+          "alt": "Portrait of the physiologist Charles-Édouard Brown-Séquard",
+          "credit": "Portrait of Charles-Édouard Brown-Séquard; via Wikimedia Commons (public domain)"
+        }
+      },
+      {
+        "category": "literary",
+        "title": "In Book XII of the Iliad the Lycian captain Sarpedon turns to his comrade Glaucus and asks why the two of them are honored \"as gods\" with the best land and richest feasts — and answers his own question: because they stand first in the killing. Since death and \"ignoble age\" will claim brave and coward alike, he reasons, a man should spend his life buying glory in the front rank. It is the aristocratic warrior creed in its most naked form, prowess of the body converted directly into worth and rank. That is precisely the equation Hegseth reaches for when he ties combat readiness to hormonal vigor — the ancient dream of the soldier whose physical strength is the measure of the man.",
+        "excerpt": "Could all our care elude the gloomy grave,\nWhich claims no less the fearful and the brave,\nFor lust of fame I should not vainly dare\nIn fighting fields, nor urge thy soul to war.\nBut since, alas! ignoble age must come,\nDisease, and death's inexorable doom,\nThe life, which others pay, let us bestow,\nAnd give to fame what we to nature owe;\nBrave though we fall, and honour'd if we live,\nOr let us glory gain, or glory give!",
+        "source": "Homer, Iliad, Book XII (Sarpedon to Glaucus), trans. Alexander Pope",
+        "href": "https://www.gutenberg.org/cache/epub/6130/pg6130.txt"
+      },
+      {
+        "category": "literary",
+        "title": "The seventh-century Spartan poet Tyrtaeus wrote marching songs meant to be chanted around the camp fires, and they read like state propaganda for martial masculinity. In Thomas Campbell's translation the elegy exalts the young man who falls sword in hand and heaps disgrace on the \"recreant\" who flinches, insisting that even in death \"youth's fair form\" is beautiful — the hero-boy \"lovelier far, / For having perished in the front of war.\" Here the ideal male body is not merely useful to the state but sacralized, most perfect at the moment it is spent for the polis. It anticipates the aesthetic underneath the Pentagon plan: the fusion of virility, martial fitness and national strength into a single cult of the soldierly body.",
+        "excerpt": "How glorious fall the valiant, sword in hand,\nIn front of battle for their native land!\n[...]\nBut youth's fair form, though fallen, is ever fair,\nAnd beautiful in death the boy appears,\nThe hero boy, that dies in blooming years:\nIn man's regret he lives, and woman's tears;\nMore sacred than in life, and lovelier far,\nFor having perished in the front of war.",
+        "source": "Tyrtaeus, \"Martial Elegy,\" trans. Thomas Campbell (in Masterpieces of Greek Literature, 1902)",
+        "href": "https://en.wikisource.org/wiki/Masterpieces_of_Greek_Literature_(1902)/Tyrtaeus"
+      },
+      {
+        "category": "artistic",
+        "title": "Around 440 BC the sculptor Polykleitos cast a bronze spear-bearer — the Doryphoros — as a deliberate demonstration of his \"Canon,\" a mathematical system for the perfectly proportioned male body. Known today through Roman marble copies like the one from Pompeii now in Naples, the figure is a nude young warrior, spear once resting on his shoulder, weight shifted into an easy contrapposto that made ideal manhood look like natural law. For two and a half millennia this soldier-athlete has been the West's template for what a fighting body ought to be. Hegseth's testosterone regime is a modern echo of the same fantasy — the belief that there is an optimal martial physique, and that troops can and should be tuned toward it.",
+        "excerpt": "A Roman marble copy of Polykleitos' bronze Doryphoros: a nude, athletically muscled young soldier caught mid-stride, his weight poised on one leg while the other trails, one hand once gripping a spear. The body is built to a strict canon of proportion, every ratio calculated to embody ideal male strength — the athletic warrior refined into a formula of perfection.",
+        "source": "Polykleitos, Doryphoros (Spear-Bearer), c. 440 BC; Roman marble copy, Museo Archeologico Nazionale, Naples",
+        "href": "https://commons.wikimedia.org/wiki/File:Doryphoros_MAN_Napoli_Inv6011-2.jpg",
+        "image": {
+          "src": "/covers/pentagon-testosterone-screening-plan--a4.png",
+          "alt": "Roman marble copy of the Doryphoros (Spear-Bearer) of Polykleitos, an idealized nude male warrior, National Archaeological Museum of Naples",
+          "credit": "Doryphoros, Roman copy after Polykleitos, Museo Archeologico Nazionale di Napoli; via Wikimedia Commons (public domain)"
+        }
+      },
+      {
+        "category": "artistic",
+        "title": "Jacques-Louis David labored for years on Leonidas at Thermopylae (finished 1814), a vast canvas crowded with muscular, largely nude Spartan warriors calmly readying themselves to die at the pass. At the center the seated king Leonidas gazes out with serene resolve, his idealized athletic body the moral and physical anchor of the scene — Neoclassicism's hymn to martial virtue as bodily perfection. David painted it as an emblem of self-sacrificing manhood for the nation. It is a direct visual ancestor of the ideology behind the Pentagon's screening plan: the state's romance with the hardened male body as the very substance of readiness, patriotism rendered as testosterone made flesh.",
+        "excerpt": "David's monumental Leonidas at Thermopylae fills the canvas with idealized, heroically muscled Spartan soldiers preparing to fight to the death. The nude king sits at the center in perfect composure, sword in hand, his sculpted body radiating disciplined martial strength. Every figure is a Neoclassical study in the beautiful warrior physique — manhood offered up as the ultimate proof of devotion to the state.",
+        "source": "Jacques-Louis David, Leonidas at Thermopylae, 1814, oil on canvas, Musée du Louvre, Paris",
+        "href": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_004_Thermopylae.jpg",
+        "image": {
+          "src": "/covers/pentagon-testosterone-screening-plan--a5.png",
+          "alt": "Jacques-Louis David's painting Leonidas at Thermopylae, showing idealized nude and muscular Spartan warriors around the seated King Leonidas",
+          "credit": "Jacques-Louis David, Leonidas at Thermopylae (1814), Musée du Louvre; via Wikimedia Commons (public domain)"
+        }
+      }
+    ],
+    "rank": 8
+  },
+  {
+    "slug": "germany-raises-terror-threat-level",
+    "headline": "Germany raises its terrorism threat level to 'high,' interior minister says",
+    "overview": "German Interior Minister Alexander Dobrindt said he had raised the country's abstract terrorism threat level to 'high,' telling the newspaper Welt am Sonntag that a rising volume of intelligence pointed to discernible attack plans against German infrastructure, individuals and institutions. The move comes as Chancellor Friedrich Merz's government prepares to expand the operational powers of Germany's intelligence agencies. 'Plans for attacks against our country are clearly discernible,' Dobrindt said.",
+    "genre": "Conflict",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRTV2cVk1WFpCWkR2cGlkcm90cVVvMkduU0hpUUltS3c3Tnh4QlJleUFveF96VmFIYjdsR0kyZVcxYmxqR1NpNDNpUTB4bnd2b1hCYUdyMWJiREJfczVXVmJoQjhlSV91Z0szcWRQY3pkU2phREdtSi1KRjI1MFI2ZklvWmNCLXllWWdObmszYzZ0dXItQ0g0WVRvcWNYejJ3Vkxac0VlYlQtWkdBWUZkQ1AwUmYyOGNORFhZX2lpVQ?oc=5"
+      },
+      {
+        "name": "Bloomberg",
+        "href": "https://www.bloomberg.com/news/articles/2026-07-18/germany-raises-threat-level-over-terror-attack-risk-welt-says"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-18",
+    "image": {
+      "src": "/covers/germany-raises-terror-threat-level.png",
+      "alt": "The Reichstag building, seat of the German Bundestag, in Berlin.",
+      "credit": "Jürgen Matern / Wikimedia Commons"
+    },
+    "edition": "Evening Edition · 18 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "In the autumn of 1605 the English state believed a hidden cell meant to blow up King, Lords and Commons together in a single blast beneath Parliament. The plot unravelled not from a battlefield but from intelligence: an anonymous warning, the Monteagle Letter, slipped to a peer telling him to stay away because the assembly would 'receive a terrible blow.' In the paranoid decade that followed, the Crown expanded its security apparatus, tightening the recusancy laws, imposing a new Oath of Allegiance, and treating a whole community as a suspect enemy within. Dobrindt's warning of 'discernible attack plans against German infrastructure, individuals and institutions' echoes that same logic: a cryptic intelligence signal of an unseen attacker, answered by a state reaching for wider powers of surveillance and control.",
+        "excerpt": "My lord, out of the love I beare to some of youere frends, I have a care of youre preservacion, therefore I would aduyse you as you tender your life to devise some excuse to shift youer attendance at this parliament, for God and man hath concurred to punishe the wickedness of this tyme, and thinke not slightly of this advertisement, but retire yourself into your country, where you may expect the event in safety, for though there be no apparance of anni stir, yet I saye they shall receive a terrible blow this parliament and yet they shall not seie who hurts them.",
+        "source": "The Monteagle Letter, anonymous warning received 26 October 1605 (The National Archives, UK)",
+        "href": "https://en.wikisource.org/wiki/Monteagle_Letter",
+        "image": {
+          "src": "/covers/germany-raises-terror-threat-level--a0.png",
+          "alt": "Contemporary engraving of eight of the Gunpowder Plot conspirators grouped in conversation, hats and cloaks, plotting the destruction of Parliament.",
+          "credit": "Crispijn van de Passe the Elder, engraving, c.1605. National Portrait Gallery, London (NPG 334a). Public domain via Wikimedia Commons."
+        }
+      },
+      {
+        "category": "historical",
+        "title": "Between the 1880s and the 1900s a wave of anarchist 'propaganda of the deed' — dynamite in cafes and railway stations, the assassinations of a Russian tsar, a French president, an Austrian empress and an American president — convinced the governments of Europe and America that a borderless conspiracy of bomb-throwers could strike anywhere. On 4 May 1886 a bomb hurled into police ranks at Chicago's Haymarket Square killed officers and detonated a national panic that ended in a mass trial and executions. States answered the fear by building the machinery of the modern security state: London's Special Branch, the Tsar's Okhrana, immigration bans on anarchists, and a Rome conference in 1898 to coordinate international surveillance of radicals. Germany's move to a 'high' threat level, paired with the Merz government's plan to expand intelligence-agency powers, belongs to that lineage — a state convinced of a hidden, mobile enemy and reaching for broader watchfulness in response.",
+        "excerpt": "In these decades the anarchist with a bomb became the era's archetype of the enemy who could be anyone and could strike anywhere, and each atrocity was met not only with grief but with new statutes, new political police, and new registers of the suspect. The Haymarket bomb of 1886, its thrower never identified, showed how a single unseen attacker could push a whole society toward hasty legislation and expanded surveillance — the reflex of a state that feels itself watched from the shadows.",
+        "source": "The Haymarket bombing, Chicago, 4 May 1886, and the transatlantic anarchist 'dynamite' scare (Library of Congress, Chronicling America)",
+        "href": "https://guides.loc.gov/chronicling-america-haymarket-affair",
+        "image": {
+          "src": "/covers/germany-raises-terror-threat-level--a1.png",
+          "alt": "Wood engraving of a dynamite bomb exploding in a burst of light among ranks of police as a speaker addresses a crowd at Chicago's Haymarket Square, 1886.",
+          "credit": "Thure de Thulstrup, wood engraving in Harper's Weekly, 15 May 1886. Public domain via Wikimedia Commons."
+        }
+      },
+      {
+        "category": "literary",
+        "title": "Joseph Conrad's 1907 novel The Secret Agent turns on a foreign embassy official, Mr Vladimir, who lectures the slothful spy Verloc that a purely destructive outrage on a public target is the surest way to frighten a complacent society into repressive legislation. In this passage Vladimir insists the attack must not merely be planned but executed on home soil, and directed at buildings and institutions, so that the shock forces the state's hand. Conrad, writing after the real 1894 Greenwich bombing, anatomises the whole grim mechanism by which a hidden conspiracy and an anxious government feed one another. It reads as an uncanny gloss on Dobrindt's warning of plots against German 'infrastructure, individuals and institutions' and a government preparing, in response, to widen its surveillance powers.",
+        "excerpt": "“A series of outrages,” Mr Vladimir continued calmly, “executed here in this country; not only planned here—that would not do—they would not mind. Your friends could set half the Continent on fire without influencing the public opinion here in favour of a universal repressive legislation. They will not look outside their backyard here.” [...] “These outrages need not be especially sanguinary,” Mr Vladimir went on, as if delivering a scientific lecture, “but they must be sufficiently startling—effective. Let them be directed against buildings, for instance.”",
+        "source": "Joseph Conrad, The Secret Agent: A Simple Tale (1907), Chapter II",
+        "href": "https://www.gutenberg.org/ebooks/974"
+      },
+      {
+        "category": "literary",
+        "title": "In Dostoevsky's 1872 novel The Possessed (Demons), the agitator Pyotr Verkhovensky binds a provincial town into a secret revolutionary 'quintet' and boasts of an invisible national organisation. Here the theorist Shigalov recites back to him the terrifying vision he was sold: Russia covered by an 'endless network of knots,' each cell ramifying in secret, working through denunciation and fire to bring the country to a coordinated moment of collapse. Dostoevsky captures the dread of a conspiracy that is everywhere and nowhere, and the mutual paranoia it breeds among watchers and watched. That is precisely the anxiety behind a raised threat level: a state persuaded that unseen cells are laying 'discernible attack plans' against its infrastructure, forced to imagine the hidden enemy within.",
+        "excerpt": "you yourself at first and a second time later, drew with great eloquence, but too theoretically, a picture of Russia covered with an endless network of knots. Each of these centres of activity, proselytising and ramifying endlessly, aims by systematic denunciation to injure the prestige of local authority, to reduce the villages to confusion, to spread cynicism and scandals, together with complete disbelief in everything and an eagerness for something better, and finally, by means of fires, as a pre-eminently national method, to reduce the country at a given moment, if need be, to desperation.",
+        "source": "Fyodor Dostoevsky, The Possessed (Demons), 1872, trans. Constance Garnett, Part III, Chapter IV",
+        "href": "https://www.gutenberg.org/ebooks/8117"
+      },
+      {
+        "category": "artistic",
+        "title": "Peter Paul Rubens painted The Consequences of War in 1637–38, at the height of the Thirty Years' War, as an explicit allegory of a continent given over to violence. Mars, the god of war, strides forward with bloody sword while Venus vainly tries to restrain him; the fury Alecto drags him on with a torch, and beneath his feet lie the trampled emblems of art, learning and civic harmony, as a black-clad figure of Europe throws up her arms and wails. Rubens described the grieving woman as Europe herself, 'afflicted for so many years by rapine, outrage and misery.' The painting gives a face to exactly the atmosphere behind a nation raising its guard against imminent attack — a Europe once more bracing itself, its institutions and its people, against the threat of destruction breaking in from the dark.",
+        "excerpt": "An oil allegory in warm, storm-lit color: the armored war-god Mars lunges out of shadow, sword drawn, torch-bearing Fury pulling him on, while Venus and cherubs strain to hold him back and the personified figure of Europe lifts her arms in black-robed despair. Around them the instruments of peaceful life — a book, an architect's compass, a lute — are crushed underfoot, an image of a settled civilization tipping into fear and ruin.",
+        "source": "Peter Paul Rubens, The Consequences of War, 1637–1638, oil on canvas. Galleria Palatina, Palazzo Pitti, Florence.",
+        "href": "https://commons.wikimedia.org/wiki/File:Rubens_-_The_Consequences_of_War.jpg",
+        "image": {
+          "src": "/covers/germany-raises-terror-threat-level--a4.png",
+          "alt": "Baroque allegorical painting: the war-god Mars strides forward with sword and shield, pulled by a torch-bearing Fury, as Venus tries to restrain him and a black-robed figure of Europe throws up her arms in grief above trampled books and instruments.",
+          "credit": "Peter Paul Rubens, The Consequences of War (1637–38), Galleria Palatina, Palazzo Pitti, Florence. Public domain via Wikimedia Commons."
+        }
+      },
+      {
+        "category": "artistic",
+        "title": "Gustav Holst composed 'Mars, the Bringer of War' in 1914, the opening movement of his orchestral suite The Planets, on the eve of the First World War. It is built over a relentless, hammered five-beat ostinato — strings played col legno, with the wood of the bow — that advances like an approaching army, swelling through dissonant brass to a series of crushing, terrifying climaxes. The piece does not depict a battle so much as the dread of one coming: the mechanical, inexorable tread of menace closing in. That is the psychological register of a country raised to a 'high' terror alert — the anxious, watchful anticipation of an attack that has not yet fallen, the sense of a threat marching steadily toward the city.",
+        "excerpt": "A relentless orchestral march in an off-kilter five-beat meter, opened by strings striking their strings with the wood of the bow and by a menacing timpani and brass tread that never relents. The music builds through grinding, dissonant harmonies to shattering climaxes, evoking not a battle already joined but the mounting, mechanical dread of one bearing down — the sound of a society bracing for impact.",
+        "source": "Gustav Holst, 'Mars, the Bringer of War,' from The Planets, Op. 32 (1914–1916)",
+        "href": "https://imslp.org/wiki/The_Planets,_Op.32_(Holst,_Gustav)",
+        "image": {
+          "src": "/covers/germany-raises-terror-threat-level--a5.png",
+          "alt": "Black-and-white portrait photograph of composer Gustav Holst, in profile with round spectacles, c.1921.",
+          "credit": "Photograph of Gustav Holst by Herbert Lambert, c.1921. National Portrait Gallery, London. Public domain via Wikimedia Commons."
+        }
+      }
+    ],
+    "rank": 9
+  },
+  {
+    "slug": "us-funds-maga-aligned-europe-groups",
+    "headline": "U.S. State Department to fund MAGA-aligned European groups with grants of up to $3 million",
+    "overview": "The Trump administration's State Department is offering grants of up to $3 million to European organizations aligned with the MAGA movement to combat 'censorship' and build 'civilisational bonds' with the United States, the Financial Times reported. Almost $5 million is available, expected to be split among two or three recipients working on issues such as national sovereignty and migration. Critics warned the effort, which repurposes a foreign-aid stream to support hard-right European groups, could deepen European resentment even as Trump presses the continent to spend more on defense.",
+    "genre": "Politics",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOU4xcVQ5aVRTd3hURWx3clNoS2VWdzJ2QWZqc0g1alM2SHJBdk5zWnZqV01ndFhpMXBUQWlhTXdjVTMtdElHYzl0LXlCcFg3bDkyUjFOWm9hOG1zQzdLQnIyZUZpbGxaOFB3MlhITDhYY2I2UU9MTFJSV2FSdU9sbTA5WHROMXhnNnNGSlJ3MUc2U1Fudmp6Mlp3UWlyN0R0Q01NUkxCczFxbjhOUjM5TE1TMUFQTzVDRFN5emFmZjlsTEpodVVaUFJUZ29sdUF2WkQ0VA?oc=5"
+      },
+      {
+        "name": "U.S. News",
+        "href": "https://www.usnews.com/news/world/articles/2026-07-18/trump-administration-to-fund-maga-aligned-projects-in-europe-as-he-reorders-us-aid-ft-reports"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-18",
+    "image": {
+      "src": "/covers/us-funds-maga-aligned-europe-groups.png",
+      "alt": "The Harry S. Truman Building, headquarters of the U.S. Department of State in Washington.",
+      "credit": "U.S. Department of State / Wikimedia Commons"
+    },
+    "edition": "Evening Edition · 18 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "In 395 BC the Persian empire, unable to beat Sparta on the battlefield, opened its treasury instead. The satrap Tithraustes sent Timocrates the Rhodian to Greece with gold worth fifty silver talents, instructed to bind the leading men of Thebes, Corinth, Argos and Athens into a war against Sparta. The bribes landed, factions were bought, and the Corinthian War duly erupted, weakening a rival power from within. It is the oldest template for what the State Department now proposes: a superpower reaching across borders to bankroll congenial factions and reshape another region's politics with its money rather than its armies.",
+        "excerpt": "Being at his wits' end how to manage matters, he resolved to send Timocrates the Rhodian to Hellas with a gift of gold worthy fifty silver talents, and enjoined upon him to endeavour to exchange solemn pledges with the leading men in the several states, binding them to undertake a war against Lacedaemon. Timocrates arrived and began to dole out his presents. In Thebes he gave gifts to Androcleidas, Ismenias, and Galaxidorus; in Corinth to Timolaus and Polyanthes; in Argos to Cylon and his party. ... The recipients of the moneys forthwith began covertly to attack the Lacedaemonians in their respective states, and, when they had brought these to a sufficient pitch of hatred, bound together the most important of them in a confederacy.",
+        "source": "Xenophon, Hellenica 3.5.1-2 (trans. H. G. Dakyns)",
+        "href": "https://www.gutenberg.org/files/1174/1174-h/1174-h.htm",
+        "image": {
+          "src": "/covers/us-funds-maga-aligned-europe-groups--a0.png",
+          "alt": "A gold Achaemenid Persian daric coin showing a kneeling royal archer, the currency Persia used to subsidise foreign factions.",
+          "credit": "Gold daric of the Achaemenid Empire, c. 490 BC. Wikimedia Commons (public domain)."
+        }
+      },
+      {
+        "category": "historical",
+        "title": "From 1950 the CIA covertly built and financed the Congress for Cultural Freedom, its largest and longest secret operation, to wage a 'war of ideas' against Soviet communism among European intellectuals. Through the front it bankrolled sympathetic magazines across the continent, Encounter in London, Preuves in Paris, Der Monat in Berlin, alongside conferences, exhibitions and prizes, until The New York Times and Ramparts exposed the paymaster in 1966-67. Recipients felt betrayed to learn their independence had been an American purchase. The parallel to Washington's new grants is exact in spirit: a great power quietly underwriting ideologically aligned voices abroad to bend another society's culture toward its own foreign-policy interests.",
+        "excerpt": "The Congress for Cultural Freedom was the CIA's most ambitious covert cultural campaign, secretly funding a web of European magazines, writers and conferences to promote an anti-communist consensus. Editors and intellectuals believed themselves free agents; in truth their salaries and print runs flowed from a foreign intelligence service. When the funding was unmasked in 1966-67, the revelation discredited the very people it had subsidised and fuelled lasting resentment of American meddling.",
+        "source": "Congress for Cultural Freedom (CIA-funded, 1950-1967); Frances Stonor Saunders, Who Paid the Piper?",
+        "href": "https://en.wikipedia.org/wiki/Congress_for_Cultural_Freedom"
+      },
+      {
+        "category": "literary",
+        "title": "Facing Philip of Macedon's expansion, Demosthenes warned Athens that Greece was being conquered less by arms than by gold, its politicians bought city by city. In the Third Philippic he contrasts an older Greece that execrated anyone who took foreign money with his own corrupted age, in which loyalty and independence 'have been sold in the market and are gone.' The traitor, once punished with the heaviest penalty, now flaunts his hire without shame. Demosthenes gives voice to exactly the fear critics raise about the MAGA grants: that a foreign power's money, funnelled to willing local hands, hollows out a nation's politics from inside and dissolves the mistrust that once guarded it against outsiders.",
+        "excerpt": "It meant that men who took money from those who aimed at dominion or at the ruin of Hellas were execrated by all; that it was then a very grave thing to be convicted of bribery; that the punishment for the guilty man was the heaviest that could be inflicted; that for him there could be no plea for mercy, nor hope of pardon. No orator, no general, would then sell the critical opportunity... They did not barter away the harmony between people and people, nor their own mistrust of the tyrant and the foreigner, nor any of these high sentiments. Where are such sentiments now? They have been sold in the market and are gone.",
+        "source": "Demosthenes, Third Philippic, secs. 37-39 (Public Orations of Demosthenes)",
+        "href": "https://en.wikisource.org/wiki/The_Public_Orations_of_Demosthenes/Philippic_III"
+      },
+      {
+        "category": "literary",
+        "title": "Digging for roots in the wilderness, Shakespeare's exiled Timon unearths gold and delivers the theatre's fiercest indictment of money's corrupting power. This 'yellow slave,' he rages, will 'knit and break religions,' ennoble thieves and seat them 'with senators on the bench,' turning black to white and wrong to right. He names gold the 'common whore of mankind' that 'put'st odds among the route of nations', sowing discord between peoples. The speech distils the anxiety beneath this story: that dollars steered to favoured factions can buy legitimacy, install the once-marginal in seats of power, and set nation against nation.",
+        "excerpt": "Gold? yellow, glittering, precious gold?\nThus much of this will make black white, foul fair,\nWrong right, base noble, old young, coward valiant. ...\nThis yellow slave\nWill knit and break religions, bless the accursed,\nMake the hoar leprosy adored, place thieves\nAnd give them title, knee and approbation\nWith senators on the bench... Come, damned earth,\nThou common whore of mankind, that put'st odds\nAmong the route of nations, I will make thee\nDo thy right nature.",
+        "source": "Shakespeare, Timon of Athens, Act IV, Scene 3",
+        "href": "https://shakespeare.mit.edu/timon/timon.4.3.html"
+      },
+      {
+        "category": "artistic",
+        "title": "William Hogarth's 'Canvassing for Votes' (1754-55), the second scene of his Humours of an Election series, stages political corruption as broad comedy. At the centre a bewildered farmer is worked over by agents of both parties, each pressing money and favours into his hands to buy his allegiance, while behind them inns and mobs seethe with bribed loyalty and treats. Hogarth's whole cycle is a satire on how cash, not conviction, decides who governs. Painted for a nation where votes were openly purchased, it is the sharpest visual analogue to a policy of dispensing grants to secure friendly political factions, the transaction dressed up as civic friendship.",
+        "excerpt": "An oil painting crowded with figures: a country voter at the centre is courted simultaneously by rival party agents pushing coins and bribes into his palms, oblivious to the bought crowds, tavern banners and brawling supporters around him. Hogarth renders the buying of political loyalty as a bustling, faintly absurd marketplace, money changing hands beneath a veneer of hospitality and goodwill.",
+        "source": "William Hogarth, Canvassing for Votes (Humours of an Election, Plate II), 1754-55, Sir John Soane's Museum",
+        "href": "https://commons.wikimedia.org/wiki/File:William_Hogarth_-_Soliciting_Votes_-_WGA11457.jpg",
+        "image": {
+          "src": "/covers/us-funds-maga-aligned-europe-groups--a4.png",
+          "alt": "Hogarth's painting Canvassing for Votes: a central voter being bribed by rival party agents amid a crowd of purchased supporters.",
+          "credit": "William Hogarth, Canvassing for Votes (c. 1754-55). Web Gallery of Art / Wikimedia Commons (public domain)."
+        }
+      },
+      {
+        "category": "artistic",
+        "title": "Wagner's music-drama 'Das Rheingold' (1869) opens the Ring cycle with a theft that curses the world. The dwarf Alberich renounces love to seize the Rhinemaidens' gold, forging from it a ring that promises mastery over others, and every subsequent grab for that hoard poisons gods and men alike. The work is Western art's grandest parable of gold pursued as an instrument of domination, wealth converted into power over the wills of others. Arthur Rackham's illustration of the Rhine-daughters lamenting their stolen treasure captures the moment that fascination becomes corruption, a fitting emblem for a plan to convert foreign-aid millions into leverage over another continent's politics.",
+        "excerpt": "In this scene from the opera's close, Arthur Rackham draws the Rhinemaidens grieving deep in the river for the gold that has been wrenched away and turned into a ring of power. The gleaming treasure that once brought innocent delight has become an engine of domination the moment it is seized for advantage, and its loss shadows the whole cycle with the theme of wealth wielded to rule others.",
+        "source": "Richard Wagner, Das Rheingold, WWV 86A (1869); illustration by Arthur Rackham (1910)",
+        "href": "https://imslp.org/wiki/Das_Rheingold,_WWV_86A_(Wagner,_Richard)",
+        "image": {
+          "src": "/covers/us-funds-maga-aligned-europe-groups--a5.png",
+          "alt": "Arthur Rackham illustration of the Rhinemaidens mourning their stolen Rhinegold, the treasure forged into a ring of power.",
+          "credit": "Arthur Rackham, 'The Rhine's fair children, bewailing their lost gold, weep' (1910). Wikimedia Commons (public domain)."
+        }
+      }
+    ],
+    "rank": 10
+  },
+  {
+    "slug": "cfm-leap-1b-durability-certification",
+    "headline": "CFM wins FAA and EASA approval for a durability upgrade to the LEAP-1B engine on the Boeing 737 MAX",
+    "overview": "CFM International, the GE Aerospace-Safran joint venture, secured U.S. and European certification for a high-pressure turbine durability kit for its LEAP-1B engine, which powers the Boeing 737 MAX. The company said the upgrade roughly doubles the engine's time on wing in hot and harsh environments such as the Middle East and India, with full production expected to change over in early 2027. CFM also won initial engine-level certification for a novel reverse-bleed cooling system designed to cut fuel-nozzle replacements.",
+    "genre": "Economy",
+    "sources": [
+      {
+        "name": "Reuters",
+        "href": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa1kyS1VFMTRPTHNBT1FpeC1lWTlvQ1Q1Rk4wX0lQME5NcHBEd2FRX2YyVVUzRHgtNElqMm9WM2l6bGEtVkxZZDBiRVJLZl9RUmZUY1lub2RPT2g4SC1tT2p5dElwSEJPQUN3M2F0dFZ4ZHZOb0JTbVROQWx3WnRnRDZKanRWblBpRjdjT2lGblZacHZ6WTl5djNVMXlJRmY1ZGs2NE1hTjVuQS1P?oc=5"
+      },
+      {
+        "name": "GE Aerospace",
+        "href": "https://www.geaerospace.com/news/press-releases/cfm-secures-certification-leap-1b-durability-upgrades"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-18",
+    "image": {
+      "src": "/covers/cfm-leap-1b-durability-certification.png",
+      "alt": "A CFM LEAP turbofan engine mounted under an aircraft wing.",
+      "credit": "Thyrome / Wikimedia Commons"
+    },
+    "edition": "Evening Edition · 18 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "In 1712 Thomas Newcomen's atmospheric engine first harnessed fire and steam to do tireless mechanical work, but it was crude and wasteful; James Watt's separate condenser, patented in 1769, transformed that machine into a durable, efficient workhorse that could run for years and powered the Industrial Revolution. Watt's genius was thermal: he stopped the cylinder from being repeatedly heated and chilled, mastering the punishing cycle of heat that had limited every earlier engine. The surviving Watt-type beam engines, still turning their great flywheels in museums, are monuments to endurance won by taming temperature. That is precisely CFM's challenge with the LEAP-1B durability kit: to conquer the heat cycles that wear an engine down and keep it running far longer between overhauls.",
+        "excerpt": "James Watt's decisive 1769 improvement, the separate condenser, kept the working cylinder permanently hot while steam was condensed elsewhere, ending the wasteful heat-and-cool cycle of Newcomen's engine. The result was a heat engine efficient and robust enough to run continuously in mines and mills for decades, becoming the enduring prime mover of the age of steam.",
+        "source": "The Watt steam engine and Watt's separate condenser (1769).",
+        "href": "https://en.wikipedia.org/wiki/Watt_steam_engine",
+        "image": {
+          "src": "/covers/cfm-leap-1b-durability-certification--a0.png",
+          "alt": "A preserved Watt-type beam steam engine with its tall columns, walking beam and great flywheel on museum display.",
+          "credit": "Watt-type beam engine (D. Napier & Son, 1832), ETSII Madrid. Photo Nicolas Perez, CC BY-SA 3.0, via Wikimedia Commons."
+        }
+      },
+      {
+        "category": "historical",
+        "title": "In the late 1930s Frank Whittle in Britain and Hans von Ohain in Germany independently built the first working turbojets, and von Ohain's engine flew the Heinkel He 178 in 1939 while Whittle's Power Jets W.1 lifted the Gloster E.28/39 in 1941. Their central struggle was not thrust but survival: white-hot gases and spinning turbines destroyed early engines so quickly that the W.1 had a service life measured in only about ten hours. The whole subsequent history of jet propulsion has been a hunt for metals and cooling that let the hot section endure. CFM's LEAP-1B high-pressure turbine durability kit is the latest chapter of that same quest, roughly doubling how long the engine can stay on wing in scorching climates.",
+        "excerpt": "The Power Jets W.1, first flown in the Gloster E.28/39 on 15 May 1941, was the first British turbojet to fly, following von Ohain's engine in the He 178 of 1939. Limited by the materials of its day, the early Whittle engine had a service life of only about ten hours, making durability of the hot turbine section the defining engineering problem of the jet age.",
+        "source": "Power Jets W.1 (Whittle) and the first flying turbojets, 1939-1941.",
+        "href": "https://en.wikipedia.org/wiki/Power_Jets_W.1",
+        "image": {
+          "src": "/covers/cfm-leap-1b-durability-certification--a1.png",
+          "alt": "The Power Jets W.1 turbojet engine, the first British jet engine to fly, on display at the Science Museum, London.",
+          "credit": "Power Jets W.1, Science Museum, London. Photo by Nimbus227, public domain, via Wikimedia Commons."
+        }
+      },
+      {
+        "category": "literary",
+        "title": "In Book XVIII of Homer's Iliad, the smith-god Hephaestus (Vulcan) goes to his forge to make new armor for Achilles, setting twenty bellows to blow on his melting-pots, throwing copper, tin, silver and gold into the fire, and taking up hammer and tongs at his great anvil. It is the oldest and most vivid image in Western literature of a divine craftsman mastering fire and metal, blast by regulated blast, to make something that will endure the shock of battle. Homer even has the bellows blow with graded strength, an ancient intuition of the controlled thermal management that modern engines demand. CFM's durability kit is a distant descendant of that forge: high-tech metallurgy bent on making hot metal survive extreme heat.",
+        "excerpt": "When he had so said he left her and went to his bellows, turning them towards the fire and bidding them do their office. Twenty bellows blew upon the melting-pots, and they blew blasts of every kind, some fierce to help him when he had need of them, and others less strong as Vulcan willed it in the course of his work. He threw tough copper into the fire, and tin, with silver and gold; he set his great anvil on its block, and with one hand grasped his mighty hammer while he took the tongs in the other.",
+        "source": "Homer, Iliad, Book XVIII (trans. Samuel Butler).",
+        "href": "https://classics.mit.edu/Homer/iliad.18.xviii.html"
+      },
+      {
+        "category": "literary",
+        "title": "In Book VIII of Virgil's Aeneid, Vulcan descends to his subterranean forge beneath a smoking island near Sicily, where the one-eyed Cyclopes wield heavy hammers on eternal anvils amid hissing steel, roaring water and flames driven through fuming vents. Virgil turns the forge into an industrial hell of fire and iron in which molten silver, brass, gold and deadly steel are rolled into the great furnace to make the shield of Aeneas. The scene is a hymn to controlled violence: raw heat and beaten metal disciplined into something strong enough to sustain war. It captures exactly the theme of CFM's LEAP-1B upgrade, human ingenuity taming fire and metal so that a machine can withstand punishing heat.",
+        "excerpt": "Sacred to Vulcan's name, an isle there lay, / Betwixt Sicilia's coasts and Lipare, / Rais'd high on smoking rocks; and, deep below, / In hollow caves the fires of Aetna glow. / The Cyclops here their heavy hammers deal; / Loud strokes, and hissings of tormented steel, / Are heard around; the boiling waters roar, / And smoky flames thro' fuming tunnels soar.",
+        "source": "Virgil, Aeneid, Book VIII (trans. John Dryden).",
+        "href": "https://classics.mit.edu/Virgil/aeneid.8.viii.html"
+      },
+      {
+        "category": "artistic",
+        "title": "Diego Velazquez's Apollo in the Forge of Vulcan (1630, Museo del Prado) shows the god Apollo arriving with unwelcome news at Vulcan's smithy, where muscular smiths freeze mid-blow around a glowing bar of iron on the anvil, tongs and hammers in hand, the furnace throwing warm light across their sweating bodies. Velazquez paints the forge not as myth but as a real, sooty workshop of hard bodily labor and radiant heat, dignifying the craft of working metal with fire. It is the human face of taming furnace and hammer, the very labor that turns raw metal into something enduring. That is the enduring drama behind CFM's LEAP-1B durability kit: mastering fire and metal so an engine can bear the heat.",
+        "excerpt": "The painting freezes the smiths mid-labor around the anvil, a bar of iron still glowing orange from the furnace, its heat lighting the astonished faces and straining muscles. Velazquez renders the forge as a place of real toil and radiant fire, where hammer, tongs and flame are the everyday tools of mastering metal.",
+        "source": "Diego Velazquez, Apollo in the Forge of Vulcan (1630), Museo del Prado, Madrid.",
+        "href": "https://commons.wikimedia.org/wiki/File:Vel%C3%A1zquez_-_La_Fragua_de_Vulcano_(Museo_del_Prado,_1630).jpg",
+        "image": {
+          "src": "/covers/cfm-leap-1b-durability-certification--a4.png",
+          "alt": "Velazquez's painting of Apollo visiting Vulcan's forge, smiths gathered around a glowing bar of iron on the anvil.",
+          "credit": "Diego Velazquez, Apollo in the Forge of Vulcan (1630), Museo del Prado. Public domain, via Wikimedia Commons."
+        }
+      },
+      {
+        "category": "artistic",
+        "title": "In Act I of Wagner's opera Siegfried (1876), the young hero forges the shattered sword Nothung anew, singing the ringing Forging Song (\"Nothung! Nothung! Neidliches Schwert!\") as the orchestra hammers in time with his blows, the anvil, bellows and roaring furnace turned into music. Arthur Rackham's 1911 illustration for the opera captures the smithy in Mime's cave, the smith bent over the anvil as sparks fly and a blade takes shape in the firelight. Both music and image make the forge a place of triumphant creation, where broken metal is reheated and reforged into something stronger than before. That is the spirit of CFM's LEAP-1B durability upgrade, reworking the hot heart of the engine so it endures.",
+        "excerpt": "Wagner sets Siegfried's re-forging of Nothung to relentless orchestral hammer-strokes, the music itself beating on an imagined anvil as the bellows roar and the blade is plunged hissing into water. Rackham's illustration answers it in ink and colour, the smith crouched over the anvil in the cave's firelight, sparks leaping as the sword is beaten back into being.",
+        "source": "Richard Wagner, Siegfried, WWV 86C, Act I (the Forging Song); illustration by Arthur Rackham (1911).",
+        "href": "https://imslp.org/wiki/Siegfried,_WWV_86C_(Wagner,_Richard)",
+        "image": {
+          "src": "/covers/cfm-leap-1b-durability-certification--a5.png",
+          "alt": "Arthur Rackham's illustration of the smith at the anvil forging a sword in Mime's cave, from Wagner's Siegfried.",
+          "credit": "Arthur Rackham, illustration for Wagner's Siegfried (1911). Public domain, via Wikimedia Commons."
+        }
+      }
+    ],
+    "rank": 11
+  },
+  {
+    "slug": "nokia-hmd-ai-button-feature-phones",
+    "headline": "HMD launches four Nokia-branded 4G feature phones with a dedicated AI-assistant button",
+    "overview": "HMD unveiled four Nokia-branded 4G feature phones, the Nokia 210 4G, 200 4G, and second-edition 215 4G and 235 4G, that pair physical keypads with a dedicated button for a voice AI assistant powered by the Chinese firm Sikey AI. The button can set alarms, open the camera, toggle a torch or place calls, and comes with a 180-day trial before subscription fees apply. The retro-styled handsets add USB-C charging, up to 13 days of standby and HMD's cloud services, though some users have dismissed the AI feature as a gimmick.",
+    "genre": "Technology",
+    "sources": [
+      {
+        "name": "Dezeen",
+        "href": "https://www.dezeen.com/2026/07/18/nokia-dumbphones-ai-powered-buttons-this-week/"
+      },
+      {
+        "name": "Digital Trends",
+        "href": "https://www.digitaltrends.com/phones/hdm-just-launched-four-dumb-phones-with-a-nokia-badge-and-an-ai-button/"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-18",
+    "image": {
+      "src": "/covers/nokia-hmd-ai-button-feature-phones.png",
+      "alt": "A Nokia-branded feature phone with a physical keypad.",
+      "credit": "Diamante Phi / Wikimedia Commons"
+    },
+    "edition": "Evening Edition · 18 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "In the 1780s the Hungarian engineer Wolfgang von Kempelen built a wooden box fitted with a bellows for lungs, a vibrating reed for vocal cords, and a rubber funnel of a mouth that a demonstrator squeezed and stopped with his fingers until it wheezed out recognizable words like 'Mama,' 'Papa' and 'Roma.' Audiences leaned in astonished that a contraption of leather and wind could seem to speak, half-charmed and half-suspecting a trick. The engraving above shows just such an 18th-century speaking machine, its keys and pipes laid bare. It is the same bargain HMD now offers: a plain, familiar object, this time a Nokia keypad phone, made to talk back through a dedicated button, its novelty hovering between marvel and gimmick just as Kempelen's box did two centuries ago.",
+        "excerpt": "Von Kempelen's 'speaking machine' forced air from a bellows through a reed and a flexible leather resonator, its consonants shaped by an operator's fingers pressing against openings in the tube. Working it like an instrument, he coaxed out whole short words and phrases, the first device to synthesize connected human speech rather than isolated sounds. Contemporaries reported a voice that was uncanny and childlike, and argued over whether it was genuine science or clever showmanship.",
+        "source": "Wolfgang von Kempelen, speaking machine (c. 1769-1791), described in Mechanismus der menschlichen Sprache",
+        "href": "https://en.wikipedia.org/wiki/Wolfgang_von_Kempelen%27s_speaking_machine",
+        "image": {
+          "src": "/covers/nokia-hmd-ai-button-feature-phones--a0.png",
+          "alt": "Engraving of an 18th-century speaking machine with bellows, pipes and a keyboard mechanism, labelled Fig. 1",
+          "credit": "Engraving of von Kempelen's speaking machine, via Wikimedia Commons"
+        }
+      },
+      {
+        "category": "historical",
+        "title": "On a December day in 1877 Thomas Edison walked into the New York offices of Scientific American, set a small tin-foil cylinder machine on a desk, and turned its crank; to the astonishment of the assembled editors the little box asked after their health and wished them good night in Edison's own recorded voice. No one had ever heard a machine reproduce human speech before, and the editors scrambled to describe a device that could hold a voice captive and give it back on demand. The tin-foil phonograph, a replica of which is shown above, was the original voice-in-a-box. HMD's feature phones update the wonder rather than invent it: press a button and a stored intelligence speaks, exactly the trick that made a roomful of hardened engineers marvel almost 150 years ago.",
+        "excerpt": "Mr. Thomas A. Edison recently came into this office, placed a little machine on our desk, turned a crank, and the machine inquired as to our health, asked how we liked the phonograph, informed us that it was very well, and bid us a cordial good night.",
+        "source": "\"The Talking Phonograph,\" Scientific American, Vol. 37, No. 25 (December 22, 1877)",
+        "href": "https://archive.org/stream/scientific-american-1877-12-22/scientific-american-v37-n25-1877-12-22_djvu.txt",
+        "image": {
+          "src": "/covers/nokia-hmd-ai-button-feature-phones--a1.png",
+          "alt": "Replica of Edison's 1877 tin-foil cylinder phonograph, a hand-cranked brass and wood machine",
+          "credit": "Replica of Edison's 1877 tin-foil phonograph, photo by Gregory F. Maxwell, via Wikimedia Commons (GFDL 1.2)"
+        }
+      },
+      {
+        "category": "literary",
+        "title": "In Robert Greene's Elizabethan comedy Friar Bacon and Friar Bungay, the friar labors seven years to build a head of brass that, once it speaks, will supposedly wall all England in protective bronze. He must catch its first words or the magic fails, yet when he finally sleeps and leaves the servant Miles to watch, the head utters only three cryptic fragments, 'Time is,' 'Time was,' 'Time is past,' before a mysterious hand shatters it. Miles mocks the oracle as an absurd waste of study, unimpressed that a marvel of engineering answers 'with syllables.' It is the oldest complaint about the talking machine, and precisely the one leveled at HMD's AI button: an object built at great effort to speak, dismissed by some users as delivering little more than a gimmick.",
+        "excerpt": "THE BRAZEN HEAD. Time is.\nMILES. Time is! Why, Master Brazen-head, have you such a capital nose, and answer you with syllables, Time is? Is this all my master's cunning, to spend seven years' study about Time is?...\nTHE BRAZEN HEAD. Time was...\nTHE BRAZEN HEAD. Time is past.\nThen there is a flash of lightning and a hand appears, which breaks the Head with a hammer.",
+        "source": "Robert Greene, Friar Bacon and Friar Bungay (c. 1590), Scene xi",
+        "href": "https://www.luminarium.org/renascence-editions/greene2.html"
+      },
+      {
+        "category": "literary",
+        "title": "In E. T. A. Hoffmann's 1816 tale The Sandman, the student Nathanael falls hopelessly in love with Olimpia, a beautiful young woman who turns out to be a wind-up automaton assembled by a professor and an eye-maker. Through whole evenings of poured-out passion she answers only with a sighed 'Ach! Ach!', and Nathanael, hearing profundity in her mechanical silence, takes her cold rigidity for a deep and understanding soul. Others find her stiff, taciturn and stupid; he alone is enchanted, mistaking a talking device for a companion. The story anticipates exactly the split reaction to HMD's voice assistant: a manufactured voice in a familiar-seeming shell that some greet as a wonder and others wave off as a hollow trick.",
+        "excerpt": "...for she sat with her eyes fixed unchangeably upon his, sighing repeatedly, \"Ach! Ach! Ach!\" Upon this Nathanael would answer, \"Oh, you glorious heavenly lady! You ray from the promised paradise of love! Oh! what a profound soul you have! my whole being is mirrored in it!\" and a good deal more in the same strain. But Olimpia only continued to sigh \"Ach! Ach!\" again and again.",
+        "source": "E. T. A. Hoffmann, \"The Sand-Man\" (Der Sandmann, 1816), English translation",
+        "href": "https://gutenberg.net.au/ebooks06/0605791h.html"
+      },
+      {
+        "category": "artistic",
+        "title": "On the Sistine Chapel ceiling Michelangelo painted the Delphic Sibyl (1509), a young prophetess who turns sharply from her open scroll as though startled by the voice speaking through her, her eyes wide and her lips just parted. In the ancient world the Delphic oracle was the ultimate voice-from-a-source, a human mouthpiece delivering the god's answers to anyone who came to ask. Michelangelo monumentalizes that idea of a seer who gives voice to hidden knowledge on demand. HMD's dedicated AI button revives the same ancient fantasy in the palm of the hand: press it and the small oracle in the box answers your question, sets your alarm, or opens your camera, the modern heir to the sibyl at Delphi.",
+        "excerpt": "Michelangelo's fresco shows the Delphic Sibyl seated among painted marble, a book of prophecy held open in one hand as she twists to look outward, brow furrowed and mouth slightly open. Draped in blue, gold and green, she embodies the prophetic voice that answers those who consult it, a human vessel through which unseen knowledge is made to speak.",
+        "source": "Michelangelo Buonarroti, The Delphic Sibyl, Sistine Chapel ceiling (1509), Vatican",
+        "href": "https://commons.wikimedia.org/wiki/File:Michelangelo_-_Delphic_Sibyl.jpg",
+        "image": {
+          "src": "/covers/nokia-hmd-ai-button-feature-phones--a4.png",
+          "alt": "Michelangelo's fresco of the Delphic Sibyl, a young prophetess with an open scroll turning to look outward",
+          "credit": "Michelangelo, The Delphic Sibyl (1509), Sistine Chapel; via Wikimedia Commons (public domain)"
+        }
+      },
+      {
+        "category": "artistic",
+        "title": "This 1789 engraving by Joseph Racknitz shows a cutaway of the Mechanical Turk, the celebrated chess-playing automaton built by Wolfgang von Kempelen: a turbaned figure seated at a cabinet whose opened doors are meant to reveal only gears and clockwork. In truth a hidden human operator crouched inside worked the levers, so the 'thinking machine' was really a person's intelligence dressed in wood and brass. For decades audiences across Europe were dazzled, unsure whether they faced a genuine automaton or a clever fraud. It is the perfect emblem for HMD's talking phones, where the friendly voice on a retro keypad is in fact powered by remote AI software behind the scenes, an old familiar object given an uncanny new voice and, after 180 days, a fee.",
+        "excerpt": "Racknitz's engraving diagrams the interior of von Kempelen's chess automaton, exposing panels, machinery and the cramped space where he believed the concealed operator sat. The turbaned Turk leans over its board as spectators are invited to marvel at a machine that seems to reason, while the real cleverness is hidden inside the cabinet, an early study in how a device can appear to possess a mind of its own.",
+        "source": "Joseph Friedrich zu Racknitz, engraving of the Mechanical Turk, from Ueber den Schachspieler des Herrn von Kempelen (1789)",
+        "href": "https://commons.wikimedia.org/wiki/File:Racknitz_-_The_Turk_3.jpg",
+        "image": {
+          "src": "/covers/nokia-hmd-ai-button-feature-phones--a5.png",
+          "alt": "1789 engraving showing a cutaway of the Mechanical Turk chess automaton with its internal mechanism exposed",
+          "credit": "Joseph Racknitz, engraving of the Mechanical Turk (1789); via Wikimedia Commons (public domain)"
+        }
+      }
+    ],
+    "rank": 12
+  },
+  {
+    "slug": "hdfc-bank-q1-profit-rises",
+    "headline": "HDFC Bank's quarterly profit rises 5% to 190.6 billion rupees as bad-loan provisions fall",
+    "overview": "India's HDFC Bank, the country's largest private-sector lender, reported an April-June net profit of 190.6 billion rupees ($2.2 billion), up 5% from a year earlier, helped by a 79% drop in provisions for bad loans. Net interest income rose about 7% to 335.3 billion rupees, gross advances grew 15.4% and deposits climbed 14.7% year on year. Asset quality improved from a year ago, with gross non-performing assets at 1.17% of loans.",
+    "genre": "Economy",
+    "sources": [
+      {
+        "name": "Business Standard",
+        "href": "https://www.business-standard.com/companies/quarterly-results/hdfc-bank-q1fy27-results-net-profit-rises-5-to-19-060-cr-nii-grows-7-126071800598_1.html"
+      },
+      {
+        "name": "Business Today",
+        "href": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-q1-results-net-profit-rises-5-to-rs-19060-crore-nii-up-6-7-key-takeaways-543764-2026-07-18"
+      }
+    ],
+    "href": "#",
+    "publishedAt": "2026-07-18",
+    "image": {
+      "src": "/covers/hdfc-bank-q1-profit-rises.png",
+      "alt": "An HDFC Bank branch sign in India.",
+      "credit": "Jayanta / Wikimedia Commons"
+    },
+    "edition": "Evening Edition · 18 July 2026",
+    "analogies": [
+      {
+        "category": "historical",
+        "title": "In 1397 Giovanni di Bicci de' Medici moved his small bank from Rome to Florence and founded what would become the largest and most respected banking house in fifteenth-century Europe. Run as a single Florentine partnership that held the controlling share in each of its branches, from Venice to Bruges and London, the Medici bank refined the double-entry ledger and turned careful reckoning into dynastic power, its profits underwriting the family's rise to unofficial rule of the republic. Its fortune rested less on daring than on disciplined accounts, prudent credit and reserves held against loss. HDFC Bank's steadily compounding quarter, its swelling deposits and shrinking provisions, is the same old counting-house arithmetic that once built the house of Medici: patient, ledgered gain accumulating into a great financial estate.",
+        "excerpt": "The Medici bank's founding is dated to 1397, when Giovanni di Bicci de' Medici separated his bank from his nephew's and moved it to Florence. It became the largest and most respected bank in Europe during its prime, operating branches across the continent as a single Florentine partnership. Among its contributions to banking and accounting was the improvement of the general ledger through the development of the double-entry system.",
+        "source": "The Medici Bank (founded 1397), Florence",
+        "href": "https://en.wikipedia.org/wiki/Medici_Bank",
+        "image": {
+          "src": "/covers/hdfc-bank-q1-profit-rises--a0.png",
+          "alt": "Portrait of Giovanni di Bicci de' Medici, founder of the Medici bank",
+          "credit": "Portrait of Giovanni di Bicci de' Medici (Uffizi), via Wikimedia Commons (public domain)"
+        }
+      },
+      {
+        "category": "historical",
+        "title": "On 27 July 1694, three centuries after the Medici, a royal charter incorporated 'The Governor and Company of the Bank of England,' founded on a scheme by the Scottish projector William Paterson to lend a cash-strapped crown 1.2 million pounds for its war with France. The subscription was filled in just twelve days by 1,268 investors, from merchants and esquires to the king and queen themselves, binding public credit to a permanent institution of accounts. From that founding grew the modern architecture of deposits, reserves and disciplined lending on which great banks still stand. HDFC Bank, India's largest private-sector lender reporting swelling advances and deposits, is a distant heir to that 1694 counting-house model: the great chartered house of finance, prospering by prudent lending and the careful management of other people's money.",
+        "excerpt": "The Bank of England was established by royal charter on 27 July 1694 under the Tonnage Act, its subscribers incorporated as 'The Governor and Company of the Bank of England.' Proposed by William Paterson to fund the government during the Nine Years' War, it raised 1.2 million pounds in just twelve days from 1,268 subscribers, including King William and Queen Mary. From this founding grew the modern system of public credit and central banking.",
+        "source": "Founding of the Bank of England, 27 July 1694",
+        "href": "https://www.bankofengland.co.uk/about/history",
+        "image": {
+          "src": "/covers/hdfc-bank-q1-profit-rises--a1.png",
+          "alt": "The Sealing of the Bank of England Charter, 1694",
+          "credit": "The Sealing of the Bank of England Charter, 1694, by Lady Jane Lindsay (1905), via Wikimedia Commons (public domain)"
+        }
+      },
+      {
+        "category": "literary",
+        "title": "In the Gospel of Matthew, Jesus tells of a lord who, before a long journey, entrusts his money to three servants and later returns to reckon accounts with them. Two put the talents to work and double them, and are welcomed as 'good and faithful'; the third, who fearfully buried his single talent in the earth, is condemned, and told he ought at least to have put the money 'to the exchangers' to be repaid with interest. It is scripture's great parable of prudent stewardship: capital hidden away is capital wasted, while capital wisely lent and multiplied is rewarded. HDFC Bank's quarter, its advances up more than fifteen percent and its bad-loan provisions falling by nearly four-fifths, reads like the faithful servant's reckoning, money put to work, losses guarded against, and gain brought back to the lord of the ledger.",
+        "excerpt": "25:14 For the kingdom of heaven is as a man travelling into a far country, who called his own servants, and delivered unto them his goods. 25:15 And unto one he gave five talents, to another two, and to another one; to every man according to his several ability; and straightway took his journey. 25:16 Then he that had received the five talents went and traded with the same, and made them other five talents. 25:17 And likewise he that had received two, he also gained other two. 25:18 But he that had received one went and digged in the earth, and hid his lord's money. 25:19 After a long time the lord of those servants cometh, and reckoneth with them. 25:20 And so he that had received five talents came and brought other five talents, saying, Lord, thou deliveredst unto me five talents: behold, I have gained beside them five talents more. 25:21 His lord said unto him, Well done, thou good and faithful servant: thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord. 25:26 His lord answered and said unto him, Thou wicked and slothful servant, thou knewest that I reap where I sowed not, and gather where I have not strawed: 25:27 Thou oughtest therefore to have put my money to the exchangers, and then at my coming I should have received mine own with usury.",
+        "source": "Gospel of Matthew 25:14-27, King James Version",
+        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/Matthew"
+      },
+      {
+        "category": "literary",
+        "title": "In 'The Way to Wealth' (1758), Benjamin Franklin gathers a quarter-century of Poor Richard's proverbs into the sermon of old Father Abraham, who preaches industry and thrift to a crowd waiting on an auction. His homely warnings against waste, that small expenses add up and that 'a small leak will sink a great ship,' turn frugality into a moral and financial science, the art of guarding what one has earned. The whole essay is a hymn to prudent gain and provision against loss. HDFC Bank's quarter tells the same lesson in a modern ledger: its 79 percent drop in bad-loan provisions and its improved asset quality are Franklin's careful housekeeping written large, the great house that prospers because it minds its small leaks.",
+        "excerpt": "You may think perhaps, that a little Tea, or a little Punch now and then, Diet a little more costly, Clothes a little finer, and a little Entertainment now and then, can be no great Matter; but remember what Poor Richard says, Many a Little makes a Mickle. Beware of little expenses; A small Leak will sink a great Ship; and again, Who Dainties love, shall Beggars prove; and moreover, Fools make Feasts, and wise Men eat them. Buy what thou hast no Need of, and ere long thou shalt sell thy Necessaries.",
+        "source": "Benjamin Franklin, 'The Way to Wealth' (1758)",
+        "href": "https://monadnock.net/franklin/wealth.html"
+      },
+      {
+        "category": "artistic",
+        "title": "Quentin Matsys' 'The Moneylender and His Wife' (1514), in the Louvre, shows an Antwerp banker in his counting-house delicately weighing gold coins and pearls on a small balance, while his richly dressed wife, distracted from her illuminated book of devotion, turns her eyes toward the glinting money. Coins, rings, a convex mirror and account books crowd the table in exquisite detail, and the scene hovers between admiration for careful commerce and warning against worldly greed. It is the definitive portrait of the ledger and the scale, the meticulous reckoning of value that is banking's oldest ritual. HDFC Bank's quarterly results, weighing income against provisions, gains against losses on a vast balance, are the same act of measurement Matsys painted five centuries ago in the temple of coin.",
+        "excerpt": "An oil-on-panel painting in which an Antwerp moneylender weighs gold coins and jewels on a fine balance, his wife beside him pausing over an illuminated prayer-book to watch the money. The table is laid with coins, rings, pearls, a weighing-scale and a convex mirror rendered in minute detail. The picture is at once a celebration of careful commerce and a moral meditation on the pull of worldly wealth.",
+        "source": "Quentin Matsys, The Moneylender and His Wife (1514), Musee du Louvre",
+        "href": "https://collections.louvre.fr/en/ark:/53355/cl010061690",
+        "image": {
+          "src": "/covers/hdfc-bank-q1-profit-rises--a4.png",
+          "alt": "The Moneylender and His Wife by Quentin Matsys, 1514, a banker weighing gold coins beside his wife",
+          "credit": "Quentin Matsys, The Moneylender and His Wife (1514), Musee du Louvre, via Wikimedia Commons (public domain)"
+        }
+      },
+      {
+        "category": "artistic",
+        "title": "A generation later, Marinus van Reymerswaele took up the same subject in 'The Moneychanger and His Wife' (1539), now in the Prado, painting a gaunt money-changer in an old-fashioned hat hunched over his coins while his wife records the sums in a ledger. Where Matsys was serene, Reymerswaele is sharper and almost caricatured, the faces intent, the coins heaped, the account-book open, emphasizing the relentless tallying at the heart of finance. The painting became one of the most copied images of the counting-house in Northern Europe, a byword for money weighed and written down. HDFC Bank's earnings statement, deposits up 14.7 percent and every rupee of provision counted and reckoned, is that ledger brought forward into the present, the endless, exacting bookkeeping on which a great house of finance is built.",
+        "excerpt": "An oil painting of a lean money-changer seated at his table, counting and weighing coins, while his wife enters the figures in an open account-book. The scene is crowded with stacked coins, documents and the instruments of reckoning, its faces rendered with an almost satirical intensity. One of the most influential and frequently copied images of the counting-house in sixteenth-century Northern European art.",
+        "source": "Marinus van Reymerswaele, The Moneychanger and His Wife (1539), Museo del Prado",
+        "href": "https://commons.wikimedia.org/wiki/File:Marinus_Claesz._van_Reymerswaele_001.jpg",
+        "image": {
+          "src": "/covers/hdfc-bank-q1-profit-rises--a5.png",
+          "alt": "The Moneychanger and His Wife by Marinus van Reymerswaele, 1539, a money-changer counting coins as his wife keeps the ledger",
+          "credit": "Marinus van Reymerswaele, The Moneychanger and His Wife (1539), Museo del Prado, via Wikimedia Commons (public domain)"
+        }
+      }
+    ],
+    "rank": 13
+  },
+  {
     "slug": "messi-argentina-spain-world-cup-final",
     "headline": "Lionel Messi's Argentina and Spain will meet in the men's World Cup final, with Argentina chasing back-to-back titles",
     "overview": "Argentina, captained by Lionel Messi, will face Spain in the men's World Cup final, a match pitting the defending champions against a Spanish side built around a younger generation. Messi told reporters that his team 'will give it our all,' as the tournament has been shadowed by off-field controversies, including a dispute over a Falklands banner and a starring role for U.S. President Donald Trump. Argentina is seeking to become the first team in decades to win consecutive World Cups.",
@@ -179,7 +1312,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 1
+    "rank": 14
   },
   {
     "slug": "iran-gulf-states-kuwait-desalination",
@@ -273,7 +1406,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 2
+    "rank": 15
   },
   {
     "slug": "ukraine-defense-minister-ousted",
@@ -362,7 +1495,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 3
+    "rank": 16
   },
   {
     "slug": "ukraine-drones-russia-oil-depot",
@@ -441,7 +1574,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 4
+    "rank": 17
   },
   {
     "slug": "skyroot-vikram-1-orbital-launch",
@@ -530,7 +1663,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 5
+    "rank": 18
   },
   {
     "slug": "norway-drammen-fire-homes-destroyed",
@@ -614,7 +1747,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 6
+    "rank": 19
   },
   {
     "slug": "us-ends-endangered-species-blanket-protections",
@@ -693,7 +1826,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 7
+    "rank": 20
   },
   {
     "slug": "gamestop-ebay-stake-disclosure",
@@ -777,7 +1910,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 8
+    "rank": 21
   },
   {
     "slug": "japan-flag-desecration-law",
@@ -856,7 +1989,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 9
+    "rank": 22
   },
   {
     "slug": "british-museum-palestine-labels-probe",
@@ -945,7 +2078,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 10
+    "rank": 23
   },
   {
     "slug": "us-hong-kong-emergency-lapse",
@@ -1034,7 +2167,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 11
+    "rank": 24
   },
   {
     "slug": "fairlife-cyberattack-production-halt",
@@ -1113,7 +2246,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 12
+    "rank": 25
   },
   {
     "slug": "india-wangchuk-hunger-strike-hospitalized",
@@ -1192,7 +2325,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 13
+    "rank": 26
   },
   {
     "slug": "burnham-labour-leader",
@@ -1292,7 +2425,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 14
+    "rank": 27
   },
   {
     "slug": "israel-knesset-dissolves-october-election",
@@ -1391,7 +2524,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 15
+    "rank": 28
   },
   {
     "slug": "apple-overtakes-nvidia-most-valuable",
@@ -1490,7 +2623,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 16
+    "rank": 29
   },
   {
     "slug": "china-british-steel-nationalisation",
@@ -1589,7 +2722,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 17
+    "rank": 30
   },
   {
     "slug": "faa-boeing-self-certify-737-max-787",
@@ -1688,7 +2821,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 18
+    "rank": 31
   },
   {
     "slug": "meta-anthropic-compute-lease-deal",
@@ -1787,7 +2920,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 19
+    "rank": 32
   },
   {
     "slug": "france-blocks-polymarket",
@@ -1886,7 +3019,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 20
+    "rank": 33
   },
   {
     "slug": "eu-carbon-market-slowdown",
@@ -1985,7 +3118,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 21
+    "rank": 34
   },
   {
     "slug": "mexico-chiapas-earthquake",
@@ -2084,7 +3217,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 22
+    "rank": 35
   },
   {
     "slug": "spacex-starship-abort",
@@ -2183,7 +3316,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 23
+    "rank": 36
   },
   {
     "slug": "brenda-fricker-dies",
@@ -2282,7 +3415,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 24
+    "rank": 37
   },
   {
     "slug": "gordon-parks-voices-in-the-mirror",
@@ -2381,7 +3514,7 @@ const stories: Story[] =
         }
       }
     ],
-    "rank": 25
+    "rank": 38
   },
   {
     "slug": "yemen-tanker-hijacked-somali-pirates",
@@ -2477,1294 +3610,6 @@ const stories: Story[] =
           "src": "/covers/yemen-tanker-hijacked-somali-pirates--a5.png",
           "alt": "Seventeenth-century marine painting of a French merchant ship attacked on both sides by Barbary corsair vessels",
           "credit": "Aert Anthoniszoon, 'A French Ship and Barbary Pirates' (c. 1615), National Maritime Museum, Greenwich, public domain, via Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 26
-  },
-  {
-    "slug": "trump-election-security-primetime-2020-china",
-    "headline": "Trump uses a primetime White House address to claim China rigged the 2020 election and to cast doubt on U.S. voting before the midterms",
-    "overview": "In a half-hour primetime speech from the White House on Thursday, three months before the November midterm elections, President Trump said he had declassified hundreds of intelligence files that he claimed showed China had tried to swing the 2020 election to Joe Biden, alleging that voter data in 18 states had been \"bought, stolen or hacked,\" including 220 million voter files. The U.S. intelligence community has previously concluded that China did not interfere in the 2020 vote, and reporters were not allowed to question the president. China's foreign ministry rejected the accusations as \"entirely fabricated\" and \"malicious smears.\"",
-    "genre": "Politics",
-    "sources": [
-      {
-        "name": "BBC",
-        "href": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo"
-      },
-      {
-        "name": "Reuters",
-        "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPellVNExpdFBaWXp5dlNSTHpOVWRNNUJSRlZHUm1CX2dXVHI0aThrdWpfNmh2T3Q3RERxRWN4dkNzRDFwbUl1OWFYRm9lSjdVaG16cjJLWFI1T29iRV96NXEtclJGZ0tCWm1hcTdaTFhxVTdyS1hKZUczTGs0M2hHbndkQUsxbmlaNEFlZ1d1UkZKSzVObWdLUnhFbmNROXhSeHZGWnRGVUFZS2tTM0tPN1RBLXg?oc=5"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-07-17",
-    "image": {
-      "src": "/covers/trump-election-security-primetime-2020-china.png",
-      "alt": "President Trump delivering a primetime address from the White House.",
-      "credit": "Official White House photo by Daniel Torok, via Wikimedia Commons (public domain, U.S. federal government work)"
-    },
-    "lead": true,
-    "edition": "Morning Edition · 17 July 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "In 330 BC, defending himself before the Athenian assembly in the speech On the Crown, Demosthenes turned the charge of corruption outward, branding his rival Aeschines a paid agent of Macedon who had sold the city's interests for foreign gold. The accusation of secret foreign money buying a man's loyalty was the classical demagogue's surest weapon: unprovable, inflammatory, and perfectly suited to a crowd primed to suspect betrayal. Trump's primetime claim that China 'bought, stolen or hacked' the votes of 220 million Americans works the same ancient lever, converting political defeat into a story of purchased treason by a foreign power. Then as now, the charge needs no evidence to do its work; it only needs to be spoken loudly enough to poison trust.",
-        "excerpt": "You were hired to ruin the interests of your countrymen; and yet, tho you have been caught yourself in open treason, and informed against yourself after the fact, you revile and reproach me for things which you will find any man is chargeable with sooner than I.",
-        "source": "Demosthenes, On the Crown (De Corona), 330 BC, trans. Charles Rann Kennedy, in The World's Famous Orations, Vol. I: Greece (1906); Wikisource.",
-        "href": "https://en.wikisource.org/wiki/On_the_Crown",
-        "image": {
-          "src": "/covers/trump-election-security-primetime-2020-china--a0.png",
-          "alt": "Marble bust of the orator Demosthenes, Roman copy after a Greek original, Louvre Museum",
-          "credit": "Photo by Eric Gaba (Wikimedia user Sting), Louvre Museum, Wikimedia Commons, CC BY-SA 2.5; the ancient bust itself is public domain"
-        }
-      },
-      {
-        "category": "historical",
-        "title": "On February 9, 1950, Senator Joseph McCarthy stood before a Republican women's club in Wheeling, West Virginia, and waved a paper he said held the names of 205 Communist agents burrowed into the State Department. The list was never produced, the number kept changing, and no name was ever proven, but the theatrical brandishing of a secret dossier and a precise, terrifying figure launched a decade of manufactured suspicion. Trump's invocation of 'declassified files' showing Chinese interference in 18 states echoes McCarthy's method exactly: the unseen document, the oddly specific count, the foreign-directed conspiracy that the audience is asked to fear rather than examine. Both men understood that a number held aloft in a spotlight can override the patient findings of every investigator who actually looked.",
-        "excerpt": "While I cannot take the time to name all the men in the State Department who have been named as members of the Communist Party and members of a spy ring, I have here in my hand a list of 205.",
-        "source": "Joseph R. McCarthy, address to the Ohio County Women's Republican Club, Wheeling, West Virginia, February 9, 1950; United States Senate historical archive.",
-        "href": "https://www.senate.gov/about/powers-procedures/investigations/mccarthy-hearings/communists-in-government-service.htm",
-        "image": {
-          "src": "/covers/trump-election-security-primetime-2020-china--a1.png",
-          "alt": "Portrait photograph of Senator Joseph R. McCarthy, 1954",
-          "credit": "United Press photograph, 1954, via Wikimedia Commons (public domain in the United States)"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "In Shakespeare's Julius Caesar, Mark Antony seizes a public occasion, Caesar's funeral, and turns a grieving crowd into a mob with insinuation and staged revelation, then coldly watches the chaos he has kindled. Left alone after the oration, he drops the mask and admits that his aim was never truth but the unleashing of ruinous passion. The parallel to a leader using a half-hour of primetime television to stir distrust in the vote is precise: the spectacle is the point, and the speaker profits from the disorder that follows. Antony's private glee at the mischief 'afoot' is the demagogue's confession that inflaming the audience, not informing it, was always the plan.",
-        "excerpt": "Now let it work. Mischief, thou art afoot,\nTake thou what course thou wilt!",
-        "source": "William Shakespeare, Julius Caesar, Act III, Scene ii (c. 1599); Project Gutenberg.",
-        "href": "https://www.gutenberg.org/files/1522/1522-h/1522-h.htm",
-        "image": {
-          "src": "/covers/trump-election-security-primetime-2020-china--a2.png",
-          "alt": "Title page of the 1623 First Folio of Shakespeare's Comedies, Histories, & Tragedies with the Droeshout engraving",
-          "credit": "Martin Droeshout engraving, First Folio title page, 1623, via Wikimedia Commons (public domain)"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "George Orwell's Nineteen Eighty-Four imagines a state where the enemy is whatever the leader names it that day, where citizens are marshaled into ritual hatred of a foreign power, and where the record of the past is 'rectified' to match the needs of the present. The Party's genius is not that it lies, but that it makes the public doubt any settled fact, so that yesterday's official conclusion can be overwritten tonight. Trump's primetime reversal of the intelligence community's own finding, that China did not interfere in 2020, enacts this logic in real time: the verified past is declassified into a new fiction, and distrust becomes the governing atmosphere. Orwell's warning was never about a single lie but about the manufacture of a reality in which no one can be sure what is true.",
-        "excerpt": "Orwell's Oceania stages a daily Two Minutes Hate in which the population is whipped into fury against a shifting external enemy, Eurasia one week, Eastasia the next, and told to believe the switch was always so. In the Ministry of Truth, Winston Smith spends his days feeding inconvenient records down the 'memory hole,' rewriting history so that the Party's latest claim becomes the only past anyone can cite. The horror is quiet and bureaucratic: not the boot on the face alone, but the calm erasure of the very facts against which a lie could be measured.",
-        "source": "George Orwell, Nineteen Eighty-Four (Secker & Warburg, 1949), Part One; Project Gutenberg Australia edition.",
-        "href": "https://gutenberg.net.au/ebooks01/0100021.txt",
-        "image": {
-          "src": "/covers/trump-election-security-primetime-2020-china--a3.png",
-          "alt": "Press photograph of George Orwell",
-          "credit": "Branch of the National Union of Journalists press photo, via Wikimedia Commons (public domain)"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Sandro Botticelli's The Calumny of Apelles reconstructs a lost ancient painting as an allegory of the very act of false accusation: a king with the ass's ears of bad judgment leans toward the whispering figures of Ignorance and Suspicion, while a beautiful woman, Calumny, drags an innocent victim by the hair toward the throne, torch in hand. Around them cluster Envy, Fraud, and Deceit, the whole machinery of a manufactured smear. The scene is a diagram of what happens when a ruler prefers the flattering lie to the plain truth, and it maps onto a leader who broadcasts a foreign-conspiracy accusation his own experts have rejected. China's foreign ministry called the charge a 'malicious smear', which is exactly the crime Botticelli painted five centuries ago: calumny dressed as revelation and paraded before power.",
-        "excerpt": "On a throne to the right sits a long-eared king flanked by Ignorance and Suspicion who murmur into his ears; before him the ragged figure of Envy leads Calumny, a graceful woman bearing a torch, who hauls a stripped and pleading innocent by the hair, while her attendants Fraud and Deceit adorn her. At the far left the black-cloaked figure of Repentance turns toward the naked figure of Truth, who points to a heaven that the court refuses to see. The panel is a courtroom of lies: false accusation given beauty and momentum, judged by a ruler who has chosen not to look.",
-        "source": "Sandro Botticelli, The Calumny of Apelles, tempera on panel, c. 1494-95, Uffizi Gallery, Florence.",
-        "href": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_La_calumnia_de_Apeles.jpg",
-        "image": {
-          "src": "/covers/trump-election-security-primetime-2020-china--a4.png",
-          "alt": "Botticelli's painting The Calumny of Apelles, showing an enthroned king receiving the personifications of slander",
-          "credit": "Sandro Botticelli, The Calumny of Apelles (c. 1494-95), Uffizi Gallery, via Wikimedia Commons (public domain)"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "In Rossini's The Barber of Seville, the music master Don Basilio explains, in the aria 'La calunnia e un venticello', how to destroy a man: begin with slander as a faint breeze, let it whisper into ears, swell from murmur to roar until it bursts like a cannon shot and leaves the victim crushed beneath a general uproar. Rossini scores the lie's growth as an orchestral crescendo, one of opera's most literal depictions of how a false accusation propagates and doubles until it deafens. A primetime address alleging a stolen election is that venticello amplified to national scale: a suggestion released into eighteen states and 220 million files, engineered to gather force by repetition rather than proof. Basilio's cynical delight is the whole strategy in miniature, calumny built to explode.",
-        "excerpt": "La calunnia e un venticello, / un'auretta assai gentile / che insensibile, sottile, / leggermente, dolcemente / incomincia a sussurrar. ... Alla fin trabocca e scoppia, / si propaga, si raddoppia / e produce un'esplosione / come un colpo di cannone, / un tremuoto, un temporale, / un tumulto generale, / che fa l'aria rimbombar.",
-        "source": "Cesare Sterbini (libretto), aria 'La calunnia e un venticello' sung by Don Basilio, Act I of Il barbiere di Siviglia, music by Gioachino Rossini (1816); IMSLP.",
-        "href": "https://imslp.org/wiki/Il_barbiere_di_Siviglia_(Rossini,_Gioacchino)",
-        "image": {
-          "src": "/covers/trump-election-security-primetime-2020-china--a5.png",
-          "alt": "Photographic portrait of the composer Gioachino Rossini by Etienne Carjat, 1865",
-          "credit": "Etienne Carjat, portrait of Gioachino Rossini, 1865, via Wikimedia Commons (public domain)"
-        }
-      }
-    ],
-    "rank": 27
-  },
-  {
-    "slug": "tsmc-100-billion-us-chip-expansion",
-    "headline": "TSMC pledges another $100 billion for U.S. chip plants, raising its total American investment to about $265 billion",
-    "overview": "Taiwan Semiconductor Manufacturing Co. said Thursday it would spend an additional $100 billion to expand chipmaking in the United States, bringing its total U.S. commitments to roughly $265 billion and likely funding four more fabrication plants in Arizona for the most advanced 2-nanometer-and-below chips. Chairman and chief executive C.C. Wei said the money would \"support the strong multiyear demand from our leading U.S. customers.\" The company, riding the artificial-intelligence boom to record profits, raised its 2026 revenue growth forecast to slightly above 40 percent.",
-    "genre": "Economy",
-    "sources": [
-      {
-        "name": "AP",
-        "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT2MzZG5oUVN6dDFLX0dtWk5GNXdoakNILXBqRmZsUlQ5NzdEbk1aZTlxcU9xWl9lS1NBLWNwb0JfbWctbUwxeFBKMlNMeVN6UEZmbF95NlRIRVFZbDN2SW9VZjFzUHpTYTljR21GU2xrM1JtRU9ETTFBMnhFeHBQcHRKQzRIV202RWdYZXFmektSalBDckxITVRFeDJNZw?oc=5"
-      },
-      {
-        "name": "Fortune",
-        "href": "https://fortune.com/2026/07/16/tsmc-100-billion-us-chip-investment/"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-07-17",
-    "image": {
-      "src": "/covers/tsmc-100-billion-us-chip-expansion.png",
-      "alt": "A silicon wafer being handled inside a semiconductor fabrication plant.",
-      "credit": "Photograph by Hunter Trick (TrickHunter), Wikimedia Commons, CC BY-SA 4.0"
-    },
-    "edition": "Morning Edition · 17 July 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "In the sixth century the Roman emperor Justinian depended on his rival Persia for the age's most coveted high technology: silk, whose secret China and its intermediaries guarded jealously. Then, as Procopius records, two monks smuggled silkworm eggs out of a far eastern land called Serinda and taught Constantinople to breed the worms itself, breaking a foreign monopoly and rooting an advanced craft in new soil. TSMC's transplant of 2-nanometer fabrication from Taiwan to Arizona repeats that ancient logic almost exactly: a superpower, uneasy about relying on distant suppliers for a strategic material, brings the master-craft home. Then it was mulberry leaves and cocoons; now it is extreme-ultraviolet lithography and a $265 billion bet. The impulse to localize the crown jewel of manufacturing is fifteen centuries old.",
-        "excerpt": "At about this time certain monks, coming from India and learning that the Emperor Justinian entertained the desire that the Romans should no longer purchase their silk from the Persians, came before the emperor and promised so to settle the silk question that the Romans would no longer purchase this article from their enemies, the Persians, nor indeed from any other nation... They then once more went to Serinda and brought back the eggs to Byzantium, and in the manner described caused them to be transformed into worms, which they fed on the leaves of the mulberry; and thus they made possible from that time forth the production of silk in the land of the Romans.",
-        "source": "Procopius, History of the Wars, VIII.xvii (Gothic War IV.17), trans. H. B. Dewing, Loeb Classical Library; text hosted at LacusCurtius (penelope.uchicago.edu, University of Chicago).",
-        "href": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Procopius/Wars/8C*.html",
-        "image": {
-          "src": "/covers/tsmc-100-billion-us-chip-expansion--a0.png",
-          "alt": "Byzantine mosaic of Emperor Justinian I and his court, Basilica of San Vitale, Ravenna, c. 547 CE",
-          "credit": "Mosaic of Emperor Justinian I, Basilica of San Vitale, Ravenna (c. 547 CE); Wikimedia Commons, public domain"
-        }
-      },
-      {
-        "category": "historical",
-        "title": "Britain in the 1790s held the world's decisive industrial technology, the water-powered spinning machinery of Arkwright and Strutt, and forbade the export of both the machines and the men who understood them. Samuel Slater, a young apprentice, defeated the ban by carrying nothing on paper: he memorized the mill's every mechanism, sailed to America in disguise, and rebuilt the machinery by hand in Pawtucket, Rhode Island, founding the American cotton industry and earning the epithet 'Slater the Traitor' back home. His story is the exact ancestor of today's news, only inverted in direction: where advanced manufacturing know-how once flowed illicitly from an old power to a new one, TSMC is now deliberately relocating the planet's most advanced fabrication from Taiwan to the United States. Both episodes turn on the same truth, that a nation's real wealth lies less in a single factory than in the transferable mastery of how to make things. The $100 billion buys buildings; the point is the craft that fills them.",
-        "excerpt": "He therefore resolved not to take any pattern, nor have any writing or memorandum about him, but trusted wholly to his acquirements in the business and to his excellent memory.",
-        "source": "George S. White, Memoir of Samuel Slater: The Father of American Manufactures (Philadelphia, 1836); full text via the Internet Archive.",
-        "href": "https://archive.org/stream/memoirsamuelsla02whitgoog/memoirsamuelsla02whitgoog_djvu.txt",
-        "image": {
-          "src": "/covers/tsmc-100-billion-us-chip-expansion--a1.png",
-          "alt": "Engraved portrait of Samuel Slater, industrialist and founder of the American cotton-spinning industry",
-          "credit": "Portrait of Samuel Slater, from The Biographical Cyclopedia of Representative Men of Rhode Island (1881); Wikimedia Commons, public domain"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "When Solomon set out to build the Temple in Jerusalem, the rising kingdom of Israel did not yet possess the finest metalworking skill, so the king reached abroad and fetched Hiram out of Tyre, a master 'filled with wisdom, and understanding, and cunning to work all works in brass.' The most ambitious construction of the age was thus realized by importing a foreign master-craftsman to execute its most advanced work on new ground. That is precisely the shape of TSMC's move: America, hungry for cutting-edge capacity it cannot yet reproduce alone, summons the world's supreme fabricator to raise its most demanding structures in the Arizona desert. Hiram cast the great pillars and the molten sea in bronze; C. C. Wei's engineers will etch circuits a few atoms wide. Across three thousand years the pattern holds, that monumental national projects lean on borrowed genius.",
-        "excerpt": "And king Solomon sent and fetched Hiram out of Tyre. He was a widow's son of the tribe of Naphtali, and his father was a man of Tyre, a worker in brass: and he was filled with wisdom, and understanding, and cunning to work all works in brass. And he came to king Solomon, and wrought all his work.",
-        "source": "The Holy Bible, King James Version, 1 Kings 7:13-14; Wikisource.",
-        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/1_Kings",
-        "image": {
-          "src": "/covers/tsmc-100-billion-us-chip-expansion--a2.png",
-          "alt": "James Tissot, Solomon Dedicates the Temple at Jerusalem, gouache, c. 1896-1902",
-          "credit": "James Tissot, 'Solomon Dedicates the Temple at Jerusalem' (c. 1896-1902), The Jewish Museum, New York; Wikimedia Commons, public domain"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "In Book I of Paradise Lost, the fallen angels, needing a capital worthy of their ambition, follow Mammon to tear open the earth and raise Pandaemonium, a vast gleaming hall conjured almost overnight from ransacked mineral wealth. Milton's scene is the archetype of colossal, capital-hungry industry: gold torn from the ground and marshalled at superhuman speed into a monument of power. TSMC's four new Arizona fabs, sprung from raw desert and financed by fortunes staked on an AI-driven future, are a benign echo of that mythic construction, the same union of immense treasure, engineering scale and sheer will to build. Milton meant Mammon as a warning about worshipping 'trodden gold' over higher things; a modern reader can hold both the awe at the feat and the caution about what such fortunes chase. The 'least erected Spirit' still knows how to raise a palace faster than anyone thought possible.",
-        "excerpt": "Mammon led them on—\nMammon, the least erected Spirit that fell\nFrom Heaven; for even in Heaven his looks and thoughts\nWere always downward bent, admiring more\nThe riches of heaven's pavement, trodden gold,\nThan aught divine or holy else enjoyed\nIn vision beatific. By him first\nMen also, and by his suggestion taught,\nRansacked the centre, and with impious hands\nRifled the bowels of their mother Earth\nFor treasures better hid.",
-        "source": "John Milton, Paradise Lost, Book I (lines 678-688), 1667; Project Gutenberg.",
-        "href": "https://www.gutenberg.org/files/26/26-h/26-h.htm",
-        "image": {
-          "src": "/covers/tsmc-100-billion-us-chip-expansion--a3.png",
-          "alt": "John Martin, Pandemonium, 1841, oil on canvas, showing the vast infernal palace rising above a fiery landscape",
-          "credit": "John Martin, 'Pandemonium' (1841), Musee du Louvre, Paris; Wikimedia Commons, public domain"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Philip James de Loutherbourg painted 'Coalbrookdale by Night' in 1801, capturing the Madeley Wood furnaces of Shropshire blazing against the darkness, the very cradle of the Industrial Revolution rendered as an almost apocalyptic vision of fire, smoke and human enterprise. It is the definitive image of a landscape transformed by heavy manufacturing, where a quiet valley becomes the glowing engine of a new economic age. TSMC's Arizona campus is the twenty-first-century successor to Coalbrookdale, another once-empty terrain being remade into a furnace of advanced production, its cleanrooms and construction cranes as defining of our era as those furnaces were of Loutherbourg's. Both scenes fuse dread and wonder at the scale of what industry can raise from raw ground. The geography of manufacturing, then as now, reshapes the very look of the land.",
-        "excerpt": "The canvas shows the Madeley Wood (Bedlam) furnaces erupting with orange fire into a smoke-filled night sky, silhouetting sheds, wagons and figures against the blaze. A cold moon and pale distant hills frame the industrial inferno, so that nature and machinery confront each other across the valley. Loutherbourg treats the ironworks with the awe usually reserved for volcanoes or storms, making the birthplace of modern industry look like a scene of sublime terror and creative power at once.",
-        "source": "Philip James de Loutherbourg, Coalbrookdale by Night, 1801, oil on canvas, 68 x 107 cm, Science Museum, London (accession 1952-452).",
-        "href": "https://commons.wikimedia.org/wiki/File:Philipp_Jakob_Loutherbourg_d._J._-_Coalbrookdale_by_Night_-_WGA13730.jpg",
-        "image": {
-          "src": "/covers/tsmc-100-billion-us-chip-expansion--a4.png",
-          "alt": "Philip James de Loutherbourg, Coalbrookdale by Night, 1801, iron furnaces glowing red against a dark sky",
-          "credit": "Philip James de Loutherbourg, 'Coalbrookdale by Night' (1801), Science Museum, London; Wikimedia Commons, public domain"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "In the third scene of Wagner's Das Rheingold, the orchestra plunges the listener down into Nibelheim, the subterranean forge where the dwarf Alberich, having renounced love for gold, drives his enslaved kinsmen to hammer out a hoard of treasure and the ring that confers total power. The famous clangor of tuned anvils makes audible an entire underground economy dedicated to manufacturing wealth and dominion. The analogy to TSMC is pointed and double-edged: here too is a vast productive complex, a hoard of almost unimaginable value, and a race to control the technology on which mastery of the age depends. Wagner wraps his forge in a warning about what the single-minded pursuit of that power can cost. Whether one hears triumph or caution, the scene captures the mythic weight our civilization places on the machinery that mints the future.",
-        "excerpt": "Wagner sends the music spiralling downward through hammering, tuned anvils into the smoky depths of Nibelheim, where an enslaved multitude toils without pause at the forge. Alberich's motif gleams with menace as the accumulated gold becomes both fortune and instrument of domination. The relentless metallic rhythm turns industrial labour itself into a force of overwhelming, almost frightening power.",
-        "source": "Richard Wagner, Das Rheingold, WWV 86A (1869), scene 3 (Nibelheim); full scores at IMSLP / Petrucci Music Library.",
-        "href": "https://imslp.org/wiki/Das_Rheingold,_WWV_86A_(Wagner,_Richard)",
-        "image": {
-          "src": "/covers/tsmc-100-billion-us-chip-expansion--a5.png",
-          "alt": "Illustration of Scene III of Wagner's Das Rheingold, the capture of Alberich in the forge of Nibelheim",
-          "credit": "Michael Echter, illustration of Das Rheingold Scene III (the capture of Alberich), from The Victrola Book of the Opera (1917); Wikimedia Commons, public domain"
-        }
-      }
-    ],
-    "rank": 28
-  },
-  {
-    "slug": "iran-strikes-syria-us-command-center",
-    "headline": "Iran says it struck a U.S. command centre in eastern Syria, opening a new front in its war with Washington",
-    "overview": "Iran's Islamic Revolutionary Guard Corps said Friday it had carried out a \"surprise attack\" on a U.S. special-operations command centre in southeastern Syria, its first strike inside Syria during the current war, in retaliation for a U.S. attack on Bampur, near Iranshahr, that Tehran said had killed seven of its soldiers. The Guard claimed to have destroyed a radar system and several helicopters and to have killed \"a large number\" of Americans, a claim U.S. Central Command has not confirmed and that CNN said it could not verify. Iranian state media said the country had also attacked U.S. bases in Kuwait and Bahrain as fighting over the Strait of Hormuz escalated.",
-    "genre": "Conflict",
-    "sources": [
-      {
-        "name": "Reuters",
-        "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQXVvLTBxWklNRDU2M0l1QTZhUmloM0xqbFM2RWwxaS0yckJVNXZTbkFlZDBQUHZHbDVfOGRDdlNlSDJQNUg5VnZodUs5MzdsUjQxZjFyZl9LaTdBbGhxWU16dk9kRXFKZm9OblFOX0NKNWdweGI4UXNLb0daSjNzdGVmZFJzRjZHUzZFWW51OFhXVjNpeHk2SUs2cGhNeC1VMWxsQVNjWkIzTlFBTjhiRUlrS3o2aDBWb2dCOFlHMWVBMFdt?oc=5"
-      },
-      {
-        "name": "CNBC",
-        "href": "https://www.cnbc.com/2026/07/17/iran-war-us-trump-syria-bahrain.html"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-07-17",
-    "image": {
-      "src": "/covers/iran-strikes-syria-us-command-center.png",
-      "alt": "An oil tanker in the Strait of Hormuz, the waterway at the centre of the U.S.-Iran war.",
-      "credit": "NASA MODIS / Terra satellite, 2020; public domain, via Wikimedia Commons"
-    },
-    "edition": "Morning Edition · 17 July 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "In 53 BC the Roman triumvir Crassus led seven legions across the Euphrates into Parthian Mesopotamia, certain the era's dominant war machine would sweep the Persian empire aside. On the burning plain of Carrhae the Parthian general Surena sprang his trap: kettle-drums thundered, the horse-archers' scale armour flashed, and a superpower's infantry was encircled and shot to pieces from the saddle, Crassus killed and his eagles taken. It was the humiliation of the age's foremost military power by a Persian force fighting on the contested ground between the rivers. Iran's boast of a surprise strike that destroyed radar and helicopters at a U.S. forward command centre in Syria, hitting the modern superpower on those same Mesopotamian marches, reaches straight back to Surena's ambush of Crassus.",
-        "excerpt": "While the Romans were in consternation at this din, suddenly their enemies dropped the coverings of their armour, and were seen to be themselves blazing in helmets and breastplates, their Margianian steel glittering keen and bright, and their horses clad in plates of bronze and steel. [...] But the Parthians now stood at long intervals from one another and began to shoot their arrows from all sides at once, not with any accurate aim (for the dense formation of the Romans would not suffer an archer to miss even if he wished it), but making vigorous and powerful shots from bows which were large and mighty and curved so as to discharge their missiles with great force.",
-        "source": "Plutarch, Life of Crassus 24 (trans. Bernadotte Perrin, Loeb Classical Library, 1916).",
-        "href": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Crassus*.html",
-        "image": {
-          "src": "/covers/iran-strikes-syria-us-command-center--a0.png",
-          "alt": "Nineteenth-century engraving of the death of Crassus at the Battle of Carrhae, 53 BC",
-          "credit": "Cassell's Illustrated Universal History, vol. 3 (1882); public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "historical",
-        "title": "On the eve of the Vietnamese lunar new year in January 1968, North Vietnamese and Viet Cong forces broke the holiday truce with a coordinated wave of surprise assaults on cities and American bases across South Vietnam, even sending a sapper team over the wall of the U.S. Embassy in Saigon. Militarily the offensive was largely repulsed, yet the sheer audacity of striking the superpower's forward strongholds, broadcast into American living rooms, shattered Washington's confidence and turned public opinion against the war. It became the archetype of how a weaker adversary can convert a single spectacular blow against an enemy's command posts into a strategic and psychological earthquake. Iran's claim to have overrun a U.S. special-operations command centre, opening a new front and widening the war, is a bid for exactly that Tet-style shock.",
-        "excerpt": "Grainy footage of fighters inside the embassy compound and marines crouched behind its shattered gates carried a message no communique could: nowhere held by the superpower was truly safe. The coordinated strikes on forward bases seized little ground yet cracked the political will behind the war. It endures as the model of the surprise blow whose real target is the enemy's confidence at home.",
-        "source": "U.S. Department of State, Office of the Historian, \"U.S. Involvement in the Vietnam War: The Tet Offensive, 1968.\"",
-        "href": "https://history.state.gov/milestones/1961-1968/tet",
-        "image": {
-          "src": "/covers/iran-strikes-syria-us-command-center--a1.png",
-          "alt": "U.S. troops at the U.S. Embassy in Saigon during the Tet Offensive, 31 January 1968",
-          "credit": "U.S. Army photograph, 1968; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "Ferdowsi's Shah Nameh, the tenth-century Persian Book of Kings, turns on cycles of blood-vengeance between Iran and the rival land of Turan. When the innocent prince Irij is murdered by his own brothers, the aged king Feridun spurns their gifts and gold and vows instead that blood alone for blood must pay, setting in motion a war of retaliation carried on by his heirs against the foreign realms that spilled Persian blood. This is the deep grammar of Iranian epic: an injury to one's own must be answered by a strike against the enemy's kingdom, whatever the cost. Tehran's framing of its Syria attack as revenge for the seven soldiers killed at Bampur, blood for blood and a new front opened against Washington, speaks in Feridun's ancient idiom.",
-        "excerpt": "The brothers of my murdered boy,\nWho could a father's hopes destroy,\nAn equal punishment will reap,\nAnd lasting vengeance o'er them sweep.\nThey rooted up my favourite tree,\nBut yet a branch remains to me.\nNow the young lion comes apace,\nThe glory of his glorious race;\nHe comes apace, to punish guilt,\nWhere brother's blood was basely spilt;\nAnd blood alone for blood must pay;\nHence with your gold, depart, away!",
-        "source": "Firdausi, The Shah Nameh, \"Minuchihr\" (trans. James Atkinson), in The Persian Literature (Project Gutenberg ebook #10315).",
-        "href": "https://www.gutenberg.org/cache/epub/10315/pg10315-images.html",
-        "image": {
-          "src": "/covers/iran-strikes-syria-us-command-center--a2.png",
-          "alt": "Persian miniature of the battle between Kay Khusraw and Afrasiyab from the Shahnameh, 1493-1494",
-          "credit": "Salik ibn Sa'id, 1493-1494, Freer Gallery of Art; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "In the Book of Judges, Gideon whittles his host down to a mere three hundred and falls upon the vast Midianite camp in the dead of night. At his signal the men shatter their pitchers, blaze their hidden torches and blow their trumpets on every side, crying \"The sword of the LORD, and of Gideon,\" and the panicked enemy turns its swords upon itself and flees. It is scripture's archetype of the surprise night raid: a smaller force striking a sleeping camp with shock, noise and terror rather than numbers. Iran's account of a stealthy surprise attack that overran a forward American command centre reaches for the same Gideon-like drama of the sudden blow that throws a stronger foe into confusion.",
-        "excerpt": "So Gideon, and the hundred men that were with him, came unto the outside of the camp in the beginning of the middle watch; and they had but newly set the watch: and they blew the trumpets, and brake the pitchers that were in their hands. And the three companies blew the trumpets, and brake the pitchers, and held the lamps in their left hands, and the trumpets in their right hands to blow withal: and they cried, The sword of the LORD, and of Gideon. And they stood every man in his place round about the camp; and all the host ran, and cried, and fled.",
-        "source": "The Holy Bible, Judges 7:19-21 (King James Version).",
-        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/Judges",
-        "image": {
-          "src": "/covers/iran-strikes-syria-us-command-center--a3.png",
-          "alt": "Gustave Dore engraving of Gideon's night attack, 'The Midianites Put to Flight,' 1866",
-          "credit": "Gustave Dore, 1866, Dore's English Bible; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "John Martin's vast canvas \"The Great Day of His Wrath\" (c. 1851) hurls whole cities into a collapsing, fire-lit abyss: mountains uprooted, buildings pitched into the void, humanity dwarfed by a cataclysm of divine retribution. Painted by an artist obsessed with apocalypse and the sublime terror of destruction, it renders the very idea of wrathful, world-ending vengeance as spectacle. Its blazing ruin is a visual analogue to Iran's boast of a base destroyed, radar and helicopters ablaze and \"a large number\" of Americans killed, and to the wider dread that a tit-for-tat over the Strait of Hormuz could tip into something apocalyptic. The painting is less a report than a mood: the escalation of vengeance imagined at the scale of judgment day.",
-        "excerpt": "A whole world comes apart on Martin's canvas: cliffs and cities are flung skyward against a sky of blood-red and sulphur, while tiny human figures tumble into a fathomless chasm of fire. There is no single battle here, only the sublime spectacle of wrath made total, destruction imagined as the end of everything.",
-        "source": "John Martin, The Great Day of His Wrath, oil on canvas, c. 1851, Tate Britain, London.",
-        "href": "https://commons.wikimedia.org/wiki/File:John_Martin_-_The_Great_Day_of_His_Wrath_-_Google_Art_Project.jpg",
-        "image": {
-          "src": "/covers/iran-strikes-syria-us-command-center--a4.png",
-          "alt": "John Martin's apocalyptic painting 'The Great Day of His Wrath,' c. 1851",
-          "credit": "John Martin, c. 1851, Tate Britain; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "The opening movement of Gustav Holst's orchestral suite The Planets (1914-1916), \"Mars, the Bringer of War,\" grinds forward on a relentless five-beat ostinato, strings struck with the wood of the bow like distant artillery, brass and drums swelling into a mechanised, pitiless march toward catastrophe. Composed on the eve of the First World War, it is one of music's most vivid portraits of war as an impersonal, escalating machine that crushes everything in its path. That inexorable build, a small motif hardening into overwhelming, grinding violence, mirrors the logic of the current spiral: a strike answered by a strike, Bampur repaid in Bahrain and Kuwait, a command centre for a command centre, each blow feeding the next. Holst's Mars is the sound of escalation with no clear off-switch.",
-        "excerpt": "A hammering five-in-a-bar rhythm sets the pulse of a war machine; strings rapped with the wood of the bow rattle like far-off gunfire while the brass climbs in cold, blaring dissonance. The music never relents, only accumulates, until the whole orchestra detonates in crushing chords, the terror of mechanised war rendered as relentless, mounting sound.",
-        "source": "Gustav Holst, \"Mars, the Bringer of War,\" from The Planets, Op. 32 (1914-1916).",
-        "href": "https://imslp.org/wiki/The_Planets,_Op.32_(Holst,_Gustav)",
-        "image": {
-          "src": "/covers/iran-strikes-syria-us-command-center--a5.png",
-          "alt": "Portrait photograph of composer Gustav Holst, c. 1921",
-          "credit": "Herbert Lambert, c. 1921, National Portrait Gallery, London; public domain, via Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 29
-  },
-  {
-    "slug": "japan-imperial-succession-male-line",
-    "headline": "Japan's parliament revises its imperial succession law for the first time in 79 years but keeps the throne closed to women",
-    "overview": "Japan's upper house passed a bill on Friday that lets the imperial family adopt single male paternal-line descendants of former royal branches and allows female members to keep their status after marrying commoners, the first revision of the Imperial House Law since 1947. But it leaves intact the ban on women ascending the throne, so Princess Aiko, the emperor's only child, remains ineligible despite broad public support for a female monarch. The change, backed by Prime Minister Sanae Takaichi's conservative party, is meant to shore up a shrinking line of succession now down to three eligible heirs.",
-    "genre": "Culture",
-    "sources": [
-      {
-        "name": "BBC",
-        "href": "https://www.bbc.co.uk/news/articles/cy07rz79zg9o"
-      },
-      {
-        "name": "Nippon.com",
-        "href": "https://www.nippon.com/en/news/yjj2026071700121/"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-07-17",
-    "image": {
-      "src": "/covers/japan-imperial-succession-male-line.png",
-      "alt": "The Chrysanthemum Throne and the Japanese imperial palace.",
-      "credit": "Photograph by the Prime Minister's Office of Japan (Kantei), 2019, CC BY 4.0, via Wikimedia Commons"
-    },
-    "edition": "Morning Edition · 17 July 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "Fourteen centuries before Japan's parliament reaffirmed that only men may reign, the Chrysanthemum Throne was repeatedly held by women. In 593 the widowed Princess Nukadabe became Empress Suiko, the first of eight female sovereigns who governed the early archipelago, presiding over the arrival of Buddhism and Japan's first constitution. Their reigns are a living refutation of the claim that a woman on the throne betrays 'tradition' — the oldest tradition includes them. That the 2026 revision keeps Princess Aiko ineligible, even while reaching back to defunct branch families for spare men, marks a break with a past in which the sovereign's sex was no barrier at all.",
-        "excerpt": "\"the Ministers besought the Empress-consort of the Emperor Nunakura futo-dama-shiki, viz. the Princess Nukada-be, to ascend the throne. The Empress refused, but the public functionaries urged her in memorials three times until she consented, and they accordingly delivered to her the Imperial Seal. ... Winter, 12th month, 8th day. The Empress-consort assumed the Imperial Dignity in the Palace of Toyora.\"",
-        "source": "Nihongi: Chronicles of Japan from the Earliest Times to A.D. 697, Book XXII (reign of Empress Suiko), trans. W. G. Aston (London, 1896).",
-        "href": "https://en.wikisource.org/wiki/Nihongi:_Chronicles_of_Japan_from_the_Earliest_Times_to_A.D._697/Book_XXII",
-        "image": {
-          "src": "/covers/japan-imperial-succession-male-line--a0.png",
-          "alt": "Painted portrait of Empress Suiko, first reigning empress of Japan, in courtly Heian-style robes",
-          "credit": "Tosa Mitsuyoshi, portrait of Empress Suiko (Edo period), Eifuku-ji, Osaka; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "historical",
-        "title": "When the Habsburg male line guttered toward extinction, Emperor Charles VI did the opposite of Japan's lawmakers: in 1713 he issued the Pragmatic Sanction, rewriting the succession so his daughter Maria Theresa could inherit an undivided realm. He spent his remaining years bribing Europe's courts to honor it, and still a coalition tried to dismember her lands in the War of the Austrian Succession — yet she reigned forty years and refounded the dynasty. Japan in 2026 faces the same arithmetic of a dwindling house, three eligible men and a beloved only daughter, but chooses the reverse remedy: import distant male cousins by adoption rather than admit the princess before them. Charles bent the law toward his daughter; Tokyo bends the law around Aiko.",
-        "excerpt": "\"The emperor Charles VI. settled the law of succession for the dominions of the house of Habsburg by pragmatic sanction first published on the 19th of April 1713, and thereby prepared the way for the great war which ensued upon his death.\"",
-        "source": "\"Pragmatic Sanction,\" Encyclopædia Britannica, 11th ed. (1911).",
-        "href": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Pragmatic_Sanction",
-        "image": {
-          "src": "/covers/japan-imperial-succession-male-line--a1.png",
-          "alt": "State portrait of Empress Maria Theresa in ceremonial robes as Queen of Hungary",
-          "credit": "Martin van Meytens, portrait of Maria Theresa, 1759, Academy of Fine Arts Vienna; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "In the Book of Numbers, five sisters — Mahlah, Noah, Hoglah, Milcah and Tirzah — stand before Moses because their father died 'and had no sons,' and ask why his name should vanish for want of a male heir. The verdict, delivered as divine law, is that the daughters of Zelophehad 'speak right,' and the inheritance passes to them. It is one of scripture's earliest rulings that a line need not die, nor a daughter be dispossessed, simply because no son survives. Japan's imperial house, down to three men and one excluded princess, confronts the very question the sisters posed — and, for now, answers it the other way.",
-        "excerpt": "\"Then came the daughters of Zelophehad, the son of Hepher... and these are the names of his daughters; Mahlah, Noah, and Hoglah, and Milcah, and Tirzah. And they stood before Moses, and before Eleazar the priest... Our father died in the wilderness... and had no sons. Why should the name of our father be done away from among his family, because he hath no son? Give unto us therefore a possession among the brethren of our father. And Moses brought their cause before the Lord. And the Lord spake unto Moses, saying, The daughters of Zelophehad speak right: thou shalt surely give them a possession of an inheritance among their father's brethren; and thou shalt cause the inheritance of their father to pass unto them. And thou shalt speak unto the children of Israel, saying, If a man die, and have no son, then ye shall cause his inheritance to pass unto his daughter.\"",
-        "source": "Numbers 27:1–8, King James Version (1611).",
-        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/Numbers",
-        "image": {
-          "src": "/covers/japan-imperial-succession-male-line--a2.png",
-          "alt": "Illustration of the five daughters of Zelophehad standing before Moses to plead for their inheritance",
-          "credit": "'The Daughters of Zelophehad,' from The Bible and Its Story Taught by One Thousand Picture Lessons (1908); public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "Confucian ethics, which shaped Japan's dynastic thinking as deeply as China's, made the male heir a sacred obligation: Mencius taught that 'to have no posterity is the greatest' of unfilial acts. It is precisely this dread of a broken line — of ancestors left without a son to sustain the rites — that animates the 2026 law's strangest provision, the adoption of paternal-line men from long-abolished princely houses. The logic is ancient and patrilineal to its core: continuity is reckoned through fathers and sons, and a daughter, however direct, is held unable to carry it. Princess Aiko's exclusion is the long shadow this doctrine casts across the Chrysanthemum Throne.",
-        "excerpt": "\"Mencius said, 'There are three things which are unfilial, and to have no posterity is the greatest of them. Shun married without informing his parents because of this, lest he should have no posterity. Superior men consider that his doing so was the same as if he had informed them.'\"",
-        "source": "Mencius, Book IV (Li Lou), Part I, ch. 26, trans. James Legge, The Chinese Classics, vol. 2 (1861/1895).",
-        "href": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter07",
-        "image": {
-          "src": "/covers/japan-imperial-succession-male-line--a3.png",
-          "alt": "Painted album-leaf portrait of the Confucian philosopher Mencius (Meng Ke)",
-          "credit": "Yuan dynasty, 'Half Portraits of the Great Sage and Virtuous Men of Old — Meng Ke,' National Palace Museum, Taipei; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "The Japanese imperial house traces its descent, and its very right to rule, to Amaterasu — the sun goddess. Shunsai Toshimasa's 1889 triptych captures the moment the world's light returns as she emerges from the rock-cave into which she had withdrawn, coaxed out by the dance of another goddess, Ame-no-Uzume. Here is the founding irony of a throne now closed to women: the dynasty's supreme ancestor is female, and the sacred radiance of the line is imagined as a goddess restored to the sky. As parliament bars Princess Aiko in 2026, the print recalls that Japanese sacred kingship begins not with a father but with a mother of light.",
-        "excerpt": "A three-panel woodblock print of the moment daylight returns to the world: the sun goddess Amaterasu, half-emerged from the mouth of the heavenly rock-cave in a blaze of gold, surrounded by the assembled deities as Ame-no-Uzume dances to draw her back into the heavens. Radiant robes and swirling cloud fill the triptych, and the female deity is rendered as the literal source of daylight — and of the imperial line said to descend from her.",
-        "source": "Shunsai Toshimasa, Origin of the Cave Door Dance (Amaterasu / Amano-Iwato), colour woodblock triptych, 1889.",
-        "href": "https://commons.wikimedia.org/wiki/File:Origin_of_the_Cave_Door_Dance_(Amaterasu)_by_Shunsai_Toshimasa_1889.jpg",
-        "image": {
-          "src": "/covers/japan-imperial-succession-male-line--a4.png",
-          "alt": "Woodblock triptych of the sun goddess Amaterasu emerging in golden light from the heavenly rock-cave as gods look on",
-          "credit": "Shunsai Toshimasa, 1889; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Wagner's Ring cycle ends in Götterdämmerung — 'The Twilight of the Gods' — as an ancient race of divine rulers, corrupted and dwindling, burns to its extinction, and it is a woman, Brünnhilde, who rides into the pyre to end the old order and cleanse the world. The opera stages the anxiety now hanging over the oldest monarchy on earth: a god-descended dynasty contracting toward its last heirs, its survival wagered on blood and law. Japan's answer is to conjure new men from abolished branches rather than let a daughter carry the flame. Wagner's myth hints at the harder truth — that a line guarded too jealously against its women may be the one the twilight finds first.",
-        "excerpt": "Across four operas the drama drives toward a final conflagration: the brass and strings surge as Valhalla and its exhausted gods are consumed by fire, and Brünnhilde, torch in hand, rides her horse into the flames. The closing 'Immolation Scene' is among opera's most overwhelming endings — an entire divine dynasty extinguished, its redemption entrusted to the very woman the gods had cast out.",
-        "source": "Richard Wagner, Götterdämmerung (Twilight of the Gods), WWV 86D, third day of Der Ring des Nibelungen, first performed 1876.",
-        "href": "https://imslp.org/wiki/G%C3%B6tterd%C3%A4mmerung,_WWV_86D_(Wagner,_Richard)",
-        "image": {
-          "src": "/covers/japan-imperial-succession-male-line--a5.png",
-          "alt": "Arthur Rackham illustration of the valkyrie Brünnhilde, heroine of Wagner's Ring cycle",
-          "credit": "Arthur Rackham, 'Brünnhilde,' from The Rhinegold and the Valkyrie (1910); public domain, via Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 30
-  },
-  {
-    "slug": "canada-wildfire-smoke-us-air-quality",
-    "headline": "Smoke from Canadian wildfires blankets U.S. cities, triggering hazardous air-quality alerts from Detroit to New York",
-    "overview": "A thick haze from 858 wildfires burning across Canada spread over cities including New York, Detroit, Toronto, Chicago, Pittsburgh and much of New England on Thursday, prompting hazardous air-quality alerts and warnings for residents to stay indoors. New York's governor called it a \"very serious health situation,\" outdoor summer-camp events and concerts were cancelled, and beaches were closed along popular lakes. In Ontario, one fire forced a First Nations community to evacuate, with its chief saying the community had been \"burnt to ashes.\"",
-    "genre": "Climate",
-    "sources": [
-      {
-        "name": "BBC",
-        "href": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o"
-      },
-      {
-        "name": "AP",
-        "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQd0hyQ29iWXhJWUVoSzJsMlgyQjA4SnMzN0tmb01EUlFOTUU3Nkl2eVQ0UEVjaU1lQXg4MVNfeTNGQ3BDbXdPWlhNanQxQnVZalk3emlXSkk0RHotTXFsYlMwa0VkNVRqRWxVZ2ZsN0o1QTZzSVNudEc5VUNBQ3Rtb18tVXpZSmRxOGRGZDZR?oc=5"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-07-17",
-    "image": {
-      "src": "/covers/canada-wildfire-smoke-us-air-quality.png",
-      "alt": "A city skyline shrouded in orange haze from distant wildfire smoke.",
-      "credit": "Anthony Quintano, CC BY 2.0, via Wikimedia Commons"
-    },
-    "edition": "Morning Edition · 17 July 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "On 19 May 1780 a preternatural darkness fell across New England and eastern Canada: birds roosted at noon, roosters crowed, and townsfolk lit candles to work indoors. Scientists studying fire scars in Ontario's Algonquin forests have since traced the gloom to vast Canadian wildfires whose smoke, mingled with fog, blotted out the sun hundreds of miles to the south. The eeriness of that day, a distant northern fire darkening American skies, is exactly the phenomenon now smothering Detroit, New York and New England as 858 Canadian wildfires again send their pall over the same cities. Two and a half centuries later, the Revolutionary soldier Joseph Plumb Martin's astonished eyewitness account reads like a dispatch from this week.",
-        "excerpt": "We were here at the time the 'dark day' happened, (19th of May;) it has been said that the darkness was not so great in New-Jersey as in New-England. How great it was there I do not know, but I know that it was very dark where I then was in New-Jersey; so much so that the fowls went to their roosts, the cocks crew and the whip-poor-wills sung their usual serenade; the people had to light candles in their houses to enable them to see to carry on their usual business; the night was as uncommonly dark as the day was.",
-        "source": "Joseph Plumb Martin, The Adventures of a Revolutionary Soldier (originally published 1830), Chapter VI",
-        "href": "https://en.wikisource.org/wiki/The_Adventures_Of_A_Revolutionary_Soldier/Chapter_VI.",
-        "image": {
-          "src": "/covers/canada-wildfire-smoke-us-air-quality--a0.png",
-          "alt": "Harriet Powers's Pictorial Quilt (1895-1898), whose appliqued panels record celestial wonders including the Dark Day of 19 May 1780",
-          "credit": "Harriet Powers, Pictorial Quilt, Museum of Fine Arts, Boston; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "historical",
-        "title": "In AD 536 a mysterious dust veil dimmed the sun across the Mediterranean for more than a year; the Byzantine historian Procopius, writing during the reign of Justinian, recorded that the sun shed a wan, moon-like light as though in permanent eclipse. Modern ice cores attribute the gloom to a colossal volcanic eruption whose aerosols circled the globe, wrecking harvests and darkening skies far from their source. Like the Canadian smoke now spreading over Toronto, Chicago and the American Northeast, it was a catastrophe whose airborne aftermath reached populations who never saw the fire or the mountain that caused it. Procopius's line captures the same ominous, enfeebled sun that hangs today over hazard-alerted cities.",
-        "excerpt": "And it came about during this year that a most dread portent took place. For the sun gave forth its light without brightness, like the moon, during this whole year, and it seemed exceedingly like the sun in eclipse, for the beams it shed were not clear nor such as it is accustomed to shed.",
-        "source": "Procopius, History of the Wars, Book IV (The Vandalic War), ch. xiv, trans. H. B. Dewing",
-        "href": "https://en.wikisource.org/wiki/History_of_the_Wars/Book_IV",
-        "image": {
-          "src": "/covers/canada-wildfire-smoke-us-air-quality--a1.png",
-          "alt": "Sixth-century Byzantine mosaic of the Emperor Justinian and his court from the Basilica of San Vitale, Ravenna, contemporary with the 536 dust veil",
-          "credit": "Master of San Vitale, Ravenna; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "The ninth plague of Egypt is a thick darkness so palpable that Scripture calls it a darkness which may be felt, halting all movement and business for three days. It is the archetype of a poisoned, oppressive air descending on a whole land as a sign of catastrophe, precisely the register in which New York's governor called this week's smoke a very serious health situation, with beaches closed and residents told to stay indoors. The biblical image of people unable to see one another, immobilized under a befouled sky, mirrors the choking haze that has shuttered outdoor life from Detroit to New England. Here the analogy is not the fire but the shroud of unbreathable darkness that fire has produced.",
-        "excerpt": "And the LORD said unto Moses, Stretch out thine hand toward heaven, that there may be darkness over the land of Egypt, even darkness which may be felt. And Moses stretched forth his hand toward heaven; and there was a thick darkness in all the land of Egypt three days: They saw not one another, neither rose any from his place for three days: but all the children of Israel had light in their dwellings.",
-        "source": "The Bible, King James Version, Exodus 10:21-23",
-        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/Exodus",
-        "image": {
-          "src": "/covers/canada-wildfire-smoke-us-air-quality--a2.png",
-          "alt": "Gustave Dore's 1866 wood engraving The Ninth Plague: Darkness, showing figures groping under a black sky over Egypt",
-          "credit": "Gustave Dore, Dore's English Bible (1866); public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "Byron wrote 'Darkness' in 1816, the volcanic 'year without a summer,' when Tambora's ash dimmed European skies and inspired his vision of a world whose bright sun was extinguished. The poem's blackened, rayless heavens and men praying for light distil the primal dread of a sky that will not brighten, the same dread stirred as Canadian smoke turns midday orange and grey over American cities. Byron's apocalyptic imagination was itself a response to a real atmospheric catastrophe carried far from its source, just as today's pall drifts from fires hundreds of miles north. His opening lines could serve as the caption for this week's blotted-out sun.",
-        "excerpt": "I had a dream, which was not all a dream.\nThe bright sun was extinguished, and the stars\nDid wander darkling in the eternal space,\nRayless, and pathless, and the icy Earth\nSwung blind and blackening in the moonless air;\nMorn came and went - and came, and brought no day,\nAnd men forgot their passions in the dread\nOf this their desolation; and all hearts\nWere chilled into a selfish prayer for light:",
-        "source": "Lord Byron, 'Darkness' (1816)",
-        "href": "https://en.wikisource.org/wiki/Darkness_(Byron,_1901)",
-        "image": {
-          "src": "/covers/canada-wildfire-smoke-us-air-quality--a3.png",
-          "alt": "John Martin's apocalyptic painting The Great Day of His Wrath (1851-1853), a world convulsed under a fiery, blackened sky",
-          "credit": "John Martin, The Great Day of His Wrath, Tate Britain; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "J. M. W. Turner painted 'Chichester Canal' around 1828 with a sun of molten, lurid gold sinking into a hazed sky, colours art historians link to atmospheric ash from the 1815 eruption of Mount Tambora half a world away. Turner turned a distant volcanic catastrophe's airborne residue into strange, glowing beauty, much as this week's Canadian wildfire smoke has painted American skylines in the same uncanny oranges and reds. The painting is a reminder that our most famous 'apocalyptic' skies are often the aesthetic by-product of far-off environmental disaster. Set beside a photograph of a smoke-veiled Manhattan, Turner's burning horizon looks unnervingly contemporary.",
-        "excerpt": "Turner's canvas is dominated by a swollen, incandescent sun whose light bleeds across a still canal and stains the whole sky a hazy amber. The haze softens every edge, dissolving masts and shoreline into a glowing, sulphurous atmosphere. It is a distant catastrophe's airborne residue transfigured into eerie, luminous calm, the same lurid palette that smoke now lends to hazard-alerted American cities.",
-        "source": "J. M. W. Turner, Chichester Canal (c. 1828), oil on canvas, Tate Britain (N00560)",
-        "href": "https://commons.wikimedia.org/wiki/File:Chichester_Canal_(1828).jpg",
-        "image": {
-          "src": "/covers/canada-wildfire-smoke-us-air-quality--a4.png",
-          "alt": "J. M. W. Turner's Chichester Canal (c. 1828), a hazy amber sunset over still water, its colours linked to Tambora's volcanic ash",
-          "credit": "J. M. W. Turner, Chichester Canal, Tate Britain; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Edvard Munch said the blood-red sky of 'The Scream' (1893) came from an evening when the sky suddenly turned blood red over the fjord, a colour scholars have connected to the vivid twilights cast worldwide by the 1883 eruption of Krakatoa. In Munch's hands an atmosphere poisoned by distant catastrophe becomes an image of pure dread, a sky so wrong it seems to shriek. That is the emotional key of this week's hazardous-air alerts, as an ominous, unnatural sky presses down on millions from Toronto to New York. The Krakatoa-tinged heavens behind Munch's figure are the ancestor of every smoke-reddened skyline now filling the news.",
-        "excerpt": "I was walking along the road with two friends - the sun was setting - suddenly the sky turned blood red - I paused, feeling exhausted, and leaned on the fence - there was blood and tongues of fire above the blue-black fjord and the city - my friends walked on, and I stood there trembling with anxiety - and I sensed an infinite scream passing through nature.",
-        "source": "Edvard Munch, diary note on the origin of The Scream (Munch, 1893; translated from the Norwegian)",
-        "href": "https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
-        "image": {
-          "src": "/covers/canada-wildfire-smoke-us-air-quality--a5.png",
-          "alt": "Edvard Munch's The Scream (1893), a figure clutching its face beneath a swirling blood-red sky",
-          "credit": "Edvard Munch, The Scream, National Gallery of Norway; public domain, via Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 31
-  },
-  {
-    "slug": "trump-media-truth-api-market-feed",
-    "headline": "Trump Media plans to sell Wall Street a millisecond feed of 'market-moving' Truth Social posts",
-    "overview": "Trump Media said it will begin selling financial institutions a paid data service, called Truth API, that delivers posts from the platform's highest-ranking accounts—currently led by President Trump—to clients in \"milliseconds,\" starting August 1. The company, which is loss-making, is pitching the round-the-clock feed to traders because Trump's posts on trade and tariffs often move global markets within seconds. Interim chief executive Kevin McGurn said \"markets already move on Truth Social posts\" and that the service would create a steady new source of profit; the firm did not say what it would charge.",
-    "genre": "Technology",
-    "sources": [
-      {
-        "name": "BBC",
-        "href": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo"
-      },
-      {
-        "name": "AP",
-        "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUnBoYzROZWtVQ0xoeVRvSkVOTkNsd1ZOMzNIUFdhLXBZeHg2cmU1Yk1sWmdJY2s1TFlKenFhUFVzSk83V2t3NEdoelo2bEYwX3RPTjJ0WU8ybktvZUFWclo3dTdaZ1k5b0JUdTFCQlVUd3FSZllNb1VjSW9IbkFJWXl4bktpWHAwX0V4REV1NFBVSFFhbDRNNFE1LWhTMEZiaV8yWW1vN3FUeUFVZW1qUE5GVjN5TGRYTWw0R2ozNWxzalNyUEE?oc=5"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-07-17",
-    "image": {
-      "src": "/covers/trump-media-truth-api-market-feed.png",
-      "alt": "Stock traders watching screens of live market data on a trading floor.",
-      "credit": "Thomas Edison's Gold & Stock Telegraph ticker, Henry Ford Museum. Photograph by H. Zimmer, CC BY 3.0, via Wikimedia Commons."
-    },
-    "edition": "Morning Edition · 17 July 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "Aristotle records how Thales of Miletus, mocked for the uselessness of philosophy, read the coming season in the stars, foresaw a bumper olive harvest, and quietly paid deposits on every olive-press in Miletus and Chios at off-season rates, then rented them back at a fortune when demand suddenly spiked. It is the West's oldest recorded market corner, and its lesson is pure: profit can flow not from labor but from knowing first. Trump Media's \"Truth API\" is the same maneuver compressed to milliseconds, selling traders the chance to read the coming weather, a presidential post on tariffs, a beat before everyone else and monetize the spread. Where Thales cornered the presses, the paying subscriber corners the seconds. The instrument is faster, but the edge is identical: information asymmetry sold as a service.",
-        "excerpt": "Thales, so the story goes, because of his poverty was taunted with the uselessness of philosophy; but from his knowledge of astronomy he had observed while it was still winter that there was going to be a large crop of olives, so he raised a small sum of money and paid round deposits for the whole of the olive-presses in Miletus and Chios, which he hired at a low rent as nobody was running him up; and when the season arrived, there was a sudden demand for a number of presses at the same time, and by letting them out on what terms he liked he realized a large sum of money.",
-        "source": "Aristotle, Politics, Book I, ch. 11 (1259a), trans. H. Rackham (Loeb Classical Library).",
-        "href": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0058:book=1:section=1259a",
-        "image": {
-          "src": "/covers/trump-media-truth-api-market-feed--a0.png",
-          "alt": "Engraved bust portrait of the ancient Greek philosopher Thales of Miletus.",
-          "credit": "Thales of Miletus, engraving by Wilhelm Meyer in Illustrerad verldshistoria (1875). Public domain, via Wikimedia Commons."
-        }
-      },
-      {
-        "category": "historical",
-        "title": "Legend, burnished by the House of Rothschild's own mystique, holds that Nathan Mayer Rothschild, through a private network of fast boats and couriers, learned of Wellington's victory at Waterloo in June 1815 a full day before the British government's official dispatch, and traded the news on the London exchange before it broke to the public. Whether he made a killing or merely a myth, the episode became the founding parable of speed-as-money: the man with the fastest line to the decisive word owns the market's next move. Trump Media turns that private courier into a subscription product, promising Wall Street the President's market-moving words in milliseconds. Rothschild's packet-boats and riders have become a paid data feed, and the carrier pigeon that beat the market is now sold by the yard.",
-        "excerpt": "According to the enduring legend of Waterloo, Nathan Rothschild's couriers carried word of Napoleon's defeat across the Channel ahead of every rival, letting the banker act on the century's most consequential news while London still waited in ignorance. The tale endures precisely because it dramatizes an eternal truth of speculation: privileged early access to price-moving information is itself a form of wealth. Fast intelligence, whether by boat, pigeon, or fiber-optic feed, is the edge that no one who possesses it willingly shares for free.",
-        "source": "The Waterloo legend of Nathan Mayer Rothschild (1777-1836); see Niall Ferguson, The House of Rothschild (1998), and The Rothschild Archive.",
-        "href": "https://en.wikipedia.org/wiki/Nathan_Mayer_Rothschild",
-        "image": {
-          "src": "/covers/trump-media-truth-api-market-feed--a1.png",
-          "alt": "Portrait of the London banker Nathan Mayer Rothschild.",
-          "credit": "Nathan Mayer Rothschild, from the Jewish Encyclopedia (1901-1906). Public domain, via Wikimedia Commons."
-        }
-      },
-      {
-        "category": "literary",
-        "title": "In the opening of Aeschylus's Agamemnon, Clytemnestra reveals how the fall of Troy reached Argos not by ship or runner but by a relay of beacon-fires leaping mountain to mountain across the Aegean, from Ida to Lemnos to Athos and onward, so that the queen holds the war's decisive news while the sleeping city knows nothing. It is antiquity's telegraph, and its whole point is power: she who receives the signal first can act first. Trump Media's \"Truth API\" is Clytemnestra's beacon chain sold to subscribers, a purpose-built relay engineered to carry the ruler's word to a chosen few in milliseconds, ahead of the crowd. The medium is fiber and code rather than pine and flame, but the prize is unchanged: to know, and to move, before the rest of the city.",
-        "excerpt": "Hephaestus, from Ida speeding forth his brilliant blaze. Beacon passed beacon on to us by courier-flame: Ida, to the Hermaean crag in Lemnos; to the mighty blaze upon the island succeeded, third, the summit of Athos sacred to Zeus.",
-        "source": "Aeschylus, Agamemnon, lines 281-285, trans. Herbert Weir Smyth (Loeb Classical Library, 1926).",
-        "href": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0004:card=281",
-        "image": {
-          "src": "/covers/trump-media-truth-api-market-feed--a2.png",
-          "alt": "Painting of Clytemnestra standing after the murder, holding an axe, by John Collier.",
-          "credit": "John Collier, Clytemnestra (1882), Guildhall Art Gallery, London. Public domain, via Wikimedia Commons."
-        }
-      },
-      {
-        "category": "literary",
-        "title": "In Genesis, Joseph alone can read Pharaoh's dreams of coming plenty and famine, and on the strength of that foreknowledge he gathers grain \"as the sand of the sea\" through the fat years, then, when scarcity strikes, opens the storehouses and sells to a starving world that streams into Egypt to buy. It is scripture's archetype of privileged information: the one who knows the future first controls the market when it arrives, and the sovereign's household reaps the profit. Trump Media updates the tale, selling not a forecast of the harvest but the very moment a ruler's own words tip the market, letting subscribers buy before the famine of ignorance breaks over ordinary traders. The powerful still profit from foreknowledge of their own storehouse; now the storehouse is a social-media feed.",
-        "excerpt": "And Joseph gathered corn as the sand of the sea, very much, until he left numbering; for it was without number. ... And all countries came into Egypt to Joseph for to buy corn; because that the famine was so sore in all lands.",
-        "source": "Genesis 41:49, 57, King James Version.",
-        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/Genesis",
-        "image": {
-          "src": "/covers/trump-media-truth-api-market-feed--a3.png",
-          "alt": "Painting of Joseph enthroned as overseer of Pharaoh's granaries while a scribe tallies the grain.",
-          "credit": "Lawrence Alma-Tadema, Joseph, Overseer of Pharaoh's Granaries (1874). Public domain, via Wikimedia Commons."
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Edgar Degas's Portraits at the Stock Exchange (c. 1878-79) shows the financier Ernest May at the Paris Bourse, a companion leaning in to murmur something at his ear while brokers press behind, a painting built entirely around the whispered tip, the passing of a word that moves money. Degas captures the exact social physics of the modern market: value is minted in who hears what, a half-second before whom. Trump Media's \"Truth API\" industrializes that whisper, replacing the leaned-in confidence with a paid millisecond feed of the President's posts. What Degas painted as an intimate act of privileged access becomes a subscription line item, the whisper at the ear wired to Wall Street and metered by the millisecond.",
-        "excerpt": "Degas's canvas frames the market as a theater of confidences: at the center a broker inclines toward Ernest May's ear, his gloved hand almost touching the paper, while a crush of dark-suited figures dissolves into the background. Nothing is bought or sold in the picture except attention itself, the split-second advantage of hearing the word first. The painting makes visible the invisible commodity of the exchange, information delivered privately and acted upon before the room can catch up.",
-        "source": "Edgar Degas, Portraits a la Bourse (Portraits at the Stock Exchange), c. 1878-1879, oil on canvas, Musee d'Orsay, Paris.",
-        "href": "https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_Portraits_at_the_Stock_Exchange_-_Google_Art_Project.jpg",
-        "image": {
-          "src": "/covers/trump-media-truth-api-market-feed--a4.png",
-          "alt": "Impressionist painting of a financier at the Paris stock exchange with a colleague whispering in his ear.",
-          "credit": "Edgar Degas, Portraits at the Stock Exchange (c. 1878-79), Musee d'Orsay. Public domain, via Wikimedia Commons (Google Art Project)."
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "William Hogarth's Emblematical Print on the South Sea Scheme (1721) is the first great satire of a market driven by rumor and access: crowds ride a giddy merry-go-round of speculation while Honesty is broken on a wheel and Fortune's favorites cash out, all whipped up by the promise of easy gain and the manipulation of who knows what. It indicts precisely the ecosystem a \"Truth API\" invites, speculation feeding on privileged, price-moving information, and the well-placed profiting from a frenzy of their own making. Where the South Sea directors talked the market up and sold at the top, Trump Media proposes to sell the utterer's very words as tradable signal. Hogarth's carnival of credulous speculators is our warning label: when the word that moves the market is for sale, the wheel keeps turning and someone always ends up broken beneath it.",
-        "excerpt": "Hogarth crowds his print with allegory: a wooden merry-go-round of speculators spins beside a monument inscribed to the ruin of the city by the South Sea scheme, while Honesty is broken on a wheel and Honour is flogged. Villainy, Self-Interest and a leering Devil carve up the body of Fortune and toss the pieces to the scrambling mob. The engraving reads as a single verdict on markets governed by rumor, access and the greed of the well-positioned few.",
-        "source": "William Hogarth, Emblematical Print on the South Sea Scheme (The South Sea Scheme), 1721, engraving.",
-        "href": "https://en.wikipedia.org/wiki/Emblematical_Print_on_the_South_Sea_Scheme",
-        "image": {
-          "src": "/covers/trump-media-truth-api-market-feed--a5.png",
-          "alt": "Satirical engraving showing crowds of speculators around a merry-go-round during the South Sea Bubble.",
-          "credit": "William Hogarth, The South Sea Scheme (1721). Public domain, via Wikimedia Commons."
-        }
-      }
-    ],
-    "rank": 32
-  },
-  {
-    "slug": "volkswagen-overhaul-140000-jobs",
-    "headline": "Volkswagen's works council says a planned overhaul could cost up to 140,000 jobs as workers prepare to confront the CEO",
-    "overview": "Volkswagen's works council said a sweeping restructuring being weighed by chief executive Oliver Blume could ultimately threaten as many as 140,000 jobs, as employee representatives prepared to question him over plans to cut costs at Europe's largest carmaker. Blume has outlined tens of thousands of fresh job cuts on top of an earlier savings drive, along with proposals to halve the model lineup, cut annual capacity to nine million vehicles and potentially close four German plants. The works council and the IG Metall union vowed to \"do everything in our power\" to block the measures.",
-    "genre": "Economy",
-    "sources": [
-      {
-        "name": "Reuters",
-        "href": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZXI5V2RULThybkNadEROSVctcnpWc3FJUlozR2ZYaGJwZXg2TFNsMEs0SXlNV1JhODdjUlUtLXVTLXdFX1FpOGxUMkw1dWxxeEY4UkZJNFNib2ZuSmIteHdMams4R3AyUE9HZ2VEV0hleDhjTWpYRjdGSzV4VHBONkRVOEthTm02MnhUS3Y3cldYYlVzU1pncDI2MTFTR0RUQ1pJX0lWZkFTTkIzZDVZNHlLV3puN00?oc=5"
-      },
-      {
-        "name": "Bloomberg",
-        "href": "https://www.bloomberg.com/news/articles/2026-07-13/vw-ceo-outlines-up-to-50-000-more-job-cuts-to-hit-savings-goals"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-07-17",
-    "image": {
-      "src": "/covers/volkswagen-overhaul-140000-jobs.png",
-      "alt": "Car bodies moving down a Volkswagen assembly line.",
-      "credit": "Volkswagen assembly line, Wolfsburg, 1960, via Wikimedia Commons (CC BY-SA 2.0)"
-    },
-    "edition": "Morning Edition · 17 July 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "In 494 BC the plebeians of Rome, crushed by debt and denied a political voice, simply walked out of the city and encamped on the Sacred Mount, refusing to work or fight until their grievances were heard - the first recorded general strike, or secessio plebis. The patricians, unable to run the republic without the labour they took for granted, sent the orator Menenius Agrippa, who won the plebs back with his famous parable of the belly and the limbs and the creation of the tribunes to defend them. Volkswagen's works council and IG Metall, vowing to 'do everything in our power' to block Oliver Blume's cuts, are the direct heirs of that ancient withdrawal of labour: a reminder that when the people who actually do the work down tools, even the mightiest institution must come to the table. Then as now, the quarrel is over who bears the cost when the body politic - or the corporation - decides some members may be starved so others may thrive.",
-        "excerpt": "In the days when all the parts of the human body were not as now agreeing together, but each member took its own course and spoke its own speech, the other members, indignant at seeing that everything acquired by their care and labour and ministry went to the belly, whilst it, undisturbed in the middle of them, did nothing but enjoy the pleasures provided for it, entered into a conspiracy.",
-        "source": "Livy, The History of Rome (Ab Urbe Condita), Book II.32, trans. Rev. Canon Roberts",
-        "href": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0026:book=2:chapter=32",
-        "image": {
-          "src": "/covers/volkswagen-overhaul-140000-jobs--a0.png",
-          "alt": "Nineteenth-century engraving of the secession of the plebeians to the Sacred Mount",
-          "credit": "B. Barloccini, 'Secession of the People to the Mons Sacer' (1849), public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "historical",
-        "title": "Between 1811 and 1816 the Luddites - skilled English textile workers - smashed the mechanised frames and power looms that were throwing them out of work and driving down wages, until Parliament made frame-breaking a capital crime. In his maiden speech to the House of Lords in February 1812, Lord Byron rose to defend them, insisting that men reduced to starvation by 'improvements in mechanism' deserved bread, not the gallows. His words frame the deepest theme of Volkswagen's crisis: the machine that makes one worker do the work of many, and the human beings 'thrown out of employment' as capacity is cut and plants are shuttered. When the VW works council warns that up to 140,000 jobs and four German factories are at risk, it echoes a two-century argument over whether efficiency should be pursued at any cost to the labourer's dignity.",
-        "excerpt": "These machines were to them an advantage, inasmuch as they superseded the necessity of employing a number of workmen, who were left in consequence to starve. By the adoption of one species of Frame in particular, one man performed the work of many, and the superfluous labourers were thrown out of employment... the rejected workmen, in the blindness of their ignorance, instead of rejoicing at these improvements in arts so beneficial to mankind, conceived themselves to be sacrificed to improvements in mechanism.",
-        "source": "George Gordon, Lord Byron, Speech on the Frame Work Bill, House of Lords, 27 February 1812, in The Parliamentary Speeches of Lord Byron (1824)",
-        "href": "https://archive.org/stream/parliamentaryspe01byro/parliamentaryspe01byro_djvu.txt",
-        "image": {
-          "src": "/covers/volkswagen-overhaul-140000-jobs--a1.png",
-          "alt": "'The Leader of the Luddites', 1812 hand-coloured etching of a machine-breaker",
-          "credit": "'The Leader of the Luddites' (1812), hand-coloured etching, public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "Emile Zola's Germinal (1885) is the great epic of labour against capital: the miners of Montsou, ground down by wage cuts, rise in a doomed strike against a faceless Company that treats them as interchangeable fuel. Zola personifies the pit itself, Le Voreux, as a crouching, gluttonous beast that swallows men whole - the machine and the corporation fused into a single devouring monster. That image maps onto Volkswagen's predicament with uncanny force: a colossal industrial organism, Europe's largest carmaker, contracting its jaws and preparing to consume the livelihoods of tens of thousands. When VW workers assemble to confront their CEO, they step into the same ancient drama Zola dramatised - the collective body of labour facing the cold arithmetic of the balance sheet.",
-        "excerpt": "This pit, piled up in the bottom of a hollow, with its squat brick buildings, raising its chimney like a threatening horn, seemed to him to have the evil air of a gluttonous beast crouching there to devour the earth.",
-        "source": "Emile Zola, Germinal (1885), trans. Havelock Ellis, Chapter I",
-        "href": "https://www.gutenberg.org/files/56528/56528-h/56528-h.htm",
-        "image": {
-          "src": "/covers/volkswagen-overhaul-140000-jobs--a2.png",
-          "alt": "Constantin Meunier painting of coal miners returning from the pit",
-          "credit": "Constantin Meunier, 'Return of the Miners', public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "Charles Dickens's Hard Times (1854) gave English literature its enduring nightmare of industrial life: Coketown, where the steam-engine's piston works 'monotonously up and down, like the head of an elephant in a state of melancholy madness', and where the workers are known collectively and coldly as 'the Hands'. Dickens indicts a philosophy that reduces human beings to units of production, useful only for the labour their hands can supply and discarded when the ledger demands. Volkswagen's restructuring speaks that same language - capacity, model counts, plant closures - the abstractions behind which stand living workers and the towns built around their factories. To halve the model range and gut whole plants is to treat the Hands once more as mere figures to be subtracted, exactly the dehumanisation Dickens set out to expose.",
-        "excerpt": "It was a town of machinery and tall chimneys, out of which interminable serpents of smoke trailed themselves for ever and ever, and never got uncoiled. It had a black canal in it, and a river that ran purple with ill-smelling dye, and vast piles of building full of windows where there was a rattling and a trembling all day long, and where the piston of the steam-engine worked monotonously up and down, like the head of an elephant in a state of melancholy madness.",
-        "source": "Charles Dickens, Hard Times (1854), Book I, Chapter V, 'The Key-note'",
-        "href": "https://www.gutenberg.org/files/786/786-h/786-h.htm",
-        "image": {
-          "src": "/covers/volkswagen-overhaul-140000-jobs--a3.png",
-          "alt": "Interior of a Lancashire cotton mill with workers tending power looms, engraving of 1835",
-          "credit": "'Powerloom weaving in 1835', engraving after T. Allom, public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Robert Koehler's monumental canvas The Strike (Der Streik, 1886) freezes the exact moment Volkswagen's workers now approach: labourers massed outside the mill gates, confronting the top-hatted owner who stands on his steps as one worker stoops to pick up a stone. Painted the year of the Haymarket affair, it became an icon of organised labour precisely because it captures the charged instant when deference curdles into defiance and management must finally face the people it employs. That is the tableau promised as VW's works council and IG Metall prepare to 'confront the CEO' over cuts that could cost 140,000 jobs. Koehler's crowd - anxious, angry, resolute - is a portrait of collective power discovering its voice, the same voice German trade unionists are raising in Wolfsburg today.",
-        "excerpt": "Painted in 1886, Koehler's wide, cinematic canvas stages a confrontation between striking factory hands and their employer at the gates of the works. The owner in his frock coat and top hat stands rigid on the steps while the workers surge below - some pleading, some furious, one bending to seize a rock from the ground. It is one of the first great paintings to place the collective worker, rather than the individual hero, at the centre of the drama, and it reads today as the archetype of every showdown between a workforce and the boss.",
-        "source": "Robert Koehler, The Strike (Der Streik), oil on canvas, 1886, Deutsches Historisches Museum, Berlin",
-        "href": "https://commons.wikimedia.org/wiki/File:Robert_Koehler_-_Der_Streik_(1886).jpg",
-        "image": {
-          "src": "/covers/volkswagen-overhaul-140000-jobs--a4.png",
-          "alt": "Robert Koehler's 1886 painting of factory workers confronting a top-hatted employer during a strike",
-          "credit": "Robert Koehler, 'The Strike' (1886), Deutsches Historisches Museum, public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Diego Rivera's Detroit Industry Murals (1932-33), painted for the Detroit Institute of Arts at the depth of the Depression, are the twentieth century's greatest hymn to - and reckoning with - the automobile assembly line. Across vast frescoed walls, ranks of workers move in choreographed labour beside the churning machinery of Ford's River Rouge plant, human bodies and mechanical forms locked in a single mighty, ambivalent rhythm. Rivera captured both the grandeur of industrial production and the way the line subordinates the worker to the machine's tempo - the very tension now tearing at Volkswagen. As Europe's largest carmaker moves to cut capacity to nine million cars and close plants, Rivera's murals stand as a warning that the auto industry's dream of mechanised abundance has always rested on the fragile, precarious dignity of the men and women on the line.",
-        "excerpt": "Rivera's frescoes wrap the museum court in a continuous panorama of automobile manufacture: rows of half-clothed workers heave, bend and haul beside conveyor belts and blast furnaces, dwarfed by the great presses and engine blocks of the Ford Rouge complex. The machinery is rendered with the reverence of cathedral sculpture, yet the human figures - varied in race and strained in posture - keep insisting on the labour that makes the marvel possible. It remains the definitive image of the modern car plant as both temple and treadmill.",
-        "source": "Diego Rivera, Detroit Industry Murals (north wall), fresco, 1932-33, Detroit Institute of Arts",
-        "href": "https://dia.org/collection/detroit-industry-north-wall/58538",
-        "image": {
-          "src": "/covers/volkswagen-overhaul-140000-jobs--a5.png",
-          "alt": "Diego Rivera's Detroit Industry mural north wall depicting workers on a Ford automobile assembly line",
-          "credit": "Diego Rivera, 'Detroit Industry' (north wall, 1932-33), Detroit Institute of Arts, via Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 33
-  },
-  {
-    "slug": "kimi-k3-largest-open-model",
-    "headline": "China's Moonshot AI releases Kimi K3, a 2.8-trillion-parameter model it calls the world's largest open-weight system",
-    "overview": "The Chinese startup Moonshot AI unveiled Kimi K3 on Thursday, a mixture-of-experts model with about 2.8 trillion parameters and a one-million-token context window that it says is the largest open-source model yet released and that benchmarks close to the strongest proprietary systems from Anthropic and OpenAI. The model, whose full weights are due to be published on July 27 under a modified MIT licence, is priced at $3 per million input tokens and $15 per million output tokens—the most expensive of any Chinese lab and on par with Anthropic's Claude Sonnet series. It leans on two in-house architectural inventions, Kimi Delta Attention and Attention Residuals.",
-    "genre": "Technology",
-    "sources": [
-      {
-        "name": "Simon Willison",
-        "href": "https://simonwillison.net/2026/Jul/16/kimi-k3/"
-      },
-      {
-        "name": "VentureBeat",
-        "href": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-07-17",
-    "image": {
-      "src": "/covers/kimi-k3-largest-open-model.png",
-      "alt": "An abstract visualization of a large neural network of glowing nodes.",
-      "credit": "Pieter Bruegel the Elder, The Tower of Babel (1563), Kunsthistorisches Museum, Vienna. Public domain via Wikimedia Commons."
-    },
-    "edition": "Morning Edition · 17 July 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "In the third century BCE the Ptolemies of Alexandria set out to gather every scroll on earth into a single house of learning, buying, copying, and even confiscating books until the collection swelled toward half a million rolls, a colossal open store of the world's knowledge freely consultable by scholars. Moonshot AI's Kimi K3 revives that Alexandrian ambition in silicon: a 2.8-trillion-parameter model with a million-token memory, its full weights thrown open to all comers under a near-MIT licence. Where Demetrius commanded 'vast sums of money' to hoard the wisdom of every nation, a Chinese lab now spends its compute to compress that wisdom into weights anyone may download. Both gestures wager that knowledge concentrated and shared, rather than guarded, is the surest foundation of a golden age, and both provoke rival powers who would rather keep their libraries private.",
-        "excerpt": "Demetrius of Phalerum, the president of the king's library, received vast sums of money, for the purpose of collecting together, as far as he possibly could, all the books in the world. By means of purchase and transcription, he carried out, to the best of his ability, the purpose of the king.",
-        "source": "The Letter of Aristeas, sections 9-10, translated by H. St. J. Thackeray (public domain), describing the ambition of the Great Library of Alexandria.",
-        "href": "https://www.attalus.org/translate/aristeas1.html",
-        "image": {
-          "src": "/covers/kimi-k3-largest-open-model--a0.png",
-          "alt": "Nineteenth-century engraving imagining the Great Library of Alexandria, scholars conversing among scrolls and columned halls",
-          "credit": "O. Von Corven, The Great Library of Alexandria (19th-century engraving). Public domain via Wikimedia Commons."
-        }
-      },
-      {
-        "category": "historical",
-        "title": "When Johannes Gutenberg pressed movable type into service around 1450, a technology once confined to slow monastic scriptoria became an engine that flooded Europe with cheap books, breaking the clergy's monopoly on the written word and igniting the Reformation and the scientific revolution. Francis Bacon, looking back, ranked printing among the three inventions that had remade the whole world. Kimi K3 is the print revolution's heir: a powerful generative intelligence released not as a jealously licensed proprietary service but as open weights, priced to undercut and shipped to anyone with a hard drive. As printing turned scarce manuscripts into a public commons and unseated established authorities, an open frontier-class model threatens to democratise a capability the largest Western labs had hoped to meter and control.",
-        "excerpt": "Again, we should notice the force, effect, and consequences of inventions, which are nowhere more conspicuous than in those three which were unknown to the ancients; namely, printing, gunpowder, and the compass. For these three have changed the appearance and state of the whole world: first in literature, then in warfare, and lastly in navigation; and innumerable changes have been thence derived, so that no empire, sect, or star, appears to have exercised a greater power and influence on human affairs than these mechanical discoveries.",
-        "source": "Francis Bacon, Novum Organum, Book I, Aphorism CXXIX, translated by Joseph Devey (1902), on printing as a world-changing invention.",
-        "href": "https://www.gutenberg.org/files/45988/45988-h/45988-h.htm",
-        "image": {
-          "src": "/covers/kimi-k3-largest-open-model--a1.png",
-          "alt": "Jost Amman's 1568 woodcut of a printing workshop, a compositor and pressman at an early wooden printing press",
-          "credit": "Jost Amman, The Printer, woodcut from Das Standebuch (1568). Public domain via Wikimedia Commons."
-        }
-      },
-      {
-        "category": "literary",
-        "title": "Aeschylus's Prometheus is the archetype of the benefactor who steals a jealously guarded power of the gods and hands it freely to mortals, and in his great speech he claims to have given humanity not only fire but number, letters, and the memory that undergirds every art. Kimi K3 is a Promethean gift in exactly this key: intelligence itself, once the closely held property of a few Olympian labs, unbound and offered to the whole species under an open licence. Moonshot's engineers, like the Titan, defy the reigning powers who would keep the flame proprietary, and they too may reckon with a backlash from those who fear what mortals will do with such a gift. The play insists that civilisation itself springs from knowledge released rather than hoarded, the very wager an open-weight supermodel makes.",
-        "excerpt": "Yes, and numbers, too, chiefest of sciences, I invented for them, and the combining of letters, creative mother of the Muses' arts, with which to hold all things in memory.",
-        "source": "Aeschylus, Prometheus Bound, lines 459-461, translated by Herbert Weir Smyth (1926), Perseus Digital Library.",
-        "href": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0010%3Acard%3D436",
-        "image": {
-          "src": "/covers/kimi-k3-largest-open-model--a2.png",
-          "alt": "Peter Paul Rubens's painting Prometheus Bound, the Titan chained to a rock as an eagle tears at him for gifting fire to mankind",
-          "credit": "Peter Paul Rubens, Prometheus Bound (c. 1611-1618), Philadelphia Museum of Art. Public domain via Wikimedia Commons."
-        }
-      },
-      {
-        "category": "literary",
-        "title": "Mary Shelley subtitled her novel 'The Modern Prometheus,' and her Victor Frankenstein embodies the ecstasy and dread of a maker who discovers the secret of animating matter and dares to bring a new intelligence into being. Kimi K3's 2.8 trillion parameters are a comparable act of creation at colossal scale, and its release to the public transforms the private laboratory experiment into a thing loosed upon the world. Shelley's tale is the enduring cautionary myth of the age of artificial minds: the question is never only whether the creature can be made, but whether its maker can answer for it once it walks free. To open the weights of a frontier model is to grant the creature its own life beyond the creator's control, precisely the moral hazard that has haunted the Modern Prometheus for two centuries.",
-        "excerpt": "After days and nights of incredible labour and fatigue, I succeeded in discovering the cause of generation and life; nay, more, I became myself capable of bestowing animation upon lifeless matter.",
-        "source": "Mary Shelley, Frankenstein; or, The Modern Prometheus (1818; 1831 edition), Chapter 4.",
-        "href": "https://www.gutenberg.org/files/84/84-h/84-h.htm",
-        "image": {
-          "src": "/covers/kimi-k3-largest-open-model--a3.png",
-          "alt": "Theodor von Holst's 1831 frontispiece to Frankenstein, the newly animated creature rising as its horrified maker flees",
-          "credit": "Theodor von Holst, frontispiece to the 1831 edition of Frankenstein. Public domain via Wikimedia Commons."
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Heinrich Friedrich Fuger's Prometheus Brings Fire to Mankind renders the myth as pure gift: the Titan bends toward crouching mortals and touches his torch to theirs, and light spreads visibly from one hand to the next. It is an image of a transformative power passing out of divine keeping and into open circulation, kindling flame after flame with no diminishment of the source. That is precisely the logic of an open-weight release like Kimi K3: once the model is downloaded, copied, and fine-tuned across the world, the capability propagates like Fuger's fire, illuminating countless new hands from a single act of generosity. The painting's warm chiaroscuro captures both the promise and the danger of handing so potent a flame to the crowd.",
-        "excerpt": "Fuger's neoclassical canvas stages the exact moment of transmission, the Titan's torch meeting the mortals' in a burst of gold against deep shadow. Bodies lean in from the dark toward the new light, their faces lit by a power that was, an instant before, the exclusive property of the gods. The composition makes an abstract idea tangible: a jealously guarded intelligence becoming, in a single gesture, freely shared.",
-        "source": "Heinrich Friedrich Fuger, Prometheus Brings Fire to Mankind (c. 1817), oil on canvas, Liechtenstein Museum, Vienna.",
-        "href": "https://commons.wikimedia.org/wiki/File:Heinrich_fueger_1817_prometheus_brings_fire_to_mankind.jpg",
-        "image": {
-          "src": "/covers/kimi-k3-largest-open-model--a4.png",
-          "alt": "Heinrich Fuger's painting Prometheus Brings Fire to Mankind, the Titan passing a burning torch to mortals emerging from darkness",
-          "credit": "Heinrich Friedrich Fuger, Prometheus Brings Fire to Mankind (c. 1817). Public domain via Wikimedia Commons."
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Beethoven's only ballet, The Creatures of Prometheus, dramatises the Titan animating two lifeless clay statues and leading them to the gods to be schooled in the arts and sciences, its exuberant overture heralding the birth of new beings quickened by a stolen spark. The score is a celebration of creation and enlightenment, of raw matter awakened into intelligent life and then taught to reason and to feel. Kimi K3 sounds the same triumphant note: an artificial mind stirred into being at unprecedented scale and then set loose to be tutored by the whole world through open weights. Beethoven's music frames the Promethean act not as transgression but as jubilant gift, the same optimistic register in which a lab releasing its largest model invites all humanity to become its teachers and heirs.",
-        "excerpt": "Beethoven's overture opens with a jolt of harmony and then races forward in bright, breathless strings, the musical image of inert matter suddenly quickened into motion. The ballet that follows leads its newborn creatures from clumsy first steps toward grace, knowledge, and joy. It is the Promethean spark scored for orchestra, creation heard as celebration rather than as crime.",
-        "source": "Ludwig van Beethoven, Die Geschopfe des Prometheus (The Creatures of Prometheus), Op. 43 (1801), score at the International Music Score Library Project.",
-        "href": "https://imslp.org/wiki/Die_Gesch%C3%B6pfe_des_Prometheus,_Op.43_(Beethoven,_Ludwig_van)",
-        "image": {
-          "src": "/covers/kimi-k3-largest-open-model--a5.png",
-          "alt": "Joseph Karl Stieler's 1820 portrait of Ludwig van Beethoven holding the manuscript of the Missa Solemnis",
-          "credit": "Joseph Karl Stieler, portrait of Ludwig van Beethoven (1820). Public domain via Wikimedia Commons."
-        }
-      }
-    ],
-    "rank": 34
-  },
-  {
-    "slug": "taco-bell-lettuce-cyclosporiasis",
-    "headline": "Taco Bell pulls shredded lettuce after a parasite outbreak linked to a single supplier sickens thousands",
-    "overview": "Taco Bell said it was indefinitely removing shredded iceberg lettuce from one supplier after U.S. health officials linked it to a multistate outbreak of cyclosporiasis, a parasitic infection that causes prolonged, explosive diarrhoea. The CDC has confirmed 1,645 cases, with roughly 5,100 more under investigation and about 140 people hospitalised and no deaths, across Indiana, Kentucky, Michigan, Ohio and West Virginia since mid-May. An FDA traceback pointed to iceberg lettuce grown in Mexico and supplied by Taylor Farms, which was tied to a similar 2013 outbreak that sickened hundreds.",
-    "genre": "Science",
-    "sources": [
-      {
-        "name": "BBC",
-        "href": "https://www.bbc.co.uk/news/articles/cm2gnglyv0jo"
-      },
-      {
-        "name": "CNN",
-        "href": "https://www.cnn.com/2026/07/16/health/cyclospora-outbreak-shredded-lettuce"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-07-17",
-    "image": {
-      "src": "/covers/taco-bell-lettuce-cyclosporiasis.png",
-      "alt": "Shredded iceberg lettuce, the ingredient at the centre of the outbreak.",
-      "credit": "CDC Public Health Image Library, via Wikimedia Commons (public domain)"
-    },
-    "edition": "Morning Edition · 17 July 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "Long before microscopes, medieval Europe was scourged by ergotism, or 'St. Anthony's Fire,' a hidden parasite of the food supply: the fungus Claviceps purpurea, which colonised rye in damp seasons and, milled unseen into everyday bread, delivered gangrene, convulsions and hallucinations to whole villages at once. Chroniclers described limbs blackening and 'burning' without any visible wound, because the poison lay concealed in the loaf itself, entering through the one staple everyone trusted. Like today's diners who bit into an ordinary Taco Bell taco and swallowed Cyclospora with the shredded iceberg, medieval sufferers were felled not by rare food but by the most common one, corrupted at a single agricultural source. The parallel is exact in its cruelty: a parasite riding the ordinary grain, or the ordinary leaf, that no eye could detect.",
-        "excerpt": "Ergotism, known in the Middle Ages as ignis sacer or 'St. Anthony's Fire,' was caused by eating rye and cereals contaminated with the alkaloid-bearing fungus Claviceps purpurea. Outbreaks could sicken entire communities that shared a single contaminated harvest or mill, producing gangrene, seizures and hallucinations, with the true cause invisible in the bread until modern mycology and food inspection finally traced it to the grain.",
-        "source": "Ergotism (St. Anthony's Fire); depicted in Pieter Bruegel the Elder, 'The Beggars' (The Cripples), 1568, Musee du Louvre",
-        "href": "https://en.wikipedia.org/wiki/Ergotism",
-        "image": {
-          "src": "/covers/taco-bell-lettuce-cyclosporiasis--a0.png",
-          "alt": "Pieter Bruegel the Elder, The Beggars (1568), five crippled figures, sometimes read as victims of gangrenous ergotism",
-          "credit": "Pieter Bruegel the Elder, Musee du Louvre, via Wikimedia Commons (public domain)"
-        }
-      },
-      {
-        "category": "historical",
-        "title": "In 1854, when cholera exploded through London's Soho, the physician John Snow refused the reigning theory of poisonous 'bad air' and instead did the shoe-leather detective work of tracing every death back to a single source: the public water pump on Broad Street. By mapping the dead and interviewing survivors he showed that nearly all had drunk from that one well, and famously had the pump handle removed to stop the outbreak. This is precisely the logic of the FDA traceback that followed the 2026 cyclosporiasis cases from thousands of scattered patients to iceberg lettuce from one supplier, Taylor Farms, grown in a single region of Mexico. Snow's Broad Street pump and the CDC's contaminated lettuce line are the same story two centuries apart: a dispersed plague resolved into one point of failure in what people ate and drank.",
-        "excerpt": "The most terrible outbreak of cholera which ever occurred in this kingdom, is probably that which took place in Broad Street, Golden Square, and the adjoining streets, a few weeks ago. There had been no particular outbreak or increase of cholera, in this part of London, except among the persons who were in the habit of drinking the water of the above-mentioned pump-well.",
-        "source": "John Snow, 'On the Mode of Communication of Cholera,' 2nd ed. (London: John Churchill, 1855)",
-        "href": "https://books.google.com/books/about/On_the_Mode_of_Communication_of_Cholera.html?id=-N0_AAAAcAAJ",
-        "image": {
-          "src": "/covers/taco-bell-lettuce-cyclosporiasis--a1.png",
-          "alt": "Portrait of the physician John Snow (1813-1858), pioneer of epidemiology",
-          "credit": "Autotype portrait of John Snow, via Wikimedia Commons (public domain)"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "Sophocles opens 'Oedipus the King' with a plague that has struck Thebes at every level of its food chain, and the whole drama becomes a work of public-health detection: a pollution has entered the city from a single hidden source, and it cannot be lifted until that source is traced and removed. Oedipus, the investigator, methodically questions witnesses and follows the trail, only to discover the contamination lies at the very center of his household. The play dramatises exactly what a modern FDA traceback attempts, the search for the one origin of a diffuse affliction, though here the tainted source is a crime rather than a lettuce field. When Taco Bell 'indefinitely' pulled a single supplier's produce, it was performing the civic act Thebes demanded: identify the pollution and cut it out to make the community whole again.",
-        "excerpt": "A blight is on our harvest in the ear,\nA blight upon the grazing flocks and herds,\nA blight on wives in travail; and withal\nArmed with his blazing torch the God of Plague\nHath swooped upon our city emptying\nThe house of Cadmus, and the murky realm\nOf Pluto is full fed with groans and tears.",
-        "source": "Sophocles, 'Oedipus the King,' trans. Francis Storr, in 'The Plays of Sophocles' (Loeb / Project Gutenberg)",
-        "href": "https://www.gutenberg.org/cache/epub/31/pg31.txt",
-        "image": {
-          "src": "/covers/taco-bell-lettuce-cyclosporiasis--a2.png",
-          "alt": "Jean-Auguste-Dominique Ingres, Oedipus and the Sphinx (1808), Oedipus questioning the Sphinx",
-          "credit": "Jean-Auguste-Dominique Ingres, Musee du Louvre, via Wikimedia Commons (public domain)"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "Upton Sinclair's 1906 novel 'The Jungle' tore open Chicago's meatpacking industry, exposing how spoiled, adulterated and rat-fouled food was funneled into the national supply and sold to unsuspecting families. His catalogue of horrors, moldy sausage returned from Europe and 'dosed with borax and glycerine,' meat swept off filthy floors, rats and poisoned bread shovelled into the hoppers together, made contaminated food a public scandal and helped drive the Pure Food and Drug Act into law that same year. The book's enduring warning is that a modern, industrial, single-supplier food chain can quietly deliver poison at scale, precisely the fragility exposed when one supplier's iceberg lettuce sickened more than sixteen hundred people across five states. Sinclair's rats in the hopper and the parasite in the shredded lettuce belong to the same nightmare: what looks like ordinary food, corrupted invisibly at the source.",
-        "excerpt": "There was never the least attention paid to what was cut up for sausage; there would come all the way back from Europe old sausage that had been rejected, and that was moldy and white -- it would be dosed with borax and glycerine, and dumped into the hoppers, and made over again for home consumption. There would be meat that had tumbled out on the floor, in the dirt and sawdust, where the workers had tramped and spit uncounted billions of consumption germs. There would be meat stored in great piles in rooms; and the water from leaky roofs would drip over it, and thousands of rats would race about on it... These rats were nuisances, and the packers would put poisoned bread out for them; they would die, and then rats, bread, and meat would go into the hoppers together.",
-        "source": "Upton Sinclair, 'The Jungle' (New York: Doubleday, Page & Co., 1906), ch. 14",
-        "href": "https://www.gutenberg.org/files/140/140-h/140-h.htm",
-        "image": {
-          "src": "/covers/taco-bell-lettuce-cyclosporiasis--a3.png",
-          "alt": "Entrance to the Union Stock Yards, Chicago, circa 1901-1907, the setting of Sinclair's The Jungle",
-          "credit": "Photograph circa 1901-1907, via Wikimedia Commons (public domain)"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Nicolas Poussin's 'The Plague at Ashdod' (1630-31) depicts the biblical pestilence that fell on the Philistines, and the painter did something startling for his age: he scattered rats across the foreground, among the collapsing and the dead, making visible the unseen carrier of the contagion. Long before germ theory, the picture intuits that plague travels through a physical vector hidden in daily life, an insight vindicated by later science and echoed in every modern outbreak investigation. It is the visual counterpart to today's traceback, which found in a single lettuce line the concealed 'carrier' of Cyclospora that had spread misery across a population. Poussin's stricken city, felled by something creeping unnoticed among its people, is the old face of a very current fear: that the source of our suffering has been beneath our notice all along.",
-        "excerpt": "Poussin stages a city convulsed by plague: the dead and dying sprawl across a grand classical square while survivors recoil and cover their faces. In the foreground he paints small rats moving among the bodies, an unusually literal depiction of an invisible agent of contagion, turning a religious scene into a meditation on how pestilence spreads unseen through an ordinary populace.",
-        "source": "Nicolas Poussin, 'The Plague at Ashdod,' 1630-1631, oil on canvas, Musee du Louvre (INV 7276)",
-        "href": "https://en.wikipedia.org/wiki/Plague_of_Ashdod_(Poussin)",
-        "image": {
-          "src": "/covers/taco-bell-lettuce-cyclosporiasis--a4.png",
-          "alt": "Nicolas Poussin, The Plague at Ashdod (1630-31), a plague-stricken city with rats visible in the foreground",
-          "credit": "Nicolas Poussin, Musee du Louvre, via Wikimedia Commons (public domain)"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Caravaggio's 'Basket of Fruit' (c. 1599) looks at first like a hymn to abundance, a woven basket of apples, grapes, figs and leaves offered at eye level, yet the closer one looks the more corruption appears: a wormhole bored through the apple, spotted and shrivelling leaves, fruit already turning. The painter refused to idealise; he showed produce exactly as it decays, the blemish hidden inside the beautiful. That is the precise unease of the 2026 outbreak, in which crisp, wholesome-looking shredded iceberg concealed a parasite that no diner could see. Caravaggio's basket is a four-hundred-year-old warning about the fragility of trust in food, that the freshest-seeming leaf may carry, unnoticed, the thing that harms us.",
-        "excerpt": "On a plain ledge Caravaggio sets a wicker basket brimming with fruit and vine leaves, painted with unsparing realism. An apple is pierced by a wormhole, several leaves are withered, spotted and curling with blight, and the ripe fruit teeters on the edge of decay, so that the image of plenty is shadowed throughout by the reality of corruption concealed within seemingly perfect produce.",
-        "source": "Caravaggio (Michelangelo Merisi da Caravaggio), 'Basket of Fruit' (Canestra di frutta), c. 1597-1600, oil on canvas, Biblioteca Ambrosiana, Milan",
-        "href": "https://en.wikipedia.org/wiki/Basket_of_Fruit_(Caravaggio)",
-        "image": {
-          "src": "/covers/taco-bell-lettuce-cyclosporiasis--a5.png",
-          "alt": "Caravaggio, Basket of Fruit (c. 1599), a basket of fruit with a wormhole in an apple and withered, blighted leaves",
-          "credit": "Caravaggio, Biblioteca Ambrosiana, via Wikimedia Commons (public domain)"
-        }
-      }
-    ],
-    "rank": 35
-  },
-  {
-    "slug": "chongqing-landslide-pengshui",
-    "headline": "A rain-triggered landslide buries more than 10 buildings in Chongqing, China, forcing over 1,100 to evacuate",
-    "overview": "A landslide swept down a hillside in Pengshui County in the southwestern Chinese municipality of Chongqing at about 9:08 a.m. Friday, burying more than 10 residential buildings and trapping an unknown number of people, state media reported. A community worker had spotted falling rocks around 8 a.m. and ordered an evacuation, but the slope gave way during the operation, catching some residents; at least nine people were pulled from the debris as rescuers deployed more than 50 sets of search equipment. More than 1,100 people were moved to safety near the Wujiang River, which cuts through the region's karst mountains.",
-    "genre": "Conflict",
-    "sources": [
-      {
-        "name": "Reuters",
-        "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbUJDeWR6ZzBjeW5NNEJUa3ZUeHNmSEFnWXAwREZESldzR0NGbWNFc19OWGx6UlVBcU5RY1R3MjBhZ0pYS0tBV2ZUSWRhTU9HWHhkYmotMG1IUDZaSHM3UXRteXgtRjhVVXRIcExYQzdQRnF0MkhmRExMLWdJZHplT0hESllSVFZfWmpWMkRBTWxzMzRxNGRlcGh6ZGkxWHR6c3FYYWZIVlJqVlI1VHhj?oc=5"
-      },
-      {
-        "name": "NBC News",
-        "href": "https://www.nbcnews.com/world/asia/landslide-southwest-china-traps-people-rescue-efforts-underway-rcna587957"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-07-17",
-    "image": {
-      "src": "/covers/chongqing-landslide-pengshui.png",
-      "alt": "A hillside scarred by a landslide above a river valley.",
-      "credit": "Photograph of the Frank Slide, 30 April 1903, Alberta; public domain, via Wikimedia Commons"
-    },
-    "edition": "Morning Edition · 17 July 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "Before dawn on 29 April 1903, roughly 44 million cubic metres of limestone peeled off Turtle Mountain and swept over the eastern edge of the coal town of Frank in Alberta, reaching the valley floor in about a hundred seconds and entombing dozens of sleeping residents. As in Pengshui, the parallel that haunts is not only the burial but the digging-out: seventeen miners tunneled thirteen hours through blocked shafts to daylight, and rescuers pulled survivors, including a two-year-old girl, alive from the rubble. Turtle Mountain's stacked limestone over weaker shale is a close cousin of the karst slopes above the Wujiang, where soluble, fractured rock hides its own instability until it fails. The nine people freed from the Chongqing debris are the direct heirs of Frank's dug-out living, proof that even a mountain's full weight does not always mean the end.",
-        "excerpt": "Between roughly seventy and ninety people were killed when a wedge of Turtle Mountain about a kilometre wide broke free at 4:10 a.m. and buried the eastern part of Frank in under two minutes. Yet twenty-three people directly in the slide's path survived, and all seventeen night-shift miners escaped after hours of digging; the toddler Gladys Ennis, found in the mud outside her home, outlived every other survivor. It remains the deadliest rockslide in Canadian history, a whole edge of a town swallowed while it slept.",
-        "source": "The Frank Slide, Turtle Mountain, Alberta, 29 April 1903",
-        "href": "https://en.wikipedia.org/wiki/Frank_Slide",
-        "image": {
-          "src": "/covers/chongqing-landslide-pengshui--a0.png",
-          "alt": "1903 photograph of the Frank Slide rock debris covering the valley below Turtle Mountain in Alberta",
-          "credit": "Rock slide at Frank, Alta. (1903); public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "historical",
-        "title": "On 4 September 1618 a face of Monte Conto crashed down onto Plurs (Piuro), a rich merchant town in the Val Bregaglia famed for its palazzi and soapstone workshops, and in moments the settlement simply ceased to exist beneath the rubble. Estimates of the dead run from a thousand to well over two thousand; unlike Frank or Pengshui there was almost no digging-out, only a vanished town remembered in engravings that show its streets 'before' and its blank grave 'after.' The Chongqing landslide, which buried more than ten buildings and forced over 1,100 to flee, is a smaller rhyme of that early-modern terror: a hillside that had loomed harmlessly for generations turning, without appeal, into a lid. Plurs is the memento of what the Pengshui evacuation order at 8 a.m. was racing against, the moment when a place can be erased faster than anyone can run.",
-        "excerpt": "On the night of 4 September 1618 the flank of the mountain above Plurs gave way and completely wiped out the town, killing between one thousand and roughly two and a half thousand people in what remains one of the worst landslides in recorded history. Contemporaries called it an avalanche, though it was more likely a colossal slide of rock and mud. The prosperous town, its churches and palaces, was buried so deeply that the site was never rebuilt in place.",
-        "source": "The destruction of Plurs (Piuro), Val Bregaglia, 4 September 1618",
-        "href": "https://en.wikipedia.org/wiki/Piuro",
-        "image": {
-          "src": "/covers/chongqing-landslide-pengshui--a1.png",
-          "alt": "1618 engraving showing the town of Plurs before its destruction and the blank field of rubble that replaced it after the landslide",
-          "credit": "'Eigentlich Vorbildung des schoenen Fleckens Plurs...', 1618 engraving, Bibliotheque nationale de France (Gallica); public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "Pliny the Younger, writing to the historian Tacitus, left the West's first great eyewitness account of a landscape turning lethal: as Vesuvius erupted in AD 79 he watched the very ground betray the built world around him. His detail of carts sliding on level pavement and the sea recoiling from the shaking earth captures exactly the uncanny instant a Pengshui worker glimpsed at 8 a.m. when rocks began to fall from a slope that had always held. Pliny's crowd, choosing his family's flight plan 'in their panic,' mirrors the more than 1,100 residents hurried from the Wujiang bank while the hillside was still deciding. His letter endures because it names the specific horror of these disasters: not water or fire alone, but solid earth losing its faith with the people who live on it.",
-        "excerpt": "For although the ground was perfectly level, the vehicles which we had ordered to be brought with us began to sway to and fro, and though they were wedged with stones, we could not keep them still in their places. Moreover, we saw the sea drawn back upon itself, and, as it were, repelled by the quaking of the earth.",
-        "source": "Pliny the Younger, Letters, Book VI, Letter 20 (to Cornelius Tacitus), trans. J. B. Firth (1900)",
-        "href": "https://www.attalus.org/old/pliny6.html",
-        "image": {
-          "src": "/covers/chongqing-landslide-pengshui--a2.png",
-          "alt": "Angelica Kauffmann's 1785 painting of Pliny the Younger and his mother at Misenum as Vesuvius erupts in the distance",
-          "credit": "Angelica Kauffmann, 'Pliny the Younger and his Mother at Misenum, 79 A.D.', 1785, Princeton University Art Museum; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "In the Book of Numbers the rebellion of Korah is punished by the most literal disaster imaginable: the ground splits and the earth 'opens her mouth' to swallow the rebels, their households and their goods, closing over them so that they go down alive into the pit. It is the ur-image of the theme running through Pengshui, the earth itself as devourer of homes, buildings and their occupants gone in an instant beneath the ground. Scripture frames it as judgment, but stripped of theology it is a precise description of a landslide's terror: the solid floor of the world giving way and taking a whole household with it. For a reader watching more than ten Chongqing buildings vanish, this ancient verse supplies the oldest vocabulary we have for a slope that opens and closes over the living.",
-        "excerpt": "And it came to pass, as he had made an end of speaking all these words, that the ground clave asunder that was under them: And the earth opened her mouth, and swallowed them up, and their houses, and all the men that appertained unto Korah, and all their goods. They, and all that appertained to them, went down alive into the pit, and the earth closed upon them: and they perished from among the congregation.",
-        "source": "Numbers 16:31-33, King James Version",
-        "href": "https://en.wikisource.org/wiki/Bible_(King_James)/Numbers",
-        "image": {
-          "src": "/covers/chongqing-landslide-pengshui--a3.png",
-          "alt": "Gustave Dore's 1866 engraving of the earth opening to swallow Korah, Dathan and Abiram, figures falling into a chasm",
-          "credit": "Gustave Dore, 'The Death of Korah, Dathan and Abiram', from the 1866 illustrated Bible; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Karl Bryullov's vast canvas 'The Last Day of Pompeii' (1830-1833) freezes the moment a city dies under a collapsing sky: columns topple, statues pitch from their pedestals, and families shield one another as the built world comes apart above them. Bryullov painted from the excavated ruins themselves, so the picture is at once art and reconstruction, the buried town made to re-enact its own burial. That doubled gesture, catastrophe and unearthing, is the exact arc of Pengshui, where more than ten buildings were swallowed and nine people were then dug back out of the debris. The painting's crowd, caught between flight and paralysis under falling masonry, is the timeless portrait of the 1,100 evacuees on the Wujiang, human figures small beneath a landscape that has turned against them.",
-        "excerpt": "A monumental Romantic canvas showing the citizens of Pompeii fleeing beneath a blood-red, lightning-torn sky as buildings and statues collapse around them. Bryullov based the scene on his own study of the excavated city, lending the painting an archaeological precision beneath its operatic terror. Mothers cover children, a fallen woman lies in the foreground, and a charioteer's horses rear as the ground itself seems to buckle.",
-        "source": "Karl Bryullov, 'The Last Day of Pompeii', 1830-1833, State Russian Museum, St Petersburg",
-        "href": "https://en.wikipedia.org/wiki/The_Last_Day_of_Pompeii",
-        "image": {
-          "src": "/covers/chongqing-landslide-pengshui--a4.png",
-          "alt": "Karl Bryullov's painting The Last Day of Pompeii, showing citizens fleeing beneath collapsing buildings and a fiery sky",
-          "credit": "Karl Bryullov, 'The Last Day of Pompeii' (1830-1833), State Russian Museum; public domain, via Wikimedia Commons (Google Art Project)"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "John Martin's apocalyptic 'The Great Day of His Wrath' (1851-53) shows entire mountains torn loose and hurled down upon a doomed city, the solid earth itself upended in a black cataract of rock and fire. More than any painting of flood or storm, it visualizes the specific dread of a landslide: not the sea rising but the ground descending, a mountain giving way and burying everything beneath it. That is precisely what unfolded above Pengshui, where a hillside in the karst mountains slid down onto homes along the Wujiang. Martin turns the geologic instant of the Chongqing slope into cosmic theatre, the same overwhelming force that a single worker tried to outrun with an 8 a.m. warning made vast and final on canvas.",
-        "excerpt": "An enormous, thunderous canvas in which whole mountains are ripped from their foundations and crash down onto a city amid crimson fire and blackness. Part of Martin's Last Judgement triptych, it renders divine wrath as a geological cataclysm, the earth's own mass turned into a weapon. Tiny human figures are engulfed at the base of the composition as the landscape folds over on itself.",
-        "source": "John Martin, 'The Great Day of His Wrath', 1851-1853, Tate, London",
-        "href": "https://www.tate.org.uk/art/artworks/martin-the-great-day-of-his-wrath-n05613",
-        "image": {
-          "src": "/covers/chongqing-landslide-pengshui--a5.png",
-          "alt": "John Martin's painting The Great Day of His Wrath, showing mountains collapsing onto a city in fire and darkness",
-          "credit": "John Martin, 'The Great Day of His Wrath' (1851-1853), Tate; public domain, via Wikimedia Commons (Google Art Project)"
-        }
-      }
-    ],
-    "rank": 36
-  },
-  {
-    "slug": "crystal-palace-dinosaurs-restored",
-    "headline": "London's Victorian Crystal Palace dinosaurs are restored to their original look after decades of decay",
-    "overview": "The Grade I-listed Crystal Palace dinosaurs, the world's first life-size models of prehistoric animals, unveiled in south London in 1854, are being returned to their Victorian appearance in a multimillion-pound conservation phase led by HTA Design. Specialists from SSH Conservation have been steam-cleaning the sculptures, stripping decades of overpaint and repairing crumbling mortar, revealing their original detailing for the first time in years. The work, funded partly by the National Lottery Heritage Fund and due for completion in autumn 2026, is part of a wider regeneration that will add a visitor centre and a dinosaur-themed playground.",
-    "genre": "Culture",
-    "sources": [
-      {
-        "name": "Dezeen",
-        "href": "https://www.dezeen.com/2026/07/17/crystal-palace-dinosaurs-restored-hta-design/"
-      },
-      {
-        "name": "Time Out",
-        "href": "https://www.timeout.com/london/news/crystal-palace-dinosaurs-victorian-restoration-071626"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-07-17",
-    "image": {
-      "src": "/covers/crystal-palace-dinosaurs-restored.png",
-      "alt": "The Victorian life-size dinosaur sculptures at Crystal Palace Park in London.",
-      "credit": "Photograph by Ian Wright, CC BY-SA 2.0, via Wikimedia Commons"
-    },
-    "edition": "Morning Edition · 17 July 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "On New Year's Eve 1853, before the models were even finished, Hawkins staged a banquet for twenty-one leading men of science inside the hollow mould of his half-built Iguanodon, with Richard Owen presiding as if enthroned in the beast's skull. The diners toasted the resurrection of the ancient world and roared a specially written song whose refrain insisted the \"jolly old beast\" was \"not deceased.\" That same theatrical faith — that extinct monsters could be summoned back to sensuous, life-size presence for a paying public — is exactly what the current restoration seeks to recover. Scrubbing away decades of decay, HTA Design and SSH Conservation are returning the creatures once feasted inside to the look that astonished their first Victorian audience.",
-        "excerpt": "A thousand ages underground, / His skeleton had lain, / But now his body's big and round / And there's life in him again!... The jolly old beast / Is not deceased / There's life in him again! / ROAR",
-        "source": "Edward Forbes, song for the \"Dinner in the Iguanodon,\" Crystal Palace, 31 December 1853; lyrics reproduced by the University of Cambridge.",
-        "href": "https://www.cam.ac.uk/research/features/iggy-the-iguanodon-and-the-160-year-old-dinosaur-song",
-        "image": {
-          "src": "/covers/crystal-palace-dinosaurs-restored--a0.png",
-          "alt": "The 1853 New Year's Eve banquet held inside the mould of the Crystal Palace Iguanodon",
-          "credit": "Illustrated London News, 7 January 1854; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "historical",
-        "title": "When Roman labourers unearthed the Laocoön from a vineyard in 1506, the ancient marble came up broken — the priest's right arm missing — and a generation of Renaissance sculptors argued over how to complete it, eventually bolting on a heroic outstretched arm that proved entirely wrong; the true bent arm was rediscovered only in 1906. Pliny had already immortalised the group as a work carved from a single block and preferable to all other art, making its recovery and repair a founding drama of antiquarian restoration. Hawkins and Owen faced the same puzzle in reverse, reassembling whole animals from scraps of bone, and like Laocoön's restorers they guessed wrong about posture and anatomy. Today's conservators, steam-cleaning and re-mortaring the Grade I-listed monsters, inherit that centuries-old dilemma: how faithfully to mend a famous, flawed reconstruction without erasing the very errors that make it history.",
-        "excerpt": "This is the case with the Laocoön in the palace of the emperor Titus, a work superior to any painting and any bronze. Laocoon, his children and the wonderful clasping coils of the snakes were carved from a single block in accordance with an agreed plan by those eminent craftsmen Hagesander, Polydorus and Athenodorus, all of Rhodes.",
-        "source": "Pliny the Elder, Natural History 36.37 (Rackham translation), via Attalus.",
-        "href": "https://www.attalus.org/translate/pliny_hn36a.html",
-        "image": {
-          "src": "/covers/crystal-palace-dinosaurs-restored--a1.png",
-          "alt": "The Laocoön and His Sons, ancient marble group in the Vatican Museums",
-          "credit": "Photograph by Jastrow; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "Dickens opened Bleak House in 1852 — the very months Hawkins was moulding his monsters a few miles to the south — by imagining a Megalosaurus \"forty feet long or so, waddling like an elephantine lizard up Holborn Hill\" through the primordial mud of a fog-bound London. The joke fuses deep geological time with the modern city, precisely the collision the Crystal Palace dinosaurs made concrete in cement and iron. To restore those sculptures is to restore Dickens's fantasy to literal standing: the prehistoric beast still loose in the London suburbs, dredged out of the mud of decades and set once more on its feet.",
-        "excerpt": "London. Michaelmas Term lately over, and the Lord Chancellor sitting in Lincoln's Inn Hall. Implacable November weather. As much mud in the streets as if the waters had but newly retired from the face of the earth, and it would not be wonderful to meet a Megalosaurus, forty feet long or so, waddling like an elephantine lizard up Holborn Hill.",
-        "source": "Charles Dickens, Bleak House (1852–53), chapter 1.",
-        "href": "https://www.gutenberg.org/files/1023/1023-h/1023-h.htm",
-        "image": {
-          "src": "/covers/crystal-palace-dinosaurs-restored--a2.png",
-          "alt": "Portrait photograph of Charles Dickens, 1850",
-          "credit": "Portrait of Charles Dickens, 1850; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "Published in 1850, four years before the dinosaurs rose at Sydenham, Tennyson's In Memoriam stared into the same abyss of deep time the models would make visible, hearing Nature cry from \"scarped cliff and quarried stone\" that a thousand types are gone. His phrase \"Nature, red in tooth and claw\" gave Victorian Britain its motto for a creation ruled by extinction and struggle — the very lesson Owen's stone menagerie was built to teach a Sunday crowd. The restoration returns to the park a three-dimensional stanza of that poem: extinct \"types,\" lovingly reconstructed, standing as monuments to loss and to the age that first dared to picture it.",
-        "excerpt": "'So careful of the type?' but no. / From scarped cliff and quarried stone / She cries, 'A thousand types are gone: / I care for nothing, all shall go.' ... Who trusted God was love indeed / And love Creation's final law— / Tho' Nature, red in tooth and claw / With ravine, shriek'd against his creed—",
-        "source": "Alfred, Lord Tennyson, In Memoriam A. H. H. (1850), canto 56.",
-        "href": "https://www.gutenberg.org/cache/epub/70950/pg70950.txt",
-        "image": {
-          "src": "/covers/crystal-palace-dinosaurs-restored--a3.png",
-          "alt": "Alfred, Lord Tennyson photographed by Julia Margaret Cameron",
-          "credit": "Julia Margaret Cameron, 1869; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "In 1830 the geologist Henry De la Beche painted Duria Antiquior — \"a more ancient Dorset\" — the first true attempt to picture a whole scene of prehistoric life, its Jurassic sea churning with ichthyosaurs and plesiosaurs biting, spouting and dying, all reconstructed from Mary Anning's fossils. Sold as a lithograph to raise money for Anning, it taught the public to see deep time as a vivid, inhabited world rather than a table of dead bones — the same imaginative leap Hawkins would soon build at life size. The Crystal Palace restoration is the sculptural heir of De la Beche's watercolour: both take the fragmentary evidence of extinction and restore it to full, coloured, breathing spectacle for a general audience.",
-        "excerpt": "A crowded, violent panorama of an ancient Dorset sea: a long-necked plesiosaur rears with a fish in its jaws, ichthyosaurs thrash and devour one another, a pterosaur wheels overhead and crocodiles wallow on the shore, while dung and débris drift through the water. Every creature is drawn from real fossils, yet arranged as a living, feeding, dying ecosystem — the earliest visual reconstruction of deep time as a place one could imagine walking into.",
-        "source": "Henry De la Beche, Duria Antiquior, 1830, watercolour and lithograph, National Museum Cardiff.",
-        "href": "https://commons.wikimedia.org/wiki/File:Duria_Antiquior.jpg",
-        "image": {
-          "src": "/covers/crystal-palace-dinosaurs-restored--a4.png",
-          "alt": "Duria Antiquior, Henry De la Beche's 1830 reconstruction of prehistoric marine life in ancient Dorset",
-          "credit": "Henry De la Beche, 1830, National Museum Cardiff; public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "In \"Fossiles,\" the twelfth movement of his 1886 Carnival of the Animals, Saint-Saëns set a xylophone rattling like dry bones, quoting his own Danse macabre and a clutch of old nursery tunes so that the long-dead seem to clack briefly back to life. He suppressed the whole suite during his lifetime, and it was released to the public only after his death in 1921 — a work itself buried, then exhumed and restored to the concert hall. That double motion — extinct creatures reanimated, and a hidden masterpiece brought back into the light — mirrors the Crystal Palace project exactly, as beasts left to moulder for decades are steam-cleaned and re-mortared into their original Victorian brilliance.",
-        "excerpt": "A dry, brittle xylophone taps out a skeletal dance, its wooden clatter conjuring bones knocking together in the dark. Saint-Saëns weaves in fragments of his own Danse macabre and half-remembered nursery songs, so that fossils and childhood tunes rise together like relics dug from the same ground — the extinct made to caper for a moment before settling back into silence.",
-        "source": "Camille Saint-Saëns, Le carnaval des animaux, \"Fossiles\" (No. 12), 1886.",
-        "href": "https://imslp.org/wiki/Le_carnaval_des_animaux_(Saint-Sa%C3%ABns,_Camille)",
-        "image": {
-          "src": "/covers/crystal-palace-dinosaurs-restored--a5.png",
-          "alt": "Portrait of the composer Camille Saint-Saëns",
-          "credit": "Portrait of Camille Saint-Saëns; public domain, via Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 37
-  },
-  {
-    "slug": "steidl-publisher-insolvency",
-    "headline": "Steidl, the art world's leading photobook publisher, enters insolvency proceedings in Germany",
-    "overview": "Steidl, the Göttingen publishing house founded by Gerhard Steidl in 1969 and revered for its finely printed photobooks, has entered preliminary insolvency proceedings after a creditor petitioned a German court over unpaid social-security contributions. The house had struggled for months to pay staff regularly—some workers reportedly went five or six months without wages—before filing on July 12; outstanding net wage claims run into the tens of thousands of euros. Steidl's lawyer said the triggering dispute had been settled and that talks with potential investors were under way to carry the company \"into the next generation.\"",
-    "genre": "Culture",
-    "sources": [
-      {
-        "name": "Artforum",
-        "href": "https://www.artforum.com/news/renowned-german-publisher-steidl-faces-bankruptcy-1234754981/"
-      },
-      {
-        "name": "ARTnews",
-        "href": "https://www.artnews.com/art-news/news/steidl-the-art-worlds-go-to-photobook-publisher-faces-insolvency-proceedings-in-germany-1234792400/"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-07-17",
-    "image": {
-      "src": "/covers/steidl-publisher-insolvency.png",
-      "alt": "Stacks of finely printed photobooks on a press-room table.",
-      "credit": "Photograph by Kevin Eng (NYC Wanderer), 2009, CC BY-SA 2.0, via Wikimedia Commons"
-    },
-    "edition": "Morning Edition · 17 July 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "The first printer of movable type in Europe was also its first bankrupt. Johannes Gutenberg built his Mainz workshop on loans from the financier Johann Fust; when Fust demanded repayment in 1455, the master printer was compelled to surrender his presses, types and the great Bible itself to his creditor, who carried the equipment off and printed on without him. It is the founding parable of the trade: the artisan's genius held hostage to the ledger. Steidl's preliminary insolvency in Göttingen, triggered by a creditor's petition over unpaid contributions, is the same ancient collision between the fine art of the book and the arithmetic that finances it.",
-        "excerpt": "We do not know the end of these proceedings, but if Gutenberg had prepared any printing materials it would seem that he was compelled to yield up the whole of them to Fust; that the latter removed them to his own house at Mainz, and there, with the assistance of Peter Schöffer, issued various books.",
-        "source": "\"Gutenberg, Johann,\" 1911 Encyclopædia Britannica, Vol. 12",
-        "href": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Gutenberg,_Johann",
-        "image": {
-          "src": "/covers/steidl-publisher-insolvency--a0.png",
-          "alt": "Engraved portrait of Johannes Gutenberg, inventor of movable-type printing in Europe",
-          "credit": "Engraving by Nicolas de Larmessin (17th c.), public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "historical",
-        "title": "In 1891 the poet and craftsman William Morris founded the Kelmscott Press to rescue the printed book from Victorian ugliness, designing his own types, choosing handmade paper and dense black ink, and treating each page as an object worthy of art. His masterpiece, the 1896 Kelmscott Chaucer, remains a summit of the printer's craft, yet the press was so bound to his person that it closed within two years of his death. Like Kelmscott, Steidl is the lengthened shadow of one obsessive master, Gerhard Steidl, who oversees ink, paper and press with the same devotion, which is exactly why its financial peril threatens something irreplaceable rather than merely commercial.",
-        "excerpt": "I began printing books with the hope of producing some which would have a definite claim to beauty, while at the same time they should be easy to read and should not dazzle the eye, or trouble the intellect of the reader by eccentricity of form in the letters.",
-        "source": "William Morris, A Note by William Morris on his Aims in Founding the Kelmscott Press (1898)",
-        "href": "https://archive.org/details/ANoteByWilliamMorrisOnHisAimsInFoundingTheKelmscottPressTogether",
-        "image": {
-          "src": "/covers/steidl-publisher-insolvency--a1.png",
-          "alt": "A decorated opening of the 1896 Kelmscott Chaucer printed by William Morris's Kelmscott Press",
-          "credit": "William Morris / Kelmscott Press, 1896, Google Art Project, public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "Balzac opens Lost Illusions not with a hero but with a printing house: the Séchard establishment at Angoulême, its antiquated wooden presses groaning under debt, drink and provincial greed. The novel makes the printshop the very theatre of ruin, where the beautiful, slow craft of the book is ground down by creditors and the cheap economics of the age. Its portrait of a press whose survival hangs on unpaid bills and a founder's fading powers could serve as an epigraph to Steidl's insolvency filing. Balzac knew intimately that the trade in ink and paper is also a trade in illusions lost.",
-        "excerpt": "At the time when this story opens, the Stanhope press and the ink-distributing roller were not as yet in general use in small provincial printing establishments.",
-        "source": "Honoré de Balzac, Lost Illusions (\"Two Poets\"), trans. Ellen Marriage",
-        "href": "https://www.gutenberg.org/files/1443/1443-h/1443-h.htm",
-        "image": {
-          "src": "/covers/steidl-publisher-insolvency--a2.png",
-          "alt": "1842 daguerreotype portrait of the novelist Honoré de Balzac",
-          "credit": "Daguerreotype by Louis-Auguste Bisson, 1842, public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "literary",
-        "title": "When Milton rose in 1644 to defend the unlicensed press, he did not argue economics but reverence: a book, he insisted, holds the living essence of the mind that made it, and to destroy one is a kind of murder. Areopagitica remains the great hymn to the printed object as a vessel of the human spirit, worth defending against every censor and every indifference. Steidl's photobooks, obsessively printed to preserve an image exactly as its maker intended, are precisely such vessels, embalming a master spirit in paper. Milton's warning gives the news its weight: what is imperilled in Göttingen is not just a firm but a fragile keeper of life beyond life.",
-        "excerpt": "a good book is the precious life-blood of a master spirit, embalmed and treasured up on purpose to a life beyond life.",
-        "source": "John Milton, Areopagitica (1644)",
-        "href": "https://www.gutenberg.org/cache/epub/608/pg608.txt",
-        "image": {
-          "src": "/covers/steidl-publisher-insolvency--a3.png",
-          "alt": "Title page of the first 1644 edition of John Milton's Areopagitica",
-          "credit": "John Milton, Areopagitica, 1644, Library of Congress, public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Jost Amman's 1568 woodcut of the printer's workshop, made for the Ständebuch or Book of Trades, is the earliest great image of the craft in action: the pressman hauling the bar, the compositor at his case, sheets drying, ink and paper transformed into pages. It enshrines printing as an honoured guild art, a dignified labour of hand and eye. Steidl in Göttingen is the direct heir of that workshop, still setting, inking and pressing with artisanal care in an age of digital reproduction. To see this house threatened is to watch Amman's proud scene flicker as if the presses themselves might fall silent.",
-        "excerpt": "Amman's crisp woodcut frames the printer's shop as a temple of the trade: at the press a workman drags down the bar to kiss paper against inked type, while behind him compositors pick letters from the case, one page at a time. Ink, paper, wood and human patience combine into the printed image, the very craft Steidl still practises by hand.",
-        "source": "Jost Amman, \"Der Buchdrucker\" (The Book Printer), from Das Ständebuch (Frankfurt, 1568)",
-        "href": "https://commons.wikimedia.org/wiki/File:Buchdrucker-1568.png",
-        "image": {
-          "src": "/covers/steidl-publisher-insolvency--a4.png",
-          "alt": "1568 woodcut showing a Renaissance printer's workshop with a press and compositors at their type cases",
-          "credit": "Jost Amman, Das Ständebuch, 1568, public domain, via Wikimedia Commons"
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Wagner's Die Meistersinger von Nürnberg closes with the cobbler-poet Hans Sachs pleading that his townsmen never scorn the masters, for it is the guild's patient craft that keeps German art alive from one generation to the next. The opera is a monument to the dignity of the master artisan and to the fragile institutions that transmit a craft over time. Steidl belongs to that same German lineage of the guarded, guild-like mastery of a trade, and its lawyer's stated hope is precisely to carry the house \"into the next generation.\" Sachs's warning rings across the centuries to Göttingen: honour the masters, or watch their art dissolve into vapour.",
-        "excerpt": "Verachtet mir die Meister nicht, / und ehrt mir ihre Kunst! ... Drum sag' ich euch: / ehrt eure deutschen Meister!",
-        "source": "Richard Wagner, Die Meistersinger von Nürnberg (1868), Act III, Hans Sachs's final address",
-        "href": "https://opera-guide.ch/operas/die+meistersinger+von+nurnberg/libretto/de/",
-        "image": {
-          "src": "/covers/steidl-publisher-insolvency--a5.png",
-          "alt": "1545 portrait of Hans Sachs, the Nuremberg mastersinger and poet who is the hero of Wagner's opera",
-          "credit": "Portrait by Michael Ostendorfer, 1545, public domain, via Wikimedia Commons"
-        }
-      }
-    ],
-    "rank": 38
-  },
-  {
-    "slug": "russia-blogger-remeslov-arrest",
-    "headline": "Russia arrests Ilya Remeslov, a former Kremlin loyalist turned Putin critic, over 'fakes' about the military",
-    "overview": "Russian authorities have arrested the blogger Ilya Remeslov on charges of spreading false information about the armed forces, the state news agency TASS reported Friday, citing police, months after he broke with the Kremlin. In a March manifesto that stunned his former allies, Remeslov denounced President Vladimir Putin for sending Russians to their deaths in a \"dead-end war\" and called for him to be tried as a war criminal. His lawyer said he was being moved from St Petersburg to Moscow to face prosecution; the charge carries up to 10 years in prison.",
-    "genre": "Politics",
-    "sources": [
-      {
-        "name": "Reuters",
-        "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZmFWUnd1OE9XanVTTXVmVldpM09tMVk5WWRVSGVGRUtma3lvT1NrMlNxUDBjT0xjVEVoejFHVVowOGQxdW0tY0hvMFA1ajZhbWZSbW4wRVlkb1pKaFpXekVmb2JJcllLSDA3LVdWQnlNc1gwdHhsMGNLMm45WUxIeHJPTkpJX2hIMVQ2dG1ieGxBQnVVdHExYTdlZlduUmw2bDJqbXZERlZIRVE4OFRHVXd3Rkt1VWpOa3hSRw?oc=5"
-      },
-      {
-        "name": "The Moscow Times",
-        "href": "https://www.themoscowtimes.com/2026/07/17/pro-kremlin-blogger-arrested-for-war-fakes-months-after-denouncing-putin-a93275"
-      }
-    ],
-    "href": "#",
-    "publishedAt": "2026-07-17",
-    "image": {
-      "src": "/covers/russia-blogger-remeslov-arrest.png",
-      "alt": "An empty courtroom, where a dissident blogger faces prosecution.",
-      "credit": "Ilya Repin, 'Arrest of a Propagandist' (1880-1889), State Tretyakov Gallery. Public domain, via Wikimedia Commons."
-    },
-    "edition": "Morning Edition · 17 July 2026",
-    "analogies": [
-      {
-        "category": "historical",
-        "title": "Cicero was a pillar of the Roman establishment before he turned the full force of his oratory against Mark Antony, branding him in the Philippics an enemy of the Republic and a would-be tyrant. Antony answered not with argument but with proscription: Cicero was hunted down and beheaded, his head and the hands that wrote against Antony nailed to the Rostra where he had spoken. Remeslov, once a servant of the Kremlin, likewise turned his voice on the ruler, demanding Putin be tried as a war criminal for a 'dead-end war.' As with Antony and Cicero, the powerful man indicted by words replies with the machinery of punishment rather than reply.",
-        "excerpt": "I defended the republic as a young man, I will not abandon it now that I am old. I scorned the sword of Catiline, I will not quail before yours.",
-        "source": "Cicero, Second Philippic (Philippic II), §46, trans. C. D. Yonge, in 'The Orations of Marcus Tullius Cicero'; Perseus Digital Library.",
-        "href": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0021:speech=2:chapter=46",
-        "image": {
-          "src": "/covers/russia-blogger-remeslov-arrest--a0.png",
-          "alt": "Ancient Roman marble portrait bust of Cicero, first half of the 1st century AD, in the Capitoline Museums, Rome.",
-          "credit": "Bust of Cicero, Musei Capitolini, Rome. Photo Glauco92, CC BY-SA, via Wikimedia Commons."
-        }
-      },
-      {
-        "category": "historical",
-        "title": "In 1790 Alexander Radishchev, a customs official in the service of Catherine the Great, printed 'A Journey from St Petersburg to Moscow,' a searing indictment of serfdom and autocratic power. The empress read it as sedition, called him 'a rebel worse than Pugachev,' and had him condemned to death, the sentence commuted to a decade of Siberian exile; nearly the whole edition was destroyed. Two and a half centuries later another once-loyal servant of the Russian state is being moved along that very St Petersburg-to-Moscow road, not as a traveler but as a prisoner, for words the Kremlin deems false and dangerous. The geography of Russian dissent, and the state's answer to it, has scarcely shifted.",
-        "excerpt": "Я взглянул окрест меня — душа моя страданиями человечества уязвлена стала. Обратил взоры мои во внутренность мою — и узрел, что бедствия человека происходят от человека.",
-        "source": "Александр Радищев, «Путешествие из Петербурга в Москву» (1790), посвящение; Русская виртуальная библиотека (rvb.ru).",
-        "href": "https://rvb.ru/18vek/radishchev/01text/vol_1/03prose/021.htm",
-        "image": {
-          "src": "/covers/russia-blogger-remeslov-arrest--a1.png",
-          "alt": "Portrait of Alexander Radishchev (1749-1802), Russian writer and social critic, oil on canvas by an unknown painter.",
-          "credit": "Portrait of Alexander Radishchev, Radishchev Art Museum, Saratov. Public domain, via Wikimedia Commons."
-        }
-      },
-      {
-        "category": "literary",
-        "title": "In November 1933 Osip Mandelstam composed a sixteen-line epigram deriding Stalin as the 'Kremlin mountaineer' with 'cockroach whiskers' and fingers 'fat as worms,' a poem he dared only to recite aloud. For those lines he was arrested, exiled, arrested a second time, and died in a Gulag transit camp in 1938. Remeslov's March manifesto is this century's counterpart: words that name and damn the man in the Kremlin, treated by the state as a crime that carries years in the camps. Mandelstam's fate is the standing warning of what Russia does to the writer who names the ruler.",
-        "excerpt": "Мы живём, под собою не чуя страны,\nНаши речи за десять шагов не слышны,\nА где хватит на полразговорца,\nТам припомнят кремлёвского горца.\nЕго толстые пальцы, как черви, жирны,\nИ слова, как пудовые гири, верны,\nТараканьи смеются усища\nИ сияют его голенища.",
-        "source": "Осип Мандельштам, «Мы живём, под собою не чуя страны…» (ноябрь 1933); Русская виртуальная библиотека (rvb.ru).",
-        "href": "https://rvb.ru/20vek/mandelstam/01text/vol_3/01versus/01versus/3_064.htm",
-        "image": {
-          "src": "/covers/russia-blogger-remeslov-arrest--a2.png",
-          "alt": "NKVD mug shot of the poet Osip Mandelstam taken after his first arrest in 1934.",
-          "credit": "NKVD arrest photograph of Osip Mandelstam, 1934. Public domain, via Wikimedia Commons."
-        }
-      },
-      {
-        "category": "literary",
-        "title": "In Sophocles' tragedy Antigone defies King Creon's edict forbidding the burial of her brother, setting the 'unwritten and unfailing statutes of heaven' above the ruler's decree, and is sealed alive in a tomb for it. Her defense is the founding statement of conscience refusing to bow to state power, whatever the cost. Remeslov made the same wager, placing his judgment of a criminal war above Russia's 'false information' laws and calling openly for the ruler to answer; the state, like Creon, replies with confinement. The oldest political drama is the lone conscience against the sovereign's command.",
-        "excerpt": "Yes; for it was not Zeus that had published me that edict; not such are the laws set among men by the Justice who dwells with the gods below; nor deemed I that thy decrees were of such force, that a mortal could override the unwritten and unfailing statutes of heaven. For their life is not of to-day or yesterday, but from all time, and no man knows when they were first put forth.",
-        "source": "Sophocles, Antigone, trans. Sir Richard C. Jebb (1917); Wikisource.",
-        "href": "https://en.wikisource.org/wiki/Tragedies_of_Sophocles_(Jebb_1917)/Antigone",
-        "image": {
-          "src": "/covers/russia-blogger-remeslov-arrest--a3.png",
-          "alt": "Nikiforos Lytras's 1865 painting of Antigone mourning before the body of her brother Polynices.",
-          "credit": "Nikiforos Lytras, 'Antigone before the dead Polynices' (1865), National Gallery, Athens. Photo Francesco Bini (Sailko), CC BY-SA 4.0, via Wikimedia Commons."
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "Jacques-Louis David's 'The Death of Socrates' (1787) shows the philosopher condemned by Athens for his words reaching for the cup of hemlock while still teaching, his finger raised, serene and unbroken as his followers weep. The state's death sentence is powerless over his conviction; the moral authority lies with the condemned, not the tribunal. Remeslov, like Socrates charged with 'corrupting' the city, faces up to ten years for speech the state calls poison. David's canvas frames the enduring claim of every such trial: it is the truth-teller, not the court, who stands upright.",
-        "excerpt": "David stages the hemlock as a moment of teaching rather than defeat: Socrates sits erect on the prison cot, one hand closing on the poisoned cup without looking at it, the other lifted mid-argument toward the heavens. His disciples recoil and cover their faces in grief while he alone is calm, the light falling full on his aged body. The composition makes the condemned man the source of order and clarity, and the sentence of the state a mere formality he transcends.",
-        "source": "Jacques-Louis David, 'The Death of Socrates,' 1787, oil on canvas, The Metropolitan Museum of Art, New York (accession 31.45).",
-        "href": "https://www.metmuseum.org/art/collection/search/436105",
-        "image": {
-          "src": "/covers/russia-blogger-remeslov-arrest--a4.png",
-          "alt": "Jacques-Louis David's 1787 painting 'The Death of Socrates,' showing Socrates reaching for the hemlock while lecturing his grieving followers.",
-          "credit": "Jacques-Louis David, 'The Death of Socrates' (1787), Metropolitan Museum of Art. Public domain, via Wikimedia Commons."
-        }
-      },
-      {
-        "category": "artistic",
-        "title": "After Pravda's 1936 denunciation 'Muddle Instead of Music' nearly destroyed him during the Great Terror, when arrest could come at any night, Shostakovich answered in 1937 with his Fifth Symphony, outwardly a chastened, triumphant tribute to the Soviet state. Yet many hear beneath the surface a coded lament, its hammering finale a portrait of terror wearing the mask of rejoicing, joy enforced at gunpoint. It is the art of the man who must survive the tyrant rather than openly defy him, the opposite pole from Remeslov's frontal denunciation. Both, though, are shaped by the same power that can jail or crush the voice it dislikes; the Fifth is what enforced caution sounds like under a regime that treats dissent as a crime.",
-        "excerpt": "The symphony's ambiguity is the point: the D-minor gloom and the funeral tread of the slow movement give way to a blaring, relentless march that can be heard as either genuine victory or coerced celebration. Contemporaries read the finale two ways at once, a survival strategy encoded in sound, and Shostakovich later let it be said that the rejoicing was forced, 'as if someone were beating you with a stick.' Where the dissident speaks plainly and is arrested, the composer smuggles his meaning past the censor in the grammar of the orchestra.",
-        "source": "Dmitri Shostakovich, Symphony No. 5 in D minor, Op. 47 (1937); IMSLP / Petrucci Music Library.",
-        "href": "https://imslp.org/wiki/Symphony_No.5,_Op.47_(Shostakovich,_Dmitry)",
-        "image": {
-          "src": "/covers/russia-blogger-remeslov-arrest--a5.png",
-          "alt": "Photograph of the composer Dmitri Shostakovich, taken at a Bach commemoration in 1950.",
-          "credit": "Dmitri Shostakovich, 1950. Roger & Renate Rossing / Deutsche Fotothek, CC BY-SA 3.0 de, via Wikimedia Commons."
         }
       }
     ],
