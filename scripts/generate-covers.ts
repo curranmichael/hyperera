@@ -23,6 +23,8 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "ukraine-drones-wildberries-russia":
+    "A vast modern logistics warehouse at night with a column of orange flame and dark smoke rising from one end of its long corrugated-steel roof, an empty loading yard of bare concrete and a lowered barrier in the foreground, cold blue darkness pierced by the fire's glow, tense and desolate with no people visible, themes of a great storehouse struck and set ablaze. Absolutely no text, letters, words, numbers, signs, labels, logos, brand names or writing anywhere in the image",
   "iran-jordan-attack-us-troops-killed":
     "A vast empty desert airbase at dusk under a bruised violet sky, rows of stacked military transport crates and sandbags silhouetted against the last cold light, a single folded field cot and an unlit lantern in the foreground, distant blast walls and a windsock stirring, hushed, austere and mournful with no people visible, themes of soldiers lost far from home and a base bracing under fire. Absolutely no text, letters, words, numbers, insignia, flags, symbols, logos or writing anywhere in the image",
   "deepseek-74-billion-valuation-ipo":
