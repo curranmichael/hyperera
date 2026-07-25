@@ -23,6 +23,8 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "deepseek-funding-pause":
+    "A single glowing golden filament of light curling and rising through a vast dark void like a spark of thought suspended mid-motion, cool blue shadow all around, deep and minimal, futuristic and clean with no people visible, shallow depth of field, themes of a fast-rising artificial mind pausing to gather itself. Absolutely no text, letters, words, numbers, symbols, screens, code, user interfaces, logos, brand names or writing anywhere in the image",
   "ukraine-drones-wildberries-russia":
     "A vast modern logistics warehouse at night with a column of orange flame and dark smoke rising from one end of its long corrugated-steel roof, an empty loading yard of bare concrete and a lowered barrier in the foreground, cold blue darkness pierced by the fire's glow, tense and desolate with no people visible, themes of a great storehouse struck and set ablaze. Absolutely no text, letters, words, numbers, signs, labels, logos, brand names or writing anywhere in the image",
   "iran-jordan-attack-us-troops-killed":
