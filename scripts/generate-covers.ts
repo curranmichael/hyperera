@@ -23,6 +23,8 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "betye-saar-artist-dies-99":
+    "A softly lit wooden shadow-box assemblage displayed on a plain gallery wall, filled with an arrangement of small salvaged found objects — a tarnished pocket watch, a folded lace fan, dried flowers, an old brass key, a small carved wooden bird, a pair of worn spectacles — layered into a poetic, reverent collage, warm directional light and deep shadow with no people visible, themes of memory, salvage and a lifetime of art made from cast-off things. Absolutely no text, letters, words, numbers, labels, signatures, photographs of faces, logos or writing anywhere in the image",
   "deepseek-funding-pause":
     "A single glowing golden filament of light curling and rising through a vast dark void like a spark of thought suspended mid-motion, cool blue shadow all around, deep and minimal, futuristic and clean with no people visible, shallow depth of field, themes of a fast-rising artificial mind pausing to gather itself. Absolutely no text, letters, words, numbers, symbols, screens, code, user interfaces, logos, brand names or writing anywhere in the image",
   "ukraine-drones-wildberries-russia":
