@@ -23,6 +23,8 @@ const STYLE =
 // Scene-based prompts for stories whose headline/overview trips the model's
 // content filter (charged terms hang the request). Keyed by slug.
 const PROMPT_OVERRIDES: Record<string, string> = {
+  "sudan-darfur-court-drone-strike":
+    "A deserted, austere courtroom at dusk in a plain sun-baked North African building, empty rows of simple wooden benches facing a bare raised bench, pale shafts of light falling through tall shuttered windows onto a dusty stone floor, one overturned chair, hushed, solemn and mournful with no people visible, themes of a place of law and justice shattered by violence from the sky. Absolutely no text, letters, words, numbers, inscriptions, emblems, flags, signs, logos or writing anywhere in the image",
   "betye-saar-artist-dies-99":
     "A softly lit wooden shadow-box assemblage displayed on a plain gallery wall, filled with an arrangement of small salvaged found objects — a tarnished pocket watch, a folded lace fan, dried flowers, an old brass key, a small carved wooden bird, a pair of worn spectacles — layered into a poetic, reverent collage, warm directional light and deep shadow with no people visible, themes of memory, salvage and a lifetime of art made from cast-off things. Absolutely no text, letters, words, numbers, labels, signatures, photographs of faces, logos or writing anywhere in the image",
   "deepseek-funding-pause":
