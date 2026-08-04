@@ -1,9 +1,13 @@
 # hyper-era — Technical Architecture
 
-> Status: living document. Stage 1 is built (scaffold) and the `feeds` list from Stage 2 survives; the
-> raw-article **ingest** layer is retired in favour of a live, no-persist read (see §2 and §4). The stages
-> below are the plan for what follows. Last revised to read feeds live and merge selection + analysis into
-> a single daily Opus pass.
+> Status: living document, **mid-rewrite**. hyper-era is converting from a thrice-daily edition to a
+> **weekly news and culture magazine**. The raw-article **ingest** layer, described below as retired, is
+> now the backbone: a daily cron persists feed items to Postgres, a daily triage pass compresses them into
+> scored candidate stories, and one weekly pass composes an issue from the accumulated week. Daily work
+> writes only to the database, so the site rebuilds once a week.
+>
+> Sections 2–8 still describe the old live-read, no-persist daily design and are being revised phase by
+> phase. Where this header and a section below disagree, this header is current.
 
 ## 1. What hyper-era is
 

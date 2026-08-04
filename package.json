@@ -16,6 +16,7 @@
     "images:generate": "node --env-file=.env.local --import tsx scripts/generate-covers.ts"
   },
   "dependencies": {
+    "ai": "^6.0.208",
     "@neondatabase/serverless": "^1.1.0",
     "@radix-ui/react-slider": "^1.4.2",
     "@radix-ui/themes": "^3.2.1",
@@ -35,7 +36,6 @@
     "@types/pg": "^8.20.0",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",
-    "ai": "^6.0.208",
     "dotenv": "^17.4.2",
     "drizzle-kit": "^0.31.10",
     "eslint": "^9.25.0",
