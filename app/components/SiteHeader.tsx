@@ -38,6 +38,9 @@ export function SiteHeader() {
             <Box position="absolute" right="0" className="masthead__links">
               <Flex gap="4">
                 <Text asChild size="3" className="wordmark">
+                  <NextLink href="/archive">Archive</NextLink>
+                </Text>
+                <Text asChild size="3" className="wordmark">
                   <NextLink href="/maps">Atlas</NextLink>
                 </Text>
                 <Text asChild size="3" className="wordmark">

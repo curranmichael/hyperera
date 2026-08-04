@@ -4,7 +4,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { bufferToDitheredPng } from "./dither";
-import { getPublishedStories } from "../lib/stories";
+import { getPublishedStories } from "../lib/stories.server";
 
 const OUT_DIR = join(process.cwd(), "public", "covers");
 

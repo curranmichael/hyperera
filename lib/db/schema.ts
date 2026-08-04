@@ -6,11 +6,15 @@ import {
   integer,
   timestamp,
   date,
+  jsonb,
   unique,
   index,
   primaryKey,
   type AnyPgColumn,
 } from "drizzle-orm/pg-core";
+// Relative, not the "@/" alias — drizzle-kit resolves this file outside Next's
+// tsconfig path mapping.
+import type { AnalogyCategory, Genre, SourceRef } from "../stories";
 
 // The dynamic, editable list of publication feeds to scan.
 export const feeds = pgTable("feeds", {
@@ -112,6 +116,98 @@ export const candidateArticles = pgTable(
   ],
 );
 
+// --- The magazine (what readers read) ---------------------------------------
+
+// One issue per week. Legacy rows carry the thrice-daily editions this publication
+// ran before going weekly, so the archive starts populated rather than empty.
+export const issues = pgTable("issues", {
+  id: serial("id").primaryKey(),
+  number: integer("number").notNull().unique(),
+  // Display label: "Issue 4 · 10–16 August 2026", or a legacy edition's own label.
+  title: text("title").notNull(),
+  weekStart: date("week_start").notNull(),
+  weekEnd: date("week_end").notNull(),
+  status: text("status").notNull().default("draft"), // draft | published
+  publishedAt: timestamp("published_at", { withTimezone: true }),
+  createdAt: timestamp("created_at", { withTimezone: true })
+    .notNull()
+    .defaultNow(),
+});
+
+export const stories = pgTable(
+  "stories",
+  {
+    id: serial("id").primaryKey(),
+    issueId: integer("issue_id")
+      .notNull()
+      .references(() => issues.id, { onDelete: "cascade" }),
+    slug: text("slug").notNull().unique(),
+    headline: text("headline").notNull(),
+    overview: text("overview").notNull(),
+    genre: text("genre").$type<Genre>().notNull(),
+    // Display-only provenance shown in the story eyebrow. Never queried, so it
+    // stays jsonb rather than earning its own table.
+    sources: jsonb("sources").$type<SourceRef[]>().notNull().default([]),
+    rank: integer("rank"),
+    lead: boolean("lead").notNull().default(false),
+    imageSrc: text("image_src"),
+    imageAlt: text("image_alt"),
+    imageCredit: text("image_credit"),
+    publishedAt: date("published_at").notNull(),
+    createdAt: timestamp("created_at", { withTimezone: true })
+      .notNull()
+      .defaultNow(),
+  },
+  (t) => [
+    index("stories_issue_id_idx").on(t.issueId),
+    index("stories_rank_idx").on(t.rank),
+  ],
+);
+
+export const analogies = pgTable(
+  "analogies",
+  {
+    id: serial("id").primaryKey(),
+    storyId: integer("story_id")
+      .notNull()
+      .references(() => stories.id, { onDelete: "cascade" }),
+    // Six per story, two per category. `position` preserves the authored order
+    // within a story, which category grouping alone would lose.
+    position: integer("position").notNull(),
+    category: text("category").$type<AnalogyCategory>().notNull(),
+    title: text("title").notNull(),
+    source: text("source").notNull(),
+    excerpt: text("excerpt").notNull(),
+    href: text("href").notNull(),
+    imageSrc: text("image_src"),
+    imageAlt: text("image_alt"),
+    imageCredit: text("image_credit"),
+    verificationStatus: text("verification_status"), // verified | held | failed
+    createdAt: timestamp("created_at", { withTimezone: true })
+      .notNull()
+      .defaultNow(),
+  },
+  (t) => [
+    index("analogies_story_id_idx").on(t.storyId),
+    unique("analogies_story_position_unq").on(t.storyId, t.position),
+  ],
+);
+
+// Closes the chain: story -> candidates -> articles -> source URL. Legacy stories
+// predate the candidates layer and simply have no rows here.
+export const storyCandidates = pgTable(
+  "story_candidates",
+  {
+    storyId: integer("story_id")
+      .notNull()
+      .references(() => stories.id, { onDelete: "cascade" }),
+    candidateId: integer("candidate_id")
+      .notNull()
+      .references(() => candidates.id, { onDelete: "cascade" }),
+  },
+  (t) => [primaryKey({ columns: [t.storyId, t.candidateId] })],
+);
+
 export type Feed = typeof feeds.$inferSelect;
 export type NewFeed = typeof feeds.$inferInsert;
 export type Article = typeof articles.$inferSelect;
@@ -119,3 +215,7 @@ export type NewArticle = typeof articles.$inferInsert;
 export type Candidate = typeof candidates.$inferSelect;
 export type NewCandidate = typeof candidates.$inferInsert;
 export type NewCandidateArticle = typeof candidateArticles.$inferInsert;
+export type Issue = typeof issues.$inferSelect;
+export type NewIssue = typeof issues.$inferInsert;
+export type NewStory = typeof stories.$inferInsert;
+export type NewAnalogy = typeof analogies.$inferInsert;
