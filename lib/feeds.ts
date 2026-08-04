@@ -33,9 +33,11 @@ function googleNews(site: string) {
   };
 }
 
-// Editable seed list. Feeds are upserted by `url` (see scripts/seed-feeds.ts), so
-// adding entries here and re-running `npm run db:seed` adds the new ones and leaves
-// existing rows untouched.
+// Editable seed list. Feeds are upserted by `url` (see scripts/seed-feeds.ts):
+// re-running `npm run db:seed` adds new entries and refreshes the mutable
+// attributes of existing ones. Changing a feed's `url` is a change of identity —
+// it needs a data migration to carry the old row over (see drizzle/0005), or the
+// old and new rows both stay active and one publisher counts as two feeds.
 //
 // Feeds are rolling windows, and a weekly magazine needs a week of them. Measured
 // spans: BBC World holds only ~2.8 days because it is high-volume, but the slower
@@ -130,6 +132,22 @@ export const seedFeeds: SeedFeed[] = [
     kind: "tech",
   },
 ];
+
+// Parse a `?days=N` override. Absent, empty, or non-numeric input falls back to
+// `fallback`; numeric input is clamped to [1, max]. Absence must be checked on
+// the raw string, before coercion: `Number(null)` and `Number("")` are both 0,
+// and coercing first once silently turned the documented two-day ingest default
+// into one day — reopening the daily coverage hole the default exists to close.
+export function clampDays(
+  raw: string | null,
+  fallback: number,
+  max: number,
+): number {
+  if (raw === null || raw.trim() === "") return fallback;
+  const n = Number(raw);
+  if (!Number.isFinite(n)) return fallback;
+  return Math.min(Math.max(Math.trunc(n), 1), max);
+}
 
 // Expand a day-sharded feed into one URL per day, most recent first. `days` is
 // how many whole days back from `end` to cover; `end` defaults to today (UTC).

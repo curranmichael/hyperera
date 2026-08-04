@@ -141,9 +141,10 @@ async function main() {
           imageSrc: a.image?.src ?? null,
           imageAlt: a.image?.alt ?? null,
           imageCredit: a.image?.credit ?? null,
-          // These shipped to readers under human review; the automated
-          // verification pass (ARCHITECTURE §4) never ran on them.
-          verificationStatus: "verified",
+          // These shipped to readers under human review, but the automated
+          // verification pass (ARCHITECTURE §4) never ran on them — so they are
+          // asserted, not verified.
+          verificationStatus: "asserted",
         }));
         await db.insert(analogies).values(rows);
         analogyCount += rows.length;

@@ -182,7 +182,10 @@ export const analogies = pgTable(
     imageSrc: text("image_src"),
     imageAlt: text("image_alt"),
     imageCredit: text("image_credit"),
-    verificationStatus: text("verification_status"), // verified | held | failed
+    // asserted | verified | held | failed. "asserted" means the author claims the
+    // excerpt and link are good; "verified" is reserved for an automated check
+    // that actually resolved them (ARCHITECTURE §4, not yet built).
+    verificationStatus: text("verification_status"),
     createdAt: timestamp("created_at", { withTimezone: true })
       .notNull()
       .defaultNow(),

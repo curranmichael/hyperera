@@ -8,11 +8,11 @@ import {
   candidateArticles,
   type NewArticle,
 } from "@/lib/db/schema";
-import { shardUrls } from "@/lib/feeds";
+import { clampDays, shardUrls } from "@/lib/feeds";
 
 export const runtime = "nodejs";
-// Day-sharded feeds turn one row into up to 14 sequential fetches, each with
-// retries, so this needs far more headroom than a single pass over 9 feeds.
+// Day-sharded feeds turn one row into up to 14 sequential fetches, each with a
+// 15s timeout, so this needs far more headroom than a single pass over 9 feeds.
 export const maxDuration = 300;
 export const dynamic = "force-dynamic";
 
@@ -83,11 +83,13 @@ export async function GET(req: Request) {
   }
 
   // ?days=N backfills a missed window. Only meaningful for day-sharded feeds —
-  // static feeds expose whatever their rolling window happens to hold.
-  const requested = Number(new URL(req.url).searchParams.get("days"));
-  const days = Number.isFinite(requested)
-    ? Math.min(Math.max(Math.trunc(requested), 1), MAX_DAYS)
-    : DEFAULT_DAYS;
+  // static feeds expose whatever their rolling window happens to hold. The cron
+  // sends no query string, so it always gets DEFAULT_DAYS.
+  const days = clampDays(
+    new URL(req.url).searchParams.get("days"),
+    DEFAULT_DAYS,
+    MAX_DAYS,
+  );
 
   const activeFeeds = await db
     .select()

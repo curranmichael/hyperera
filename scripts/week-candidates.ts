@@ -25,17 +25,14 @@ import {
   issues,
   stories,
 } from "../lib/db/schema";
+import { NEWS_KINDS, scoreOf, suggestTitle, type Department } from "../lib/weekly";
 
 const DEFAULT_DAYS = 7;
 const DEFAULT_LIMIT = 40; // per department, before the routine sees it
 const DEFAULT_OUT = join("scratch", "week.json");
 const MAX_SOURCES_PER_THREAD = 8;
 
-// Which department a candidate's kind belongs to. This is the split the selection
-// rule turns on: news is corroborated across wires, culture is singular by nature.
-const NEWS_KINDS = new Set(["news", "tech"]);
-
-type Department = "news" | "culture";
+const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 
 interface ThreadEntry {
   candidateId: number;
@@ -89,48 +86,26 @@ function numberArg(name: string, fallback: number): number {
   return Math.trunc(n);
 }
 
+// Like arg(), but the value must be a YYYY-MM-DD date — everything downstream
+// compares these as strings against `candidates.day`, so a malformed date would
+// silently match nothing rather than error.
+function dateArg(name: string): string | undefined {
+  const raw = arg(name);
+  if (raw !== undefined && !ISO_DATE.test(raw)) {
+    throw new Error(`--${name} must be YYYY-MM-DD, got ${raw}`);
+  }
+  return raw;
+}
+
 function window(): { start: string; end: string } {
-  const end = arg("end") ?? isoDay(new Date());
-  const explicitStart = arg("start");
+  const end = dateArg("end") ?? isoDay(new Date());
+  const explicitStart = dateArg("start");
   if (explicitStart) return { start: explicitStart, end };
 
   const days = numberArg("days", DEFAULT_DAYS);
   const start = new Date(`${end}T00:00:00Z`);
   start.setUTCDate(start.getUTCDate() - (days - 1));
   return { start: isoDay(start), end };
-}
-
-// "Issue 4 · 10–16 August 2026", collapsing the month when the week doesn't cross one.
-function suggestTitle(number: number, start: string, end: string): string {
-  const from = new Date(`${start}T00:00:00Z`);
-  const to = new Date(`${end}T00:00:00Z`);
-  const day = (d: Date) => d.getUTCDate();
-  const month = (d: Date) =>
-    new Intl.DateTimeFormat("en-US", { month: "long", timeZone: "UTC" }).format(
-      d,
-    );
-  const range =
-    month(from) === month(to)
-      ? `${day(from)}–${day(to)} ${month(to)} ${to.getUTCFullYear()}`
-      : `${day(from)} ${month(from)} – ${day(to)} ${month(to)} ${to.getUTCFullYear()}`;
-  return `Issue ${number} · ${range}`;
-}
-
-// The corroboration score: how many independent feeds carried a story, over how
-// many days, weighted by how much it mattered. It is the right ranking for news
-// and structurally wrong for culture — an Aeon essay has one source and one day by
-// nature, and would lose every global sort it entered. So culture is ranked on
-// importance alone and gets its own slots, rather than competing on a signal its
-// sources cannot produce.
-function scoreOf(t: {
-  department: Department;
-  importance: number;
-  sourceCount: number;
-  daySpan: number;
-}): number {
-  return t.department === "news"
-    ? t.importance * t.sourceCount * t.daySpan
-    : t.importance;
 }
 
 async function main() {

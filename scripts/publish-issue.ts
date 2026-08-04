@@ -134,8 +134,15 @@ function isHttpUrl(value: unknown): value is string {
   }
 }
 
-async function localCoverExists(src: string): Promise<boolean> {
-  if (!src.startsWith("/covers/")) return true; // remote or non-cover; nothing to check
+// The publishing contract (see the header) is a local dithered PNG under
+// public/covers. A single filename segment only, so the path can't traverse out
+// of the directory. Anything else — a remote URL, some other local path — would
+// bypass the dither step, and next.config.ts allow-lists no remote hosts, so a
+// remote src would fail next/image at render time: a broken weekly build, a week
+// after validation waved it through.
+const COVER_SRC = /^\/covers\/[A-Za-z0-9][A-Za-z0-9._-]*\.png$/;
+
+async function coverExists(src: string): Promise<boolean> {
   try {
     await access(join(COVERS_DIR, src.slice("/covers/".length)));
     return true;
@@ -144,8 +151,8 @@ async function localCoverExists(src: string): Promise<boolean> {
   }
 }
 
-// Images are optional, but a local /covers/ path that doesn't exist means the
-// dither step was skipped — a broken image in the published issue, caught here.
+// Images are optional, but a /covers/ path that doesn't exist means the dither
+// step was skipped — a broken image in the published issue, caught here.
 async function checkImage(
   image: ImageInput | undefined,
   where: string,
@@ -157,7 +164,11 @@ async function checkImage(
     return;
   }
   if (!str(image.alt)) fail(`${where}: image needs alt text`);
-  if (!(await localCoverExists(src))) {
+  if (!COVER_SRC.test(src)) {
+    fail(`${where}: image src must be a /covers/<name>.png path, got ${src}`);
+    return;
+  }
+  if (!(await coverExists(src))) {
     fail(`${where}: ${src} is missing from public/covers — run the dither step`);
   }
 }
@@ -292,6 +303,15 @@ async function main() {
     fail(`issue: duplicate slugs in payload: ${[...new Set(duplicated)].join(", ")}`);
   }
 
+  // An explicit number must be a positive integer — a stray 0, negative, or
+  // "4"-as-string should be a loud error, not a silent fall-through to next.
+  if (
+    payload.number !== undefined &&
+    (!Number.isInteger(payload.number) || (payload.number as number) < 1)
+  ) {
+    fail(`issue: number must be a positive integer, got ${JSON.stringify(payload.number)}`);
+  }
+
   const [{ highest }] = await db
     .select({ highest: max(issues.number) })
     .from(issues);
@@ -411,9 +431,11 @@ async function main() {
           imageSrc: str(a.image?.src),
           imageAlt: str(a.image?.alt),
           imageCredit: str(a.image?.credit),
-          // The routine verifies each excerpt and link against the work itself as it
-          // composes; the automated verification pass in ARCHITECTURE §4 never ran.
-          verificationStatus: "verified",
+          // "asserted", not "verified": the composing routine checks excerpts and
+          // links against the works as it writes, but nothing here resolves the
+          // href — isHttpUrl only proves it is well-formed. "verified" is reserved
+          // for an automated check that actually ran (ARCHITECTURE §4, not built).
+          verificationStatus: "asserted",
         }),
       );
       await tx.insert(analogiesTable).values(analogyRows);
