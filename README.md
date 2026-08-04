@@ -11,18 +11,39 @@ historical analogies can help us understand and contextualize what's going on to
 
 ## How it works
 
-Hyperera scans the RSS feeds of various publications, chooses the day's most important current events, and surfaces analogies
-that shed light on them. Every event is paired with six analogies across three categories
-— two each:
+Hyperera is a **weekly magazine**, published on Friday.
+
+A daily cron reads the RSS feeds of news, culture, art and design publications into Postgres, and a
+second daily pass compresses that flood into a shortlist of candidate stories, tracking which ones
+run for days. On Friday morning a Claude routine reads the accumulated week, picks 15–20 stories
+across the magazine's departments, composes each one, and publishes the issue — one build a week.
+
+Every story is paired with six analogies across three categories — two each:
 
 - **Historical** — precedents from the historical record
 - **Literary** — passages and narratives whose themes illuminate the moment
 - **Musical / artistic** — works of music or visual art that resonate with the event
 
-See [`ARCHITECTURE.md`](./ARCHITECTURE.md) for the technical design and build stages.
+See [`ARCHITECTURE.md`](./ARCHITECTURE.md) for the technical design.
+
+## Running it
+
+```bash
+npm install
+cp .env.example .env.local     # then fill it in
+npm run db:migrate && npm run db:seed
+npm run dev
+```
+
+| Command | What it does |
+| --- | --- |
+| `npm run week:candidates` | dump the week's candidate stories, merged by thread |
+| `npm run issue:publish` | validate a composed issue and publish it (`--draft` to stage) |
 
 ## Tech stack
 
 - [Next.js](https://nextjs.org/) (App Router, TypeScript) — deployed on [Vercel](https://vercel.com/)
 - [Radix Themes](https://www.radix-ui.com/themes/docs/overview/getting-started) — UI components
-- [Anthropic API](https://docs.anthropic.com/) — composing overviews and surfacing analogies
+- [Neon Postgres](https://neon.com/) with [Drizzle](https://orm.drizzle.team/) — feeds, candidates,
+  and the magazine itself
+- [Claude](https://docs.anthropic.com/) — compressing the day's feeds, and composing the week's issue

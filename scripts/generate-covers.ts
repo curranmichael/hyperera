@@ -1,9 +1,15 @@
 // Generate a cover for each AI-credited story, then run it through the shared
-// dither pipeline so it matches the site. Run: `npm run images:generate`.
-// Targets stories whose image credit is "AI-generated"; idempotent — skips slugs
-// whose PNG already exists (delete one to regenerate it).
+// dither pipeline so it matches the site. Idempotent — skips slugs whose PNG
+// already exists (delete one to regenerate it).
+//
+//   npm run images:generate                     -- published stories credited "AI-generated"
+//   npm run images:generate -- prompts.json     -- an explicit { "<slug>": "<prompt>" } map
+//
+// The map form is what the weekly routine uses: images are sourced *before* the
+// issue is written, so the stories they belong to aren't in the database yet — and
+// once they are, they're a draft, which the published-only reads don't return.
 
-import { access, mkdir, writeFile } from "node:fs/promises";
+import { access, mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { bufferToDitheredPng } from "./dither";
 import { generateCover } from "./image-provider";
@@ -566,30 +572,46 @@ async function withRetry<T>(fn: () => Promise<T>, attempts = 3): Promise<T> {
   }
 }
 
+// { slug: subject } for every cover to generate, from either an explicit map file
+// or the published stories credited "AI-generated".
+async function targets(mapPath: string | undefined): Promise<[string, string][]> {
+  if (mapPath) {
+    const map = JSON.parse(await readFile(mapPath, "utf8")) as Record<
+      string,
+      string
+    >;
+    return Object.entries(map);
+  }
+  const stories = await getPublishedStories();
+  return stories
+    .filter((s) => s.image?.credit === "AI-generated")
+    .map((s) => [
+      s.slug,
+      PROMPT_OVERRIDES[s.slug] ?? `${s.headline}. ${s.overview}`,
+    ]);
+}
+
 async function main() {
   await mkdir(OUT_DIR, { recursive: true });
-  const stories = await getPublishedStories();
-  const targets = stories.filter((s) => s.image?.credit === "AI-generated");
   const failed: string[] = [];
 
-  for (const story of targets) {
-    const out = join(OUT_DIR, `${story.slug}.png`);
+  for (const [slug, subject] of await targets(process.argv[2])) {
+    const out = join(OUT_DIR, `${slug}.png`);
     if (await exists(out)) {
-      console.log(`skip ${story.slug} (exists)`);
+      console.log(`skip ${slug} (exists)`);
       continue;
     }
 
-    const subject = PROMPT_OVERRIDES[story.slug] ?? `${story.headline}. ${story.overview}`;
     const prompt = `${subject} — ${STYLE}`;
     try {
       const png = await withRetry(async () =>
         bufferToDitheredPng(Buffer.from(await generateCover(prompt))),
       );
       await writeFile(out, png);
-      console.log(`${story.slug}.png  generated -> ${(png.length / 1024).toFixed(0)}KB`);
+      console.log(`${slug}.png  generated -> ${(png.length / 1024).toFixed(0)}KB`);
     } catch (err) {
-      failed.push(story.slug);
-      console.warn(`fail ${story.slug}: ${(err as Error).message}`);
+      failed.push(slug);
+      console.warn(`fail ${slug}: ${(err as Error).message}`);
     }
   }
 

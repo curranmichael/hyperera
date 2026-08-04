@@ -1,8 +1,13 @@
 import { NextResponse } from "next/server";
 import Parser from "rss-parser";
-import { eq } from "drizzle-orm";
+import { and, eq, lt, notExists, sql } from "drizzle-orm";
 import { db } from "@/lib/db";
-import { feeds, articles, type NewArticle } from "@/lib/db/schema";
+import {
+  feeds,
+  articles,
+  candidateArticles,
+  type NewArticle,
+} from "@/lib/db/schema";
 import { shardUrls } from "@/lib/feeds";
 
 export const runtime = "nodejs";
@@ -23,6 +28,11 @@ const GOOGLE_NEWS_ITEM_CAP = 100;
 // the 100-item cap that clipped it mid-day.
 const DEFAULT_DAYS = 2;
 const MAX_DAYS = 14;
+
+// How long an unused raw item is kept. Long enough that a backfill or a late
+// triage run still finds what it needs; short enough that the table doesn't grow
+// without limit at ~1,000 rows a day.
+const RETENTION_DAYS = 60;
 
 const parser = new Parser({
   timeout: 15000,
@@ -165,5 +175,43 @@ export async function GET(req: Request) {
     { fetched: 0, inserted: 0, errors: 0, truncatedShards: 0 },
   );
 
-  return NextResponse.json({ ok: true, days, totals, feeds: results });
+  return NextResponse.json({
+    ok: true,
+    days,
+    totals,
+    feeds: results,
+    swept: await sweepOldArticles(),
+  });
+}
+
+// Raw items are a means, not an archive: roughly a thousand arrive a day and the
+// vast majority are never clustered into anything. Sweeping them keeps growth
+// bounded — but only the ones no candidate points at. Deleting indiscriminately
+// would cut the story -> candidates -> articles -> source URL chain this schema
+// exists to keep walkable, which is the one thing the retention pass must not do.
+// (The FK is ON DELETE CASCADE, so an unqualified delete would silently take the
+// provenance rows with it rather than failing loudly.)
+async function sweepOldArticles(): Promise<number | null> {
+  const cutoff = new Date();
+  cutoff.setUTCDate(cutoff.getUTCDate() - RETENTION_DAYS);
+
+  try {
+    const result = await db.delete(articles).where(
+      and(
+        lt(articles.createdAt, cutoff),
+        notExists(
+          db
+            .select({ one: sql`1` })
+            .from(candidateArticles)
+            .where(eq(candidateArticles.articleId, articles.id)),
+        ),
+      ),
+    );
+    return result.rowCount ?? 0;
+  } catch (err) {
+    // Retention is housekeeping; a failure here must not fail the ingest that
+    // just ran successfully.
+    console.error("retention sweep failed:", err);
+    return null;
+  }
 }

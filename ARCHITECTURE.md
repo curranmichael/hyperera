@@ -1,245 +1,288 @@
-# hyper-era — Technical Architecture
+# Hyperera — Technical Architecture
 
-> Status: living document, **mid-rewrite**. hyper-era is converting from a thrice-daily edition to a
-> **weekly news and culture magazine**. The raw-article **ingest** layer, described below as retired, is
-> now the backbone: a daily cron persists feed items to Postgres, a daily triage pass compresses them into
-> scored candidate stories, and one weekly pass composes an issue from the accumulated week. Daily work
-> writes only to the database, so the site rebuilds once a week.
->
-> Sections 2–8 still describe the old live-read, no-persist daily design and are being revised phase by
-> phase. Where this header and a section below disagree, this header is current.
-
-## 1. What hyper-era is
+## 1. What Hyperera is
 
 A counter-publication to the headline. The news cycle is "pornographic in nature, feeding the
-libido without helping a person cultivate a well-informed perspective." hyper-era's response is to
+libido without helping a person cultivate a well-informed perspective." Hyperera's response is to
 slow the reader down and re-frame the present through **analogy across time** — taking its cue from
 hypertext and hypermedia, and from Hofstadter's claim that analogy is the core of cognition.
 
-The loop, per real-world **event** (not per article):
+Every story carries six analogies across three categories, two each:
 
-1. **Read** the RSS feeds of various publications (a dynamic, editable list) **live** — fetched and parsed
-   in memory each run, never persisted as raw items.
-2. **Select & group** — one model pass reads the live feed, groups items reporting the same event, drops
-   anything already covered, and picks which new events deserve a full pass.
-3. **Compose** a sober, plainly-stated overview of the situation.
-4. **Analogize** — surface six analogies across three categories, two each:
-   - **Historical** — precedents from the historical record
-   - **Literary** — passages and narratives whose themes illuminate the moment (speculative/sci-fi
-     works welcome — this is how the "future" lens enters: through *verifiable* art, not punditry)
-   - **Musical / artistic** — works of music or visual art that resonate with the event
+- **Historical** — precedents from the historical record
+- **Literary** — passages and narratives whose themes illuminate the moment (speculative and science
+  fiction welcome — this is how the "future" lens enters: through *verifiable* art, not punditry)
+- **Musical / artistic** — works of music or visual art that resonate with the event
 
-   Each analogy is paired with a **rights-clean image of its subject** — the artwork itself, a
-   manuscript page, a portrait, a title page — from Wikimedia Commons or an open archive, never
-   AI-generated. Omitted only when nothing rights-clean can be found.
-5. **Verify** — deterministic checks where possible (links resolve, excerpts match, image URLs serve
-   real images), adversarial or human review where not, before anyone sees it.
-6. **Approve** — once a day, a human editor reviews the drafts and promotes the good ones.
-7. **Present** — one analogy per card, each with a content excerpt, its image, and a link to the
-   original source. The home hero crossfades its cover to the hovered analogy's image.
+Each analogy is paired with a **rights-clean image of its subject** — the artwork itself, a
+manuscript page, a portrait, a title page — from Wikimedia Commons or an open archive, never
+AI-generated. Omitted only when nothing rights-clean can be found.
 
-UI inspiration: the [hyper-era are.na channel](https://are.na/curran-dwyer/hyperera).
+Hyperera publishes **one issue a week**, on Friday. It ran as a thrice-daily edition until August
+2026; those editions are preserved in the archive as issues 1–3.
 
-## 2. Decisions made
+UI inspiration: the [Hyperera are.na channel](https://are.na/curran-dwyer/hyperera).
 
-| Decision | Choice | Rationale |
-| --- | --- | --- |
-| **Ingestion** | **Live read, no raw persistence** | Feeds are read fresh each run in app code (`fetch` + `rss-parser`, in memory). Only curated events/analogies persist. RSS is a rolling window — the one thing we must remember is *what we've already covered*, which the `events` table already holds. Deletes a table and a cron versus the old ingest layer. |
-| **Story unit** | **Per-event, grouped** | One entry per real-world event, grouping items across feeds. Better reading experience and far cheaper than analyzing every near-duplicate. Grouping now happens *inside* the analysis pass, not a separate stage. |
-| **Model tiering** | **Single Opus pass (no cheap triage tier)** | Reading the feed summaries is modest tokens (tens of thousands). One model that *selects* also *analogizes* → better coherence and fewer moving parts than a Haiku-triage → Opus-analyze split. The cheap tier is dropped. |
-| **Per-event fan-out** | **Message Batches API** | Analysis is per-event and latency-insensitive. Batches gives a 50% discount and async fan-out with no orchestration code; most batches finish in under an hour. |
-| **Pipeline orchestration** | **One daily cron on Fluid Compute** | A single cron runs read → select → analyze → verify; the steps stay distinct in code so verify can split into its own cron later if needed. Fluid Compute is on (`fluid: true`), so the model's I/O wait pauses CPU billing — we pay for the model's thinking in latency, not CPU. |
-| **Structured output** | **`output_config.format` (JSON schema)** | Guarantees the exact six-analogy shape with no parse-retry loop. GA on `claude-opus-4-8`, no beta header. |
-| **Verification fetch** | **`web_fetch` tool (Stage 4 only)** | Reserved for fetching the *analogy source pages* (text/PDF, with citations). Feeds are parsed in app code, never via `web_fetch` (it handles text/PDF, not XML, and caches by default). |
-| **"Future" lens** | **Via speculative fiction/art** | No fourth category. Speculative/sci-fi works (real Le Guin, Butler, Tarkovsky…) represent the future *through verifiable art*, not unmoored prediction — the thing HE opposes. |
-| **Editorial** | **Daily human-in-the-loop** | The pipeline produces drafts; the editor approves/curates before anything publishes. Matches the are.na curation vibe; guards quality. |
-| **Analogy selection** | **Raw LLM, examples last** | The model composes overviews and selects analogies directly. A hand-built *example* set is added last (Stage 6) to set tone. Get the raw baseline working first, then see whether guidance helps. |
-| **Database** | **Neon Postgres** | Serverless Postgres with native Vercel integration; now stores only the curated output. Generous free tier. |
-| **Framework** | **Next.js (App Router, TS)** on Vercel | Already scaffolded. |
-| **UI** | **Radix Themes** | Already scaffolded; card-based design. |
-| **LLM** | **Anthropic API**, `claude-opus-4-8` | Composing overviews and selecting analogies, with adaptive thinking + the `effort` parameter. TS SDK `@anthropic-ai/sdk`. |
+## 2. The shape of the system
 
-## 3. System overview
+Two crons write to Postgres, one Claude routine reads and writes Postgres, and a git push builds a
+static site from Postgres. Data flows one direction and no service calls another service.
 
 ```
-                ┌──────────────────────────────────────────────┐
-                │  Vercel Cron — once daily                     │
-                │  read → select → analyze → verify             │
-                └───────────────┬──────────────────────────────┘
-                                ▼
-   read feeds (live)    select + analyze              verify
-   fetch + parse all    Opus 4.8: group into new      web_fetch each
-   active feeds in  ──▶ events, compose overview  ──▶ analogy link,
-   memory               + six analogies               match excerpt,
-   (rss-parser)         (per-event via Batches)        hold bad ones
-        │                       │                          │
-        └───────────────┬───────┴──────────────────────────┘
-                        ▼
-             ┌──────────────────────────────┐
-             │  Neon Postgres                │
-             │  (curated output only)        │
-             │  feeds · events ·             │
-             │  event_sources ·              │
-             │  analogies · examples         │
-             └──────────┬────────────────────┘
-                        │ events in status = draft
-                        ▼
-             Admin review  (editor approves once/day)
-                        │ status = published
-                        ▼
-             Next.js App Router (RSC)
-             public card reading UI  — published events only
+  05:00 daily          06:00 daily              Friday morning
+┌──────────────┐   ┌──────────────────┐   ┌────────────────────────────────────┐
+│ /api/ingest  │   │ /api/triage      │   │ Claude routine · /publish-weekly   │
+│ Vercel cron  │   │ Vercel cron      │   │ composes, publishes, ships covers  │
+└──────┬───────┘   └────────┬─────────┘   └─────────┬──────────────────┬───────┘
+       │ ~1,000/day          │ ~30/day               │ 15–20/week       │ covers PR
+       ▼                     ▼                       ▼                  ▼
+   articles ──────────▶ candidates ───────────▶ issues · stories    merge to main
+      │  candidate_articles  │   story_candidates  · analogies  ──▶  one build/week
+      └──────────────────────┴──────────────────────┘                (static HTML)
+                    provenance chain
 ```
 
-Raw feed items are never stored: they are fetched, parsed, and handed to the model in one run, then
-discarded. The public page is a fast read of **stored, curated** data — overviews and analogies are
-generated ahead of time by the daily pipeline and persisted, never generated in the request path.
+The routine publishes unattended, the way the thrice-daily edition routine did. The
+merge of its covers PR is what deploys — a git push has always been this project's
+build trigger, and moving the magazine into Postgres didn't change that.
 
-## 4. Build stages
+Every stage is idempotent, so the recovery procedure for any failure is *run it again*:
 
-Each stage is independently shippable.
+| Stage | Idempotency key |
+| --- | --- |
+| ingest | `unique (feed_id, guid)` with `on conflict do nothing` |
+| triage | `articles.triaged_at` — the watermark lives in the data, not in a runs table |
+| publish | `issues.number` is unique, and a published issue is never rewritten |
 
-### Stage 1 — Scaffold ✅ (done)
-Next.js + Radix, card-based landing page with placeholder content. Builds, lints, runs.
+The full provenance chain is walkable end to end:
+`story → candidates → articles → source URL + feed + publish date`.
 
-### Stage 2 — Feeds list + live read (feeds done; ingest retired)
-- **Neon Postgres** (Vercel integration) with **Drizzle**. Driver: `drizzle-orm/node-postgres` over a
-  module-scope `pg` Pool + `attachDatabasePool` (Vercel Fluid compute guidance), initialized lazily so
-  `next build` never needs DB creds. See `lib/db/`.
-- `feeds` holds the dynamic, editable list (`lib/feeds.ts`, upserted by `url` via `npm run db:seed`) — **kept**.
-  AP and Reuters dropped official RSS, so they come through the Google News RSS proxy (filtered to each
-  publisher's domain); the other 7 feeds are native.
-- **Live read module** (replaces the old ingest): at run time, fetch all active feeds concurrently and parse
-  with `rss-parser` **in memory** into `{title, url, summary, publishedAt, feedTitle}` items. One bad feed
-  can't fail the run. Nothing is written to the DB at this step.
-- **Retired:** the `articles` and `event_articles` tables, the `/api/ingest` route, and its daily cron.
+## 3. Why the layers exist
 
-### Stage 3 — Select + analyze (the daily pass)
-One daily cron, two Opus phases:
-- **Phase A — select.** App code hands Opus the live feed items **plus a list of recently-covered event
-  titles** (from the DB). Opus groups items into candidate events, drops anything already covered, and picks
-  which *new* events deserve a full pass. Structured output: an array of events, each with a working title and
-  the indices of the source items that belong to it.
-- **Phase B — analyze (Batches).** For each selected event, an Opus call composes the overview and selects six
-  analogies, two per category. Fan out via the **Message Batches API**. Structured output per event:
-  `{overview, analogies: [{category, title, source, excerpt, href, image: {url, alt, credit}} × 6]}`. Adaptive
-  thinking for the selection reasoning. Allow speculative/sci-fi works under literary/artistic for the
-  future-facing angle.
-- **An image per analogy.** Each analogy's `image.url` nominates a rights-clean visual of its subject —
-  prefer the work itself (the artwork, a manuscript page, a title page, a portrait of the author or
-  composer) from Wikimedia Commons (`Special:FilePath`, `?width=1200`) or an open archive; never
-  AI-generated. The run dithers each to `public/covers/<slug>--historical-1|2 / --literary-1|2 / --music /
-  --art.png` via `scripts/dither-art.ts`. An analogy with no rights-clean image simply omits it — the home
-  hero then keeps the story cover for that analogy's hover.
-- **Plain headlines.** The event title and overview state plainly *what happened* — no cryptic or literary
-  phrasing. The analogies carry the resonance; the headline carries the facts.
-- Persist `events` (`status = draft`), `event_sources` (provenance for the selected items only), and `analogies`.
+Three findings from measuring the feeds drove this design.
 
-### Stage 4 — Verification
-- Confirm every analogy stands up before a reader sees it. **Deterministic checks first** — `web_fetch` each
-  `href`, confirm it resolves (real status, not a soft-404), match the excerpt against the fetched source
-  where that can be automated, and confirm each analogy `image.url` serves an actual image. Where a check can't be fully automated, fall back to an **adversarial pass**
-  (a second model trying to refute the analogy) or **a human in the loop**.
-- Set `verification_status ∈ {verified, held, failed}` per analogy and roll it up to the event. Only `verified`
-  analogies are ever shown; anything else is held for review, never silently dropped.
+**The news feeds don't hold a week; the culture feeds do.** AP and Reuters via Google News hold ~1
+day; BBC World ~2.8 days. But BBC's section feeds run deep (Science ~138d, Business ~92d, In Depth
+~43d), as do the culture sources (Public Domain Review ~434d, Paris Review ~20d, Aeon ~19d). A
+weekly magazine that reads feeds live on Friday would simply not see Monday.
 
-### Stage 5 — Public card UI on real data
-- Wire the existing card UI to **verified** events: overview at the top, six analogy cards below grouped by
-  category, each with excerpt, image + outbound link. This closes the raw loop — real events, real analogies,
-  verified — visible end-to-end. Refine toward the are.na aesthetic. (Ungated until Stage 7 adds editorial.)
+**Google News caps every query at 100 items and rejects time filters on ranked feeds.** Day-sharding
+with explicit `after:`/`before:` bounds returns 668 unique items against 101 for a single `when:7d`
+call — 6.6×, and the `when:7d` set is a strict subset. Hence `fetch_strategy = 'daily_shard'`, and
+hence backfill by date is possible at all.
 
-### Stage 6 — Examples (tone & reference)
-- With the raw pipeline running and its output in front of us, we have a baseline to improve against — and
-  a clearer sense of what guidance actually helps.
-- `examples`: a hand-built set of strong analogies — historical events, literary works, artworks/music,
-  including speculative/sci-fi for the future angle — each a real source with a canonical link and a short
-  real excerpt. These are reference, not a menu: they ride along in the analysis prompt only to establish
-  tone and show the model what a compelling, insight-adding analogy looks like, so it chooses better. Mark the
-  examples block with `cache_control` so it's written once and reused across every per-event Batches call. The
-  model still selects freely; examples shape taste, not the choice itself.
-- Measure against the Stage 3 baseline: keep the examples only if they demonstrably sharpen the analogies
-  rather than getting echoed back.
+**"Top stories for the week" cannot be queried anywhere.** No feed exposes ranking or popularity.
+Importance has to be *computed* from a stored week — which is what candidates are for, and why
+`source_count` (how many independent feeds carried a story) matters: cross-source corroboration is
+the closest thing to a ranking signal RSS offers.
 
-### Stage 7 — Editorial approval (daily human-in-the-loop)
-- A protected admin view lists events with their overview + six verified analogies.
-- The editor approves (→ `status = published`), edits, or rejects. This adds the gate to the public site
-  (Stage 5 ships ungated; here `published` becomes the filter for what readers see).
-- Auth: single-user, so start simple (middleware basic-auth via an env secret, or Vercel deployment
-  protection on the admin path). Upgrade to a real provider (Clerk) only if needed.
-
-## 5. Data model (first cut)
+## 4. Data model
 
 ```sql
--- The dynamic, editable list of publication feeds to read.
--- Read live each run; raw items are never persisted.
-feeds(id, title, url, active, created_at)
+-- The editable list of feeds. Seeded from lib/feeds.ts by `npm run db:seed`.
+feeds(id, title, url, kind, fetch_strategy, url_template, active, created_at)
+      -- fetch_strategy: static | daily_shard   (daily_shard expands url_template per day)
 
--- One row per real-world event (the unit readers read). Created already-analyzed by the daily pass.
-events(id, title, overview, status, verification_status, published_at, approved_at, created_at)
-       -- status: draft | published | rejected           (the editorial gate, Stage 7)
-       -- verification_status: verified | held | failed   (rollup of its analogies, Stage 4)
+-- Raw feed items. Swept after 60 days unless a candidate references them.
+articles(id, feed_id, guid, title, url, summary, published_at, triaged_at, created_at)
+         -- unique (feed_id, guid); triaged_at null = not yet clustered
 
--- Provenance: the live feed items that informed an event. Stored only for selected events, not the feed.
-event_sources(id, event_id, title, url, feed_title, published_at)
+-- One clustered story-of-the-day: ~30 rows stand in for ~1,000 articles.
+candidates(id, day, title, summary, kind, importance, source_count,
+           first_seen, last_seen, thread_id, created_at)
+           -- thread_id → candidates.id: follow-ups point at the day the story opened
 
--- Six per event: the analogies the model selects for a given event.
-analogies(id, event_id, category, title, source, excerpt, href,
-          image_src, image_alt, image_credit,
-          source_id, verification_status, created_at)
-          -- category: historical | literary | artistic
-          -- source_id: optional FK into examples, when a selected analogy matches one
-          -- verification_status: verified | held | failed
+candidate_articles(candidate_id, article_id)   -- provenance
 
--- A hand-built set of example analogies (Stage 6). Reference for tone in the analysis
--- prompt; a selected analogy may point back via analogies.source_id when it matches.
-examples(id, category, title, creator, era, excerpt, url, created_at)
-         -- category: historical | literary | artistic
+-- The magazine.
+issues(id, number, title, week_start, week_end, status, published_at, created_at)
+       -- status: draft | published — the editorial gate, and the filter every public read applies
+
+stories(id, issue_id, slug, headline, overview, genre, sources, rank, lead,
+        image_src, image_alt, image_credit, published_at, created_at)
+        -- sources is jsonb: display-only provenance, never queried
+
+analogies(id, story_id, position, category, title, source, excerpt, href,
+          image_src, image_alt, image_credit, verification_status, created_at)
+          -- six per story, two per category; position preserves authored order
+
+story_candidates(story_id, candidate_id)       -- closes the chain
 ```
 
-## 6. Anthropic API notes
+Schema changes go through `npm run db:generate`; `drizzle/` is generated and never hand-edited.
 
-- **Messages API**, SDK `@anthropic-ai/sdk`. A single Opus tier — `claude-opus-4-8` — does both selection
-  and analysis (no cheap triage model).
-- **Adaptive thinking is required on Opus 4.8.** Use `thinking: {type: "adaptive"}` paired with the
-  `effort` parameter (higher for analysis, lower for selection). Manual `{type: "enabled", budget_tokens}`
-  returns a **400** on this model.
-- **Structured outputs** via `output_config.format` (`type: "json_schema"`) to guarantee the six-analogy
-  shape — no beta header, GA on Opus 4.8. Use `additionalProperties: false` and `required` on every field;
-  the TS helper `client.messages.parse({ output_config: { format: zodOutputFormat(schema) } })` returns a
-  typed `parsed_output`. Prefill is unnecessary (and rejected on this model).
-- **Message Batches API** for the per-event analysis fan-out: 50% cheaper, async, most batches finish within
-  an hour (24h cap; up to 100k requests / 256 MB). Supports structured outputs, adaptive thinking, and the
-  `web_fetch` tool. Ideal for a once-daily, latency-insensitive job.
-- **Prompt caching:** once Stage 6 adds examples, cache the system prompt + examples block (`cache_control`)
-  so it's written once and reused across every per-event call that day.
-- **`web_fetch` (Stage 4 verification only):** supports text and PDF (not XML), with optional citations. It
-  can only fetch URLs already present in context, and caches by default — pass `use_cache: false` for fresh
-  fetches. Reserve it for the analogy *source pages*, never for the feeds.
-- **Timeouts:** if a long synchronous Opus call risks the 300s Fluid budget, stream the response; the Batches
-  path sidesteps this entirely.
-- `ANTHROPIC_API_KEY` lives in Vercel project env vars (and `.env.local` for dev), never committed.
-- `max_tokens` is required on every request, including batched ones.
+**Threads are the weekly unit.** A story running Monday→Thursday is four candidate rows sharing one
+`thread_id`, which is what lets the weekly pass compose one piece with an arc instead of four
+increments. It also makes "ran 5 of 7 days" a `count(distinct day) group by thread_id` query — an
+editorial signal a daily edition structurally cannot see. It is a query, not a feature: there is no
+trends table, page, or chart.
 
-## 7. Environment & deployment
+## 5. The daily pipeline
 
-- Vercel auto-detects Next.js — import the repo and deploy.
-- Env vars to add in Vercel (later stages): `DATABASE_URL` (Neon), `ANTHROPIC_API_KEY`, `CRON_SECRET` (Bearer
-  token protecting the daily cron), and an admin secret for the editorial view.
-- Vercel Cron is configured via `vercel.json`: a single daily **generate** entry with `fluid: true`
-  (read → select → analyze → verify). The old `/api/ingest` entry is removed.
+### `/api/ingest` — 05:00 UTC
 
-## 8. Open questions (to revisit)
+Fetches every active feed concurrently, parses with `rss-parser`, inserts with
+`on conflict do nothing`. Per-feed errors are captured, never thrown: the Google News API is
+undocumented and reverse-engineered, so a silent format change must degrade one feed rather than
+fail the run.
 
-- **Missed-run durability:** with no raw persistence, a failed daily run loses that day's feed window. Is
-  "we take today's feed" acceptable, or do we want a lightweight safety net (retry, or a short feed-snapshot)?
-- **Dedup representation:** how to give the select phase "what we've already covered" cheaply — recent event
-  titles, a date window, embeddings? Enough to stop re-surfacing an ongoing event without bloating the prompt.
-- **Excerpt verification:** how much of "is this quote real" can be done deterministically (fetch the source,
-  match the text) versus handed to an adversarial second pass or the human in the loop?
-- **Approve-to-publish vs auto-publish:** does nothing publish without a human (safer, on-ethos), or does a
-  draft auto-publish if not reviewed by some cutoff? Default leans approve-to-publish.
-- **Verify inline vs its own cron:** keep verification in the daily pass, or split it out for failure isolation?
-- **Do the examples earn their place?** Measure Stage 6 output against the raw Stage 3 baseline — keep the
-  examples only if they sharpen the analogies rather than just getting echoed back.
-- **Editor workload:** how many events per day is a comfortable review set? Tune selection selectivity to it.
-```
+- `daily_shard` feeds expand into one URL per day, fetched in sequence, each shard carrying its own
+  100-item budget. Shards that come back at the cap are reported as `truncated` — visible truncation
+  beats silent partial coverage.
+- `?days=N` (default 2, max 14) backfills a missed window. Only day-sharded feeds can be backfilled
+  by date; static feeds expose whatever their rolling window holds. The default of 2 exists because a
+  single-day window leaves a hole: the "today" shard fetched at 05:00 captures only what published
+  before it, and nothing revisits that day.
+- Finishes with the retention sweep: delete `articles` older than 60 days that **no**
+  `candidate_articles` row references.
+
+### `/api/triage` — 06:00 UTC
+
+One structured-output call on **Sonnet** — this is compression, not judgement; Opus is reserved for
+weekly composition. It reads every article with `triaged_at is null`, plus 14 days of existing
+candidate titles for thread continuity, and returns clusters with `importance` and source indices.
+
+`source_count`, `first_seen` and `last_seen` are computed in app code from the linked articles rather
+than asked of the model: they are facts about the data, and a model asked to count its own citations
+gets it wrong often enough to matter.
+
+Candidates and the `triaged_at` stamp are written in one transaction, and *every* article in the
+batch is stamped — including ones no candidate referenced — or the noise is re-read forever. A
+`MAX_ARTICLES` cap of 1,200 is a safety valve against the 300s function limit, not a batching
+strategy: the remainder keeps its null watermark and the next run picks it up.
+
+## 6. The weekly pass
+
+The prompt is `.claude/commands/publish-weekly.md`, versioned in the repo rather than pasted into
+routine config where it would drift invisibly. A Claude routine runs it Friday morning:
+
+1. `npm run week:candidates` → `scratch/week.json`: the week's candidates merged by thread, each with
+   its arc, corroboration score, provenance, and last week's headlines for cross-week dedupe.
+2. Select 15–20 by filling **department slots, not one global ranking**.
+   `importance × source_count × day_span` is a corroboration score — right for news, structurally
+   wrong for culture, where an Aeon essay has one source and one day by nature and would lose every
+   global sort. News ranks by the formula; culture ranks on importance alone.
+3. Compose each story: headline, the week's arc in past/summary framing (not daily wire copy), and
+   six analogies with verbatim excerpts and canonical links.
+4. Source and dither images to `public/covers/` via `scripts/dither-art.ts` (remote, rights-clean) and
+   `scripts/generate-covers.ts` (generated, for covers only).
+5. `npm run issue:publish` validates and writes the issue with its `story_candidates` links.
+6. Push the covers on a `claude/issue-<n>-covers` branch, open a PR carrying the lineup, and merge
+   it. The merge builds `main`, and the issue goes live with its images.
+
+Dedupe across days and weeks is a prompt-level mechanism: 14 days of candidate titles in the triage
+prompt, last week's headlines in the weekly one. No embeddings. Add vectors only if duplicate threads
+show up in a real issue.
+
+### Publishing and the build
+
+Validation, not approval, is what stands between a composed issue and readers. `publish-issue.ts`
+refuses genres outside the vocabulary, analogy sets that aren't two-per-category, unresolvable links,
+missing lead, duplicate slugs, cover files absent from disk, and `candidateIds` that resolve to
+nothing. It reports every failure in one pass, because it runs at the end of a long composition and
+failing one at a time would mean six re-runs.
+
+Two properties keep an unattended publisher safe:
+
+- **A published issue is never rewritten.** `--replace` refuses one. Readers hold those URLs, so a
+  mistake is fixed forward — in the next issue, or with a corrected story — never by mutating
+  what shipped.
+- **`--draft` still exists** for staging an issue you want to look at before it counts. Re-running
+  without it publishes. Nothing in the request path ever returns a draft.
+
+The covers PR is the audit trail: one per issue, carrying the lineup in its body, which is what to
+read when something looks wrong after the fact. `claude/*` branches skip preview builds
+(`ignoreCommand` in `vercel.json`), so the merge to `main` is the week's only build.
+
+## 7. The site
+
+`lib/stories.ts` holds the reading model's types and presentation vocabulary and is imported by
+client components, so it must stay free of runtime imports. The Drizzle queries live beside it in
+`lib/stories.server.ts` — a server/client boundary, not a repository layer. Three read paths do not
+justify repositories, DTOs, or mappers.
+
+Only stories in a **published** issue are ever returned. A staged draft is invisible to every read
+path, so it can sit in the database indefinitely without leaking.
+
+**Genres are departments.** The twelve-genre list (`Politics · Conflict · Economy · Climate ·
+Science · Technology · Culture · Art · Books · Music · Film · Architecture`) *is* the department
+list — one vocabulary, one column, no parallel `department` field and no taxonomy table. The culture
+half was added when the publication went weekly: the original seven were news-shaped, and "Culture"
+had become the largest bucket by carrying everything that wasn't politics or economics.
+
+| Route | What it is |
+| --- | --- |
+| `/` | the current issue, grouped by department, lead story as hero |
+| `/issue/[number]` | a back issue, same layout |
+| `/archive` | every published issue, newest first |
+| `/story/[slug]` | one story with its six analogies |
+
+Build time stays flat as the archive grows: `generateStaticParams` prerenders only the 8 most recent
+issues and their stories, with `dynamicParams: true` so older ones render on demand and are cached
+from then on. `DATABASE_URL` must therefore be present in the **Build** environment, not just
+Production.
+
+## 8. Environment & deployment
+
+| Variable | Used by |
+| --- | --- |
+| `DATABASE_URL` | everything; required at build time as well as runtime |
+| `CRON_SECRET` | `/api/ingest`, `/api/triage` — both fail closed when unset |
+| `AI_GATEWAY_API_KEY` | triage, cover generation |
+
+Builds run on pushes to `main`, as they always have. `claude/*` branches are skipped by the
+`ignoreCommand` so the routine's covers branch doesn't burn a preview build; merging it does the one
+build that matters. Cron schedules live in `vercel.json`; the weekly publish is a Claude routine, not
+a Vercel cron.
+
+**The routine's cloud environment** needs `DATABASE_URL` and `*.neon.tech` allowed under Custom
+network access — the [default allowlist](https://code.claude.com/docs/en/cloud-environments) covers
+package registries and GitHub, not database hosts. Cloud environments have no secrets store and their
+variables are readable by anyone using the environment, so the routine should hold a Neon role scoped
+to this database rather than the owner connection string. GitHub access goes through Anthropic's
+proxy and needs no token of its own.
+
+## 9. Operating it
+
+| Situation | What to do |
+| --- | --- |
+| Ingest missed a day | `curl -H "Authorization: Bearer $CRON_SECRET" .../api/ingest?days=3` |
+| Triage failed | Nothing — the next run picks up everything still unstamped |
+| Triage hit `MAX_ARTICLES` | `backlog: true` in the response; run it again to drain |
+| Draft needs a revision | Re-run `npm run issue:publish -- --replace` |
+| Issue published, site unchanged | No commit reached `main`; merge the covers PR (or push an empty commit) |
+| A published issue is wrong | Fix forward — a corrected story or a note in the next issue. Never rewrite it |
+| Feed went silent | Per-feed `error` in the ingest response; the run itself still succeeds |
+
+## 10. What this deliberately does not have
+
+The whole system is four moving parts. Each item below is something it does *not* need, and adding
+one makes the project slower to change without making it better.
+
+- **No orchestration layer.** No queues, no workflow engine, no durable execution. "Retry with
+  backoff" is tomorrow's cron plus `?days=N`.
+- **No embeddings for dedup.** Titles in the prompt are the dedup mechanism.
+- **No admin surface.** The routine publishes what it composes, gated by validation rather than by a
+  review UI. No auth library, no dashboard kit, no CMS, no draft-preview deployments. If an issue
+  ever does need eyes before it ships, `--draft` stages it and a second command publishes it — that
+  is the whole feature.
+- **No caching layer.** The site is static HTML rebuilt weekly. There is nothing to cache.
+- **No repository/service split.** Types in `lib/stories.ts`, queries in `lib/stories.server.ts`.
+- **Sources stay jsonb; images stay columns.** Read-only display data with no query need doesn't get
+  its own table.
+- **Two fetch strategies, as an if-branch.** Not a strategy registry, not per-feed plugin modules.
+- **One triage call.** Don't shard it per-feed until a single call demonstrably overflows the context
+  or the 300s limit.
+
+## 11. Known risks
+
+- **Google's 100-item/day cap** truncates AP even when sharded. If coverage feels thin, shard further
+  by section within each day. Truncation is reported per shard rather than hidden.
+- **The Google News API is undocumented.** Every parameter is reverse-engineered with no SLA;
+  `scoring=n` is already documented-but-dead. Per-feed error isolation is the mitigation.
+- **Triage inside a 300s function.** One call over a day of headlines fits with room to spare; a
+  large backlog drains across runs. If that stops being true, move triage into the Claude routine or
+  use the Batches API.
+- **`public/covers` grows without bound.** 22MB for three editions, and `.git` is already ~530MB. A
+  permanent archive makes this unbounded — moving covers to Vercel Blob is deferred, not solved, and
+  will bite within a year.

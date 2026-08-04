@@ -13,6 +13,8 @@
     "db:studio": "drizzle-kit studio",
     "db:seed": "node --env-file=.env.local --import tsx scripts/seed-feeds.ts",
     "db:migrate-stories": "node --env-file=.env.local --import tsx scripts/migrate-stories.ts",
+    "week:candidates": "node --env-file=.env.local --import tsx scripts/week-candidates.ts",
+    "issue:publish": "node --env-file=.env.local --import tsx scripts/publish-issue.ts",
     "images:dither": "node --import tsx scripts/dither-covers.ts",
     "images:generate": "node --env-file=.env.local --import tsx scripts/generate-covers.ts"
   },
