@@ -16,7 +16,12 @@ export const dynamic = "force-dynamic";
 // than silently mistaken for complete coverage.
 const GOOGLE_NEWS_ITEM_CAP = 100;
 
-const DEFAULT_DAYS = 1;
+// Cover yesterday in full plus today so far. A window of 1 leaves a daily hole:
+// the "today" shard fetched at the cron hour captures only what was published
+// before it, and no later run revisits that day. The overlap is free — inserts
+// dedupe on (feedId, guid) — and re-fetching yesterday complete can also beat
+// the 100-item cap that clipped it mid-day.
+const DEFAULT_DAYS = 2;
 const MAX_DAYS = 14;
 
 const parser = new Parser({

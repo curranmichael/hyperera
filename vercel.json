@@ -2,6 +2,7 @@
   "framework": "nextjs",
   "ignoreCommand": "case \"$VERCEL_GIT_COMMIT_REF\" in edition/*) exit 0 ;; *) exit 1 ;; esac",
   "crons": [
-    { "path": "/api/ingest", "schedule": "0 11 * * *" }
+    { "path": "/api/ingest", "schedule": "0 5 * * *" },
+    { "path": "/api/triage", "schedule": "0 6 * * *" }
   ]
 }
