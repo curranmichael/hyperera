@@ -136,18 +136,14 @@ export async function getStoryBySlug(slug: string): Promise<Story | null> {
   return story ?? null;
 }
 
-export async function getStorySlugs(): Promise<string[]> {
-  const rows = await db
-    .select({ slug: storiesTable.slug })
-    .from(storiesTable)
-    .innerJoin(issues, eq(storiesTable.issueId, issues.id))
-    .where(eq(issues.status, "published"));
-  return rows.map((r) => r.slug);
-}
+// How many of the newest issues (and their stories) are prerendered at build
+// time. One decision, shared by the issue and story routes so their coverage
+// can't diverge. Prerendering the entire archive would make build time grow
+// with every issue ever published; older pages render on demand instead and
+// are cached from then on.
+export const PRERENDERED_ISSUES = 8;
 
-// Slugs from the most recent published issues only. Prerendering the entire
-// archive would make build time grow with every issue ever published; older
-// stories render on demand instead and are cached from then on.
+// Slugs from the most recent published issues only.
 export async function getRecentStorySlugs(
   issueCount: number,
 ): Promise<string[]> {
