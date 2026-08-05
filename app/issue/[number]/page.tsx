@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Flex, Section } from "@radix-ui/themes";
-import { getIssue, listIssues } from "@/lib/stories.server";
+import { getIssue, listIssues, PRERENDERED_ISSUES } from "@/lib/stories.server";
 import { IssueMeta, IssueView } from "@/app/components/IssueView";
 
-// Prerender recent issues at build time; older ones render on demand and are then
-// cached. Prerendering the whole archive would make build time grow with every
-// issue published, for pages that are read once and never change.
-const PRERENDERED_ISSUES = 8;
-
 export const dynamicParams = true;
+
+// Digits only, so /issue/7 is the one canonical URL for issue 7 — Number()
+// alone would also accept "007", "1e1", or " 7", cache each as its own page,
+// and pass NaN through to the integer column for garbage segments.
+function parseIssueNumber(raw: string): number | null {
+  return /^\d+$/.test(raw) ? Number(raw) : null;
+}
 
 export async function generateStaticParams() {
   const issues = await listIssues(); // newest first
@@ -24,7 +26,9 @@ export async function generateMetadata({
   params: Promise<{ number: string }>;
 }): Promise<Metadata> {
   const { number } = await params;
-  const found = await getIssue(Number(number));
+  const parsed = parseIssueNumber(number);
+  if (parsed === null) return {};
+  const found = await getIssue(parsed);
   if (!found) return {};
   return {
     title: `${found.issue.title} — Hyperera`,
@@ -38,8 +42,8 @@ export default async function IssuePage({
   params: Promise<{ number: string }>;
 }) {
   const { number } = await params;
-  const parsed = Number(number);
-  if (!Number.isInteger(parsed)) notFound();
+  const parsed = parseIssueNumber(number);
+  if (parsed === null) notFound();
 
   const found = await getIssue(parsed);
   if (!found) notFound();

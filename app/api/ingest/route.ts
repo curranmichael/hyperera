@@ -1,3 +1,4 @@
+import { timingSafeEqual } from "node:crypto";
 import { NextResponse } from "next/server";
 import Parser from "rss-parser";
 import { and, eq, lt, notExists, sql } from "drizzle-orm";
@@ -21,12 +22,16 @@ export const dynamic = "force-dynamic";
 // than silently mistaken for complete coverage.
 const GOOGLE_NEWS_ITEM_CAP = 100;
 
-// Cover yesterday in full plus today so far. A window of 1 leaves a daily hole:
-// the "today" shard fetched at the cron hour captures only what was published
-// before it, and no later run revisits that day. The overlap is free — inserts
-// dedupe on (feedId, guid) — and re-fetching yesterday complete can also beat
-// the 100-item cap that clipped it mid-day.
-const DEFAULT_DAYS = 2;
+// Cover the two previous days in full plus today so far. A window of 1 leaves a
+// daily hole: the "today" shard fetched at the cron hour captures only what was
+// published before it, and no later run revisits that day. The second look-back
+// day guards an unverified assumption: shard bounds are computed in UTC, and if
+// Google News evaluates `after:`/`before:` on a US-time boundary instead, the
+// 05:00 UTC run fetches "yesterday" while that US day still has hours to go —
+// the extra day is what re-fetches it complete. The overlap is free — inserts
+// dedupe on (feedId, guid) — and re-fetching a finished day can also beat the
+// 100-item cap that clipped it mid-day.
+const DEFAULT_DAYS = 3;
 const MAX_DAYS = 14;
 
 // How long an unused raw item is kept. Long enough that a backfill or a late
@@ -42,13 +47,16 @@ const parser = new Parser({
 function isAuthorized(req: Request): boolean {
   const secret = process.env.CRON_SECRET;
   if (!secret) return false; // fail closed if unconfigured
-  return req.headers.get("authorization") === `Bearer ${secret}`;
+  const given = Buffer.from(req.headers.get("authorization") ?? "");
+  const expected = Buffer.from(`Bearer ${secret}`);
+  return given.length === expected.length && timingSafeEqual(given, expected);
 }
 
 interface ShardResult {
   day: string | null;
   fetched: number;
   truncated: boolean;
+  error?: string;
 }
 
 interface FeedResult {
@@ -96,28 +104,28 @@ export async function GET(req: Request) {
     .from(feeds)
     .where(eq(feeds.active, true));
 
-  // Fetch every feed concurrently; a failure in one is captured, never thrown,
-  // so a single bad feed can't fail the whole run. Shards within a feed run in
-  // sequence to stay polite to the upstream host.
+  // Fetch every feed concurrently; a failure is captured, never thrown, so a
+  // single bad feed can't fail the whole run. Shards within a feed run in
+  // sequence to stay polite to the upstream host, and each shard is fetched AND
+  // inserted independently: one bad day in a 14-day backfill must not discard
+  // the days already collected. Dedupe on (feedId, guid) makes the smaller
+  // batches equivalent to one big insert.
   const results = await Promise.all(
     activeFeeds.map(async (feed): Promise<FeedResult> => {
-      try {
-        const shards: ShardResult[] = [];
-        const seen = new Set<string>();
-        const values: NewArticle[] = [];
-        // The 100-item cap is a Google News property. A native feed that happens
-        // to carry 100 items is publishing 100 items, not being truncated.
-        const capped = isSharded(feed);
+      const shards: ShardResult[] = [];
+      const seen = new Set<string>();
+      const errors: string[] = [];
+      let inserted = 0;
+      // The 100-item cap is a Google News property. A native feed that happens
+      // to carry 100 items is publishing 100 items, not being truncated.
+      const capped = isSharded(feed);
 
-        for (const shard of urlsFor(feed, days)) {
+      for (const shard of urlsFor(feed, days)) {
+        try {
           const parsed = await parser.parseURL(shard.url);
           const items = parsed.items ?? [];
-          shards.push({
-            day: shard.day,
-            fetched: items.length,
-            truncated: capped && items.length >= GOOGLE_NEWS_ITEM_CAP,
-          });
 
+          const values: NewArticle[] = [];
           for (const item of items) {
             const guid = item.guid ?? item.link;
             const url = item.link ?? item.guid;
@@ -134,36 +142,41 @@ export async function GET(req: Request) {
               publishedAt: item.isoDate ? new Date(item.isoDate) : null,
             });
           }
-        }
 
-        let inserted = 0;
-        if (values.length > 0) {
-          const rows = await db
-            .insert(articles)
-            .values(values)
-            .onConflictDoNothing({ target: [articles.feedId, articles.guid] })
-            .returning({ id: articles.id });
-          inserted = rows.length;
-        }
+          if (values.length > 0) {
+            const rows = await db
+              .insert(articles)
+              .values(values)
+              .onConflictDoNothing({ target: [articles.feedId, articles.guid] })
+              .returning({ id: articles.id });
+            inserted += rows.length;
+          }
 
-        return {
-          feed: feed.title,
-          fetched: shards.reduce((n, s) => n + s.fetched, 0),
-          inserted,
-          truncated: shards.filter((s) => s.truncated).length,
-          // Per-day counts for sharded feeds, so a day that came back capped (or
-          // empty) is visible rather than hidden inside a single total.
-          ...(capped ? { shards } : {}),
-        };
-      } catch (err) {
-        return {
-          feed: feed.title,
-          fetched: 0,
-          inserted: 0,
-          truncated: 0,
-          error: err instanceof Error ? err.message : String(err),
-        };
+          shards.push({
+            day: shard.day,
+            fetched: items.length,
+            truncated: capped && items.length >= GOOGLE_NEWS_ITEM_CAP,
+          });
+        } catch (err) {
+          // Record which day failed and keep going: the remaining shards are
+          // independent fetches, and a later run (or a re-run) can revisit the
+          // failed day by date.
+          const message = err instanceof Error ? err.message : String(err);
+          errors.push(shard.day ? `${shard.day}: ${message}` : message);
+          shards.push({ day: shard.day, fetched: 0, truncated: false, error: message });
+        }
       }
+
+      return {
+        feed: feed.title,
+        fetched: shards.reduce((n, s) => n + s.fetched, 0),
+        inserted,
+        truncated: shards.filter((s) => s.truncated).length,
+        // Per-day counts for sharded feeds, so a day that came back capped (or
+        // empty) is visible rather than hidden inside a single total.
+        ...(capped ? { shards } : {}),
+        ...(errors.length > 0 ? { error: errors.join("; ") } : {}),
+      };
     }),
   );
 

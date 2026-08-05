@@ -7,6 +7,7 @@
 //
 //   npm run week:candidates                       -- the 7 days ending today
 //   npm run week:candidates -- --days 7 --end 2026-08-14
+//   npm run week:candidates -- --start 2026-08-08 --end 2026-08-14
 //   npm run week:candidates -- --limit 60 --out scratch/week.json
 //
 // Output is JSON (default scratch/week.json, gitignored). Nothing here decides
@@ -271,10 +272,17 @@ async function main() {
       threads: threads.length,
       news: news.length,
       culture: culture.length,
-      // Named, not silent: the routine should know what it isn't being shown.
+      // Named, not silent: the routine should know what it isn't being shown —
+      // the titles, not just a count, or "omitted" reads as "covered".
       omittedByLimit: {
-        news: Math.max(news.length - limit, 0),
-        culture: Math.max(culture.length - limit, 0),
+        news: {
+          count: Math.max(news.length - limit, 0),
+          titles: news.slice(limit).map((t) => t.title),
+        },
+        culture: {
+          count: Math.max(culture.length - limit, 0),
+          titles: culture.slice(limit).map((t) => t.title),
+        },
       },
     },
     news: news.slice(0, limit),
@@ -288,10 +296,11 @@ async function main() {
     `${out}: ${rows.length} candidates → ${threads.length} threads ` +
       `(${news.length} news, ${culture.length} culture) for ${start}..${end}`,
   );
-  if (payload.counts.omittedByLimit.news || payload.counts.omittedByLimit.culture) {
+  const omitted = payload.counts.omittedByLimit;
+  if (omitted.news.count || omitted.culture.count) {
     console.log(
-      `  capped at --limit ${limit}: omitted ${payload.counts.omittedByLimit.news} news, ` +
-        `${payload.counts.omittedByLimit.culture} culture`,
+      `  capped at --limit ${limit}: omitted ${omitted.news.count} news, ` +
+        `${omitted.culture.count} culture (titles listed in ${out})`,
     );
   }
   const multiDay = threads.filter((t) => t.daySpan > 1).length;

@@ -1,5 +1,6 @@
 // Fetch remote images (Wikimedia/open archives) as dithered PNGs at public/covers/<name>.png.
-// argv[2] = JSON map { "<name>": "<url>" }, e.g. "<slug>--historical-1"; throttled/retried, skips existing.
+// argv[2] = JSON map { "<name>": "<url>" }, e.g. "<slug>--a1"; throttled/retried, skips existing.
+// Names follow the positional convention in publish-weekly.md: analogy n (1-based) is <slug>--a<n>.
 
 import { access, mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";

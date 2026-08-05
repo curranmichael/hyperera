@@ -3,7 +3,7 @@
 //   npm run issue:publish                          -- reads scratch/issue.json
 //   npm run issue:publish -- scratch/issue.json
 //   npm run issue:publish -- --draft               -- stage it instead of publishing
-//   npm run issue:publish -- --replace             -- rewrite after a revision
+//   npm run issue:publish -- --replace             -- rewrite a staged DRAFT only
 //
 // The issue is published outright: the weekly routine composes and publishes in one
 // pass, and the site picks the new rows up on its next build. `--draft` stages one
@@ -218,6 +218,11 @@ async function validateStory(
   }
 
   await checkImage(raw.image, where);
+  // A stray missing `image` key would otherwise sail through: images are
+  // optional in the schema, but the format expects every story to ship a cover.
+  if (!raw.image) {
+    warnings.push(`${where}: no cover image — every story normally ships one`);
+  }
 
   const candidateIds = Array.isArray(raw.candidateIds) ? raw.candidateIds : [];
   if (candidateIds.length === 0) {
@@ -326,8 +331,17 @@ async function main() {
   if (existing) {
     if (existing.status === "published") {
       // Live content is never rewritten in place. Readers already have this issue's
-      // URLs, and a rewrite would silently change what they point at.
-      fail(`issue ${number} is already published — pick another number`);
+      // URLs, and a rewrite would silently change what they point at. The message
+      // matters: the realistic way to land here unattended is re-running after a
+      // LATER step failed, and the right move then is to continue, not to invent
+      // a new number for the same issue.
+      fail(
+        `issue ${number} is already published — published issues are never ` +
+          `rewritten (numbers are permanent; mistakes are fixed forward in the ` +
+          `next issue). If you are re-running after a failure in a later step, ` +
+          `the write already succeeded: do NOT publish again under another ` +
+          `number — continue with shipping the covers.`,
+      );
     } else if (!replace) {
       fail(
         `issue ${number} already exists as a draft — re-run with --replace to overwrite it`,

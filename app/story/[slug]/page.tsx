@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getRecentStorySlugs, getStoryBySlug } from "@/lib/stories.server";
+import {
+  getRecentStorySlugs,
+  getStoryBySlug,
+  PRERENDERED_ISSUES,
+} from "@/lib/stories.server";
 import { StoryView } from "@/app/components/StoryView";
-
-// Prerender the stories of recent issues at build time; anything older in the
-// archive renders on demand and is cached from then on, so build time stays flat
-// as the archive grows.
-const PRERENDERED_ISSUES = 8;
 
 export const dynamicParams = true;
 

@@ -45,19 +45,28 @@ follow-up to one of those ongoing stories, set threadId to that candidate's id. 
 is what lets the weekly pass compose one piece with an arc instead of four separate
 increments of the same story. Set threadId to null when a story is genuinely new.`;
 
+// Feed titles and summaries are untrusted text headed into a prompt whose line
+// structure is meaningful — a newline in a title could forge an `[index]`-shaped
+// line or a fake instruction block. Collapsing control characters keeps every
+// item on the line it was assigned; what remains is at worst odd words inside a
+// clearly-labelled item, which the schema and app-side index validation bound.
+function flat(text: string): string {
+  return text.replace(/[\u0000-\u001f\u007f\u2028\u2029]+/g, " ").trim();
+}
+
 export function triageUserPrompt(
   articles: TriageArticle[],
   recent: RecentCandidate[],
 ): string {
   const recentBlock = recent.length
-    ? recent.map((c) => `  [id ${c.id}] (${c.day}) ${c.title}`).join("\n")
+    ? recent.map((c) => `  [id ${c.id}] (${c.day}) ${flat(c.title)}`).join("\n")
     : "  (none — this is the first triage run)";
 
   const itemBlock = articles
     .map((a) => {
       const meta = [a.feed, a.kind, a.publishedAt].filter(Boolean).join(" · ");
-      const summary = a.summary ? `\n      ${a.summary}` : "";
-      return `  [${a.index}] ${a.title}\n      (${meta})${summary}`;
+      const summary = a.summary ? `\n      ${flat(a.summary)}` : "";
+      return `  [${a.index}] ${flat(a.title)}\n      (${meta})${summary}`;
     })
     .join("\n");
 

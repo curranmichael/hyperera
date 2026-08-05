@@ -19,7 +19,8 @@ manuscript page, a portrait, a title page — from Wikimedia Commons or an open 
 AI-generated. Omitted only when nothing rights-clean can be found.
 
 Hyperera publishes **one issue a week**, on Friday. It ran as a thrice-daily edition until August
-2026; those editions are preserved in the archive as issues 1–3.
+2026; the final daily editions are preserved in the archive as issues 1–5, and the weekly numbering
+continues from there.
 
 UI inspiration: the [Hyperera are.na channel](https://are.na/curran-dwyer/hyperera).
 
@@ -177,10 +178,11 @@ show up in a real issue.
 ### Publishing and the build
 
 Validation, not approval, is what stands between a composed issue and readers. `publish-issue.ts`
-refuses genres outside the vocabulary, analogy sets that aren't two-per-category, unresolvable links,
-missing lead, duplicate slugs, cover files absent from disk, and `candidateIds` that resolve to
-nothing. It reports every failure in one pass, because it runs at the end of a long composition and
-failing one at a time would mean six re-runs.
+refuses genres outside the vocabulary, analogy sets that aren't two-per-category, malformed links
+(well-formedness only — nothing here fetches an href, so link *resolution* is the composing
+routine's responsibility), missing lead, duplicate slugs, cover files absent from disk, and
+`candidateIds` that resolve to nothing. It reports every failure in one pass, because it runs at
+the end of a long composition and failing one at a time would mean six re-runs.
 
 Two properties keep an unattended publisher safe:
 
@@ -235,12 +237,19 @@ Builds run on pushes to `main`, as they always have. `claude/*` branches are ski
 build that matters. Cron schedules live in `vercel.json`; the weekly publish is a Claude routine, not
 a Vercel cron.
 
-**The routine's cloud environment** needs `DATABASE_URL` and `*.neon.tech` allowed under Custom
-network access — the [default allowlist](https://code.claude.com/docs/en/cloud-environments) covers
-package registries and GitHub, not database hosts. Cloud environments have no secrets store and their
-variables are readable by anyone using the environment, so the routine should hold a Neon role scoped
-to this database rather than the owner connection string. GitHub access goes through Anthropic's
-proxy and needs no token of its own.
+**The routine's cloud environment** needs two variables — `DATABASE_URL` and `AI_GATEWAY_API_KEY`
+(Step 4's cover generation) — and these hosts under Custom network access, since the
+[default allowlist](https://code.claude.com/docs/en/cloud-environments) covers package registries
+and GitHub but none of what the publish pass actually talks to:
+
+- `*.neon.tech` — `week:candidates` and `issue:publish`
+- `upload.wikimedia.org`, `commons.wikimedia.org` — analogy artwork for `dither-art.ts`
+- `ai-gateway.vercel.sh` — generated covers
+- `www.hyperera.news` — the Step 7 post-deploy check
+
+Cloud environments have no secrets store and their variables are readable by anyone using the
+environment, so the routine should hold a Neon role scoped to this database rather than the owner
+connection string. GitHub access goes through Anthropic's proxy and needs no token of its own.
 
 ## 9. Operating it
 
