@@ -144,13 +144,18 @@ Write `scratch/issue.json` in the shape documented at the top of
 `scripts/publish-issue.ts`, then:
 
 ```bash
-npm run issue:publish            # add --replace to rewrite after a revision
+npm run issue:publish            # --replace rewrites a staged --draft, never a published issue
 ```
 
-It validates before it writes: genres, six analogies two-per-category, resolvable
-links, exactly one lead, unique slugs, cover files actually present on disk, and that
-every `candidateIds` entry exists. It reports **all** problems at once — fix them and
-re-run rather than fixing one at a time.
+It validates before it writes: genres, six analogies two-per-category, well-formed
+http(s) links (it does **not** fetch them — verifying that every href actually
+resolves is your job in Step 3), exactly one lead, unique slugs, cover files actually
+present on disk, and that every `candidateIds` entry exists. It reports **all**
+problems at once — fix them and re-run rather than fixing one at a time.
+
+If it refuses because the issue is already published, that is the re-run-after-a-
+later-failure case: the write already succeeded. Do not publish again under a new
+number — continue with Step 6.
 
 Carry `candidateIds` through faithfully. It is what makes
 `story → candidates → articles → source URL` walkable, and it is the only link in that
