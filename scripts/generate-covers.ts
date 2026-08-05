@@ -18,9 +18,15 @@ import { getPublishedStories } from "../lib/stories.server";
 const OUT_DIR = join(process.cwd(), "public", "covers");
 
 const STYLE =
-  "Cinematic photographic still, dramatic natural light, shallow depth of field, " +
-  "evocative and atmospheric. Symbolic, not literal reportage. " +
-  "No text, no lettering. Simply a newsreel image.";
+  "Gritty documentary photojournalism shot on 35mm film, visible grain, " +
+  "available light only, muted desaturated color, imperfect handheld framing. " +
+  "Raw and unvarnished, like a field photographer's contact sheet — " +
+  "not staged, not glossy, no studio polish. Symbolic, not literal reportage. " +
+  "No text, no lettering. Simply a frame from the field.";
+// Cinematic alt:
+// "Cinematic photographic still, dramatic natural light, shallow depth of field,
+//  evocative and atmospheric. Symbolic, not literal reportage.
+//  No text, no lettering. Simply a newsreel image.";
 // Classical alt:
 // "Classical fine-art oil painting in the manner of the old masters. Rich
 //  chiaroscuro, painterly texture, evocative and timeless. Symbolic, not literal
