@@ -1,3 +1,4 @@
+import { timingSafeEqual } from "node:crypto";
 import { NextResponse } from "next/server";
 import { generateObject, jsonSchema } from "ai";
 import { desc, eq, gte, inArray, isNull, sql } from "drizzle-orm";
@@ -43,7 +44,9 @@ const SUMMARY_CHARS = 300;
 function isAuthorized(req: Request): boolean {
   const secret = process.env.CRON_SECRET;
   if (!secret) return false; // fail closed if unconfigured
-  return req.headers.get("authorization") === `Bearer ${secret}`;
+  const given = Buffer.from(req.headers.get("authorization") ?? "");
+  const expected = Buffer.from(`Bearer ${secret}`);
+  return given.length === expected.length && timingSafeEqual(given, expected);
 }
 
 function isoDay(d: Date): string {
@@ -94,7 +97,9 @@ export async function GET(req: Request) {
     .from(candidates)
     .where(gte(candidates.day, isoDay(lookback)))
     .orderBy(desc(candidates.day))
-    .limit(400);
+    // ~30 candidates land a day, so size the cap from the lookback with head-
+    // room: clipping the oldest days would silently split a running thread.
+    .limit(THREAD_LOOKBACK_DAYS * 60);
 
   const recent: RecentCandidate[] = recentRows.map((c) => ({
     id: c.id,
