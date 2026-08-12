@@ -125,6 +125,13 @@ export async function GET(req: Request) {
     // A day's worth of items can yield tens of candidates; a backfill far more.
     // The default output cap truncates the object and fails the parse.
     maxOutputTokens: 32000,
+    // The gateway enables extended thinking on claude-sonnet-5 by default, and
+    // thinking tokens draw down maxOutputTokens — a big batch spends the budget
+    // on reasoning and truncates the JSON mid-string. This pass is compression,
+    // not judgement; thinking adds latency and buys nothing here.
+    providerOptions: {
+      anthropic: { thinking: { type: "disabled" } },
+    },
   });
 
   // Build rows, dropping anything the model returned that doesn't resolve against
