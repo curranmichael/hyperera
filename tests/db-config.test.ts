@@ -1,6 +1,6 @@
 import { strict as assert } from "node:assert";
 import { describe, it } from "node:test";
-import { databaseConnectionString } from "../lib/db/config";
+import { databaseConnectionString, useEnvironmentProxy } from "../lib/db/config";
 
 const magazine = "postgresql://magazine:secret@magazine.neon.tech/neondb";
 const injected = "postgresql://integration:secret@stale.neon.tech/neondb";
@@ -52,5 +52,19 @@ describe("databaseConnectionString", () => {
       () => databaseConnectionString({ DATABASE_URL: "not-a-url" }),
       /not a valid Postgres connection string/,
     );
+  });
+});
+
+describe("useEnvironmentProxy", () => {
+  it("opts undici into HTTPS_PROXY when nothing has said otherwise", () => {
+    const env: Record<string, string | undefined> = {};
+    useEnvironmentProxy(env);
+    assert.equal(env.NODE_USE_ENV_PROXY, "1");
+  });
+
+  it("leaves an explicit setting alone", () => {
+    const env: Record<string, string | undefined> = { NODE_USE_ENV_PROXY: "0" };
+    useEnvironmentProxy(env);
+    assert.equal(env.NODE_USE_ENV_PROXY, "0");
   });
 });

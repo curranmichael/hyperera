@@ -4,7 +4,7 @@ import { Pool } from "pg";
 import { neonConfig, Pool as NeonPool } from "@neondatabase/serverless";
 import { attachDatabasePool } from "@vercel/functions/db-connections";
 import * as schema from "./schema";
-import { databaseConnectionString } from "./config";
+import { databaseConnectionString, useEnvironmentProxy } from "./config";
 
 // Lazily initialized so importing this module (e.g. while `next build` collects
 // route config) never requires a database credential — the pool is created on
@@ -32,6 +32,7 @@ function initWebSocket(connectionString: string): DB {
     );
   }
 
+  useEnvironmentProxy();
   neonConfig.webSocketConstructor ??= globalThis.WebSocket;
   const pool = new NeonPool({ connectionString });
   return drizzleWebSocket({ client: pool, schema }) as unknown as DB;
