@@ -27,6 +27,22 @@ function validateConnectionString(connectionString: string, source: string): str
 }
 
 /**
+ * Undici — and so `fetch` and `WebSocket` — reads HTTPS_PROXY only when
+ * NODE_USE_ENV_PROXY is set, and the weekly runner reaches Neon over WebSockets
+ * through exactly such a proxy. Setting it here rather than as an npm-script
+ * prefix covers every entry point into the database, including `images:dither`
+ * and `images:generate` (both read published stories) and any ad-hoc
+ * `node --import tsx scripts/…` invocation.
+ *
+ * `??=` so an explicit setting still wins, and the npm prefixes stay a no-op.
+ * Undici builds its dispatcher lazily on first request, so assigning this before
+ * the first connection is enough.
+ */
+export function useEnvironmentProxy(env: DatabaseEnvironment = process.env): void {
+  env.NODE_USE_ENV_PROXY ??= "1";
+}
+
+/**
  * Resolve the magazine database without letting a generic Neon integration
  * silently replace the weekly routine's configured target.
  *
