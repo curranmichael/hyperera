@@ -23,6 +23,11 @@ So the week is already compressed. Your job starts from candidates, not from RSS
 
 ## Step 1 — Read the week
 
+The routine's database credential is `HYPERERA_DATABASE_URL`, not the generic
+`DATABASE_URL`: cloud Neon integrations also inject that generic name and may point
+it at an unrelated project. Database traffic uses Neon WebSockets over HTTPS port
+443 because the runner has no Postgres TCP egress.
+
 ```bash
 npm run week:candidates
 ```
