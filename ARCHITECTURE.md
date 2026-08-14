@@ -228,7 +228,8 @@ Production.
 
 | Variable | Used by |
 | --- | --- |
-| `DATABASE_URL` | everything; required at build time as well as runtime |
+| `DATABASE_URL` | deployed app and local fallback; required at build time as well as runtime |
+| `HYPERERA_DATABASE_URL` | weekly cloud routine; deliberately wins over an integration-injected `DATABASE_URL` |
 | `CRON_SECRET` | `/api/ingest`, `/api/triage` — both fail closed when unset |
 | `AI_GATEWAY_API_KEY` | triage, cover generation |
 
@@ -237,19 +238,21 @@ Builds run on pushes to `main`, as they always have. `claude/*` branches are ski
 build that matters. Cron schedules live in `vercel.json`; the weekly publish is a Claude routine, not
 a Vercel cron.
 
-**The routine's cloud environment** needs two variables — `DATABASE_URL` and `AI_GATEWAY_API_KEY`
-(Step 4's cover generation) — and these hosts under Custom network access, since the
+**The routine's cloud environment** needs two variables — `HYPERERA_DATABASE_URL` and
+`AI_GATEWAY_API_KEY` (Step 4's cover generation) — and these hosts under Custom network access, since the
 [default allowlist](https://code.claude.com/docs/en/cloud-environments) covers package registries
 and GitHub but none of what the publish pass actually talks to:
 
-- `*.neon.tech` — `week:candidates` and `issue:publish`
+- `*.neon.tech` over HTTPS/WSS 443 — `week:candidates` and `issue:publish`
 - `upload.wikimedia.org`, `commons.wikimedia.org` — analogy artwork for `dither-art.ts`
 - `ai-gateway.vercel.sh` — generated covers
 - `www.hyperera.news` — the Step 7 post-deploy check
 
 Cloud environments have no secrets store and their variables are readable by anyone using the
 environment, so the routine should hold a Neon role scoped to this database rather than the owner
-connection string. GitHub access goes through Anthropic's proxy and needs no token of its own.
+connection string. The publication-specific variable name is intentional: `lib/db` refuses a
+generic `DATABASE_URL` outside Vercel when the surrounding variables show that a Neon integration
+injected it. GitHub access goes through Anthropic's proxy and needs no token of its own.
 
 ## 9. Operating it
 
