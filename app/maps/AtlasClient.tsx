@@ -111,7 +111,10 @@ export function AtlasClient({ locations }: AtlasClientProps) {
         location={location}
         activeEra={activeEra}
         overlayOpacity={overlayOpacity}
-        onTileError={setFailedEra}
+        onEraError={setFailedEra}
+        onEraRecovered={(era) =>
+          setFailedEra((current) => (current?.id === era.id ? null : current))
+        }
       />
 
       {failedEra && (
