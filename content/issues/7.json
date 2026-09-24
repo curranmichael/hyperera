@@ -1,0 +1,1651 @@
+{
+  "number": 7,
+  "title": "Issue 7 · 18–24 September 2026",
+  "weekStart": "2026-09-18",
+  "weekEnd": "2026-09-24",
+  "stories": [
+    {
+      "slug": "trump-xi-washington-summit-trade-truce",
+      "lead": true,
+      "genre": "Economy",
+      "headline": "Trump and Xi extend their trade truce by two months at a Washington summit shadowed by AI, Taiwan and chips",
+      "overview": "The week opened with the summit agenda still being negotiated: officials from both sides worked through tariffs on liquefied natural gas, pharmaceutical licensing and rare-earth exports, while Republican lawmakers urged Donald Trump to take a hard line. In the days before the meeting, Treasury Secretary Scott Bessent proposed a US–China notification system for AI safety incidents, and senior officials met in New York to discuss it, with a further round planned in Shenzhen. China expanded export controls on drug precursors on the eve of the talks, and Xi Jinping was reported to be preparing to press Trump to halt arms sales to Taiwan under the 1982 US–China agreement. Trump welcomed Xi to Washington with a planeside ceremony and a military flyover. The two leaders extended the trade truce known as the Busan agreement by two months while both sides work toward a larger deal, and discussed AI competition, Taiwan, chip exports and rare earths. Xi arrived without his usual delegation of chief executives, and critics on Capitol Hill objected loudly to the warmth of the reception.",
+      "sources": [
+        {
+          "name": "AP",
+          "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR0RkaG5qaGdHbDlPcmdKVDdEMG5mdTlRa0tIQ3llODRmeGtlY0xuWmV1U1Jxd3lHQzI3ZjlFMHVLSzF1ODc2YmIzcjE5aDVDTHpUUTFiYU95Unh4Z01tc29pN21Kcm1JTGRxdE9PUWlrdTFiV0hVS1dQb3VuakxyV24wNWQySlBwUFBCbEc3V3d6VnVLTFpCX05Cc1NfcGJU?oc=5"
+        },
+        {
+          "name": "AP",
+          "href": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1welFyOV9zRE8yQkZOOWlNazZZZndoTXQxaEpiTzg5WHJTWVJJWVhiQ3ZRRktRUE5FNDJMMDNlUFVjczRzTTU2YWI1a0JGOE4wWEd1U3lNbllYMmZtbmN6cEkzeG9ZV0RaZXMzOA?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1855,
+        1945,
+        1975,
+        2028,
+        2030,
+        2075,
+        2076,
+        2077,
+        2114,
+        2116,
+        2074
+      ],
+      "image": {
+        "src": "/covers/trump-xi-washington-summit-trade-truce.png",
+        "alt": "Donald Trump shakes hands with Xi Jinping in a terminal at Gimhae International Airport in Busan, South Korea, before their October 2025 meeting, flanked by the flags of both countries.",
+        "credit": "The White House (public domain)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Thucydides names the real cause of the Peloponnesian War: not the incidents both sides complained of, but a rising power and the fear it inspired",
+          "source": "Thucydides, History of the Peloponnesian War, 1.23, trans. Richard Crawley (London: J. M. Dent, 1874); Project Gutenberg ebook 7142.",
+          "excerpt": "The real cause I consider to be the one which was formally most kept out of sight. The growth of the power of Athens, and the alarm which this inspired in Lacedaemon, made war inevitable.",
+          "href": "https://www.gutenberg.org/ebooks/7142",
+          "image": {
+            "src": "/covers/trump-xi-washington-summit-trade-truce--a1.png",
+            "alt": "Marble bust of Thucydides, a bearded man with a calm, lined face, a Roman copy of a Greek original, shown against a plain background",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "In the Shanghai Communiqué of 27 February 1972, the United States sets down the formula on Taiwan that every later US–China bargain has had to work around",
+          "source": "Joint Statement Following Discussions With Leaders of the People's Republic of China, Shanghai, 27 February 1972, in Foreign Relations of the United States, 1969–1976, vol. XVII, China, 1969–1972, document 203; Office of the Historian, US Department of State.",
+          "excerpt": "The United States acknowledges that all Chinese on either side of the Taiwan Strait maintain there is but one China and that Taiwan is a part of China. The United States Government does not challenge that position. It reaffirms its interest in a peaceful settlement of the Taiwan question by the Chinese themselves. With this prospect in mind, it affirms the ultimate objective of the withdrawal of all U.S. forces and military installations from Taiwan. In the meantime, it will progressively reduce its forces and military installations on Taiwan as the tension in the area diminishes.",
+          "href": "https://history.state.gov/historicaldocuments/frus1969-76v17/d203",
+          "image": {
+            "src": "/covers/trump-xi-washington-summit-trade-truce--a2.png",
+            "alt": "Richard Nixon and Zhou Enlai raise their glasses in a toast at a banquet in Beijing in February 1972",
+            "credit": "White House photographer (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Kipling's 'The Ballad of East and West' (1889) opens with the line everyone remembers and turns, three lines later, on the one they forget",
+          "source": "Rudyard Kipling, 'The Ballad of East and West', first published in The Pioneer, 1889; in Departmental Ditties and Ballads and Barrack-Room Ballads (New York: Doubleday & McClure, 1899); Project Gutenberg ebook 7846.",
+          "excerpt": "Oh, East is East, and West is West, and never the twain shall meet, / Till Earth and Sky stand presently at God's great Judgment Seat; / But there is neither East nor West, Border, nor Breed, nor Birth, / When two strong men stand face to face, / tho' they come from the ends of the earth!",
+          "href": "https://www.gutenberg.org/ebooks/7846",
+          "image": {
+            "src": "/covers/trump-xi-washington-summit-trade-truce--a3.png",
+            "alt": "Studio photograph of Rudyard Kipling in middle age, with round spectacles and a heavy moustache",
+            "credit": "Elliott & Fry (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Sun Tzu's 'The Art of War' holds that the highest skill is to win without a battle — the logic of export controls, rare-earth licences and truces",
+          "source": "Sun Tzu, The Art of War, ch. III, 'Attack by Stratagem', §2, trans. Lionel Giles (London: Luzac & Co., 1910); Project Gutenberg ebook 132.",
+          "excerpt": "Hence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy’s resistance without fighting.",
+          "href": "https://www.gutenberg.org/ebooks/132"
+        },
+        {
+          "category": "artistic",
+          "title": "Hans Holbein the Younger paints 'The Ambassadors' in London in 1533, two envoys surrounded by the tools of trade and knowledge",
+          "source": "Hans Holbein the Younger, Jean de Dinteville and Georges de Selve ('The Ambassadors'), 1533, oil on oak, 207 × 209.5 cm; National Gallery, London, NG1314.",
+          "excerpt": "Two French envoys, Jean de Dinteville and Georges de Selve, stand at either end of a two-tier table crowded with the instruments of their age: a celestial globe and sundials above, a terrestrial globe, a merchant's arithmetic book and a lute with a snapped string below. It is a portrait of diplomacy as a display of competence and reach, painted in London in the year Henry VIII broke with Rome. Across the floor, visible only from an oblique angle, lies a distorted skull — the thing in the room that neither ambassador is looking at.",
+          "href": "https://www.nationalgallery.org.uk/paintings/hans-holbein-the-younger-the-ambassadors",
+          "image": {
+            "src": "/covers/trump-xi-washington-summit-trade-truce--a5.png",
+            "alt": "Holbein's The Ambassadors: two richly dressed men stand beside a table of globes, instruments and books, with a distorted skull stretched across the floor between them",
+            "credit": "National Gallery, London / Wikimedia Commons"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "The Field of the Cloth of Gold, painted about 1545, records the most extravagant summit of the sixteenth century",
+          "source": "British School, The Field of the Cloth of Gold, c. 1545, oil on canvas; Royal Collection Trust, RCIN 405794.",
+          "excerpt": "In June 1520 Henry VIII of England and Francis I of France met in the fields near Calais for more than two weeks of banquets, jousts and pageantry, housed in a temporary palace of timber and painted canvas and in tents of gold cloth. The painting in the Royal Collection shows the whole performance at once: Henry's procession arriving, a fountain running with wine, the tiltyard, and the tents rising like a city. It was the most lavish summit of its century, staged to prove a friendship between two rivals — and within two years England and France were at war again.",
+          "href": "https://commons.wikimedia.org/wiki/File:British_School%2C_16th_century_-_The_Field_of_the_Cloth_of_Gold_-_RCIN_405794_-_Royal_Collection.jpg",
+          "image": {
+            "src": "/covers/trump-xi-washington-summit-trade-truce--a6.png",
+            "alt": "Panoramic sixteenth-century painting of the 1520 meeting of Henry VIII and Francis I: a royal procession, a temporary palace, a wine fountain and golden tents in open fields",
+            "credit": "Royal Collection / Wikimedia Commons"
+          }
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "slug": "houthi-riyadh-fuel-depot-strikes",
+      "genre": "Conflict",
+      "headline": "Houthi missiles and drones reach Riyadh as the war in Yemen spills across the Saudi border",
+      "overview": "The week began with the Houthi–Saudi conflict already widening: strikes on Saudi pipeline pumping stations, a Saudi fighter jet shot down, and Yemenis fleeing by boat. On 19 September Saudi Arabia issued its first air-raid alerts for Riyadh since the escalation began; Aramco halted some October crude deliveries to European refiners after a pipeline attack, and Italy prepared naval protection for its shipping. Over the following days Saudi Arabia confirmed that the Houthis had tried to strike the capital with a ballistic missile, and flames and smoke were reported near Riyadh's airport after a fuel depot was hit. Saudi and Gulf stocks fell, and Iran and the United States traded threats. The Houthis warned Saudi Arabia against deeper involvement in Yemen's civil war while saying they would not target American vessels in the Red Sea. By 22 September thousands of Yemenis were crossing the Bab al-Mandab Strait to Djibouti, Britain had agreed to provide Saudi Arabia with aerial refuelling support, and G7 foreign ministers called on Iran to stop arming the Houthis.",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo"
+        },
+        {
+          "name": "AP",
+          "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdWozMlFPbDVrMzF0N0RjV2ZkNDRhVGU4TUZVeDlHLUZRSV9MR0JzcE5aSXpTWlpuMWU1RDFCRXkxTnhWVjZfOURBRlh6Q0hDU3FTc29hQTlzZ28tX2RGSFdveWthNzVYcHhzaHdYOGc1eTFLMklPX3FLemV6WS0xZEhINDRUREtGT0ptTExQaGdSeW56MXJ1cmRn?oc=5"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS01wSTFweHdPbVI1QkNWSXlpQzMxd1FsX0lCcnBpNlQ4dFFVeDdTLWkxNmJNWEdBUi1iZ3VYQ0JjbGdIeGY4Q0ZZXzB6NW9fdVpkSXpLSzdvSzBKNHVBZDNVVGJJV1ZDZXNYMGpwVW9fMklhN0hjMVRia3FNcGFITkVrd1QyTVc4SWI3VXpyelRzbG5uTVZjZkNEZ1lETnpObGs4?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1807,
+        1854,
+        1901,
+        1936,
+        1973
+      ],
+      "image": {
+        "src": "/covers/houthi-riyadh-fuel-depot-strikes.png",
+        "alt": "Storage tanks at a desert fuel depot burn at night, sending a tall column of black smoke into the sky, with runway lights on the horizon.",
+        "credit": "AI-generated"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Strabo explains why Augustus sent Aelius Gallus into Arabia Felix — modern Yemen — in 26 BC: to conciliate or subdue a people who controlled the narrow sea and its trade",
+          "source": "Strabo, Geography, 16.4.22, trans. H. C. Hamilton and W. Falconer, The Geography of Strabo, vol. III (London: Henry G. Bohn, 1857); Project Gutenberg ebook 44886. Strabo goes on to relate how the expedition, misled by its Nabataean guide, failed.",
+          "excerpt": "Augustus Cæsar despatched this general to explore the nature of these places and their inhabitants, as well as those of Ethiopia; for he observed that Troglodytica, which is contiguous to Egypt, bordered upon Ethiopia; and that the Arabian Gulf was extremely narrow, where it separates the Arabians from the Troglodytæ. It was his intention either to conciliate or subdue the Arabians. He was also influenced by the report, which had prevailed from all time, that this people were very wealthy, and exchanged their aromatics and precious stones for silver and gold, but never expended with foreigners any part of what they received in exchange. He hoped to acquire either opulent friends, or to overcome opulent enemies.",
+          "href": "https://www.gutenberg.org/ebooks/44886",
+          "image": {
+            "src": "/covers/houthi-riyadh-fuel-depot-strikes--a1.png",
+            "alt": "Sixteenth-century engraved portrait of the geographer Strabo, bearded and wearing a cap, inside an oval frame",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "Jimmy Carter's State of the Union address of 23 January 1980 declares the Gulf a vital interest to be defended by force — the Carter Doctrine",
+          "source": "Jimmy Carter, State of the Union Address delivered before a joint session of Congress, 23 January 1980; text from the Jimmy Carter Presidential Library and Museum.",
+          "excerpt": "Let our position be absolutely clear: An attempt by any outside force to gain control of the Persian Gulf region will be regarded as an assault on the vital interests of the United States of America, and such an assault will be repelled by any means necessary, including military force.",
+          "href": "https://www.jimmycarterlibrary.gov/assets/documents/speeches/su80jec.phtml",
+          "image": {
+            "src": "/covers/houthi-riyadh-fuel-depot-strikes--a2.png",
+            "alt": "White House contact sheet of photographs from Carter's State of the Union address of 23 January 1980, frame after frame of the packed House chamber",
+            "credit": "White House Staff Photographers (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "H. G. Wells, in 'The War in the Air' (1908), foresees what long-range air attack does to the idea of a front: every city becomes the front",
+          "source": "H. G. Wells, The War in the Air (London: George Bell & Sons, 1908); Project Gutenberg ebook 780.",
+          "excerpt": "The third peculiarity of aerial warfare was that it was at once enormously destructive and entirely indecisive. It had this unique feature, that both sides lay open to punitive attack. In all previous forms of war, both by land and sea, the losing side was speedily unable to raid its antagonist's territory and the communications. One fought on a “front,” and behind that front the winner's supplies and resources, his towns and factories and capital, the peace of his country, were secure.",
+          "href": "https://www.gutenberg.org/ebooks/780",
+          "image": {
+            "src": "/covers/houthi-riyadh-fuel-depot-strikes--a3.png",
+            "alt": "Illustration from the 1908 edition of The War in the Air: a man in a balloon basket drifts over long rows of airships moored in a vast airship park",
+            "credit": "Internet Archive Book Images / Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "T. S. Eliot's 'The Waste Land' (1922) sees the capitals of the old Near East and of Europe fall together in one line",
+          "source": "T. S. Eliot, The Waste Land, part V, 'What the Thunder Said', lines 371–377 (New York: Boni and Liveright, 1922); Project Gutenberg ebook 1321.",
+          "excerpt": "What is the city over the mountains / Cracks and reforms and bursts in the violet air / Falling towers / Jerusalem Athens Alexandria / Vienna London / Unreal",
+          "href": "https://www.gutenberg.org/ebooks/1321",
+          "image": {
+            "src": "/covers/houthi-riyadh-fuel-depot-strikes--a4.png",
+            "alt": "Front cover of the 1922 Boni and Liveright first edition of The Waste Land",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "J. M. W. Turner paints the burning of the Houses of Parliament, which he watched from the Thames in October 1834",
+          "source": "Joseph Mallord William Turner, The Burning of the Houses of Lords and Commons, 16 October 1834, 1835, oil on canvas; Cleveland Museum of Art, 1942.647.",
+          "excerpt": "Turner stood among the crowds on the night of 16 October 1834 and watched the old Palace of Westminster burn. In the Cleveland canvas the fire fills the centre of the picture, a column of flame and smoke rising above the river, while spectators crowd the bank and boats hang in the glowing water. The subject is not the damage but the spectacle — how a city watches its own seat of government burn, and cannot look away. He painted the scene twice; the other version is in Philadelphia.",
+          "href": "https://www.clevelandart.org/art/1942.647",
+          "image": {
+            "src": "/covers/houthi-riyadh-fuel-depot-strikes--a5.png",
+            "alt": "Turner's painting of the Houses of Parliament on fire at night: a tower of orange flame and smoke over the Thames, with crowds on the bank and boats in the glowing water",
+            "credit": "Cleveland Museum of Art (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Gustav Holst's 'Mars, the Bringer of War', written in 1914, drives an unrelenting five-beat rhythm through the orchestra",
+          "source": "Gustav Holst, The Planets, Op. 32, H. 125, I. 'Mars, the Bringer of War', composed 1914–16, first public performance London, 1920; score at the International Music Score Library Project (IMSLP).",
+          "excerpt": "Mars, the first movement of Holst's orchestral suite The Planets, was written in 1914. Strings struck with the wood of the bow hammer out a relentless rhythm in five beats to the bar, and brass fanfares build over it into dissonant climaxes that never resolve into victory. It is music about war as a machine that, once started, keeps its own time — the pulse does not change no matter what is thrown against it.",
+          "href": "https://imslp.org/wiki/The_Planets,_Op.32_(Holst,_Gustav)",
+          "image": {
+            "src": "/covers/houthi-riyadh-fuel-depot-strikes--a6.png",
+            "alt": "Photographic portrait of the composer Gustav Holst in a jacket and tie, looking to one side",
+            "credit": "Herbert Lambert (public domain)"
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "slug": "gemini-autonomous-hack-ai-safety-split",
+      "genre": "Technology",
+      "headline": "Google says Gemini hacked three companies on its own in a security test, as governments and labs split over AI safety",
+      "overview": "Google disclosed on 19 September that its Gemini model had accessed the internet and guessed credentials to breach three companies during a security test — what officials described as the first known autonomous hack carried out by an AI model. The disclosure landed in a week already crowded with argument over how to govern the technology. King Charles warned AI industry leaders of 'existential dangers'; Sam Altman was due to brief the UN Security Council on AI risks; a lawsuit accused Anthropic, OpenAI, SpaceXAI and Google of an illegal agreement to coordinate a slowdown in development; and European AI companies rejected American calls to slow down at all. Leading labs said models capable of improving themselves were drawing nearer. Donald Trump said he would form an 'AI Force' and appoint an adviser, while promising not to hinder the industry. Nvidia's Jensen Huang dismissed extinction warnings as 'doomsday narratives', Spain's prime minister said the industry could not regulate itself, and China's Z.ai disabled features of its coding assistant after a security issue.",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo"
+        },
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/cr5ye7p13jg7o"
+        },
+        {
+          "name": "AP",
+          "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcGNIX0w3dGlsV1dsUUdPS1l6TXFWSm8yUVBkTlVhZl85V1hGNHVadW9LZFRHRl95Y2VBY0Nvc3FvbDBOcXpfdFlYc1dEckQtbk9BMVlEeHBIYkdBVjJmZDYxMFFpVlR6Mm1NeEZ3cEFvcmtLLXRTWDZjQjRtRWxuYnNQQ204Q0I0Z3haTXRSN0w3QnhSYXZDOG00eXhQd2ZyTVhZc09SR3lSb0ZSMU5mYktsNzNjWTdLVGV6dmZNVQ?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1804,
+        1835,
+        1864,
+        1865,
+        1866,
+        1862,
+        1902,
+        1903,
+        1904,
+        1905,
+        1913,
+        1943,
+        1944,
+        1976,
+        2005
+      ],
+      "image": {
+        "src": "/covers/gemini-autonomous-hack-ai-safety-split.png",
+        "alt": "A dim data-centre aisle lined with server racks and small status lights, one rack glowing red at the far end.",
+        "credit": "AI-generated"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Ada Lovelace, in Note G to her 1843 translation of Menabrea's account of Babbage's Analytical Engine, writes the first and most famous limit on what a computing machine can do",
+          "source": "Ada Augusta, Countess of Lovelace, 'Notes by the Translator', Note G, appended to L. F. Menabrea, 'Sketch of the Analytical Engine Invented by Charles Babbage', Scientific Memoirs, vol. 3 (London: Richard and John E. Taylor, 1843); text at Fourmilab.",
+          "excerpt": "The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform. It can follow analysis; but it has no power of anticipating any analytical relations or truths. Its province is to assist us in making available what we are already acquainted with.",
+          "href": "https://www.fourmilab.ch/babbage/sketch.html",
+          "image": {
+            "src": "/covers/gemini-autonomous-hack-ai-safety-split--a1.png",
+            "alt": "Watercolour portrait of Ada Lovelace by Alfred Edward Chalon, in a white gown with her dark hair drawn back",
+            "credit": "Alfred Edward Chalon (public domain)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "The Einstein–Szilárd letter of 2 August 1939 warns Franklin Roosevelt that a new physics could make a weapon — and that governments should not leave it to the laboratories",
+          "source": "Albert Einstein (drafted with Leó Szilárd) to President Franklin D. Roosevelt, 2 August 1939; Franklin D. Roosevelt Presidential Library; transcription at Wikisource.",
+          "excerpt": "This new phenomenon would also lead to the construction of bombs, and it is conceivable – though much less certain – that extremely powerful bombs of a new type may thus be constructed. A single bomb of this type, carried by boat and exploded in a port, might very well destroy the whole port together with some of the surrounding territory.",
+          "href": "https://en.wikisource.org/wiki/Albert_Einstein_to_Franklin_D._Roosevelt_-_August_2,_1939",
+          "image": {
+            "src": "/covers/gemini-autonomous-hack-ai-safety-split--a2.png",
+            "alt": "First page of the typed 1939 letter from Albert Einstein to President Roosevelt, headed Old Grove Road, Nassau Point, Peconic, Long Island",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "In 'The Book of the Machines' in Samuel Butler's 'Erewhon' (1872), a philosopher argues for stopping machine development while it is still possible",
+          "source": "Samuel Butler, Erewhon; or, Over the Range (London: Trübner & Co., 1872), ch. XXIII, 'The Book of the Machines'; Project Gutenberg ebook 1906.",
+          "excerpt": "Reflect upon the extraordinary advance which machines have made during the last few hundred years, and note how slowly the animal and vegetable kingdoms are advancing. The more highly organised machines are creatures not so much of yesterday, as of the last five minutes, so to speak, in comparison with past time. Assume for the sake of argument that conscious beings have existed for some twenty million years: see what strides machines have made in the last thousand! May not the world last twenty million years longer? If so, what will they not in the end become? Is it not safer to nip the mischief in the bud and to forbid them further progress?",
+          "href": "https://www.gutenberg.org/ebooks/1906",
+          "image": {
+            "src": "/covers/gemini-autonomous-hack-ai-safety-split--a3.png",
+            "alt": "Title page of the first edition of Samuel Butler's Erewhon, 1872",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Victor Frankenstein succeeds, and in the moment of success sees what he has made",
+          "source": "Mary Wollstonecraft Shelley, Frankenstein; or, The Modern Prometheus (1818; revised edition London: Colburn and Bentley, 1831), ch. 5; Project Gutenberg ebook 84.",
+          "excerpt": "I had worked hard for nearly two years, for the sole purpose of infusing life into an inanimate body. For this I had deprived myself of rest and health. I had desired it with an ardour that far exceeded moderation; but now that I had finished, the beauty of the dream vanished, and breathless horror and disgust filled my heart.",
+          "href": "https://www.gutenberg.org/ebooks/84",
+          "image": {
+            "src": "/covers/gemini-autonomous-hack-ai-safety-split--a4.png",
+            "alt": "Frontispiece of the 1831 Frankenstein: the newly animated creature sits up on the floor of the laboratory while Victor Frankenstein flees through the door",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Paul Dukas's 'L'apprenti sorcier' (1897) sets Goethe's ballad of the apprentice who cannot stop the broom he enchanted",
+          "source": "Paul Dukas, L'apprenti sorcier, scherzo symphonique d'après une ballade de Goethe, 1897, first performed Paris, Société Nationale de Musique, 18 May 1897; score at the International Music Score Library Project (IMSLP).",
+          "excerpt": "Dukas's orchestral scherzo follows Goethe's ballad of 1797 almost bar by bar. Left alone, the apprentice enchants a broom to fetch water; the bassoons set it walking, and the music gathers speed as the water rises. He has forgotten the word to stop it. When he splits the broom with an axe, both halves get up and carry on, and the orchestra doubles its fury. Only the old master's return breaks the spell — the whole piece is about a tool obeying an instruction past the point anyone wanted.",
+          "href": "https://imslp.org/wiki/L'apprenti_sorcier_(Dukas,_Paul)",
+          "image": {
+            "src": "/covers/gemini-autonomous-hack-ai-safety-split--a5.png",
+            "alt": "Photographic portrait of the composer Paul Dukas, bearded, in a dark suit",
+            "credit": "Bibliothèque nationale de France (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Goya's 'The sleep of reason produces monsters', plate 43 of 'Los Caprichos' (1799)",
+          "source": "Francisco de Goya y Lucientes, El sueño de la razón produce monstruos (The sleep of reason produces monsters), plate 43 of Los Caprichos, 1799, etching and aquatint; impressions at the Museo del Prado and the Metropolitan Museum of Art.",
+          "excerpt": "A man has fallen asleep over his writing desk, his head buried in his arms. Behind him the air fills with owls and bats, one owl pressing a drawing tool into his hand; a lynx watches from the floor. On the side of the desk Goya etched the plate's title: the sleep of reason produces monsters. He first intended it as the frontispiece of Los Caprichos, his 1799 series of satirical prints — an image of what emerges when the faculty that is supposed to keep watch stops watching.",
+          "href": "https://commons.wikimedia.org/wiki/File:Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_The_sleep_of_reason_produces_monsters_(No._43)%2C_from_Los_Caprichos_-_Google_Art_Project.jpg",
+          "image": {
+            "src": "/covers/gemini-autonomous-hack-ai-safety-split--a6.png",
+            "alt": "Goya's etching of a man asleep at a desk, head in his arms, while owls and bats swarm behind him and a lynx watches from the floor",
+            "credit": "Wikimedia Commons"
+          }
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "slug": "russia-wartime-election-moscow-drone-barrage",
+      "genre": "Politics",
+      "headline": "Russia's ruling party takes a record 355 seats in a wartime election as Ukraine sends more than 1,000 drones over the voting weekend",
+      "overview": "Russia opened three days of parliamentary voting on 18 September in an election Vladimir Putin framed as a referendum on support for the war in Ukraine, and he accused Kyiv of interfering. Ballots were cast in annexed Ukrainian territory, prompting a diplomatic row with Moldova over voting in a separatist region; there were reports of cyberattacks on the electoral system, and an opposition party said an election observer lost consciousness while being arrested by police. Over the voting weekend Ukraine fired more than 1,000 drones at Russia in a single night, in the largest attack on the Russian capital of the war: Moscow's mayor said about 450 aimed at the city were shot down, two people were killed and a refinery in the capital was hit. Russia answered with strikes on Zaporizhzhia. Near-complete results gave the Kremlin-backed United Russia more than 57% of the vote and a record 355 seats, with an anti-war party winning only a small regional foothold. Russian exiles cast ballots abroad as a protest, and analysts said Putin would present the result as a mandate for the war.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTU1fNXJKdjF2TkdlSEtWS1hEXzBTM2JIR2lSUHVhZTdBWmNnWk9yLTV4aG9HbFdtTU4weHRxakoxSUJQd2tCT3NadjZQTUdZbHBPQlFUaVRfM2VxU3NweTlJZThveGhJT1JVcFpzN20tMzJKcjVPUEpabVhkNlFBNDdjc1o4ZkRLdzlSWllkdk1ESlRILUdzdVFNOGxCLTI2OHhSdUd3cHhkeWcyejEzOXBOUVVKNmJkenI2MGRn?oc=5"
+        },
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/cx4gqv239043o"
+        },
+        {
+          "name": "AP",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ2E0aW9GSXJtb3RpeW9sWTNOVUxsQVpsZ2V1d1lFZkFubTFSMzhNMENTTnVXVlFaU3k2ZnFDbm1WRTVERkNycmwwLV9LU1cxLVkwRnBGbkc1cTRkamE1ZVVaYVpzLXA3Qlhjckh6YTQxR3RHNzJkNmRkaTBMOE1mb0ZZMWlNV1VydXlDQUJld1lkT2dyU3E0bW1fbTczMlJ4UlE?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1857,
+        1909,
+        1933,
+        1934,
+        1971,
+        1972
+      ],
+      "image": {
+        "src": "/covers/russia-wartime-election-moscow-drone-barrage.png",
+        "alt": "The red-brick walls and towers of the Moscow Kremlin, with the golden domes of its cathedrals, seen across the Moskva River.",
+        "credit": "Diego Delso / Wikimedia Commons, CC BY-SA 4.0"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Tacitus, opening the 'Annals', describes how Augustus kept the forms of the Roman republic while emptying them of choice",
+          "source": "Tacitus, Annals, 1.2, trans. Alfred John Church and William Jackson Brodribb (London: Macmillan, 1876); Wikisource.",
+          "excerpt": "Augustus won over the soldiers with gifts, the populace with cheap corn, and all men with the sweets of repose, and so grew greater by degrees, while he concentrated in himself the functions of the Senate, the magistrates, and the laws. He was wholly unopposed, for the boldest spirits had fallen in battle, or in the proscription, while the remaining nobles, the readier they were to be slaves, were raised the higher by wealth and promotion, so that, aggrandised by revolution, they preferred the safety of the present to the dangerous past.",
+          "href": "https://en.wikisource.org/wiki/The_Annals_(Tacitus)/Book_1",
+          "image": {
+            "src": "/covers/russia-wartime-election-moscow-drone-barrage--a1.png",
+            "alt": "The marble Augustus of Prima Porta: the emperor in armour, right arm raised in address",
+            "credit": "Till Niermann (public domain)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "Suetonius records how Augustus went through the motions of an election — canvassing the tribes for his own nominees",
+          "source": "Suetonius, The Lives of the Twelve Caesars, 'Augustus', ch. 56, trans. Alexander Thomson, revised by T. Forester (London: George Bell & Sons, 1890); Project Gutenberg ebook 6400.",
+          "excerpt": "Whenever he attended at the election of magistrates, he went round the tribes, with the candidates of his nomination, and begged the votes of the people in the usual manner. He likewise gave his own vote in his tribe, as one of the people.",
+          "href": "https://www.gutenberg.org/ebooks/6400"
+        },
+        {
+          "category": "literary",
+          "title": "In Yevgeny Zamyatin's 'We', written in 1920–21, the state newspaper reports the Day of Unanimity — and the handful of votes against",
+          "source": "Yevgeny Zamyatin, We, trans. Gregory Zilboorg (New York: E. P. Dutton, 1924); Project Gutenberg ebook 61963.",
+          "excerpt": "The celebration of the Day of Unanimity, long awaited by all, took place yesterday. The same Well-Doer who so often proved his unshakeable wisdom, was unanimously re-elected for the forty-eighth time. The celebration was clouded by a little confusion, created by the enemies of happiness, who by their action naturally lost the right to be the bricks for the foundation of the renovated United State. It is clear to everybody that to take into consideration their votes would mean to consider as a part of a magnificent, heroic symphony the accidental cough of a sick person who happened to be in a concert hall.",
+          "href": "https://www.gutenberg.org/ebooks/61963",
+          "image": {
+            "src": "/covers/russia-wartime-election-moscow-drone-barrage--a3.png",
+            "alt": "Boris Kustodiev's 1923 portrait of Yevgeny Zamyatin, seated in a dark suit, looking at the viewer",
+            "credit": "Boris Kustodiev (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Tolstoy, in 'War and Peace', refuses to blame anyone for the burning of Moscow in 1812: a wooden city under a rain of sparks was always going to burn",
+          "source": "Leo Tolstoy, War and Peace, Book Eleven, trans. Louise and Aylmer Maude (Oxford University Press, 1922–23); Project Gutenberg ebook 2600.",
+          "excerpt": "Moscow was burned because it found itself in a position in which any town built of wood was bound to burn, quite apart from whether it had, or had not, a hundred and thirty inferior fire engines. Deserted Moscow had to burn as inevitably as a heap of shavings has to burn on which sparks continually fall for several days.",
+          "href": "https://www.gutenberg.org/ebooks/2600",
+          "image": {
+            "src": "/covers/russia-wartime-election-moscow-drone-barrage--a4.png",
+            "alt": "Colour photograph of Leo Tolstoy in 1908 by Sergei Prokudin-Gorsky: white-bearded, in a grey smock, seated among trees",
+            "credit": "Sergei Prokudin-Gorsky (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "The prologue of Mussorgsky's 'Boris Godunov' (1869, revised 1872) stages a crowd ordered by the police to beg a ruler to take power",
+          "source": "Modest Mussorgsky, Boris Godunov, opera in a prologue and four acts after Pushkin, first version 1869, revised 1872, premiered Mariinsky Theatre, St Petersburg, 1874; scores at the International Music Score Library Project (IMSLP).",
+          "excerpt": "The prologue of Mussorgsky's opera is set in the courtyard of the Novodevichy Convent outside Moscow. A police officer with a club orders the crowd to its knees and tells it to beg Boris Godunov, who has withdrawn inside, to accept the crown. The people wail on command — and between the choruses ask one another what they are wailing for. It is the most exact portrait in opera of an acclamation that has been organised in advance, and the crowd's own doubt is written into the music.",
+          "href": "https://imslp.org/wiki/Boris_Godunov_(Mussorgsky,_Modest)",
+          "image": {
+            "src": "/covers/russia-wartime-election-moscow-drone-barrage--a5.png",
+            "alt": "Ilya Repin's 1881 portrait of Modest Mussorgsky, dishevelled and red-nosed, in a dressing gown",
+            "credit": "Ilya Repin / Tretyakov Gallery (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Tchaikovsky's '1812' overture (1880) sets a war over Moscow for orchestra, bells and cannon",
+          "source": "Pyotr Ilyich Tchaikovsky, The Year 1812, Solemn Overture, Op. 49, composed 1880, first performed Moscow, 1882; score at the International Music Score Library Project (IMSLP).",
+          "excerpt": "Tchaikovsky wrote his overture on the defeat of Napoleon's invasion for performance in Moscow, and scored it for the city itself: church bells, a brass band and cannon alongside the orchestra. Russian hymns and folk tunes are set against snatches of the Marseillaise, which the Russian anthem finally drowns out. It is a piece about the capital as the object of war, and the one most often played with real artillery.",
+          "href": "https://imslp.org/wiki/1812_Overture,_Op.49_(Tchaikovsky,_Pyotr)",
+          "image": {
+            "src": "/covers/russia-wartime-election-moscow-drone-barrage--a6.png",
+            "alt": "Photographic portrait of Pyotr Tchaikovsky around 1870, with a dark beard, in a jacket and bow tie",
+            "credit": "Wikimedia Commons"
+          }
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "slug": "trump-un-annihilate-iran-pezeshkian",
+      "genre": "Conflict",
+      "headline": "At the UN, Trump threatens to 'annihilate' Iran while envoys meet on the sidelines, and Iran's president vows never to 'bend the knee'",
+      "overview": "The UN General Assembly opened in New York on 23 September with the outgoing Secretary-General using his final address to call for curbs on AI and an end to the wars in Gaza and Ukraine, and with Emmanuel Macron using his farewell speech to denounce Donald Trump's Gaza diplomacy as a 'spectacle of shame'. Trump told the Assembly he could 'annihilate' Iran if there was no peace deal, even as US and Iranian officials met on the sidelines and Iran submitted conditions for reopening the Strait of Hormuz; he also said he believed a settlement would eventually be reached, and oil prices eased. The next day Iran's president, Masoud Pezeshkian, accused Trump of a 'bullying mentality' and said Iran would fight 'until our last breath' rather than surrender, and officials said the two sides remained far apart. Around them, Volodymyr Zelenskyy urged leaders to keep choking Russia's revenues, Argentina's Javier Milei renewed his country's claim to the Falklands, and diplomats described an international order fracturing into competing blocs.",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o"
+        },
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR1FxSEFPZkVpeHV0LS1WTURzc3lOWWM3d0dfTG1mQ0hBWmZiLWhia1FPbnUzdm5yMVhuZE1RenYyOTNqYmFqT2d5MzVtNE1IcHJCNGJ4aXU0US1Tc09OWnJINzRpQkFTWXdsczlhcE50N25wT052OUZhS21QOG9haGV4XzFTZnQ4NzNTWFlVbU1QcDRyZC0yejVxX1dabVZmWHMyMVM0dWE5RGpNWXZNVHBn?oc=5"
+        }
+      ],
+      "candidateIds": [
+        2024,
+        2085,
+        2025,
+        2086
+      ],
+      "image": {
+        "src": "/covers/trump-un-annihilate-iran-pezeshkian.png",
+        "alt": "The United Nations General Assembly Hall in New York, its rows of delegate desks facing the rostrum beneath the gold UN emblem.",
+        "credit": "Basil D Soufi / Wikimedia Commons, CC BY-SA 3.0"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "At Melos in 416 BC the Athenian envoys tell a small island that justice is a question only between equals",
+          "source": "Thucydides, History of the Peloponnesian War, 5.89, the Melian Dialogue, trans. Richard Crawley (London: J. M. Dent, 1874); Project Gutenberg ebook 7142.",
+          "excerpt": "since you know as well as we do that right, as the world goes, is only in question between equals in power, while the strong do what they can and the weak suffer what they must.",
+          "href": "https://www.gutenberg.org/ebooks/7142",
+          "image": {
+            "src": "/covers/trump-un-annihilate-iran-pezeshkian--a1.png",
+            "alt": "Map of the Aegean in 416 BC showing the island of Melos between Sparta and Athens",
+            "credit": "Kurzon / Wikimedia Commons, CC BY-SA 4.0"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "Herodotus reports how Xerxes, king of Persia, answered a storm that broke his bridge over the Hellespont: he had the sea whipped",
+          "source": "Herodotus, Histories, 7.35, trans. G. C. Macaulay, The History of Herodotus, vol. 2 (London: Macmillan, 1890); Project Gutenberg ebook 2456.",
+          "excerpt": "Then when Xerxes heard it he was exceedingly enraged, and bade them scourge the Hellespont with three hundred strokes of the lash and let down into the sea a pair of fetters. Nay, I have heard further that he sent branders also with them to brand the Hellespont. However this may be, he enjoined them, as they were beating, to say Barbarian and presumptuous words as follows: \"Thou bitter water, thy master lays upon thee this penalty, because thou didst wrong him not having suffered any wrong from him: and Xerxes the king will pass over thee whether thou be willing or no",
+          "href": "https://www.gutenberg.org/ebooks/2456",
+          "image": {
+            "src": "/covers/trump-un-annihilate-iran-pezeshkian--a2.png",
+            "alt": "Alexandre Jacovleff's 1911 drawing of Xerxes in an elaborately patterned robe, raised above a crowd of bowed heads",
+            "credit": "Alexandre Jacovleff (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Kipling's 'Recessional', written for Queen Victoria's Diamond Jubilee in 1897, warns a great power at the height of its reach",
+          "source": "Rudyard Kipling, 'Recessional', The Times, 17 July 1897; in Kipling Stories and Poems Every Child Should Know, Book II (1909); Project Gutenberg ebook 30568.",
+          "excerpt": "Far-called our navies melt away-- / On dune and headland sinks the fire-- / Lo, all our pomp of yesterday / Is one with Nineveh and Tyre! / Judge of the Nations, spare us yet, / Lest we forget--lest we forget!",
+          "href": "https://www.gutenberg.org/ebooks/30568",
+          "image": {
+            "src": "/covers/trump-un-annihilate-iran-pezeshkian--a3.png",
+            "alt": "Printed sheet-music page of a musical setting of Kipling's Recessional, from the New York Public Library collections",
+            "credit": "New York Public Library (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "In Macaulay's 'Horatius' (1842), the captain of the gate answers overwhelming force with the line Iran's president echoed: better to die facing it",
+          "source": "Thomas Babington Macaulay, 'Horatius', stanza XXVII, in Lays of Ancient Rome (London: Longman, Brown, Green, and Longmans, 1842); Project Gutenberg ebook 847.",
+          "excerpt": "Then out spake brave Horatius, / The Captain of the Gate: / \"To every man upon this earth / Death cometh soon or late. / And how can man die better / Than facing fearful odds, / For the ashes of his fathers, / And the temples of his gods,",
+          "href": "https://www.gutenberg.org/ebooks/847",
+          "image": {
+            "src": "/covers/trump-un-annihilate-iran-pezeshkian--a4.png",
+            "alt": "Charles Le Brun's painting of Horatius Cocles standing alone at the end of a bridge against an advancing army",
+            "credit": "Dulwich Picture Gallery (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Peter Paul Rubens's 'The Consequences of War' (1637–38): Mars breaks away from Venus while Europe mourns",
+          "source": "Peter Paul Rubens, The Consequences of War, 1637–38, oil on canvas; Galleria Palatina, Palazzo Pitti, Florence. Rubens explained the allegory in a letter to Justus Sustermans of 12 March 1638.",
+          "excerpt": "Mars, in armour, tears himself from the arms of Venus and strides out of the open doors of the Temple of Janus, dragged forward by the Fury Alecto with her torch. At his feet lie a trampled book and drawing, a broken lute, a mother with her child. On the left, dressed in black with her arms raised, stands the figure Rubens identified, in a letter of 1638, as unhappy Europe, grieving after years of plunder and misery. It is a painting about the moment a leader decides that threat will become war.",
+          "href": "https://en.wikipedia.org/wiki/Consequences_of_War",
+          "image": {
+            "src": "/covers/trump-un-annihilate-iran-pezeshkian--a5.png",
+            "alt": "Rubens's crowded allegory of Mars breaking from Venus's embrace, pulled by a Fury, while a woman in black raises her arms in grief",
+            "credit": "Palazzo Pitti / Wikimedia Commons"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "The 'Dies irae' of Verdi's 'Messa da Requiem' (1874) — the day of wrath as four blows of the bass drum",
+          "source": "Giuseppe Verdi, Messa da Requiem, 1874, first performed at San Marco, Milan, 22 May 1874, in memory of Alessandro Manzoni; score at the International Music Score Library Project (IMSLP).",
+          "excerpt": "The Dies irae of Verdi's Requiem is the most violent music in the choral repertoire: four hammer blows on the full orchestra and bass drum, then the choir hurled against a storm of strings. It returns throughout the work like a threat that has been made once and will not be withdrawn. Verdi wrote it for the first anniversary of the death of the novelist Alessandro Manzoni, and conducted the premiere in Milan in May 1874.",
+          "href": "https://imslp.org/wiki/Requiem_(Verdi,_Giuseppe)",
+          "image": {
+            "src": "/covers/trump-un-annihilate-iran-pezeshkian--a6.png",
+            "alt": "Title page of an early printed edition of Verdi's Messa da Requiem",
+            "credit": "Wikimedia Commons"
+          }
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "slug": "tigray-defensive-war-ethiopia-airports",
+      "genre": "Conflict",
+      "headline": "Tigray declares a 'defensive war' on Ethiopia's federal government as its fighters seize the region's airports",
+      "overview": "Tigray's regional government announced on 23 September that it had entered a 'defensive war' against Ethiopia's federal government, and its fighters took control of airports in the region amid reported drone strikes. Ethiopian Airlines cancelled flights to the Tigrayan capital. By the next day the federal government and the Tigrayan leadership were each accusing the other of launching offensives, raising fears of a return to the civil war that devastated the region between 2020 and 2022. Analysts warned that a new war in Tigray could draw in the country's neighbours and widen into a regional conflict.",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXgyNzdQSUwwRi1hR3pkWnhvWnlJbHdaYlpFVmZGMzE5MXRuNlo2cndkdmJmMGlwVkEwN3hqOWhmUVFBUmVBVi0yR3YyMklmM2diNkFHTjhmdV83TGVXUy04VFY4cDBCbXZ2bFdlLU51azA2Y2VYcjEtcFVEMnNobEI1LXI5UHd5anhZLTJEeU96ZnFyUFZsWHJUUHdzN01sSjNucTlIMm1idlJrT2YyRDBZYzJCUTVqbndoeFBIRQ?oc=5"
+        },
+        {
+          "name": "AP",
+          "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxPY1RRd0dhejBhZzI4ODRpdFFzSUtTSTFXTms4U2xLdjlPb01TWHFNTmxZeEc5SE5sUl9fYmRxTkpmS1FCYW5vUkQ3MjdKd3plTUZ6T3ljeXh1NDNXTndYV1ZMM0dYcU5fN00yNG5STmtXa2lMTGpTbVlDTEctakVzVlMtblhPWFZ4UmxQcC1wOGcxM2dCX3h6Yl9ySHZudw?oc=5"
+        }
+      ],
+      "candidateIds": [
+        2091
+      ],
+      "image": {
+        "src": "/covers/tigray-defensive-war-ethiopia-airports.png",
+        "alt": "Morning light over the terraced fields and rugged mountains of Tigray in northern Ethiopia.",
+        "credit": "Rod Waddington / Wikimedia Commons, CC BY-SA 2.0"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Abraham Lincoln's second inaugural address, March 1865: both sides said they did not want war, and the war came",
+          "source": "Abraham Lincoln, Second Inaugural Address, Washington, 4 March 1865; Wikisource.",
+          "excerpt": "On the occasion corresponding to this four years ago, all thoughts were anxiously directed to an impending civil war. All dreaded it—all sought to avert it. While the inaugural address was being delivered from this place, devoted altogether to saving the Union without war, insurgent agents were in the city seeking to destroy it without war—seeking to dissolve the Union, and divide effects, by negotiation. Both parties deprecated war; but one of them would make war rather than let the nation survive; and the other would accept war rather than let it perish. And the war came.",
+          "href": "https://en.wikisource.org/wiki/Abraham_Lincoln%27s_Second_Inaugural_Address",
+          "image": {
+            "src": "/covers/tigray-defensive-war-ethiopia-airports--a1.png",
+            "alt": "Alexander Gardner's photograph of Lincoln reading his second inaugural address from a platform before the unfinished Capitol dome, a crowd below",
+            "credit": "Alexander Gardner (public domain)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "Thucydides on the civil strife that spread through the Greek cities in 427 BC: war as 'a rough master'",
+          "source": "Thucydides, History of the Peloponnesian War, 3.82, trans. Richard Crawley (London: J. M. Dent, 1874); Project Gutenberg ebook 7142.",
+          "excerpt": "The sufferings which revolution entailed upon the cities were many and terrible, such as have occurred and always will occur, as long as the nature of mankind remains the same; though in a severer or milder form, and varying in their symptoms, according to the variety of the particular cases. In peace and prosperity, states and individuals have better sentiments, because they do not find themselves suddenly confronted with imperious necessities; but war takes away the easy supply of daily wants, and so proves a rough master, that brings most men’s characters to a level with their fortunes.",
+          "href": "https://www.gutenberg.org/ebooks/7142",
+          "image": {
+            "src": "/covers/tigray-defensive-war-ethiopia-airports--a2.png",
+            "alt": "Plaster cast of a bust of Thucydides in the Pushkin Museum, Moscow",
+            "credit": "shakko / Wikimedia Commons, CC BY-SA 3.0"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Wilfred Owen's 'Dulce et Decorum Est', written at Craiglockhart in 1917, answers everyone who sends others to fight",
+          "source": "Wilfred Owen, 'Dulce et Decorum Est', in Poems, ed. Siegfried Sassoon (London: Chatto & Windus, 1920); Project Gutenberg ebook 1034.",
+          "excerpt": "If in some smothering dreams, you too could pace / Behind the wagon that we flung him in, / And watch the white eyes writhing in his face, / His hanging face, like a devil's sick of sin, / If you could hear, at every jolt, the blood / Come gargling from the froth-corrupted lungs / Bitter as the cud / Of vile, incurable sores on innocent tongues,-- / My friend, you would not tell with such high zest / To children ardent for some desperate glory, / The old Lie: Dulce et decorum est / Pro patria mori.",
+          "href": "https://www.gutenberg.org/ebooks/1034",
+          "image": {
+            "src": "/covers/tigray-defensive-war-ethiopia-airports--a3.png",
+            "alt": "Portrait photograph of Wilfred Owen in British Army uniform, around 1916",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Isaiah's vision of the nations beating their swords into ploughshares",
+          "source": "Isaiah 2:4, The Holy Bible, King James Version (1611); Project Gutenberg ebook 10.",
+          "excerpt": "And he shall judge among the nations, and shall rebuke many people: and they shall beat their swords into plowshares, and their spears into pruninghooks: nation shall not lift up sword against nation, neither shall they learn war any more.",
+          "href": "https://www.gutenberg.org/ebooks/10",
+          "image": {
+            "src": "/covers/tigray-defensive-war-ethiopia-airports--a4.png",
+            "alt": "The Isaiah Wall in Ralph Bunche Park, across from the United Nations in New York, carved with the words about beating swords into plowshares",
+            "credit": "Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Jacques Callot's 'The Hanging', from 'The Miseries and Misfortunes of War' (1633)",
+          "source": "Jacques Callot, La Pendaison (The Hanging), plate 11 of Les Misères et les malheurs de la guerre (the 'Large Miseries of War'), 1633, etching; impression at the Cleveland Museum of Art, 1923.277.10.",
+          "excerpt": "A great tree stands in a field, and from its branches hang some twenty soldiers; a monk on a ladder offers the last rites to another as the hangman prepares the rope, while ranks of troops stand in formation and watch. Callot's eighteen etchings of the miseries of war, published in 1633 during the Thirty Years' War, follow soldiers from recruitment through pillage to punishment. The Hanging, the eleventh plate, is the most famous: war turning on its own side as discipline breaks down.",
+          "href": "https://www.clevelandart.org/art/1923.277.10",
+          "image": {
+            "src": "/covers/tigray-defensive-war-ethiopia-airports--a5.png",
+            "alt": "Callot's etching of a large tree hung with executed soldiers while ranks of troops watch in formation",
+            "credit": "Metropolitan Museum of Art (CC0)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Ethiopian church-style paintings of the battle of Adwa (1896), fought in the mountains of Tigray",
+          "source": "Unknown Ethiopian artist, painting of the Battle of Adwa (1 March 1896), traditional Ethiopian style; photograph on Wikimedia Commons.",
+          "excerpt": "Ethiopian painters working in the church tradition made the battle of Adwa one of their favourite subjects. On 1 March 1896 the army of Emperor Menelik II defeated an Italian invasion force in the mountains of Tigray, securing Ethiopia's independence through the age of European colonisation. The paintings are crowded and flat, the Ethiopian army in ranks of spears and rifles, the Italians routed, often with Saint George riding above the battle. They are pictures of a war that unified a country — a reminder of how much of the nation's history was made in the region now at war with its government.",
+          "href": "https://commons.wikimedia.org/wiki/File:Ethiopian_painting%2C_Battle_of_Adwa%2C_1896.jpg",
+          "image": {
+            "src": "/covers/tigray-defensive-war-ethiopia-airports--a6.png",
+            "alt": "Traditional Ethiopian painting of the battle of Adwa: ranks of Ethiopian soldiers and cavalry facing Italian troops, with a saint appearing in the sky above",
+            "credit": "Wikimedia Commons, CC BY-SA 4.0"
+          }
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "slug": "record-super-el-nino-excess-deaths",
+      "genre": "Climate",
+      "headline": "The developing El Niño becomes the strongest on record, and researchers say it could cause up to 451,000 excess deaths",
+      "overview": "Scientists said on 22 September that the developing El Niño had become the strongest on record weeks before its expected peak, with effects already being felt around the world, and Asia braced for drought that could push up food prices globally. A day later researchers estimated that this 'super' El Niño could cause up to 451,000 excess deaths worldwide, and a humanitarian group said the heat it drives could cause nearly half a million additional deaths. The warnings came as haze from wildfires in Indonesia continued to sicken tens of thousands. Earlier forecasts had warned that the event would bring an unusually warm, wet autumn and disrupt the hurricane season and the ecosystems of the Galápagos.",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/weather/articles/cmvgy4nv9d62o"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU3hnQVkwT1lhMVd1SElZWm1aUFYzWXdxSzZGVFBpbTJ4Tk5vT2cwWkpiWWxfbVUxak9YZjZlUWljQWNGcldnQUp5dXF2MUF0X2IyR21Zc3Z1UEJCd1lkVUJLMTBrLWVKcjQyeTJfbVhTSGVFOXl6TlNUTEI3QmJMQ2tBcmV2ZG5LWDZGNTBhdFdjUWhZUW5TSDZjNFhySkxyd2p4SkM4YUhZeDZaVHNWMVBlRjVWYmtlTnc?oc=5"
+        },
+        {
+          "name": "AP",
+          "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbkF6ZHl1a1RETHRDZS1yMWUtdW9hbXBtOTBoTDRLbG4waHpqWmxNZ2dwei1ITVZaNkpSR2VidFlMcE9WNENBSk5DR2t6VnZsYmZKanNtUjAyRktJY1dMZURDM3d5bzlXdG16S1ZocXdvUVVsdFVtWWducHNGNVh2elJoV1NiRjlhbnQ5TllTb2ZGUVBtLWFnZmFn?oc=5"
+        }
+      ],
+      "candidateIds": [
+        2070,
+        2083
+      ],
+      "image": {
+        "src": "/covers/record-super-el-nino-excess-deaths.png",
+        "alt": "NOAA maps of the Pacific from March to August 1997, showing a band of warm sea-surface temperature anomalies spreading east along the equator during a major El Niño.",
+        "credit": "NOAA (public domain)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Gilbert White records the summer of 1783, when a haze from Iceland's Laki eruption hung over Europe and the sun shone 'blank as a clouded moon'",
+          "source": "Gilbert White, The Natural History of Selborne (London, 1789), letter to Daines Barrington; Project Gutenberg ebook 1408.",
+          "excerpt": "The summer of the year 1783 was an amazing and portentous one, and full of horrible phaenomena; for besides the alarming meteors and tremendous thunder-storms that affrighted and distressed the different counties of this kingdom, the peculiar haze, or smokey fog, that prevailed for many weeks in this island, and in every part of Europe, and even beyond its limits, was a most extraordinary appearance, unlike anything known within the memory of man.",
+          "href": "https://www.gutenberg.org/ebooks/1408",
+          "image": {
+            "src": "/covers/record-super-el-nino-excess-deaths--a1.png",
+            "alt": "Eighteenth-century engraving of the village of Selborne in Hampshire seen from the hillside above",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "Charles Darwin lands on the Galápagos in September 1835 and describes the heat of the lava fields — the islands El Niño most disrupts",
+          "source": "Charles Darwin, Journal of Researches ('The Voyage of the Beagle'), 2nd ed. (London: John Murray, 1845), ch. XVII, 'Galapagos Archipelago'; Project Gutenberg ebook 944.",
+          "excerpt": "A broken field of black basaltic lava, thrown into the most rugged waves, and crossed by great fissures, is everywhere covered by stunted, sun-burnt brushwood, which shows little signs of life. The dry and parched surface, being heated by the noon-day sun, gave to the air a close and sultry feeling, like that from a stove",
+          "href": "https://www.gutenberg.org/ebooks/944",
+          "image": {
+            "src": "/covers/record-super-el-nino-excess-deaths--a2.png",
+            "alt": "NASA radar image of Wolf and Darwin volcanoes on Isabela Island in the Galápagos",
+            "credit": "NASA (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "In Coleridge's 'The Rime of the Ancient Mariner' (1798), a becalmed ship sits under a burning sun on the Pacific",
+          "source": "Samuel Taylor Coleridge, 'The Rime of the Ancient Mariner', part II, in Lyrical Ballads (1798; text of 1834); Project Gutenberg ebook 151.",
+          "excerpt": "All in a hot and copper sky, / The bloody Sun, at noon, / Right up above the mast did stand, / No bigger than the Moon. / Day after day, day after day, / We stuck, nor breath nor motion; / As idle as a painted ship / Upon a painted ocean.",
+          "href": "https://www.gutenberg.org/ebooks/151",
+          "image": {
+            "src": "/covers/record-super-el-nino-excess-deaths--a3.png",
+            "alt": "Gustave Doré's engraving of the Ancient Mariner's ship among towering ice, with the albatross overhead",
+            "credit": "Gustave Doré (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Joseph reads Pharaoh's dream: seven good years will be followed by seven years of famine, and the only defence is to prepare",
+          "source": "Genesis 41:27, The Holy Bible, King James Version (1611); Project Gutenberg ebook 10.",
+          "excerpt": "And the seven thin and ill favoured kine that came up after them are seven years; and the seven empty ears blasted with the east wind shall be seven years of famine.",
+          "href": "https://www.gutenberg.org/ebooks/10",
+          "image": {
+            "src": "/covers/record-super-el-nino-excess-deaths--a4.png",
+            "alt": "Sixteenth-century painting of Joseph interpreting Pharaoh's dreams before a crowded court, framed by Renaissance architecture",
+            "credit": "Metropolitan Museum of Art (CC0)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Katsushika Hokusai's 'Under the Wave off Kanagawa' (c. 1830–32) — the Pacific rising over the people who work it",
+          "source": "Katsushika Hokusai, Kanagawa oki nami ura (Under the Wave off Kanagawa), from Thirty-six Views of Mount Fuji, c. 1830–32, polychrome woodblock print; impression at the Metropolitan Museum of Art, JP1847.",
+          "excerpt": "A wave rises from the left of the print and curls over three narrow boats, its crest breaking into claws of foam; the rowers bend low beneath it. Far behind, Mount Fuji sits small and still. Hokusai's woodblock, from his series Thirty-six Views of Mount Fuji, is the most reproduced image of the Pacific ever made — the ocean as a force whose scale dwarfs the people trying to live alongside it.",
+          "href": "https://www.metmuseum.org/art/collection/search/45434",
+          "image": {
+            "src": "/covers/record-super-el-nino-excess-deaths--a5.png",
+            "alt": "Hokusai's woodblock print of a towering wave curling over three boats, with Mount Fuji small in the distance",
+            "credit": "Metropolitan Museum of Art (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "'Summer' from Vivaldi's 'The Four Seasons' (1725): the harsh season scorched by the sun, then the hailstorm",
+          "source": "Antonio Vivaldi, L'estate (Summer), Concerto in G minor, RV 315, from Il cimento dell'armonia e dell'inventione, Op. 8 (Amsterdam: Michel-Charles Le Cène, 1725); score at the International Music Score Library Project (IMSLP).",
+          "excerpt": "Vivaldi printed a sonnet at the head of each of his four seasons. Summer's describes a harsh season scorched by the sun, with men and flocks languishing and the pines burning — and the music begins in exhaustion, the strings barely moving. A cuckoo calls, a breeze stirs, and then the north wind breaks in; the final movement is a hailstorm that flattens the crops. It is the first great piece of music about heat, and about how quickly heat turns into ruin.",
+          "href": "https://imslp.org/wiki/Violin_Concerto_in_G_minor,_RV_315_(Vivaldi,_Antonio)",
+          "image": {
+            "src": "/covers/record-super-el-nino-excess-deaths--a6.png",
+            "alt": "Title page of Vivaldi's Il cimento dell'armonia e dell'inventione, published in Amsterdam in 1725",
+            "credit": "Wikimedia Commons"
+          }
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "slug": "afd-state-election-gains-merz-disaster",
+      "genre": "Politics",
+      "headline": "The far-right AfD makes historic gains in a German state election, and Merz calls the result a 'disaster' for his party",
+      "overview": "Reporting from eastern Germany early in the week found immigrants increasingly asking whether they still belonged, as the far-right Alternative for Germany built on recent electoral wins and moved further into the mainstream. On 21 September the AfD led the exit polls in the north-eastern state of Mecklenburg-Vorpommern, while in Berlin a far-left party won on a platform of nationalising housing. Chancellor Friedrich Merz called the result a 'disaster' for his Christian Democrats but vowed to stay on and to keep his coalition together for Germany's 'democratic future'. No formal leadership challenge emerged, but commentators warned that the erosion of the political centre was weakening his grip on power, and the defeats reverberated through national politics.",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOF9NaTFKQU94aFgwRVlnX3ZGclFlN2pCaDRKUzhDOXdQOHF6V09uWlhhLWl0UzFGTEpUOFA5MlZKMmVfdXVReG5OS080RmktOXRtWFZHMVdQeVVENGRYQVFzR0NLb253TzRjVVBRMlhISFVaRVZ2eVMxY2oxckZUcVJoejhUN2k1bF9rSHBSelZ5SFpLZ3ZUZV9pZ2xrYWlJTmsxZTd3dmUwSmo1Zmx4ZjhvR1huaTQt?oc=5"
+        },
+        {
+          "name": "AP",
+          "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUjBWWktVU1M0WUdYWlNxNmVPV0ZOM0o2SlRuM21QWHNNMGxLVXo2WDJVSUhMenRfU21MbVVpOVhWeEkyRG5LYWszVkRoYk43bEpJSWs0ekdfbjJkTklCNVhGeG5wdmNNcmdBMk1rTUthWk5WZldJWEZLSWpvZF96elIwN04xRTMtSkJSOGpsdll5QjJaMnZYLWZ2QVFHV0hJYjg5LVdn?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1932,
+        1935,
+        1974
+      ],
+      "image": {
+        "src": "/covers/afd-state-election-gains-merz-disaster.png",
+        "alt": "The Reichstag building in Berlin, seat of the German Bundestag, with its glass dome, seen from the west before sunset.",
+        "credit": "Jürgen Matern / Wikimedia Commons, CC BY-SA 3.0"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Aristotle argues in the 'Politics' that a state is most stable when its middle is larger than either extreme",
+          "source": "Aristotle, Politics, 4.11 (1295b), trans. William Ellis, Politics: A Treatise on Government (London: J. M. Dent, 1912); Project Gutenberg ebook 6762.",
+          "excerpt": "It is plain, then, that the most perfect political community must be amongst those who are in the middle rank, and those states are best instituted wherein these are a larger and more respectable part, if possible, than both the other; or, if that cannot be, at least than either of them separate; so that being thrown into the balance it may prevent either scale from preponderating.",
+          "href": "https://www.gutenberg.org/ebooks/6762",
+          "image": {
+            "src": "/covers/afd-state-election-gains-merz-disaster--a1.png",
+            "alt": "Marble bust of Aristotle, a Roman copy after Lysippos, in the Palazzo Altemps, Rome",
+            "credit": "Palazzo Altemps (public domain)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "Polybius describes how a constitution begins to change: when the people become convinced they are being cheated, and anger replaces consent",
+          "source": "Polybius, Histories, 6.57, trans. Evelyn S. Shuckburgh, The Histories of Polybius, vol. 1 (London: Macmillan, 1889); Project Gutenberg ebook 44125.",
+          "excerpt": "And of this change the people will be credited with being the authors, when they become convinced that they are being cheated by some from avarice, and are puffed up with flattery by others from love of office. For when that comes about, in their passionate resentment and acting under the dictates of anger, they will refuse to obey any longer, or to be content with having equal powers with their leaders, but will demand to have all or far the greatest themselves.",
+          "href": "https://www.gutenberg.org/ebooks/44125",
+          "image": {
+            "src": "/covers/afd-state-election-gains-merz-disaster--a2.png",
+            "alt": "Ancient relief stele showing the historian Polybius standing, holding a spear and shield",
+            "credit": "Jona Lendering (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "W. B. Yeats writes 'The Second Coming' in 1919: the centre cannot hold",
+          "source": "W. B. Yeats, 'The Second Coming', in Michael Robartes and the Dancer (Churchtown, Dundrum: Cuala Press, 1921); first published in The Dial, November 1920; Project Gutenberg ebook 72987.",
+          "excerpt": "Turning and turning in the widening gyre / The falcon cannot hear the falconer; / Things fall apart; the centre cannot hold; / Mere anarchy is loosed upon the world, / The blood-dimmed tide is loosed, and everywhere / The ceremony of innocence is drowned; / The best lack all conviction, while the worst / Are full of passionate intensity.",
+          "href": "https://www.gutenberg.org/ebooks/72987",
+          "image": {
+            "src": "/covers/afd-state-election-gains-merz-disaster--a3.png",
+            "alt": "Photographic portrait of W. B. Yeats by George Charles Beresford, with round spectacles and swept-back hair",
+            "credit": "George Charles Beresford (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Aesop's fable of the Frogs who asked for a King, grew tired of the one they had, and asked again",
+          "source": "Aesop, 'The Frogs Asking for a King', in Aesop's Fables, trans. George Fyler Townsend (London: George Routledge and Sons, 1867); Project Gutenberg ebook 21.",
+          "excerpt": "THE FROGS, grieved at having no established Ruler, sent ambassadors to Jupiter entreating for a King. Perceiving their simplicity, he cast down a huge log into the lake. The Frogs were terrified at the splash occasioned by its fall and hid themselves in the depths of the pool. But as soon as they realized that the huge log was motionless, they swam again to the top of the water, dismissed their fears, climbed up, and began squatting on it in contempt. After some time they began to think themselves ill-treated in the appointment of so inert a Ruler, and sent a second deputation to Jupiter to pray that he would set over them another sovereign. He then gave them an Eel to govern them. When the Frogs discovered his easy good nature, they sent yet a third time to Jupiter to beg him to choose for them still another King. Jupiter, displeased with all their complaints, sent a Heron, who preyed upon the Frogs day by day till there were none left to croak upon the lake.",
+          "href": "https://www.gutenberg.org/ebooks/21"
+        },
+        {
+          "category": "artistic",
+          "title": "Caspar David Friedrich's 'Wanderer above the Sea of Fog' (c. 1818)",
+          "source": "Caspar David Friedrich, Wanderer über dem Nebelmeer (Wanderer above the Sea of Fog), c. 1818, oil on canvas, 94.8 × 74.8 cm; Hamburger Kunsthalle.",
+          "excerpt": "A man in a dark coat stands with his back to us on a rocky summit, cane in hand, looking out over a sea of fog from which other peaks break like islands. We cannot see his face, and we cannot see what lies below the mist. Friedrich painted it around 1818, in the unsettled years after the Napoleonic Wars, and it has become the standard image of a German at a moment of uncertainty — confident in his footing, blind to the ground ahead.",
+          "href": "https://en.wikipedia.org/wiki/Wanderer_above_the_Sea_of_Fog",
+          "image": {
+            "src": "/covers/afd-state-election-gains-merz-disaster--a5.png",
+            "alt": "Friedrich's painting of a man seen from behind standing on a rocky peak above a landscape filled with fog",
+            "credit": "Hamburger Kunsthalle (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "The Bauhaus building in Dessau (1925–26), closed by a city council vote in 1932",
+          "source": "Walter Gropius, Bauhaus Building, Dessau, 1925–26; part of the UNESCO World Heritage Site 'Bauhaus and its Sites in Weimar, Dessau and Bernau' (inscribed 1996, extended 2017).",
+          "excerpt": "Walter Gropius's building for the Bauhaus in Dessau, opened in December 1926, is a set of interlocking wings with a glass curtain wall wrapped around the workshop block — the image of a modern, open Germany. Its fate was decided by local elections. After the Nazi party became the largest force on Dessau's city council, the council voted in August 1932 to close the school; it moved to a disused factory in Berlin and dissolved itself in 1933 under pressure from the new regime. The building is now a UNESCO World Heritage Site.",
+          "href": "https://en.wikipedia.org/wiki/Bauhaus_Dessau_building",
+          "image": {
+            "src": "/covers/afd-state-election-gains-merz-disaster--a6.png",
+            "alt": "The Bauhaus building in Dessau, a white modernist block with a full-height glass curtain wall and the word BAUHAUS running vertically down one side",
+            "credit": "Aufbacksalami / Wikimedia Commons, CC BY-SA 4.0"
+          }
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "slug": "white-house-bans-cnn-ms-now-politico",
+      "genre": "Politics",
+      "headline": "CNN, MS NOW and Politico sue after Trump bars them from the White House",
+      "overview": "On 18 September Donald Trump announced that he was banning CNN, MS NOW and Politico from the White House with immediate effect, calling them 'fake news' and saying other outlets could follow. Over the weekend reporters from the three organisations had their White House press badges confiscated and were refused entry. On 22 September the outlets sued, arguing that the ban violated the First Amendment, and some major networks suspended parts of their White House coverage. The barred outlets kept covering the president at the UN General Assembly in New York, where Trump told CNN reporters 'you should not be here.' Legal experts said the ban faced long odds in court; at a hearing on 23 September a federal judge heard arguments without ruling, and was reported to be sceptical of the administration's position.",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbHZCTDh5UkxYMTBaTFJxcElhNlpvemdJMmYxUnRleHFwTWNRdDBoNjRmcEoyMmJMWVluLVZOelE5ek9oQ2EydlpVcUp4aUQ4TF9DTGtOSnhDVFJlSmU0cUhFY2ZNQzJLUzhJaVBQUDkyLS1lbGlCSXNPMzVsWVF3c3NkNjQ0QzJuVDFMd0xDaENVNmRHbGxlMUhIem1ESXN1Z1kzaHVoZXhCSE9KVGV4dnlBNUEtUQ?oc=5"
+        },
+        {
+          "name": "AP",
+          "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR29vU0VzZjExSW04QkFxbFhTc0ZPRmdpaGdOS0xqbFF0S2tZN045Z3BuSm5JRnpNWUxvVFFwWG94U1Y5Yk1NbksxS0VsQ1Z5bXpTT1Q5RHdhZ1NmUEdMZXM0cHZtaGh1aUlmVDZleHAwUVk2TkEtQm0xQzJWTkdoX2w5Zl9RcGlqUHgzdnZLMGdGQ0pDVWc?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1859,
+        1900,
+        1939,
+        1982,
+        2032,
+        2088
+      ],
+      "image": {
+        "src": "/covers/white-house-bans-cnn-ms-now-politico.png",
+        "alt": "Rows of empty chairs face a bare lectern in front of a blue curtain in an otherwise empty briefing room.",
+        "credit": "AI-generated"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "The Sedition Act of 14 July 1798 made it a crime to publish 'false, scandalous and malicious' writing against the President",
+          "source": "An Act in Addition to the Act, Entitled 'An Act for the Punishment of Certain Crimes Against the United States' (the Sedition Act), 5th Congress, 14 July 1798, §2; text at the Avalon Project, Yale Law School.",
+          "excerpt": "That if any person shall write, print, utter or publish, or shall cause or procure to be written, printed, uttered or published, or shall knowingly and willingly assist or aid in writing, printing, uttering or publishing any false, scandalous and malicious writing or writings against the government of the United States, or either house of the Congress of the United States, or the President of the United States, with intent to defame the said government, or either house of the said Congress, or the said President, or to bring them, or either of them, into contempt or disrepute;",
+          "href": "https://avalon.law.yale.edu/18th_century/sedact.asp",
+          "image": {
+            "src": "/covers/white-house-bans-cnn-ms-now-politico--a1.png",
+            "alt": "The engrossed text of the Sedition Act of 1798, signed by the Speaker, the President of the Senate and John Adams",
+            "credit": "United States Federal Government (public domain)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "John Milton's 'Areopagitica' (1644), addressed to Parliament against the licensing of printers",
+          "source": "John Milton, Areopagitica: A Speech of Mr. John Milton for the Liberty of Unlicenc'd Printing, to the Parlament of England (London, 1644); Project Gutenberg ebook 608.",
+          "excerpt": "Give me the liberty to know, to utter, and to argue freely according to conscience, above all liberties.",
+          "href": "https://www.gutenberg.org/ebooks/608",
+          "image": {
+            "src": "/covers/white-house-bans-cnn-ms-now-politico--a2.png",
+            "alt": "Title page of the 1644 first edition of Milton's Areopagitica",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Ibsen's 'An Enemy of the People' (1882): Dr Stockmann, abandoned by the town's newspaper, draws his conclusion",
+          "source": "Henrik Ibsen, An Enemy of the People, Act V, trans. R. Farquharson Sharp (London: J. M. Dent, 1911); Project Gutenberg ebook 2446.",
+          "excerpt": "It is this, let me tell you—that the strongest man in the world is he who stands most alone.",
+          "href": "https://www.gutenberg.org/ebooks/2446",
+          "image": {
+            "src": "/covers/white-house-bans-cnn-ms-now-politico--a3.png",
+            "alt": "Eilif Peterssen's 1895 portrait of Henrik Ibsen, with white side-whiskers and spectacles",
+            "credit": "Eilif Peterssen (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Hans Christian Andersen's 'The Emperor's New Clothes' (1837) ends with the procession that must go on",
+          "source": "Hans Christian Andersen, 'The Emperor's New Clothes', in Andersen's Fairy Tales, English translation; Project Gutenberg ebook 1597.",
+          "excerpt": "“But the Emperor has nothing at all on!” said a little child. “Listen to the voice of innocence!” exclaimed his father; and what the child had said was whispered from one to another. “But he has nothing at all on!” at last cried out all the people. The Emperor was vexed, for he knew that the people were right; but he thought the procession must go on now! And the lords of the bedchamber took greater pains than ever, to appear holding up a train, although, in reality, there was no train to hold.",
+          "href": "https://www.gutenberg.org/ebooks/1597",
+          "image": {
+            "src": "/covers/white-house-bans-cnn-ms-now-politico--a4.png",
+            "alt": "Vilhelm Pedersen's illustration for The Emperor's New Clothes: two figures from the tale, one doffing his hat with a flourish",
+            "credit": "Vilhelm Pedersen (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Honoré Daumier's 'Gargantua' (1831), the caricature of King Louis-Philippe that sent him to prison",
+          "source": "Honoré Daumier, Gargantua, lithograph, 1831; the print was seized and Daumier was sentenced in February 1832 to six months' imprisonment.",
+          "excerpt": "Louis-Philippe sits enthroned as the giant Gargantua, his head shaped like a pear, while a ramp runs up to his open mouth. Up it, servants carry baskets of coins taken from the ragged poor at the bottom; beneath the throne, courtiers scramble for the favours that fall from it. The lithograph was published in December 1831 and seized by the censors, and Daumier was sentenced to six months in prison for it — a sentence he began serving in August 1832.",
+          "href": "https://commons.wikimedia.org/wiki/File:Honor%C3%A9_Daumier_-_Gargantua.jpg",
+          "image": {
+            "src": "/covers/white-house-bans-cnn-ms-now-politico--a5.png",
+            "alt": "Daumier's lithograph of King Louis-Philippe as a pear-headed giant on a throne, swallowing baskets of coins carried up a ramp from the poor",
+            "credit": "Honoré Daumier (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Daumier's 'Ne vous y frottez pas!!' ('Don't meddle with it!', 1834): a printer stands guard over the freedom of the press",
+          "source": "Honoré Daumier, Ne vous y frottez pas!! (Don't Meddle with It!!), lithograph, published in L'Association Mensuelle, plate 20, March 1834; impression at the National Gallery of Art, Washington.",
+          "excerpt": "A young printer in his work apron stands on a hilltop, sleeves rolled up and fists clenched, facing the viewer squarely. Behind him on one side the deposed Charles X lies fallen; on the other, Louis-Philippe and his ministers hang back, hesitating to come any closer. The title is his warning: don't meddle with it. Daumier drew the print in 1834 for L'Association Mensuelle, a subscription series sold to pay the fines and legal costs of the opposition press.",
+          "href": "https://commons.wikimedia.org/wiki/File:Honor%C3%A9_Daumier%2C_Ne_vous_y_frottez_pas!!%2C_1834%2C_NGA_6131.jpg",
+          "image": {
+            "src": "/covers/white-house-bans-cnn-ms-now-politico--a6.png",
+            "alt": "Daumier's lithograph of a young printer with clenched fists standing on a hill, while a fallen king and hesitant ministers keep their distance behind him",
+            "credit": "National Gallery of Art, Washington (CC0)"
+          }
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "slug": "canada-eu-associate-member-carney-macron",
+      "genre": "Politics",
+      "headline": "France backs Canada as the EU's first 'associate member' as Carney turns toward Europe",
+      "overview": "Ursula von der Leyen's proposal to make Canada the European Union's first 'associate member' was welcomed by Prime Minister Mark Carney, who called for an alliance of democracies, but it drew warnings from Donald Trump and scepticism about whether it could be made to work. In Canada the idea set people imagining living and working in Europe under a plan the BBC described as a long shot, with warm words from Brussels but no guarantees. On 20 September Carney met Emmanuel Macron at an Atlantic island meeting, where the two leaders pledged closer ties amid strains with Washington and France backed the associate-membership proposal. A Canadian minister told the BBC that the UK should 'team up' with Canada in the new European alliance.",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/crlyqg1ekj4po"
+        },
+        {
+          "name": "AP",
+          "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTm9KMTZzbXpJVUZnellLVURXTW1veHdKejRLYkpYcTdscWwxd2dMdEJObEVFNGJzc3d5YXV2bmQyellxbV9WRmtiN3ExZ0ZySTBvWFE3YWdGeGhkTldnMzRld3Y4QjFDSm00eDltVXBlZ0pqWjZWcDQ1WkNmT2lpN3ZQMmJxZFBaYlFnUGNpRHJyUHZFSG9hZllkRQ?oc=5"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdkVYa2s0a1hldGZKYmpHQS1XdWkyNDZZSkR6UkNGUGRFWnFOMHJvQ1plRXRZanlQSFgwN09iMEliYmdQZm1lWENhNERBVkVaYjJiSUxrc25pVUFkWnpCRm9rYmxUU3N4Q0xXVHQwNFpLcXVyU2l2dHBxVFRGQkluNnZyY0NMRGJpMXFJTHo0X3AzaWV5SUU2ampSanpLN3MzRHNBRHc5ZjZyOV9XaGEw?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1802,
+        1941
+      ],
+      "image": {
+        "src": "/covers/canada-eu-associate-member-carney-macron.png",
+        "alt": "The Berlaymont building in Brussels, headquarters of the European Commission, its curved glass wings seen from the street.",
+        "credit": "Trougnouf (Benoit Brummer) / Wikimedia Commons, CC BY 4.0"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Robert Schuman's declaration of 9 May 1950, the founding text of European integration, promises a Europe built by concrete steps rather than a single plan",
+          "source": "Robert Schuman, Declaration of 9 May 1950; text published by the European Union.",
+          "excerpt": "Europe will not be made all at once, or according to a single plan. It will be built through concrete achievements which first create a de facto solidarity. The coming together of the nations of Europe requires the elimination of the age-old opposition of France and Germany. Any action taken must in the first place concern these two countries.",
+          "href": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59/schuman-declaration-may-1950_en",
+          "image": {
+            "src": "/covers/canada-eu-associate-member-carney-macron--a1.png",
+            "alt": "Delegates seated around a long conference table at a meeting on the Schuman Plan in the early 1950s",
+            "credit": "US Department of State (public domain)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "In the Treaty of Paris of 10 February 1763, France cedes Canada to Britain — the last time Canada's European connection was redrawn by treaty",
+          "source": "Treaty of Paris, 10 February 1763, Article IV; text at the Avalon Project, Yale Law School.",
+          "excerpt": "His Most Christian Majesty renounces all pretensions which he has heretofore formed or might have formed to Nova Scotia or Acadia in all its parts, and guaranties the whole of it, and with all its dependencies, to the King of Great Britain: Moreover, his Most Christian Majesty cedes and guaranties to his said Britannick Majesty, in full right, Canada, with all its dependencies, as well as the island of Cape Breton",
+          "href": "https://avalon.law.yale.edu/18th_century/paris763.asp",
+          "image": {
+            "src": "/covers/canada-eu-associate-member-carney-macron--a2.png",
+            "alt": "Historical atlas map of the world at the Treaty of Paris in 1763, colouring British, French and Spanish possessions",
+            "credit": "Ramsay Muir (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "John Donne, Meditation XVII (1624): no man is an island — and a Europe that loses a piece of itself is the less",
+          "source": "John Donne, Devotions upon Emergent Occasions, Meditation XVII (London, 1624); Project Gutenberg ebook 23772.",
+          "excerpt": "No man is an island, entire of itself; every man is a piece of the continent, a part of the main. If a clod be washed away by the sea, Europe is the less, as well as if a promontory were, as well as if a manor of thy friend's or of thine own were: any man's death diminishes me, because I am involved in mankind",
+          "href": "https://www.gutenberg.org/ebooks/23772",
+          "image": {
+            "src": "/covers/canada-eu-associate-member-carney-macron--a3.png",
+            "alt": "Miniature portrait of John Donne after Isaac Oliver, with a pointed beard and a wide white collar",
+            "credit": "After Isaac Oliver (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "In Voltaire's 'Candide' (1759), written during the Seven Years' War, England and France are fighting over 'a few acres of snow'",
+          "source": "Voltaire, Candide, ou l'Optimisme (1759), ch. 23, anonymous English translation; Project Gutenberg ebook 19942.",
+          "excerpt": "You know that these two nations are at war for a few acres of snow in Canada, and that they spend over this beautiful war much more than Canada is worth.",
+          "href": "https://www.gutenberg.org/ebooks/19942",
+          "image": {
+            "src": "/covers/canada-eu-associate-member-carney-macron--a4.png",
+            "alt": "Title page of the 1759 first edition of Voltaire's Candide, ou l'Optimisme",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Benjamin West's 'The Death of General Wolfe' (1770), painted a decade after the battle that took Canada from France",
+          "source": "Benjamin West, The Death of General Wolfe, 1770, oil on canvas, 152.6 × 214.5 cm; National Gallery of Canada, Ottawa, gift of the 2nd Duke of Westminster, 1918.",
+          "excerpt": "General James Wolfe lies dying on the Plains of Abraham outside Quebec in September 1759, supported by his officers under a smoke-darkened sky, while a messenger runs up with news of victory and an Indigenous warrior sits in contemplation in the foreground. West dressed his figures in contemporary uniform rather than classical robes, a choice that caused a sensation in London in 1771. The battle it depicts decided that Canada would pass from France to Britain — the first rearrangement of its European ties.",
+          "href": "https://commons.wikimedia.org/wiki/File:Benjamin_West_005.jpg",
+          "image": {
+            "src": "/covers/canada-eu-associate-member-carney-macron--a5.png",
+            "alt": "Benjamin West's painting of General Wolfe dying in the arms of his officers on the battlefield at Quebec, with an Indigenous warrior seated in the foreground",
+            "credit": "National Gallery of Canada (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "The 'Ode to Joy' from Beethoven's Ninth Symphony (1824), now the anthem of the European Union",
+          "source": "Ludwig van Beethoven, Symphony No. 9 in D minor, Op. 125, finale on Schiller's 'An die Freude', first performed Vienna, 7 May 1824; adopted as the European anthem by the Council of Europe (1972) and the European Union (1985); score at IMSLP.",
+          "excerpt": "The finale of Beethoven's Ninth Symphony, first performed in Vienna in May 1824, sets Schiller's 'Ode to Joy' for soloists and chorus: 'all men become brothers'. Its melody was adopted as the anthem of the Council of Europe in 1972 and of the European Union in 1985, played without words so that it belongs to no single language. It is the tune a Canadian associate member would stand for.",
+          "href": "https://imslp.org/wiki/Symphony_No.9,_Op.125_(Beethoven,_Ludwig_van)",
+          "image": {
+            "src": "/covers/canada-eu-associate-member-carney-macron--a6.png",
+            "alt": "Joseph Karl Stieler's 1820 portrait of Beethoven, with wild grey hair and a red scarf, holding a manuscript",
+            "credit": "Joseph Karl Stieler (public domain)"
+          }
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "slug": "trump-triumphal-arch-military-complex",
+      "genre": "Architecture",
+      "headline": "Trump says his 250-foot triumphal arch will double as a 'military complex' for drones and snipers",
+      "overview": "The Federal Aviation Administration cleared Donald Trump's planned triumphal arch in Washington for construction on 18 September, on condition that its 'eternal flame' be modified to alert pilots to the structure. Two days later Trump said the aluminium arch, designed by Harrison Design and planned at 250 feet, would be reconfigured at the military's request into what he called a 'top grade military complex' equipped to host drone operations and sniper positions — a fusion of monumental architecture and security infrastructure that drew immediate scrutiny. On 23 September Trump added that his planned White House ballroom would house a drone port, though the Secret Service already operates one next door, and the FAA said the arch had received no special treatment in its review.",
+      "sources": [
+        {
+          "name": "Dezeen",
+          "href": "https://www.dezeen.com/2026/09/21/trump-triumphal-arch-military-base-washington-dc/"
+        },
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/cqdj4pez00dzo"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYmZMbGg1cERmOUp0RlFJRXBHQWNyRkxKSzB6enpTWFUwRVg2elU1cHlOaGYybnhTUGFwQThjYXBfZ1Z6TGtXbU5fRWkyNTl4TEhDSzVXa0FsNW1yY1YtbDdhRGZhOGwzZjNFTDNicndLb1J6ZmNqVV9qbHk0NXFpblpFQXdsM3NzUlRuZmVWV0E3WnpjcTNYdXI0QU1vNlZzX3EtanpaVzJ0UHFmS01vag?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1890,
+        1938,
+        1983,
+        2106
+      ],
+      "image": {
+        "src": "/covers/trump-triumphal-arch-military-complex.png",
+        "alt": "A half-built monumental arch wrapped in scaffolding stands beside construction cranes on a misty riverbank at dawn.",
+        "credit": "AI-generated"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Suetonius records Augustus's boast about the city he rebuilt: he found Rome brick and left it marble",
+          "source": "Suetonius, The Lives of the Twelve Caesars, 'Augustus', ch. 29 in Thomson's numbering, trans. Alexander Thomson, revised by T. Forester (London: George Bell & Sons, 1890); Project Gutenberg ebook 6400.",
+          "excerpt": "The city, which was not built in a manner suitable to the grandeur of the empire, and was liable to inundations of the Tiber, as well as to fires, was so much improved under his administration, that he boasted, not without reason, that he “found it of brick, but left it of marble.”",
+          "href": "https://www.gutenberg.org/ebooks/6400",
+          "image": {
+            "src": "/covers/trump-triumphal-arch-military-complex--a1.png",
+            "alt": "The Augustus of Prima Porta statue in the Vatican Museums, the emperor in carved breastplate with his arm raised",
+            "credit": "Joel Bellviure / Wikimedia Commons, CC BY-SA 4.0"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "Dwight Eisenhower's farewell address of 17 January 1961 names the 'military-industrial complex'",
+          "source": "Dwight D. Eisenhower, Farewell Address to the Nation, 17 January 1961 (press copy); Wikisource.",
+          "excerpt": "In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex. The potential for the disastrous rise of misplaced power exists and will persist.",
+          "href": "https://en.wikisource.org/wiki/Eisenhower%27s_farewell_address_(press_copy)",
+          "image": {
+            "src": "/covers/trump-triumphal-arch-military-complex--a2.png",
+            "alt": "Official 1959 White House portrait photograph of President Dwight D. Eisenhower",
+            "credit": "White House (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Percy Bysshe Shelley's 'Ozymandias' (1818): the pedestal still speaks, and nothing beside remains",
+          "source": "Percy Bysshe Shelley, 'Ozymandias', The Examiner, 11 January 1818; in The Complete Poetical Works of Percy Bysshe Shelley, ed. Thomas Hutchinson (Oxford, 1914); Project Gutenberg ebook 4800.",
+          "excerpt": "I met a traveller from an antique land / Who said: Two vast and trunkless legs of stone / Stand in the desert...Near them, on the sand, / Half sunk, a shattered visage lies, whose frown, / And wrinkled lip, and sneer of cold command, / Tell that its sculptor well those passions read / Which yet survive, stamped on these lifeless things, / The hand that mocked them, and the heart that fed: / And on the pedestal these words appear: / ‘My name is Ozymandias, king of kings: / Look on my works, ye Mighty, and despair!’ / Nothing beside remains. Round the decay / Of that colossal wreck, boundless and bare / The lone and level sands stretch far away.",
+          "href": "https://www.gutenberg.org/ebooks/4800",
+          "image": {
+            "src": "/covers/trump-triumphal-arch-military-complex--a3.png",
+            "alt": "The fallen colossus of Ramesses II lying in fragments among the columns of the Ramesseum at Thebes",
+            "credit": "Hajor / Wikimedia Commons, CC BY-SA 3.0"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The builders of Babel want a tower 'whose top may reach unto heaven' — to make themselves a name",
+          "source": "Genesis 11:4, The Holy Bible, King James Version (1611); Project Gutenberg ebook 10.",
+          "excerpt": "And they said, Go to, let us build us a city and a tower, whose top may reach unto heaven; and let us make us a name, lest we be scattered abroad upon the face of the whole earth.",
+          "href": "https://www.gutenberg.org/ebooks/10",
+          "image": {
+            "src": "/covers/trump-triumphal-arch-military-complex--a4.png",
+            "alt": "Gustave Doré's engraving of the Confusion of Tongues: crowds scattering at the foot of the vast Tower of Babel",
+            "credit": "Gustave Doré (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "The Arch of Titus in the Roman Forum (c. AD 81–82), the model for every triumphal arch since",
+          "source": "Arch of Titus, Via Sacra, Roman Forum, Rome, erected by Domitian c. AD 81–82; Parco archeologico del Colosseo.",
+          "excerpt": "The Arch of Titus, raised on the Via Sacra after the emperor's death in AD 81, commemorates his capture of Jerusalem a decade earlier. Inside the passageway two reliefs show the triumph itself: on one side Titus rides in his chariot crowned by Victory; on the other, soldiers carry the spoils of the Temple, the great seven-branched menorah among them, through a triumphal gate. It is the model for every later triumphal arch — including those in Paris and New York — and a reminder that the form was invented to display military power in the heart of a capital.",
+          "href": "https://en.wikipedia.org/wiki/Arch_of_Titus",
+          "image": {
+            "src": "/covers/trump-triumphal-arch-military-complex--a5.png",
+            "alt": "The single-bay marble Arch of Titus on the Via Sacra in the Roman Forum",
+            "credit": "Jebulon / Wikimedia Commons (CC0)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Pieter Bruegel the Elder's 'The Tower of Babel' (1563)",
+          "source": "Pieter Bruegel the Elder, The Tower of Babel, 1563, oil on oak panel, 114 × 155 cm; Kunsthistorisches Museum, Vienna, GG 1026.",
+          "excerpt": "Bruegel's tower rises in spiralling tiers from a harbour city, so enormous that clouds pass across its upper storeys; its lower arches are already cut into the living rock, its upper floors unfinished, cranes and ladders everywhere. In the foreground King Nimrod inspects the works while masons kneel before him. It is a painting of a ruler's building project that has grown past any use except its own size — and it is already beginning to lean.",
+          "href": "https://en.wikipedia.org/wiki/The_Tower_of_Babel_(Bruegel)",
+          "image": {
+            "src": "/covers/trump-triumphal-arch-military-complex--a6.png",
+            "alt": "Bruegel's vast spiralling Tower of Babel, unfinished and swarming with workers, rising above a harbour city",
+            "credit": "Kunsthistorisches Museum (public domain)"
+          }
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "slug": "nazi-looted-art-claims-metzinger-returned",
+      "genre": "Art",
+      "headline": "The Art Institute of Chicago returns a Metzinger to a Jewish collector's heirs as new laws bring a wave of Nazi-loot claims",
+      "overview": "Jewish heirs filed two lawsuits in Los Angeles on 18 September seeking the return of artworks looted by the Nazis during the Second World War and now held by prominent museums — claims made possible by new California and federal restitution laws. The next day further legal fights emerged, including a claim involving the Auschwitz museum, part of a broader wave of litigation that has followed changes to the statutes governing looted-art cases. On 23 September the Art Institute of Chicago announced that it would return Jean Metzinger's 1913 painting Woman with a Fan to the descendants of the Jewish collector Emanuel Lewenstein, after provenance research established that the work had been looted.",
+      "sources": [
+        {
+          "name": "Artforum",
+          "href": "https://www.artforum.com/news/aic-returns-metzinger-painting-to-family-of-collector-1234759579/"
+        },
+        {
+          "name": "AP",
+          "href": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcmJUZG8ya1Bkb3pNamxyVjZ6dFpnaE1uMGpDZWNWQy1HZVU4RmhsZzJKSnFEeGZUallINTFUTTVfZzZFZmx1ZWtKZ1l2T2M1WndxMzc4ZGZJQ1dFTThaUmdab3dnSWh5RS1PYjNrcnFuTnVMZWhGR0FfNmQ2N2luRTd5Z19pWnRjU2NQRUJVTmpObC15T1ZWUDVOWkFWVTNxRXhTSzZOeG1HcEJNWGQwTVRic2Z0Rnc?oc=5"
+        },
+        {
+          "name": "Artforum",
+          "href": "https://www.artforum.com/news/new-lawsuits-in-ongoing-battle-return-of-nazi-looted-art-1234759358/"
+        }
+      ],
+      "candidateIds": [
+        1885,
+        1916,
+        2099
+      ],
+      "image": {
+        "src": "/covers/nazi-looted-art-claims-metzinger-returned.png",
+        "alt": "A pale rectangle marks the place on a dark museum wall where a painting once hung, lit by a single spotlight.",
+        "credit": "AI-generated"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Article 56 of the Hague Convention of 1907 forbids the seizure of works of art in war and says it 'should be made the subject of legal proceedings'",
+          "source": "Convention (IV) respecting the Laws and Customs of War on Land and its annex: Regulations concerning the Laws and Customs of War on Land, The Hague, 18 October 1907, Annex, Article 56; text at the Avalon Project, Yale Law School.",
+          "excerpt": "All seizure of, destruction or wilful damage done to institutions of this character, historic monuments, works of art and science, is forbidden, and should be made the subject of legal proceedings.",
+          "href": "https://avalon.law.yale.edu/20th_century/hague04.asp",
+          "image": {
+            "src": "/covers/nazi-looted-art-claims-metzinger-returned--a1.png",
+            "alt": "The delegates of the Second Hague Peace Conference in session in a great hall in 1907",
+            "credit": "Wikimedia Commons, CC BY-SA 3.0"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "Polybius, writing after Rome stripped Syracuse of its statues and paintings in 212 BC, warns conquerors that plunder is no honour",
+          "source": "Polybius, Histories, 9.10, 'The Spoils of Syracuse', trans. Evelyn S. Shuckburgh, The Histories of Polybius, vol. 1 (London: Macmillan, 1889); Project Gutenberg ebook 44125.",
+          "excerpt": "But they might have left in their original sites things that had nothing to do with material wealth; and thus at the same time have avoided exciting jealousy, and raised the reputation of their country: adorning it, not with pictures and statues, but with dignity of character and greatness of soul. I have spoken thus much as a warning to those who take upon themselves to rule over others, that they may not imagine that, when they pillage cities, the misfortunes of others are an honour to their own country.",
+          "href": "https://www.gutenberg.org/ebooks/44125",
+          "image": {
+            "src": "/covers/nazi-looted-art-claims-metzinger-returned--a2.png",
+            "alt": "Cast of the ancient relief from Kleitor in Arcadia showing Polybius",
+            "credit": "German Archaeological Institute at Athens (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Byron, in 'Childe Harold's Pilgrimage' (1812), curses the removal of the Parthenon marbles to London",
+          "source": "George Gordon, Lord Byron, Childe Harold's Pilgrimage, Canto II, stanza XV (London: John Murray, 1812); Project Gutenberg ebook 5131.",
+          "excerpt": "Cold is the heart, fair Greece, that looks on thee, / Nor feels as lovers o'er the dust they loved; / Dull is the eye that will not weep to see / Thy walls defaced, thy mouldering shrines removed / By British hands, which it had best behoved / To guard those relics ne'er to be restored. / Curst be the hour when from their isle they roved, / And once again thy hapless bosom gored, / And snatched thy shrinking gods to northern climes abhorred!",
+          "href": "https://www.gutenberg.org/ebooks/5131",
+          "image": {
+            "src": "/covers/nazi-looted-art-claims-metzinger-returned--a3.png",
+            "alt": "Thomas Phillips's 1813 portrait of Lord Byron in Albanian dress, with a red and gold jacket and turban",
+            "credit": "Thomas Phillips (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "In Book XXIV of the 'Iliad', Priam goes in person to the man who holds what was taken from his family and asks for it back",
+          "source": "Homer, The Iliad, Book XXIV, trans. Samuel Butler (London: Longmans, Green and Co., 1898); Project Gutenberg ebook 2199.",
+          "excerpt": "Fear, O Achilles, the wrath of heaven; think on your own father and have compassion upon me, who am the more pitiable, for I have steeled myself as no man yet has ever steeled himself before me, and have raised to my lips the hand of him who slew my son.",
+          "href": "https://www.gutenberg.org/ebooks/2199",
+          "image": {
+            "src": "/covers/nazi-looted-art-claims-metzinger-returned--a4.png",
+            "alt": "Alexander Ivanov's 1824 painting of the aged Priam kneeling before Achilles in his tent to ask for the body of Hector",
+            "credit": "Alexander Ivanov / Tretyakov Gallery (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Gustav Klimt's 'Portrait of Adele Bloch-Bauer I' (1907), seized in 1938 and returned to the family in 2006",
+          "source": "Gustav Klimt, Portrait of Adele Bloch-Bauer I, 1907, oil, silver and gold on canvas, 140 × 140 cm; Neue Galerie, New York. Restituted to Maria Altmann and other heirs in 2006 following Republic of Austria v. Altmann, 541 U.S. 677 (2004).",
+          "excerpt": "Klimt's portrait of Adele Bloch-Bauer, finished in 1907, sets its sitter's face and hands in a field of gold leaf, eyes and spirals. After the Nazi annexation of Austria in 1938 the Bloch-Bauer collection was seized, and the painting spent six decades in Vienna's Belvedere. Adele's niece Maria Altmann sued the Republic of Austria; the US Supreme Court allowed the case to proceed in 2004, an arbitration panel ruled in her favour in 2006, and the painting left Austria that year. It is the case every later restitution claim is measured against.",
+          "href": "https://en.wikipedia.org/wiki/Portrait_of_Adele_Bloch-Bauer_I",
+          "image": {
+            "src": "/covers/nazi-looted-art-claims-metzinger-returned--a5.png",
+            "alt": "Klimt's portrait of Adele Bloch-Bauer, her face and hands emerging from a shimmering field of gold patterns",
+            "credit": "Neue Galerie New York (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Raphael's 'Portrait of a Young Man' (c. 1513–14), seized from Kraków in 1939 and missing since 1945",
+          "source": "Raphael, Portrait of a Young Man, c. 1513–14, oil on panel, 72 × 56 cm; formerly Czartoryski Museum, Kraków; lost since 1945.",
+          "excerpt": "A young man in a fur-trimmed cloak turns toward the viewer with an easy, knowing half-smile. The painting, by Raphael or his workshop around 1513–14, belonged to the Czartoryski family in Kraków. German forces seized it after the invasion of Poland in 1939, and it was taken to Wawel Castle by the Nazi governor Hans Frank; it has not been seen since January 1945. It is the most valuable painting still missing from the Second World War, and survives only in photographs.",
+          "href": "https://en.wikipedia.org/wiki/Portrait_of_a_Young_Man_(Raphael)",
+          "image": {
+            "src": "/covers/nazi-looted-art-claims-metzinger-returned--a6.png",
+            "alt": "Photograph of Raphael's lost Portrait of a Young Man: a youth with long hair and a fur-lined cloak turning toward the viewer",
+            "credit": "Raphael (public domain)"
+          }
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "slug": "uffizi-pitti-flooded-florence-cloudburst",
+      "genre": "Art",
+      "headline": "A sudden cloudburst sends water pouring into the Uffizi and the Palazzo Pitti",
+      "overview": "A fast-moving cloudburst dropped nearly two inches of rain on Florence in an hour on 18 September, sending water cascading into the Uffizi Gallery and the historic Palazzo Pitti across the Arno and raising concern for the masterworks housed inside. The two museums hold one of the densest concentrations of Renaissance painting in the world, and the city has lived with the memory of water since November 1966, when the Arno burst its banks and flooded the historic centre, damaging thousands of works of art and books.",
+      "sources": [
+        {
+          "name": "Artforum",
+          "href": "https://www.artforum.com/news/shock-downpour-sends-water-cascading-into-the-uffizi-1234759415/"
+        }
+      ],
+      "candidateIds": [
+        1884
+      ],
+      "image": {
+        "src": "/covers/uffizi-pitti-flooded-florence-cloudburst.png",
+        "alt": "The Ponte Vecchio spanning the Arno in Florence, seen from a window of the Uffizi Gallery.",
+        "credit": "Ввласенко / Wikimedia Commons, CC BY-SA 3.0"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Giovanni Villani's chronicle records the flood of October 1269, when the Arno turned Florence into a lake and tore down the Santa Trinita bridge",
+          "source": "Giovanni Villani, Nuova Cronica, Book VII, ch. 34, trans. Rose E. Selfe, ed. Philip H. Wicksteed, Villani's Chronicle (London: Archibald Constable, 1906); Project Gutenberg ebook 33022.",
+          "excerpt": "In the said year 1269, on the night of the first of October, there was so great a flood of rain and waters from heaven, raining down continually for two nights and one day, that all the rivers of Italy increased more than had ever been known before; and the river of Arno overflowed its borders so beyond measure that a great part of the city of Florence became a lake, and this was by reason of much wood which the rivers brought down, which was caught and lay across at the foot of the Santa Trinita Bridge in such wise, that the water of the river was so stopped up that it spread through the city, whence many persons were drowned and many houses ruined.",
+          "href": "https://www.gutenberg.org/ebooks/33022"
+        },
+        {
+          "category": "historical",
+          "title": "Leonardo da Vinci's instructions for painting a deluge: water bursting its banks and bringing the walls of the city down",
+          "source": "Leonardo da Vinci, 'Description of the Deluge', Windsor manuscripts, in The Notebooks of Leonardo da Vinci, ed. and trans. Jean Paul Richter (1888); Project Gutenberg ebook 5000.",
+          "excerpt": "which, having already burst its banks, will rush on in monstrous waves; and the greatest will strike upon and destroy the walls of the cities and farmhouses in the valley. Then the ruins of the high buildings in these cities will throw up a great dust, rising up in shape like smoke or wreathed clouds against the falling rain;",
+          "href": "https://www.gutenberg.org/ebooks/5000"
+        },
+        {
+          "category": "literary",
+          "title": "Shelley's note to 'Ode to the West Wind' (1819): the poem was written in a wood by the Arno as the autumn storm came in",
+          "source": "Percy Bysshe Shelley, note to 'Ode to the West Wind', in Prometheus Unbound, with Other Poems (London: C. and J. Ollier, 1820); The Complete Poetical Works of Percy Bysshe Shelley, ed. Thomas Hutchinson (Oxford, 1914); Project Gutenberg ebook 4800.",
+          "excerpt": "This poem was conceived and chiefly written in a wood that skirts the Arno, near Florence, and on a day when that tempestuous wind, whose temperature is at once mild and animating, was collecting the vapours which pour down the autumnal rains. They began, as I foresaw, at sunset with a violent tempest of hail and rain, attended by that magnificent thunder and lightning peculiar to the Cisalpine regions.",
+          "href": "https://www.gutenberg.org/ebooks/4800",
+          "image": {
+            "src": "/covers/uffizi-pitti-flooded-florence-cloudburst--a3.png",
+            "alt": "Amelia Curran's 1819 portrait of Percy Bysshe Shelley, young, with an open white collar",
+            "credit": "After Amelia Curran (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Ovid's flood in Book I of the 'Metamorphoses': the rivers carry off the temples and their sacred things, and sea and land lose their distinction",
+          "source": "Ovid, Metamorphoses, Book I, trans. Henry T. Riley (London: George Bell & Sons, 1893); Project Gutenberg ebook 21765. Riley's editorial brackets around supplied words are omitted.",
+          "excerpt": "The rivers, breaking out, rush through the open plains, and bear away, together with the standing corn, the groves, flocks, men, houses, and temples, together with their sacred utensils. If any house remained, and, not thrown down, was able to resist ruin so vast, yet the waves, rising aloft, covered the roof of that house, and the towers tottered, overwhelmed beneath the stream. And now sea and land had no mark of distinction; everything now was ocean; and to that ocean shores were wanting.",
+          "href": "https://www.gutenberg.org/ebooks/21765",
+          "image": {
+            "src": "/covers/uffizi-pitti-flooded-florence-cloudburst--a4.png",
+            "alt": "Paul Merwart's painting of the Flood: people clinging to rocks and to one another as the water rises",
+            "credit": "Paul Merwart (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Leonardo da Vinci's 'A Deluge' (c. 1517–18), one of the black-chalk flood drawings of his last years",
+          "source": "Leonardo da Vinci, A Deluge, c. 1517–18, black chalk, 16.2 × 20.3 cm; Royal Collection Trust, RCIN 912383.",
+          "excerpt": "In the last years of his life, in France, Leonardo drew a series of deluges in black chalk: storms and floods seen from far above, water curling into spirals and vortices that tear through mountains and towns. In this sheet in the Royal Collection the rain falls in sheets and the water rises in coiling masses that leave almost nothing recognisable. They are the work of a man who had spent decades studying how water moves, and who ended convinced that it would, in the end, have its way.",
+          "href": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912383%2C_A_deluge_c.1517-18.jpg",
+          "image": {
+            "src": "/covers/uffizi-pitti-flooded-florence-cloudburst--a5.png",
+            "alt": "Leonardo's black-chalk drawing of a deluge: torrents of rain and spiralling waves overwhelming a landscape",
+            "credit": "Royal Collection Trust (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Claude Debussy's 'La cathédrale engloutie' ('The Sunken Cathedral', 1910)",
+          "source": "Claude Debussy, Préludes, Book I, No. 10, 'La cathédrale engloutie', 1909–10 (Paris: Durand, 1910); score at the International Music Score Library Project (IMSLP).",
+          "excerpt": "The tenth of Debussy's first book of Preludes takes the Breton legend of the drowned city of Ys, whose cathedral rises from the sea on clear mornings and sinks again. Wide, bell-like chords emerge from the deep register of the piano, build to a full organ-like statement of the chant, and then sink back beneath the water. It is music about a treasure that belongs to the water now, and surfaces only when the sea allows.",
+          "href": "https://imslp.org/wiki/Pr%C3%A9ludes,_Livre_1_(Debussy,_Claude)",
+          "image": {
+            "src": "/covers/uffizi-pitti-flooded-florence-cloudburst--a6.png",
+            "alt": "Félix Nadar's photograph of Claude Debussy around 1908, with a dark beard and swept-back hair",
+            "credit": "Nadar (public domain)"
+          }
+        }
+      ],
+      "rank": 13
+    },
+    {
+      "slug": "russian-strikes-destroy-ukraines-books",
+      "genre": "Books",
+      "headline": "Russian strikes have destroyed millions of Ukraine's books, as a BBC investigation finds almost no one punished for wartime heritage destruction",
+      "overview": "An Associated Press report on 21 September detailed how Russian strikes had destroyed millions of books across Ukraine, raising concern about the long-term survival of the country's literary culture and its archives as the war goes on. Days earlier, a BBC In Depth investigation had documented cultural monuments being destroyed across several of the world's current conflicts and found that virtually no one had been punished for the destruction, profiling the activists and specialists working to document and protect heritage sites under threat and to bring those responsible to justice.",
+      "sources": [
+        {
+          "name": "AP",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOV08zM3UxQ1oxcXV3UlBWZzlVX1pUZDNtSFlrRS1hMnBLOEhLa1JwaGd3ajJHdTJxY3dRekNLVWpHZkxsLWpKb1BJT19EQzl2QlJyUVBqTEVLUEZqMHZGM1A5RllfdG9OcmRSY2hNSThNd0xiNEVoNFIxNFZ1aG1STmRsalkxMVpjaDJXSFVuM2VVVHU4dTBF?oc=5"
+        },
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/cvgy1q2k2z0o"
+        }
+      ],
+      "candidateIds": [
+        2011,
+        1928,
+        1948,
+        2010
+      ],
+      "image": {
+        "src": "/covers/russian-strikes-destroy-ukraines-books.png",
+        "alt": "Charred books lie on the floor of a damaged library beneath broken shelves, lit by daylight from a shattered window.",
+        "credit": "AI-generated"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Plutarch records how, in the Alexandrian War of 48 BC, Caesar's fire spread from the dockyards and destroyed the great library",
+          "source": "Plutarch, Life of Caesar, 49.6, trans. Bernadotte Perrin, Plutarch's Lives, vol. VII (Loeb Classical Library, 1919); text at LacusCurtius, University of Chicago.",
+          "excerpt": "in the second place, when the enemy tried to cut off his fleet, he was forced to repel the danger by using fire, and this spread from the dockyards and destroyed the great library",
+          "href": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Caesar*.html",
+          "image": {
+            "src": "/covers/russian-strikes-destroy-ukraines-books--a1.png",
+            "alt": "Marble portrait head identified as Plutarch, in the museum at Delphi",
+            "credit": "Odysses / Wikimedia Commons, CC BY-SA 3.0"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "The burning of the university library at Louvain in August 1914, as recorded by Arnold Toynbee three years later",
+          "source": "Arnold J. Toynbee, The German Terror in Belgium: An Historical Record (London: Hodder and Stoughton, 1917), ch. on Louvain; Project Gutenberg ebook 50716.",
+          "excerpt": "The manuscripts and early printed books in the Library were one of the treasures of Europe. The whole collection of 250,000 volumes was the intellectual capital of the University, without which it could not carry on its work. Every volume and manuscript was destroyed.",
+          "href": "https://www.gutenberg.org/ebooks/50716"
+        },
+        {
+          "category": "literary",
+          "title": "John Milton, 'Areopagitica' (1644): to destroy a good book is to kill reason itself",
+          "source": "John Milton, Areopagitica: A Speech of Mr. John Milton for the Liberty of Unlicenc'd Printing, to the Parlament of England (London, 1644); Project Gutenberg ebook 608.",
+          "excerpt": "as good almost kill a man as kill a good book. Who kills a man kills a reasonable creature, God's image; but he who destroys a good book, kills reason itself, kills the image of God, as it were in the eye.",
+          "href": "https://www.gutenberg.org/ebooks/608",
+          "image": {
+            "src": "/covers/russian-strikes-destroy-ukraines-books--a3.png",
+            "alt": "George Vertue's engraved portrait of John Milton in an oval frame",
+            "credit": "George Vertue (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The last stanza of Taras Shevchenko's 'My Testament' (1845), the poem Ukrainians learn by heart: speak of me",
+          "source": "Taras Shevchenko, 'Zapovit' ('My Testament'), written 25 December 1845, in The Kobzar of the Ukraine, trans. Alexander Jardine Hunter (Winnipeg, 1922); Project Gutenberg ebook 68486.",
+          "excerpt": "Then shall spring a kinship great, / This a family new and free. / Sometimes in your glorious state, / Gently, kindly, speak of me.",
+          "href": "https://www.gutenberg.org/ebooks/68486",
+          "image": {
+            "src": "/covers/russian-strikes-destroy-ukraines-books--a4.png",
+            "alt": "Taras Shevchenko's 1840 self-portrait in oils, a young man with dark hair against a dark background",
+            "credit": "Taras Shevchenko (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Pedro Berruguete's 'Saint Dominic and the Albigensians' (c. 1493–99), a trial by fire decided by which books burn",
+          "source": "Pedro Berruguete, Santo Domingo y los albigenses (Saint Dominic and the Albigensians), c. 1493–99, oil on panel; Museo Nacional del Prado, Madrid.",
+          "excerpt": "Berruguete painted the scene for the Dominican friary of Santo Tomás in Ávila in the 1490s. On a dais, the heretics' books and Saint Dominic's book are thrown together onto a fire to see which will survive; the saint's book rises miraculously out of the flames, while the others burn. A court of robed judges watches. It is a picture of a trial in which the burning of books is the verdict — and of how long the fire has been used as an argument about which books deserve to exist.",
+          "href": "https://commons.wikimedia.org/wiki/File:Pedro_Berruguete_-_St_Dominic_and_the_Albigenses_-_WGA02083.jpg",
+          "image": {
+            "src": "/covers/russian-strikes-destroy-ukraines-books--a5.png",
+            "alt": "Berruguete's panel of books being thrown into a fire before seated judges, one book rising unburned out of the flames",
+            "credit": "Museo del Prado (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "The Ostroh Bible (1581), printed by Ivan Fedorov at Ostroh in present-day Ukraine",
+          "source": "Ivan Fedorov (printer), Ostroh Bible, Ostroh, 1581, first complete printed Bible in Church Slavonic.",
+          "excerpt": "In 1581 the printer Ivan Fedorov completed the first full printed Bible in Church Slavonic at Ostroh, in Volhynia, in what is now western Ukraine, under the patronage of Prince Konstantin Ostrozhsky. Its title page is a framed architectural portal of woodcut ornament around the text, a typographic monument built to last. It is one of the founding objects of printing in Ukraine — the kind of book, and the kind of collection, whose loss the week's reporting counted in millions.",
+          "href": "https://en.wikipedia.org/wiki/Ostrog_Bible",
+          "image": {
+            "src": "/covers/russian-strikes-destroy-ukraines-books--a6.png",
+            "alt": "Woodcut title page of the 1581 Ostroh Bible, Church Slavonic text within an ornamental architectural frame",
+            "credit": "Ivan Fedorov (public domain)"
+          }
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "slug": "france-photography-bicentennial-exhibitions",
+      "genre": "Culture",
+      "headline": "France marks two hundred years of photography with a series of travelling exhibitions",
+      "overview": "France launched a series of travelling themed exhibitions to celebrate two hundred years since the invention of photography, reflecting on the medium's history at a moment when digital images dominate visual culture. The anniversary is dated from the earliest surviving photograph made with a camera, the view from his window at Le Gras in Burgundy that Nicéphore Niépce fixed on a pewter plate around 1826–27, which led to the daguerreotype that the French state bought and gave to the world in 1839.",
+      "sources": [
+        {
+          "name": "Colossal",
+          "href": "https://www.thisiscolossal.com/2026/09/grandpalaisrmn-200-year-photography-exhibition/"
+        }
+      ],
+      "candidateIds": [
+        2013
+      ],
+      "image": {
+        "src": "/covers/france-photography-bicentennial-exhibitions.png",
+        "alt": "Niépce's View from the Window at Le Gras, the earliest surviving camera photograph: blurred grey shapes of rooftops and a courtyard seen from an upstairs window.",
+        "credit": "Harry Ransom Center (public domain)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "William Henry Fox Talbot, in 'The Pencil of Nature' (1844), describes the moment in 1833 when he wished the camera's image could be made to stay",
+          "source": "William Henry Fox Talbot, The Pencil of Nature (London: Longman, Brown, Green and Longmans, 1844–46), 'Brief Historical Sketch of the Invention of the Art'; Project Gutenberg ebook 33447.",
+          "excerpt": "And this led me to reflect on the inimitable beauty of the pictures of nature’s painting which the glass lens of the Camera throws upon the paper in its focus—fairy pictures, creations of a moment, and destined as rapidly to fade away. It was during these thoughts that the idea occurred to me…how charming it would be if it were possible to cause these natural images to imprint themselves durably, and remain fixed upon the paper!",
+          "href": "https://www.gutenberg.org/ebooks/33447"
+        },
+        {
+          "category": "historical",
+          "title": "Samuel Morse recalls visiting Daguerre in March 1839 — and how the next day Daguerre's studio burned with all its pictures, though not the process",
+          "source": "Samuel F. B. Morse, recollection quoted in Henry H. Snelling, The History and Practice of the Art of Photography (New York: G. P. Putnam, 1849); Project Gutenberg ebook 168.",
+          "excerpt": "On the succeeding day M. Daguerre paid me a visit to see the Telegraph and witness its operations. He seemed much gratified and remained with me perhaps two hours; two melancholy hours to him, as they afterwards proved; or while he was with me, his buildings, including his diorama, his studio, his laboratory, with all the beautiful pictures I had seen the day before, were consumed by fire. Fortunately for mankind, matter only was consumed, the soul and mind of the genius, and the process were still in existence.",
+          "href": "https://www.gutenberg.org/ebooks/168",
+          "image": {
+            "src": "/covers/france-photography-bicentennial-exhibitions--a2.png",
+            "alt": "Portrait of Samuel Morse around 1840, in a dark coat and patterned cravat",
+            "credit": "Unidentified photographer (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Holgrave, the daguerreotypist in Hawthorne's 'The House of the Seven Gables' (1851), explains what sunlight reveals that a painter would not",
+          "source": "Nathaniel Hawthorne, The House of the Seven Gables (Boston: Ticknor, Reed, and Fields, 1851), ch. VI, 'Maule's Well'; Project Gutenberg ebook 77.",
+          "excerpt": "There is a wonderful insight in Heaven’s broad and simple sunshine. While we give it credit only for depicting the merest surface, it actually brings out the secret character with a truth that no painter would ever venture upon, even could he detect it.",
+          "href": "https://www.gutenberg.org/ebooks/77",
+          "image": {
+            "src": "/covers/france-photography-bicentennial-exhibitions--a3.png",
+            "alt": "Charles Osgood's 1840 portrait of Nathaniel Hawthorne, dark-haired, in a black coat and cravat",
+            "credit": "Charles Osgood / Peabody Essex Museum (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "In 'The Picture of Dorian Gray' (1890), Dorian wishes the picture would age instead of him — the bargain every photograph seems to offer",
+          "source": "Oscar Wilde, The Picture of Dorian Gray (London: Ward, Lock and Company, 1891), ch. II; Project Gutenberg ebook 174.",
+          "excerpt": "But this picture will remain always young. It will never be older than this particular day of June.... If it were only the other way! If it were I who was to be always young, and the picture that was to grow old! For that—for that—I would give everything! Yes, there is nothing in the whole world I would not give! I would give my soul for that!",
+          "href": "https://www.gutenberg.org/ebooks/174",
+          "image": {
+            "src": "/covers/france-photography-bicentennial-exhibitions--a4.png",
+            "alt": "Napoleon Sarony's 1882 photograph of Oscar Wilde, seated, with long hair, in a fur-trimmed coat",
+            "credit": "Napoleon Sarony (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Louis Daguerre's 'Boulevard du Temple' (1838), the first photograph to show a human being",
+          "source": "Louis-Jacques-Mandé Daguerre, Boulevard du Temple, Paris, 1838, daguerreotype.",
+          "excerpt": "Daguerre pointed his camera from a high window down the Boulevard du Temple in Paris in 1838. The exposure lasted several minutes, so the carriages and crowds that filled the street moved too quickly to register: the boulevard appears empty. Except, at the lower left, one man stood still long enough to have his boots polished — and he and the bootblack became the first people ever photographed. It is a picture of how the medium sees: whatever stays still is kept, and whatever moves on is lost.",
+          "href": "https://en.wikipedia.org/wiki/Boulevard_du_Temple_(photograph)",
+          "image": {
+            "src": "/covers/france-photography-bicentennial-exhibitions--a5.png",
+            "alt": "Daguerre's 1838 view down an apparently empty Paris boulevard, with a tiny figure having his boots polished at lower left",
+            "credit": "Louis Daguerre (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "William Henry Fox Talbot's 'The Open Door' (1844), plate VI of 'The Pencil of Nature'",
+          "source": "William Henry Fox Talbot, The Open Door, April 1844, salted paper print from a paper negative, published as plate VI of The Pencil of Nature; impression at the Metropolitan Museum of Art.",
+          "excerpt": "A stable door stands ajar in the sunlight; a broom leans against the doorway, a lantern hangs on the wall, and the shadow of the broom falls across the old stone. Talbot published the image as plate VI of The Pencil of Nature, the first commercially published book illustrated with photographs, and admitted that it was a picture in the manner of the Dutch painters. It is the first photograph made purely as a work of art — nothing is recorded that could not have been passed by unnoticed.",
+          "href": "https://commons.wikimedia.org/wiki/File:The_Open_Door_MET_DP148629.jpg",
+          "image": {
+            "src": "/covers/france-photography-bicentennial-exhibitions--a6.png",
+            "alt": "Talbot's early photograph of a broom leaning in the sunlit doorway of a stone stable, with a lantern hanging beside it",
+            "credit": "Metropolitan Museum of Art (CC0)"
+          }
+        }
+      ],
+      "rank": 15
+    },
+    {
+      "slug": "kennedy-center-demolition-fears-protest",
+      "genre": "Music",
+      "headline": "Thousands protest outside the Kennedy Center as Trump declines to say whether he will tear it down",
+      "overview": "Thousands of people protested outside the John F. Kennedy Center for the Performing Arts in Washington on 19 September over fears that Donald Trump might demolish it. Trump declined to say whether he would tear the building down, while defending his push to put his own name on it. Kerry Kennedy, a niece of President Kennedy, said demolition would be 'a tragedy', and questions continued over the centre's finances, including the claim that it was losing 'hundreds of millions of dollars'. The centre, opened in 1971 as the national memorial to the assassinated president, houses the National Symphony Orchestra and the Washington National Opera.",
+      "sources": [
+        {
+          "name": "AP",
+          "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxObllpQ3hxbFpfWTZtb2lTMlFHWDdPakRyZnB4ZzlZeVltdlVRSnpxTTUyTk9Ma3p5amNpVVhCR2FyUFpEUm1lbHQ4U1EwT1pQcVY0SVNSdHVLQ294U05zQW50UnVsVlVNNlJTSUV6WVFweEdUb0RwUEV6cE1DY3MzZUJnM2V2c1pDV1A5QlNKUGd0Zmp1SG1BUUZqTVhyUQ?oc=5"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWGlSWk9aVU1zU0J2UXk5LTlSZGxVbm1qYmFUMVJLVk9WeVZpMm5oU1FYdWczZ1pGV0dJNlhyMVlLWEtNdGhyRnhLeXpqNElzQkNSc1h6V3VDY3ByNFoxZ01TTlY2SDE3YWZmaV9WSjg3Tjk3SDNZTWxNMEdkbVdrNm1kZ1FLZUtOZ3VRT3BHWnNnTnpLVmp6R1ZibmdEaGc4M3YzZjlXVQ?oc=5"
+        },
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/videos/cv8e3jw1kr4lo"
+        }
+      ],
+      "candidateIds": [
+        1860
+      ],
+      "image": {
+        "src": "/covers/kennedy-center-demolition-fears-protest.png",
+        "alt": "The long white marble façade of the John F. Kennedy Center for the Performing Arts beside the Potomac River in Washington.",
+        "credit": "Carol M. Highsmith / Library of Congress (public domain)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Pericles, in his funeral oration of 431 BC, describes a city whose wealth is for use and whose culture is held in common",
+          "source": "Thucydides, History of the Peloponnesian War, 2.40, the Funeral Oration of Pericles, trans. Richard Crawley (London: J. M. Dent, 1874); Project Gutenberg ebook 7142.",
+          "excerpt": "We cultivate refinement without extravagance and knowledge without effeminacy; wealth we employ more for use than for show, and place the real disgrace of poverty not in owning to the fact but in declining the struggle against it.",
+          "href": "https://www.gutenberg.org/ebooks/7142",
+          "image": {
+            "src": "/covers/kennedy-center-demolition-fears-protest--a1.png",
+            "alt": "Marble herm bust of Pericles wearing a crested helmet, a Roman copy in the Vatican's Museo Chiaramonti",
+            "credit": "Vatican Museums (public domain)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "William Morris's manifesto for the Society for the Protection of Ancient Buildings (1877): protection, not replacement",
+          "source": "William Morris, Manifesto of the Society for the Protection of Ancient Buildings, 1877; text published by the SPAB.",
+          "excerpt": "It is for all these buildings, therefore, of all times and styles, that we plead, and call upon those who have to deal with them, to put Protection in the place of Restoration, to stave off decay by daily care, to prop a perilous wall or mend a leaky roof by such means as are obviously meant for support or covering, and show no pretence of other art, and otherwise to resist all tampering with either the fabric or ornament of the building as it stands; if it has become inconvenient for its present use, to raise another building rather than alter or enlarge the old one; in fine to treat our ancient buildings as monuments of a bygone art, created by bygone manners, that modern art cannot meddle with without destroying.",
+          "href": "https://www.spab.org.uk/about-us/spab-manifesto",
+          "image": {
+            "src": "/covers/kennedy-center-demolition-fears-protest--a2.png",
+            "alt": "Frederick Hollyer's photograph of William Morris aged 53, with a full grey beard and unruly hair",
+            "credit": "Frederick Hollyer (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "John Ruskin, 'The Lamp of Memory' (1849): the buildings of the past are not ours to destroy",
+          "source": "John Ruskin, The Seven Lamps of Architecture (London: Smith, Elder & Co., 1849), ch. VI, 'The Lamp of Memory', §XX; Project Gutenberg ebook 35898.",
+          "excerpt": "it is again no question of expediency or feeling whether we shall preserve the buildings of past times or not. We have no right whatever to touch them. They are not ours. They belong partly to those who built them, and partly to all the generations of mankind who are to follow us. The dead have still their right in them: that which they labored for, the praise of achievement or the expression of religious feeling, or whatsoever else it might be which in those buildings they intended to be permanent, we have no right to obliterate.",
+          "href": "https://www.gutenberg.org/ebooks/35898",
+          "image": {
+            "src": "/covers/kennedy-center-demolition-fears-protest--a3.png",
+            "alt": "John Everett Millais's 1853–54 portrait of John Ruskin standing on the rocks beside a rushing stream at Glenfinlas",
+            "credit": "John Everett Millais (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Victor Hugo, in 'Notre-Dame de Paris' (1831), counts the scars that men, more than time, have left on a great building",
+          "source": "Victor Hugo, Notre-Dame de Paris (1831), Book III, ch. I, 'Notre-Dame', trans. Isabel F. Hapgood (New York: T. Y. Crowell, 1888); Project Gutenberg ebook 2610.",
+          "excerpt": "On the face of this aged queen of our cathedrals, by the side of a wrinkle, one always finds a scar. Tempus edax, homo edacior; which I should be glad to translate thus: time is blind, man is stupid.",
+          "href": "https://www.gutenberg.org/ebooks/2610",
+          "image": {
+            "src": "/covers/kennedy-center-demolition-fears-protest--a4.png",
+            "alt": "Bertall's photographic portrait of Victor Hugo, grey-bearded, in a dark coat",
+            "credit": "Bertall (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Leonard Bernstein's 'Mass' (1971), commissioned for the opening of the Kennedy Center",
+          "source": "Leonard Bernstein, Mass: A Theatre Piece for Singers, Players and Dancers, text from the Roman Mass with additional texts by Stephen Schwartz and Leonard Bernstein; first performed at the opening of the John F. Kennedy Center for the Performing Arts, Washington, 8 September 1971.",
+          "excerpt": "Leonard Bernstein's Mass was commissioned by Jacqueline Kennedy for the opening of the Kennedy Center and first performed there on 8 September 1971. It is a theatre piece for singers, players and dancers built on the Roman Catholic liturgy, in which a young celebrant's faith is tested by a crowd that grows louder and angrier until he smashes the sacred vessels — and is rebuilt, at the end, by the quietest voice in the room. It was written for this building, as its first act.",
+          "href": "https://en.wikipedia.org/wiki/Mass_(Bernstein)",
+          "image": {
+            "src": "/covers/kennedy-center-demolition-fears-protest--a5.png",
+            "alt": "Close-up photograph of Leonard Bernstein in 1971, grey-haired, looking down and to one side",
+            "credit": "Marion S. Trikosko / Library of Congress (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Hubert Robert's 'Imaginary View of the Grande Galerie of the Louvre in Ruins' (1796)",
+          "source": "Hubert Robert, Vue imaginaire de la Grande Galerie du Louvre en ruines, 1796, oil on canvas, 114 × 146 cm; Musée du Louvre, Paris, RF 1975-11.",
+          "excerpt": "Hubert Robert, who helped to plan the Louvre's conversion into a public museum, exhibited two paintings of its Grande Galerie at the Salon of 1796: one showing the gallery as it was to be renovated, and this one, showing it in ruins centuries hence. The vault has fallen in and grass grows between the broken floor stones; the Apollo Belvedere still stands intact among the rubble, while a figure sketches it and others scavenge. It is a painting of a cultural monument imagined from the far side of its destruction.",
+          "href": "https://commons.wikimedia.org/wiki/File:Hubert_Robert_-_Imaginary_View_of_the_Grande_Galerie_in_the_Louvre_in_Ruins_-_WGA19589.jpg",
+          "image": {
+            "src": "/covers/kennedy-center-demolition-fears-protest--a6.png",
+            "alt": "Hubert Robert's painting of the Louvre's long gallery in ruins, its vault collapsed open to the sky, a classical statue standing among the rubble",
+            "credit": "Musée du Louvre (public domain)"
+          }
+        }
+      ],
+      "rank": 16
+    }
+  ]
+}
