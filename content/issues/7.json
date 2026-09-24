@@ -185,7 +185,7 @@
           "href": "https://www.gutenberg.org/ebooks/1321",
           "image": {
             "src": "/covers/houthi-riyadh-fuel-depot-strikes--a4.png",
-            "alt": "Title page of the first American edition of The Waste Land, published by Boni and Liveright in 1922",
+            "alt": "Front cover of the 1922 Boni and Liveright first edition of The Waste Land",
             "credit": "Wikimedia Commons"
           }
         },
@@ -314,7 +314,7 @@
           "href": "https://imslp.org/wiki/L'apprenti_sorcier_(Dukas,_Paul)",
           "image": {
             "src": "/covers/gemini-autonomous-hack-ai-safety-split--a5.png",
-            "alt": "Photographic portrait of the composer Paul Dukas, bearded, seated in a dark suit",
+            "alt": "Photographic portrait of the composer Paul Dukas, bearded, in a dark suit",
             "credit": "Bibliothèque nationale de France (public domain)"
           }
         },
@@ -487,7 +487,7 @@
           "href": "https://www.gutenberg.org/ebooks/2456",
           "image": {
             "src": "/covers/trump-un-annihilate-iran-pezeshkian--a2.png",
-            "alt": "Alexandre Jacovleff's 1911 painting of the Persian king Xerxes, enthroned in an elaborate robe and crown",
+            "alt": "Alexandre Jacovleff's 1911 drawing of Xerxes in an elaborately patterned robe, raised above a crowd of bowed heads",
             "credit": "Alexandre Jacovleff (public domain)"
           }
         },
@@ -499,7 +499,7 @@
           "href": "https://www.gutenberg.org/ebooks/30568",
           "image": {
             "src": "/covers/trump-un-annihilate-iran-pezeshkian--a3.png",
-            "alt": "Illuminated page of Kipling's poem Recessional from the New York Public Library collections",
+            "alt": "Printed sheet-music page of a musical setting of Kipling's Recessional, from the New York Public Library collections",
             "credit": "New York Public Library (public domain)"
           }
         },
@@ -638,7 +638,7 @@
           "href": "https://commons.wikimedia.org/wiki/File:Ethiopian_painting%2C_Battle_of_Adwa%2C_1896.jpg",
           "image": {
             "src": "/covers/tigray-defensive-war-ethiopia-airports--a6.png",
-            "alt": "Traditional Ethiopian painting of the battle of Adwa: ranks of Ethiopian soldiers and cavalry facing Italian troops beneath a saint on horseback",
+            "alt": "Traditional Ethiopian painting of the battle of Adwa: ranks of Ethiopian soldiers and cavalry facing Italian troops, with a saint appearing in the sky above",
             "credit": "Wikimedia Commons, CC BY-SA 4.0"
           }
         }
@@ -718,7 +718,7 @@
           "href": "https://www.gutenberg.org/ebooks/10",
           "image": {
             "src": "/covers/record-super-el-nino-excess-deaths--a4.png",
-            "alt": "Sixteenth-century painted roundel of Joseph kneeling before Pharaoh to interpret his dreams",
+            "alt": "Sixteenth-century painting of Joseph interpreting Pharaoh's dreams before a crowded court, framed by Renaissance architecture",
             "credit": "Metropolitan Museum of Art (CC0)"
           }
         },
@@ -926,7 +926,7 @@
           "href": "https://www.gutenberg.org/ebooks/1597",
           "image": {
             "src": "/covers/white-house-bans-cnn-ms-now-politico--a4.png",
-            "alt": "Vilhelm Pedersen's illustration of the emperor walking in procession under a canopy while onlookers watch",
+            "alt": "Vilhelm Pedersen's illustration for The Emperor's New Clothes: two figures from the tale, one doffing his hat with a flourish",
             "credit": "Vilhelm Pedersen (public domain)"
           }
         },
@@ -1205,7 +1205,7 @@
           "href": "https://avalon.law.yale.edu/20th_century/hague04.asp",
           "image": {
             "src": "/covers/nazi-looted-art-claims-metzinger-returned--a1.png",
-            "alt": "Group photograph of the delegates to the Second Hague Peace Conference in 1907",
+            "alt": "The delegates of the Second Hague Peace Conference in session in a great hall in 1907",
             "credit": "Wikimedia Commons, CC BY-SA 3.0"
           }
         },
@@ -1401,12 +1401,7 @@
           "title": "The burning of the university library at Louvain in August 1914, as recorded by Arnold Toynbee three years later",
           "source": "Arnold J. Toynbee, The German Terror in Belgium: An Historical Record (London: Hodder and Stoughton, 1917), ch. on Louvain; Project Gutenberg ebook 50716.",
           "excerpt": "The manuscripts and early printed books in the Library were one of the treasures of Europe. The whole collection of 250,000 volumes was the intellectual capital of the University, without which it could not carry on its work. Every volume and manuscript was destroyed.",
-          "href": "https://www.gutenberg.org/ebooks/50716",
-          "image": {
-            "src": "/covers/russian-strikes-destroy-ukraines-books--a2.png",
-            "alt": "Photograph of the gutted ruins of the university library at Louvain after it was burned in 1914",
-            "credit": "US National Archives (public domain)"
-          }
+          "href": "https://www.gutenberg.org/ebooks/50716"
         },
         {
           "category": "literary",
@@ -1494,7 +1489,7 @@
           "href": "https://www.gutenberg.org/ebooks/168",
           "image": {
             "src": "/covers/france-photography-bicentennial-exhibitions--a2.png",
-            "alt": "Daguerreotype portrait of Samuel Morse around 1840, seated in a dark coat",
+            "alt": "Portrait of Samuel Morse around 1840, in a dark coat and patterned cravat",
             "credit": "Unidentified photographer (public domain)"
           }
         },
@@ -1633,7 +1628,7 @@
           "href": "https://en.wikipedia.org/wiki/Mass_(Bernstein)",
           "image": {
             "src": "/covers/kennedy-center-demolition-fears-protest--a5.png",
-            "alt": "Photograph of Leonard Bernstein in 1971, wearing a dark jacket and gesturing as he speaks",
+            "alt": "Close-up photograph of Leonard Bernstein in 1971, grey-haired, looking down and to one side",
             "credit": "Marion S. Trikosko / Library of Congress (public domain)"
           }
         },
