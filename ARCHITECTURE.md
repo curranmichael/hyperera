@@ -158,7 +158,8 @@ The prompt is `.claude/commands/publish-weekly.md`, versioned in the repo rather
 routine config where it would drift invisibly. A Claude routine runs it Friday morning:
 
 1. `npm run week:candidates` → `scratch/week.json`: the week's candidates merged by thread, each with
-   its arc, corroboration score, provenance, and last week's headlines for cross-week dedupe.
+   its arc, corroboration score, provenance, and last week's headlines for cross-week dedupe. It
+   reads `GET /api/week` on the live site, so the routine needs no database credential.
 2. Select 15–20 by filling **department slots, not one global ranking**.
    `importance × source_count × day_span` is a corroboration score — right for news, structurally
    wrong for culture, where an Aeon essay has one source and one day by nature and would lose every
@@ -167,9 +168,17 @@ routine config where it would drift invisibly. A Claude routine runs it Friday m
    six analogies with verbatim excerpts and canonical links.
 4. Source and dither images to `public/covers/` via `scripts/dither-art.ts` (remote, rights-clean) and
    `scripts/generate-covers.ts` (generated, for covers only).
-5. `npm run issue:publish` validates and writes the issue with its `story_candidates` links.
-6. Push the covers on a `claude/issue-<n>-covers` branch, open a PR carrying the lineup, and merge
-   it. The merge builds `main`, and the issue goes live with its images.
+5. Write `content/issues/<n>.json` and validate it with `npm run issue:publish -- --offline`.
+6. Push the issue file and covers on a `claude/issue-<n>` branch, open a PR carrying the lineup, and
+   merge it. The build runs `scripts/import-issues.ts` before `next build`, which writes any
+   committed issue not yet published (with its `story_candidates` links) using the build's own
+   `DATABASE_URL`; the prerender then picks it up. Published issues are skipped, so every later
+   build is a no-op for them.
+
+The routine talks only to GitHub and the public site. It used to hold its own Neon connection
+string, and keeping that one variable correct in a cloud environment — where a Neon integration
+injects a `DATABASE_URL` for another project, and the dedicated variable was left holding template
+placeholders — is what stopped the weekly issue from mid-August to late September 2026. The credential now lives only in Vercel.
 
 Dedupe across days and weeks is a prompt-level mechanism: 14 days of candidate titles in the triage
 prompt, last week's headlines in the weekly one. No embeddings. Add vectors only if duplicate threads
@@ -229,7 +238,7 @@ Production.
 | Variable | Used by |
 | --- | --- |
 | `DATABASE_URL` | deployed app and local fallback; required at build time as well as runtime |
-| `HYPERERA_DATABASE_URL` | weekly cloud routine; deliberately wins over an integration-injected `DATABASE_URL` |
+| `HYPERERA_DATABASE_URL` | optional local override; wins over an integration-injected `DATABASE_URL`. The weekly routine no longer uses it |
 | `CRON_SECRET` | `/api/ingest`, `/api/triage` — both fail closed when unset |
 | `AI_GATEWAY_API_KEY` | triage, cover generation |
 
@@ -238,21 +247,19 @@ Builds run on pushes to `main`, as they always have. `claude/*` branches are ski
 build that matters. Cron schedules live in `vercel.json`; the weekly publish is a Claude routine, not
 a Vercel cron.
 
-**The routine's cloud environment** needs two variables — `HYPERERA_DATABASE_URL` and
-`AI_GATEWAY_API_KEY` (Step 4's cover generation) — and these hosts under Custom network access, since the
+**The routine's cloud environment** needs one variable — `AI_GATEWAY_API_KEY` (Step 4's cover
+generation) — and these hosts under Custom network access, since the
 [default allowlist](https://code.claude.com/docs/en/cloud-environments) covers package registries
 and GitHub but none of what the publish pass actually talks to:
 
-- `*.neon.tech` over HTTPS/WSS 443 — `week:candidates` and `issue:publish`
 - `upload.wikimedia.org`, `commons.wikimedia.org` — analogy artwork for `dither-art.ts`
 - `ai-gateway.vercel.sh` — generated covers
-- `www.hyperera.news` — the Step 7 post-deploy check
+- `www.hyperera.news` — `week:candidates` (`/api/week`) and the Step 7 post-deploy check
 
-Cloud environments have no secrets store and their variables are readable by anyone using the
-environment, so the routine should hold a Neon role scoped to this database rather than the owner
-connection string. The publication-specific variable name is intentional: `lib/db` refuses a
-generic `DATABASE_URL` outside Vercel when the surrounding variables show that a Neon integration
-injected it. GitHub access goes through Anthropic's proxy and needs no token of its own.
+It holds no database credential. Cloud environments have no secrets store and their variables are
+readable by anyone using the environment, so keeping the connection string in Vercel alone is also
+the safer arrangement. `lib/db` still refuses a generic `DATABASE_URL` outside Vercel when the
+surrounding variables show that a Neon integration injected it. GitHub access goes through Anthropic's proxy and needs no token of its own.
 
 ## 9. Operating it
 
@@ -261,7 +268,7 @@ injected it. GitHub access goes through Anthropic's proxy and needs no token of 
 | Ingest missed a day | `curl -H "Authorization: Bearer $CRON_SECRET" .../api/ingest?days=3` |
 | Triage failed | Nothing — the next run picks up everything still unstamped |
 | Triage hit `MAX_ARTICLES` | `backlog: true` in the response; run it again to drain |
-| Draft needs a revision | Re-run `npm run issue:publish -- --replace` |
+| Draft needs a revision | Re-run `npm run issue:publish -- --replace` (local, with a database connection) |
 | Issue published, site unchanged | No commit reached `main`; merge the covers PR (or push an empty commit) |
 | A published issue is wrong | Fix forward — a corrected story or a note in the next issue. Never rewrite it |
 | Feed went silent | Per-feed `error` in the ingest response; the run itself still succeeds |

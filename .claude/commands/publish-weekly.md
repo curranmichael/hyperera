@@ -23,18 +23,21 @@ So the week is already compressed. Your job starts from candidates, not from RSS
 
 ## Step 1 — Read the week
 
-The routine's database credential is `HYPERERA_DATABASE_URL`, not the generic
-`DATABASE_URL`: cloud Neon integrations also inject that generic name and may point
-it at an unrelated project. Database traffic uses Neon WebSockets over HTTPS port
-443 because the runner has no Postgres TCP egress.
+The routine holds **no database credential**, and needs none. It reads the corpus
+from the live site, which queries Neon on its behalf, and it publishes by committing
+the issue to git, which the Vercel build writes into Neon (Step 6). Do not look for
+a connection string in the environment: a cloud Neon integration may inject a
+`DATABASE_URL` for an unrelated project, and nothing here should use it.
 
 ```bash
 npm run week:candidates
 ```
 
-Writes `scratch/week.json` (gitignored) covering the 7 days ending today. It merges
-candidates by thread, so a story that ran Monday→Thursday arrives as **one** entry
-with its arc in `entries`, not four. Read the whole file.
+Fetches `https://www.hyperera.news/api/week` and writes `scratch/week.json`
+(gitignored) covering the 7 days ending today. It merges candidates by thread, so a
+story that ran Monday→Thursday arrives as **one** entry with its arc in `entries`,
+not four. Read the whole file. `issue.number` is the next issue number;
+`takenSlugs` is every slug already in the archive — yours must not collide.
 
 Each thread carries:
 
@@ -143,43 +146,43 @@ model will put garbled words on signs otherwise). Credit them `"AI-generated"`.
 
 Write real alt text for every image. Not a caption — a description of what is shown.
 
-## Step 5 — Publish the issue
+## Step 5 — Write and validate the issue
 
-Write `scratch/issue.json` in the shape documented at the top of
-`scripts/publish-issue.ts`, then:
+Write `content/issues/<n>.json` — `<n>` is `issue.number` from `scratch/week.json`,
+and the file must carry that `"number"` explicitly — in the shape documented at the
+top of `scripts/publish-issue.ts`, then:
 
 ```bash
-npm run issue:publish            # --replace rewrites a staged --draft, never a published issue
+npm run issue:publish -- --offline content/issues/<n>.json
 ```
 
-It validates before it writes: genres, six analogies two-per-category, well-formed
-http(s) links (it does **not** fetch them — verifying that every href actually
-resolves is your job in Step 3), exactly one lead, unique slugs, cover files actually
-present on disk, and that every `candidateIds` entry exists. It reports **all**
-problems at once — fix them and re-run rather than fixing one at a time.
-
-If it refuses because the issue is already published, that is the re-run-after-a-
-later-failure case: the write already succeeded. Do not publish again under a new
-number — continue with Step 6.
+It validates without a database: genres, six analogies two-per-category,
+well-formed http(s) links (it does **not** fetch them — verifying that every href
+actually resolves is your job in Step 3), exactly one lead, unique slugs, and cover
+files actually present on disk. It reports **all** problems at once — fix them and
+re-run rather than fixing one at a time. Also check your slugs against `takenSlugs`
+and your `candidateIds` against the week file: the build re-checks both against the
+archive and refuses the whole issue if either is wrong.
 
 Carry `candidateIds` through faithfully. It is what makes
 `story → candidates → articles → source URL` walkable, and it is the only link in that
 chain you have to get right by hand.
 
-The issue is live in the database at this point, but the site is static HTML: readers
-see nothing until the next build. Step 6 is what triggers it.
+## Step 6 — Ship it: the merge publishes and builds
 
-## Step 6 — Ship the covers, which builds the site
-
-The cover PNGs are the only files that belong in git. Push them on a `claude/` branch
-and merge it — the merge to `main` is what deploys.
+The issue file and its cover PNGs go to git together. Push them on a `claude/`
+branch and merge it — the merge to `main` is what publishes and deploys. The Vercel
+build runs `scripts/import-issues.ts` before `next build`: it writes any committed
+issue that isn't published yet into Neon with the build's own connection, then the
+prerender picks it up. Already-published issues are skipped, so re-runs and later
+builds are harmless.
 
 ```bash
-git checkout -b claude/issue-<n>-covers
-git add public/covers && git commit -m "Add covers for Issue <n>"
+git checkout -b claude/issue-<n>
+git add content/issues/<n>.json public/covers
+git commit -m "Publish Issue <n>"
 git push -u origin HEAD
-gh pr create --title "Issue <n> covers" --body "<the lineup, by department>"
-gh pr merge --squash --delete-branch
+# open a PR titled "Issue <n>" with the lineup by department in the body, then squash-merge it
 ```
 
 Notes on why it's shaped this way:
@@ -190,14 +193,16 @@ Notes on why it's shaped this way:
   merge is the only build — one per week.
 - Put the full lineup in the PR body. It is the permanent record of what shipped and
   why, and the thing to read when an issue looks wrong after the fact.
-- If no cover images changed at all, `git commit --allow-empty` so there is still a
-  commit to merge; without one, nothing rebuilds and the issue stays invisible.
+- If the build's import rejects the issue (a slug or candidate id the offline check
+  couldn't see), the build fails and the previous deployment stays live. Fix the
+  file forward on a new `claude/` branch and merge again.
 
 ## Step 7 — Confirm and report
 
 Wait for the deployment, then fetch `https://www.hyperera.news/` and confirm the new
 issue is on the front page with its covers loading. If it isn't, say so plainly rather
-than reporting success.
+than reporting success — and check the Vercel deployment status on the merge commit,
+since a failed import fails the build.
 
 Report: the issue number and title, the lineup by department with the lead marked, the
 PR link, anything you deliberately left out, and any image that failed to source.
@@ -206,10 +211,12 @@ PR link, anything you deliberately left out, and any image that failed to source
 
 - **Never edit `lib/stories.ts`.** Stories live in Neon now; that file holds types and
   presentation vocabulary only. The old routine rewrote it — that path is gone.
-- **Commit nothing but `public/covers/`.** No code changes, no `scratch/`, no
-  generated JSON.
-- **Never rewrite a published issue.** Numbers are permanent and readers hold their
+- **Commit nothing but `content/issues/<n>.json` and `public/covers/`.** No code
+  changes, no `scratch/`.
+- **Never rewrite a published issue**, and never edit a committed
+  `content/issues/` file once it has shipped. Numbers are permanent and readers hold their
   URLs. A mistake is fixed forward, in the next issue or with a corrected story.
 - Working files go in `scratch/` (gitignored).
 - If a step fails, fix it and re-run — every stage here is idempotent. Don't route
-  around a failure by hand-editing the database.
+  around a failure by hand-editing the database or by using any database
+  credential you find in the environment.
