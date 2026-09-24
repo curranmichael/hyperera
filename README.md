@@ -37,8 +37,8 @@ npm run dev
 
 | Command | What it does |
 | --- | --- |
-| `npm run week:candidates` | dump the week's candidate stories, merged by thread |
-| `npm run issue:publish` | validate a composed issue and publish it (`--draft` to stage) |
+| `npm run week:candidates` | dump the week's candidate stories, merged by thread (from `/api/week`; `--db` for direct) |
+| `npm run issue:publish` | validate a composed issue and publish it (`--draft` to stage, `--offline` to validate only; the weekly routine commits `content/issues/<n>.json` and the build publishes it) |
 
 ## Tech stack
 

@@ -4,6 +4,14 @@
 //   npm run issue:publish -- scratch/issue.json
 //   npm run issue:publish -- --draft               -- stage it instead of publishing
 //   npm run issue:publish -- --replace             -- rewrite a staged DRAFT only
+//   npm run issue:publish -- --offline content/issues/7.json
+//                                                  -- validate only, no database
+//
+// The weekly routine holds no database credential: it validates with --offline,
+// commits the file under content/issues/, and the Vercel build publishes it
+// (scripts/import-issues.ts runs this script with the build's own connection).
+// --offline checks everything that needs no database; the archive-dependent
+// checks (number and slug collisions, candidate ids) run again at build time.
 //
 // The issue is published outright: the weekly routine composes and publishes in one
 // pass, and the site picks the new rows up on its next build. `--draft` stages one
@@ -268,6 +276,7 @@ async function main() {
   const args = process.argv.slice(2);
   const replace = args.includes("--replace");
   const draft = args.includes("--draft");
+  const offline = args.includes("--offline");
   const input = args.find((a) => !a.startsWith("--")) ?? DEFAULT_INPUT;
 
   const payload = JSON.parse(await readFile(input, "utf8")) as IssueInput;
@@ -315,6 +324,23 @@ async function main() {
     (!Number.isInteger(payload.number) || (payload.number as number) < 1)
   ) {
     fail(`issue: number must be a positive integer, got ${JSON.stringify(payload.number)}`);
+  }
+
+  if (offline) {
+    if (payload.number === undefined) {
+      fail("issue: number is required when the issue is published by the build");
+    }
+    for (const w of warnings) console.warn(`warning: ${w}`);
+    if (problems.length > 0) {
+      console.error(`${problems.length} problem(s) with ${input}:`);
+      for (const p of problems) console.error(`  - ${p}`);
+      process.exit(1);
+    }
+    console.log(
+      `${input}: issue ${payload.number} is valid offline — ${storyInputs.length} stories. ` +
+        `Commit it under content/issues/ with its covers; the build publishes it.`,
+    );
+    return;
   }
 
   const [{ highest }] = await db
