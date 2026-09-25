@@ -66,6 +66,7 @@ import {
   type AnalogyCategory,
   type Genre,
 } from "../lib/stories";
+import { DEPARTMENT_ROW, thinDepartments } from "../lib/weekly";
 
 const DEFAULT_INPUT = join("scratch", "issue.json");
 const COVERS_DIR = join(process.cwd(), "public", "covers");
@@ -308,6 +309,18 @@ async function main() {
 
   for (const [i, story] of storyInputs.entries()) {
     await validateStory(story, i, weekEnd ?? "");
+  }
+
+  // Each department is its own row of three on the desktop home page, so a
+  // department with one or two stories renders as a mostly empty row.
+  for (const { genre, count } of thinDepartments(
+    storyInputs.map((s) => ({ genre: String(s.genre ?? ""), lead: s.lead === true })),
+  )) {
+    fail(
+      `issue: ${genre} has ${count} ${count === 1 ? "story" : "stories"} besides the lead — ` +
+        `every department needs at least ${DEPARTMENT_ROW}. Add stories to it, or drop it ` +
+        `and cut its stories (don't relabel a story's genre to pad a row)`,
+    );
   }
 
   // Slugs are the permanent URL of a story, and unique across the whole archive.

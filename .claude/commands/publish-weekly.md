@@ -70,13 +70,35 @@ one day by nature, and would lose every global sort it entered.
   criticism, design, architecture, obituaries of artists. These are the magazine's
   spine, not filler between headlines.
 
-A workable shape is roughly 9–12 news and 6–8 culture, spread across departments so
-no single one dominates. The department **is** the genre — one vocabulary, one field:
+The department **is** the genre — one vocabulary, one field:
 
 `Politics · Conflict · Economy · Climate · Science · Technology · Culture · Art ·
 Books · Music · Film · Architecture`
 
-Pick exactly one **lead** — the story the issue is about. It gets the hero slot.
+Pick exactly one **lead** — the story the issue is about. It gets the hero slot,
+above the departments, and does not count toward its own department.
+
+**Fill departments in rows of three.** On desktop the home page gives every
+department its own row of three cards (`app/components/IssueView.tsx`). A department
+with one or two stories leaves most of its row empty, so every department you use
+must carry **at least three stories besides the lead** — and a full row (three, or
+six) reads best; four or five leaves a stray card on a second row. Run fewer
+departments, each full, rather than many thin ones. Plan the lineup as departments
+first — decide which four to six departments this week can fill, then choose three
+stories for each — not as a list of stories sorted into whatever genres they land in.
+
+When a department comes up short, either find more stories for it from the week
+(the `news` and `culture` lists run to forty each, and more are listed as omitted)
+or drop it and cut its stories. Never relabel a story's genre to pad a row: a music
+story is not Art because Art needs a third. `Culture` is the honest home for a
+cultural story that belongs to no narrower department — heritage, archaeology,
+religion, fashion — but only when it genuinely does.
+
+A workable shape is the lead plus five or six full departments: roughly three news
+departments and two or three culture departments, 16–19 stories in all. For example,
+lead + Politics 3 + Conflict 3 + Economy 3 + Technology 3 + Art 3 = 16, or add
+Architecture 3 for 19. The offline validator in Step 5 fails any department with
+fewer than three stories besides the lead.
 
 Ask of each candidate: *does this still matter to someone reading on Sunday?* A loud
 Tuesday flare that resolved by Thursday does not make the issue. A quiet development
@@ -158,8 +180,9 @@ npm run issue:publish -- --offline content/issues/<n>.json
 
 It validates without a database: genres, six analogies two-per-category,
 well-formed http(s) links (it does **not** fetch them — verifying that every href
-actually resolves is your job in Step 3), exactly one lead, unique slugs, and cover
-files actually present on disk. It reports **all** problems at once — fix them and
+actually resolves is your job in Step 3), exactly one lead, unique slugs, at least
+three stories in every department besides the lead, and cover files actually present
+on disk. It reports **all** problems at once — fix them and
 re-run rather than fixing one at a time. Also check your slugs against `takenSlugs`
 and your `candidateIds` against the week file: the build re-checks both against the
 archive and refuses the whole issue if either is wrong.
