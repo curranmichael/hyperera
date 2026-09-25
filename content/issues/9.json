@@ -1,0 +1,1745 @@
+{
+  "number": 9,
+  "title": "Issue 9 · 19–25 September 2026",
+  "weekStart": "2026-09-19",
+  "weekEnd": "2026-09-25",
+  "stories": [
+    {
+      "slug": "caribbean-drug-boat-strikes-un-crimes-against-humanity",
+      "headline": "The UN says US strikes on Caribbean drug boats may be crimes against humanity",
+      "overview": "Over the past several months the US military has carried out a growing campaign of strikes against vessels it suspects of smuggling narcotics through the Caribbean and Pacific, a policy Washington has defended as a necessary escalation against drug-trafficking networks. This week a strike on an alleged smuggling boat killed four people, the latest in a campaign that a United Nations investigation found had, by its count, reached at least 68 such strikes — the great majority of which, UN investigators concluded, were not conducted in self-defense and could amount to crimes against humanity. The finding sharpens a question that has trailed the campaign since it began: whether killing suspected traffickers without capture, trial, or clear evidence of an imminent threat is a lawful use of force or an extrajudicial policy dressed as a war on drugs. The administration has continued to defend the strikes as effective and necessary, even as scrutiny of their legal basis — and of who, exactly, is being killed — grows both at the UN and in US courts.",
+      "genre": "Conflict",
+      "lead": true,
+      "rank": 1,
+      "publishedAt": "2026-09-21",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/ck5ye7v88qy7o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "AP News",
+          "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTEZWWk9aYllZSnhGUXMzR3otZjAwZ2EwYi1lWGpQdC1IaXhCdFdnTEVJTVRFWDdBQmJTbTQ4S28xbXl6TmxDWlltQ2hDdW9rQXFmU1ZkOXdIeDl3Ykc5WXo5bDJRaGFDcnZjY1Azdi1VbXplS3oyby16VlJ0WXZQS05Jb2gyNlhOWGNXbGZnMko1WGFPcktGaWQ2WUtpLVFo?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1920,
+        1988
+      ],
+      "image": {
+        "src": "/covers/caribbean-drug-boat-strikes-un-crimes-against-humanity.png",
+        "alt": "A small, unlit open fishing boat drifting alone on dark open ocean water at dusk, the distant silhouette of a naval vessel far on the horizon, heavy storm clouds gathering, moody blue-grey tones, no people, no text, no logos.",
+        "credit": "AI-generated"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "The Caroline Test",
+          "source": "Daniel Webster, letter to Lord Ashburton (enclosing his 1841 note to British Minister Henry Fox), on the 1837 Caroline affair",
+          "excerpt": "a necessity of self defence, instant, overwhelming, leaving no choice of means, and no moment for deliberation",
+          "href": "https://avalon.law.yale.edu/19th_century/br-1842d.asp",
+          "image": {
+            "src": "/covers/caribbean-drug-boat-strikes-un-crimes-against-humanity--a1.png",
+            "alt": "19th-century print of the burning steamboat Caroline going over Niagara Falls, 1837",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "The Sinking of the I'm Alone",
+          "source": "S.S. \"I'm Alone\" (Canada v. United States), Joint Final Report of the Commissioners, 5 January 1935, Reports of International Arbitral Awards, Vol. III",
+          "excerpt": "By their interim report the Commissioners found that the sinking of the vessel was not justified by anything in the Convention. The Commissioners now add that it could not be justified by any principle of international law.",
+          "href": "https://legal.un.org/riaa/cases/vol_III/1609-1618.pdf",
+          "image": {
+            "src": "/covers/caribbean-drug-boat-strikes-un-crimes-against-humanity--a2.png",
+            "alt": "The Canadian rum-running schooner I'm Alone, sunk by a US Coast Guard cutter in 1929",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Billy Budd, Sailor",
+          "source": "Herman Melville, Billy Budd, Sailor (An Inside Narrative), written 1886–91, published posthumously 1924",
+          "excerpt": "With mankind, forms, measured forms, are everything; and that is the import couched in the story of Orpheus with his lyre spellbinding the wild denizens of the wood.",
+          "href": "https://gutenberg.net.au/ebooks06/0608511h.html",
+          "image": {
+            "src": "/covers/caribbean-drug-boat-strikes-un-crimes-against-humanity--a3.png",
+            "alt": "Portrait photograph of Herman Melville, c. 1860",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Cities of Refuge",
+          "source": "Numbers 35:11–12 (KJV)",
+          "excerpt": "Then ye shall appoint you cities to be cities of refuge for you; that the slayer may flee thither, which killeth any person at unawares. And they shall be unto you cities for refuge from the avenger; that the manslayer die not, until he stand before the congregation in judgment.",
+          "href": "https://www.biblegateway.com/passage/?search=Numbers%2035%3A9-12&version=KJV"
+        },
+        {
+          "category": "artistic",
+          "title": "The Third of May 1808",
+          "source": "Marshal Joachim Murat's proclamation, Madrid, 2 May 1808 — the order behind the summary executions Francisco Goya painted six years later in The Third of May 1808 (1814)",
+          "excerpt": "All those arrested in the uprising, arms in hand, will be shot.",
+          "href": "https://en.wikipedia.org/wiki/The_Third_of_May_1808",
+          "image": {
+            "src": "/covers/caribbean-drug-boat-strikes-un-crimes-against-humanity--a5.png",
+            "alt": "Goya, The Third of May 1808, depicting the summary execution of Spanish civilians by a French firing squad",
+            "credit": "Museo del Prado, via Wikimedia Commons"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "The Execution of Emperor Maximilian",
+          "source": "Maximilian I of Mexico, last words before his execution by firing squad at Querétaro, 19 June 1867 — the event Édouard Manet painted repeatedly in 1867–69",
+          "excerpt": "I forgive everyone, and I ask everyone to forgive me. May my blood which is about to be spilled end the bloodshed which has been experienced in my new motherland. Long live Mexico! Long live its independence!",
+          "href": "https://en.wikipedia.org/wiki/Maximilian_I_of_Mexico",
+          "image": {
+            "src": "/covers/caribbean-drug-boat-strikes-un-crimes-against-humanity--a6.png",
+            "alt": "Édouard Manet, The Execution of Emperor Maximilian, 1867–68",
+            "credit": "Museum of Fine Arts, Boston, via Wikimedia Commons"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "pakistan-mosque-bombing-police-compound",
+      "headline": "A car bomb and gun attack on a Pakistani mosque near a police compound killed at least 31",
+      "overview": "A vehicle packed with explosives rammed a mosque adjoining a police compound in northwestern Pakistan, with gunmen following up with small-arms fire; the blast and gunfire killed at least 31 people, including a four-year-old child, and wounded dozens more. Pakistani security forces surrounded the area and, after a standoff lasting roughly 20 hours, declared the attack over. No group had claimed responsibility as the week closed, but the attack fits a pattern of militant violence against security installations in Pakistan's northwest, where insurgent groups have stepped up operations against police and paramilitary targets over the past year. The bombing was among the deadliest attacks on Pakistani security infrastructure in recent months and renewed pressure on Islamabad to address an insurgency that shows little sign of retreat.",
+      "genre": "Conflict",
+      "rank": 2,
+      "publishedAt": "2026-09-19",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "AP News",
+          "href": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQX1N1NGVyeWM1UGFYY1RrS0lxRWZ3UHJvalE1cEVSVVFXQVdfN3ZHVlZiQVE1dERXWTBGcnNnWUVtYUM3bF9FbFFZd0NLbnBCMmFUN01RcnV0V3NhYXpVUUNiZ0w0bFNHWm4wQk16S01aZlpoU2pQM2U0RVE5WGt3UUVQQWhLT3lsNV84MERaYWZWMEJaNHc4Y2FES21IVENnMG83OHZ6UlV5djJfWll6ZFlaRUsyMG8?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1911
+      ],
+      "image": {
+        "src": "/covers/pakistan-mosque-bombing-police-compound.png",
+        "alt": "An empty mosque courtyard at dusk, soft lantern glow, stone steps leading to closed wooden doors, quiet and still, muted amber and blue tones, no people, no text, no lettering, no signage.",
+        "credit": "AI-generated"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "16th Street Baptist Church Bombing",
+          "source": "Martin Luther King Jr., \"Eulogy for the Martyred Children,\" Birmingham, Alabama, 18 September 1963",
+          "excerpt": "These children—unoffending, innocent, and beautiful—were the victims of one of the most vicious and tragic crimes ever perpetrated against humanity.",
+          "href": "https://speakola.com/eulogy/martin-luther-king-for-four-victims-birmingham-bombing-1963",
+          "image": {
+            "src": "/covers/pakistan-mosque-bombing-police-compound--a1.png",
+            "alt": "16th Street Baptist Church, Birmingham, Alabama, site of the 1963 bombing that killed four girls",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "The Peshawar Church Bombing",
+          "source": "Jundallah claim of responsibility for the twin suicide bombing of All Saints Church, Peshawar, 22 September 2013",
+          "excerpt": "the attack on Christians and non-Muslims will continue because they are the enemies of Islam.",
+          "href": "https://en.wikipedia.org/wiki/Peshawar_church_bombing"
+        },
+        {
+          "category": "literary",
+          "title": "Murder in the Cathedral",
+          "source": "T. S. Eliot, Murder in the Cathedral (1935), dramatizing the 1170 assassination of Archbishop Thomas Becket at Canterbury",
+          "excerpt": "The last temptation is the greatest treason: To do the right deed for the wrong reason.",
+          "href": "https://en.wikipedia.org/wiki/Murder_in_the_Cathedral",
+          "image": {
+            "src": "/covers/pakistan-mosque-bombing-police-compound--a3.png",
+            "alt": "Medieval manuscript illumination depicting the murder of Thomas Becket in Canterbury Cathedral, 1170",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The Massacre of the Innocents",
+          "source": "Matthew 2:16 (KJV)",
+          "excerpt": "Then Herod, when he saw that he was mocked of the wise men, was exceeding wroth, and sent forth, and slew all the children that were in Bethlehem, and in all the coasts thereof, from two years old and under.",
+          "href": "https://www.biblegateway.com/passage/?search=Matthew%202%3A16-18&version=KJV"
+        },
+        {
+          "category": "artistic",
+          "title": "Massacre of the Innocents",
+          "source": "Jeremiah 31:15 (KJV) — the prophecy Peter Paul Rubens' painting The Massacre of the Innocents (c. 1638) visually enacts, later quoted in Matthew 2:18",
+          "excerpt": "A voice was heard in Ramah, lamentation, and bitter weeping; Rahel weeping for her children refused to be comforted for her children, because they were not.",
+          "href": "https://www.biblegateway.com/passage/?search=Jeremiah+31%3A15&version=KJV",
+          "image": {
+            "src": "/covers/pakistan-mosque-bombing-police-compound--a5.png",
+            "alt": "Peter Paul Rubens, The Massacre of the Innocents, c. 1638, Alte Pinakothek, Munich",
+            "credit": "Alte Pinakothek, Munich, via Wikimedia Commons"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "The Coventry Carol",
+          "source": "The Coventry Carol, from the Pageant of the Shearmen and Taylors (Coventry mystery plays, 16th century)",
+          "excerpt": "Herod the king, in his raging, Chargèd he hath this day His men of might in his own sight All young children to slay.",
+          "href": "https://en.wikipedia.org/wiki/Coventry_Carol"
+        }
+      ]
+    },
+    {
+      "slug": "canada-synagogue-shooting-yom-kippur",
+      "headline": "A gunman opened fire outside an Ontario synagogue on Yom Kippur, and later died of his wounds",
+      "overview": "On the holiest day of the Jewish calendar, a gunman opened fire outside a synagogue in Ontario, firing as many as 30 shots and critically wounding a man along with a police officer who responded. Prime Minister Mark Carney condemned the attack as it happened. Two days later, authorities confirmed the suspect had died of injuries sustained during the incident, closing the case without a trial and leaving unresolved questions about motive that a courtroom might otherwise have aired. The attack was the latest in a string of incidents targeting synagogues and Jewish communities across North America and Europe this year, part of a broader rise in antisemitic violence that has accompanied the wars in the Middle East, and it prompted renewed debate in Canada over security at religious sites during high-holiday services.",
+      "genre": "Conflict",
+      "rank": 3,
+      "publishedAt": "2026-09-23",
+      "sources": [
+        {
+          "name": "AP News",
+          "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU0hFUFZwRDRCQWdrVkVzeU50Vk1MSVhUMDhJcDRsb2JnR1lQQU5WMTU1SHR6OWlFaTIzQW85WVl5RjN4RWFYZmtvX284WW1PQWNLNHZpaHJnR0EzeWFEQzFTTUZTenE2bjhQeDY5aXF1c2tmdWdndHdqM0Q2ZHh1Y3pLYWZ3a3h1dDRxNnhOU3VTUlhLYWVQYjR6cVhFQUlyMzZCbzRqbDBEZw?oc=5"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY2JLbU0yaENZVDhQSHplVzBnbG9wZzJkS0dPQUtxaHdVZHZ0Ujkwa1F1TEwtZVBSYXNfNzA4bjk0Q0xybFVSNHJWZWN1N2JaQmV5UlFzRE9maDdWZ3JOMVNRUTRjSmt3dXRxSUZ1ZEVBb1FjQ3RjWVNmb3M0UjBjNlRwQUR1a3A3MGZRNGJRU3hhZ3VhVzN5V25RdTNjdWExdUtOMUhDbw?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1993,
+        2036
+      ],
+      "image": {
+        "src": "/covers/canada-synagogue-shooting-yom-kippur.png",
+        "alt": "A single lit menorah candle glowing softly in a dark synagogue window at dusk, a quiet empty street outside reflecting the light, solemn and respectful mood, no people, no text, no lettering, no signage.",
+        "credit": "AI-generated"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "The Halle Synagogue Shooting",
+          "source": "Manifesto of Stephan Balliet, who attempted to storm a synagogue on Yom Kippur, Halle, Germany, 9 October 2019",
+          "excerpt": "Kill as many anti-Whites as possible, Jews preferred.",
+          "href": "https://en.wikipedia.org/wiki/Halle_synagogue_shooting"
+        },
+        {
+          "category": "historical",
+          "title": "Kristallnacht",
+          "source": "Hugh Greene, Berlin correspondent, The Daily Telegraph, dispatch on the pogrom of 9–10 November 1938",
+          "excerpt": "Mob law ruled in Berlin throughout the afternoon and evening and hordes of hooligans indulged in an orgy of destruction ... Racial hatred and hysteria seemed to have taken hold of otherwise decent people.",
+          "href": "https://en.wikipedia.org/wiki/Kristallnacht",
+          "image": {
+            "src": "/covers/canada-synagogue-shooting-yom-kippur--a2.png",
+            "alt": "The Börnerplatz synagogue in Frankfurt burning during Kristallnacht, 10 November 1938",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "In the City of Slaughter",
+          "source": "Hayim Nahman Bialik, \"In the City of Slaughter\" (1904), written after the 1903 Kishinev pogrom",
+          "excerpt": "Arise and go now to the city of slaughter; Into its courtyard wind thy way;",
+          "href": "https://faculty.history.umd.edu/BCooperman/NewCity/Slaughter.html",
+          "image": {
+            "src": "/covers/canada-synagogue-shooting-yom-kippur--a3.png",
+            "alt": "Photograph of the poet Hayim Nahman Bialik, 1923",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The Day of Atonement",
+          "source": "Leviticus 16:29–31 (KJV)",
+          "excerpt": "And this shall be a statute for ever unto you: that in the seventh month, on the tenth day of the month, ye shall afflict your souls, and do no work at all ... For on that day shall the priest make an atonement for you, to cleanse you, that ye may be clean from all your sins before the Lord.",
+          "href": "https://www.biblegateway.com/passage/?search=Leviticus%2016%3A29-31&version=KJV"
+        },
+        {
+          "category": "artistic",
+          "title": "Jews Praying in the Synagogue on Yom Kippur",
+          "source": "The Kol Nidre prayer, recited at the opening of the Yom Kippur evening service Maurycy Gottlieb painted in 1878",
+          "excerpt": "All vows, obligations, oaths, and anathemas ... which we may vow, or swear, or pledge, or whereby we may be bound, from this Day of Atonement until the next ... we do repent. May they be deemed absolved, forgiven, annulled, and void.",
+          "href": "https://jewishencyclopedia.com/articles/9443-kol-nidre",
+          "image": {
+            "src": "/covers/canada-synagogue-shooting-yom-kippur--a5.png",
+            "alt": "Maurycy Gottlieb, Jews Praying in the Synagogue on Yom Kippur, 1878",
+            "credit": "Tel Aviv Museum of Art, via Wikimedia Commons"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Kol Nidrei",
+          "source": "Max Bruch, on composing Kol Nidrei, Op. 47 (1881), an Adagio for cello and orchestra on the Kol Nidre melody",
+          "excerpt": "Even though I am a Protestant, as an artist I deeply felt the outstanding beauty of these melodies and therefore I gladly spread them through my arrangement.",
+          "href": "https://en.wikipedia.org/wiki/Kol_Nidrei_(Bruch)"
+        }
+      ]
+    },
+    {
+      "slug": "poland-russian-helicopter-airspace-violation",
+      "headline": "A Russian military helicopter briefly crossed into Polish airspace, and NATO jets scrambled",
+      "overview": "Poland's military said a Russian helicopter entered Polish airspace for about 42 seconds this week, prompting NATO member Poland to scramble fighter jets in response before the aircraft turned back. The incident was brief and produced no casualties, but it lands in a pattern: over the past year, Poland and other NATO states along Russia's western flank have logged a rising tally of drone incursions, jamming incidents, and now aircraft violations, each one testing how the alliance calibrates a response to provocations that fall just short of open confrontation. Polish officials framed the crossing as part of a broader campaign of Russian pressure on NATO's eastern border, coming as Warsaw and its allies already contend with sabotage attacks on infrastructure and warnings from regional intelligence services that Moscow is likely to escalate this kind of hybrid pressure through the winter.",
+      "genre": "Conflict",
+      "rank": 4,
+      "publishedAt": "2026-09-23",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/c699d2dn9z0mo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMWdWYUU3UHU3elo4dTU5RHRsN3ltVXhiMi1WdHhrcGFjLWF6S0JsSUlrRmRKanE1Z2pxa3JMRng0MHFrWGM3aF8xSFpVOXpMSnNKMGZFUk55Tmh5VGR2WHBacDE1LUNFSjU4dFRoSFhkMUtmamtJbVZMV1VVRnJVTlBXTXVGa1lFM09XLTJobTRZd2tpQi0tWXBJTzNZTjB4eXBnVjVlc251UmxNOXU1cnJsWXRReHpvOU05dnlFTUpabDZTam5OTFlDblFnUlRRcGQwa3pn?oc=5"
+        }
+      ],
+      "candidateIds": [
+        2093
+      ],
+      "image": {
+        "src": "/covers/poland-russian-helicopter-airspace-violation.png",
+        "alt": "A Polish Air Force F-16C Fighting Falcon fighter jet in flight",
+        "credit": "Gerard van der Schaaf, via Wikimedia Commons (CC BY 2.0)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Korean Air Lines Flight 007",
+          "source": "Soviet interceptor pilot Major Gennadiy Osipovich, recalling the shootdown of the airliner over Sakhalin, 1 September 1983",
+          "excerpt": "I saw two rows of windows and knew that this was a Boeing. I knew this was a civilian plane.",
+          "href": "https://en.wikipedia.org/wiki/Korean_Air_Lines_Flight_007"
+        },
+        {
+          "category": "historical",
+          "title": "The 1960 U-2 Incident",
+          "source": "President Dwight D. Eisenhower, news conference, 11 May 1960, on the shooting down of Francis Gary Powers' U-2 over the Soviet Union",
+          "excerpt": "No one wants another Pearl Harbor. This means that we must have knowledge of military forces and preparations around the world ... Secrecy in the Soviet Union makes this essential. In most of the world no large-scale attack could be prepared in secret, but in the Soviet Union there is a fetish of secrecy and concealment.",
+          "href": "https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-231",
+          "image": {
+            "src": "/covers/poland-russian-helicopter-airspace-violation--a2.png",
+            "alt": "Wreckage of Francis Gary Powers' U-2 spy plane on display in Moscow, 1960",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The Tartar Steppe",
+          "source": "Dino Buzzati, Il deserto dei Tartari (1940), trans. Stuart C. Hood — a soldier's lifelong watch at a frontier fortress for an invasion that may never come",
+          "excerpt": "Twenty-two months had passed without bringing anything fresh and he had stayed there waiting, as if life could not but be specially lenient with him.",
+          "href": "https://www.goodreads.com/work/quotes/207099249-il-deserto-dei-tartari"
+        },
+        {
+          "category": "literary",
+          "title": "Mending Wall",
+          "source": "Robert Frost, \"Mending Wall,\" in North of Boston (1914)",
+          "excerpt": "Something there is that doesn't love a wall ... Good fences make good neighbours.",
+          "href": "https://www.gutenberg.org/files/3026/3026-h/3026-h.htm",
+          "image": {
+            "src": "/covers/poland-russian-helicopter-airspace-violation--a4.png",
+            "alt": "Robert Frost, photographed in the 1910s, around the time he wrote \"Mending Wall\"",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Symphony No. 7, \"Leningrad\"",
+          "source": "Dmitri Shostakovich, radio broadcast address, Leningrad, 17 September 1941, while composing the symphony during the German siege",
+          "excerpt": "An hour ago I finished the score of two movements of a large symphonic composition. If I succeed in carrying it off, if I manage to complete the third and fourth movements, then perhaps I'll be able to call it my Seventh Symphony.",
+          "href": "https://en.wikipedia.org/wiki/Symphony_No._7_(Shostakovich)",
+          "image": {
+            "src": "/covers/poland-russian-helicopter-airspace-violation--a5.png",
+            "alt": "Portrait photograph of Dmitri Shostakovich",
+            "credit": "Deutsche Fotothek, via Wikimedia Commons"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "The Checkpoint Charlie Standoff",
+          "source": "President John F. Kennedy, on the resolution of the October 1961 US–Soviet tank standoff at Checkpoint Charlie, quoted on Wikipedia",
+          "excerpt": "It's not a very nice solution, but a wall is a hell of a lot better than a war.",
+          "href": "https://en.wikipedia.org/wiki/1961_Berlin_Crisis",
+          "image": {
+            "src": "/covers/poland-russian-helicopter-airspace-violation--a6.png",
+            "alt": "US and Soviet tanks facing off at Checkpoint Charlie, Berlin, October 1961",
+            "credit": "US Army, via Wikimedia Commons"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "trump-burnham-first-meeting-un-sidelines",
+      "headline": "Trump and new UK PM Andy Burnham met for the first time, trading warmth and pointed disagreement",
+      "overview": "On the sidelines of UN General Assembly week in New York, Donald Trump and Britain's new prime minister Andy Burnham held their first face-to-face meeting, with Trump calling Burnham a 'natural business person' and Burnham saying afterward he expected to find 'common ground' with the US president. The warmth masked real friction: Trump criticized the UK's deal to cede the Chagos Islands, while Burnham separately warned that new EU industrial rules Britain is being pulled toward would damage the UK economy, an early sign of the balancing act Britain's post-Starmer government faces between Washington and Brussels. The same UN sidelines produced a busy diplomatic circuit for Trump, who also met Ukraine's Volodymyr Zelenskiy to discuss a possible peace deal and energy ceasefire with Russia, suggesting an agreement could be close, and held a separate meeting with Venezuela's Delcy Rodriguez, his first contact with Caracas since Nicolás Maduro's capture.",
+      "genre": "Politics",
+      "rank": 5,
+      "publishedAt": "2026-09-23",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/cqevwpmvpekeo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQakxzMjBKTVRJSzN2ZXZOQU9ralRZd2lVb2RwLUdjZnBsaC1IWFQtUEt2R1p4cmxIQ1hwbmxscThkUExXdHdUSUo1NmpXWEFSTV9EUGl2VmZTR0RJcmpaZ3dRZktYanlKblNmLUlTaUc5Y08tX0VqaVIweTJsQ25hRUZ3YmZic0hFVGpXX2RqcGV4ZE92TFUxd09RRlc1VFh0bU81QTRRTmhEeHR1OWFqRE5paGpSOEFsUVFZUG5UZw?oc=5"
+        }
+      ],
+      "candidateIds": [
+        2026
+      ],
+      "image": {
+        "src": "/covers/trump-burnham-first-meeting-un-sidelines.png",
+        "alt": "Official portrait of UK Prime Minister Andy Burnham",
+        "credit": "Alecsandra Dragoi / No 10 Downing Street, via Wikimedia Commons (Open Government Licence v3.0)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "\"At long last, Mr. President\"",
+          "source": "Churchill and Roosevelt's first wartime meeting, Placentia Bay, Newfoundland, 9 August 1941",
+          "excerpt": "At long last, Mr. President.",
+          "href": "https://en.wikipedia.org/wiki/Atlantic_Charter",
+          "image": {
+            "src": "/covers/trump-burnham-first-meeting-un-sidelines--a1.png",
+            "alt": "Roosevelt and Churchill seated together on HMS Prince of Wales, August 1941",
+            "credit": "Imperial War Museum, via Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "Eisenhower's break with Eden over Suez",
+          "source": "President Eisenhower's message to PM Anthony Eden during the Suez Crisis, September 1956",
+          "excerpt": "I am afraid, Anthony, that from this point onward our views on this situation diverge.",
+          "href": "https://history.state.gov/historicaldocuments/frus1955-57v16/d163",
+          "image": {
+            "src": "/covers/trump-burnham-first-meeting-un-sidelines--a2.png",
+            "alt": "Destruction in Port Said during the 1956 Suez Crisis",
+            "credit": "Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The Bat, the Birds, and the Beasts",
+          "source": "Aesop's Fables, tr. Joseph Jacobs (1894)",
+          "excerpt": "He that is neither one thing nor the other has no friends.",
+          "href": "https://en.wikisource.org/wiki/The_Fables_of_%C3%86sop_(Jacobs)/The_Bat,_the_Birds,_and_the_Beasts",
+          "image": {
+            "src": "/covers/trump-burnham-first-meeting-un-sidelines--a3.png",
+            "alt": "Illustration of the Bat fable by Richard Heighway, 1894",
+            "credit": "Richard Heighway, via Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "\"The barge she sat in, like a burnish'd throne\"",
+          "source": "Shakespeare, Antony and Cleopatra, Act 2, Scene 2 (Enobarbus's speech)",
+          "excerpt": "The barge she sat in, like a burnish'd throne, / Burn'd on the water: the poop was beaten gold;",
+          "href": "https://shakespeare.mit.edu/cleopatra/cleopatra.2.2.html",
+          "image": {
+            "src": "/covers/trump-burnham-first-meeting-un-sidelines--a4.png",
+            "alt": "The Meeting of Antony and Cleopatra, by Lawrence Alma-Tadema, 1885",
+            "credit": "Lawrence Alma-Tadema, via Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "\"Le congrès ne marche pas, il danse\"",
+          "source": "Prince de Ligne on the Congress of Vienna, 1814-15",
+          "excerpt": "Le congrès ne marche pas, il danse. (\"The Congress does not move forward, it dances.\")",
+          "href": "https://en.wikiquote.org/wiki/Congress_of_Vienna",
+          "image": {
+            "src": "/covers/trump-burnham-first-meeting-un-sidelines--a5.png",
+            "alt": "Engraving of delegates at the Congress of Vienna, after Jean-Baptiste Isabey",
+            "credit": "Jean Godefroy after Jean-Baptiste Isabey, via Wikimedia Commons (CC BY-SA 3.0)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "\"News has a kind of mystery\"",
+          "source": "John Adams, Nixon in China (1987), libretto by Alice Goodman",
+          "excerpt": "News has a kind of mystery: when I shook hands with Chou En-lai on this bare field outside Peking, just now, the whole world was listening.",
+          "href": "https://www.opera-arias.com/adams/nixon-in-china/news-has-a-kind-of-mystery/",
+          "image": {
+            "src": "/covers/trump-burnham-first-meeting-un-sidelines--a6.png",
+            "alt": "Nixon and Mao shaking hands, Beijing, 21 February 1972",
+            "credit": "White House Photo Office, via Wikimedia Commons (public domain)"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "morocco-election-ceuta-migration-surge",
+      "headline": "Morocco votes after a summer of Gen Z protests and a migration surge toward Spain's Ceuta enclave",
+      "overview": "Moroccans went to the polls this week in parliamentary elections that followed a summer marked by Gen Z-led protests over public services and a surge in migration toward Ceuta, Spain's North African enclave, where Spanish police have moved to clear beach encampments as crossings rose. The vote became entangled with both currents: young voters were courted through football-themed campaigning — aided by the backing of the country's football federation chief — and anti-Israel rhetoric, while migration and youth discontent shaped turnout. Provisional results put the governing, business-aligned Authenticity and Modernity Party in the lead, suggesting continuity in Rabat's economic policy even as the protests exposed frustration with the government's handling of public services. For Spain and the EU, the outcome matters beyond Morocco's borders: Rabat's cooperation, or lack of it, on migration control from its coast has long been a hinge point in Europe's Mediterranean border policy.",
+      "genre": "Politics",
+      "rank": 6,
+      "publishedAt": "2026-09-24",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/c8r4v7n6py97o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "AP News",
+          "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRzJZR19WTjVSM292Y2ptOUV6bzZpRTBvcnFnMFpCNXQ1Y1dGaEhzQ2hUZVhCUDNiZGx3dzV1bGl4djZDVjVqYnJWRWxjdUoyU21BMmdPVVJ5cnN6WVlpTjh4VkZQRXNVdnBqUEUtd0ktbkdXNHZKTXRMTHY5dzJIMlBKTzFPdWJtX3NWWG1YV0s3bVRxZW44SkQ4V0c5TXB2RlFsU2xleGZzcGs?oc=5"
+        }
+      ],
+      "candidateIds": [
+        2127,
+        2139
+      ],
+      "image": {
+        "src": "/covers/morocco-election-ceuta-migration-surge.png",
+        "alt": "Panoramic view of the city of Ceuta from the Isabel II viewpoint",
+        "credit": "Mario Sánchez Bueno, via Wikimedia Commons (CC BY-SA 2.0)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "The Portuguese conquest of Ceuta, 1415",
+          "source": "Europe's first colonial foothold in Africa, King John I of Portugal",
+          "excerpt": "The conquest marked the beginning of the Portuguese Empire.",
+          "href": "https://en.wikipedia.org/wiki/Portuguese_conquest_of_Ceuta",
+          "image": {
+            "src": "/covers/morocco-election-ceuta-migration-surge--a1.png",
+            "alt": "Azulejo panel of Infante Henrique at the conquest of Ceuta, São Bento station, Porto",
+            "credit": "Jorge Colaço, photographed by HombreDHojalata, via Wikimedia Commons (CC BY-SA 4.0)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "The 2021 Ceuta border crisis",
+          "source": "2021 Morocco–Spain border incident, when 8,000+ people crossed into Ceuta amid a diplomatic row over Western Sahara",
+          "excerpt": "What did Spain expect from Morocco, which sees its neighbour hosting the head of a group that took up arms against the kingdom?",
+          "href": "https://en.wikipedia.org/wiki/2021_Morocco%E2%80%93Spain_border_incident",
+          "image": {
+            "src": "/covers/morocco-election-ceuta-migration-surge--a2.png",
+            "alt": "The Ceuta border fence separating Morocco and Spain",
+            "credit": "Via Wikimedia Commons (CC BY-SA 2.0)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "\"A mass of ideas and a mass of sorrows\"",
+          "source": "Victor Hugo, Les Misérables (1862), Enjolras's speech at the barricade",
+          "excerpt": "This barricade is not made of paving-stones, beams, and iron bars; it is made of two masses,—a mass of ideas and a mass of sorrows.",
+          "href": "https://www.gutenberg.org/files/48735/48735-h/48735-h.htm",
+          "image": {
+            "src": "/covers/morocco-election-ceuta-migration-surge--a3.png",
+            "alt": "Portrait of Victor Hugo by Nadar, c. 1884",
+            "credit": "Nadar, via Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Between Scylla and Charybdis",
+          "source": "Homer, The Odyssey, Book XII, tr. Samuel Butler",
+          "excerpt": "you must hug the Scylla side and drive your ship by as fast as you can, for you had better lose six men than your whole crew.",
+          "href": "https://en.wikisource.org/wiki/The_Odyssey_(Butler)/Book_XII",
+          "image": {
+            "src": "/covers/morocco-election-ceuta-migration-surge--a4.png",
+            "alt": "Odysseus in front of Scylla and Charybdis, by Henry Fuseli, 1794-96",
+            "credit": "Henry Fuseli, via Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Liberty Leading the People",
+          "source": "Eugène Delacroix, 1830, Musée du Louvre",
+          "excerpt": "Liberty Leading the People (28th July 1830)",
+          "href": "https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
+          "image": {
+            "src": "/covers/morocco-election-ceuta-migration-surge--a5.png",
+            "alt": "Liberty Leading the People, by Eugène Delacroix, 1830",
+            "credit": "Eugène Delacroix, via Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "The Raft of the Medusa",
+          "source": "Théodore Géricault, 1818-19, Musée du Louvre",
+          "excerpt": "The Raft of the Medusa (Le Radeau de la Méduse)",
+          "href": "https://en.wikipedia.org/wiki/The_Raft_of_the_Medusa",
+          "image": {
+            "src": "/covers/morocco-election-ceuta-migration-surge--a6.png",
+            "alt": "The Raft of the Medusa, by Théodore Géricault, 1818-19",
+            "credit": "Théodore Géricault, via Wikimedia Commons (public domain)"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ice-shooting-venezuelan-man-texas-paralysis",
+      "headline": "A Venezuelan man shot by an ICE officer in Texas was hospitalized for paralysis, as a judge blocked his deportation",
+      "overview": "A Venezuelan man was shot by a US Immigration and Customs Enforcement officer in Texas, leaving him hospitalized for treatment of paralysis before he was returned to immigration detention, according to his lawyer. A federal judge has since blocked his deportation and set a hearing in the case, while police have released some video from the scene of the shooting, which is drawing wider scrutiny of ICE's use of force amid a broader expansion of immigration enforcement under the Trump administration. The man, who worked as a DoorDash driver, addressed reporters by phone from his hospital bed at a press conference organized by his legal team, describing the encounter that left him paralyzed. The case has become a flashpoint in an ongoing legal and political fight over the limits of force immigration officers may use, adding to a string of incidents this year that have drawn federal court scrutiny of ICE tactics.",
+      "genre": "Politics",
+      "rank": 7,
+      "publishedAt": "2026-09-23",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/cr6241825757o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYk0yTFBrMGQ0MzJDaEs3a2htak1LVzNpaGZ0Wk1RU2JMWHBvV293NmxHWmdiX2FtSDNJb0FFS1ltQlBRRTBHUl9abUhyYXp0azFqWUxtLTJLd0Vjc3MxZUVvLUxzLTR1bmh2TFptM1Rsd3d4YnEtWkJyUE5aMktQRnlubi1LaUFKa3Uxa2hJVFphV0JteFY5ZEtxbWNOS2F2UDlDdm9JSlNJYnB6cVRSNVdndlJia1JLTFlF?oc=5"
+        }
+      ],
+      "candidateIds": [
+        2039
+      ],
+      "image": {
+        "src": "/covers/ice-shooting-venezuelan-man-texas-paralysis.png",
+        "alt": "An empty suburban street at dusk, red and blue emergency light glow reflecting off wet pavement, parked cars in shadow, no people, no text, no signage.",
+        "credit": "AI-generated"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "The Mexican Repatriation, 1929-1936",
+          "source": "Mass deportation drive in which up to a third of Mexicans in the US were removed, many of them US citizens denied hearings or counsel",
+          "excerpt": "Immigration officers rarely informed detainees of their rights... deportees were seldom represented by a lawyer, a privilege that could only be granted at the discretion of the immigration officer.",
+          "href": "https://en.wikipedia.org/wiki/Mexican_Repatriation",
+          "image": {
+            "src": "/covers/ice-shooting-venezuelan-man-texas-paralysis--a1.png",
+            "alt": "Relatives wave goodbye to a train expelling 1,500 people from Los Angeles to Mexico, 20 August 1931",
+            "credit": "NY Daily News Archive, via Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "The Rodney King video, 1991",
+          "source": "George Holliday's videotape of LAPD officers beating Rodney King, which made bystander video the evidence at the center of a use-of-force case",
+          "excerpt": "Can we all get along?",
+          "href": "https://en.wikipedia.org/wiki/Rodney_King"
+        },
+        {
+          "category": "literary",
+          "title": "\"Durham's Pure Leaf Lard\"",
+          "source": "Upton Sinclair, The Jungle (1906), on immigrant workers maimed and killed in the meatpacking plants",
+          "excerpt": "when they were fished out, there was never enough of them left to be worth exhibiting,—sometimes they would be overlooked for days, till all but the bones of them had gone out to the world as Durham's Pure Leaf Lard!",
+          "href": "https://en.wikisource.org/wiki/The_Jungle_(Sinclair,_1906)/Chapter_9",
+          "image": {
+            "src": "/covers/ice-shooting-venezuelan-man-texas-paralysis--a3.png",
+            "alt": "Portrait of Upton Sinclair, 1906",
+            "credit": "Library of Congress, via Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "\"The New Colossus\" (1883)",
+          "source": "Emma Lazarus, sonnet inscribed on a bronze plaque inside the pedestal of the Statue of Liberty since 1903",
+          "excerpt": "Give me your tired, your poor, / Your huddled masses yearning to breathe free, / The wretched refuse of your teeming shore. / Send these, the homeless, tempest-tost to me, / I lift my lamp beside the golden door!",
+          "href": "https://en.wikisource.org/wiki/The_New_Colossus"
+        },
+        {
+          "category": "artistic",
+          "title": "The Passion of Sacco and Vanzetti",
+          "source": "Bartolomeo Vanzetti, statement to the court before sentencing, Dedham, Massachusetts, 9 April 1927 — later the subject of Ben Shahn's 1931-32 gouache series The Passion of Sacco and Vanzetti",
+          "excerpt": "I would not wish to a dog or to a snake, to the most low and misfortunate creature of the earth, I would not wish to any of them what I have had to suffer for things that I am not guilty of. But my conviction is that I have suffered for things that I am guilty of. I am suffering because I am a radical and indeed I am a radical; I have suffered because I am an Italian and indeed I am an Italian.",
+          "href": "https://en.wikipedia.org/wiki/Sacco_and_Vanzetti"
+        },
+        {
+          "category": "artistic",
+          "title": "\"Va, pensiero\"",
+          "source": "Giuseppe Verdi, Nabucco (1842), the Hebrew slaves' chorus of exile and lost homeland",
+          "excerpt": "Va, pensiero, sull'ali dorate; va, ti posa sui clivi, sui colli",
+          "href": "https://en.wikipedia.org/wiki/Va,_pensiero",
+          "image": {
+            "src": "/covers/ice-shooting-venezuelan-man-texas-paralysis--a6.png",
+            "alt": "Portrait of Giuseppe Verdi by Nadar, c. 1866",
+            "credit": "Nadar, via Wikimedia Commons (public domain)"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ai-stock-rally-nasdaq-record-price-war",
+      "headline": "AI optimism pushed the Nasdaq to record highs as Anthropic and OpenAI opened a new price war",
+      "overview": "Wall Street and Asian markets rallied this week on renewed AI enthusiasm, with the Nasdaq closing at record highs as chipmaker and AI-linked valuations climbed and Treasury yields eased back from recent peaks. The rally coincided with a burst of new model releases: Anthropic unveiled Claude Opus 5.5, and OpenAI expanded its GPT-6 lineup with cheaper Sol and Luna variants, intensifying a price war among the major AI labs even as investors continued to bet heavily on both sides of an increasingly bifurcated US-China AI race around the Trump-Xi summit. Financial stocks lagged the broader rally as a flattening yield curve drew attention, and analysts pointed to Meta's fast-growing Muse AI agent as a case study in how quickly Wall Street now expects AI products to become genuine revenue engines rather than experimental sideshows. The rally underscored how thoroughly AI enthusiasm has come to set the market's tone, for better or worse, nearly four years into the current boom.",
+      "genre": "Economy",
+      "rank": 8,
+      "publishedAt": "2026-09-23",
+      "sources": [
+        {
+          "name": "Simon Willison's Weblog",
+          "href": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSzB2Vlh0Nm9MZUlDRnA2S1pIMUJXWmZtdlZEVUdFRDV2WEJ1U3pLQnJKUFNBU3YyZGxXZ0trVk1tdm9lVFp0aEh5N0VpVUdOZDNWYjRzOTdUVW84bEYwYnZHNEQ1X213dHl5OGlpQWNSUEFkdXRpRC1rUTRDaDRBMFh2Zw?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1998,
+        2029
+      ],
+      "image": {
+        "src": "/covers/ai-stock-rally-nasdaq-record-price-war.png",
+        "alt": "Exterior of the Nasdaq Tower (MarketSite) in Times Square, New York",
+        "credit": "Nielsoncaetanosalmeron, via Wikimedia Commons (CC BY 4.0)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "\"Irrational Exuberance\"",
+          "source": "Alan Greenspan, \"The Challenge of Central Banking in a Democratic Society,\" Federal Reserve speech, Dec. 5, 1996",
+          "excerpt": "But how do we know when irrational exuberance has unduly escalated asset values, which then become subject to unexpected and prolonged contractions as they have in Japan over the past decade?",
+          "href": "https://www.federalreserve.gov/boarddocs/speeches/1996/19961205.htm"
+        },
+        {
+          "category": "historical",
+          "title": "\"Cutting to Kill\"",
+          "source": "Ida M. Tarbell, The History of the Standard Oil Company, Vol. 2, Ch. 10 (1904)",
+          "excerpt": "If this is impossible, it threatens 'predatory competition,' that is, to sell at cost or less, until the rival is worn out.",
+          "href": "https://en.wikisource.org/wiki/The_History_of_the_Standard_Oil_Company/Volume_2/Chapter_10",
+          "image": {
+            "src": "/covers/ai-stock-rally-nasdaq-record-price-war--a2.png",
+            "alt": "1904 Puck cartoon \"Next!\" showing a Standard Oil tank as an octopus with tentacles wrapped around industries and government buildings",
+            "credit": "Udo Keppler, Puck, 1904 / Library of Congress — public domain"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Tulipomania",
+          "source": "Charles Mackay, Extraordinary Popular Delusions and the Madness of Crowds (1841)",
+          "excerpt": "A golden bait hung temptingly out before the people, and, one after the other, they rushed to the tulip marts, like flies around a honey-pot.",
+          "href": "https://www.gutenberg.org/files/24518/24518-h/24518-h.htm"
+        },
+        {
+          "category": "literary",
+          "title": "The Pit",
+          "source": "Frank Norris, The Pit: A Story of Chicago (1903)",
+          "excerpt": "The Pit was mad, was drunk and frenzied; not a man of all those who fought and scrambled and shouted who knew what he or his neighbour did.",
+          "href": "https://www.gutenberg.org/files/4382/4382-h/4382-h.htm"
+        },
+        {
+          "category": "artistic",
+          "title": "Flora's Wagon of Fools",
+          "source": "Hendrik Gerritsz Pot, painting, c. 1637 (Frans Hals Museum)",
+          "excerpt": "An allegorical satire of the Dutch tulip mania: the goddess Flora rides a wagon full of fools toward the sea, her followers weighing coins and clutching tulip bulbs as they are swept toward ruin.",
+          "href": "https://commons.wikimedia.org/wiki/File:Flora's_Wagon_of_Fools_(Flora's_Mallewagen)_tulipomania,_Hendrik_Gerritsz_Pot_c1637.jpg",
+          "image": {
+            "src": "/covers/ai-stock-rally-nasdaq-record-price-war--a5.png",
+            "alt": "Flora's Wagon of Fools, a Dutch allegorical painting satirizing tulip mania, c. 1637",
+            "credit": "Hendrik Gerritsz Pot, c. 1637, Frans Hals Museum — public domain"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "An Emblematical Print on the South Sea Scheme",
+          "source": "William Hogarth, engraving, 1721",
+          "excerpt": "Hogarth's earliest major satirical print shows a carousel of ruined speculators — clergymen, nobles and commoners alike — spinning around a monument to the collapsed South Sea Company while Fortune and Devil preside over the wreckage.",
+          "href": "https://commons.wikimedia.org/wiki/File:William_Hogarth_-_The_South_Sea_Scheme.png",
+          "image": {
+            "src": "/covers/ai-stock-rally-nasdaq-record-price-war--a6.png",
+            "alt": "Hogarth's 1721 satirical engraving on the South Sea Bubble",
+            "credit": "William Hogarth, 1721 — public domain"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ai-buildout-financing-softbank-akamai-oracle",
+      "headline": "SoftBank issued $11 billion more in bonds for OpenAI as the AI buildout's financing grew more exotic",
+      "overview": "SoftBank Group issued more than $11 billion in new bonds this week specifically to finance its investment in OpenAI, extending a pattern of heavy debt-financed bets on AI infrastructure that researchers are increasingly flagging as a source of systemic financial risk. The financing wave went well beyond one company: Akamai signed an $11.6 billion cloud computing deal with Anthropic that included a warrant for up to a 5% equity stake, BlackRock and IFM Investors moved close to a $25 billion data-center deal, and Oracle triggered a 'force majeure' clause on a data-center project after power-supply delays disrupted its buildout plans, sending ripples through AI financing markets. Taken together, the week's deals illustrated how far the AI industry's capital structure has shifted from equity investment toward debt, leases, equity warrants, and infrastructure partnerships of a scale and complexity that a growing number of economists warn could concentrate risk across banks, private credit funds, and utilities if the AI spending cycle turns.",
+      "genre": "Economy",
+      "rank": 9,
+      "publishedAt": "2026-09-24",
+      "sources": [
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeldGcjFrNndNWHBkZ3ppV1hNSklkU3BNWGw5ZWFZQ1VyMWptRmJTN2pEMVBfUVFoLU0xOUhaUVN4VVR3RTNKeXNySkFGZ2tsRWVLRkY0SnhTdDUwcTZwWS1PYVBPdklXN0NLd1phMEt6Uzc3blZleGxGYUh0ZmhLY1RVREJxcE5VNFBsenVhcXpnV0R2WGVXWk9uUGdvT3BRSVRDVFFZSk1aZl92ZGxwSG1sbWg?oc=5"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNanVpUjFYbXpXWHdEU1NlRFlfZnI5a0Y2OVlzYUkya2tBR3hOY05ZTk05ZVZrWUZqcmttYjV3b2x6d01iTUFIZ095a1lQbkFCbTZFVGJzd2tUM1NkcWtOV3B2X1VpMGpkSVlGOW13ZU0xd3BjUm1paldVNHpYVllpN0UwQ3ZkUGk0R3AtaWx3SDJFaXdEUkdmeHRlT3M0Tk10LWc?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1946,
+        2115,
+        2166
+      ],
+      "image": {
+        "src": "/covers/ai-buildout-financing-softbank-akamai-oracle.png",
+        "alt": "Rows of dark server racks in a vast data center, glowing blue and amber status lights receding into the distance, cables snaking along the floor, no people, no text, no logos.",
+        "credit": "AI-generated"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "The Fall of Overend, Gurney & Co.",
+          "source": "Walter Bagehot, Lombard Street: A Description of the Money Market (1873)",
+          "excerpt": "Yet in six years they lost all their own wealth, sold the business to the company, and then lost a large part of the company's capital. And these losses were made in a manner so reckless and so foolish, that one would think a child who had lent money in the City of London would have lent it better.",
+          "href": "https://www.gutenberg.org/cache/epub/4359/pg4359.html",
+          "image": {
+            "src": "/covers/ai-buildout-financing-softbank-akamai-oracle--a1.png",
+            "alt": "Portrait of Walter Bagehot",
+            "credit": "National Portrait Gallery, London — public domain"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "The Panic of 1873",
+          "source": "Ulysses S. Grant, Fifth Annual Message to Congress, Dec. 1, 1873",
+          "excerpt": "In the midst of great national prosperity a financial crisis has occurred that has brought low fortunes of gigantic proportions.",
+          "href": "https://www.presidency.ucsb.edu/documents/fifth-annual-message-3",
+          "image": {
+            "src": "/covers/ai-buildout-financing-softbank-akamai-oracle--a2.png",
+            "alt": "1873 illustration of a crowd running on the Fourth National Bank in New York during the Panic of 1873",
+            "credit": "Frank Leslie's Illustrated Newspaper, Oct. 4, 1873 / Library of Congress — public domain"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The Gilded Age",
+          "source": "Mark Twain & Charles Dudley Warner, The Gilded Age: A Tale of Today (1873)",
+          "excerpt": "I saw through the pretty scheme in a second. It's a vast iron speculation!—millions upon millions in it!",
+          "href": "https://www.gutenberg.org/files/3178/3178-h/3178-h.htm",
+          "image": {
+            "src": "/covers/ai-buildout-financing-softbank-akamai-oracle--a3.png",
+            "alt": "Portrait photograph of Mark Twain, 1907",
+            "credit": "A.F. Bradley, 1907 — public domain"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The Way We Live Now",
+          "source": "Anthony Trollope, The Way We Live Now (1875)",
+          "excerpt": "Gentlemen who don't know the nature of credit, how strong it is,—as the air,—to buoy you up; how slight it is,—as a mere vapour,—when roughly touched, can do an amount of mischief of which they themselves don't in the least understand the extent!",
+          "href": "https://www.gutenberg.org/files/5231/5231-h/5231-h.htm",
+          "image": {
+            "src": "/covers/ai-buildout-financing-softbank-akamai-oracle--a4.png",
+            "alt": "Portrait photograph of Anthony Trollope",
+            "credit": "C.E. Fry & Son, National Portrait Gallery, London — public domain"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Rain, Steam and Speed – The Great Western Railway",
+          "source": "J.M.W. Turner, painting, 1844 (National Gallery, London)",
+          "excerpt": "A locomotive races across Brunel's Maidenhead Bridge into a dissolving world of rain and steam — Turner's tribute to, and warning about, the era's headlong infrastructure-building fever.",
+          "href": "https://commons.wikimedia.org/wiki/File:Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg",
+          "image": {
+            "src": "/covers/ai-buildout-financing-softbank-akamai-oracle--a5.png",
+            "alt": "J.M.W. Turner's 1844 painting Rain, Steam and Speed, showing a train crossing a bridge",
+            "credit": "J.M.W. Turner, 1844, National Gallery, London — public domain"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Midas, Transmuting All into Paper",
+          "source": "James Gillray, etching, 1797",
+          "excerpt": "Gillray's satire on the 1797 Bank Restriction Act shows Prime Minister Pitt as a reverse Midas, his body a sack of coin, vomiting banknotes onto a suddenly paper-based credit system.",
+          "href": "https://commons.wikimedia.org/wiki/File:Midas,_transmuting_all,_into_paper_by_James_Gillray.jpg",
+          "image": {
+            "src": "/covers/ai-buildout-financing-softbank-akamai-oracle--a6.png",
+            "alt": "James Gillray's 1797 satirical etching \"Midas, Transmuting All into Paper\"",
+            "credit": "James Gillray, 1797 — public domain"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "european-carmakers-china-crisis-mercedes-vw",
+      "headline": "Mercedes says its German plants are no longer competitive as China's rise squeezes European carmakers",
+      "overview": "Mercedes-Benz said this week that production at some of its German plants has become uncompetitive, with two facilities under explicit threat of closure, as a European Central Bank study found China's industrial rise is hitting German manufacturers harder than almost any other sector. Volkswagen's China chief added to the gloom, forecasting the Chinese passenger-car market itself will shrink by 20% in 2026 as domestic Chinese brands consolidate their dominance of the world's largest auto market, a shift that has eroded the profits European carmakers once relied on from Chinese sales to subsidize operations at home. The crisis has pushed European auto executives to look, with some irony, to the continent's rearmament drive as a possible industrial lifeline — converting idled automotive capacity and engineering talent toward defense production — a sign of how deeply China's manufacturing rise is now reshaping strategic thinking in an industry that long defined German economic identity.",
+      "genre": "Economy",
+      "rank": 10,
+      "publishedAt": "2026-09-22",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/c6vgyq598k9po?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWG94SGc1eDdkUlE3VjhVR3NocG8zYl9Mbk5WVC1XeG8tYm5IeTRmd0JrRzk3NmE0WnVQZ2hXLTAxdkpETHhBQnV0OE0xa1BoNzQtNXJlQWlDZmxRTHRTMUVQdEhJOE44STh4MllFR19BQkl3T0k1OUw1MWFPRnBwUlVuWXVFOFkyYzY2a0FtOUZZTkpqTXByRXpoa21PTW1xRGktZmRrMWdEMTFnSWpvRGtrUWpwWXpRNWxBQWh6T2cwZEtGb21lMkN3?oc=5"
+        }
+      ],
+      "candidateIds": [
+        2125
+      ],
+      "image": {
+        "src": "/covers/european-carmakers-china-crisis-mercedes-vw.png",
+        "alt": "Exterior of Mercedes-Benz's Factory 56 production plant in Sindelfingen, Germany",
+        "credit": "Alexander Migl, via Wikimedia Commons (CC BY-SA 4.0)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Made in Germany",
+          "source": "Ernest Edwin Williams, \"Made in Germany\" (1896)",
+          "excerpt": "My book sees the light at a somewhat inauspicious moment. We are rejoicing over one of those spurts of good trade which gladden the hearts of manufacturers and bring perplexity to the brows of economists; and I have to play the thankless part of Skeleton at the Commercial Feast.",
+          "href": "https://archive.org/stream/cu31924031247830/cu31924031247830_djvu.txt"
+        },
+        {
+          "category": "historical",
+          "title": "The Arsenal of Democracy",
+          "source": "Franklin D. Roosevelt, Fireside Chat 16, Dec. 29, 1940",
+          "excerpt": "We must be the great arsenal of democracy. For us this is an emergency as serious as war itself.",
+          "href": "https://millercenter.org/the-presidency/presidential-speeches/december-29-1940-fireside-chat-16-arsenal-democracy",
+          "image": {
+            "src": "/covers/european-carmakers-china-crisis-mercedes-vw--a2.png",
+            "alt": "Workers at the Ford Willow Run bomber plant assembling B-24 Liberator wings, 1942",
+            "credit": "Ann Rosener, 1942, U.S. Office of War Information / Library of Congress — public domain"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Swords into Plowshares",
+          "source": "Isaiah 2:4, King James Bible",
+          "excerpt": "And he shall judge among the nations, and shall rebuke many people: and they shall beat their swords into plowshares, and their spears into pruninghooks: nation shall not lift up sword against nation, neither shall they learn war any more.",
+          "href": "https://www.biblehub.com/kjv/isaiah/2-4.htm",
+          "image": {
+            "src": "/covers/european-carmakers-china-crisis-mercedes-vw--a3.png",
+            "alt": "The Great Isaiah Scroll, an ancient Hebrew manuscript of the Book of Isaiah found at Qumran",
+            "credit": "Photo by Ardon Bar Hama, Israel Museum, Jerusalem — public domain"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Buddenbrooks",
+          "source": "Thomas Mann, Buddenbrooks (1901; trans. H.T. Lowe-Porter, 1924)",
+          "excerpt": "Ratenkamp and Company were just getting to the top of their form.... Sad, how the firm broke down in the last twenty years!",
+          "href": "https://www.gutenberg.org/files/72961/72961-h/72961-h.htm",
+          "image": {
+            "src": "/covers/european-carmakers-china-crisis-mercedes-vw--a4.png",
+            "alt": "Portrait photograph of Thomas Mann, 1937",
+            "credit": "Carl Van Vechten, 1937, Library of Congress — public domain"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "We Can Do It!",
+          "source": "J. Howard Miller, wartime poster, 1943",
+          "excerpt": "A Westinghouse factory worker flexes her arm beneath the words \"We Can Do It!\" — the era's emblem of civilian industry remade overnight for war production.",
+          "href": "https://commons.wikimedia.org/wiki/File:We_Can_Do_It!.jpg",
+          "image": {
+            "src": "/covers/european-carmakers-china-crisis-mercedes-vw--a5.png",
+            "alt": "\"We Can Do It!\" 1943 wartime poster by J. Howard Miller",
+            "credit": "J. Howard Miller, 1943, Smithsonian National Museum of American History — public domain in the US"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Let Us Beat Swords into Plowshares",
+          "source": "Evgeny Vuchetich, bronze sculpture, 1959, gift of the USSR to the United Nations",
+          "excerpt": "A muscular figure hammers a sword into a plowshare — the Soviet Union's Cold War gift to the UN, its inscription drawn directly from Isaiah, now standing as an ironic counterpoint to industry moving the other way.",
+          "href": "https://commons.wikimedia.org/wiki/File:Swords-Plowshares.jpg",
+          "image": {
+            "src": "/covers/european-carmakers-china-crisis-mercedes-vw--a6.png",
+            "alt": "\"Let Us Beat Swords into Plowshares\" bronze sculpture by Evgeny Vuchetich at UN Headquarters",
+            "credit": "Evgeny Vuchetich, 1959, UN Headquarters, New York — CC BY-SA 3.0 / GFDL"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "meta-muse-charm-ai-hardware-connect",
+      "headline": "Meta unveiled AI wearables and a 'human concierge' for its Muse agent, betting big on post-smartphone hardware",
+      "overview": "At its Connect 2026 conference, Meta unveiled a new lineup of AI hardware including a wearable gadget called Charm and a camera-free version of its smart glasses, designed to shed the 'pervert glasses' stigma that had dogged earlier camera-equipped models, alongside slimmer VR glasses. The launches came as Meta pushed further into personal AI agents with Muse, for which the company is reportedly testing a human-assisted 'concierge' feature — real people stepping in to help the AI handle requests it can't manage alone — even as Wall Street increasingly expects Muse to become a significant new revenue source for the company. Mark Zuckerberg framed the hardware push as a bet on AI moving off the phone and onto the body, pushing back against AI-doom narratives even as Muse's rollout stoked fresh anxiety over labor disruption from AI agents capable of managing tasks once done by human assistants. Zuckerberg was also reported to be among the tech leaders attending the Trump-Xi state dinner the same week.",
+      "genre": "Technology",
+      "rank": 11,
+      "publishedAt": "2026-09-24",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/cwp80l0my1x2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Dezeen",
+          "href": "https://www.dezeen.com/2026/09/24/meta-vr-glasses-audio-ai-glasses-connect-2026/"
+        }
+      ],
+      "candidateIds": [
+        2067,
+        2080,
+        2133
+      ],
+      "image": {
+        "src": "/covers/meta-muse-charm-ai-hardware-connect.png",
+        "alt": "A minimalist wearable tech device resting on a plain reflective surface, soft studio lighting, sleek matte and glass materials, clean shadows, no people, no text, no logos.",
+        "credit": "AI-generated"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "The Mechanical Turk (1770)",
+          "source": "Wolfgang von Kempelen's chess-playing automaton, examined in Edgar Allan Poe, \"Maelzel's Chess-Player\" (Southern Literary Messenger, 1836)",
+          "excerpt": "It is quite certain that the operations of the Automaton are regulated by mind, and by nothing else.",
+          "href": "https://en.wikisource.org/wiki/Maelzel%27s_Chess-Player",
+          "image": {
+            "src": "/covers/meta-muse-charm-ai-hardware-connect--a1.png",
+            "alt": "1789 engraving of Wolfgang von Kempelen's chess-playing automaton, the Turk",
+            "credit": "Joseph Friedrich Racknitz, 1789 — Wikimedia Commons, public domain"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "Vaucanson's Digesting Duck (1739)",
+          "source": "Jacques de Vaucanson's automaton, celebrated by Voltaire, 1769",
+          "excerpt": "Without the voice of le Maure and Vaucanson's duck, you would have nothing to remind you of the glory of France.",
+          "href": "https://en.wikipedia.org/wiki/Digesting_Duck",
+          "image": {
+            "src": "/covers/meta-muse-charm-ai-hardware-connect--a2.png",
+            "alt": "Imaginative 1899 rendering of Vaucanson's digesting duck automaton",
+            "credit": "Scientific American, 1899 — Wikimedia Commons, public domain"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "R.U.R. (Rossum's Universal Robots), 1920",
+          "source": "Karel Čapek, R.U.R., trans. Paul Selver (Project Gutenberg)",
+          "excerpt": "One Robot can replace two and a half workmen. The human machine, Miss Glory, was terribly imperfect. It had to be removed sooner or later.",
+          "href": "https://www.gutenberg.org/files/59112/59112-h/59112-h.htm",
+          "image": {
+            "src": "/covers/meta-muse-charm-ai-hardware-connect--a3.png",
+            "alt": "Federal Theatre Project poster for a marionette production of R.U.R.",
+            "credit": "Library of Congress / Federal Art Project — Wikimedia Commons, public domain"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The Sandman (Der Sandmann), 1816",
+          "source": "E.T.A. Hoffmann, \"The Sandman,\" trans. John Oxenford, in Tales from the German (Wikisource)",
+          "excerpt": "Nathaniel stood paralysed; he had seen but too plainly that Olympia's waxen, deadly pale countenance had no eyes, but black holes instead—she was, indeed, a lifeless doll.",
+          "href": "https://en.wikisource.org/wiki/Tales_from_the_German,_comprising_specimens_from_the_most_celebrated_authors/The_Sandman"
+        },
+        {
+          "category": "artistic",
+          "title": "The Tales of Hoffmann, \"Doll Song,\" 1881",
+          "source": "Jacques Offenbach, Les contes d'Hoffmann, libretto by Jules Barbier — Olympia's aria \"Les oiseaux dans la charmille\"",
+          "excerpt": "Les oiseaux dans la charmille, Dans les cieux l'astre du jour...",
+          "href": "https://en.wikipedia.org/wiki/The_Tales_of_Hoffmann",
+          "image": {
+            "src": "/covers/meta-muse-charm-ai-hardware-connect--a5.png",
+            "alt": "1881 illustration of the Olympia act from Offenbach's The Tales of Hoffmann",
+            "credit": "Attr. Pierre-Auguste Lamy, 1881 — Wikimedia Commons, public domain"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Metropolis, 1927",
+          "source": "Fritz Lang, Metropolis — the Maschinenmensch built to impersonate and discredit the worker Maria",
+          "excerpt": "The Mediator Between the Head and the Hands Must Be the Heart.",
+          "href": "https://en.wikipedia.org/wiki/Metropolis_(1927_film)",
+          "image": {
+            "src": "/covers/meta-muse-charm-ai-hardware-connect--a6.png",
+            "alt": "Replica of the robot Maria from Fritz Lang's Metropolis, Robot Hall of Fame",
+            "credit": "Photo by Jiuguang Wang, 2011 — Wikimedia Commons, CC BY-SA 2.0"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "shinyhunters-fbi-data-breach",
+      "headline": "Hackers calling themselves ShinyHunters claimed to have breached the FBI and stolen employee data",
+      "overview": "A hacking group calling itself ShinyHunters claimed this week to have breached FBI systems, stealing data on bureau employees and compromising an associated jobs website. The FBI said it was investigating the claim, and Reuters reported that the leaked data appeared to include sensitive information about employees' intelligence roles — details that, if confirmed and exposed, could put undercover or sensitive assignments at risk. The claimed breach adds to a string of high-profile hacking incidents that have rattled US federal agencies and major companies in recent months, as groups like ShinyHunters increasingly target large organizations' internal systems rather than customer-facing databases, betting that internal employee data can be just as valuable — and just as embarrassing — to expose. Neither the FBI nor independent researchers had fully verified the scope of the breach by week's end, but the claim alone renewed scrutiny of federal cybersecurity practices already under pressure from a wave of incidents this year.",
+      "genre": "Technology",
+      "rank": 12,
+      "publishedAt": "2026-09-24",
+      "sources": [
+        {
+          "name": "AP News",
+          "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbnphd05odjktQV9NY2U2eWtjNFhVSlZ5aTFzVDVSdkVPUWpuM2ZuMVV0M3JqRjVWY1lvUURIRGJzdFhqTGMtaEpOQUpaZGhBWnZERjNSZXdBcGd5Zkg5RjVVUVhPYkVtVlNDMzhadVNoZEtrMXF5dnRSWTROaEJZVHk0VUNrd2lWVmZmZjZZYmU1MmlGNnFjdlBHamswRGVuVGZIUXNuVXk?oc=5"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVUtFWTRZNVBNcVdtQTFFZTlJN1JBcVhOT09PdDZQRTRqWU5YbWcwSTEzWHJWT2l1dVB3T1hYcUwzYm9DYUtWazd0dWRWbE0tRHdfRWpmakVZcTlrOUR2ZHVBNmFYTTVqVU0xdzZBdTl0YU0yUHBlUHhiS3VQckl2eFNzNW5DdmdkZjhyTjdtS3ZwdWVkYW9aVDV4enBoeXVSSkdCQ21abjdPUHBzN2xkRHE4bFdFTEM1M01oeEk0cw?oc=5"
+        }
+      ],
+      "candidateIds": [
+        2065,
+        2079
+      ],
+      "image": {
+        "src": "/covers/shinyhunters-fbi-data-breach.png",
+        "alt": "Rows of dark server racks in a dim data center, a single red warning light glowing among rows of blue indicator lights, faint reflections on the floor, no people, no readable text, no numbers, no logos.",
+        "credit": "AI-generated"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "The Media, Pennsylvania FBI Office Burglary, 1971",
+          "source": "Citizens' Commission to Investigate the FBI",
+          "excerpt": "Their only known action was breaking into the field office of the Federal Bureau of Investigation (FBI) located in Media, Pennsylvania on March 8, 1971, and stealing over 1,000 classified documents.",
+          "href": "https://en.wikipedia.org/wiki/Citizens%27_Commission_to_Investigate_the_FBI"
+        },
+        {
+          "category": "historical",
+          "title": "The Robert Hanssen Espionage Case",
+          "source": "U.S. Department of Justice, on FBI agent Robert Hanssen's arrest, 2001",
+          "excerpt": "possibly the worst intelligence disaster in U.S. history",
+          "href": "https://en.wikipedia.org/wiki/Robert_Hanssen",
+          "image": {
+            "src": "/covers/shinyhunters-fbi-data-breach--a2.png",
+            "alt": "FBI mugshot of Robert Hanssen, February 2001",
+            "credit": "Federal Bureau of Investigation — Wikimedia Commons, public domain"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The Aeneid, Book II",
+          "source": "Virgil, The Aeneid, trans. John Dryden — Laocoön's warning against the Trojan Horse",
+          "excerpt": "Trust not their Presents, nor admit the Horse.",
+          "href": "https://en.wikisource.org/wiki/The_Works_of_Virgil_(Dryden)/Aeneid/Book_II",
+          "image": {
+            "src": "/covers/shinyhunters-fbi-data-breach--a3.png",
+            "alt": "The Procession of the Trojan Horse in Troy, by Giovanni Domenico Tiepolo, 1773",
+            "credit": "Giovanni Domenico Tiepolo, 1773 — Wikimedia Commons, public domain"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The Purloined Letter, 1844",
+          "source": "Edgar Allan Poe, \"The Purloined Letter\"",
+          "excerpt": "He never once thought it probable, or possible, that the Minister had deposited the letter immediately beneath the nose of the whole world, by way of best preventing any portion of that world from perceiving it.",
+          "href": "https://www.gutenberg.org/files/2148/2148-h/2148-h.htm",
+          "image": {
+            "src": "/covers/shinyhunters-fbi-data-breach--a4.png",
+            "alt": "Portrait of Edgar Allan Poe, c. 1847",
+            "credit": "Minnesota Historical Society — Wikimedia Commons, CC BY-SA 2.0"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Otello, \"Credo in un Dio crudel,\" 1887",
+          "source": "Giuseppe Verdi, Otello, libretto by Arrigo Boito — Iago's Act II \"Credo,\" the trusted insider revealed as betrayer",
+          "excerpt": "Credo in un Dio crudel che m'ha creato simile a sè, e che nell'ira io nomo.",
+          "href": "https://en.wikipedia.org/wiki/Otello",
+          "image": {
+            "src": "/covers/shinyhunters-fbi-data-breach--a5.png",
+            "alt": "1887 premiere poster for Verdi's Otello, L'Illustrazione Italiana",
+            "credit": "Archivio Storico Ricordi, 1887 — Wikimedia Commons, public domain"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "The Cardsharps, c. 1594",
+          "source": "Caravaggio, The Cardsharps (Kimbell Art Museum)",
+          "excerpt": "a cardsharp, has extra cards tucked in his belt behind his back, out of sight of the mark but not the viewer, and a sinister older man is peering over the dupe's shoulder and signaling to his young accomplice.",
+          "href": "https://en.wikipedia.org/wiki/The_Cardsharps",
+          "image": {
+            "src": "/covers/shinyhunters-fbi-data-breach--a6.png",
+            "alt": "The Cardsharps by Caravaggio, c. 1594",
+            "credit": "Caravaggio, c. 1594, Kimbell Art Museum — Wikimedia Commons, public domain"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "google-gdpr-fine-ireland-location-data",
+      "headline": "Ireland fined Google $463 million for how it handled users' location data",
+      "overview": "Ireland's Data Protection Commission fined Google roughly €403 million ($463 million) this week for breaching EU rules on how it processes users' location data, closing a six-year investigation that began after complaints from consumer rights groups. The penalty is among the larger sanctions the Irish regulator — which oversees most major US tech companies under the EU's 'one-stop-shop' enforcement structure, since their European operations are headquartered in Dublin — has levied against Google specifically, and it adds to a growing tally of EU actions against American technology companies over data practices that European regulators say fall short of GDPR's consent and transparency requirements. Google said it disagreed with aspects of the decision and was reviewing its next steps, continuing a pattern in which large tech fines are appealed for years before penalties, if upheld, are actually paid. The case underscores how location data specifically has become a recurring flashpoint in EU privacy enforcement, given how precisely it can be used to infer people's movements, habits, and relationships.",
+      "genre": "Technology",
+      "rank": 13,
+      "publishedAt": "2026-09-22",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/ck1e52v16ngxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "AP News",
+          "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLVhWMkN4ZmNWS1hVc2FIRDRPYV9jWC1xS3JLWWx0bTZRYnlXQUxfWjV4dXpKRlB2ek1EWDZEeWZGcWFUREpQTkhkdW9lTjFZSjJMTU9INUlpNmFmdXhMZ2E0UFhMeFExQ294MmJhakhxRURfenRoY2ZYZTJ5bWhIY251UGMzQUptWVFDR3NR?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1980
+      ],
+      "image": {
+        "src": "/covers/google-gdpr-fine-ireland-location-data.png",
+        "alt": "Google's 'Google Docks' office building viewed from Barrow Street, Dublin",
+        "credit": "Jmckinley, via Wikimedia Commons (CC BY-SA 3.0 / GFDL)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Bentham's Panopticon, 1791",
+          "source": "Jeremy Bentham, Panopticon; or, The Inspection-House (1791)",
+          "excerpt": "It will be found applicable, I think, without exception, to all establishments whatsoever, in which, within a space not too large to be covered or commanded by buildings, a number of persons are meant to be kept under inspection.",
+          "href": "https://en.wikisource.org/wiki/Panopticon",
+          "image": {
+            "src": "/covers/google-gdpr-fine-ireland-location-data--a1.png",
+            "alt": "Plan of Jeremy Bentham's Panopticon prison, drawn by Willey Reveley, 1791",
+            "credit": "Willey Reveley, 1791 — Wikimedia Commons, CC BY-SA 4.0"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "The Stasi's Surveillance Apparatus",
+          "source": "East Germany's Ministry for State Security (1950–1990)",
+          "excerpt": "The ratio for the Stasi was one secret policeman to every 166 East Germans... one informer per 6.5 citizens.",
+          "href": "https://en.wikipedia.org/wiki/Stasi",
+          "image": {
+            "src": "/covers/google-gdpr-fine-ireland-location-data--a2.png",
+            "alt": "Berlin citizens storming the Stasi headquarters, January 15, 1990",
+            "credit": "Bundesarchiv, Bild 183-1990-0116-014 / Thomas Uhlemann — CC BY-SA 3.0 DE"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Nineteen Eighty-Four, 1949",
+          "source": "George Orwell, Nineteen Eighty-Four",
+          "excerpt": "On each landing, opposite the lift-shaft, the poster with the enormous face gazed from the wall... BIG BROTHER IS WATCHING YOU, the caption beneath it ran.",
+          "href": "https://gutenberg.net.au/ebooks01/0100021.txt",
+          "image": {
+            "src": "/covers/google-gdpr-fine-ireland-location-data--a3.png",
+            "alt": "Press photograph of George Orwell, 1943",
+            "credit": "National Union of Journalists press card photo, 1943 — Wikimedia Commons, public domain"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The Trial, 1925",
+          "source": "Franz Kafka, The Trial, trans. David Wyllie",
+          "excerpt": "Someone must have been telling lies about Josef K., he knew he had done nothing wrong but, one morning, he was arrested.",
+          "href": "https://www.gutenberg.org/files/7849/7849-h/7849-h.htm",
+          "image": {
+            "src": "/covers/google-gdpr-fine-ireland-location-data--a4.png",
+            "alt": "Portrait of Franz Kafka, 1906",
+            "credit": "Atelier Jacobi, 1906 — Wikimedia Commons, public domain"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Marey's Chronophotography of Human Movement, c. 1890",
+          "source": "Étienne-Jules Marey, motion studies of walking figures",
+          "excerpt": "Recorded several phases of movement on one photographic surface.",
+          "href": "https://en.wikipedia.org/wiki/%C3%89tienne-Jules_Marey",
+          "image": {
+            "src": "/covers/google-gdpr-fine-ireland-location-data--a5.png",
+            "alt": "Étienne-Jules Marey chronophotograph of a man walking, 1890–91",
+            "credit": "Étienne-Jules Marey, 1890–91 — Wikimedia Commons, public domain"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "The Eye of Providence, Great Seal of the United States",
+          "source": "The all-seeing eye on the reverse of the Great Seal, adopted 1782, placed on the $1 bill in 1935",
+          "excerpt": "A symbol depicting an eye, often enclosed in a triangle and surrounded by rays of light or a halo, intended to represent divine providence watching over mankind.",
+          "href": "https://en.wikipedia.org/wiki/Eye_of_Providence",
+          "image": {
+            "src": "/covers/google-gdpr-fine-ireland-location-data--a6.png",
+            "alt": "The Eye of Providence atop the pyramid on the reverse of the US one-dollar bill",
+            "credit": "U.S. Bureau of Engraving and Printing — Wikimedia Commons, public domain"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "converse-ad-pulled-kkk-imagery-backlash",
+      "headline": "Converse pulled an ad and apologized after backlash over imagery critics likened to a KKK hood",
+      "overview": "Converse pulled an advertisement and issued an apology this week after critics online said its imagery closely resembled the pointed hood associated with the Ku Klux Klan, a resemblance the company said it had not intended and called 'deeply upsetting.' The sneaker brand, owned by Nike, moved quickly to remove the ad from circulation once the criticism gained traction on social media, though the episode renewed a familiar debate about how such imagery clears internal review at a major company in the first place. It also arrived amid a broader wave of scrutiny over advertising and imagery in fashion and consumer marketing this year, as brands have faced faster and more coordinated public backlash — amplified by social media — to material that evokes historical symbols of racial violence, whether through carelessness or a failure to anticipate how imagery reads outside the room where it was approved.",
+      "genre": "Culture",
+      "rank": 14,
+      "publishedAt": "2026-09-22",
+      "sources": [
+        {
+          "name": "BBC",
+          "href": "https://www.bbc.co.uk/news/articles/crwyzj53pl1lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "name": "Reuters",
+          "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQa18wWnRxRmowSGlQSUtxX0FMYVFZSVQzUzBLaVlRZUEtMHBoaGZITndna200eTFDMUNBVUV4YWRieFlMRlY4amdNdEVaUHVuWUwwaWZ3S0FPQ2xMTGpMcU10SUZsMURiQkhid2toZll3RHo2TWx2RXF5N2ZTeWhGYWhSTzFNWDlUaERYMmU1azRVSWVXQ1Z4NzZUSUgzNGh4UzZpVVdmdF9tRE4yUG82NXJGTUJJZlIwd2NnM1hKYnMwX1BnVHhWLThvRW93bGxMSkE?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1927,
+        1942,
+        2051
+      ],
+      "image": {
+        "src": "/covers/converse-ad-pulled-kkk-imagery-backlash.png",
+        "alt": "A single blank white canvas sneaker resting alone on a plain light-grey studio background, soft even lighting, minimalist and neutral, no logos, no text, no people.",
+        "credit": "AI-generated"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Prada's 2018 'Pradamalia' blackface backlash",
+          "source": "Prada Group statement, quoted in coverage of the December 2018 controversy",
+          "excerpt": "The Pradamalia are fantasy charms composed of elements of the Prada oeuvre. They are imaginary creatures not intended to have any reference to the real world and certainly not blackface.",
+          "href": "https://www.today.com/style/prada-accused-racism-blackface-over-pradamalia-figurines-t145256"
+        },
+        {
+          "category": "historical",
+          "title": "H&M's 'Coolest Monkey in the Jungle' apology",
+          "source": "H&M official statement, January 2018",
+          "excerpt": "Our position is simple and unequivocal – we have got this wrong and we are deeply sorry.",
+          "href": "https://www.ajc.com/blog/talk-town/issues-unequivocal-apology-for-black-child-posed-coolest-monkey-hoodie/PsOkPNuyOfZ4zdBxfCaL8N/"
+        },
+        {
+          "category": "literary",
+          "title": "\"The Masque of the Red Death\" (1842)",
+          "source": "Edgar Allan Poe, short story",
+          "excerpt": "The mask which concealed the visage was made so nearly to resemble the countenance of a stiffened corpse that the closest scrutiny must have had difficulty in detecting the cheat.",
+          "href": "https://www.gutenberg.org/files/1064/old/1064-h/1064-h.htm"
+        },
+        {
+          "category": "literary",
+          "title": "\"The Minister's Black Veil\" (1836)",
+          "source": "Nathaniel Hawthorne, short story",
+          "excerpt": "Swathed about his forehead, and hanging down over his face, so low as to be shaken by his breath, Mr. Hooper had on a black veil.",
+          "href": "https://www.ibiblio.org/eldritch/nh/mbv.html"
+        },
+        {
+          "category": "artistic",
+          "title": "Philip Guston's Klan paintings",
+          "source": "Philip Guston, on his 1969–70 hooded-figure paintings, quoted on Wikipedia",
+          "excerpt": "They are self-portraits ... I perceive myself as being behind the hood ... The idea of evil fascinated me ... I almost tried to imagine that I was living with the Klan.",
+          "href": "https://en.wikipedia.org/wiki/Philip_Guston"
+        },
+        {
+          "category": "artistic",
+          "title": "The Sleep of Reason Produces Monsters",
+          "source": "Francisco Goya, Los Caprichos, Plate 43, 1799",
+          "excerpt": "Fantasy abandoned by reason produces impossible monsters: united with her, she is the mother of the arts and the origin of their marvels.",
+          "href": "https://en.wikipedia.org/wiki/The_Sleep_of_Reason_Produces_Monsters",
+          "image": {
+            "src": "/covers/converse-ad-pulled-kkk-imagery-backlash--a6.png",
+            "alt": "Francisco Goya, The Sleep of Reason Produces Monsters, Plate 43 of Los Caprichos, 1799",
+            "credit": "Francisco Goya, 1799 (public domain, via Wikimedia Commons)"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "national-trust-historic-preservation-legal-fund",
+      "headline": "A US preservation group launched a $10 million legal fund to fight the Trump administration over historic sites",
+      "overview": "The National Trust for Historic Preservation launched a $10 million legal defense fund this week, citing what it called 'urgent threats' to historic buildings and sites under the Trump administration, and said it would use the money to challenge government decisions in court. The move follows the organization's clashes with the administration over a planned White House ballroom and other projects it argues threaten protected sites, and it arrives as the Smithsonian's National Museum of African American History and Culture marks its tenth anniversary amid what museum staff describe as sustained political pressure on how it presents American history. Together, the two stories point to a widening confrontation between the administration and the institutions that steward the country's cultural memory, with preservationists increasingly turning to litigation — rather than the negotiation and lobbying that traditionally settled such disputes — as their primary tool for pushing back.",
+      "genre": "Culture",
+      "rank": 15,
+      "publishedAt": "2026-09-24",
+      "sources": [
+        {
+          "name": "Dezeen",
+          "href": "https://www.dezeen.com/2026/09/23/national-trust-for-historic-preservation-defense-fund-washington-dc/"
+        },
+        {
+          "name": "AP News",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd21uUFkzYW5GQVB1Z01QWDFhUU85Vmg4VUpmYjBiemdKV3R4Y2NzTGhRaGZDNGg0MWxtNzFVeUNjXzR2SUtFbzVRMjBURDlkM0p0ZFQxVHZrYlJyMUw0ejBvV3pob0hLRkUxOTN3V0JwbjdYZ0thT1pEQ01NQVNkVDFSa2xRYXEwQzVDREhrdGtGa0tCU1pBS01Ub0xzZFNoWWNoTGFvVVVWMU5hakVsaQ?oc=5"
+        }
+      ],
+      "candidateIds": [
+        2105,
+        2141
+      ],
+      "image": {
+        "src": "/covers/national-trust-historic-preservation-legal-fund.png",
+        "alt": "The White House South Facade, Washington D.C.",
+        "credit": "Matt H. Wade, via Wikimedia Commons (CC BY-SA 3.0)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Farewell to Penn Station (1963)",
+          "source": "Ada Louise Huxtable, The New York Times, October 30, 1963",
+          "excerpt": "Any city gets what it admires, will pay for, and, ultimately, deserves.",
+          "href": "https://gizmodo.com/the-original-penn-station-was-demolished-50-years-ago-t-1453457671",
+          "image": {
+            "src": "/covers/national-trust-historic-preservation-legal-fund--a1.png",
+            "alt": "Demolition of the original Pennsylvania Station, New York",
+            "credit": "Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "Demolition of the Cathedral of Christ the Saviour (1931)",
+          "source": "Soviet government demolition order, quoted on Wikipedia",
+          "excerpt": "The site for the construction of the Palace of Soviets is chosen to be the square of the Christ the Savior Cathedral in Moscow, including the demolition of the cathedral itself and the necessary expansion of the square.",
+          "href": "https://en.wikipedia.org/wiki/Cathedral_of_Christ_the_Saviour",
+          "image": {
+            "src": "/covers/national-trust-historic-preservation-legal-fund--a2.png",
+            "alt": "Demolition of the Cathedral of Christ the Saviour, Moscow, 1931",
+            "credit": "Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Howards End (1910)",
+          "source": "E. M. Forster, novel, Chapter 10",
+          "excerpt": "They mean to pull down Wickham Place, and build flats like yours.",
+          "href": "https://en.wikisource.org/wiki/Howards_End/10"
+        },
+        {
+          "category": "literary",
+          "title": "\"The Lamp of Memory,\" The Seven Lamps of Architecture (1849)",
+          "source": "John Ruskin, architectural treatise",
+          "excerpt": "We may live without her, and worship without her, but we cannot remember without her.",
+          "href": "https://www.victorianweb.org/authors/ruskin/7lamps/6.html"
+        },
+        {
+          "category": "artistic",
+          "title": "Destruction of the Bamiyan Buddhas (2001)",
+          "source": "Kōichirō Matsuura, UNESCO Director-General, quoted on Wikipedia",
+          "excerpt": "It is abominable to witness the cold and calculated destruction of cultural properties which were the heritage of the Afghan people, and, indeed, of the whole of humanity.",
+          "href": "https://en.wikipedia.org/wiki/Buddhas_of_Bamiyan",
+          "image": {
+            "src": "/covers/national-trust-historic-preservation-legal-fund--a5.png",
+            "alt": "The taller Buddha of Bamiyan before and after its 2001 destruction",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "The Course of Empire: Destruction (1836)",
+          "source": "Thomas Cole, painting, New-York Historical Society",
+          "excerpt": "The empire is extinct.",
+          "href": "https://en.wikipedia.org/wiki/The_Course_of_Empire_(paintings)",
+          "image": {
+            "src": "/covers/national-trust-historic-preservation-legal-fund--a6.png",
+            "alt": "Thomas Cole, The Course of Empire: Destruction, 1836",
+            "credit": "Thomas Cole, 1836, New-York Historical Society (public domain)"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "lucas-museum-narrative-art-opens",
+      "headline": "George Lucas's Museum of Narrative Art opened to the public in Los Angeles",
+      "overview": "George Lucas's long-awaited Museum of Narrative Art opened its doors to the public this week in Los Angeles, more than a decade after the Star Wars creator first announced plans for an institution devoted to storytelling across illustration, comics, film, and popular art. The museum's collection spans centuries of narrative image-making, from Norman Rockwell paintings to comic-book original art to film costumes and props, reflecting Lucas's own stated belief that illustration and 'popular' visual storytelling deserve the same institutional weight traditionally reserved for fine art. The opening caps a project that weathered years of delays, site changes, and construction setbacks since it was first proposed, and it gives Los Angeles a major new cultural institution built entirely around the idea that the images that shape how ordinary people understand stories — not just what hangs in traditional fine-art museums — belong in a museum of their own.",
+      "genre": "Culture",
+      "rank": 16,
+      "publishedAt": "2026-09-19",
+      "sources": [
+        {
+          "name": "AP News",
+          "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY2xDQ0JtWlVISmwtb01ObVZqV0pzLTE5ZnprVGk3NTM1aTV4a2tYN2tqUjdDSmNOMUZaTHBOTzJZNWtFSnBYWUp2QklIR3ZaeVQzNFhvZkpQbjFBZHF6TEpYb0Z2eDhXMFY4cG8yNHFuaVRJc1pla1J3cG5oN1lNM1kxUWlsNkFrX1cwWWJVTGtIaVhhUDRsY2RuMmNNdG9qUXJNdg?oc=5"
+        }
+      ],
+      "candidateIds": [
+        1921
+      ],
+      "image": {
+        "src": "/covers/lucas-museum-narrative-art-opens.png",
+        "alt": "The Lucas Museum of Narrative Art building in Exposition Park, Los Angeles",
+        "credit": "Jeremy Thompson, via Wikimedia Commons (CC BY 2.0)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "The Bayeux Tapestry (c. 1070s)",
+          "source": "Embroidered chronicle of the Norman Conquest",
+          "excerpt": "Hic Harold rex interfectus est",
+          "href": "https://en.wikipedia.org/wiki/Bayeux_Tapestry",
+          "image": {
+            "src": "/covers/lucas-museum-narrative-art-opens--a1.png",
+            "alt": "Scene from the Bayeux Tapestry",
+            "credit": "Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "Isabella Stewart Gardner Museum opens (1903)",
+          "source": "Isabella Stewart Gardner's founding charter",
+          "excerpt": "for the education and enjoyment of the public forever",
+          "href": "https://en.wikipedia.org/wiki/Isabella_Stewart_Gardner_Museum",
+          "image": {
+            "src": "/covers/lucas-museum-narrative-art-opens--a2.png",
+            "alt": "Courtyard of the Isabella Stewart Gardner Museum, Boston",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The Pickwick Papers (1836)",
+          "source": "Charles Dickens, first published in cheap illustrated monthly parts",
+          "excerpt": "The first ray of light which illumines the gloom, and converts into a dazzling brilliancy that obscurity in which the earlier history of the public career of the immortal Pickwick would appear to be involved, is derived from the perusal of the following entry in the Transactions of the Pickwick Club.",
+          "href": "https://www.gutenberg.org/files/580/580-h/580-h.htm",
+          "image": {
+            "src": "/covers/lucas-museum-narrative-art-opens--a3.png",
+            "alt": "Portrait of Charles Dickens by Daniel Maclise",
+            "credit": "Daniel Maclise, National Portrait Gallery (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The Iliad",
+          "source": "Homer, trans. Samuel Butler",
+          "excerpt": "Sing, O goddess, the anger of Achilles son of Peleus, that brought countless ills upon the Achaeans.",
+          "href": "https://www.gutenberg.org/files/2199/2199-h/2199-h.htm",
+          "image": {
+            "src": "/covers/lucas-museum-narrative-art-opens--a4.png",
+            "alt": "Marble bust of Homer, British Museum",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "A Rake's Progress (1732–1735)",
+          "source": "William Hogarth, series of paintings and engravings; Alan Parker, quoted on Wikipedia",
+          "excerpt": "an ancestor to the storyboard",
+          "href": "https://en.wikipedia.org/wiki/A_Rake%27s_Progress",
+          "image": {
+            "src": "/covers/lucas-museum-narrative-art-opens--a5.png",
+            "alt": "William Hogarth, A Rake's Progress, Plate 1",
+            "credit": "William Hogarth, 1735 (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Little Nemo in Slumberland (1905)",
+          "source": "Winsor McCay, comic strip; R. C. Harvey, comics historian, quoted on Wikipedia",
+          "excerpt": "the first original genius of the comic strip medium",
+          "href": "https://en.wikipedia.org/wiki/Winsor_McCay",
+          "image": {
+            "src": "/covers/lucas-museum-narrative-art-opens--a6.png",
+            "alt": "Little Nemo in Slumberland, October 22, 1905",
+            "credit": "Winsor McCay, 1905 (public domain)"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "uk-renaissance-bronze-export-ban",
+      "headline": "Britain banned the export of a rare Renaissance bronze statuette to give a UK buyer a chance to acquire it",
+      "overview": "The UK government placed a temporary export bar this week on 'Seated Nymph,' an early-16th-century bronze statuette by the Mantuan sculptor Pier Jacopo Alari Bonacolsi — known as 'Antico' — valued at roughly $6.2 million, in order to give a British institution or buyer the opportunity to raise funds to keep the work in the country. The mechanism, used periodically by UK culture ministers when a work is deemed of outstanding national or art-historical significance, gives domestic buyers a fixed window to match the sale price before an export license is finally granted, reflecting a long-running British policy of treating certain culturally significant objects as a kind of national patrimony even when they are privately owned and legally sold abroad. If no UK buyer raises the matching funds within the deadline, the statuette will be allowed to leave the country for its new foreign owner, joining a long list of contested cases in which Britain's export-bar system has succeeded only sometimes in keeping significant art at home.",
+      "genre": "Art",
+      "rank": 17,
+      "publishedAt": "2026-09-23",
+      "sources": [
+        {
+          "name": "Artforum",
+          "href": "https://www.artforum.com/news/u-k-ban-on-export-of-exquisite-renaissance-statuette-1234759589/"
+        }
+      ],
+      "candidateIds": [
+        2098
+      ],
+      "image": {
+        "src": "/covers/uk-renaissance-bronze-export-ban.png",
+        "alt": "Antico (Pier Jacopo Alari Bonacolsi), Seated Paris, a Renaissance bronze, c. 1500 — a representative example of the sculptor's seated bronze nudes",
+        "credit": "Sailko, via Wikimedia Commons (CC BY-SA 3.0 / GFDL)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Titian's Diana and Actaeon saved for the nation (2008–09)",
+          "source": "National Gallery, London, press statement",
+          "excerpt": "one of the greatest of all European paintings in an entirely different context",
+          "href": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases/titian-s-diana-and-actaeon-comes-to-london",
+          "image": {
+            "src": "/covers/uk-renaissance-bronze-export-ban--a1.png",
+            "alt": "Titian, Diana and Actaeon, 1556-59",
+            "credit": "Titian, National Gallery, London (public domain)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "The Elgin Marbles leave Athens (1801–1812)",
+          "source": "Lord Byron, \"The Curse of Minerva\" (1811)",
+          "excerpt": "Survey this vacant, violated fane; / Recount the relics torn that yet remain",
+          "href": "https://en.wikisource.org/wiki/The_Curse_of_Minerva",
+          "image": {
+            "src": "/covers/uk-renaissance-bronze-export-ban--a2.png",
+            "alt": "Parthenon frieze sculptures, British Museum",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Metamorphoses, Book IV — the nymph Salmacis",
+          "source": "Ovid, trans. Henry T. Riley",
+          "excerpt": "Often, it's said, her sisters would tell her 'Salmacis, take up the hunting-spear or the painted quiver and vary your idleness with some hard work, hunting!' But she takes up neither the hunting spear nor the painted quiver, and will not vary her idleness with the hardship of hunting.",
+          "href": "https://www.poetryintranslation.com/PITBR/Latin/Metamorph4.php"
+        },
+        {
+          "category": "literary",
+          "title": "\"Ode on a Grecian Urn\" (1819)",
+          "source": "John Keats, poem",
+          "excerpt": "Thou, silent form! dost tease us out of thought / As doth eternity: Cold Pastoral!",
+          "href": "https://en.wikisource.org/wiki/The_Poetical_Works_of_John_Keats/Ode_on_a_Grecian_Urn",
+          "image": {
+            "src": "/covers/uk-renaissance-bronze-export-ban--a4.png",
+            "alt": "John Keats, portrait by Joseph Severn",
+            "credit": "Joseph Severn, National Portrait Gallery (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Perseus with the Head of Medusa (1545–1554)",
+          "source": "Benvenuto Cellini, bronze, Loggia dei Lanzi, Florence",
+          "excerpt": "Cellini was the first to integrate narrative relief into the sculpture of the piazza.",
+          "href": "https://en.wikipedia.org/wiki/Perseus_with_the_Head_of_Medusa",
+          "image": {
+            "src": "/covers/uk-renaissance-bronze-export-ban--a5.png",
+            "alt": "Benvenuto Cellini, Perseus with the Head of Medusa",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Prélude à l'après-midi d'un faune (1894)",
+          "source": "Claude Debussy, orchestral work after Mallarmé's poem",
+          "excerpt": "The music of this prelude is a very free illustration of Mallarmé's beautiful poem. By no means does it claim to be a synthesis of it.",
+          "href": "https://en.wikipedia.org/wiki/Pr%C3%A9lude_%C3%A0_l%27apr%C3%A8s-midi_d%27un_faune"
+        }
+      ]
+    },
+    {
+      "slug": "louvre-artists-arrested-mona-lisa-installation",
+      "headline": "German artists were arrested at the Louvre for installing their own art near the Mona Lisa",
+      "overview": "Two German artists were arrested at the Louvre this week after taping their own canvases to the wall of the Salle des États, the room where the Mona Lisa hangs, in what appears to have been a deliberate, unauthorized stunt aimed at the crowds and security apparatus that surround Leonardo's portrait. Museum security intervened once the installation was discovered, and French authorities took the artists into custody, though details of any charges were not immediately clear. The episode landed amid a wider pattern of concern about security at the Louvre, still smarting from a string of recent thefts and disruptions that have renewed scrutiny of how the world's most-visited museum protects its most valuable rooms — and made the Mona Lisa's gallery, in particular, a recurring flashpoint for artists, protesters, and publicity-seekers testing how far they can get before being stopped.",
+      "genre": "Art",
+      "rank": 18,
+      "publishedAt": "2026-09-23",
+      "sources": [
+        {
+          "name": "Artforum",
+          "href": "https://www.artforum.com/news/artists-arrested-at-louvre-their-art-near-the-mona-lisa-1234759619/"
+        }
+      ],
+      "candidateIds": [
+        2100
+      ],
+      "image": {
+        "src": "/covers/louvre-artists-arrested-mona-lisa-installation.png",
+        "alt": "The historic Pavillon de l'Horloge wing of the Louvre palace exterior, Paris",
+        "credit": "Dmarcovitz, via Wikimedia Commons (CC0)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Theft of the Mona Lisa (1911)",
+          "source": "Vincenzo Peruggia, quoted on Wikipedia",
+          "excerpt": "I am an Italian and I do not want the picture given back to the Louvre.",
+          "href": "https://en.wikipedia.org/wiki/Vincenzo_Peruggia",
+          "image": {
+            "src": "/covers/louvre-artists-arrested-mona-lisa-installation--a1.png",
+            "alt": "Police photograph of Vincenzo Peruggia",
+            "credit": "Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "The 1956 acid and rock attacks on the Mona Lisa",
+          "source": "Grunge, account of the 1956 vandalism incidents",
+          "excerpt": "a Bolivian man named Ugo Ungaza Villegas hurled a rock at the painting, which, at that point, was just behind glass. The rock was thrown with such force that it caused some damage.",
+          "href": "https://www.grunge.com/591689/what-really-happened-when-the-mona-lisa-was-attacked/"
+        },
+        {
+          "category": "literary",
+          "title": "Guillaume Apollinaire's arrest in the Mona Lisa case (1911)",
+          "source": "History.com, \"This Day in History\"",
+          "excerpt": "Apollinaire's mysterious background and radical views led authorities to view him as a dangerous foreigner and prime suspect in the Mona Lisa heist.",
+          "href": "https://www.history.com/this-day-in-history/guillaume-apollinaire-is-arrested-for-stealing-the-mona-lisa",
+          "image": {
+            "src": "/covers/louvre-artists-arrested-mona-lisa-installation--a3.png",
+            "alt": "Guillaume Apollinaire, c. 1916",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "The Renaissance: Studies in Art and Poetry (1873)",
+          "source": "Walter Pater, essay on Leonardo da Vinci",
+          "excerpt": "She is older than the rocks among which she sits; like the vampire, she has been dead many times, and learned the secrets of the grave.",
+          "href": "https://en.wikisource.org/wiki/Studies_in_the_History_of_the_Renaissance/Lionardo_da_Vinci"
+        },
+        {
+          "category": "artistic",
+          "title": "L.H.O.O.Q. (1919)",
+          "source": "Marcel Duchamp, rectified readymade",
+          "excerpt": "The original, I mean the original ready-made is a cheap 8x5 (inch) chromo on the back of which I wrote four initials which, when pronounced in French, make a very daring joke about the Mona Lisa: L.H.O.O.Q.",
+          "href": "https://en.wikipedia.org/wiki/L.H.O.O.Q."
+        },
+        {
+          "category": "artistic",
+          "title": "4′33″ (1952)",
+          "source": "John Cage, composer, quoted on Wikipedia",
+          "excerpt": "I have the feeling that sound is acting. And I love the activity of sound ... I don't need sound to talk to me.",
+          "href": "https://en.wikipedia.org/wiki/John_Cage"
+        }
+      ]
+    },
+    {
+      "slug": "galanin-gateway-arch-sculpture-sightline",
+      "headline": "Nicholas Galanin installed an animal-hide sculpture to 'interrupt the sightline' of the Gateway Arch",
+      "overview": "The Alaska-based artist Nicholas Galanin unveiled a new public sculpture this week designed to interrupt the sightline of St Louis's Gateway Arch, the monument built to commemorate westward American expansion. Installed for the Counterpublic art triennial, the piece is a metal sculpture shaped to resemble a stretched animal hide, positioned in direct view of the Arch so that visitors approaching the monument encounter Galanin's work first. It is the latest instance of Galanin's ongoing practice of using site-specific public art to confront monuments and landscapes associated with the displacement of Indigenous peoples, treating the physical interruption of a sightline as a literal form of historical argument rather than a purely conceptual one. The work adds itself to a growing body of contemporary public art nationwide that directly contests, rather than simply supplements, the historical narratives embedded in existing civic monuments.",
+      "genre": "Art",
+      "rank": 19,
+      "publishedAt": "2026-09-23",
+      "sources": [
+        {
+          "name": "Dezeen",
+          "href": "https://www.dezeen.com/2026/09/23/nicholas-galanin-sightline-lifeline-st-louis-counterpublic/"
+        }
+      ],
+      "candidateIds": [
+        2109
+      ],
+      "image": {
+        "src": "/covers/galanin-gateway-arch-sculpture-sightline.png",
+        "alt": "The Gateway Arch monument in St. Louis, Missouri",
+        "credit": "Chalmersm01, via Wikimedia Commons (CC BY-SA 3.0)"
+      },
+      "analogies": [
+        {
+          "category": "historical",
+          "title": "Jefferson's instructions to Meriwether Lewis (1803)",
+          "source": "Thomas Jefferson, letter of instruction, launched the expedition from St. Louis",
+          "excerpt": "The object of your mission is to explore the Missouri river, & such principal stream of it as by it's course and communication with the waters of the Pacific ocean ... may offer the most direct & practicable water communication across this continent for the purposes of commerce.",
+          "href": "https://www.loc.gov/exhibits/lewisandclark/transcript57.html",
+          "image": {
+            "src": "/covers/galanin-gateway-arch-sculpture-sightline--a1.png",
+            "alt": "Official presidential portrait of Thomas Jefferson by Rembrandt Peale, 1800",
+            "credit": "Rembrandt Peale, 1800, White House Collection (public domain)"
+          }
+        },
+        {
+          "category": "historical",
+          "title": "Jackson's Second Annual Message to Congress (1830)",
+          "source": "Andrew Jackson, address defending the Indian Removal Act",
+          "excerpt": "It gives me pleasure to announce to Congress that the benevolent policy of the government, steadily pursued for nearly thirty years, in relation to the removal of the Indians beyond the white settlements is approaching to a happy consummation.",
+          "href": "https://teachingamericanhistory.org/document/second-annual-message-to-congress-1830/",
+          "image": {
+            "src": "/covers/galanin-gateway-arch-sculpture-sightline--a2.png",
+            "alt": "Portrait of Andrew Jackson",
+            "credit": "Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "\"The Significance of the Frontier in American History\" (1893)",
+          "source": "Frederick Jackson Turner, essay",
+          "excerpt": "This brief official statement marks the closing of a great historic movement.",
+          "href": "https://www.americanyawp.com/reader/17-conquering-the-west/frederick-jackson-turner-significance-of-the-frontier-in-american-history-1893/",
+          "image": {
+            "src": "/covers/galanin-gateway-arch-sculpture-sightline--a3.png",
+            "alt": "Frederick Jackson Turner",
+            "credit": "Wikimedia Commons"
+          }
+        },
+        {
+          "category": "literary",
+          "title": "Black Elk Speaks (1932)",
+          "source": "Black Elk, as told to John G. Neihardt",
+          "excerpt": "the nation's hoop was broken like a ring of smoke that spreads and scatters and the holy tree seemed dying and all its birds were gone",
+          "href": "https://archive.org/stream/johngneihardtblackelkspeaks2008/John-G-Neihardt-Black-Elk-Speaks-2008_djvu.txt",
+          "image": {
+            "src": "/covers/galanin-gateway-arch-sculpture-sightline--a4.png",
+            "alt": "Black Elk",
+            "credit": "Wikimedia Commons (public domain)"
+          }
+        },
+        {
+          "category": "artistic",
+          "title": "Spiral Jetty (1970)",
+          "source": "Robert Smithson, earthwork, Great Salt Lake, Utah",
+          "excerpt": "If you make a system, you can be sure the system is bound to evade itself, so I see no point in pinning any hope on systems.",
+          "href": "https://en.wikipedia.org/wiki/Spiral_Jetty"
+        },
+        {
+          "category": "artistic",
+          "title": "Westward the Course of Empire Takes Its Way (1861)",
+          "source": "Emanuel Leutze, mural, U.S. Capitol",
+          "excerpt": "Westward the Course of Empire Takes Its Way",
+          "href": "https://en.wikipedia.org/wiki/Westward_the_Course_of_Empire_Takes_Its_Way",
+          "image": {
+            "src": "/covers/galanin-gateway-arch-sculpture-sightline--a6.png",
+            "alt": "Emanuel Leutze, Westward the Course of Empire Takes Its Way, 1861",
+            "credit": "Emanuel Leutze, 1861, U.S. Capitol (public domain)"
+          }
+        }
+      ]
+    }
+  ]
+}
