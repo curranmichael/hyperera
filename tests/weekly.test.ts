@@ -1,6 +1,6 @@
 import { strict as assert } from "node:assert";
 import { describe, it } from "node:test";
-import { scoreOf, suggestTitle } from "../lib/weekly";
+import { scoreOf, suggestTitle, thinDepartments } from "../lib/weekly";
 
 describe("scoreOf", () => {
   it("scores news on corroboration: importance × sources × days", () => {
@@ -41,6 +41,39 @@ describe("suggestTitle", () => {
     assert.equal(
       suggestTitle(6, "2026-12-28", "2027-01-03"),
       "Issue 6 · 28 December – 3 January 2027",
+    );
+  });
+});
+
+describe("thinDepartments", () => {
+  const story = (genre: string, lead = false) => ({ genre, lead });
+
+  it("passes departments that fill at least one row of three", () => {
+    assert.deepEqual(
+      thinDepartments([
+        ...["Politics", "Politics", "Politics"].map((g) => story(g)),
+        ...["Art", "Art", "Art", "Art"].map((g) => story(g)),
+      ]),
+      [],
+    );
+  });
+
+  it("flags a department with one or two stories", () => {
+    assert.deepEqual(
+      thinDepartments([
+        story("Politics"), story("Politics"), story("Politics"),
+        story("Music"), story("Film"), story("Film"),
+      ]),
+      [{ genre: "Music", count: 1 }, { genre: "Film", count: 2 }],
+    );
+  });
+
+  it("doesn't count the lead, which runs above the departments", () => {
+    assert.deepEqual(
+      thinDepartments([
+        story("Technology", true), story("Technology"), story("Technology"),
+      ]),
+      [{ genre: "Technology", count: 2 }],
     );
   });
 });

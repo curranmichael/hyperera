@@ -39,3 +39,23 @@ export function suggestTitle(number: number, start: string, end: string): string
       : `${day(from)} ${month(from)} – ${day(to)} ${month(to)} ${to.getUTCFullYear()}`;
   return `Issue ${number} · ${range}`;
 }
+
+// The home page lays each department out as its own row of three cards on
+// desktop, with the lead pulled out above them (app/components/IssueView.tsx).
+// A department with one or two stories leaves a row mostly empty, so every
+// department an issue uses must hold at least a full row. Returns the
+// departments that fall short, with their counts; the lead doesn't count.
+export const DEPARTMENT_ROW = 3;
+
+export function thinDepartments(
+  stories: { genre: string; lead?: boolean }[],
+): { genre: string; count: number }[] {
+  const counts = new Map<string, number>();
+  for (const s of stories) {
+    if (s.lead === true) continue;
+    counts.set(s.genre, (counts.get(s.genre) ?? 0) + 1);
+  }
+  return [...counts]
+    .filter(([, count]) => count < DEPARTMENT_ROW)
+    .map(([genre, count]) => ({ genre, count }));
+}
